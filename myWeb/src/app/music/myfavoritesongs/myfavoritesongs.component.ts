@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { MatDialog } from '@angular/material/dialog';
+import { Partitura1Component } from '../canciones/cancion1/partitura1/partitura1.component';
+
 
 @Component({
   selector: 'app-myfavoritesongs',
@@ -28,11 +31,22 @@ export class MyfavoritesongsComponent {
     'Miguel Rios- El blues del autobus'
   ];
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private dialog: MatDialog) { }
 
   navegarACancion(indice: number) {
     this.router.navigate(['cancion' + (indice + 1)]);
   }
+
+  mostrarPartitura(index: number) {
+    let component;
+    switch(index) {
+      case 0: component = Partitura1Component; break;      
+      // ... y así para los demás componentes de partituras
+    }
+  
+    this.dialog.open(component);
+  }
+  
   
 
 }

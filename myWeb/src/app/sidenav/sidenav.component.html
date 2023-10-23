@@ -8,10 +8,24 @@
     <mat-sidenav-container class="sidenav-container">
         <mat-sidenav #snav>
             <mat-nav-list (click)="snav.toggle()">
-              <a mat-list-item class='nav-link'>
+                <a mat-list-item class='nav-link' routerLink="/">
                     <mat-icon class="mat-icon-color">home</mat-icon>Home
                 </a>
             </mat-nav-list>
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon class="mat-icon-color">settings</mat-icon>Música
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-nav-list (click)="snav.toggle()">
+                        <a mat-list-item class='nav-link' routerLink="music/myfavoritesongs">
+                            <mat-icon class="mat-icon-color">account_circle</mat-icon>Mis Canciones Favoritas
+                        </a>
+                    </mat-nav-list>
+                </mat-expansion-panel>
+            </mat-accordion>
         </mat-sidenav>
         <mat-sidenav-content>
             <router-outlet></router-outlet>

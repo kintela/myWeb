@@ -1,0 +1,16 @@
+<mat-card>
+    <mat-card-subtitle>Mis canciones favoritas</mat-card-subtitle>
+    <mat-card-content>
+        <mat-list>
+            <mat-list-item *ngFor="let cancion of canciones; let i = index" (click)="navegarACancion(i)" class="cursor-pointer">
+              {{ i + 1 }}. {{ cancion }}
+            </mat-list-item>
+        </mat-list>        
+    </mat-card-content>
+</mat-card>
+
+
+
+
+
+

@@ -1,21 +1,20 @@
 <div class="container">
     <mat-toolbar color="primary">
         <button mat-icon-button (click)="snav.toggle()">
-            <mat-icon>av_timer</mat-icon>
+            <mat-icon>menu</mat-icon>
         </button>
     </mat-toolbar>
 
-    <mat-sidenav-container>
+    <mat-sidenav-container class="sidenav-container">
         <mat-sidenav #snav>
             <mat-nav-list (click)="snav.toggle()">
-                <!--<a mat-list-item class='nav-link' routerLink="/home" routerLinkActive="active">
-                    <mat-icon class="mat-icon-color">home</mat-icon>Home
-                </a>-->
-                <a mat-list-item class='nav-link'>
+              <a mat-list-item class='nav-link'>
                     <mat-icon class="mat-icon-color">home</mat-icon>Home
                 </a>
             </mat-nav-list>
         </mat-sidenav>
-    </mat-sidenav-container>
-        
+        <mat-sidenav-content>
+            <router-outlet></router-outlet>
+        </mat-sidenav-content>
+    </mat-sidenav-container>        
 </div>

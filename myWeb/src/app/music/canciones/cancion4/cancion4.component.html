@@ -1,1 +1,45 @@
-<p>cancion4 works!</p>
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>The Beatles - You've got to hide your love away</mat-card-title>
+    </mat-card-header>
+  
+    <mat-card-content>
+      <p>
+        La canción fue incluida en el álbum "Help!" de 1965, y también aparece en la película del mismo nombre.
+      </p>
+  
+      <p>
+        Es un testimonio del crecimiento artístico de John Lennon como compositor en la mitad de la década de 1960. La canción refleja una transición de las primeras canciones pop de The Beatles hacia un sonido y letras más complejas y maduras.
+      </p>
+  
+      <p>
+        La canción tiene una letra introspectiva y se especula que refleja la frustración de Lennon con su vida en ese momento, especialmente en el contexto de su relación con su primera esposa, Cynthia. Sin embargo, también ha habido especulaciones sobre si la letra podría estar relacionada con la orientación sexual de Brian Epstein, el manager de The Beatles, aunque esta interpretación es más teórica y nunca ha sido confirmada.
+      </p>
+
+      <p>
+        La canción tiene una letra introspectiva y se especula que refleja la frustración de Lennon con su vida en ese momento, especialmente en el contexto de su relación con su primera esposa, Cynthia. Sin embargo, también ha habido especulaciones sobre si la letra podría estar relacionada con la orientación sexual de Brian Epstein, el manager de The Beatles, aunque esta interpretación es más teórica y nunca ha sido confirmada.
+
+Muestra una clara influencia de Bon Dylan y es una de las primeras en ñlas que participa un musico ajeno a la banda tocando la flauta al que conocio tocando en la calle y le invito a participar en la grabacion
+      </p>
+  
+      <mat-table [dataSource]="videos" class="mat-elevation-z8">
+        <ng-container matColumnDef="video1">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let video"> 
+            <iframe width="560" height="315" [src]="video.video1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </mat-cell>
+        </ng-container>
+  
+        <ng-container matColumnDef="video2">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let video"> 
+            <iframe width="560" height="315" [src]="video.video2" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </mat-cell>
+        </ng-container>
+  
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+      </mat-table>
+    </mat-card-content>
+  </mat-card>
+

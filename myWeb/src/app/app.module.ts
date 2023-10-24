@@ -16,6 +16,7 @@ import { Cancion5Component } from './music/canciones/cancion5/cancion5.component
 import { Partitura1Component } from './music/canciones/cancion1/partitura1/partitura1.component';
 import { Partitura2Component } from './music/canciones/cancion2/partitura2/partitura2.component';
 import { Partitura3Component } from './music/canciones/cancion3/partitura3/partitura3.component';
+import { Partitura4Component } from './music/canciones/cancion4/partitura4/partitura4.component';
 
 
 @NgModule({
@@ -29,7 +30,7 @@ import { Partitura3Component } from './music/canciones/cancion3/partitura3/parti
     Cancion3Component,
     Cancion4Component,
     Cancion5Component,    
-    Partitura1Component, Partitura2Component, Partitura3Component
+    Partitura1Component, Partitura2Component, Partitura3Component, Partitura4Component
   ],
   imports: [
     BrowserModule,

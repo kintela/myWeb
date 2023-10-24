@@ -20,32 +20,23 @@
         En 1957, en una edición de la revista "French magazine Western World", Sinatra fue citado diciendo: "El rock 'n' roll es la música más brutal, fea, desesperada, viciosa de algún tipo en los anales de la barbarie y la degeneración." No creía que fuera una forma de arte válida y pensaba que estaba realizado por "cretinos vestidos de payasos".
       </p>
   
-      <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/4SLIdu8VGqQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-      </div>
+      <mat-table [dataSource]="videos" class="mat-elevation-z8">
+        <ng-container matColumnDef="video1">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let video"> 
+            <iframe width="560" height="315" [src]="video.video1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </mat-cell>
+        </ng-container>
   
-      <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BJKVglbFmkA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-      </div>
+        <ng-container matColumnDef="video2">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let video"> 
+            <iframe width="560" height="315" [src]="video.video2" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </mat-cell>
+        </ng-container>
   
-      
-  
-      <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-0yp3F7wbZo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-      </div>
-  
-      <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/H1EQNL_Qwb0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-      </div>
-  
-      <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dKOoDBm4YR0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-      </div>
-  
-      <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xl-BNTeJXjw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-      </div>
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+      </mat-table>
     </mat-card-content>
   </mat-card>
-
-<!--<app-partitura1></app-partitura1>-->

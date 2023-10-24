@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { Partitura1Component } from '../canciones/cancion1/partitura1/partitura1.component';
+import { Partitura2Component } from '../canciones/cancion2/partitura2/partitura2.component';
 
 
 @Component({
@@ -41,7 +42,7 @@ export class MyfavoritesongsComponent {
     let component;
     switch(index) {
       case 0: component = Partitura1Component; break;      
-      // ... y así para los demás componentes de partituras
+      case 1: component = Partitura2Component; break;   
     }
   
     this.dialog.open(component, {

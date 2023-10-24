@@ -5,7 +5,7 @@
             <mat-list-item *ngFor="let cancion of canciones; let i = index" (click)="navegarACancion(i)" class="cursor-pointer">
               {{ i + 1 }}. {{ cancion }}
               <span class="icon-wrapper" (click)="$event.stopPropagation(); mostrarPartitura(i)">
-                <mat-icon class="material-icons">music_note</mat-icon>
+                <mat-icon class="material-icons" matTooltip="Partitura">music_note</mat-icon>
               </span>
             </mat-list-item>
         </mat-list>        

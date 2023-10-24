@@ -8,7 +8,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
-
+import { MatButtonModule } from '@angular/material/button';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [],
@@ -23,7 +24,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatExpansionModule,
     MatCardModule,
     MatTableModule,
-    MatDialogModule    
+    MatDialogModule,
+    MatButtonModule,
+    MatTooltipModule
   ]
 })
 export class MaterialModule { }

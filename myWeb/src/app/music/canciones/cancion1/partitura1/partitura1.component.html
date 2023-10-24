@@ -1,5 +1,5 @@
 <mat-card>
-    <mat-card-subtitle>Partitura</mat-card-subtitle>
+    <mat-card-subtitle><strong>{{data.nombreCancion}}</strong></mat-card-subtitle>
     <mat-card-content>
         <pre>
             <span class="acorde">F# D# G#</span>                              <span class="section">[Bridge] </span>    
@@ -33,10 +33,9 @@
             <span class="acorde">Am7                     D</span>                          
             You know I believe, and how.       
             <span class="acorde">F D# G C </span>                               
-        </pre>
-
-      
-
-            
+        </pre>       
     </mat-card-content>
+        <mat-card-actions align="end">
+            <button mat-raised-button color="primary" (click)="cerrarDialogo()">Cerrar</button>
+      </mat-card-actions>      
   </mat-card>

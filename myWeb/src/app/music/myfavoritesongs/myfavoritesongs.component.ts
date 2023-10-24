@@ -44,7 +44,11 @@ export class MyfavoritesongsComponent {
       // ... y así para los demás componentes de partituras
     }
   
-    this.dialog.open(component);
+    this.dialog.open(component, {
+      data: {
+        nombreCancion: this.canciones[index]
+      }
+    });
   }
   
   

@@ -5,6 +5,7 @@ import { Partitura1Component } from '../canciones/cancion1/partitura1/partitura1
 import { Partitura2Component } from '../canciones/cancion2/partitura2/partitura2.component';
 import { Partitura3Component } from '../canciones/cancion3/partitura3/partitura3.component';
 import { Partitura4Component } from '../canciones/cancion4/partitura4/partitura4.component';
+import { Partitura5Component } from '../canciones/cancion5/partitura5/partitura5.component';
 
 
 @Component({
@@ -46,7 +47,8 @@ export class MyfavoritesongsComponent {
       case 0: component = Partitura1Component; break;      
       case 1: component = Partitura2Component; break;  
       case 2: component = Partitura3Component; break;
-      case 3: component = Partitura4Component; break;   
+      case 3: component = Partitura4Component; break;
+      case 4: component = Partitura5Component; break;   
     }
   
     this.dialog.open(component, {

@@ -18,6 +18,8 @@ import { Partitura14Component } from '../canciones/cancion14/partitura14/partitu
 import { Partitura15Component } from '../canciones/cancion15/partitura15/partitura15.component';
 import { Partitura16Component } from '../canciones/cancion16/partitura16/partitura16.component';
 import { Partitura17Component } from '../canciones/cancion17/partitura17/partitura17.component';
+import { ICancion } from 'src/app/data/ICancion';
+import { canciones } from 'src/app/data/canciones';
 
 
 @Component({
@@ -26,32 +28,21 @@ import { Partitura17Component } from '../canciones/cancion17/partitura17/partitu
   styleUrls: ['./myfavoritesongs.component.scss']
 })
 
-export class MyfavoritesongsComponent {
-  canciones = [
-    'The Beatles-Something',
-    'The Beatles-Here comes the sun (Capo en V)',
-    'The Beatles-Norwegian wood (This bird has flown) (Capo en II)',
-    'The Beatles-You\'ve got to hide your love away',
-    'The Beatles-Blackbird',
-    'Los Secretos-Pero a tu lado',
-    'Antonio vega-El sitio de mi recreo (Capo en III)',
-    'Mikel Laboa-Txoria txori (Capo en III)',
-    'Gari-Amapola (Capo en III)',
-    'Eduardo Aute-Al Alba (Capo en III)',
-    'Pink Floyd-Wish you were here',
-    'Eric Clapton-Tears in heaven',
-    'The Police-Every Breath you take',
-    'The Verve-Bitter sweet symphony',
-    'Creedence-Fortunate Son',
-    'Miguel Rios- Santa Lucia (Capo en I)',
-    'Miguel Rios- El blues del autobus'
-  ];
+export class MyfavoritesongsComponent { 
+  canciones=canciones;
 
   constructor(private router: Router, private dialog: MatDialog) { }
 
   navegarACancion(indice: number) {
     //this.router.navigate(['cancion' + (indice + 1)]);
-    this.router.navigate(['cancion' + (indice + 1)], { queryParams: { nombre: this.canciones[indice] } });
+    this.router.navigate(['cancion' + (indice + 1)], { queryParams: 
+      { 
+        titulo: this.canciones[indice].titulo, 
+        grupo: this.canciones[indice].grupo, 
+        album:this.canciones[indice].album,
+        anio:this.canciones[indice].anio,
+      } 
+    });
   }
 
   mostrarPartitura(index: number) {

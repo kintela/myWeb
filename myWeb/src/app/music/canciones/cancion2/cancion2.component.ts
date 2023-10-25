@@ -8,11 +8,18 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class Cancion2Component implements OnInit {
   nombreCancion: string;
+  grupo:string;
+  album:string;
+  anio:number;
+
   constructor(private route: ActivatedRoute) { }
   
-  ngOnInit(): void {
+   ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
-      this.nombreCancion = params['nombre'];
+      this.nombreCancion = params['titulo'];
+      this.grupo = params['grupo'];
+      this.album = params['album'];
+      this.anio = params['anio'];
     });
   }
 }

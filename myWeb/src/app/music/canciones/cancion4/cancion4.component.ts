@@ -9,6 +9,10 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class Cancion4Component implements OnInit {
   nombreCancion: string;
+  grupo:string;
+  album:string;
+  anio:number;
+
   displayedColumns: string[] = ['video1', 'video2'];
   videos = [
     { video1: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/k_ZDyiue-aU'), video2: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/YTsDs4K5Kkk') },
@@ -20,7 +24,10 @@ export class Cancion4Component implements OnInit {
 
  ngOnInit(): void {
   this.route.queryParams.subscribe(params => {
-    this.nombreCancion = params['nombre'];
+    this.nombreCancion = params['titulo'];
+    this.grupo = params['grupo'];
+    this.album = params['album'];
+    this.anio = params['anio'];
   });
 }
 

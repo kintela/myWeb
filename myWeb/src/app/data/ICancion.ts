@@ -7,4 +7,6 @@ export interface ICancion {
     capo?: string;
     afinacion: string;
     tono?:string
+    imagen?: string;
+    enlace?: string;
 }

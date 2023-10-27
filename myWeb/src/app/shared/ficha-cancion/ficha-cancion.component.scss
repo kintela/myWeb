@@ -1,0 +1,25 @@
+.texto-centrado {
+    text-align: center; /* Centra el texto */
+}
+  
+  /* Añade una clase CSS para el contenedor de la ficha */
+.ficha {
+    display: flex; /* Usa flexbox para el contenedor de la ficha */
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra los elementos en el eje transversal */
+}
+  
+  /* Añade una clase CSS para las imágenes de las fichas */
+.ficha-imagen {
+    height: 150px; /* Altura fija para el contenedor de la imagen */
+    width: 150px; /* Ancho fijo para el contenedor de la imagen */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que no quepa en el contenedor */
+}
+  
+.ficha-imagen img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
+    object-fit: cover; /* Ajusta la imagen para que cubra completamente el contenedor */
+}
+  
+  

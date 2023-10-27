@@ -8,7 +8,8 @@ export const canciones:ICancion[] = [
         album: 'Abbey Road',
         anio: 1969,
         afinacion: 'Estándar',
-        tono:'C'
+        tono:'C',
+        imagen:'abbey_road.jpg'
       },
       {
         titulo: 'Here comes the sun',
@@ -18,6 +19,7 @@ export const canciones:ICancion[] = [
         anio: 1969,
         capo: 'Capo en V',
         afinacion: 'Estándar',
+        imagen:'abbey_road.jpg'
       },
       {
         titulo: 'Norwegian wood (This bird has flown)',
@@ -27,6 +29,7 @@ export const canciones:ICancion[] = [
         anio: 1965,
         capo: 'Capo en II',
         afinacion: 'Estándar',
+        imagen:'rubber_soul.jpg'
       },
       {
         titulo: 'You\'ve got to hide your love away',
@@ -35,6 +38,7 @@ export const canciones:ICancion[] = [
         album: 'Help!',
         anio: 1965,
         afinacion: 'Estándar',
+        imagen:'help!.jpg'
       },
       {
         titulo: 'Blackbird',
@@ -43,6 +47,7 @@ export const canciones:ICancion[] = [
         album: 'The Beatles / White Album',
         anio: 1968,
         afinacion: 'Estándar',
+        imagen:'white_album.png'
       },
       {
         titulo: 'Pero a tu lado',
@@ -51,7 +56,8 @@ export const canciones:ICancion[] = [
         album: 'Adiós tristeza',
         anio: 1980,
         afinacion: 'Estándar',
-        tono:'G'
+        tono:'G',
+        imagen:'adios_tristeza.jpg'
       },
       {
         titulo: 'El sitio de mi recreo',
@@ -61,7 +67,8 @@ export const canciones:ICancion[] = [
         anio: 1994,
         capo: 'Capo en III',
         afinacion: 'Estándar',
-        tono:'G'
+        tono:'G',
+        imagen:'no_me_ire_mañana.jpg'
       },
       {
         titulo: 'Txoria txori',
@@ -71,7 +78,8 @@ export const canciones:ICancion[] = [
         anio: 1974,
         capo: 'Capo en III',
         afinacion: 'Estándar',
-        tono:'Am'
+        tono:'Am',
+        imagen:'bat_hiru.jpg'
       },
       {
         titulo: 'Amapola',
@@ -81,6 +89,7 @@ export const canciones:ICancion[] = [
         anio: 2007,
         capo: 'Capo en III',
         afinacion: 'Estándar',
+        imagen:'esperantza_kondenatua.jpg'
       },
       {
         titulo: 'Al Alba',
@@ -90,6 +99,7 @@ export const canciones:ICancion[] = [
         anio: 1978,
         capo: 'Capo en III',
         afinacion: 'Estándar',
+        imagen:'al_alba.jpg'
       },
       {
         titulo: 'Wish you were here',
@@ -98,6 +108,7 @@ export const canciones:ICancion[] = [
         album: 'Wish you were here',
         anio: 1975,
         afinacion: 'Estándar',
+        imagen:'wish_you_were_here.jpg'
       },
       {
         titulo: 'Tears in heaven',
@@ -106,6 +117,7 @@ export const canciones:ICancion[] = [
         album: 'Rush',
         anio: 1991,
         afinacion: 'Estándar',
+        imagen:'rush.jpg'
       },
       {
         titulo: 'Every Breath you take',
@@ -114,7 +126,8 @@ export const canciones:ICancion[] = [
         album: 'Synchronicity',
         anio: 1983,
         afinacion: 'Estándar',
-        tono:'G'
+        tono:'G',
+        imagen:'synchronicity.jpg'
       },
       {
         titulo: 'Bitter sweet symphony',
@@ -123,7 +136,8 @@ export const canciones:ICancion[] = [
         album: 'Urban Hymns',
         anio: 1997,
         afinacion: 'Estándar',
-        tono:'G'
+        tono:'G',
+        imagen:'urban_hymns.jpg'
       },
       {
         titulo: 'Fortunate Son',
@@ -132,7 +146,8 @@ export const canciones:ICancion[] = [
         album: 'Willy and the Poor Boys',
         anio: 1969,
         afinacion: 'Estándar',
-        tono:'G'
+        tono:'G',
+        imagen:'willy_and_the_poor_boys.jpg'
       },
       {
         titulo: 'Santa Lucía',
@@ -141,7 +156,8 @@ export const canciones:ICancion[] = [
         album: 'Rock and Rios',
         anio: 1982,
         afinacion: 'Estándar',
-        tono:'F'
+        tono:'F',
+        imagen:'rock_and_rios.jpg'
       },
       {
         titulo: 'El blues del autobus',
@@ -150,5 +166,6 @@ export const canciones:ICancion[] = [
         album: 'Rock and Rios',
         anio: 1982,
         afinacion: 'Estándar',
+        imagen:'rock_and_rios.jpg'
       }
 ];

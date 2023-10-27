@@ -69,7 +69,7 @@ export class MyfavoritesongsComponent {
   
     this.dialog.open(component, {
       data: {
-        nombreCancion: this.canciones[index]
+        cancion: this.canciones[index]
       }
     });
   }

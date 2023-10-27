@@ -3,13 +3,13 @@
         <button mat-icon-button (click)="snav.toggle()">
             <mat-icon>menu</mat-icon>
         </button>
-        Kintela - info@kintela.es
+        Kintela - info@kintela.es {{menuTitle}}
     </mat-toolbar>
 
     <mat-sidenav-container class="sidenav-container">
         <mat-sidenav #snav>
             <mat-nav-list (click)="snav.toggle()">
-                <a mat-list-item class='nav-link' routerLink="/">
+                <a mat-list-item class='nav-link' routerLink="/" (click)="changeTitle('')">
                     <mat-icon class="mat-icon-color">home</mat-icon>Home
                 </a>
             </mat-nav-list>
@@ -21,8 +21,13 @@
                         </mat-panel-title>
                     </mat-expansion-panel-header>
                     <mat-nav-list (click)="snav.toggle()">
-                        <a mat-list-item class='nav-link' routerLink="music/myfavoritesongs">
-                            <mat-icon class="mat-icon-color">library_music</mat-icon>Mis Canciones Favoritas
+                        <a mat-list-item class='nav-link' routerLink="music/myfavoritesongs" (click)="changeTitle('Canciones en la hogera')">
+                            <mat-icon class="mat-icon-color">library_music</mat-icon>Canciones en la hogera
+                        </a>
+                    </mat-nav-list>
+                    <mat-nav-list (click)="snav.toggle()">
+                        <a mat-list-item class='nav-link' routerLink="music/documentalesyseries" (click)="changeTitle('Documentales y series')">
+                            <mat-icon class="mat-icon-color">movie</mat-icon>Documentales y series
                         </a>
                     </mat-nav-list>
                 </mat-expansion-panel>

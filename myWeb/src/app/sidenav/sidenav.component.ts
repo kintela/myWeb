@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./sidenav.component.scss']
 })
 export class SidenavComponent {
+  menuTitle:string="";
 
+  changeTitle(title: string) {
+    this.menuTitle=' - ' + title;
+  }
 }

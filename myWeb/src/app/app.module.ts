@@ -42,6 +42,8 @@ import { Partitura14Component } from './music/canciones/cancion14/partitura14/pa
 import { Partitura15Component } from './music/canciones/cancion15/partitura15/partitura15.component';
 import { Partitura16Component } from './music/canciones/cancion16/partitura16/partitura16.component';
 import { Partitura17Component } from './music/canciones/cancion17/partitura17/partitura17.component';
+import { DocuseriesComponent } from './music/docuseries/docuseries.component';
+import { FichaComponent } from './shared/ficha/ficha.component';
 
 
 @NgModule({
@@ -55,7 +57,7 @@ import { Partitura17Component } from './music/canciones/cancion17/partitura17/pa
     Cancion3Component,
     Cancion4Component,
     Cancion5Component,    
-    Partitura1Component, Partitura2Component, Partitura3Component, Partitura4Component, Partitura5Component, Cancion6Component, Cancion7Component, Cancion8Component, Cancion9Component, Cancion10Component, Cancion11Component, Cancion12Component, Cancion13Component, Cancion14Component, Cancion15Component, Cancion16Component, Cancion17Component, Partitura6Component, Partitura7Component, Partitura8Component, Partitura9Component, Partitura10Component, Partitura11Component, Partitura12Component, Partitura13Component, Partitura14Component, Partitura15Component, Partitura16Component, Partitura17Component
+    Partitura1Component, Partitura2Component, Partitura3Component, Partitura4Component, Partitura5Component, Cancion6Component, Cancion7Component, Cancion8Component, Cancion9Component, Cancion10Component, Cancion11Component, Cancion12Component, Cancion13Component, Cancion14Component, Cancion15Component, Cancion16Component, Cancion17Component, Partitura6Component, Partitura7Component, Partitura8Component, Partitura9Component, Partitura10Component, Partitura11Component, Partitura12Component, Partitura13Component, Partitura14Component, Partitura15Component, Partitura16Component, Partitura17Component, DocuseriesComponent, FichaComponent
   ],
   imports: [
     BrowserModule,

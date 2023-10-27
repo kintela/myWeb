@@ -5,7 +5,9 @@
         <app-ficha-cancion
           [imagen]="'assets/caratulas/albums/' + cancion.imagen"
           [enlace]="'cancion' + (i + 1) + '?titulo=' + cancion.titulo + '&grupo=' + cancion.grupo + '&album=' + cancion.album + '&anio=' + cancion.anio"
-          [texto]="cancion.titulo">
+          [texto]="cancion.titulo"
+          [spotify]="cancion.spotify"
+          [indiceCancion]="i">
         </app-ficha-cancion>
       
       </div>        

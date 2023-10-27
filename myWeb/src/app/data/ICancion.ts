@@ -8,5 +8,5 @@ export interface ICancion {
     afinacion: string;
     tono?:string
     imagen?: string;
-    enlace?: string;
+    spotify?: string;
 }

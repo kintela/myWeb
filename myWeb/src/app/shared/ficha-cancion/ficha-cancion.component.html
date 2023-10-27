@@ -1,4 +1,4 @@
-<mat-card class="ficha">
+<!--<mat-card class="ficha">
     <div class="ficha-imagen">
         <img [src]="imagen" alt="{{ texto }}">
     </div>
@@ -7,4 +7,26 @@
         {{ texto }}
       </a>
     </mat-card-content>
-</mat-card>
+</mat-card>-->
+
+<mat-card class="ficha">
+    <div class="ficha-container">
+      <div class="ficha-imagen">
+        <img [src]="imagen" alt="{{ texto }}" class="caratula">
+      </div>
+      <div class="ficha-contenido">
+        <div class="ficha-enlace">
+          <a [href]="enlace" target="_blank" matTooltip="info">
+            {{ texto }}
+          </a>
+        </div>
+        <div class="ficha-iconos">
+          <mat-icon class="material-icons cursor-pointer" matTooltip="Partitura" (click)=" mostrarPartitura(indiceCancion)">music_note</mat-icon>
+          <a [href]="spotify" target="_blank">
+            <img src="assets/spotify.png" alt="Spotify" class="spotify-logo" matTooltip="Escuchala">
+          </a>          
+        </div>
+      </div>      
+    </div>
+  </mat-card>
+  

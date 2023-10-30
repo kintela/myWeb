@@ -13,6 +13,7 @@
                     <mat-icon class="mat-icon-color">home</mat-icon>Home
                 </a>
             </mat-nav-list>
+
             <mat-accordion>
                 <mat-expansion-panel>
                     <mat-expansion-panel-header>
@@ -32,6 +33,12 @@
                     </mat-nav-list>
                 </mat-expansion-panel>
             </mat-accordion>
+
+            <mat-nav-list (click)="snav.toggle()">
+                <a mat-list-item class='nav-link' routerLink="historia" (click)="changeTitle('Historia')">
+                    <mat-icon class="mat-icon-color">book</mat-icon>Historia
+                </a>
+            </mat-nav-list>
         </mat-sidenav>
         <mat-sidenav-content>
             <router-outlet></router-outlet>

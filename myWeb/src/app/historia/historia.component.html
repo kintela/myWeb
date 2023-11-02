@@ -5,16 +5,39 @@
                 <mat-expansion-panel-header>
                     <mat-panel-title>
                         Guerra Civil Española
-                      </mat-panel-title>
+                    </mat-panel-title>                        
                 </mat-expansion-panel-header>
-                <mat-list class="fichas-contenedor">
-                    <app-ficha-video
-                        [imagen]="'assets/caratulas/videos/maquis.jpg'"
-                        [enlace]="'https://www.atresplayer.com/lasexta/programas/lasexta-columna/temporada-13/columnas-de-la-historia-guerrilleros-de-ciudad-el-ejercito-fantasma-contra-franco-parte-i_6537877a7ea0b0e4ff304299/ '"
-                        [texto]="'Maquis'">
-                    </app-ficha-video>
-                </mat-list>
-            </mat-expansion-panel>
+                <div class="fichas-contenedor">
+                    <ng-container *ngFor="let video of videos; let i = index">
+                        <div *ngIf="video.categoria === 'guerra_civil'">
+                          <app-ficha-video
+                            [imagen]="'assets/caratulas/videos/' + video.imagen"
+                            [enlace]="video.enlace"
+                            [texto]="video.texto">
+                          </app-ficha-video>
+                        </div>
+                    </ng-container>
+                  </div>
+            </mat-expansion-panel>    
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        II Guerra Mundial
+                    </mat-panel-title>                        
+                </mat-expansion-panel-header>
+                <div class="fichas-contenedor">
+                    <ng-container *ngFor="let video of videos; let i = index">
+                        <div *ngIf="video.categoria === 'ii_guerra_mundial'">
+                          <app-ficha-video
+                            [imagen]="'assets/caratulas/videos/' + video.imagen"
+                            [enlace]="video.enlace"
+                            [texto]="video.texto">
+                          </app-ficha-video>
+                        </div>
+                    </ng-container>
+                  </div>
+            </mat-expansion-panel>   
         </mat-accordion>
     </mat-card-content>
 </mat-card>

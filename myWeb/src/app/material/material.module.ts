@@ -10,6 +10,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [],
@@ -26,7 +28,9 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatTableModule,
     MatDialogModule,
     MatButtonModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatFormFieldModule,
+    MatSelectModule
   ]
 })
 export class MaterialModule { }

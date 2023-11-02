@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { videos } from '../data/videos';
 
 @Component({
   selector: 'app-historia',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./historia.component.scss']
 })
 export class HistoriaComponent {
-
+  videos=videos;
 }

@@ -6,77 +6,77 @@ export const videos:IVideo[] = [
         enlace: 'https://caixaforumplus.org/v/soy-mi-musica',
         texto: 'Soundbreaking',
         categoria: 'Mix',
-        plataforma: 'CaixaForum'
+        plataforma: 'caixaForum'
     },
     {
         imagen: 'janis_little_girl_blue.jpg',
         enlace: 'https://caixaforumplus.org/v/janis-little-girl-blue',
         texto: 'Janis Joplin',
         categoria: 'Mix',
-        plataforma: 'CaixaForum'
+        plataforma: 'caixaForum'
     },
     {
         imagen: '27_gone_too_soon.jpg',
         enlace: 'https://www.netflix.com/es/title/80176322?s=a&trkid=13747225&trg=more&vlang=es&clip=81494645',
         texto: '27: Gone Too Soon',
         categoria: 'Mix',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
     },
     {
         imagen: 'bowie_the_man_who_changed_the_world.jpg',
         enlace: 'https://www.netflix.com/es/title/80176322?s=a&trkid=13747225&trg=more&vlang=es&clip=81494645',
         texto: 'Bowie',
         categoria: 'Mix',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
     },
     {
         imagen: 'rolling_thunder_review.jpg',
         enlace: 'https://www.netflix.com/es/title/80221016?s=a&trkid=13747225&trg=more&vlang=es&clip=81022982',
         texto: 'Rolling Thunder Revue',
         categoria: 'Mix',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
     },
     {
         imagen: 'i_dream_of_wires.jpg',
         enlace: 'https://caixaforumplus.org/v/i-dream-of-wires',
         texto: 'I Dream of Wires',
         categoria: 'Mix',
-        plataforma: 'CaixaForum'
+        plataforma: 'caixaForum'
     },
     {
         imagen: 'volver_a_ser_un_niño.jpg',
         enlace: 'https://play.rtve.es/v/6182863',
         texto: 'Volver a ser un niño',
         categoria: 'Mix',
-        plataforma: 'RtvePlay'
+        plataforma: 'rtve_play'
     },
     {
         imagen: 'cruce_de_caminos.jpg',
         enlace: 'https://play.rtve.es/v/6905202',
         texto: 'Cruce de caminos',
         categoria: 'Mix',
-        plataforma: 'RtvePlay'
+        plataforma: 'rtve_play'
     },
     {
         imagen: 'tiempo_de_leyenda.jpg',
         enlace: 'https://play.rtve.es/v/6638540',
         texto: 'Camarón de la Isla',
         categoria: 'Mix',
-        plataforma: 'RtvePlay'
+        plataforma: 'rtve_play'
     },
     {
         imagen: 'paco_de_lucia.jpg',
         enlace: 'https://play.rtve.es/v/2418425',
         texto: 'Paco de Lucía',
         categoria: 'Mix',
-        plataforma: 'RtvePlay'
+        plataforma: 'rtve_play'
     },
     {
         imagen: 'freddie_mercury.jpeg',
         enlace: 'https://play.rtve.es/v/6918647',
         texto: 'El último acto',
         categoria: 'Mix',
-        plataforma: 'RtvePlay'
+        plataforma: 'rtve_play'
     },
     {
         imagen: 'antonio_vega.jpeg',
@@ -98,6 +98,13 @@ export const videos:IVideo[] = [
         texto: 'Amy',
         categoria: 'Mix',
         plataforma: 'appleTV'
+    },
+    {
+        imagen: 'recuperar_a_amy.jpeg',
+        enlace: 'https://play.rtve.es/v/6752148',
+        texto: 'Amy',
+        categoria: 'Mix',
+        plataforma: 'rtve_play'
     },
     {
         imagen: 'jimi_hendrix.jpeg',
@@ -149,6 +156,13 @@ export const videos:IVideo[] = [
         plataforma: 'appleTV'
     },
     {
+        imagen: 'springsteen.jpeg',
+        enlace: 'https://www.netflix.com/es/title/80232329?s=a&trkid=13747225&trg=more&vlang=es&clip=81008802',
+        texto: 'Bruce Springsteen',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },
+    {
         imagen: 'kurt_cobain.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwibvoTHz56CAxUhUKQEHXbCB9IQtwJ6BAgPEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Fcobain-montage-of-heck%2Fumc.cmc.6kfpwg3avmrvuv16w8gosungr&usg=AOvVaw38sAXse3qgeu69cVtZBST1&opi=89978449',
         texto: 'Kurt Cobain',
@@ -181,7 +195,56 @@ export const videos:IVideo[] = [
         enlace: 'https://www.netflix.com/es/title/70076332?s=a&trkid=13747225&trg=more&vlang=es&clip=81597056',
         texto: 'All My Loving',
         categoria: 'Mix',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
+    },
+    {
+        imagen: 'metallica.jpeg',
+        enlace: 'https://www.netflix.com/es/title/80174429?s=a&trkid=13747225&trg=more&vlang=es&clip=81476513',
+        texto: 'Metallica',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },
+    {
+        imagen: 'hiphop.jpeg',
+        enlace: 'https://www.netflix.com/es/title/80141782?s=a&trkid=13747225&trg=more&vlang=es&clip=81015553',
+        texto: 'Hip-Hop Evolution',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },
+    {
+        imagen: 'bob_marley.jpeg',
+        enlace: 'https://www.netflix.com/es/title/80191047?s=a&trkid=13747225&trg=more&vlang=es&clip=81024734',
+        texto: 'Bob Marley',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },
+    {
+        imagen: 'madonna.jpeg',
+        enlace: 'https://play.rtve.es/v/6998986',
+        texto: 'Madonna',
+        categoria: 'Mix',
+        plataforma: 'rtve_play'
+    },
+    {
+        imagen: 'jagged.jpeg',
+        enlace: 'https://play.hbomax.com/page/urn:hbo:page:GYZYH-QhGxo3DaAEAAABO:type:episode',
+        texto: 'Alanis Morissette',
+        categoria: 'Mix',
+        plataforma: 'hbo'
+    },
+    {
+        imagen: 'sugar_man.jpeg',
+        enlace: 'https://play.rtve.es/v/6752174',
+        texto: 'Sugar Man',
+        categoria: 'Mix',
+        plataforma: 'rtve_play'
+    },
+    {
+        imagen: 'suecia.jpeg',
+        enlace: 'https://play.rtve.es/v/3640360',
+        texto: 'Suecia',
+        categoria: 'Mix',
+        plataforma: 'rtve_play'
     },
     {
         imagen: 'rock_radikal_vasco.jpg',
@@ -223,21 +286,21 @@ export const videos:IVideo[] = [
         enlace: 'https://www.netflix.com/es/title/81471399?s=a&trkid=13747225&trg=more&vlang=es&clip=',
         texto: 'Mighty Good',
         categoria: 'the beatles',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
     },
     {
         imagen: 'how_the_beatles_changed_the_world.jpg',
         enlace: 'https://www.netflix.com/es/title/80195654?s=a&trkid=13747225&trg=more&vlang=es&clip=81141331',
         texto: 'The Beatles',
         categoria: 'the beatles',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
     },
     {
         imagen: 'john_lennon_love_is_all_you_need.jpg',
         enlace: 'https://www.netflix.com/es/title/70233321?s=a&trkid=13747225&trg=more&vlang=es&clip=81494586',
         texto: 'John Lennon',
         categoria: 'the beatles',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
     },
     {
         imagen: 'all_together_now.jpeg',
@@ -279,14 +342,14 @@ export const videos:IVideo[] = [
         enlace: 'https://www.netflix.com/es/title/81555057?s=a&trkid=13747225&trg=more&vlang=es&clip=81584958',
         texto: 'Brian Jones',
         categoria: 'the rolling stones',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
     },
     {
         imagen: 'keith_richards_under_the_influence.jpg',
         enlace: 'https://www.netflix.com/es/title/80066798?s=a&trkid=13747225&trg=more&vlang=es&clip=80078803',
         texto: 'Keith Richards',
         categoria: 'the rolling stones',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
     },
     {
         imagen: 'stones_live.jpeg',
@@ -303,10 +366,143 @@ export const videos:IVideo[] = [
         plataforma: 'appleTv'
     },
     {
+        imagen: 'mi_vida_como_un_stone.jpeg',
+        enlace: 'https://www.hbomax.com/es/es/series/urn:hbo:series:GYsxnnQs4y5HCEgEAAAAC',
+        texto: 'The Rolling Stones',
+        categoria: 'the rolling stones',
+        plataforma: 'hbo'
+    },
+    {
         imagen: 'eric_clapton_the_1970s_review.jpg',
         enlace: 'https://www.netflix.com/es/title/81506593?s=a&trkid=13747225&trg=more&vlang=es&clip=81583995',
         texto: 'The 1970s Review',
         categoria: 'eric clapton',
-        plataforma: 'Netflix'
+        plataforma: 'netflix'
+    },
+    {
+        imagen: 'eric_clapton_live_at_royal.jpeg',
+        enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjZzd-fzZ6CAxW7SKQEHdq6DjIQtwJ6BAgMEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Feric-clapton---slowhand-at-70-live-at-the-royal-albert-hall%2Fumc.cmc.57x7tgjvpjeesswjdj7tcfz11&usg=AOvVaw18ID8G8nCF7lPVor627UpZ&opi=89978449',
+        texto: 'Live at The Royal Albert Hall',
+        categoria: 'eric clapton',
+        plataforma: 'appleTv'
+    },
+    {
+        imagen: 'eric_clapton_planes.jpeg',
+        enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwi_qbCBzp6CAxVmVaQEHXGAC-QQtwJ6BAgOEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Feric-clapton-planes-trains-and-eric%2Fumc.cmc.1w7xc7qzk8qnkwxegc84obng3&usg=AOvVaw2uI7oF5hlS413p8caO3xll&opi=89978449',
+        texto: 'Planes,Trains and Eric',
+        categoria: 'eric clapton',
+        plataforma: 'appleTv'
+    },
+    {
+        imagen: 'eric_clapton_unplugged.jpeg',
+        enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjM4Le0zp6CAxXFUKQEHf-3CRoQtwJ6BAgMEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Feric-clapton-unplugged%2Fumc.cmc.1u9fzvr9nc5a18qndsigb6rd7%3Fl%3Des&usg=AOvVaw1sytk8pa4mIMl62Pv5rkmm&opi=89978449',
+        texto: 'Unplugged',
+        categoria: 'eric clapton',
+        plataforma: 'appleTv'
+    },
+    {
+        imagen: 'monterey.jpg',
+        enlace: 'https://youtu.be/7MX2VEYpTfw?feature=shared',
+        texto: 'Monterey 1967',
+        categoria: 'festivales',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: 'woodstock.jpg',
+        enlace: 'https://youtu.be/1oNLLBXiZXw?feature=shared',
+        texto: 'Woodstock 1969',
+        categoria: 'festivales',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: 'farm_aid.jpg',
+        enlace: 'https://youtu.be/1oNLLBXiZXw?feature=shared',
+        texto: 'Farm AID 1985',
+        categoria: 'festivales',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: 'eskorbuto.jpg',
+        enlace: 'https://youtu.be/aUmY-8A3bZw?feature=shared',
+        texto: 'Generación Anti Todo',
+        categoria: 'punk',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: 'punk_in_london.jpeg',
+        enlace: 'https://www.netflix.com/es/title/70118168?s=a&trkid=13747225&trg=more&vlang=es&clip=81492312',
+        texto: 'Punk in London',
+        categoria: 'punk',
+        plataforma: 'netflix'
+    },
+    {
+        imagen: 'rude_boy.jpeg',
+        enlace: 'https://www.netflix.com/es/title/81470754?s=a&trkid=13747225&trg=more&vlang=es&clip=',
+        texto: 'Rude Boy',
+        categoria: 'punk',
+        plataforma: 'netflix'
+    },
+    {
+        imagen: 'sex_pistols.jpeg',
+        enlace: 'https://youtu.be/ltz71Gt2PHg?feature=shared',
+        texto: 'Sex Pistols',
+        categoria: 'punk',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: 'lo_que_hicimos_fue_secreto.jpeg',
+        enlace: 'https://play.rtve.es/v/6809560',
+        texto: 'Punk en Madrid',
+        categoria: 'punk',
+        plataforma: 'rtve_play'
+    },
+    {
+        imagen: 'maquis.jpg',
+        enlace: 'https://www.atresplayer.com/lasexta/programas/lasexta-columna/temporada-13/columnas-de-la-historia-guerrilleros-de-ciudad-el-ejercito-fantasma-contra-franco-parte-i_6537877a7ea0b0e4ff304299/',
+        texto: 'Maquis',
+        categoria: 'guerra_civil',
+        plataforma: 'atresplayer'
+    },
+    {
+        imagen: 'urraca.jpeg',
+        enlace: 'https://play.rtve.es/v/6988014',
+        texto: 'Urraca',
+        categoria: 'guerra_civil',
+        plataforma: 'rtve_play'
+    },
+    {
+        imagen: 'heroinas.jpeg',
+        enlace: 'https://play.rtve.es/v/6834608',
+        texto: 'Heroinas',
+        categoria: 'ii_guerra_mundial',
+        plataforma: 'rtve_play'
+    },
+    {
+        imagen: 'juego_de_espias.jpeg',
+        enlace: 'https://play.rtve.es/v/5779359',
+        texto: 'Juego de espias',
+        categoria: 'ii_guerra_mundial',
+        plataforma: 'rtve_play'
+    },
+    {
+        imagen: 'pearl_harbor.jpeg',
+        enlace: 'https://play.rtve.es/v/6230470',
+        texto: 'Pearl harbor',
+        categoria: 'ii_guerra_mundial',
+        plataforma: 'rtve_play'
+    },
+    {
+        imagen: 'el_pacifico.jpeg',
+        enlace: 'https://play.rtve.es/v/5976669',
+        texto: 'El Pacífico',
+        categoria: 'ii_guerra_mundial',
+        plataforma: 'rtve_play'
+    },
+    {
+        imagen: 'carrera_a_la_victoria.jpeg',
+        enlace: 'https://play.rtve.es/v/5976668',
+        texto: 'Carrera a la victoria',
+        categoria: 'ii_guerra_mundial',
+        plataforma: 'rtve_play'
     },
 ];

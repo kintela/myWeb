@@ -46,6 +46,7 @@ import { DocuseriesComponent } from './music/docuseries/docuseries.component';
 import { FichaVideoComponent } from './shared/fichaVideo/fichaVideo.component';
 import { FichaCancionComponent } from './shared/ficha-cancion/ficha-cancion.component';
 import { HistoriaComponent } from './historia/historia.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -95,7 +96,8 @@ import { HistoriaComponent } from './historia/historia.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule    
+    MaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

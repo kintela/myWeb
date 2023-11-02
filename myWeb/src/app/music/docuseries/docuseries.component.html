@@ -1,5 +1,13 @@
 <mat-card>
     <mat-card-content>
+      <mat-form-field>
+        <mat-label>Plataforma</mat-label>
+        <mat-select [(ngModel)]="plataformaSeleccionada">
+            <mat-option *ngFor="let plataforma of plataformas" [value]="plataforma">
+                {{ plataforma }}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
         <mat-list>                        
             <mat-accordion>
                 <mat-expansion-panel>
@@ -9,7 +17,7 @@
                         </mat-panel-title>                        
                     </mat-expansion-panel-header>
                     <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of videos; let i = index">
+                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
                             <div *ngIf="video.categoria === 'Mix'">
                               <app-ficha-video
                                 [imagen]="'assets/caratulas/videos/' + video.imagen"
@@ -28,7 +36,7 @@
                         </mat-panel-title>                        
                     </mat-expansion-panel-header>
                     <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of videos; let i = index">
+                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
                             <div *ngIf="video.categoria === 'Rock Radikal Vasco'">
                               <app-ficha-video
                                 [imagen]="'assets/caratulas/videos/' + video.imagen"
@@ -47,7 +55,7 @@
                         </mat-panel-title>                        
                     </mat-expansion-panel-header>
                     <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of videos; let i = index">
+                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
                             <div *ngIf="video.categoria === 'the beatles'">
                               <app-ficha-video
                                 [imagen]="'assets/caratulas/videos/' + video.imagen"
@@ -66,7 +74,7 @@
                         </mat-panel-title>                        
                     </mat-expansion-panel-header>
                     <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of videos; let i = index">
+                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
                             <div *ngIf="video.categoria === 'the rolling stones'">
                               <app-ficha-video
                                 [imagen]="'assets/caratulas/videos/' + video.imagen"
@@ -85,7 +93,7 @@
                         </mat-panel-title>                        
                     </mat-expansion-panel-header>
                     <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of videos; let i = index">
+                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
                             <div *ngIf="video.categoria === 'eric clapton'">
                               <app-ficha-video
                                 [imagen]="'assets/caratulas/videos/' + video.imagen"
@@ -98,70 +106,45 @@
                 </mat-expansion-panel>       
 
                 <mat-expansion-panel>
-                <mat-expansion-panel-header>
-                  <mat-panel-title>
-                    Eric Clapton
-                  </mat-panel-title>
-                </mat-expansion-panel-header>
-                <mat-list class="fichas-contenedor">
-                    <app-ficha-video
-                        [imagen]="'assets/caratulas/videos/eric_clapton_the_1970s_review.jpg'"
-                        [enlace]="'https://www.netflix.com/es/title/81506593?s=a&trkid=13747225&trg=more&vlang=es&clip=81583995'"
-                        [texto]="'Eric Clapton - The 1970s Review'">
-                    </app-ficha-video>
-
-                    <app-ficha-video
-                        [imagen]="'assets/caratulas/videos/eric_clapton_live_at_royal.jpeg'"
-                        [enlace]="'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjZzd-fzZ6CAxW7SKQEHdq6DjIQtwJ6BAgMEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Feric-clapton---slowhand-at-70-live-at-the-royal-albert-hall%2Fumc.cmc.57x7tgjvpjeesswjdj7tcfz11&usg=AOvVaw18ID8G8nCF7lPVor627UpZ&opi=89978449'"
-                        [texto]="'Eric Clapton - Live at The Royal Albert Hall'">
-                    </app-ficha-video>
-
-                    <app-ficha-video
-                        [imagen]="'assets/caratulas/videos/eric_clapton_planes.jpeg'"
-                        [enlace]="'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwi_qbCBzp6CAxVmVaQEHXGAC-QQtwJ6BAgOEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Feric-clapton-planes-trains-and-eric%2Fumc.cmc.1w7xc7qzk8qnkwxegc84obng3&usg=AOvVaw2uI7oF5hlS413p8caO3xll&opi=89978449'"
-                        [texto]="'Eric Clapton-Planes, Trains and Eric'">
-                    </app-ficha-video>
-
-                    <app-ficha-video
-                        [imagen]="'assets/caratulas/videos/eric_clapton_unplugged.jpeg'"
-                        [enlace]="'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjM4Le0zp6CAxXFUKQEHf-3CRoQtwJ6BAgMEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Feric-clapton-unplugged%2Fumc.cmc.1u9fzvr9nc5a18qndsigb6rd7%3Fl%3Des&usg=AOvVaw1sytk8pa4mIMl62Pv5rkmm&opi=89978449'"
-                        [texto]="'Eric Clapton-Unplugged'">
-                    </app-ficha-video>
-
-                </mat-list>
-                </mat-expansion-panel>
-
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Festivales
+                        </mat-panel-title>                        
+                    </mat-expansion-panel-header>
+                    <div class="fichas-contenedor">
+                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                            <div *ngIf="video.categoria === 'festivales'">
+                              <app-ficha-video
+                                [imagen]="'assets/caratulas/videos/' + video.imagen"
+                                [enlace]="video.enlace"
+                                [texto]="video.texto">
+                              </app-ficha-video>
+                            </div>
+                        </ng-container>
+                      </div>
+                </mat-expansion-panel>    
+                
                 <mat-expansion-panel>
-                  <mat-expansion-panel-header>
-                    <mat-panel-title>
-                      Festivales
-                    </mat-panel-title>
-                  </mat-expansion-panel-header>
-                  <mat-list class="fichas-contenedor">
-                      <app-ficha-video
-                          [imagen]="'assets/caratulas/videos/monterey.jpg'"
-                          [enlace]="'https://youtu.be/7MX2VEYpTfw?feature=shared'"
-                          [texto]="'Monterey Pop Festival 1967'">
-                      </app-ficha-video>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Punk
+                        </mat-panel-title>                        
+                    </mat-expansion-panel-header>
+                    <div class="fichas-contenedor">
+                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                            <div *ngIf="video.categoria === 'punk'">
+                              <app-ficha-video
+                                [imagen]="'assets/caratulas/videos/' + video.imagen"
+                                [enlace]="video.enlace"
+                                [texto]="video.texto">
+                              </app-ficha-video>
+                            </div>
+                        </ng-container>
+                      </div>
+                </mat-expansion-panel>     
 
-                      <app-ficha-video
-                          [imagen]="'assets/caratulas/videos/woodstock.jpg'"
-                          [enlace]="'https://youtu.be/1oNLLBXiZXw?feature=shared'"
-                          [texto]="'Woodstock 1969'">
-                      </app-ficha-video>
-
-                      <app-ficha-video
-                        [imagen]="'assets/caratulas/videos/farm_aid.jpg'"
-                        [enlace]="'https://youtu.be/0nsKtSjHeF0?feature=shared'"
-                        [texto]="'Farm AID 1985'">
-                      </app-ficha-video>
-
-                  </mat-list>
-                  </mat-expansion-panel>
-  
             </mat-accordion>
-        </mat-list>
-        
+        </mat-list>        
     </mat-card-content>
 
     <mat-card-footer>

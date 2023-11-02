@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { videos } from 'src/app/data/videos';
 
 @Component({
   selector: 'app-docuseries',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./docuseries.component.scss']
 })
 export class DocuseriesComponent {
+  videos=videos;
 
 }

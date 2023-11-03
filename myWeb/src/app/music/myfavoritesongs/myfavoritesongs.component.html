@@ -9,25 +9,9 @@
           [spotify]="cancion.spotify"
           [indiceCancion]="i">
         </app-ficha-cancion>
-      
       </div>        
   </mat-card-content>
 </mat-card>
-
-
-<!--<mat-card>
-  <mat-card-subtitle>Mis canciones favoritas</mat-card-subtitle>
-  <mat-card-content>
-      <mat-list>
-          <mat-list-item *ngFor="let cancion of canciones; let i = index" (click)="navegarACancion(i)" class="cursor-pointer">
-            {{ i + 1 }}. {{ cancion.grupo }} -  {{ cancion.titulo }}- {{ cancion.album }} - {{ cancion.anio }} - {{ cancion.capo }}
-            <span class="icon-wrapper" (click)="$event.stopPropagation(); mostrarPartitura(i)">
-              <mat-icon class="material-icons" matTooltip="Partitura">music_note</mat-icon>
-            </span>
-          </mat-list-item>
-      </mat-list>        
-  </mat-card-content>
-</mat-card>-->
 
 
 

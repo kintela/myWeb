@@ -165,7 +165,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/4BP3uh0hFLFRb5cjsgLqDh?si=09e10429a77a4e1b'
       },
       {
-        titulo: 'Santa Lucía',
+        titulo: 'Santa Lucia',
         grupo: 'Miguel Rios',
         compositor: 'Roque Narvaja',
         album: 'Rock and Rios',
@@ -184,5 +184,16 @@ export const canciones:ICancion[] = [
         afinacion: 'Estándar',
         imagen:'rock_and_rios.jpg',
         spotify:'https://open.spotify.com/intl-es/track/15GCALNDBX5oWcUjmYujXQ?si=53f2af9fdaac4c57'
+      },
+      {
+        titulo: 'Cerebros Destruídos',
+        grupo: 'Eskorbuto',
+        compositor: 'Jualma, Iosu Exposito',
+        album: 'Antitodo',
+        anio: 1986,
+        afinacion: 'Estándar',
+        imagen:'anti_todo.jpeg',
+        spotify:'https://open.spotify.com/intl-es/track/3fUiFddLXHTaFA3q90l6LF?si=12bcfd7f00604971',
+        tono:'Dm'
       }
 ];

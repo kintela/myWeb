@@ -137,14 +137,14 @@ export const videos:IVideo[] = [
     {
         imagen: 'jeff_beck.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjB2bisy56CAxUZRaQEHbiJAwkQtwJ6BAgOEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Fthe-jeff-beck-story-still-on-the-run%2Fumc.cmc.4hm4bx0m62ids7p0olfy6k7zv&usg=AOvVaw3Kn2BWy4auWq-iar5fEKPY&opi=89978449',
-        texto: 'The Jeff Beck Story',
+        texto: 'Story',
         categoria: 'Mix',
         plataforma: 'appleTV'
     },
     {
         imagen: 'jeff_beck_live.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwiI2q31zp6CAxWdV6QEHZjWDUQQtwJ6BAgMEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Fjeff-beck---live-in-tokyo%2Fumc.cmc.4z8wk1t9y1hbvuucp552rttdi%3Fl%3Des&usg=AOvVaw2WaJyFRpCCkyUM6NItVS6y&opi=89978449',
-        texto: 'Jeff Beck Live in Tokyo',
+        texto: 'Live in Tokyo',
         categoria: 'Mix',
         plataforma: 'appleTV'
     },

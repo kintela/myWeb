@@ -10,13 +10,15 @@
   
   .ficha-imagen {
     flex: 1;
-    
   }
 
   .caratula{
     height: 100px;
     width: 100px;
     overflow: hidden;
+    border: 2px solid black; /* Borde negro para la imagen */
+    object-fit: cover; /* Esto asegurará que la imagen cubra todo el espacio asignado sin distorsionarse */
+    object-position: center; /* Centra la imagen dentro de su contenedor */
   }
   
   .ficha-contenido {

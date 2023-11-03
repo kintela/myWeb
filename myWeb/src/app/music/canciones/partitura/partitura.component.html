@@ -1,0 +1,9 @@
+<mat-card>
+    <mat-card-subtitle><strong>{{data.cancion.titulo}} {{data.cancion.capo}} tono: {{data.cancion.tono}}</strong></mat-card-subtitle>
+    <mat-card-content>
+       <img [src]="rutaPartituraCompleta" alt="partitura" width="100%" height="100%">
+    </mat-card-content>
+        <mat-card-actions align="end">
+            <button mat-raised-button color="primary" (click)="cerrarDialogo()">Cerrar</button>
+      </mat-card-actions>      
+  </mat-card>

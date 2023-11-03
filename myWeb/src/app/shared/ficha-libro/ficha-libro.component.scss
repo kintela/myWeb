@@ -1,0 +1,61 @@
+.ficha {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; /* Espacio entre fichas */
+  }
+  
+  .ficha-contenido {
+    display: flex;
+    justify-content: space-between; /* Asegura que las columnas se distribuyen con el espacio disponible */
+  }
+  
+  .ficha-izquierda, .ficha-derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .ficha-izquierda {
+    flex: 0 0 auto; /* No permitir que la columna izquierda crezca o se encoja */
+    padding-right: 10px; /* Ajusta este padding para controlar el espacio entre columnas */
+  }
+  
+  .ficha-derecha {
+    flex: 1; /* Permitir que la columna derecha ocupe el espacio restante */
+    padding-left: 10px; /* Ajusta este padding para controlar el espacio entre columnas */
+  }
+
+  .ficha-imagen {
+    width: 200px; /* Ancho fijo para la carátula del libro */
+    height: auto; /* Para mantener la proporción */
+  }
+  
+  .ficha-imagen img {
+    width: 100%; /* Asegúrate que las imágenes ocupan todo el ancho disponible de su contenedor */
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .ficha-informacion p {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .ficha-contenido {
+      flex-direction: column;
+    }
+  
+    .ficha-izquierda, .ficha-derecha {
+      flex-basis: 100%;
+      padding: 0;
+    }
+
+    .ficha-imagen {
+        width: 100px; /* Ancho más pequeño para dispositivos más pequeños */
+      }
+
+    .ficha-imagen img {
+        max-height: 150px; /* Menor altura para dispositivos más pequeños */
+      }
+  }
+  

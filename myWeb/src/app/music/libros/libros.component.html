@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-content>
+        <div class="fichas-contenedor">
+            <ng-container *ngFor="let libro of libros; let i = index">
+                <app-ficha-libro
+                    [caratula]="'assets/caratulas/libros/' + libro.caratula"
+                    [enlace]="libro.enlace"
+                    [titulo]="libro.titulo"
+                    [depositoLegal]="libro.depositoLegal"
+                    [ISBN]="libro.ISBN"
+                    [autor]="libro.autor"
+                    [sinopsis]="libro.sinopsis"
+                    [editorial]="libro.editorial">
+                </app-ficha-libro>
+            </ng-container>
+        </div>          
+    </mat-card-content>
+</mat-card>

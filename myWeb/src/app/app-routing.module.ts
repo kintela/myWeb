@@ -20,6 +20,7 @@ import { Cancion15Component } from './music/canciones/cancion15/cancion15.compon
 import { Cancion16Component } from './music/canciones/cancion16/cancion16.component';
 import { DocuseriesComponent } from './music/docuseries/docuseries.component';
 import { HistoriaComponent } from './historia/historia.component';
+import { LibrosComponent } from './music/libros/libros.component';
 
 const routes: Routes = [
   { path: 'cancion1', component: Cancion1Component },
@@ -40,6 +41,7 @@ const routes: Routes = [
   { path: 'cancion16', component: Cancion16Component },
   {path:'music/documentalesyseries',component: DocuseriesComponent},
   {path:'music/myfavoritesongs',component: MyfavoritesongsComponent},
+  {path:'music/libros',component: LibrosComponent},
   {path:'historia',component: HistoriaComponent},
   {path: '',component: HomeComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' }

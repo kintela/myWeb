@@ -1,0 +1,22 @@
+<mat-card class="ficha">
+    <div class="ficha-contenido">
+      <div class="ficha-izquierda">
+        <div class="ficha-imagen">
+          <img [src]="caratula" alt="{{titulo }}">
+        </div>
+        <mat-card-content class="texto-centrado">
+          <a [href]="enlace" target="_blank">{{titulo }}</a>
+        </mat-card-content>
+      </div>
+      <div class="ficha-derecha">
+        <div class="ficha-informacion">
+          <p><strong>Autor:</strong> {{ autor }}</p>
+          <p><strong>Depósito Legal:</strong> {{ depositoLegal }}</p>
+          <p><strong>ISBN:</strong> {{ ISBN }}</p>
+          <p><strong>Editorial:</strong> {{ editorial }}</p>
+          <p><strong>Sinopsis:</strong></p>
+          <p [innerHtml]="sinopsis" style="white-space: pre-line;"></p>
+        </div>
+      </div>
+    </div>
+  </mat-card>

@@ -31,6 +31,8 @@ import { FichaCancionComponent } from './shared/ficha-cancion/ficha-cancion.comp
 import { HistoriaComponent } from './historia/historia.component';
 import { FormsModule } from '@angular/forms';
 import { PartituraComponent } from './music/canciones/partitura/partitura.component';
+import { LibrosComponent } from './music/libros/libros.component';
+import { FichaLibroComponent } from './shared/ficha-libro/ficha-libro.component';
 
 
 @NgModule({
@@ -57,7 +59,7 @@ import { PartituraComponent } from './music/canciones/partitura/partitura.compon
     Cancion16Component, 
     Cancion17Component,
     DocuseriesComponent, 
-    FichaVideoComponent, FichaCancionComponent, HistoriaComponent, PartituraComponent
+    FichaVideoComponent, FichaCancionComponent, HistoriaComponent, PartituraComponent, LibrosComponent, FichaLibroComponent
   ],
   imports: [
     BrowserModule,

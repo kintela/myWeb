@@ -131,5 +131,65 @@ export const libros:ILibro[]=[
         editorial: 'http://www.albaeditorial.es',
         sinopsis:'Conocido como el "camaleón" de la música por su brillante creatividad y constante reinvención, David Bowie se ha convertido en un icono de nuestro tiempo. Sin embargo, a pesar de su gran popularidad, su vida y personalidad siguen siendo un enigma.\n\nCon esta minuciosa biografía, Paul Trynka ha escrito su retrato definitivo: desde los años de infancia en el Brixton de la posguerra hasta el glamour decadente de Ziggy Stardust pasando por su controvertido periodo berlinés.\n\nBasada en cientos de entrevistas a amigos y detractores, examantes y compañeros de profesión, "David Bowie: Starman" revela cómo el joven David Jones se transformó en David Bowie y cómo construyó su carrera artística y musical. Asimismo, recorre la vida de otros grandes artistas, como Lou Reed, Iggy Pop o Mick Jagger, que se cruzaron en la vida de Bowie y tuvieron una estrecha colaboración con él.',
         protagonista: 'David Bowie'
+    },
+    {
+        titulo: 'Heavier than Heaven',
+        categoria: 'Biografía',
+        autor: 'Charles R.Cross',
+        ISBN: '978-84-16709-37-3',
+        caratula: 'heavier_than_heaven.jpeg',
+        enlace:'https://www.penguinlibros.com/es/biografias/230198-libro-heavier-than-heaven-9788418052453?mot_tcid=bea9ccc1-dfe2-4f95-893e-536a3c875a97',
+        depositoLegal: 'B-22.660-2016',
+        editorial: 'https://www.penguinlibros.com/es/11345-reservoir-books',
+        sinopsis:'El suicidio fue el último acto que definió la personalidad de Kurt Cobain, tras una existencia repleta de rabia, dolor e inspiración. En esta biografía ya clásica, el periodista Charles R. Cross pone su extenso conocimiento de la escena de Seattle al servicio de la narración de una vida fascinante.\n\nTras más de cuatrocientas entrevistas y cuatro años de investigación, en los que tuvo acceso a todo tipo de documentos privados, el autor traza una panorámica del músico desde su adolescencia, cuando vivía en una caravana, hasta el momento en que alcanzó la fama y el fervor de toda una generación.\n\nCharles R. Cross ha escrito un prefacio para esta nueva edición, donde da cuenta de los sucesos relacionados con Cobain y el propio libro durante las más de dos décadas transcurridas desde la muerte del artista.',
+        protagonista: 'Kurt Cobain'
+    },
+    {
+        titulo: 'Memorias',
+        categoria: 'Biografía',
+        autor: 'Helena Alvares de la Miyar',
+        ISBN: '978-84-19942-080-6',
+        caratula: 'vida.jpeg',
+        enlace:'https://www.elargonauta.com/libros/vida-memorias-de-keith-richards/978-84-480-2443-7',
+        depositoLegal: 'B-38983-LIII',
+        editorial: 'Global Rythm Press',
+        sinopsis:'Keith Richards se ha dedicado a vivir una vida bajo sus propias normas. En esta célebre autobiografía Richards se sincera sobre su niñez, sobre cómo aprendió a tocar la guitarra y formó su banda junto a Jagger y Brian Jones, sobre los conciertos, las giras y los discos grabados, sobre su tensa relación con Jagger y sus romances, sobre su lucha contra la adicción a las drogas y sus consecuentes desencuentros con la ley en distintos países.',
+        protagonista: 'The Rolling Stones, Keith Richards'
+    },
+    {
+        titulo: 'Fui el camello',
+        categoria: 'Biografía',
+        autor: 'Tony Sánchez',
+        ISBN: '978-84-940938-2-1',
+        caratula: 'yo_fui_el_camello.jpeg',
+        enlace:'https://editorialcontra.com/producto/yo-fui-el-camello-de-keith-richards',
+        depositoLegal: 'B.423-2013',
+        editorial: 'https://editorialcontra.com',
+        sinopsis:'Tony Sánchez fue testigo del meteórico ascenso a la fama de los Rolling Stones. Formó parte del núcleo duro de la banda desde mediados de los años 60 y a lo largo de la década de los 70 y fue amigo personal de Mick Jagger, Keith Richards y del malogrado Brian Jones. Su privilegiada posición con respecto a la vida e intimidad de los Stones dio lugar a una de las biografías más originales, gamberras y trepidantes de la banda de rock más famosa del mundo.\n\n«Spanish Tony», con sus buenos contactos en el lumpen londinense, se convirtió rápidamente en el camello de la banda y de sus aristocráticas amistades. A él recurrían cuando querían comprar drogas, lo que sucedía muy a menudo, sobre todo cuando el consumo se convirtió en adicción. Pero Sánchez fue mucho más que el dealer de la banda, ocupándose de toda una serie de tareas más o menos profesionales en calidad de «ayudante» de Keith Richards. Era el que lo sacaba de apuros cuando el coche del guitarrista acababa en siniestro total, o el que consolaba a las ilustres mujeres de los Stones, como Marianne Faithfull o Anita Pallenberg, cuando estos desaparecían o estaban ocupados alimentando otras pasiones.\n\nSánchez vivió de cerca algunos de los momentos álgidos de la carrera de la banda: sus conciertos más gloriosos, aunque también los más trágicos —su relato de la debacle de Altamont es prodigioso—; sus altercados con los tribunales y la persecución que padecieron por parte del «establishment» y sus resortes, las traiciones y rencillas que se produjeron en el seno de los Stones, las transfusiones de sangre en Suiza a las que se sometieron para eludir la justicia, los escarceos en el cine de Mick Jagger, la vida salvaje en Nellcôte durante la grabación de «Exile on Main St»…\n\n«Yo fui el camello de Keith Richards» es un libro memorable, entre el culebrón desenfrenado y la crónica más vívida, plagado de anécdotas y momentos imborrables, quizá la biografía que rinde un más sincero homenaje a la célebre tríada del buen canalla: sexo, drogas y rock ‘n’ roll.',
+        protagonista: 'The Rolling Stones, Keith Richards'
+    },
+    {
+        titulo: 'Born to run',
+        categoria: 'Biografía',
+        autor: 'Bruce Springsteen', 
+        ISBN: '978-84-940938-2-1',
+        caratula: 'born_to_run.jpeg',
+        enlace:'https://www.penguinlibros.com/es/biografias/36958-libro-born-to-run-edicion-en-lengua-espanola-9788439731825?mot_tcid=9376f7b2-3667-4e46-9906-c7fa581e782b',    
+        depositoLegal: 'B.423-2013',
+        editorial: 'https://www.penguinlibros.com/es/11353-random-house',
+        sinopsis:'«Escribir sobre uno mismo es algo muy curioso. [...]. Pero en un proyecto como este el escritor hace una promesa: mostrarle su mente al lector. Y eso es lo que he intentado hacer en estas páginas.» Bruce Springsteen, extracto de Born to Run\n\nEn 2009, Bruce Springsteen y la E Street Band actuaron durante el intermedio de la Super Bowl. La experiencia fue tan maravillosa que Bruce se propuso escribir sobre ello. Así comenzó esta extraordinaria autobiografía.\n\nDurante los últimos siete años, Bruce Springsteen se ha dedicado a escribir en privado la historia de su vida, dotando a estas páginas de la misma honestidad, humor y originalidad que encontramos en sus canciones.\n\nDescribe sus primeros años como chaval católico en Freehold, Nueva Jersey, en un ambiente donde la poesía, el peligro y la oscuridad alimentaban su imaginación, hasta que llega el momento que él denomina «el Big Bang»: cuando vio en televisión el debut de Elvis Presley en The Ed Sullivan Show. Nos cuenta vívidamente su incansable voluntad de convertirse en músico, sus primeros tiempos como rey de las bandas de bar en Asbury Park, y el ascenso de la E Street Band. Con un candor desarmante, cuenta también por vez primera las angustias personales que inspiraron sus mejores obras, y explica porqué la canción «Born to Run» revela mucho más de lo que pensábamos.\n\nBorn to Run será una revelación para cualquiera que en algún momento haya disfrutado de Bruce Springsteen, pero estas páginas son mucho más que las memorias de una legendaria estrella de rock. Es un libro para trabajadores y soñadores, padres e hijos, amantes y solitarios, artistas, friquis, o para cualquiera que alguna vez haya anhelado ser bautizado en el sagrado río del rock\'n\'roll.',
+        protagonista: 'The Rolling Stones, Keith Richards'
+    },
+    {
+        titulo: 'Lemmy',
+        categoria: 'Biografía',
+        autor: 'Oscar Palmez Yáñez', 
+        ISBN: '978-84-940298-8-2',
+        caratula: 'lemmy.jpeg',
+        enlace:'http://espop.es/catalogo/es-pop-ensayo/lemmy',
+        depositoLegal: 'M-36536-2014',
+        editorial: 'http://espop.es',
+        sinopsis:'«Si piensas que eres demasiado viejo para el rock ‘n’ roll, es que lo eres». Así hablaba Ian «Lemmy» Kilmister, legendario líder de Motörhead y uno de los rockeros más incombustibles del planeta. Si hay que dar por buena la opinión de los médicos, Lemmy nunca debería haber sobrevivido a los años 80. Cinco décadas dedicadas en cuerpo y alma a la música, ganándose a pulso la fama de ser el tipo más bebedor, espídico y salidorro que haya pisado jamás un escenario, habían convertido su sangre en un mejunje capaz de matar a cualquier otro ser humano.\n\nSu historia es la historia de la música rock desde sus inicios y hasta nuestros días. Lemmy abandonó su hogar en Gales para vivir en primera fila el estallido de la beatlemanía y tocar en conjuntos de merseybeat, soul y rhythm & blues, fue roadie de Jimi Hendrix y miembro de grupos tan singulares como The Rocking Vicars y Sam Gopal, antes de saltar a la fama como bajista de Hawkwind, el célebre conjunto de rock cósmico y espacial inspirado por Michael Moorcock, junto a los que interpretó himnos incontestables de la época como “Urban Guerrilla” y “Silver Machine”.\n\nEn 1975 fundó Motörhead, tan herederos de Chuck Berry como de MC5; decanos del heavy, primos bastardos del punk y precursores del speed metal. Las formaciones de Motörhead han sufrido numerosos cambios en sus más de treinta años de historia, pero Lemmy permaneció incombustible y en activo al frente de la banda hasta su fallecimiento en diciembre de 2015, recién cumplidos los 70 años. Lemmy: la autobiografía ofrece un viaje hilarante, desenfrenado y siempre sorprendente en compañía del líder de la «banda más ruidosa del mundo». Su historia y sus opiniones, narradas en primera persona, sin prejuicios y sin pelos en la lengua. El propio Lemmy lo advierte: «Si te ofendes con poca cosa, ¿qué haces leyendo este libro?».',
+        protagonista: 'Motorhead, Lemmy'
     }
 ];

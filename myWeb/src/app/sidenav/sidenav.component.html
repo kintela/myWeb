@@ -3,7 +3,11 @@
         <button mat-icon-button (click)="snav.toggle()">
             <mat-icon>menu</mat-icon>
         </button>
-        Kintela - info@kintela.es {{menuTitle}}
+        <div class="toolbar-content">
+            <span>Kintela</span>
+            <span class="title">{{menuTitle}}</span>
+            <span class="email">info@kintela.es</span>
+          </div>
     </mat-toolbar>
 
     <mat-sidenav-container class="sidenav-container">

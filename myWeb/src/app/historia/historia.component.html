@@ -1,14 +1,23 @@
 <mat-card>
     <mat-card-content>
+        <mat-form-field>
+            <mat-label>Plataforma</mat-label>
+            <mat-select [(ngModel)]="plataformaSeleccionada">
+                <mat-option *ngFor="let plataforma of plataformas" [value]="plataforma">
+                    {{ plataforma }}
+                </mat-option>
+            </mat-select>
+          </mat-form-field>
+
         <mat-accordion>
             <mat-expansion-panel>
                 <mat-expansion-panel-header>
                     <mat-panel-title>
-                        Guerra Civil Española
+                        Guerra Civil Española ({{ getVideoCountByCategory('guerra_civil') }})
                     </mat-panel-title>                        
                 </mat-expansion-panel-header>
                 <div class="fichas-contenedor">
-                    <ng-container *ngFor="let video of videos; let i = index">
+                    <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
                         <div *ngIf="video.categoria === 'guerra_civil'">
                           <app-ficha-video
                             [imagen]="'assets/caratulas/videos/' + video.imagen"
@@ -23,11 +32,11 @@
             <mat-expansion-panel>
                 <mat-expansion-panel-header>
                     <mat-panel-title>
-                        II Guerra Mundial
+                        II Guerra Mundial ({{ getVideoCountByCategory('ii_guerra_mundial') }})
                     </mat-panel-title>                        
                 </mat-expansion-panel-header>
                 <div class="fichas-contenedor">
-                    <ng-container *ngFor="let video of videos; let i = index">
+                    <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
                         <div *ngIf="video.categoria === 'ii_guerra_mundial'">
                           <app-ficha-video
                             [imagen]="'assets/caratulas/videos/' + video.imagen"

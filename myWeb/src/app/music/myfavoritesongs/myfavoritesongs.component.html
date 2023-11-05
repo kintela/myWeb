@@ -1,5 +1,5 @@
 <mat-card>
-  <mat-card-subtitle>Mis canciones favoritas</mat-card-subtitle>
+  <mat-card-subtitle>Mis <strong>{{canciones.length}}</strong> canciones favoritas para tocar con una buena acustica al lado de un buen fuego</mat-card-subtitle>
   <mat-card-content>
       <div *ngFor="let cancion of canciones; let i = index">
         <app-ficha-cancion

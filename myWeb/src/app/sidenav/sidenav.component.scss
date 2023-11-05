@@ -15,4 +15,21 @@
   button {
     cursor: pointer;
   }
+
+  .toolbar-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .email {
+    margin-left: auto; /* This will push the email to the right */
+  }
+
+  .title {
+    position: absolute; /* Positions the title absolutely within the toolbar */
+    left: 50%;
+    transform: translateX(-50%); /* This ensures the title is exactly in the middle */
+  }
+  
   

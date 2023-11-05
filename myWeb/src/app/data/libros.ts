@@ -437,5 +437,17 @@ export const libros:ILibro[]=[
         caratula: 'macro_festivales.jpeg',
         enlace:'https://www.amazon.es/Macrofestivales-agujero-negro-música-PENINSULA-ebook/dp/B0BXXLQ1RC/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1699127293&sr=8-1',
         sinopsis:'Los grandes festivales se han convertido en un fenómeno que trasciende la propia música, cuando no contribuye directamente a su estrangulamiento. Mueven miles de millones de euros, atraen turismo, exigen subvenciones, blanquean marcas, explotan a artistas y trabajadores y saquean al público. Aun así, no hay ciudad, grande o pequeña, que no apueste por el suyo. Nando Cruz disecciona en este libro una industria que ha crecido hasta desbordarse y nos sumerge en su historia y entresijos para entender que hay detrás de ese fin de semana bucólico de confetis, pulseras, luces y conciertos.'
+    },
+     {
+        titulo: 'Tom Petty',
+        categoria: 'Biografía',
+        autor: 'Warren Zanes',
+        ISBN:'978-84-15887-21-8',
+        depositoLegal:'M.381-2018',
+        caratula: 'petty.jpeg',
+        protagonista:'Tom Petty',
+        editorial:'https://www.alfaomega.es',
+        enlace:'https://www.alfaomega.es/libros/?texto=petty&action=busqueda_rapida',
+        sinopsis:'Petty nació en Gainesville, Florida, con mucha sangre sureña en las venas. A pesar de crecer en un ambiente rural cerrado que parecía ofrecerle un futuro poco prometedor, el rock and roll cambió su destino. Conoció a Elvis, vio la primera aparición de los Beatles en la TV estadounidense, fue productor de Del Shannon, formó una banda con George Harrison, Bob Dylan, Roy Orbison y Jeff Lynne, grabó discos con Johnny Cash y colocó docenas de sus propias composiciones en lo más alto de las listas de ventas. La vida de Tom Petty es una auténtica historia épica del rock and roll.\n\nHasta el momento de su repentino fallecimiento el 2 de octubre de 2017, a la edad de 66 años, las grabaciones y las giras siguieron formando parte de su día a día. Aunque tenía fama de proteger su privacidad, compartió con Warren Zanes ?rockero, escritor y amigo suyo? sus experiencias y su forma de entender la vida, sus aciertos y sus errores dentro y fuera del escenario, y muchos otros detalles personales. Todo ello queda recogido en esta biografía, tan intensa como rigurosa.'
     }
 ];

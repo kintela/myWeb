@@ -307,35 +307,35 @@ export const videos:IVideo[] = [
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi5zJfkxZ6CAxXWUqQEHazcDD0QFnoECA8QAQ&url=https%3A%2F%2Ftv.apple.com%2Fes%2Fmovie%2Fall-together-now%2Fumc.cmc.41me6g4yxgh94dpt2iu2v63iw&usg=AOvVaw3Flrq9hio8GXiJYCF-lduS&opi=89978449',
         texto: 'All Together now',
         categoria: 'the beatles',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'concert_for_george.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwiDxPWzzJ6CAxWZfKQEHZh0CU8QtwJ6BAgNEAI&url=https%3A%2F%2Ftv.apple.com%2Fes%2Fmovie%2Fconcert-for-george%2Fumc.cmc.5k3qb4dwsqc7nfmnlzy8bctq1&usg=AOvVaw1dqMAMKurf5CDEn_VOelmZ&opi=89978449',
         texto: 'Concert for George',
         categoria: 'the beatles',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'the_beatles_help.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjA4MX_z56CAxWyUaQEHTP4BtgQtwJ6BAgQEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Fhelp%2Fumc.cmc.3dix8n33y9glwds833f7imh2i%3Fl%3Des&usg=AOvVaw3mCZ2UTW4ZgjUTxzPJH6lO&opi=89978449',
         texto: 'Help!',
         categoria: 'the beatles',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'the_beatles_eight_days.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwiI2qnD0p6CAxUFV6QEHfATAU8QtwJ6BAgOEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Fthe-beatles-eight-days-a-week---the-touring-years%2Fumc.cmc.6sxri7yo7br98f4i9w2pc9hu5&usg=AOvVaw2gWdWlLWYYXGiVDp4Mo2x2&opi=89978449',
         texto: 'Eight days a week!',
         categoria: 'the beatles',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'yesterday.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwiLxojw056CAxXKVqQEHYqaA8wQtwJ6BAgPEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Fyesterday%2Fumc.cmc.6e1v9fydp0lrsikw1jvcjcfbm&usg=AOvVaw1vChQ5Srb-3uQrB5US3Psl&opi=89978449',
         texto: 'Yesterday',
         categoria: 'the beatles',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'rolling_stone_life_and_death_of_brian_jones.jpg',
@@ -356,14 +356,14 @@ export const videos:IVideo[] = [
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwiExcCB056CAxVfY6QEHVWbA1IQtwJ6BAgIEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Fthe-rolling-stones-sweet-summer-sun-hyde-park-live%2Fumc.cmc.68qq01fj56unxsxviozpg2cja&usg=AOvVaw39PTNNDVfBr6NkChmGs0HZ&opi=89978449',
         texto: 'Live at Hyde Park',
         categoria: 'the rolling stones',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'stones_crossfire.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwiJlKm5056CAxXRUaQEHfNFAxwQtwJ6BAgNEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Fthe-rolling-stones-crossfire-hurricane%2Fumc.cmc.a0faxt7rf50xtbl7leebv0vl&usg=AOvVaw2S5E7cqMnVw8NvsKE4P1k1&opi=89978449',
         texto: 'Crossfire Hurricane',
         categoria: 'the rolling stones',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'mi_vida_como_un_stone.jpeg',
@@ -384,21 +384,21 @@ export const videos:IVideo[] = [
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjZzd-fzZ6CAxW7SKQEHdq6DjIQtwJ6BAgMEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Feric-clapton---slowhand-at-70-live-at-the-royal-albert-hall%2Fumc.cmc.57x7tgjvpjeesswjdj7tcfz11&usg=AOvVaw18ID8G8nCF7lPVor627UpZ&opi=89978449',
         texto: 'Live at The Royal Albert Hall',
         categoria: 'eric clapton',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'eric_clapton_planes.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwi_qbCBzp6CAxVmVaQEHXGAC-QQtwJ6BAgOEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Feric-clapton-planes-trains-and-eric%2Fumc.cmc.1w7xc7qzk8qnkwxegc84obng3&usg=AOvVaw2uI7oF5hlS413p8caO3xll&opi=89978449',
         texto: 'Planes,Trains and Eric',
         categoria: 'eric clapton',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'eric_clapton_unplugged.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjM4Le0zp6CAxXFUKQEHf-3CRoQtwJ6BAgMEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Feric-clapton-unplugged%2Fumc.cmc.1u9fzvr9nc5a18qndsigb6rd7%3Fl%3Des&usg=AOvVaw1sytk8pa4mIMl62Pv5rkmm&opi=89978449',
         texto: 'Unplugged',
         categoria: 'eric clapton',
-        plataforma: 'appleTv'
+        plataforma: 'appleTV'
     },
     {
         imagen: 'monterey.jpg',

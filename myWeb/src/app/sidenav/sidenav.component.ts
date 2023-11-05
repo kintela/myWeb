@@ -9,6 +9,6 @@ export class SidenavComponent {
   menuTitle:string="";
 
   changeTitle(title: string) {
-    this.menuTitle=' - ' + title;
+    this.menuTitle= title;
   }
 }

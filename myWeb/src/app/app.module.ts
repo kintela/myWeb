@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -33,7 +33,12 @@ import { FormsModule } from '@angular/forms';
 import { PartituraComponent } from './music/canciones/partitura/partitura.component';
 import { LibrosComponent } from './music/libros/libros.component';
 import { FichaLibroComponent } from './shared/ficha-libro/ficha-libro.component';
+import { ConciertosComponent } from './music/conciertos/conciertos.component';
+import localeEs from '@angular/common/locales/es';
+import { registerLocaleData } from '@angular/common';
+import { ReproductorVideoComponent } from './shared/reproductor-video/reproductor-video.component';
 
+registerLocaleData(localeEs);
 
 @NgModule({
   declarations: [
@@ -59,7 +64,7 @@ import { FichaLibroComponent } from './shared/ficha-libro/ficha-libro.component'
     Cancion16Component, 
     Cancion17Component,
     DocuseriesComponent, 
-    FichaVideoComponent, FichaCancionComponent, HistoriaComponent, PartituraComponent, LibrosComponent, FichaLibroComponent
+    FichaVideoComponent, FichaCancionComponent, HistoriaComponent, PartituraComponent, LibrosComponent, FichaLibroComponent, ConciertosComponent, ReproductorVideoComponent
   ],
   imports: [
     BrowserModule,
@@ -68,7 +73,9 @@ import { FichaLibroComponent } from './shared/ficha-libro/ficha-libro.component'
     MaterialModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    { provide: LOCALE_ID, useValue: 'es' } // Configurar español como el locale predeterminado
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

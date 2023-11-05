@@ -1,0 +1,46 @@
+<mat-table [dataSource]="conciertos" class="mat-elevation-z8">
+    <!-- Columna de Fecha -->
+    <ng-container matColumnDef="fecha">
+      <mat-header-cell *matHeaderCellDef> Fecha </mat-header-cell>
+      <mat-cell *matCellDef="let concierto"> {{ concierto.fecha | date:'dd/MM/yyyy' }} </mat-cell>
+    </ng-container>
+  
+    <!-- Columna de Grupos -->
+    <ng-container matColumnDef="grupo">
+      <mat-header-cell *matHeaderCellDef> Grupos </mat-header-cell>
+      <mat-cell *matCellDef="let concierto"> {{ concierto.grupo }} </mat-cell>
+    </ng-container>
+  
+    <!-- Columna de Ciudad -->
+    <ng-container matColumnDef="ciudad">
+      <mat-header-cell *matHeaderCellDef> Ciudad </mat-header-cell>
+      <mat-cell *matCellDef="let concierto"> {{ concierto.ciudad }} </mat-cell>
+    </ng-container>
+  
+    <!-- Columna de Sala -->
+    <ng-container matColumnDef="sala">
+      <mat-header-cell *matHeaderCellDef> Sala </mat-header-cell>
+      <mat-cell *matCellDef="let concierto"> {{ concierto.sala }} </mat-cell>
+    </ng-container>
+  
+    <!-- Columna de Videos -->
+    <ng-container matColumnDef="videos">
+      <mat-header-cell *matHeaderCellDef> Videos </mat-header-cell>
+      <mat-cell *matCellDef="let concierto">
+        <div class="scrollable-videos">
+            <ng-container *ngFor="let videoUrl of concierto.videos; let i = index">
+                <a (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
+              </ng-container>
+        </div>    
+      </mat-cell>
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="['fecha', 'grupo', 'ciudad', 'sala', 'videos']; sticky:true"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: ['fecha', 'grupo', 'ciudad', 'sala', 'videos'];"></mat-row>
+  </mat-table>
+
+  <div class="video-container">
+    <iframe width="560" height="315" [src]="currentVideoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  

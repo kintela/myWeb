@@ -17,7 +17,6 @@ export class MyfavoritesongsComponent {
   constructor(private router: Router, private dialog: MatDialog) { }
 
   navegarACancion(indice: number) {
-    //this.router.navigate(['cancion' + (indice + 1)]);
     this.router.navigate(['cancion' + (indice + 1)], { queryParams: 
       { 
         titulo: this.canciones[indice].titulo, 

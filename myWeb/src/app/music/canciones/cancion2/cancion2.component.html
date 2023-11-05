@@ -19,10 +19,18 @@
       <p>
         La canción destaca por su uso de un sintetizador Moog, uno de los primeros usos de este instrumento en la música pop.
       </p>
-  
-      <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TmBTYK7XZQk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+      <div class="link-container">
+        <a (click)="setVideo('https://www.youtube.com/embed/TmBTYK7XZQk')" class="clickable-link">The Beatles</a>
       </div>
+
+      <div class="video-container">
+        <iframe width="560" height="315" [src]="currentVideoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+  
+      <!--<div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TmBTYK7XZQk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>-->
     </mat-card-content>
   </mat-card>
   

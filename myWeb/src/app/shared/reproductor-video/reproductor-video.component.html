@@ -1,0 +1,10 @@
+<mat-card>
+    <mat-card-content>
+        <div class="video-container">
+            <iframe width="560" height="315" [src]="currentVideoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </mat-card-content>
+        <mat-card-actions align="end">
+            <button mat-raised-button color="primary" (click)="cerrarDialogo()">Cerrar</button>
+      </mat-card-actions>      
+</mat-card>

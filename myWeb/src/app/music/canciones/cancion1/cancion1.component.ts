@@ -27,7 +27,8 @@ export class Cancion1Component implements OnInit {
 
 
   setVideo(url: string): void {
-    this.currentVideoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(url);
+    const autoplayUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${url}?autoplay=1`);
+    this.currentVideoUrl = autoplayUrl;
   }
 
 

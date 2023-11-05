@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -11,8 +12,9 @@ export class Cancion2Component implements OnInit {
   grupo:string;
   album:string;
   anio:number;
+  currentVideoUrl: SafeResourceUrl;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer) { }
   
    ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
@@ -21,6 +23,10 @@ export class Cancion2Component implements OnInit {
       this.album = params['album'];
       this.anio = params['anio'];
     });
+  }
+  setVideo(url: string): void {
+    const autoplayUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${url}?autoplay=1`);
+    this.currentVideoUrl = autoplayUrl;
   }
 }
   

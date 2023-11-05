@@ -40,6 +40,11 @@
                             <mat-icon class="mat-icon-color">book</mat-icon>Libros
                         </a>
                     </mat-nav-list>
+                    <mat-nav-list (click)="snav.toggle()">
+                        <a mat-list-item class='nav-link' routerLink="music/conciertos" (click)="changeTitle('Conciertos')">
+                            <mat-icon class="mat-icon-color">groups</mat-icon>Conciertos
+                        </a>
+                    </mat-nav-list>
                 </mat-expansion-panel>
             </mat-accordion>
 

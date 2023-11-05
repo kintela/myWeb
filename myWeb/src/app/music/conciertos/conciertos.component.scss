@@ -5,14 +5,20 @@
     margin-bottom: 10px; /* Añade un margen en la parte inferior si deseas que se envuelvan a la siguiente línea */
     display: inline-block; /* Esto asegura que el margen inferior se aplique correctamente */
   }
-  
-  .link-container {
-    text-align: center; /* Centra los enlaces horizontalmente si deseas */
-    margin-bottom: 20px; /* Espacio entre los enlaces y el reproductor de video */
-  }
 
   .video-container {
     display: flex;
     justify-content: center; /* Centra el contenido en el eje horizontal */
     align-items: center; /* Centra el contenido en el eje vertical si es necesario */
   }
+
+  .scrollable-videos {
+    max-height: 150px; // La altura máxima antes de que comience a desplazar
+    overflow-y: auto; // Esto añade desplazamiento vertical si el contenido excede el max-height
+    display: flex;
+    flex-wrap: wrap; // Esto permite que los elementos pasen a la siguiente línea
+    gap: 4px; // Esto añade un pequeño espacio entre los enlaces
+    align-content: flex-start; // Asegura que los contenidos se alineen al principio
+  }
+  
+  

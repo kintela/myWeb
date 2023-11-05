@@ -16,20 +16,29 @@
     cursor: pointer;
   }
 
+  mat-toolbar {
+    font-size: 16px;
+}
   .toolbar-content {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
+
+  .toolbar-content span {
+    font-size: 14px;
+}
   
   .email {
     margin-left: auto; /* This will push the email to the right */
+    font-size: 12px;
   }
 
   .title {
     position: absolute; /* Positions the title absolutely within the toolbar */
     left: 50%;
     transform: translateX(-50%); /* This ensures the title is exactly in the middle */
+    font-size: 18px;
   }
   
   

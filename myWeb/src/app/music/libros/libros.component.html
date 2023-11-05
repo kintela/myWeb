@@ -6,7 +6,7 @@
         <mat-form-field>
             <mat-label>Buscar</mat-label>
             <input matInput [(ngModel)]="filtroBusqueda" (ngModelChange)="actualizarFiltro()" placeholder="Escribe para filtrar..." />
-          </mat-form-field>
+        </mat-form-field>
           
         <div class="fichas-contenedor">
             <ng-container *ngFor="let libro of librosFiltrados; let i = index">

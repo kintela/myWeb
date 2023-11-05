@@ -1,46 +1,73 @@
-<mat-table [dataSource]="conciertos" class="mat-elevation-z8">
-    <!-- Columna de Fecha -->
-    <ng-container matColumnDef="fecha">
-      <mat-header-cell *matHeaderCellDef> Fecha </mat-header-cell>
-      <mat-cell *matCellDef="let concierto"> {{ concierto.fecha | date:'dd/MM/yyyy' }} </mat-cell>
-    </ng-container>
-  
-    <!-- Columna de Grupos -->
-    <ng-container matColumnDef="grupo">
-      <mat-header-cell *matHeaderCellDef> Grupos </mat-header-cell>
-      <mat-cell *matCellDef="let concierto"> {{ concierto.grupo }} </mat-cell>
-    </ng-container>
-  
-    <!-- Columna de Ciudad -->
-    <ng-container matColumnDef="ciudad">
-      <mat-header-cell *matHeaderCellDef> Ciudad </mat-header-cell>
-      <mat-cell *matCellDef="let concierto"> {{ concierto.ciudad }} </mat-cell>
-    </ng-container>
-  
-    <!-- Columna de Sala -->
-    <ng-container matColumnDef="sala">
-      <mat-header-cell *matHeaderCellDef> Sala </mat-header-cell>
-      <mat-cell *matCellDef="let concierto"> {{ concierto.sala }} </mat-cell>
-    </ng-container>
-  
-    <!-- Columna de Videos -->
-    <ng-container matColumnDef="videos">
-      <mat-header-cell *matHeaderCellDef> Videos </mat-header-cell>
-      <mat-cell *matCellDef="let concierto">
-        <div class="scrollable-videos">
-            <ng-container *ngFor="let videoUrl of concierto.videos; let i = index">
-                <a (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
-              </ng-container>
-        </div>    
-      </mat-cell>
-    </ng-container>
-  
-    <mat-header-row *matHeaderRowDef="['fecha', 'grupo', 'ciudad', 'sala', 'videos']; sticky:true"></mat-header-row>
-    <mat-row *matRowDef="let row; columns: ['fecha', 'grupo', 'ciudad', 'sala', 'videos'];"></mat-row>
-  </mat-table>
 
-  <div class="video-container">
-    <iframe width="560" height="315" [src]="currentVideoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-  </div>
+<div class="encabezado-con-busqueda">
+    <mat-form-field class="campo-busqueda">
+        <mat-label>Buscar</mat-label>
+        <input matInput [(ngModel)]="filtroBusqueda" (ngModelChange)="actualizarFiltro()" placeholder="Escribe para filtrar..." />
+    </mat-form-field>
+    <h4>{{conciertosFiltrados.length}} coincidencias</h4>
+</div>
+     
+<mat-table [dataSource]="conciertosFiltrados" *ngIf="!isScreenSmall" class="mat-elevation-z8">
+        <!-- Columna de Fecha -->
+        <ng-container matColumnDef="fecha">
+          <mat-header-cell *matHeaderCellDef> Fecha </mat-header-cell>
+          <mat-cell *matCellDef="let concierto"> {{ concierto.fecha | date:'dd/MM/yyyy' }} </mat-cell>
+        </ng-container>
+      
+        <!-- Columna de Grupos -->
+        <ng-container matColumnDef="grupo">
+          <mat-header-cell *matHeaderCellDef> Grupos </mat-header-cell>
+          <mat-cell *matCellDef="let concierto"> {{ concierto.grupo }} </mat-cell>
+        </ng-container>
+      
+        <!-- Columna de Ciudad -->
+        <ng-container matColumnDef="ciudad">
+          <mat-header-cell *matHeaderCellDef> Ciudad </mat-header-cell>
+          <mat-cell *matCellDef="let concierto"> {{ concierto.ciudad }} </mat-cell>
+        </ng-container>
+      
+        <!-- Columna de Sala -->
+        <ng-container matColumnDef="sala">
+          <mat-header-cell *matHeaderCellDef> Sala </mat-header-cell>
+          <mat-cell *matCellDef="let concierto"> {{ concierto.sala }} </mat-cell>
+        </ng-container>
+      
+        <!-- Columna de Videos -->
+        <ng-container matColumnDef="videos">
+          <mat-header-cell *matHeaderCellDef> Videos </mat-header-cell>
+          <mat-cell *matCellDef="let concierto">
+            <div class="scrollable-videos">
+                <ng-container *ngFor="let videoUrl of concierto.videos; let i = index">
+                    <a (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
+                </ng-container>
+            </div>    
+          </mat-cell>
+        </ng-container>
+      
+        <mat-header-row *matHeaderRowDef="['fecha', 'grupo', 'ciudad', 'sala', 'videos']; sticky:true"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: ['fecha', 'grupo', 'ciudad', 'sala', 'videos'];"></mat-row>
+</mat-table>
+
+<ng-container *ngIf="isScreenSmall">
+    <div *ngFor="let concierto of conciertosFiltrados" >
+        <mat-card>
+            <mat-card-subtitle>
+                {{ concierto.grupo }}
+            </mat-card-subtitle>
+        </mat-card>
+        <mat-card-content>
+            <p><strong>Fecha:</strong> {{ concierto.fecha | date:'dd/MM/yyyy' }}</p>
+            <p><strong>Ciudad:</strong> {{ concierto.ciudad }}</p>
+            <p><strong>Sala:</strong> {{ concierto.sala }}</p>
+            <div class="video-links">
+                <ng-container *ngFor="let videoUrl of concierto.videos; let i = index">
+                    <a (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
+                </ng-container>
+            </div>
+        </mat-card-content>
+    </div>
+</ng-container>
+
+
   
   

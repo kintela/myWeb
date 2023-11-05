@@ -83,7 +83,7 @@ export const conciertos:IConcierto[]=[
     {
         fecha: new Date(2021, 11, 12),
         ciudad: 'Basauri',
-        sala: 'MAZ Basauri',
+        sala: 'Antzokia-MAZ Basauri',
         grupo: 'Xoel López',
         festival: true,
         videos:['https://www.youtube.com/embed/Ssg71F5pqLA?si=yI5My4WFI_IhiMRP']
@@ -103,5 +103,160 @@ export const conciertos:IConcierto[]=[
         grupo: 'Lori Meyers',
         videos:['https://www.youtube.com/embed/G4Hd8hzEmQk?si=wgGZdNUnFeZdvNh5']
         
+    },
+    {
+        fecha: new Date(2021, 11, 5),
+        ciudad: 'Bilbao',
+        sala: 'Bilbao Arena',
+        grupo: 'Robe Iniesta',
+        videos:['https://www.youtube.com/embed/pEEI6ssTeOQ?si=5tVlfEMx65jsT3l2']
+        
+    },
+    {
+        fecha: new Date(2019, 10, 31),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia-BIME',
+        grupo: 'Jo Goes Hunting',
+        festival: true,
+        videos:['https://www.youtube.com/embed/gpC7-BvyNW8?si=uoLptZCN-1ivDxnU','https://www.youtube.com/embed/I-AkdtogAQA?si=ADoB6_Jb2QqRhgxo']
+    },
+    {
+        fecha: new Date(2019, 10, 31),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia-BIME',
+        grupo: 'Thomas Azier',
+        festival: true,
+        videos:['https://www.youtube.com/embed/ZC6gBD-Cfvs?si=m8FPJE9SM8QpBFbh','https://www.youtube.com/embed/Y2bdQZb9j14?si=wUf67ROzCiTmCBaX','https://www.youtube.com/embed/85JwXUNY8GI?si=6YdtugrXcL7AfGa3']
+    },
+    {
+        fecha: new Date(2019, 10, 31),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia-BIME',
+        grupo: 'Someone',
+        festival: true,
+        videos:['https://www.youtube.com/embed/PlWYa84duAg?si=_hDzw3XRK4mnnGeZ','https://www.youtube.com/embed/B5D0CSKB9K4?si=LAjKJE42MUT7Q20Z']
+    },
+    {
+        fecha: new Date(2019, 10, 21),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia',
+        grupo: 'White Lies',
+        videos:['https://www.youtube.com/embed/p5Du4y-cDAQ?si=p7tEp1_cXJzZksDY','https://www.youtube.com/embed/QPf0pGTJLi0?si=8Io8WM9jvNU8iTPU','https://www.youtube.com/embed/F2MMfad-8XM?si=5M6Nixb0Z4Vuea0M','https://www.youtube.com/embed/2hyzsCy1iSE?si=iGsbZhojYjF8dMX5','https://www.youtube.com/embed/-jtjAC7a5F4?si=jh8LjGiVHUcTB7uR']
+    },
+    {
+        fecha: new Date(2019, 5, 18),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia',
+        grupo: 'Los Zigarros',
+        videos:['https://www.youtube.com/embed/oqSpZP1fP_4?si=5MqOrCpnFLEX4R97','https://www.youtube.com/embed/6m7a_I7L3UM?si=86FgDGYXo4tmDyL5','https://www.youtube.com/embed/8e37agpcVfQ?si=gSrVCRue9eOU-moO','https://www.youtube.com/embed/zGVaXRdzQxQ?si=mELNnPB5eblbNulS']
+    },
+    {
+        fecha: new Date(2019, 4, 20),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia-Basque Fest',
+        grupo: 'James Room & Weird Antiqua',
+        festival: true,
+        videos:['https://www.youtube.com/embed/JNkg38SQC6s?si=tgjtaX0_9TNsbJ9I','https://www.youtube.com/embed/dH7B7TADjsQ?si=3K1XJMD8A35_oXHa','https://www.youtube.com/embed/bCibjpII6D4?si=BRcE3BIpTmuUUPGb']
+    },
+    {
+        fecha: new Date(2019, 4, 20),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia-Basque Fest',
+        grupo: 'Mississippi Queen & The Wet Dogs',
+        festival: true,
+        videos:['https://www.youtube.com/embed/TJW1e1LD-U0?si=Ah9MRNcbV3dUtXKa']
+    },
+    {
+        fecha: new Date(2019, 4, 20),
+        ciudad: 'Bilbao',
+        sala: 'Azkena',
+        grupo: 'Diavlo',
+        videos:['https://www.youtube.com/embed/YhwlNTRlo0k?si=Fl8GGR4Bp748pSfW']
+    },
+    {
+        fecha: new Date(2018, 11, 3),
+        ciudad: 'Bilbao',
+        sala: 'San Mames',
+        grupo: 'Muse',
+        videos:['https://www.youtube.com/embed/xZCGYluPj5Q?si=iQOhQodZoetQhyVJ']
+    },
+    {
+        fecha: new Date(2018, 8, 24),
+        ciudad: 'Bilbao',
+        sala: 'Aire Libre-Aste Nagusia',
+        grupo: 'Santiago Auserón',
+        videos:['https://www.youtube.com/embed/mOJJ4nGkHgs?si=GvM3S2aZPLHYYYDF']
+    },
+    {
+        fecha: new Date(2018, 10, 11),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia',
+        grupo: 'Morgan',
+        videos:['https://www.youtube.com/embed/izOCKYVKNXo?si=ctjrXqh62u5Z1-cn','https://www.youtube.com/embed/JCqu_ZjFf4Q?si=UkQL49OzvTdU-_-Q','https://www.youtube.com/embed/F54RnPaFniE?si=BCdghKbSjjVwf3mV']
+    },
+    {
+        fecha: new Date(2018, 5, 11),
+        ciudad: 'Bilbao',
+        sala: 'Santana 27',
+        grupo: 'Monster Magnet',
+        videos:['https://www.youtube.com/embed/z-noysya98g?si=rGgxO8bryOpgCkO2','https://www.youtube.com/embed/Nw0_6Q_TFFI?si=57xWUIAKURCK-qxF']
+    },
+    {
+        fecha: new Date(2018, 5, 11),
+        ciudad: 'Bilbao',
+        sala: 'Santana 27',
+        grupo: 'Pendejo',
+        videos:['https://www.youtube.com/embed/kG1f8vNxAjI?si=5Qjb4EOo2NqPKa2N']
+    },
+    {
+        fecha: new Date(2018, 4, 28),
+        ciudad: 'Basauri',
+        sala: 'Antzokia-MAZ Basauri',
+        grupo: 'Sidonie',
+        festival: true,
+        videos:['https://www.youtube.com/embed/Q_I_c9oOHTg?si=ecaXNwRY-BjR2pmI']
+    },
+    {
+        fecha: new Date(2018, 4, 28),
+        ciudad: 'Basauri',
+        sala: 'Antzokia-MAZ Basauri',
+        grupo: 'Rufus T. Firefly',
+        festival: true,
+        videos:['https://www.youtube.com/embed/9cE1Imji6Gs?si=j0RGiUn8dL4-sMTq','https://www.youtube.com/embed/BqdQD5zsV8M?si=YjrT1p9Xd9UYLmme']
+    },
+    {
+        fecha: new Date(2018, 4, 14),
+        ciudad: 'Bilbao',
+        sala: 'Stage Live',
+        grupo: 'Mi Capitán', 
+        videos:['https://www.youtube.com/embed/DyCt15JrTHs?si=56otubOT8CboNWT5','https://www.youtube.com/embed/KovlbQ9VRMw?si=47fSk7bknskelWQY','https://www.youtube.com/embed/Ww-P02LT7n8?si=tsRtpHW1qy4my4NM','https://www.youtube.com/embed/DacEgxdczmU?si=R5Rg6SESd7nLpKaV','https://www.youtube.com/embed/bjy8nb2zvlo?si=KViuSPqslmXtbd-w','https://www.youtube.com/embed/iFqBsLfpSes?si=08T9vNIofIIx4uyN','https://www.youtube.com/embed/GWBLM7NNIXY?si=xOYXAhJ_tWlHkO-C']
+    },
+    {
+        fecha: new Date(2018, 4, 7),
+        ciudad: 'Bilbao',
+        sala: 'Satelite T',
+        grupo: 'Los DelTonos', 
+        videos:['https://www.youtube.com/embed/zAsgemLIzrY?si=Fq7ORbmhef3jEiwf','https://www.youtube.com/embed/1YTGMN5NtE8?si=r6_FvwCzcLMWXzaD']
+    },
+    {
+        fecha: new Date(2018, 3, 31),
+        ciudad: 'Bilbao',
+        sala: 'La Alhondiga',
+        grupo: 'Ruper Ordorika',
+        videos:['https://www.youtube.com/embed/2rEVul3PgkI?si=9sTeiaSONi7fNqOi']
+    },
+    {
+        fecha: new Date(2018, 3, 16),
+        ciudad: 'Durango',
+        sala: 'Plateruena',
+        grupo: 'Seiurte',
+        videos:['https://www.youtube.com/embed/nX5R_r6nPwE?si=VDUPSj3qWXMWNOFn']
+    },
+    {
+        fecha: new Date(2018, 3, 16),
+        ciudad: 'Durango',
+        sala: 'Plateruena',
+        grupo: 'Luis Brea',
+        videos:['https://www.youtube.com/embed/9dZs3juDN8g?si=af1omRb48EchiGo6','https://www.youtube.com/embed/nzbxZbcor2M?si=1lE1Is6L6O-burvP']
     }
 ];

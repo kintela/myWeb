@@ -6,12 +6,6 @@
     display: inline-block; /* Esto asegura que el margen inferior se aplique correctamente */
   }
 
-  .video-container {
-    display: flex;
-    justify-content: center; /* Centra el contenido en el eje horizontal */
-    align-items: center; /* Centra el contenido en el eje vertical si es necesario */
-  }
-
   .scrollable-videos {
     max-height: 150px; // La altura máxima antes de que comience a desplazar
     overflow-y: auto; // Esto añade desplazamiento vertical si el contenido excede el max-height
@@ -20,5 +14,30 @@
     gap: 4px; // Esto añade un pequeño espacio entre los enlaces
     align-content: flex-start; // Asegura que los contenidos se alineen al principio
   }
+
+  .encabezado-con-busqueda {
+    display: flex;
+    justify-content: space-between; /* O puedes usar flex-start para alinearlos a la izquierda */
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 20px; /* Establece una separación fija entre elementos */
+  }
+  
+  .encabezado-con-busqueda h4 {
+    flex: 0 0 auto; /* No crece, no se encoje y se basa en su ancho automático */
+  }
+
+  .encabezado-con-busqueda .campo-busqueda {
+    flex: 0 0 auto; /* Evita que el campo de búsqueda crezca más allá de su contenido */
+    width: auto; /* Se ajusta al tamaño de su contenido, puedes cambiarlo a un valor fijo si prefieres */
+    max-width: 500px; /* O el valor que prefieras para establecer un ancho máximo */
+  }
+  
+  /* Si necesitas que el mat-form-field no se expanda demasiado */
+  .encabezado-con-busqueda mat-form-field {
+    flex: 1; /* Permite que el mat-form-field crezca ocupando el espacio disponible */
+  }
+  
+
+
   
   

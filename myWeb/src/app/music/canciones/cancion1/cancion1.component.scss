@@ -1,1 +1,18 @@
+.clickable-link {
+    cursor: pointer;
+    text-decoration: underline; /* Esto es opcional para darle un aspecto más similar a un enlace */
+    margin-right: 10px; /* Añade un margen a la derecha de cada enlace */
+    margin-bottom: 10px; /* Añade un margen en la parte inferior si deseas que se envuelvan a la siguiente línea */
+    display: inline-block; /* Esto asegura que el margen inferior se aplique correctamente */
+  }
+  
+  .link-container {
+    text-align: center; /* Centra los enlaces horizontalmente si deseas */
+    margin-bottom: 20px; /* Espacio entre los enlaces y el reproductor de video */
+  }
 
+  .video-container {
+    display: flex;
+    justify-content: center; /* Centra el contenido en el eje horizontal */
+    align-items: center; /* Centra el contenido en el eje vertical si es necesario */
+  }

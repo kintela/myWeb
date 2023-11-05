@@ -19,24 +19,18 @@
       <p>
         En 1957, en una edición de la revista "French magazine Western World", Sinatra fue citado diciendo: "El rock 'n' roll es la música más brutal, fea, desesperada, viciosa de algún tipo en los anales de la barbarie y la degeneración." No creía que fuera una forma de arte válida y pensaba que estaba realizado por "cretinos vestidos de payasos".
       </p>
-  
-      <mat-table [dataSource]="videos" class="mat-elevation-z8">
-        <ng-container matColumnDef="video1">
-          <mat-header-cell *matHeaderCellDef></mat-header-cell>
-          <mat-cell *matCellDef="let video"> 
-            <iframe width="560" height="315" [src]="video.video1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-          </mat-cell>
-        </ng-container>
-  
-        <ng-container matColumnDef="video2">
-          <mat-header-cell *matHeaderCellDef></mat-header-cell>
-          <mat-cell *matCellDef="let video"> 
-            <iframe width="560" height="315" [src]="video.video2" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-          </mat-cell>
-        </ng-container>
-  
-        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
-      </mat-table>
+
+      <div class="link-container">
+        <a (click)="setVideo('https://www.youtube.com/embed/4SLIdu8VGqQ')" class="clickable-link">George Harrison</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/BJKVglbFmkA')" class="clickable-link">Frank Sinatra</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/-0yp3F7wbZo')" class="clickable-link">Elvis</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/H1EQNL_Qwb0')" class="clickable-link">Brian May</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/dKOoDBm4YR0')" class="clickable-link">Jeff Lyne, Jose Walsh & friends</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/Xl-BNTeJXjw')" class="clickable-link">Paul McCartney, Eric Clapton & Friends</a>
+      </div>
+
+      <div class="video-container">
+        <iframe width="560" height="315" [src]="currentVideoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
     </mat-card-content>
   </mat-card>

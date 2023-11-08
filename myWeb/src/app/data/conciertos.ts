@@ -258,5 +258,126 @@ export const conciertos:IConcierto[]=[
         sala: 'Plateruena',
         grupo: 'Luis Brea',
         videos:['https://www.youtube.com/embed/9dZs3juDN8g?si=af1omRb48EchiGo6','https://www.youtube.com/embed/nzbxZbcor2M?si=1lE1Is6L6O-burvP']
-    }
+    },
+    {
+        fecha: new Date(2017, 1, 25),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia',
+        grupo: 'Angel Stanich',
+        videos:['https://www.youtube.com/embed/nrRg2f9rLXI?si=QifdXTeLBC0rL7DH','https://www.youtube.com/embed/COGprESR0qE?si=vH1nikiGWjyEed3O']
+    },
+    {
+        fecha: new Date(2017, 12, 29),
+        ciudad: 'Vitoria',
+        sala: 'Jimmy Jazz',
+        grupo: 'Julian Maeso',
+        videos:['https://www.youtube.com/embed/J3490UtOao8?si=l4mwE7HxBsGjeCAH','https://www.youtube.com/embed/BmMrQxULhNs?si=4kxp1e0OLIBumOUd','https://www.youtube.com/embed/Kg6NROQgqj8?si=oa4go3UoxWfMpgla']
+    },
+    {
+        fecha: new Date(2017, 11, 12),
+        ciudad: 'Bilbao',
+        sala: 'Kutxa Beltza',
+        grupo: 'Chuck Prophet',
+        videos:['https://www.youtube.com/embed/HPGKsqMYGb4?si=8YWOS3i1HGOHjKX_,','https://www.youtube.com/embed/zJstEdiXFUU?si=OC0xw2ULCNpcdwJc']
+    },
+    {
+        fecha: new Date(2017, 11, 11),
+        ciudad: 'Bilbao',
+        sala: 'Palacion Euskalduna',
+        grupo: 'Loquillo',
+        videos:['https://www.youtube.com/embed/K-KSoQJoxw0?si=HWUZOyW-mylIcsRk']
+    },
+    {
+        fecha: new Date(2017, 7, 15),
+        ciudad: 'Santurtzi',
+        sala: 'Fiestas',
+        grupo: 'Def Con Dos',
+        videos:['https://www.youtube.com/embed/7G-ahSYD5nY?si=OM-lEf0RNciBHc1g']    
+    },
+    {
+        fecha: new Date(2017, 7, 13),
+        ciudad: 'Santurtzi',
+        sala: 'Fiestas',
+        grupo: 'Manifa',
+        videos:['https://www.youtube.com/embed/Vmwd2vryl1A?si=ozx6V0RhbNi_1vh2','https://www.youtube.com/embed/ZbZZMvOuR2E?si=5bzdocqRFQRo5mNe']    
+    },
+    {
+        fecha: new Date(2017, 7, 15),
+        ciudad: 'Getxo',
+        sala: 'Getxo Blues',
+        grupo: 'William Bell',
+        festival: true,
+        videos:['https://www.youtube.com/embed/KCWrsHiOT0c?si=WpjW52UtBl2FmjhU']
+    },
+    {
+        fecha: new Date(2017, 7, 7),
+        ciudad: 'Madrid',
+        sala:'Mad Cool',
+        grupo: 'Green Day',
+        festival: true,
+        videos:['https://www.youtube.com/embed/39yR3dFg7LI?si=ZVIoz81wQ-Lx9Yfn','https://www.youtube.com/embed/LiuiKhQBdoQ?si=gAxQpvYPAMH_Q_XN']
+    },
+    {
+        fecha: new Date(2017, 7, 8),
+        ciudad: 'Madrid',
+        sala:'Mad Cool',
+        grupo: 'Kings Of Leon',
+        festival: true,
+        videos:['https://www.youtube.com/embed/h1hnMGLd7NI?si=h0z0BbzPMiGTPdxo']
+    },
+    {
+        fecha: new Date(2017, 7, 8),
+        ciudad: 'Madrid',
+        sala:'Mad Cool',
+        grupo: 'Wilco',
+        festival: true,
+        videos:['https://www.youtube.com/embed/7WWo2UDWtbQ?si=enB3-Uxd-elY79yv']
+    },
+    {
+        fecha: new Date(2017, 7, 7),
+        ciudad: 'Madrid',
+        sala:'Mad Cool',
+        grupo: 'Ryan Adams',
+        festival: true,
+        videos:['https://www.youtube.com/embed/y8JrggpLlGI?si=hBfAkMcyg3pEpav6']
+    },
+    {
+        fecha: new Date(2017, 7, 8),
+        ciudad: 'Madrid',
+        sala:'Mad Cool',
+        grupo: 'Manic Street Preachers',
+        festival: true,
+        videos:['https://www.youtube.com/embed/xjQAiD5CrXk?si=kFG2uiz9jmfOMqco']
+    },
+    {
+        fecha: new Date(2017, 7, 6),
+        ciudad: 'Madrid',
+        sala:'Mad Cool',
+        grupo: 'Foo Fighters',
+        festival: true,
+        videos:['https://www.youtube.com/embed/sRJF0GBkQOM?si=B9Q-sugXSBbBXbPW','https://www.youtube.com/embed/9j4DmQhY-t8?si=AdGZbQ9uek3wqxjy']
+    },
+    {
+        fecha: new Date(2017, 7, 8),
+        ciudad: 'Madrid',
+        sala:'Mad Cool',
+        grupo: 'Neuman',
+        festival: true,
+        videos:['https://www.youtube.com/embed/-GQqUfbAJjA?si=xwcWO4tl65a7Nd2c']
+    },
+    {
+        fecha: new Date(2017, 5, 30),
+        ciudad: 'Bilbao',
+        sala:'San Mames',
+        grupo: 'Gun\'s and Roses',
+        videos:['https://www.youtube.com/embed/wp0dLtX4kRo?si=5EQc2UikMSjaP5II','https://www.youtube.com/embed/Hf28LlP4RW8?si=YAfMLoCFEC35vvWb','https://www.youtube.com/embed/3gPL12dCrz4?si=0QWChEMxYNM3hxLQ']
+    },
+    {
+        fecha: new Date(2017, 4, 13),
+        ciudad: 'Bilbao',
+        sala:'Basque fest',
+        grupo: 'Urko',
+        festival: true,
+        videos:['https://www.youtube.com/embed/06Cbt95p9Ak?si=7lmQgngEiWR5j3Eo']
+    },
 ];

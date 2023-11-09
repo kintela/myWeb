@@ -438,7 +438,7 @@ export const libros:ILibro[]=[
         enlace:'https://www.amazon.es/Macrofestivales-agujero-negro-música-PENINSULA-ebook/dp/B0BXXLQ1RC/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1699127293&sr=8-1',
         sinopsis:'Los grandes festivales se han convertido en un fenómeno que trasciende la propia música, cuando no contribuye directamente a su estrangulamiento. Mueven miles de millones de euros, atraen turismo, exigen subvenciones, blanquean marcas, explotan a artistas y trabajadores y saquean al público. Aun así, no hay ciudad, grande o pequeña, que no apueste por el suyo. Nando Cruz disecciona en este libro una industria que ha crecido hasta desbordarse y nos sumerge en su historia y entresijos para entender que hay detrás de ese fin de semana bucólico de confetis, pulseras, luces y conciertos.'
     },
-     {
+    {
         titulo: 'Tom Petty',
         categoria: 'Biografía',
         autor: 'Warren Zanes',
@@ -449,5 +449,28 @@ export const libros:ILibro[]=[
         editorial:'https://www.alfaomega.es',
         enlace:'https://www.alfaomega.es/libros/?texto=petty&action=busqueda_rapida',
         sinopsis:'Petty nació en Gainesville, Florida, con mucha sangre sureña en las venas. A pesar de crecer en un ambiente rural cerrado que parecía ofrecerle un futuro poco prometedor, el rock and roll cambió su destino. Conoció a Elvis, vio la primera aparición de los Beatles en la TV estadounidense, fue productor de Del Shannon, formó una banda con George Harrison, Bob Dylan, Roy Orbison y Jeff Lynne, grabó discos con Johnny Cash y colocó docenas de sus propias composiciones en lo más alto de las listas de ventas. La vida de Tom Petty es una auténtica historia épica del rock and roll.\n\nHasta el momento de su repentino fallecimiento el 2 de octubre de 2017, a la edad de 66 años, las grabaciones y las giras siguieron formando parte de su día a día. Aunque tenía fama de proteger su privacidad, compartió con Warren Zanes ?rockero, escritor y amigo suyo? sus experiencias y su forma de entender la vida, sus aciertos y sus errores dentro y fuera del escenario, y muchos otros detalles personales. Todo ello queda recogido en esta biografía, tan intensa como rigurosa.'
-    }
+    },
+    {
+        titulo: 'Bodies',
+        categoria: 'Análisis',
+        autor: 'Ian Winwood',
+        ISBN:'978-84-19234-19-3',
+        depositoLegal:'BI 1035-2023',
+        caratula: 'bodies.jpg',
+        editorial:'Liburuak',
+        enlace:'https://www.elargonauta.com/libros/bodies-vida-y-muerte-en-la-musica/978-84-19234-19-3/',
+        sinopsis:'Dinero, libertad, fans que les adoran; lxs músicxs profesionales parecen tenerlo todo, pero bajo la superficie se esconde una verdad aterradora: durante años, la industria musical ha tolerado sus muertes, adicciones y problemas de salud mental en favor del entretenimiento.\n\nEn este libro, Ian Winwood explora la reticencia de esa industria a enfrentarse a sus numerosos fracasos, y cuenta historias de primera mano junto a artistas y grupos como Foo Fighters, Green Day, Trent Reznor, Biffy Clyro, Kings of Leon, Chris Cornell, Mark Lanegan o Pearl Jam. Mucho más que un simple texto sobre bandas, Winwood dirige la historia a través de su propio colapso mental tras la espantosa muerte de su padre.\n\nEscrito con calidez, humor, perspicacia y honestidad por uno de los profesionales más incisivos de la prensa musical británica, "Bodies" arroja luz sobre la perversidad de permitir el sufrimiento ajeno, abriendo un necesario debate sobre la naturaleza de la industria musical como una insaciable picadora de carne para almas creativas con instinto de autodestrucción. Al fin y al cabo, llevamos demasiado tiempo celebrando y fomentando el continuo daño que lxs músicxs se hacen a sí mismxs en pos del gran sueño del rock. Los meses de gira rodeadxs de neveras bien abastecidas en los camerinos cada noche, con contactos locales de guardia y los subidones de adrenalina después del concierto.\n\nAhora con un nuevo capítulo sobre la muerte de Taylor Hawkins -Foo Fighters- y su multitudinario concierto de recuerdo en Wembley.'
+    },
+    {
+        titulo: 'verdades y mentiras...',
+        categoria: 'Análisis',
+        autor: 'Jose Bruno y Javier Vidal',
+        ISBN:'978-84-18813-54-2',
+        depositoLegal:'M-22679-2023',
+        caratula: 'verdades_y_mentiras.png',
+        editorial:'www.edicionesoblivium.com',
+        enlace:'https://www.edicionesoblivium.com/producto/verdades-y-mentiras-sobre-tocar-un-instrumento-de-jose-bruno-y-javier-vidal/',
+        sinopsis:'Hay muchos y muy buenos libros sobre tocar un instrumento. Bien, este en particular trata de la aventura de tocarlos todos y en él se repasan vivencias y situaciones con las que los músicos profesionales o aficionados nos topamos en la práctica y el disfrute instrumental, encima o debajo del escenario.\n\nEstaremos en la primera fila del concierto para mostrar sin artificios qué sucede cuando el baterista cuenta ¡1, 2, 3, 4!, se encienden los focos y el tiempo se detiene. También hurgaremos en las orejas del oyente entusiasmado para entender cómo funciona la pasión musical. Rastrearemos la vocación desde sus orígenes, cuando comenzamos a emocionarnos con canciones, soñamos con nuestro primer instrumento y nos adentramos en la aventura del aprendizaje. Montaremos una banda, sin duda la parte más divertida y emocionante de todas las actividades musicales, y entraremos en el estudio de grabación para experimentar con micrófonos, emociones y divorcios que alcanzan la categoría de arte.\n\nA la hora de defender valores estéticos, los músicos nos servimos de la inspiración, la creatividad, la improvisación, las musas, el dinero y los demonios, de cuyo manejo dependemos para llegar sanos y salvos al estribillo, y que también repasaremos buscando ese punto extra de motivación.\n\nLa lectura de este libro puede alumbrar planes futuros sin importar lo relevantes que resulten: la música siempre sorprende. Hemos mirado el mundo a través de las orejas, de la misma manera en que lo hacemos cuando comenzamos a tocar una canción, con convencimiento y expresión, viviendo la interpretación musical como un baile entre realidad y ficción, con sus grandes verdades, con sus sugerentes mentiras.'
+    },
+    
 ];

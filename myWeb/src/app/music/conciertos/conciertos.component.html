@@ -4,6 +4,15 @@
         <mat-label>Buscar</mat-label>
         <input matInput [(ngModel)]="filtroBusqueda" (ngModelChange)="actualizarFiltro()" placeholder="Escribe para filtrar..." />
     </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Grupo</mat-label>
+      <mat-select [(value)]="filtroGrupo" (selectionChange)="actualizarFiltro()" class="selector-grupo">
+          <mat-option *ngFor="let grupo of gruposDisponibles" [value]="grupo">
+              {{ grupo }}
+          </mat-option>
+      </mat-select>
+  </mat-form-field>
     <h4>{{conciertosFiltrados.length}} coincidencias</h4>
 </div>
      

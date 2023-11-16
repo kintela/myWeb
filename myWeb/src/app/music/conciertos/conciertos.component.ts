@@ -16,6 +16,8 @@ export class ConciertosComponent implements OnInit {
   isScreenSmall: boolean;
   conciertosFiltrados: IConcierto[] = [];
   filtroBusqueda: string = '';
+  filtroGrupo: string = '';
+  gruposDisponibles: string[] = [];
 
   constructor(private sanitizer: DomSanitizer, private dialog: MatDialog) { }
 
@@ -27,24 +29,59 @@ export class ConciertosComponent implements OnInit {
     });
     this.conciertosFiltrados = [...this.conciertos]; 
     this.actualizarFiltro();
+    this.actualizarGruposDisponibles();
   }
 
   @HostListener('window:resize', ['$event'])
 
-  actualizarFiltro(): void {
+  actualizarFiltroOLD(): void {
+    // Filtra primero por búsqueda y luego por grupo
+    let conciertosFiltrados = this.conciertos;
     if (this.filtroBusqueda) {
       const terminoBusqueda = this.filtroBusqueda.toLowerCase();
-      this.conciertosFiltrados = this.conciertos.filter(concierto => {
-        const conciertoMatch = Object.keys(concierto).some(
+      conciertosFiltrados = conciertosFiltrados.filter(concierto => {
+        return Object.keys(concierto).some(
           key => concierto[key] && concierto[key].toString().toLowerCase().includes(terminoBusqueda)
         );
-        return conciertoMatch;
       });
-    } else {
-      this.conciertosFiltrados = this.conciertos;
     }
+
+    if (this.filtroGrupo) {
+      conciertosFiltrados = conciertosFiltrados.filter(concierto => concierto.grupo === this.filtroGrupo);
+    }
+
+    this.conciertosFiltrados = conciertosFiltrados;
+  }
+
+  actualizarFiltro(): void {
+    let conciertosFiltrados = this.conciertos;
+
+    // Filtra primero por búsqueda
+    if (this.filtroBusqueda) {
+        const terminoBusqueda = this.filtroBusqueda.toLowerCase();
+        conciertosFiltrados = conciertosFiltrados.filter(concierto => {
+            return Object.keys(concierto).some(
+                key => concierto[key] && concierto[key].toString().toLowerCase().includes(terminoBusqueda)
+            );
+        });
+    }
+
+    // Filtrado por grupo, excepto cuando se selecciona 'Todos'
+    if (this.filtroGrupo && this.filtroGrupo !== 'Todos') {
+        conciertosFiltrados = conciertosFiltrados.filter(concierto => concierto.grupo === this.filtroGrupo);
+    }
+
+    this.conciertosFiltrados = conciertosFiltrados;
+}
+
+
   
-    //console.log('conciertosFiltrados',this.conciertosFiltrados);
+  actualizarGruposDisponibles(): void {
+    this.gruposDisponibles = [...new Set(this.conciertos.map(concierto => concierto.grupo))]
+      .sort((a, b) => a.localeCompare(b));
+
+    this.gruposDisponibles.unshift('Todos');
+      
   }
 
   onResize(event) {

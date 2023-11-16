@@ -32,10 +32,25 @@
     max-width: 500px; /* O el valor que prefieras para establecer un ancho máximo */
   }
   
-  /* Si necesitas que el mat-form-field no se expanda demasiado */
   .encabezado-con-busqueda mat-form-field {
-    flex: 1; /* Permite que el mat-form-field crezca ocupando el espacio disponible */
+    //flex: 1; /* Permite que el mat-form-field crezca ocupando el espacio disponible */
+    flex: 0 1 auto; /* No crece, pero puede encogerse y se basa en su contenido */
   }
+
+  .selector-grupo {
+    width: 100%; /* o un valor fijo que prefieras */
+    min-width: 550px; /* Esto asegura que el selector no se haga más pequeño que 150px */
+}
+
+.selector-grupo mat-select {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
   
 
 

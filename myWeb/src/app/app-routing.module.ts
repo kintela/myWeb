@@ -22,6 +22,7 @@ import { DocuseriesComponent } from './music/docuseries/docuseries.component';
 import { HistoriaComponent } from './historia/historia.component';
 import { LibrosComponent } from './music/libros/libros.component';
 import { ConciertosComponent } from './music/conciertos/conciertos.component';
+import { MemorabiliaComponent } from './music/memorabilia/memorabilia.component';
 
 const routes: Routes = [
   { path: 'cancion1', component: Cancion1Component },
@@ -44,6 +45,7 @@ const routes: Routes = [
   {path:'music/myfavoritesongs',component: MyfavoritesongsComponent},
   {path:'music/libros',component: LibrosComponent},
   {path:'music/conciertos',component: ConciertosComponent},
+  {path:'music/memorabilia',component: MemorabiliaComponent},
   {path:'historia',component: HistoriaComponent},
   {path: '',component: HomeComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' }

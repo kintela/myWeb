@@ -1,4 +1,4 @@
-import { IMemorabilia } from "./Imemorabilia";
+import { IMemorabilia } from "./IMemorabilia";
 
 export const memorabilias:IMemorabilia[] = [
     {
@@ -31,7 +31,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'6.jpg',
         titulo:'Beastie Boys 1993',
         grupo:'Beastie Boys',
-        año:1993
+        year:1993
     },
     {
         imagen:'7.jpg',
@@ -99,7 +99,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'18.jpg',
         titulo:'Elvis Presley firmandole un autografo a Madonna en 1970',
         personas:'Elvis Presley, Madonna',
-        año:1970
+        year:1970
     },
     {
         imagen:'19.jpg',
@@ -145,13 +145,13 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'27.jpg',
         titulo:'Guns & Roses en 1989',
         grupo:'Guns & Roses',
-        año:1989
+        year:1989
     },
     {
         imagen:'28.jpg',
         titulo:'Guns & Roses en 1988',
         grupo:'Guns & Roses',
-        año:1988
+        year:1988
     },
     {
         imagen:'29.jpg',
@@ -167,7 +167,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'31.jpg',
         titulo:'Janes Addiction en 1988',
         grupo:'Janes Addiction',
-        año:1988
+        year:1988
     },
     {
         imagen:'32.jpg',
@@ -543,31 +543,31 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'100.jpg',
         titulo:'The Beatles en 1957',
         grupo:'The Beatles',
-        año:1957
+        year:1957
     },
     {
         imagen:'101.jpg',
         titulo:'The Beatles en Hamburgo en 1960',
         grupo:'The Beatles',
-        año:1960
+        year:1960
     },
     {
         imagen:'102.jpg',
         titulo:'The Beatles',
         grupo:'The Beatles',
-        año:1968
+        year:1968
     },
     {
         imagen:'103.jpg',
         titulo:'The Beatles en Hamburgo en 1962',
         grupo:'The Beatles',
-        año:1960
+        year:1960
     },
     {
         imagen:'104.jpg',
         titulo:'The Beatles en Hamburgo en 1960',
         grupo:'The Beatles',
-        año:1960
+        year:1960
     },
     {
         imagen:'105.jpg',
@@ -593,12 +593,12 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'109.jpg',
         titulo:'The Beatles último encuentro en 2001',
         grupo:'The Beatles',
-        año:1960
+        year:1960
     },
     {
         imagen:'110.jpg',
         titulo:'ZZ Top en 1970',
         grupo:'ZZ Top',
-        año:1970
+        year:1970
     },
 ];

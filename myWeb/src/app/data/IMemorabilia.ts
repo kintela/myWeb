@@ -4,5 +4,5 @@ export interface IMemorabilia{
     descripcion?:string;
     grupo?:string;
     personas?:string;
-    año?:number;
+    year?:number;
 }

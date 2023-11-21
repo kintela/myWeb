@@ -45,6 +45,11 @@
                             <mat-icon class="mat-icon-color">groups</mat-icon>Conciertos
                         </a>
                     </mat-nav-list>
+                    <mat-nav-list (click)="snav.toggle()">
+                        <a mat-list-item class='nav-link' routerLink="music/memorabilia" (click)="changeTitle('Memorabilia')">
+                            <mat-icon class="mat-icon-color">camera</mat-icon>Memorabilia
+                        </a>
+                    </mat-nav-list>
                 </mat-expansion-panel>
             </mat-accordion>
 

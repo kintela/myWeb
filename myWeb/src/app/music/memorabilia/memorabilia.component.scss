@@ -6,12 +6,7 @@
   
 .card {
     margin: 5px;
-    width: 300px; /* ajusta según tus preferencias */
-}
-  
-mat-card-image {
-    height: 100px; /* ajusta según tus preferencias */
-    object-fit: cover;
+    width: 300px; 
 }
 
 .encabezado-con-busqueda {
@@ -19,5 +14,15 @@ mat-card-image {
     justify-content: flex-start; /* O puedes usar flex-start para alinearlos a la izquierda */
     align-items: center; /* Centra los elementos verticalmente */
     gap: 20px; /* Establece una separación fija entre elementos */
-  }
+}
+
+
+
+
+
+ 
+  
+  
+  
+  
   

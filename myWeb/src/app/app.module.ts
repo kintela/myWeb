@@ -38,6 +38,7 @@ import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
 import { ReproductorVideoComponent } from './shared/reproductor-video/reproductor-video.component';
 import { MemorabiliaComponent } from './music/memorabilia/memorabilia.component';
+import { VisorImagenComponent } from './shared/visor-imagen/visor-imagen.component';
 
 registerLocaleData(localeEs);
 
@@ -65,7 +66,7 @@ registerLocaleData(localeEs);
     Cancion16Component, 
     Cancion17Component,
     DocuseriesComponent, 
-    FichaVideoComponent, FichaCancionComponent, HistoriaComponent, PartituraComponent, LibrosComponent, FichaLibroComponent, ConciertosComponent, ReproductorVideoComponent, MemorabiliaComponent
+    FichaVideoComponent, FichaCancionComponent, HistoriaComponent, PartituraComponent, LibrosComponent, FichaLibroComponent, ConciertosComponent, ReproductorVideoComponent, MemorabiliaComponent, VisorImagenComponent
   ],
   imports: [
     BrowserModule,

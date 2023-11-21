@@ -247,6 +247,41 @@ export const videos:IVideo[] = [
         plataforma: 'rtve_play'
     },
     {
+        imagen: 'pj_harvey.jpg',
+        enlace: 'https://caixaforumplus.org/v/pj-harvey-a-dog-called-money',
+        texto: 'PJ Harvey',
+        categoria: 'Mix',
+        plataforma: 'caixaForum'
+    },
+    {
+        imagen: 'jeff_buckley.jpg',
+        enlace: 'https://www.youtube.com/watch?v=CdnisUnJHIE',
+        texto: 'Jeff Buckley',
+        categoria: 'Mix',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: 'hit_so_hard.jpg',
+        enlace: 'https://www.filmin.es/pelicula/hit-so-hard',
+        texto: 'The Hole',
+        categoria: 'Mix',
+        plataforma: 'filmin'
+    },
+    {
+        imagen: 'control.jpg',
+        enlace: 'https://www.filmin.es/pelicula/control',
+        texto: 'Joy Division',
+        categoria: 'Mix',
+        plataforma: 'filmin'
+    },
+    {
+        imagen: 'white_riot.jpg',
+        enlace: 'https://www.filmin.es/pelicula/white-riot-rock-contra-el-racismo',
+        texto: 'AntiRacismo',
+        categoria: 'Mix',
+        plataforma: 'filmin'
+    },
+    {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.facebook.com/watch/?v=280469979672631&extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing',
         texto: 'Rock Radikal Vasco I',
@@ -455,6 +490,13 @@ export const videos:IVideo[] = [
         texto: 'Punk en Madrid',
         categoria: 'punk',
         plataforma: 'rtve_play'
+    },
+    {
+        imagen: 'gimme_danger.jpg',
+        enlace: 'https://www.filmin.es/pelicula/gimme-danger',
+        texto: 'The Stooges',
+        categoria: 'punk',
+        plataforma: 'filmin'
     },
     {
         imagen: 'maquis.jpg',

@@ -1,0 +1,25 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>{{grupo}} - {{nombreCancion}} - {{album}} - {{anio}}</mat-card-title>
+    </mat-card-header>
+  
+    <mat-card-content>
+      <p>
+        La letra de "Cerebros Destruidos" refleja la cruda realidad y el descontento social, características típicas del punk. La canción habla de la desesperanza y la alienación, temas comunes en la música punk, especialmente en el contexto de la España post-franquista.
+      </p>
+  
+      
+
+      <div class="link-container">
+        <a (click)="setVideo('https://www.youtube.com/embed/IG5LZqbh2Yk?si=ZYrR4idhHDNKE1Vr')" class="clickable-link">Video 1</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/mfBkctlfD_A?si=TlrtpGtcsv6zZI8K')" class="clickable-link">Video 2</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/145Nfxflw-Q?si=fp1fII6hlKN9aGOq')" class="clickable-link">Tutorial (Guitarra)</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/8q5DF0XLTM4?si=Jk4O0G6sBUclgHPO')" class="clickable-link">Tutorial (Bajo)</a>
+      </div>
+
+      <div class="video-container">
+        <iframe width="560" height="315" [src]="currentVideoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </mat-card-content>
+  </mat-card>
+

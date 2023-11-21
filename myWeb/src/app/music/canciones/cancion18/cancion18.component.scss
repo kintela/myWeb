@@ -16,26 +16,3 @@
     justify-content: center; /* Centra el contenido en el eje horizontal */
     align-items: center; /* Centra el contenido en el eje vertical si es necesario */
   }
-
-  .content-layout {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
-.text-content {
-    flex: 1;
-    max-width: 60%; /* Ajusta este valor según tus necesidades */
-    padding-right: 20px; /* Espacio entre el texto y la imagen */
-}
-
-.image-content {
-    flex: 1;
-    max-width: 40%; /* Ajusta este valor según tus necesidades */
-    text-align: center; /* Centra la imagen si es más pequeña que el espacio disponible */
-}
-
-.image-content img {
-    max-width: 100%;
-    height: auto;
-}

@@ -23,6 +23,8 @@ import { HistoriaComponent } from './historia/historia.component';
 import { LibrosComponent } from './music/libros/libros.component';
 import { ConciertosComponent } from './music/conciertos/conciertos.component';
 import { MemorabiliaComponent } from './music/memorabilia/memorabilia.component';
+import { Cancion17Component } from './music/canciones/cancion17/cancion17.component';
+import { Cancion18Component } from './music/canciones/cancion18/cancion18.component';
 
 const routes: Routes = [
   { path: 'cancion1', component: Cancion1Component },
@@ -41,6 +43,8 @@ const routes: Routes = [
   { path: 'cancion14', component: Cancion14Component },
   { path: 'cancion15', component: Cancion15Component },
   { path: 'cancion16', component: Cancion16Component },
+  { path: 'cancion17', component: Cancion17Component },
+  { path: 'cancion18', component: Cancion18Component },
   {path:'music/documentalesyseries',component: DocuseriesComponent},
   {path:'music/myfavoritesongs',component: MyfavoritesongsComponent},
   {path:'music/libros',component: LibrosComponent},

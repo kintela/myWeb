@@ -1,3 +1,9 @@
-<!-- image-viewer.component.html -->
-<img [src]="data.image" alt="Imagen Ampliada">
+<mat-card>
+    <mat-card-content>
+        <img [src]="imagePath" alt="Imagen Ampliada">
+    </mat-card-content>
+    <mat-card-actions align="end">
+        <button mat-raised-button color="primary" (click)="cerrarDialogo()">Cerrar</button>
+    </mat-card-actions>
+</mat-card>
 

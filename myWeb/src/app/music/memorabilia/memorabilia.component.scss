@@ -9,6 +9,12 @@
     width: 300px; 
 }
 
+.card img {
+    cursor: pointer; /* Cambia el cursor a mano/pointer */
+    /* Otros estilos de tu imagen */
+  }
+  
+
 .encabezado-con-busqueda {
     display: flex;
     justify-content: flex-start; /* O puedes usar flex-start para alinearlos a la izquierda */

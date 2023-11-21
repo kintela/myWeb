@@ -601,4 +601,20 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'ZZ Top',
         year:1970
     },
+    {
+        imagen:'111.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Steve Ray Vaughan'
+    },
+    {
+        imagen:'112.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'113.jpg',
+        titulo:'Buddy Guy',
+        personas:'Buddy Guy'
+    },
 ];

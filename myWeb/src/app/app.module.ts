@@ -37,6 +37,7 @@ import { ConciertosComponent } from './music/conciertos/conciertos.component';
 import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
 import { ReproductorVideoComponent } from './shared/reproductor-video/reproductor-video.component';
+import { MemorabiliaComponent } from './music/memorabilia/memorabilia.component';
 
 registerLocaleData(localeEs);
 
@@ -64,7 +65,7 @@ registerLocaleData(localeEs);
     Cancion16Component, 
     Cancion17Component,
     DocuseriesComponent, 
-    FichaVideoComponent, FichaCancionComponent, HistoriaComponent, PartituraComponent, LibrosComponent, FichaLibroComponent, ConciertosComponent, ReproductorVideoComponent
+    FichaVideoComponent, FichaCancionComponent, HistoriaComponent, PartituraComponent, LibrosComponent, FichaLibroComponent, ConciertosComponent, ReproductorVideoComponent, MemorabiliaComponent
   ],
   imports: [
     BrowserModule,

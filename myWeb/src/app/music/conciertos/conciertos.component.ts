@@ -1,6 +1,7 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { Router } from '@angular/router';
 import { IConcierto } from 'src/app/data/IConcierto';
 import { conciertos } from 'src/app/data/conciertos';
 import { ReproductorVideoComponent } from 'src/app/shared/reproductor-video/reproductor-video.component';
@@ -19,7 +20,7 @@ export class ConciertosComponent implements OnInit {
   filtroGrupo: string = '';
   gruposDisponibles: string[] = [];
 
-  constructor(private sanitizer: DomSanitizer, private dialog: MatDialog) { }
+  constructor(private sanitizer: DomSanitizer, private dialog: MatDialog, private router: Router) { }
 
   ngOnInit(): void {
     this.isScreenSmall = window.innerWidth < 768; // por ejemplo, para tablets y móviles
@@ -34,23 +35,9 @@ export class ConciertosComponent implements OnInit {
 
   @HostListener('window:resize', ['$event'])
 
-  actualizarFiltroOLD(): void {
-    // Filtra primero por búsqueda y luego por grupo
-    let conciertosFiltrados = this.conciertos;
-    if (this.filtroBusqueda) {
-      const terminoBusqueda = this.filtroBusqueda.toLowerCase();
-      conciertosFiltrados = conciertosFiltrados.filter(concierto => {
-        return Object.keys(concierto).some(
-          key => concierto[key] && concierto[key].toString().toLowerCase().includes(terminoBusqueda)
-        );
-      });
-    }
 
-    if (this.filtroGrupo) {
-      conciertosFiltrados = conciertosFiltrados.filter(concierto => concierto.grupo === this.filtroGrupo);
-    }
-
-    this.conciertosFiltrados = conciertosFiltrados;
+  navegarAFotos(concierto: IConcierto) {
+    this.router.navigate(['/memorabilia', concierto.grupo, concierto.fecha, concierto.sala]);
   }
 
   actualizarFiltro(): void {

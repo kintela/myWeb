@@ -42,19 +42,27 @@
         </ng-container>
       
         <!-- Columna de Videos -->
-        <ng-container matColumnDef="videos">
-          <mat-header-cell *matHeaderCellDef> Videos </mat-header-cell>
+        <ng-container matColumnDef="media">
+          <mat-header-cell *matHeaderCellDef> Media </mat-header-cell>
           <mat-cell *matCellDef="let concierto">
             <div class="scrollable-videos">
-                <ng-container *ngFor="let videoUrl of concierto.videos; let i = index">
+                <!--<ng-container *ngFor="let videoUrl of concierto.videos; let i = index">
                     <a (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
-                </ng-container>
+                </ng-container>-->
+                <div *ngIf="concierto.videos; else showPhotos">
+                  <div class="scrollable-videos">
+                    <a *ngFor="let videoUrl of concierto.videos; let i = index" (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
+                  </div>
+                </div>
+                <ng-template #showPhotos>
+                  <a (click)="navegarAFotos(concierto)">Fotos</a>
+                </ng-template>
             </div>    
           </mat-cell>
         </ng-container>
       
         <mat-header-row *matHeaderRowDef="['fecha', 'grupo', 'ciudad', 'sala', 'videos']; sticky:true"></mat-header-row>
-        <mat-row *matRowDef="let row; columns: ['fecha', 'grupo', 'ciudad', 'sala', 'videos'];"></mat-row>
+        <mat-row *matRowDef="let row; columns: ['fecha', 'grupo', 'ciudad', 'sala', 'media'];"></mat-row>
 </mat-table>
 
 <ng-container *ngIf="isScreenSmall">

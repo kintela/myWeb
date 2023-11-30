@@ -1263,5 +1263,97 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'The Beatles',
         origen:'Facebook',
     },
+    {
+        imagen:'200.jpg',
+        titulo:'The Pretenders',
+        descripcion:'The Pretenders teloneando a The Rolling Stones en San Mames el 25-06-2023',
+        personas:'Chrissie Hynde',
+        grupo:'The Pretenders',
+        origen:'propia',
+        year:2023,
+        lugar:'San Mames'
+    },
+    {
+        imagen:'201.jpg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        lugar:'San Mames'
+    },
+    {
+        imagen:'202.jpg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        lugar:'San Mames'
+    },
+    {
+        imagen:'203.jpg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        lugar:'San Mames'
+    },
+    {
+        imagen:'204.jpg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        lugar:'San Mames'
+    },
+    {
+        imagen:'205.jpg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        lugar:'San Mames'
+    },
+    {
+        imagen:'206.jpg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        lugar:'San Mames'
+    },
+    {
+        imagen:'207.jpg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        lugar:'San Mames'
+    },
+    {
+        imagen:'208.jpg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        lugar:'San Mames'
+    },
+    {
+        imagen:'209.jpg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        fecha:new Date(2003, 6, 25),
+        lugar:'San Mames'
+    },
 
 ];

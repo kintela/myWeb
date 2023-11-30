@@ -6,4 +6,5 @@ export interface IConcierto {
     videos?:string[];
     grupo?:string;
     festival?:boolean;
+    rutaFotos?:string;
 }

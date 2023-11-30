@@ -581,4 +581,12 @@ export const conciertos:IConcierto[]=[
         grupo: 'Ben Harper',
         videos:['https://www.youtube.com/embed/66-I6PeE_go?si=Dvr-56lSgC1rtdXp','https://www.youtube.com/embed/P1h1IC286Ys?si=VWx2Se9pOY-_G51m']
     },
+    {
+        fecha: new Date(2003, 6, 25),
+        ciudad: 'Bilbao',
+        sala:'San Mames',
+        grupo: 'The Rolling Stones',
+        rutaFotos: 'assets/img/2003-06-25-Bilbao-SanMames',
+        
+    },
 ];

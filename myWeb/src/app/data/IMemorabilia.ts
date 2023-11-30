@@ -6,4 +6,6 @@ export interface IMemorabilia{
     personas?:string;
     year?:number;
     origen?:string;
+    lugar?:string;
+    fecha?:Date;
 }

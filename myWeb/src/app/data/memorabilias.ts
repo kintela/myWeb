@@ -114,9 +114,10 @@ export const memorabilias:IMemorabilia[] = [
     },
     {
         imagen:'18.jpg',
-        titulo:'Elvis Presley firmandole un autografo a Madonna en 1970',
+        titulo:'Elvis Presley y Madonna',
         personas:'Elvis Presley, Madonna',
         year:1970,
+        descripcion:'Elvis Presley firmandole un autografo a Madonna en 1970',
         origen:'Facebook'
     },
     {
@@ -1270,7 +1271,7 @@ export const memorabilias:IMemorabilia[] = [
         personas:'Chrissie Hynde',
         grupo:'The Pretenders',
         origen:'propia',
-        year:2023,
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1279,7 +1280,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1288,7 +1289,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1297,7 +1298,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1306,7 +1307,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1315,7 +1316,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1324,7 +1325,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1333,7 +1334,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1342,7 +1343,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1351,8 +1352,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
-        fecha:new Date(2003, 6, 25),
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1361,8 +1361,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
-        fecha:new Date(2003, 6, 25),
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1371,8 +1370,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
-        fecha:new Date(2003, 6, 25),
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {
@@ -1381,8 +1379,7 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
         origen:'propia',
-        year:2023,
-        fecha:new Date(2003, 6, 25),
+        fecha: new Date(Date.UTC(2003, 5, 25)),
         lugar:'San Mames'
     },
     {

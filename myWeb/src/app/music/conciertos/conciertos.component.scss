@@ -4,40 +4,40 @@
     margin-right: 10px; /* Añade un margen a la derecha de cada enlace */
     margin-bottom: 10px; /* Añade un margen en la parte inferior si deseas que se envuelvan a la siguiente línea */
     display: inline-block; /* Esto asegura que el margen inferior se aplique correctamente */
-  }
+}
 
-  .scrollable-videos {
+.scrollable-videos {
     max-height: 150px; // La altura máxima antes de que comience a desplazar
     overflow-y: auto; // Esto añade desplazamiento vertical si el contenido excede el max-height
     display: flex;
     flex-wrap: wrap; // Esto permite que los elementos pasen a la siguiente línea
     gap: 4px; // Esto añade un pequeño espacio entre los enlaces
     align-content: flex-start; // Asegura que los contenidos se alineen al principio
-  }
+}
 
-  .encabezado-con-busqueda {
+.encabezado-con-busqueda {
     display: flex;
     justify-content: space-between; /* O puedes usar flex-start para alinearlos a la izquierda */
     align-items: center; /* Centra los elementos verticalmente */
     gap: 20px; /* Establece una separación fija entre elementos */
-  }
+}
   
-  .encabezado-con-busqueda h4 {
+.encabezado-con-busqueda h4 {
     flex: 0 0 auto; /* No crece, no se encoje y se basa en su ancho automático */
-  }
+}
 
-  .encabezado-con-busqueda .campo-busqueda {
+.encabezado-con-busqueda .campo-busqueda {
     flex: 0 0 auto; /* Evita que el campo de búsqueda crezca más allá de su contenido */
     width: auto; /* Se ajusta al tamaño de su contenido, puedes cambiarlo a un valor fijo si prefieres */
     max-width: 500px; /* O el valor que prefieras para establecer un ancho máximo */
-  }
+}
   
-  .encabezado-con-busqueda mat-form-field {
+.encabezado-con-busqueda mat-form-field {
     //flex: 1; /* Permite que el mat-form-field crezca ocupando el espacio disponible */
     flex: 0 1 auto; /* No crece, pero puede encogerse y se basa en su contenido */
-  }
+}
 
-  .selector-grupo {
+.selector-grupo {
     width: 100%; /* o un valor fijo que prefieras */
     min-width: 550px; /* Esto asegura que el selector no se haga más pequeño que 150px */
 }
@@ -48,6 +48,9 @@
   text-overflow: ellipsis;
 }
 
+.cursor-hand {
+  cursor: pointer;
+}
 
 
 

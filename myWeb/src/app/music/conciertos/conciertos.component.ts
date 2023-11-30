@@ -37,7 +37,14 @@ export class ConciertosComponent implements OnInit {
 
 
   navegarAFotos(concierto: IConcierto) {
-    this.router.navigate(['/memorabilia', concierto.grupo, concierto.fecha, concierto.sala]);
+    const formattedDate = this.formatDate(concierto.fecha);
+    this.router.navigate(['/music/memorabilia'], { 
+      queryParams: {
+        grupo: encodeURIComponent(concierto.grupo), 
+        fecha: formattedDate,
+        lugar: encodeURIComponent(concierto.sala)
+      }
+    });
   }
 
   actualizarFiltro(): void {
@@ -83,4 +90,14 @@ export class ConciertosComponent implements OnInit {
       }
     });
   }
+
+
+  private formatDate(date: Date): string {
+    const day = date.getUTCDate().toString().padStart(2, '0');
+    const month = (date.getUTCMonth() + 1).toString().padStart(2, '0');
+    const year = date.getUTCFullYear();
+    return `${day}-${month}-${year}`;
+  }
+  
+  
 }

@@ -48,11 +48,7 @@ const routes: Routes = [
   {path:'music/documentalesyseries',component: DocuseriesComponent},
   {path:'music/myfavoritesongs',component: MyfavoritesongsComponent},
   {path:'music/libros',component: LibrosComponent},
-  {path:'music/conciertos',component: ConciertosComponent},
-  {
-    path: 'memorabilia/:grupo/:year/:lugar',
-    component: MemorabiliaComponent
-  },
+  {path:'music/conciertos',component: ConciertosComponent},  
   {path:'music/memorabilia',component: MemorabiliaComponent},
   {path:'historia',component: HistoriaComponent},
   {path: '',component: HomeComponent},

@@ -1264,7 +1264,7 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook',
     },
     {
-        imagen:'200.jpg',
+        imagen:'200.jpeg',
         titulo:'The Pretenders',
         descripcion:'The Pretenders teloneando a The Rolling Stones en San Mames el 25-06-2023',
         personas:'Chrissie Hynde',
@@ -1274,7 +1274,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'San Mames'
     },
     {
-        imagen:'201.jpg',
+        imagen:'201.jpeg',
         titulo:'The Rolling Stones',
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
@@ -1283,7 +1283,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'San Mames'
     },
     {
-        imagen:'202.jpg',
+        imagen:'202.jpeg',
         titulo:'The Rolling Stones',
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
@@ -1292,7 +1292,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'San Mames'
     },
     {
-        imagen:'203.jpg',
+        imagen:'203.jpeg',
         titulo:'The Rolling Stones',
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
@@ -1301,7 +1301,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'San Mames'
     },
     {
-        imagen:'204.jpg',
+        imagen:'204.jpeg',
         titulo:'The Rolling Stones',
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
@@ -1310,7 +1310,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'San Mames'
     },
     {
-        imagen:'205.jpg',
+        imagen:'205.jpeg',
         titulo:'The Rolling Stones',
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
@@ -1319,7 +1319,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'San Mames'
     },
     {
-        imagen:'206.jpg',
+        imagen:'206.jpeg',
         titulo:'The Rolling Stones',
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
@@ -1328,7 +1328,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'San Mames'
     },
     {
-        imagen:'207.jpg',
+        imagen:'207.jpeg',
         titulo:'The Rolling Stones',
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
@@ -1337,7 +1337,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'San Mames'
     },
     {
-        imagen:'208.jpg',
+        imagen:'208.jpeg',
         titulo:'The Rolling Stones',
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
@@ -1346,7 +1346,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'San Mames'
     },
     {
-        imagen:'209.jpg',
+        imagen:'209.jpeg',
         titulo:'The Rolling Stones',
         descripcion:'The Rolling Stones en San Mames el 25-06-2023',
         grupo:'The Rolling Stones',
@@ -1354,6 +1354,48 @@ export const memorabilias:IMemorabilia[] = [
         year:2023,
         fecha:new Date(2003, 6, 25),
         lugar:'San Mames'
+    },
+    {
+        imagen:'210.jpeg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        fecha:new Date(2003, 6, 25),
+        lugar:'San Mames'
+    },
+    {
+        imagen:'211.jpeg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        fecha:new Date(2003, 6, 25),
+        lugar:'San Mames'
+    },
+    {
+        imagen:'212.jpeg',
+        titulo:'The Rolling Stones',
+        descripcion:'The Rolling Stones en San Mames el 25-06-2023',
+        grupo:'The Rolling Stones',
+        origen:'propia',
+        year:2023,
+        fecha:new Date(2003, 6, 25),
+        lugar:'San Mames'
+    },
+    {
+        imagen:'213.jpg',
+        titulo:'Paul McCartney y Stevie Wonder',
+        personas:'Paul McCartney, Stevie Wonder',
+        origen:'Facebook'
+    },
+    {
+        imagen:'214.jpg',
+        titulo:'Billy Idol',
+        personas:'Billy Idol',
+        origen:'Facebook'
     },
 
 ];

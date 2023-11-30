@@ -5,4 +5,5 @@ export interface IMemorabilia{
     grupo?:string;
     personas?:string;
     year?:number;
+    origen?:string;
 }

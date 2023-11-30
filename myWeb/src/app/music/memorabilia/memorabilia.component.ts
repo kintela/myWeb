@@ -35,14 +35,6 @@ export class MemorabiliaComponent implements OnInit {
   
   }
 
-  aplicarFiltroRutaOLD(grupo: string, fecha: Date, lugar: string) {
-    this.filteredMemorabilias = this.memorabilias.filter(memorabilia => {
-      console.log("Comparando:", memorabilia.grupo, grupo, memorabilia.lugar, lugar);
-      return memorabilia.grupo.toLowerCase() === grupo.toLowerCase() &&
-             memorabilia.lugar.toLowerCase() === lugar.toLowerCase() &&
-             this.isSameDay(memorabilia.fecha, fecha);
-    });
-  }
 
   aplicarFiltroRuta(grupo: string, fecha: Date, lugar: string) {
     this.filteredMemorabilias = this.memorabilias.filter(memorabilia => {
@@ -77,7 +69,6 @@ export class MemorabiliaComponent implements OnInit {
   }
   
   private isSameDay(date1: Date, date2: Date): boolean {
-    console.log(date1, date2);
     return date1.getUTCDate() === date2.getUTCDate() &&
            date1.getUTCMonth() === date2.getUTCMonth() &&
            date1.getUTCFullYear() === date2.getUTCFullYear();

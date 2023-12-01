@@ -2552,6 +2552,177 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2005, 10, 9)),
         lugar:'Santana27'
     },
+    {
+        imagen:'346.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'347.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'348.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'349.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'350.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'351.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'352.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'353.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'354.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'355.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'356.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'357.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'358.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'359.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'360.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'361.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'362.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'363.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'364.jpeg',
+        titulo:'Coldplay',
+        descripcion:'Coldplay en Anoeta el 25-11-2005',
+        grupo:'Coldplay',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        lugar:'Anoeta'
+    },
 
 
 ];

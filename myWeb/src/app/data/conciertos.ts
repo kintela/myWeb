@@ -674,4 +674,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Steve Vai',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2005, 10, 25)),
+        ciudad: 'Donosti',
+        sala:'Anoeta',
+        grupo: 'ColdPlay',
+        rutaFotos: '1',        
+    },
 ];

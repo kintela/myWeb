@@ -1571,4 +1571,148 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2003, 10, 26)),
         lugar:'Jam'
     },
+    {
+        imagen:'236.jpeg',
+        titulo:'Robert Randolph',
+        descripcion:'Robert Randolph en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'237.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'238.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'239.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'240.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'241.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'242.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'243.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'244.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'245.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'246.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'247.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'248.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'249.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'250.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'251.jpeg',
+        titulo:'Eric Clapton',
+        descripcion:'Eric Clapton en el Palau Sant Jordi el 24-03-2004',
+        grupo:'Eric Clapton',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        lugar:'Palau Sant Jordi'
+    },
 ];

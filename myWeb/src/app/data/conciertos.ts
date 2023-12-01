@@ -602,4 +602,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Danko Jones',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2004, 2, 24)),
+        ciudad: 'Barcelona',
+        sala:'Palau Sant Jordi',
+        grupo: 'Eric Clapton',
+        rutaFotos: '1',        
+    },
 ];

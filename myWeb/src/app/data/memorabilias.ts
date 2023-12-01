@@ -1904,5 +1904,203 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2004, 5, 12)),
         lugar:'Plaza de toros'
     },
+    {
+        imagen:'273.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'274.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'275.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'276.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'277.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'278.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'279.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'280.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'281.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'282.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'283.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'284.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'285.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'286.jpeg',
+        titulo:'Joe Satriani',
+        descripcion:'Joe Satriani en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'288.jpeg',
+        titulo:'Joe Satriani',
+        descripcion:'Joe Satriani en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'289.jpeg',
+        titulo:'Joe Satriani',
+        descripcion:'Joe Satriani en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'290.jpeg',
+        titulo:'Joe Satriani',
+        descripcion:'Joe Satriani en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'291.jpeg',
+        titulo:'Joe Satriani',
+        descripcion:'Joe Satriani en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'292.jpeg',
+        titulo:'Joe Satriani',
+        descripcion:'Joe Satriani en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'293.jpeg',
+        titulo:'Joe Satriani y Steve Vai',
+        descripcion:'Joe Satriani y Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'294.jpeg',
+        titulo:'Joe Satriani y Steve Vai',
+        descripcion:'Joe Satriani y Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
+        imagen:'295.jpeg',
+        titulo:'Joe Satriani y Steve Vai',
+        descripcion:'Joe Satriani y Steve Vai en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
 
 ];

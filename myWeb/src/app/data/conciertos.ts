@@ -623,4 +623,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Ben Harper',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        ciudad: 'Mondragón',
+        sala:'Polideportivo',
+        grupo: 'G3',
+        rutaFotos: '1',        
+    },
 ];

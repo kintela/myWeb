@@ -637,4 +637,20 @@ export const conciertos:IConcierto[]=[
         grupo: 'Lenny Kravitz',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2005, 6, 8)),
+        ciudad: 'Santander',
+        sala:'Summer Festival',
+        grupo: 'Ocean Colour Scene',
+        festival: true,
+        rutaFotos: '1',        
+    },
+    {
+        fecha: new Date(Date.UTC(2005, 6, 8)),
+        ciudad: 'Santander',
+        sala:'Summer Festival',
+        grupo: 'Morcheeba',
+        festival: true,
+        rutaFotos: '1',        
+    },
 ];

@@ -2216,11 +2216,72 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
         grupo:'Lenny Kravitz',
         origen:'propia',
-        fecha: new Date(Date.UTC(2005, 5, 17)),
+        fecha: new Date(Date.UTC(2005, 6, 8)),
         lugar:'BEC'
     },
-
-
+    {
+        imagen:'309.jpeg',
+        titulo:'Ocean Colour Scene',
+        descripcion:'Ocean Colour Scene en el Summer Festival el 8-7-2005',
+        grupo:'Ocean Colour Scene',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 6, 8)),
+        lugar:'Summer Festival'
+    },
+    {
+        imagen:'310.jpeg',
+        titulo:'Ocean Colour Scene',
+        descripcion:'Ocean Colour Scene en el Summer Festival el 8-7-2005',
+        grupo:'Ocean Colour Scene',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 6, 8)),
+        lugar:'Summer Festival'
+    },
+    {
+        imagen:'311.jpeg',
+        titulo:'Ocean Colour Scene',
+        descripcion:'Ocean Colour Scene en el Summer Festival el 8-7-2005',
+        grupo:'Ocean Colour Scene',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 6, 8)),
+        lugar:'Summer Festival'
+    },
+    {
+        imagen:'312.jpeg',
+        titulo:'Morcheeba',
+        descripcion:'Morcheeba en el Summer Festival el 8-7-2005',
+        grupo:'Morcheeba',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 6, 8)),
+        lugar:'Summer Festival'
+    },
+    {
+        imagen:'313.jpeg',
+        titulo:'Morcheeba',
+        descripcion:'Morcheeba en el Summer Festival el 8-7-2005',
+        grupo:'Morcheeba',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 6, 8)),
+        lugar:'Summer Festival'
+    },
+    {
+        imagen:'314.jpeg',
+        titulo:'Morcheeba',
+        descripcion:'Morcheeba en el Summer Festival el 8-7-2005',
+        grupo:'Morcheeba',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 6, 8)),
+        lugar:'Summer Festival'
+    },
+    {
+        imagen:'315.jpeg',
+        titulo:'Morcheeba',
+        descripcion:'Morcheeba en el Summer Festival el 8-7-2005',
+        grupo:'Morcheeba',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 6, 8)),
+        lugar:'Summer Festival'
+    },
 
 
 ];

@@ -717,4 +717,12 @@ export const conciertos:IConcierto[]=[
         festival: true,
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2006, 8, 3)),
+        ciudad: 'Vitoria',
+        sala:'ARF',
+        grupo: 'ARF',
+        festival: true,
+        rutaFotos: '1',        
+    },
 ];

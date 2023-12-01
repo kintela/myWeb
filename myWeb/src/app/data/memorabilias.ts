@@ -2282,6 +2282,60 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2005, 6, 8)),
         lugar:'Summer Festival'
     },
+    {
+        imagen:'316.jpeg',
+        titulo:'Jamiroquai',
+        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        grupo:'Jamiroquai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 3)),
+        lugar:'Mendizorroza'
+    },
+    {
+        imagen:'317.jpeg',
+        titulo:'Jamiroquai',
+        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        grupo:'Jamiroquai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 3)),
+        lugar:'Mendizorroza'
+    },
+    {
+        imagen:'318.jpeg',
+        titulo:'Jamiroquai',
+        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        grupo:'Jamiroquai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 3)),
+        lugar:'Mendizorroza'
+    },
+    {
+        imagen:'319.jpeg',
+        titulo:'Jamiroquai',
+        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        grupo:'Jamiroquai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 3)),
+        lugar:'Mendizorroza'
+    },
+    {
+        imagen:'320.jpeg',
+        titulo:'Jamiroquai',
+        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        grupo:'Jamiroquai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 3)),
+        lugar:'Mendizorroza'
+    },
+    {
+        imagen:'321.jpeg',
+        titulo:'Jamiroquai',
+        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        grupo:'Jamiroquai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 3)),
+        lugar:'Mendizorroza'
+    },
 
 
 ];

@@ -653,4 +653,11 @@ export const conciertos:IConcierto[]=[
         festival: true,
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2005, 7, 3)),
+        ciudad: 'Vitoria',
+        sala:'Mendizorroza',
+        grupo: 'Jamiroquai',
+        rutaFotos: '1',        
+    },
 ];

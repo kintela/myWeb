@@ -681,4 +681,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'ColdPlay',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2006, 3, 18)),
+        ciudad: 'Bilbao',
+        sala:'Guggenheim',
+        grupo: 'Red Hot Chili Peppers',
+        rutaFotos: '1',        
+    },
 ];

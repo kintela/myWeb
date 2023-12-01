@@ -2723,6 +2723,78 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2005, 10, 25)),
         lugar:'Anoeta'
     },
+    {
+        imagen:'365.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Guggenheim el 18-04-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 3, 18)),
+        lugar:'Guggenheim'
+    },
+    {
+        imagen:'366.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Guggenheim el 18-04-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 3, 18)),
+        lugar:'Guggenheim'
+    },
+    {
+        imagen:'367.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Guggenheim el 18-04-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 3, 18)),
+        lugar:'Guggenheim'
+    },
+    {
+        imagen:'368.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Guggenheim el 18-04-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 3, 18)),
+        lugar:'Guggenheim'
+    },
+    {
+        imagen:'369.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Guggenheim el 18-04-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 3, 18)),
+        lugar:'Guggenheim'
+    },
+    {
+        imagen:'370.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Guggenheim el 18-04-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 3, 18)),
+        lugar:'Guggenheim'
+    },
+    {
+        imagen:'371.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Guggenheim el 18-04-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 3, 18)),
+        lugar:'Guggenheim'
+    },
+    {
+        imagen:'372.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Guggenheim el 18-04-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 3, 18)),
+        lugar:'Guggenheim'
+    },
 
 
 ];

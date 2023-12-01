@@ -586,13 +586,20 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'San Mames',
         grupo: 'The Rolling Stones',
-        rutaFotos: 'assets/img/2003-06-25-Bilbao-SanMames',        
+        rutaFotos: '1',        
     },
     {
         fecha: new Date(Date.UTC(2003, 9, 26)),
         ciudad: 'Donosti',
         sala:'Velódromo Anoeta',
         grupo: 'Deep Purple',
-        rutaFotos: 'assets/img/2003-10-26-Bilbao-SanMames',        
+        rutaFotos: '1',        
+    },
+    {
+        fecha: new Date(Date.UTC(2003, 10, 26)),
+        ciudad: 'Bergara',
+        sala:'Jam',
+        grupo: 'Danko Jones',
+        rutaFotos: '1',        
     },
 ];

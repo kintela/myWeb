@@ -1502,7 +1502,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'228.jpeg',
         titulo:'Deep Purple',
-        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2023',
+        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2003',
         grupo:'Deep Purple',
         origen:'propia',
         fecha: new Date(Date.UTC(2003, 9, 26)),
@@ -1511,7 +1511,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'229.jpeg',
         titulo:'Deep Purple',
-        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2023',
+        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2003',
         grupo:'Deep Purple',
         origen:'propia',
         fecha: new Date(Date.UTC(2003, 9, 26)),
@@ -1520,7 +1520,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'230.jpeg',
         titulo:'Deep Purple',
-        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2023',
+        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2003',
         grupo:'Deep Purple',
         origen:'propia',
         fecha: new Date(Date.UTC(2003, 9, 26)),
@@ -1529,10 +1529,46 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'231.jpeg',
         titulo:'Deep Purple',
-        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2023',
+        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2003',
         grupo:'Deep Purple',
         origen:'propia',
         fecha: new Date(Date.UTC(2003, 9, 26)),
         lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'232.jpeg',
+        titulo:'Danko Jones',
+        descripcion:'Danko Jones en la sala Jam de Bergara el 26-11-2003',
+        grupo:'Danko Jones',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2003, 10, 26)),
+        lugar:'Jam'
+    },
+    {
+        imagen:'233.jpeg',
+        titulo:'Danko Jones',
+        descripcion:'Danko Jones en la sala Jam de Bergara el 26-11-2003',
+        grupo:'Danko Jones',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2003, 10, 26)),
+        lugar:'Jam'
+    },
+    {
+        imagen:'234.jpeg',
+        titulo:'Danko Jones',
+        descripcion:'Danko Jones en la sala Jam de Bergara el 26-11-2003',
+        grupo:'Danko Jones',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2003, 10, 26)),
+        lugar:'Jam'
+    },
+    {
+        imagen:'235.jpeg',
+        titulo:'Danko Jones',
+        descripcion:'Danko Jones en la sala Jam de Bergara el 26-11-2003',
+        grupo:'Danko Jones',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2003, 10, 26)),
+        lugar:'Jam'
     },
 ];

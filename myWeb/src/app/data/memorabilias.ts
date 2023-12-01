@@ -892,6 +892,13 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook'
     },
     {
+        imagen:'139.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        grupo:'The Rolling Stones',
+        origen:'Facebook'
+    },
+    {
         imagen:'140.jpg',
         titulo:'Keith Richards',
         personas:'Keith Richards',
@@ -1120,6 +1127,18 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook'
     },
     {
+        imagen:'175.jpg',
+        titulo:'Iron Maiden',
+        grupo:'Iron Maiden',
+        origen:'Facebook'
+    },
+    {
+        imagen:'176.jpg',
+        titulo:'Bjork y Jarvis Cocker(Pulp)',
+        personas:'Bjork, Jarvis Cocker',
+        origen:'Facebook'
+    },
+    {
         imagen:'177.jpg',
         titulo:'Keith Richards y Mick Taylor',
         personas:'Keith Richards, Mick Taylor',
@@ -1177,6 +1196,12 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Keith Richards',
         personas:'Keith Richards',
         grupo:'The Rolling Stones',
+        origen:'Facebook'
+    },
+    {
+        imagen:'186.jpg',
+        titulo:'The Beatles',
+        grupo:'The Beatles',
         origen:'Facebook'
     },
     {
@@ -1394,5 +1419,84 @@ export const memorabilias:IMemorabilia[] = [
         personas:'Billy Idol',
         origen:'Facebook'
     },
-
+    {
+        imagen:'215.jpg',
+        titulo:'John Lennon y Elton John',
+        personas:'John Lennon, Elton John',
+        origen:'Facebook'
+    },
+    {
+        imagen:'216.jpg',
+        titulo:'Alice Cooper y Dali',
+        personas:'Alice Cooper, Dali',
+        origen:'Facebook'
+    },
+    {
+        imagen:'217.jpg',
+        titulo:'Buddy Guy',
+        personas:'Buddy Guy',
+        origen:'Facebook'
+    },
+    {
+        imagen:'218.jpg',
+        titulo:'John Frusciante',
+        personas:'John Frusciante',
+        grupo:'Red Hot Chili Peppers',
+        origen:'Facebook'
+    },
+    {
+        imagen:'219.jpg',
+        titulo:'Bruce Springsteen y Shane MacGowan (The Pogues)',
+        personas:'Bruce Springsteen, Shane MacGowan',
+        origen:'Facebook'
+    },
+    {
+        imagen:'220.jpg',
+        titulo:'Chad Smith',
+        personas:'Chad Smith',
+        grupo:'Red Hot Chili Peppers',
+        origen:'Facebook'
+    },
+    {
+        imagen:'221.jpg',
+        titulo:'Red Hot Chili Peppers',
+        grupo:'Red Hot Chili Peppers',
+        origen:'Facebook'
+    },
+    {
+        imagen:'222.jpg',
+        titulo:'Red Hot Chili Peppers',
+        grupo:'Red Hot Chili Peppers',
+        origen:'Facebook'
+    },   
+    {
+        imagen:'223.jpg',
+        titulo:'Van Halen',
+        grupo:'Van Halen',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'224.jpg',
+        titulo:'Steve Ray Vaughan',
+        personas:'Steve Ray Vaughan',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'225.jpg',
+        titulo:'Rory Gallagher',
+        personas:'Rory Gallagher',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'226.jpg',
+        titulo:'Rory Gallagher',
+        personas:'Rory Gallagher',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'227.jpg',
+        titulo:'The Screaming Cheetah Wheelies',
+        grupo:'The Screaming Cheetah Wheelies',
+        origen:'Facebook'
+    }, 
 ];

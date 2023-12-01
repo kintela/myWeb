@@ -695,4 +695,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Sisters of Mercy',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        ciudad: 'Bilbao',
+        sala:'Santana27',
+        grupo: 'Alice in Chains',
+        rutaFotos: '1',        
+    },
 ];

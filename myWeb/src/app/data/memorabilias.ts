@@ -2939,6 +2939,123 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2006, 4, 14)),
         lugar:'Santana27'
     },
+    {
+        imagen:'389.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'390.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'391.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'392.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'393.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'394.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'395.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'396.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'397.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'398.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'399.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'400.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'401.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
 
 
 ];

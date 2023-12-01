@@ -2102,5 +2102,125 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2004, 6, 2)),
         lugar:'Polideportivo'
     },
+    {
+        imagen:'296.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'297.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'298.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'299.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'300.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'301.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'302.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'303.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'304.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'305.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'306.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'307.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'308.jpeg',
+        titulo:'Lenny Kravitz',
+        descripcion:'Lenny Kravitz en el BEC el 17-06-2005',
+        grupo:'Lenny Kravitz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        lugar:'BEC'
+    },
+
+
+
 
 ];

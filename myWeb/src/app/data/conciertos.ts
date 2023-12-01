@@ -630,4 +630,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'G3',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2005, 5, 17)),
+        ciudad: 'Bilbao',
+        sala:'BEC',
+        grupo: 'Lenny Kravitz',
+        rutaFotos: '1',        
+    },
 ];

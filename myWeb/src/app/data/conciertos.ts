@@ -702,4 +702,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Alice in Chains',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        ciudad: 'Barcelona',
+        sala:'Palau Sant Jordi',
+        grupo: 'Red Hot Chili Peppers',
+        rutaFotos: '1',        
+    },
 ];

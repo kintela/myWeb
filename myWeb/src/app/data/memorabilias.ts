@@ -3056,6 +3056,267 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2006, 10, 16)),
         lugar:'Santana27'
     },
+    {
+        imagen:'402.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'403.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'404.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'405.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'406.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'407.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'408.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'409.jpeg',
+        titulo:'Alice in Chains',
+        descripcion:'Alice in Chains en la Santana27 el 16-11-2006',
+        grupo:'Alice in Chains',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 16)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'410.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'411.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'412.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'413.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'414.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'415.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'416.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'417.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'418.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'419.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'420.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'421.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'422.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'423.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'424.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'425.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'426.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'427.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'428.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'429.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
+    {
+        imagen:'430.jpeg',
+        titulo:'Red Hot Chili Peppers',
+        descripcion:'Red Hot Chili Peppers en el Palau Sant Jordi el 31-05-2006',
+        grupo:'Red Hot Chili Peppers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 4, 31)),
+        lugar:'Palau Sant Jordi'
+    },
 
 
 ];

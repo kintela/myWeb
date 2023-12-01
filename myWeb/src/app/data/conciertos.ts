@@ -688,4 +688,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Red Hot Chili Peppers',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2006, 4, 14)),
+        ciudad: 'Bilbao',
+        sala:'Santana27',
+        grupo: 'Sisters of Mercy',
+        rutaFotos: '1',        
+    },
 ];

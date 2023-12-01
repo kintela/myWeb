@@ -616,4 +616,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Incubus',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2004, 5, 12)),
+        ciudad: 'Bayona',
+        sala:'Plaza de Toros',
+        grupo: 'Ben Harper',
+        rutaFotos: '1',        
+    },
 ];

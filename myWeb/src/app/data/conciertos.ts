@@ -667,4 +667,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'U2',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        ciudad: 'Bilbao',
+        sala:'Santana27',
+        grupo: 'Steve Vai',
+        rutaFotos: '1',        
+    },
 ];

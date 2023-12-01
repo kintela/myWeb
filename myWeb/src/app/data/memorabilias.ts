@@ -2426,6 +2426,132 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2005, 7, 9)),
         lugar:'Anoeta'
     },
+    {
+        imagen:'332.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'333.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'334.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'335.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'336.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'337.jpeg',
+        titulo:'Eric Sardinas',
+        descripcion:'Eric Sardinas en la Santana27 el 9-11-2005',
+        grupo:'Steve Vai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'338.jpeg',
+        titulo:'Eric Sardinas',
+        descripcion:'Eric Sardinas en la Santana27 el 9-11-2005',
+        grupo:'Steve Vai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'339.jpeg',
+        titulo:'Eric Sardinas',
+        descripcion:'Eric Sardinas en la Santana27 el 9-11-2005',
+        grupo:'Steve Vai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'340.jpeg',
+        titulo:'Eric Sardinas',
+        descripcion:'Eric Sardinas en la Santana27 el 9-11-2005',
+        grupo:'Steve Vai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'341.jpeg',
+        titulo:'Eric Sardinas',
+        descripcion:'Eric Sardinas en la Santana27 el 9-11-2005',
+        grupo:'Steve Vai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'342.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en la Santana27 el 9-11-2005',
+        grupo:'Steve Vai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'343.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en la Santana27 el 9-11-2005',
+        grupo:'Steve Vai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'344.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en la Santana27 el 9-11-2005',
+        grupo:'Steve Vai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        lugar:'Santana27'
+    },
+    {
+        imagen:'345.jpeg',
+        titulo:'Steve Vai',
+        descripcion:'Steve Vai en la Santana27 el 9-11-2005',
+        grupo:'Steve Vai',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 10, 9)),
+        lugar:'Santana27'
+    },
 
 
 ];

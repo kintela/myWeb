@@ -3317,6 +3317,222 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2006, 4, 31)),
         lugar:'Palau Sant Jordi'
     },
+    {
+        imagen:'431.jpeg',
+        titulo:'Gun´s and Roses',
+        descripcion:'Gun´s and Roses en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'432.jpeg',
+        titulo:'Gun´s and Roses',
+        descripcion:'Gun´s and Roses en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'433.jpeg',
+        titulo:'Placebo',
+        descripcion:'Placebo en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'434.jpeg',
+        titulo:'The Cult',
+        descripcion:'The Cult en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'435.jpeg',
+        titulo:'The Cult',
+        descripcion:'The Cult en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'436.jpeg',
+        titulo:'The Cult',
+        descripcion:'The Cult en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'437.jpeg',
+        titulo:'Gun´s and Roses',
+        descripcion:'Gun´s and Roses en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'438.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'440.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'441.jpeg',
+        titulo:'Fun Lovin Criminals',
+        descripcion:'Fun Lovin Criminals en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'442.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'443.jpeg',
+        titulo:'Fun Lovin Criminals',
+        descripcion:'Fun Lovin Criminals en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'444.jpeg',
+        titulo:'Fun Lovin Criminals',
+        descripcion:'Fun Lovin Criminals en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'445.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'446.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'447.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'448.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'449.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'450.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'451.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'452.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'453.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'454.jpeg',
+        titulo:'Acampada',
+        descripcion:'BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
+    {
+        imagen:'455.jpeg',
+        titulo:'Acampada',
+        descripcion:'BBK Live el 14-07-2006',
+        grupo:'BBK Live',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        lugar:'BBK Live'
+    },
 
 
 ];

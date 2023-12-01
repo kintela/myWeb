@@ -709,4 +709,12 @@ export const conciertos:IConcierto[]=[
         grupo: 'Red Hot Chili Peppers',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        ciudad: 'Bilbao',
+        sala:'BBK Live',
+        grupo: 'BBk Live',
+        festival: true,
+        rutaFotos: '1',        
+    },
 ];

@@ -660,4 +660,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Jamiroquai',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        ciudad: 'Donosti',
+        sala:'Anoeta',
+        grupo: 'U2',
+        rutaFotos: '1',        
+    },
 ];

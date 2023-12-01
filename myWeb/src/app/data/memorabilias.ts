@@ -2294,7 +2294,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'317.jpeg',
         titulo:'Jamiroquai',
-        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        descripcion:'Jamiroquai en Vitoria el 3-8-2005',
         grupo:'Jamiroquai',
         origen:'propia',
         fecha: new Date(Date.UTC(2005, 7, 3)),
@@ -2303,7 +2303,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'318.jpeg',
         titulo:'Jamiroquai',
-        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        descripcion:'Jamiroquai en Vitoria el 3-8-2005',
         grupo:'Jamiroquai',
         origen:'propia',
         fecha: new Date(Date.UTC(2005, 7, 3)),
@@ -2312,7 +2312,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'319.jpeg',
         titulo:'Jamiroquai',
-        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        descripcion:'Jamiroquai en Vitoria el 3-8-2005',
         grupo:'Jamiroquai',
         origen:'propia',
         fecha: new Date(Date.UTC(2005, 7, 3)),
@@ -2321,7 +2321,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'320.jpeg',
         titulo:'Jamiroquai',
-        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        descripcion:'Jamiroquai en Vitoria el 3-8-2005',
         grupo:'Jamiroquai',
         origen:'propia',
         fecha: new Date(Date.UTC(2005, 7, 3)),
@@ -2330,11 +2330,101 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'321.jpeg',
         titulo:'Jamiroquai',
-        descripcion:'Jamiroquai en Vitoria Festival el 3-8-2005',
+        descripcion:'Jamiroquai en Vitoria el 3-8-2005',
         grupo:'Jamiroquai',
         origen:'propia',
         fecha: new Date(Date.UTC(2005, 7, 3)),
         lugar:'Mendizorroza'
+    },
+    {
+        imagen:'322.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'323.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'324.jpeg',
+        titulo:'Franz Ferdinand',
+        descripcion:'Franz Ferdinand en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'325.jpeg',
+        titulo:'Franz Ferdinand',
+        descripcion:'Franz Ferdinand en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'326.jpeg',
+        titulo:'Franz Ferdinand',
+        descripcion:'Franz Ferdinand en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'326.jpeg',
+        titulo:'Franz Ferdinand',
+        descripcion:'Franz Ferdinand en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'328.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'329.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'330.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
+    },
+    {
+        imagen:'331.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
+        grupo:'U2',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2005, 7, 9)),
+        lugar:'Anoeta'
     },
 
 

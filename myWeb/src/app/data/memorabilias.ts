@@ -1499,4 +1499,40 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'The Screaming Cheetah Wheelies',
         origen:'Facebook'
     }, 
+    {
+        imagen:'228.jpeg',
+        titulo:'Deep Purple',
+        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2023',
+        grupo:'Deep Purple',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2003, 9, 26)),
+        lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'229.jpeg',
+        titulo:'Deep Purple',
+        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2023',
+        grupo:'Deep Purple',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2003, 9, 26)),
+        lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'230.jpeg',
+        titulo:'Deep Purple',
+        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2023',
+        grupo:'Deep Purple',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2003, 9, 26)),
+        lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'231.jpeg',
+        titulo:'Deep Purple',
+        descripcion:'Deep Purple en el Velodromo de Anoeta el 26-10-2023',
+        grupo:'Deep Purple',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2003, 9, 26)),
+        lugar:'Velódromo Anoeta'
+    },
 ];

@@ -753,4 +753,18 @@ export const conciertos:IConcierto[]=[
         grupo: 'Fito',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        ciudad: 'Bilbao',
+        sala:'BEC',
+        grupo: 'Santiago Auserón',
+        rutaFotos: '1',        
+    },
+    {
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        ciudad: 'Bilbao',
+        sala:'BEC',
+        grupo: 'Chuck Berry',
+        rutaFotos: '1',        
+    },
 ];

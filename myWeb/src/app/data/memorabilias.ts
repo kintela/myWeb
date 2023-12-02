@@ -4226,5 +4226,194 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2006, 11, 22)),
         lugar:'BEC'
     },
+    {
+        imagen:'533.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'534.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'535.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'536.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'537.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'538.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'539.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'540.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'541.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'542.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'543.jpeg',
+        titulo:'Santiago Auserón',
+        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        grupo:'Santiago Auserón',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'544.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'545.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'546.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'547.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'548.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'549.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'550.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'551.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'552.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'553.jpeg',
+        titulo:'Chuck Berry',
+        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        grupo:'Chuck Berry',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 0, 29)),
+        lugar:'BEC'
+    },
 
 ];

@@ -725,4 +725,11 @@ export const conciertos:IConcierto[]=[
         festival: true,
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        ciudad: 'Bilbao',
+        sala:'BEC',
+        grupo: 'Muse',
+        rutaFotos: '1',        
+    },
 ];

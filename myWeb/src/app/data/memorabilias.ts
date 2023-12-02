@@ -3731,6 +3731,167 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
     },
-
+    {
+        imagen:'478.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'479.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'480.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'481.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'482.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'483.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'484.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'485.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'486.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'487.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'488.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'489.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'490.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'491.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'492.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'493.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'494.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'495.jpeg',
+        titulo:'Muse',
+        descripcion:'Muse en el BEC el 24-10-2006',
+        grupo:'Muse',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 9, 24)),
+        lugar:'BEC'
+    },
 
 ];

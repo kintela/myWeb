@@ -4049,7 +4049,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'513.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4058,7 +4058,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'514.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4067,7 +4067,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'515.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4076,7 +4076,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'516.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4085,7 +4085,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'517.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4094,7 +4094,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'518.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4103,7 +4103,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'519.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4112,7 +4112,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'520.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4121,7 +4121,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'521.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4130,7 +4130,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'522.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4148,7 +4148,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'524.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4166,7 +4166,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'526.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4184,7 +4184,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'528.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4202,7 +4202,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'530.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4211,7 +4211,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'531.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4220,7 +4220,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'532.jpeg',
         titulo:'Fito',
-        descripcion:'Fito en elBEC el 22-12-2006',
+        descripcion:'Fito en el BEC el 22-12-2006',
         grupo:'Fito',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 11, 22)),
@@ -4229,7 +4229,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'533.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4238,7 +4238,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'534.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4247,7 +4247,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'535.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4256,7 +4256,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'536.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4265,7 +4265,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'537.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4274,7 +4274,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'538.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4283,7 +4283,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'539.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4292,7 +4292,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'540.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4301,7 +4301,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'541.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4310,7 +4310,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'542.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4319,7 +4319,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'543.jpeg',
         titulo:'Santiago Auserón',
-        descripcion:'Santiago Auserón en elBEC el 29-1-2007',
+        descripcion:'Santiago Auserón en el BEC el 29-1-2007',
         grupo:'Santiago Auserón',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4328,7 +4328,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'544.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4337,7 +4337,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'545.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4346,7 +4346,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'546.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4355,7 +4355,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'547.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4364,7 +4364,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'548.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4373,7 +4373,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'549.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4382,7 +4382,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'550.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4391,7 +4391,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'551.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4400,7 +4400,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'552.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
@@ -4409,11 +4409,173 @@ export const memorabilias:IMemorabilia[] = [
     {
         imagen:'553.jpeg',
         titulo:'Chuck Berry',
-        descripcion:'Chuck Berry en elBEC el 29-1-2007',
+        descripcion:'Chuck Berry en el BEC el 29-1-2007',
         grupo:'Chuck Berry',
         origen:'propia',
         fecha: new Date(Date.UTC(2007, 0, 29)),
         lugar:'BEC'
+    },
+    {
+        imagen:'554.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'555.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'556.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'557.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'558.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'559.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'560.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'561.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'562.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'563.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'564.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'565.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'566.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'567.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'568.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'569.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'570.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'571.jpeg',
+        titulo:'Marah',
+        descripcion:'Marah en el Kafe Antzokia el 9-2-2007',
+        grupo:'Marah',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        lugar:'Kafe Antzokia'
     },
 
 ];

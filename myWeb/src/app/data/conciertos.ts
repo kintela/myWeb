@@ -767,4 +767,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Chuck Berry',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2007, 1, 9)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Marah',
+        rutaFotos: '1',        
+    },
 ];

@@ -746,4 +746,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Cracker',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        ciudad: 'Bilbao',
+        sala:'BEC',
+        grupo: 'Fito',
+        rutaFotos: '1',        
+    },
 ];

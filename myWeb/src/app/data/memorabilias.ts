@@ -4046,5 +4046,185 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2006, 10, 29)),
         lugar:'Kafe Antzokia'
     },
+    {
+        imagen:'513.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'514.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'515.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'516.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'517.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'518.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'519.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'520.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'521.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'522.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'523.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'524.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'525.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'526.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'527.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'528.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'529.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'530.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'531.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
+    {
+        imagen:'532.jpeg',
+        titulo:'Fito',
+        descripcion:'Fito en elBEC el 22-12-2006',
+        grupo:'Fito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 11, 22)),
+        lugar:'BEC'
+    },
 
 ];

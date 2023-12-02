@@ -3893,5 +3893,122 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2006, 9, 24)),
         lugar:'BEC'
     },
+    {
+        imagen:'496.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'497.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'498.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'499.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'500.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'501.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'502.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'503.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'504.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'505.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'506.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'507.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
+    {
+        imagen:'508.jpeg',
+        titulo:'Ben Harper',
+        descripcion:'Ben Harper en el Kursaal el 29-11-2006',
+        grupo:'Ben Harper',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        lugar:'Kursaal'
+    },
 
 ];

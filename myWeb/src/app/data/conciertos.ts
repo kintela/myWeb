@@ -732,4 +732,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Muse',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        ciudad: 'Donosti',
+        sala:'Kursaal',
+        grupo: 'Ben Harper',
+        rutaFotos: '1',        
+    },
 ];

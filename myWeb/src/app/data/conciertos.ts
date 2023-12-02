@@ -733,10 +733,17 @@ export const conciertos:IConcierto[]=[
         rutaFotos: '1',        
     },
     {
-        fecha: new Date(Date.UTC(2006, 10, 29)),
+        fecha: new Date(Date.UTC(2006, 10, 25)),
         ciudad: 'Donosti',
         sala:'Kursaal',
         grupo: 'Ben Harper',
+        rutaFotos: '1',        
+    },
+    {
+        fecha: new Date(Date.UTC(2006, 10, 29)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Cracker',
         rutaFotos: '1',        
     },
 ];

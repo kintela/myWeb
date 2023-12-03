@@ -788,4 +788,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Fumanchu',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2007, 4, 19)),
+        ciudad: 'Bilbao',
+        sala:'BEC',
+        grupo: 'The Who',
+        rutaFotos: '1',        
+    },
 ];

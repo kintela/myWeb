@@ -781,4 +781,11 @@ export const conciertos:IConcierto[]=[
         grupo: 'Toto',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2007, 3, 29)),
+        ciudad: 'Durango',
+        sala:'Plateruena',
+        grupo: 'Fumanchu',
+        rutaFotos: '1',        
+    },
 ];

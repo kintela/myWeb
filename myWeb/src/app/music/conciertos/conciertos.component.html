@@ -48,10 +48,14 @@
             <div class="scrollable-videos">
               <div *ngIf="concierto.videos">
                 <div>
-                    <a *ngFor="let videoUrl of concierto.videos; let i = index" (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
+                  <a *ngFor="let videoUrl of concierto.videos; let i = index" (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
                 </div>
               </div>
-              <a *ngIf="concierto.fotos" (click)="navegarAFotos(concierto)" target="_blank" class="clickable-link">Fotos</a>
+              <div *ngIf="concierto.fotos">
+                <div>
+                  <a  (click)="navegarAFotos(concierto)" class="clickable-link">Fotos</a>
+                </div>                
+              </div>              
             </div>    
           </mat-cell>
         </ng-container>

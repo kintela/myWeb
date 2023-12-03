@@ -5306,5 +5306,77 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2007, 4, 19)),
         lugar:'BEC'
     },
+    {
+        imagen:'652.jpeg',
+        titulo:'Tool',
+        descripcion:'Tool enm el ARF el 31-8-2007',
+        grupo:'Tool',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 7, 31)),
+        lugar:'ARF'
+    },
+    {
+        imagen:'653.jpeg',
+        titulo:'Tool',
+        descripcion:'Tool enm el ARF el 31-8-2007',
+        grupo:'Tool',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 7, 31)),
+        lugar:'ARF'
+    },
+    {
+        imagen:'654.jpeg',
+        titulo:'Tool',
+        descripcion:'Tool enm el ARF el 31-8-2007',
+        grupo:'Tool',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 7, 31)),
+        lugar:'ARF'
+    },
+    {
+        imagen:'655.jpeg',
+        titulo:'Tool',
+        descripcion:'Tool enm el ARF el 31-8-2007',
+        grupo:'Tool',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 7, 31)),
+        lugar:'ARF'
+    },
+    {
+        imagen:'656.jpeg',
+        titulo:'Tool',
+        descripcion:'Tool enm el ARF el 31-8-2007',
+        grupo:'Tool',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 7, 31)),
+        lugar:'ARF'
+    },
+    {
+        imagen:'657.jpeg',
+        titulo:'Tool',
+        descripcion:'Tool enm el ARF el 31-8-2007',
+        grupo:'Tool',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 7, 31)),
+        lugar:'ARF'
+    },
+    {
+        imagen:'658.jpeg',
+        titulo:'Tool',
+        descripcion:'Tool enm el ARF el 31-8-2007',
+        grupo:'Tool',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 7, 31)),
+        lugar:'ARF'
+    },
+    {
+        imagen:'659.jpeg',
+        titulo:'Tool',
+        descripcion:'Tool enm el ARF el 31-8-2007',
+        grupo:'Tool',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2007, 7, 31)),
+        lugar:'ARF'
+    },
 
 ];

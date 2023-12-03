@@ -795,4 +795,12 @@ export const conciertos:IConcierto[]=[
         grupo: 'The Who',
         rutaFotos: '1',        
     },
+    {
+        fecha: new Date(Date.UTC(2007, 7, 31)),
+        ciudad: 'Vitoria',
+        sala:'ARF',
+        festival: true,
+        grupo: 'Tool',
+        rutaFotos: '1',        
+    },
 ];

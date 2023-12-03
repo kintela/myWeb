@@ -36,16 +36,7 @@ export class ConciertosComponent implements OnInit {
   @HostListener('window:resize', ['$event'])
 
 
-  navegarAFotosOLD(concierto: IConcierto) {
-    const formattedDate = this.formatDate(concierto.fecha);
-    this.router.navigate(['/music/memorabilia'], { 
-      queryParams: {
-        grupo: encodeURIComponent(concierto.grupo), 
-        fecha: formattedDate,
-        lugar: encodeURIComponent(concierto.sala)
-      }
-    });
-  }
+ 
 
   navegarAFotos(concierto: IConcierto) {
     const formattedDate = this.formatDate(concierto.fecha);

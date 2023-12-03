@@ -5378,5 +5378,32 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2007, 7, 31)),
         lugar:'ARF'
     },
+    {
+        imagen:'660.jpeg',
+        titulo:'The Screaming Cheetah Wheelies',
+        descripcion:'The Screaming Cheeetah Wheelies en la Sala BBK el 2-12-2023',
+        grupo:'The Screaming Cheetah Wheelies',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2023, 11, 2)),
+        lugar:'BBK'
+    },
+    {
+        imagen:'661.jpeg',
+        titulo:'The Screaming Cheeetah Wheelies',
+        descripcion:'The Screaming Cheeetah Wheelies en la Sala BBK el 2-12-2023',
+        grupo:'The Screaming Cheetah Wheelies',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2023, 11, 2)),
+        lugar:'BBK'
+    },
+    {
+        imagen:'662.jpeg',
+        titulo:'The Screaming Cheeetah Wheelies',
+        descripcion:'The Screaming Cheeetah Wheelies en la Sala BBK el 2-12-2023',
+        grupo:'The Screaming Cheetah Wheelies',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2023, 11, 2)),
+        lugar:'BBK'
+    },
 
 ];

@@ -232,10 +232,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/DyCt15JrTHs?si=56otubOT8CboNWT5','https://www.youtube.com/embed/KovlbQ9VRMw?si=47fSk7bknskelWQY','https://www.youtube.com/embed/Ww-P02LT7n8?si=tsRtpHW1qy4my4NM','https://www.youtube.com/embed/DacEgxdczmU?si=R5Rg6SESd7nLpKaV','https://www.youtube.com/embed/bjy8nb2zvlo?si=KViuSPqslmXtbd-w','https://www.youtube.com/embed/iFqBsLfpSes?si=08T9vNIofIIx4uyN','https://www.youtube.com/embed/GWBLM7NNIXY?si=xOYXAhJ_tWlHkO-C']
     },
     {
-        fecha: new Date(2018, 4, 7),
+        fecha: new Date(Date.UTC(2018, 3, 7)),
         ciudad: 'Bilbao',
         sala: 'Satelite T',
         grupo: 'Los DelTonos', 
+        entrada: "entradas/67.jpg",   
         videos:['https://www.youtube.com/embed/zAsgemLIzrY?si=Fq7ORbmhef3jEiwf','https://www.youtube.com/embed/1YTGMN5NtE8?si=r6_FvwCzcLMWXzaD']
     },
     {
@@ -260,10 +261,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/9dZs3juDN8g?si=af1omRb48EchiGo6','https://www.youtube.com/embed/nzbxZbcor2M?si=1lE1Is6L6O-burvP']
     },
     {
-        fecha: new Date(2017, 1, 25),
+        fecha: new Date(Date.UTC(2018, 0, 25)),
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia',
         grupo: 'Angel Stanich',
+        entrada: "entradas/66.jpg",
         videos:['https://www.youtube.com/embed/nrRg2f9rLXI?si=QifdXTeLBC0rL7DH','https://www.youtube.com/embed/COGprESR0qE?si=vH1nikiGWjyEed3O']
     },
     {
@@ -402,10 +404,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/pNN8GBdoEg8?si=QnFbFXArYmq9DE2x','https://www.youtube.com/embed/fyL2YR2eFFU?si=ViHm4UmR5JTIW31E']
     },
     {
-        fecha: new Date(2016, 9, 2),
+        fecha: new Date(Date.UTC(2016, 8, 2)),
         ciudad: 'Lierganes',
         sala:'Bar Los Picos',
         grupo: 'The Soul Jacket',
+        entrada: "entradas/65.jpg", 
         videos:['https://www.youtube.com/embed/zPasJycuXhU?si=gPZ9WylCZVcY_YPe','https://www.youtube.com/embed/yQeCxLGefp4?si=IloWBLSu2ZU6Vj9V','https://www.youtube.com/embed/iyX_6rcSm7Y?si=7CmElPCCCWNGaBEx','https://www.youtube.com/embed/apKOLlSsIhg?si=lb3waN5Ce_j7mADQ','https://www.youtube.com/embed/7ECDp3N4I64?si=u81O6QfY3QEhmNSw']
     },
     {
@@ -488,10 +491,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/-Xd-ujJCFgQ?si=i-DCiP3FnP6QbALc']
     },
     {
-        fecha: new Date(2015, 11, 19),
+        fecha: new Date(Date.UTC(2015, 10, 19)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
         grupo: 'The Sheepdogs',
+        entrada: "entradas/64.jpg", 
         videos:['https://www.youtube.com/embed/HN4NxFWOlfU?si=mzUUWrTWeO05dWum','https://www.youtube.com/embed/VEWBI2Z7vvU?si=ztoydIl9OHfVwcjY']
     },
     {
@@ -540,17 +544,19 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/xFa5zxVoMeE?si=pr_5gh2kCCthtmTo','https://www.youtube.com/embed/yUFoHZAxTpo?si=IOvtSI0_WI-mYO2D','https://www.youtube.com/embed/ERZ0pCUSFdQ?si=1dEhCHd7KLeUbN68']
     },
     {
-        fecha: new Date(2014, 5, 9),
+        fecha: new Date(Date.UTC(2014, 4, 9)),
         ciudad: 'Lierganes',
         sala:'Bar Los Picos',
         grupo: 'Jace Everett',
+        entrada: "entradas/60.jpg",
         videos:['https://www.youtube.com/embed/6mbOOcXpi6U?si=_FsMT2fe7kJg7lzY']
     },
     {
-        fecha: new Date(2011, 7, 6),
+        fecha: new Date(Date.UTC(2011, 6, 6)),
         ciudad: 'Bilbao',
         sala:'BBK',
         grupo: 'Vetusta Morla',
+        entrada: "entradas/77.jpg", 
         videos:['https://www.youtube.com/embed/SQYv37WggIk?si=fqO5oN0QOQ-F1i1-']
     },
     {
@@ -590,6 +596,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'San Mames',
         grupo: 'The Rolling Stones',
+        entrada: "entradas/81.jpg",
         fotos: true,        
     },
     {
@@ -651,6 +658,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'BEC',
         grupo: 'Lenny Kravitz',
+        entrada: "entradas/83.jpg", 
         fotos: true,        
     },
     {
@@ -765,6 +773,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'BEC',
         grupo: 'Muse',
+        entrada: "entradas/82.jpg",
         fotos: true,        
     },
     {
@@ -787,6 +796,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'BEC',
         grupo: 'Fito',
+        entrada: "entradas/80.jpg",
         fotos: true,        
     },
     {
@@ -801,6 +811,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'BEC',
         grupo: 'Chuck Berry',
+        entrada: "entradas/79.jpg",
         fotos: true,        
     },
     {
@@ -831,6 +842,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'BEC',
         grupo: 'The Who',
+        entrada: "entradas/85.jpg",
         fotos: true,        
     },
     {
@@ -1052,6 +1064,180 @@ export const conciertos:IConcierto[]=[
         grupo: 'Steve Wynn',
         entrada: "entradas/50.jpg",   
     },
-    
+    {
+        fecha: new Date(Date.UTC(2011, 6, 28)),
+        ciudad: 'Barakaldo',
+        sala:'Rock Star Live',
+        grupo: 'Slash',
+        entrada: "entradas/52.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2010, 9, 20)),
+        ciudad: 'Madrid',
+        sala:'Palacio de los deportes',
+        grupo: 'Muse',
+        entrada: "entradas/53.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2012, 9, 27)),
+        ciudad: 'Barakaldo',
+        sala:'Rock Star Live',
+        grupo: 'Scissor Sisters',
+        entrada: "entradas/54.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2012, 11, 8)),
+        ciudad: 'Bilbao',
+        sala:'Santana27',
+        grupo: 'Corizonas',
+        entrada: "entradas/55.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 11, 19)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Morgan',
+        entrada: "entradas/56.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2013, 4, 17)),
+        ciudad: 'Vitoria',
+        sala:'Jimmy Jazz',
+        grupo: 'Fuel Fandango',
+        entrada: "entradas/57.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2013, 6, 18)),
+        ciudad: 'Biarriz',
+        sala:'Estadio Aguilera',
+        grupo: 'Neil Young',
+        entrada: "entradas/58.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2013, 11, 3)),
+        ciudad: 'Santurtzi',
+        sala:'Serantes Kulur Aretoa',
+        grupo: 'Gari',
+        entrada: "entradas/59.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2014, 7, 21)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Lisa and the Lips',
+        entrada: "entradas/61.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2014, 8, 21)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Supersuckers',
+        entrada: "entradas/62.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2015, 2, 11)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Mark Lanegan',
+        entrada: "entradas/63.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2018, 9, 12)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Mike Farris',
+        entrada: "entradas/68.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2018, 10, 30)),
+        ciudad: 'Bilbao',
+        sala:'Azkena',
+        grupo: 'Aurora & The Betrayers',
+        entrada: "entradas/69.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2013, 10, 26)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Hiram Bullock',
+        entrada: "entradas/70.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2012, 10, 10)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Maceo Parker',
+        entrada: "entradas/71.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2009, 4, 28)),
+        ciudad: 'Bilbao',
+        sala:'Santana27',
+        grupo: 'Stanley Jordan',
+        entrada: "entradas/72.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2013, 4, 22)),
+        ciudad: 'Bilbao',
+        sala:'Santana27',
+        grupo: 'O Funkillo',
+        entrada: "entradas/73.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2009, 4, 10)),
+        ciudad: 'Bilbao',
+        sala:'Azkena',
+        grupo: 'Big a Sherrod',
+        entrada: "entradas/74.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2012, 9, 30)),
+        ciudad: 'Bilbao',
+        sala:'BBK',
+        grupo: 'Esperanza Spalding',
+        entrada: "entradas/75.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2012, 10, 8)),
+        ciudad: 'Bilbao',
+        sala:'BBK',
+        grupo: 'Robben Ford',
+        entrada: "entradas/76.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2012, 10, 8)),
+        ciudad: 'Bilbao',
+        sala:'Palacio Euskalduna',
+        grupo: 'Eleanor McEvoy',
+        entrada: "entradas/77.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2011, 6, 13)),
+        ciudad: 'Bilbao',
+        sala:'Museo Guggenheim',
+        grupo: 'Arcade Fire',
+        entrada: "entradas/84.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2010, 10, 24)),
+        ciudad: 'Bilbao',
+        sala:'Palacio Euskalduna',
+        grupo: 'Paco de Lucia',
+        entrada: "entradas/86.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 11, 18)),
+        ciudad: 'Muskiz',
+        sala:'Meatzari Aretoa',
+        grupo: 'Marah',
+        entrada: "entradas/87.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2009, 3, 5)),
+        ciudad: 'Bilbao',
+        sala:'Palaio Euskalduna',
+        grupo: 'Anne McCue',
+        entrada: "entradas/88.jpg",   
+    },
 
 ];

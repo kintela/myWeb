@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { IConcierto } from 'src/app/data/IConcierto';
 import { conciertos } from 'src/app/data/conciertos';
 import { ReproductorVideoComponent } from 'src/app/shared/reproductor-video/reproductor-video.component';
+import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.component';
 
 @Component({
   selector: 'app-conciertos',
@@ -35,9 +36,6 @@ export class ConciertosComponent implements OnInit {
 
   @HostListener('window:resize', ['$event'])
 
-
- 
-
   navegarAFotos(concierto: IConcierto) {
     const formattedDate = this.formatDate(concierto.fecha);
     const queryParams = `?grupo=${encodeURIComponent(concierto.grupo)}&fecha=${formattedDate}&lugar=${encodeURIComponent(concierto.sala)}`;
@@ -45,7 +43,6 @@ export class ConciertosComponent implements OnInit {
     window.open(url, '_blank'); // Abre en una nueva pestaña
   }
   
-
   actualizarFiltro(): void {
     let conciertosFiltrados = this.conciertos;
 
@@ -65,10 +62,8 @@ export class ConciertosComponent implements OnInit {
     }
 
     this.conciertosFiltrados = conciertosFiltrados;
-}
+  }
 
-
-  
   actualizarGruposDisponibles(): void {
     this.gruposDisponibles = [...new Set(this.conciertos.map(concierto => concierto.grupo))]
       .sort((a, b) => a.localeCompare(b));
@@ -81,12 +76,18 @@ export class ConciertosComponent implements OnInit {
     this.isScreenSmall = window.innerWidth < 768;
   }
 
-
   mostrarVideo(videoUrl: string) {
     this.dialog.open(ReproductorVideoComponent, {
       data: {
         url: videoUrl
       }
+    });
+  }
+
+  openImageViewer(image: string) {
+    this.dialog.open(VisorImagenComponent, {
+      data: { image: image },
+      panelClass: 'custom-dialog-container' // Clase para estilos personalizados
     });
   }
 

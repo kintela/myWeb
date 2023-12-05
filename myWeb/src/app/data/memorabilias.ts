@@ -2031,6 +2031,15 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Polideportivo'
     },
     {
+        imagen:'287.jpeg',
+        titulo:'Joe Satriani',
+        descripcion:'Joe Satriani en el polideportivo de Mondragón el 2-07-2004',
+        grupo:'G3',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2004, 6, 2)),
+        lugar:'Polideportivo'
+    },
+    {
         imagen:'288.jpeg',
         titulo:'Joe Satriani',
         descripcion:'Joe Satriani en el polideportivo de Mondragón el 2-07-2004',
@@ -2382,9 +2391,9 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Anoeta'
     },
     {
-        imagen:'326.jpeg',
-        titulo:'Franz Ferdinand',
-        descripcion:'Franz Ferdinand en Anoeta el 9-8-2005',
+        imagen:'327.jpeg',
+        titulo:'U2',
+        descripcion:'U2 en Anoeta el 9-8-2005',
         grupo:'U2',
         origen:'propia',
         fecha: new Date(Date.UTC(2005, 7, 9)),
@@ -3537,7 +3546,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'456.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3546,7 +3555,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'457.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3555,7 +3564,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'458.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3564,7 +3573,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'459.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3573,7 +3582,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'460.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3582,7 +3591,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'461.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3591,7 +3600,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'462.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3600,7 +3609,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'463.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3609,7 +3618,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'464.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3618,16 +3627,16 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'465.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
     },
     {
-        imagen:'460.jpeg',
+        imagen:'466.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3636,7 +3645,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'467.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3645,7 +3654,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'468.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3654,7 +3663,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'469.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3663,7 +3672,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'470.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3672,7 +3681,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'471.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3681,7 +3690,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'472.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3690,7 +3699,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'473.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3699,7 +3708,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'474.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3708,7 +3717,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'475.jpeg',
         titulo:'Pearl Jam',
         descripcion:'Pearl Jam en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Pearl Jam',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3717,7 +3726,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'476.jpeg',
         titulo:'Wolfmother',
         descripcion:'Wolfmother en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Wolfmother',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -3726,7 +3735,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'477.jpeg',
         titulo:'Wolfmother',
         descripcion:'Wolfmother en el ARF el 3-09-2006',
-        grupo:'ARF',
+        grupo:'Wolfmother',
         origen:'propia',
         fecha: new Date(Date.UTC(2006, 8, 3)),
         lugar:'ARF'
@@ -5664,6 +5673,12 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'George Harrison',
         personas:'George Harrison',
         grupo:'The Beatles',
+        origen:'Facebook'
+    },
+    {
+        imagen:'704.jpg',
+        titulo:'Noel Gallagher',
+        personas:'Noel Gallagher',
         origen:'Facebook'
     },
     

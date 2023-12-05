@@ -55,7 +55,12 @@
                 <div>
                   <a  (click)="navegarAFotos(concierto)" class="clickable-link">Fotos</a>
                 </div>                
-              </div>              
+              </div>   
+              <div *ngIf="concierto.entrada">
+                <div>
+                  <a  (click)="openImageViewer(concierto.entrada)" class="clickable-link">Entrada</a>
+                </div>                
+              </div>               
             </div>    
           </mat-cell>
         </ng-container>

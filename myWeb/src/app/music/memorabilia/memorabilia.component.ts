@@ -32,6 +32,9 @@ export class MemorabiliaComponent implements OnInit {
         this.filteredMemorabilias = memorabilias;
       }
     });
+
+    const faltantes = this.encontrarNumerosFaltantes(memorabilias);
+    console.log("faltan estos numeros",faltantes);
   
   }
 
@@ -73,5 +76,23 @@ export class MemorabiliaComponent implements OnInit {
            date1.getUTCMonth() === date2.getUTCMonth() &&
            date1.getUTCFullYear() === date2.getUTCFullYear();
   }
+
+  private encontrarNumerosFaltantes(memorabilias: IMemorabilia[]): number[] {
+    // Crear un conjunto con todos los números de imagen que tienes
+    const numerosImagenes = new Set(memorabilias.map(m => parseInt(m.imagen.split('.')[0])));
+
+    // Crear un arreglo para los números faltantes
+    let numerosFaltantes: number[] = [];
+
+    // Recorrer desde 1 hasta el número máximo (704 en tu caso)
+    for (let i = 1; i <= 704; i++) {
+        if (!numerosImagenes.has(i)) {
+            // Si el número no está en tu conjunto, añadirlo a la lista de faltantes
+            numerosFaltantes.push(i);
+        }
+    }
+
+    return numerosFaltantes;
+}
   
 }

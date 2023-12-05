@@ -1,0 +1,16 @@
+::ng-deep .custom-dialog-container {
+    width: 20%; /* Ajusta el ancho del contenedor a la mitad del ancho de su contenedor padre */
+    height: auto; /* Esto ajustará la altura automáticamente para mantener las proporciones */
+    margin: auto; /* Centra el contenedor si es necesario */
+}
+  
+.mat-card {
+    width: 100%; /* Ajusta el ancho de la tarjeta al 100% del contenedor personalizado */
+}
+  
+.imagen-ampliada {
+    width: 100%; /* La imagen toma el ancho completo de la tarjeta */
+    height: auto; /* Mantiene las proporciones de la imagen */
+}
+  
+  

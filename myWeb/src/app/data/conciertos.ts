@@ -554,31 +554,35 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/SQYv37WggIk?si=fqO5oN0QOQ-F1i1-']
     },
     {
-        fecha: new Date(2011, 4, 2),
         ciudad: 'Madrid',
         sala:'La Riviera',
+        fecha: new Date(Date.UTC(2011, 3, 2)),
         grupo: 'Adele',
+        entrada: "entradas/51.jpg",
         videos:['https://www.youtube.com/embed/IPqA3sMgt_s?si=ShZSMEdK0Cp56CL6','https://www.youtube.com/embed/kmHnUnNcXfE?si=Rcpa2p-SaU83LpxV']
     },
     {
-        fecha: new Date(2010, 9, 26),
+        fecha: new Date(Date.UTC(2010, 8, 26)),
         ciudad: 'Donosti',
         sala:'Anoeta',
         grupo: 'U2',
+        entrada: "entradas/48.jpg", 
         videos:['https://www.youtube.com/embed/wH4eihHOjjI?si=g_TnEN28EaUk9zB2','https://www.youtube.com/embed/G4_BZ0b3y_8?si=y4t2Yn87ez_NO-VG','https://www.youtube.com/embed/FUYNcnKmmF4?si=imYuQne-czjbuDwH','https://www.youtube.com/embed/24zO7P5wHGU?si=ZxSlyY3i7cyHV4Ft','https://www.youtube.com/embed/GABFTjCbXGw?si=4sQ4dbHVxbfePfDG']
     },
     {
-        fecha: new Date(2010, 7, 30),
+        fecha: new Date(Date.UTC(2010, 6, 30)),
         ciudad: 'Bilbao',
         sala:'Plaza de toros',
-        grupo: 'Mark Knofler',
+        grupo: 'Mark Knopfler',
+        entrada: "entradas/47.jpg",
         videos:['https://www.youtube.com/embed/QTD1B-flR9Q?si=EM4vpi5Am6kKuflp','https://www.youtube.com/embed/RfjIgGwnKvw?si=Qfoz0ZHKBmbqOxxS','https://www.youtube.com/embed/0Yug9lP8x3U?si=7eMnpz8hriw0olbL','https://www.youtube.com/embed/zFm-q8XvOJU?si=VlQJ8n6g3Ndc_0ap','https://www.youtube.com/embed/-yKQfs57L24?si=tkdPeHv6Zi9v4iLP']
     },
     {
-        fecha: new Date(2010, 7, 15),
+        fecha: new Date(Date.UTC(2010, 6, 15)),
         ciudad: 'Zaragoza',
-        sala:'Aire Libre',
+        sala:'Anfiteatro de Ranillas',
         grupo: 'Ben Harper',
+        entrada: "entradas/45.jpg", 
         videos:['https://www.youtube.com/embed/66-I6PeE_go?si=Dvr-56lSgC1rtdXp','https://www.youtube.com/embed/P1h1IC286Ys?si=VWx2Se9pOY-_G51m']
     },
     {
@@ -587,6 +591,13 @@ export const conciertos:IConcierto[]=[
         sala:'San Mames',
         grupo: 'The Rolling Stones',
         fotos: true,        
+    },
+    {
+        fecha: new Date(Date.UTC(2007, 5, 23)),
+        ciudad: 'Donosti',
+        sala:'Anoeta',
+        grupo: 'The Rolling Stones',
+        entrada: "entradas/31.jpg",        
     },
     {
         fecha: new Date(Date.UTC(2003, 9, 26)),
@@ -714,6 +725,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Santana27',
         grupo: 'Alice in Chains',
+        entrada: "entradas/26.jpg",
         fotos: true,        
     },
     {
@@ -721,6 +733,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Barcelona',
         sala:'Palau Sant Jordi',
         grupo: 'Red Hot Chili Peppers',
+        entrada: "entradas/27.jpg",
         fotos: true,        
     },
     {
@@ -766,6 +779,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
         grupo: 'Cracker',
+        entrada: "entradas/28.jpg",   
         fotos: true,        
     },
     {
@@ -801,6 +815,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'La Casilla',
         grupo: 'Toto',
+        entrada: "entradas/29.jpg", 
         fotos: true,        
     },
     {
@@ -808,6 +823,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Durango',
         sala:'Plateruena',
         grupo: 'Fumanchu',
+        entrada: "entradas/30.jpg", 
         fotos: true,        
     },
     {
@@ -917,5 +933,125 @@ export const conciertos:IConcierto[]=[
         sala:'ARF',
         entrada: "entradas/15.jpg",   
     },
+    {
+        fecha: new Date(Date.UTC(2007, 10, 4)),
+        ciudad: 'Durango',
+        sala:'Feria de muestras',
+        grupo: 'Dream Theater',
+        entrada: "entradas/32.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2007, 10, 23)),
+        ciudad: 'Barakaldo',
+        sala:'BEC',
+        grupo: 'Marilyn Manson',
+        entrada: "entradas/33.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2007, 10, 26)),
+        ciudad: 'Barakaldo',
+        sala:'BEC',
+        grupo: 'Bruce Springsteen',
+        entrada: "entradas/34.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 1, 14)),
+        ciudad: 'Barakaldo',
+        sala:'Rock Star Live',
+        grupo: 'Queens of the Stone Age',
+        entrada: "entradas/35.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 6, 15)),
+        ciudad: 'Donosti',
+        sala:'Anoeta',
+        grupo: 'Bruce Springsteen',
+        entrada: "entradas/36.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 6, 19)),
+        ciudad: 'Barcelona',
+        sala:'Camp Nou',
+        grupo: 'Bruce Springsteen',
+        entrada: "entradas/37.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 6, 20)),
+        ciudad: 'Barakaldo',
+        sala:'Rock Star Live',
+        grupo: 'Motorhead',
+        entrada: "entradas/38.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 6, 24)),
+        ciudad: 'Barakaldo',
+        sala:'Rock Star Live',
+        grupo: 'Motorhead',
+        entrada: "entradas/38.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 5, 24)),
+        ciudad: 'Pamplona',
+        sala:'Polideportivo',
+        grupo: 'Bob Dylan',
+        entrada: "entradas/39.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 9, 12)),
+        ciudad: 'Barakaldo',
+        sala:'Rock Star Live',
+        grupo: 'Porcupine Tree',
+        entrada: "entradas/40.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 10, 20)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Jose Bonamassa',
+        entrada: "entradas/41.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2009, 4, 21)),
+        ciudad: 'Donosti',
+        sala:'Velódromo Anoeta',
+        grupo: 'Neil Young',
+        entrada: "entradas/42.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2009, 6, 26)),
+        ciudad: 'Bilbao',
+        sala:'San Mames',
+        grupo: 'Bruce Springsteen',
+        entrada: "entradas/43.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2009, 6, 28)),
+        ciudad: 'Barakaldo',
+        sala:'Rock Star Live',
+        grupo: 'Steve Winwood',
+        entrada: "entradas/44.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2010, 6, 23)),
+        ciudad: 'Barakaldo',
+        sala:'Rock Star Live',
+        grupo: 'The Cult',
+        entrada: "entradas/46.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2010, 10, 20)),
+        ciudad: 'Barakaldo',
+        sala:'Rock Star Live',
+        grupo: 'Joe Satriani',
+        entrada: "entradas/49.jpg",   
+    },
+    {
+        fecha: new Date(Date.UTC(2010, 10, 28)),
+        ciudad: 'Bilbao',
+        sala:'Santana27',
+        grupo: 'Steve Wynn',
+        entrada: "entradas/50.jpg",   
+    },
+    
 
 ];

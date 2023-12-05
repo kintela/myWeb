@@ -3399,6 +3399,12 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'BBK Live'
     },
     {
+        imagen:'439.jpg',
+        titulo:'John Lennon',   
+        personas:'John Lennon',
+        origen:'Facebook',
+    },
+    {
         imagen:'440.jpeg',
         titulo:'Ben Harper',
         descripcion:'Ben Harper en el BBK Live el 14-07-2006',
@@ -4623,15 +4629,6 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'La Casilla'
     },
     {
-        imagen:'572.jpeg',
-        titulo:'Toto',
-        descripcion:'Toto en La Casilla el 3-4-2007',
-        grupo:'Toto',
-        origen:'propia',
-        fecha: new Date(Date.UTC(2007, 3, 3)),
-        lugar:'La Casilla'
-    },
-    {
         imagen:'576.jpeg',
         titulo:'Toto',
         descripcion:'Toto en La Casilla el 3-4-2007',
@@ -4911,6 +4908,13 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'La Casilla'
     },
     {
+        imagen:'607.jeg',
+        titulo:'Paul McCartney y Billy Preston',
+        descripcion:'Primera vez que colaboran juntos en Get Back',
+        personas:'Paul McCartney, Billy Preston',
+        origen:'Facebook',
+    },
+    {
         imagen:'608.jpeg',
         titulo:'Toto',
         descripcion:'Toto en La Casilla el 3-4-2007',
@@ -4991,15 +4995,7 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2007, 3, 3)),
         lugar:'La Casilla'
     },
-    {
-        imagen:'616.jpeg',
-        titulo:'Fumanchu',
-        descripcion:'Fumanchu en el Plateruena el 29-4-2007',
-        grupo:'Fumanchu',
-        origen:'propia',
-        fecha: new Date(Date.UTC(2007, 3, 29)),
-        lugar:'Plateruena'
-    },
+   
     {
         imagen:'617.jpeg',
         titulo:'Fumanchu',
@@ -5681,7 +5677,10 @@ export const memorabilias:IMemorabilia[] = [
         personas:'Noel Gallagher',
         origen:'Facebook'
     },
-    
-    
-
+    {
+        imagen:'705.jpg',
+        titulo:'The Rolling Stones en Nicotte',
+        grupo:'The Rolling Stones',
+        origen:'Facebook'
+    },
 ];

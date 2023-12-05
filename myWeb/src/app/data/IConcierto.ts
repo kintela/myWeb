@@ -7,4 +7,5 @@ export interface IConcierto {
     festival?:boolean;
     fotos?:boolean;
     entrada?:string;
+    descripcion?:string;
 }

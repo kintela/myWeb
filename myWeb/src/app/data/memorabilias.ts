@@ -5683,4 +5683,22 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'The Rolling Stones',
         origen:'Facebook'
     },
+    {
+        imagen:'706.jpg',
+        titulo:'The Beatles',
+        grupo:'The Beatles',
+        origen:'Facebook'
+    },
+    {
+        imagen:'707.jpg',
+        titulo:'Living Colour',
+        grupo:'Living Colour',
+        origen:'Facebook'
+    },
+    {
+        imagen:'708.jpg',
+        titulo:'The Faces',
+        grupo:'The Faces',
+        origen:'Facebook'
+    },
 ];

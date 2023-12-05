@@ -7,7 +7,7 @@
 }
 
 .scrollable-videos {
-    max-height: 150px; // La altura máxima antes de que comience a desplazar
+    //max-height: 150px; // La altura máxima antes de que comience a desplazar
     overflow-y: auto; // Esto añade desplazamiento vertical si el contenido excede el max-height
     display: flex;
     flex-wrap: wrap; // Esto permite que los elementos pasen a la siguiente línea

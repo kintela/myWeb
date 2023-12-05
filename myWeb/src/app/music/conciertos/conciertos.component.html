@@ -46,6 +46,11 @@
           <mat-header-cell *matHeaderCellDef> Media </mat-header-cell>
           <mat-cell *matCellDef="let concierto">
             <div class="scrollable-videos">
+              <div *ngIf="concierto.entrada">
+                <div>
+                  <a  (click)="openImageViewer(concierto.entrada)" class="clickable-link">Entrada</a>
+                </div>                
+              </div>   
               <div *ngIf="concierto.videos">
                 <div>
                   <a *ngFor="let videoUrl of concierto.videos; let i = index" (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
@@ -55,12 +60,7 @@
                 <div>
                   <a  (click)="navegarAFotos(concierto)" class="clickable-link">Fotos</a>
                 </div>                
-              </div>   
-              <div *ngIf="concierto.entrada">
-                <div>
-                  <a  (click)="openImageViewer(concierto.entrada)" class="clickable-link">Entrada</a>
-                </div>                
-              </div>               
+              </div>                             
             </div>    
           </mat-cell>
         </ng-container>

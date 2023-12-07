@@ -604,7 +604,8 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Donosti',
         sala:'Anoeta',
         grupo: 'The Rolling Stones',
-        entrada: "entradas/31.jpg",        
+        entrada: "entradas/31.jpg",   
+        fotos: true     
     },
     {
         fecha: new Date(Date.UTC(2003, 9, 26)),
@@ -950,7 +951,8 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Durango',
         sala:'Feria de muestras',
         grupo: 'Dream Theater',
-        entrada: "entradas/32.jpg",   
+        entrada: "entradas/32.jpg", 
+        fotos: true  
     },
     {
         fecha: new Date(Date.UTC(2007, 10, 23)),
@@ -965,6 +967,7 @@ export const conciertos:IConcierto[]=[
         sala:'BEC',
         grupo: 'Bruce Springsteen',
         entrada: "entradas/34.jpg",   
+        fotos: true
     },
     {
         fecha: new Date(Date.UTC(2008, 1, 14)),
@@ -1239,5 +1242,71 @@ export const conciertos:IConcierto[]=[
         grupo: 'Anne McCue',
         entrada: "entradas/88.jpg",   
     },
+    {
+        fecha: new Date(Date.UTC(2007, 5, 21)),
+        ciudad: 'Billbao',
+        sala:'BBK Live',
+        festival: true,
+        grupo: 'Metallica',
+        cartel: "carteles/1.jpg",
+        fotos: true
+    },
+    {
+        fecha: new Date(Date.UTC(2007, 5, 21)),
+        ciudad: 'Billbao',
+        sala:'BBK Live',
+        festival: true,
+        grupo: 'Iron Maiden',
+        cartel: "carteles/1.jpg",
+        fotos: true
+    },
+    {
+        fecha: new Date(Date.UTC(2007, 5, 21)),
+        ciudad: 'Billbao',
+        sala:'BBK Live',
+        festival: true,
+        grupo: 'Maceo Parker',
+        cartel: "carteles/1.jpg",
+        fotos: true
+    },
+    {
+        fecha: new Date(Date.UTC(2007, 5, 21)),
+        ciudad: 'Billbao',
+        sala:'BBK Live',
+        festival: true,
+        grupo: 'Red Hot Chili Peppers',
+        cartel: "carteles/1.jpg",
+        fotos: true
+    },
+    {
+        fecha: new Date(Date.UTC(2007, 5, 6)),
+        ciudad: 'Madrid',
+        sala:'FestiMad',
+        festival: true,
+        grupo: 'Pearl Jam',
+        cartel: "carteles/2.jpg",
+        fotos: true
+    },   
+    {
+        fecha: new Date(Date.UTC(2007, 6, 21)),
+        ciudad: 'Vitoria',
+        sala:'Polideportizo de Mendizorroza',
+        grupo: 'Norah Jones',
+        fotos: true
+    },  
+    {
+        fecha: new Date(Date.UTC(2007, 6, 28)),
+        ciudad: 'Espinosa de los Monteros',
+        sala:'Plaza',
+        grupo: 'Luis Aguile',
+        fotos: true
+    },  
+    {
+        fecha: new Date(Date.UTC(2007, 7, 11)),
+        ciudad: 'Londres',
+        sala:'O2 Arena',
+        grupo: 'Prince',
+        fotos: true
+    },    
 
 ];

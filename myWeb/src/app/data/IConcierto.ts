@@ -8,4 +8,5 @@ export interface IConcierto {
     fotos?:boolean;
     entrada?:string;
     descripcion?:string;
+    cartel?:string;
 }

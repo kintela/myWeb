@@ -8434,7 +8434,140 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2013, 6, 18)),
         lugar:'Estadio Aguilera'
     },
-    
+    {
+        imagen:'1025.jpg',
+        titulo:'AC/DC',
+        grupo:'AC/DC',
+        origen:'Instagram',
+    },
+    {
+        imagen:'1026.jpg',
+        titulo:'Angel Stanich',
+        grupo:'Angel Stanich',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 0, 25)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'1027.jpg',
+        titulo:'Big a Sherrod',
+        grupo:'Big a Sherrod',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2009, 4, 10)),
+        lugar:'Azkena'
+    },
+    {
+        imagen:'1028.jpg',
+        titulo:'Big a Sherrod',
+        grupo:'Big a Sherrod',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2009, 4, 10)),
+        lugar:'Azkena'
+    },
+    {
+        imagen:'1029.jpg',
+        titulo:'BBK Live',
+        origen:'propia',
+        personas:'Kintela, Ainara Zamakona, Sonia Muga, Montxito, Julen',
+    },
+    {
+        imagen:'1030.jpg',
+        titulo:'Aurora & The Betrayers',
+        grupo:'Aurora & The Betrayers',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 10, 30)),
+        lugar:'Azkena'
+    },
+    {
+        imagen:'1031.jpg',
+        titulo:'Axl Rose y Kurt Cobain',
+        personas:'Axl Rose, Kurt Cobain',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1032.jpg',
+        titulo:'Bette Smith',
+        grupo:'Bette Smith',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2023, 6, 28)),
+        lugar:'Bilbao Blues'
+    },
+    {
+        imagen:'1033.jpg',
+        titulo:'Bette Smith',
+        grupo:'Bette Smith',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2023, 6, 28)),
+        lugar:'Bilbao Blues'
+    },
+    {
+        imagen:'1034.jpg',
+        titulo:'Bilbao Blues 2022',
+        personas:'Kintela, Sonia Muga',
+        origen:'propia',
+    },
+    {
+        imagen:'1035.jpg',
+        titulo:'Camaron',
+        personas:'Camaron',
+        origen:'propia',
+    },
+    {
+        imagen:'1036.jpg',
+        titulo:'Chicago All Stars',
+        grupo:'Chicago All Stars',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2022, 6, 28)),
+        lugar:'Bilbao Blues'
+    },
+    {
+        imagen:'1037.jpg',
+        titulo:'Los Chikos del maíz',
+        grupo:'Los Chikos del maíz',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2023, 2, 10)),
+        lugar:'Santana 27'
+    },
+    {
+        imagen:'1038.jpg',
+        titulo:'Chris Robinson Brotherhood',
+        grupo:'Chris Robinson Brotherhood',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 2, 7)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'1039.jpg',
+        titulo:'Chris Robinson Brotherhood',
+        grupo:'Chris Robinson Brotherhood',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 2, 7)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'1040.jpg',
+        titulo:'Chris Robinson Brotherhood',
+        grupo:'Chris Robinson Brotherhood',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 2, 7)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'1041.jpg',
+        titulo:'Clutch',
+        grupo:'Clutch',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2022, 11, 1)),
+        lugar:'Santana 27'
+    },
+    {
+        imagen:'1042.jpg',
+        titulo:'Clutch',
+        grupo:'Clutch',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2022, 11, 1)),
+        lugar:'Santana 27'
+    },
     
     
 ];

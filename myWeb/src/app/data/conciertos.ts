@@ -31,10 +31,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/23x2-PF2Q_0?si=gMUT2mJn8R7nTUnA','https://www.youtube.com/embed/9xBE9WKq5cE?si=jI4JLmkWcUWBxgHr','https://www.youtube.com/embed/7p5o1Gc-P0c?si=w3Tv3zctwMLugCCB']
     },
     {
-        fecha: new Date(2023, 3, 10),
+        fecha: new Date(Date.UTC(2023, 2, 10)),
         ciudad: 'Bilbao',
         sala: 'Santana 27',
         grupo: 'Los Chikos del maíz',
+        fotos: true,
         videos:['https://www.youtube.com/embed/VJXd-aB6mJk?si=i8c_e4M9QcWstbcI','https://www.youtube.com/embed/h4zWl1KKMao?si=aBVHeMpasgpAfoDy']
     },
     {
@@ -45,10 +46,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/NLD7AoCPRFY?si=koMLcWLEivVnUEoo','https://www.youtube.com/embed/QFANfzOmO28?si=Xclwu7376c5AGyNo','https://www.youtube.com/embed/_YqUywIFCEc?si=2Nz44Opnu3FkjQ9U','https://www.youtube.com/embed/XReABkPlVuU?si=6Nj6qK5PmksOFT0x','https://www.youtube.com/embed/K6-F6wpNYeI?si=U_3oaE81z9pCq1W6']
     },
     {
-        fecha: new Date(2022, 12, 1),
+        fecha: new Date(Date.UTC(2022, 11, 1)),
         ciudad: 'Bilbao',
         sala: 'Santana 27',
         grupo: 'Clutch',
+        fotos: true,
         videos:['https://www.youtube.com/embed/XvSd3SDQLJA?si=1WwTRt1-r5SHk7mk','https://www.youtube.com/embed/zFhOxd-5JOs?si=IoWkdoadRYBSVoLr','https://www.youtube.com/embed/3y1bElKd4u0?si=XbksGFi_QUN1WHW1']
     },
     {
@@ -272,6 +274,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia',
         grupo: 'Angel Stanich',
+        fotos: true,
         entrada: "entradas/66.jpg",
         videos:['https://www.youtube.com/embed/nrRg2f9rLXI?si=QifdXTeLBC0rL7DH','https://www.youtube.com/embed/COGprESR0qE?si=vH1nikiGWjyEed3O']
     },
@@ -1180,6 +1183,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Azkena',
         grupo: 'Aurora & The Betrayers',
+        fotos: true,
         entrada: "entradas/69.jpg",   
     },
     {
@@ -1216,6 +1220,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Azkena',
         grupo: 'Big a Sherrod',
+        fotos: true,
         entrada: "entradas/74.jpg",   
     },
     {
@@ -1467,6 +1472,29 @@ export const conciertos:IConcierto[]=[
         sala:'Kobetasonic',
         grupo: 'Kiss',
         cartel: "carteles/12.jpg",
+        fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(2023, 6, 28)),
+        ciudad: 'Bilbao',
+        sala:'Bilbao Blues',
+        grupo: 'Bette Smith',
+        festival: true,
+        fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(2022, 6, 28)),
+        ciudad: 'Bilbao',
+        sala:'Bilbao Blues',
+        grupo: 'Chicago All Stars',
+        festival: true,
+        fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(2018, 2, 7)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Chris Robinson Brotherhood',
         fotos:true,
     },
    

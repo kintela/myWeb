@@ -14,11 +14,15 @@
       <mat-card-header>
         <mat-card-subtitle>{{ memorabilia.titulo }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="assets/memorabilia/{{ memorabilia.imagen }}" alt="{{ memorabilia.titulo }}" (click)="openImageViewer(memorabilia.imagen)">
+      <img mat-card-image 
+        src="assets/memorabilia/{{ memorabilia.imagen }}" 
+        alt="{{ memorabilia.titulo }}" 
+        (click)="openImageViewer(memorabilia.imagen)"
+        matTooltip="{{memorabilia.descripcion}}">
       <mat-card-content>
-        <p>{{ memorabilia.descripcion }}</p>
+        <!--<p>{{ memorabilia.descripcion }}</p>-->
       </mat-card-content>
-      <mat-card-footer>{{ memorabilia.imagen }}</mat-card-footer>
+      <mat-card-footer>{{ memorabilia.imagen }} - {{memorabilia.origen}}</mat-card-footer>
     </mat-card>
 </div>
   

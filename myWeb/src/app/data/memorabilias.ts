@@ -5701,4 +5701,83 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'The Faces',
         origen:'Facebook'
     },
+    {
+        imagen:'709.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook'
+    },
+    {
+        imagen:'710.jpg',
+        titulo:'Charly Garcia',
+        personas:'Charly Garcia',
+        origen:'Facebook'
+    },
+    {
+        imagen:'711.jpg',
+        titulo:'Steve Ray Vaughan, Mick Jagger y Ronnie Wood',
+        personas:'Steve Ray Vaughan, Mick Jagger, Ronnie Wood',
+        origen:'Facebook'
+    },
+    {
+        imagen:'712.jpg',
+        titulo:'John Lennon',
+        personas:'John Lennon',
+        origen:'Facebook'
+    },
+    {
+        imagen:'713.jpg',
+        titulo:'John Lennon',
+        personas:'John Lennon',
+        origen:'Facebook'
+    },
+    {
+        imagen:'714.jpg',
+        titulo:'George Harrison y John Lennon',
+        personas:'George Harrison, John Lennon',
+        grupo:'The Beatles',
+        origen:'Facebook'
+    },
+    {
+        imagen:'715.jpg',
+        titulo:'Brian May, Eddie Van Halen y Tommy Iommi',
+        personas:'Brian May, Eddie Van Halen, Tommy Iommi',
+        origen:'Facebook'
+    },
+    {
+        imagen:'716.jpg',
+        titulo:'Tal Wilkenfeld',
+        personas:'Tal Wilkenfeld',
+        origen:'Facebook'
+    },
+    {
+        imagen:'717.jpg',
+        titulo:'Tal Wilkenfeld',
+        personas:'Tal Wilkenfeld',
+        origen:'Facebook'
+    },
+    {
+        imagen:'718.jpg',
+        titulo:'Tal Wilkenfeld',
+        personas:'Tal Wilkenfeld',
+        origen:'Facebook'
+    },
+    {
+        imagen:'719.jpg',
+        titulo:'Tal Wilkenfeld y Jeff Beck',
+        personas:'Tal Wilkenfeld, Jeff Beck',
+        origen:'Facebook'
+    },
+    {
+        imagen:'720.jpg',
+        titulo:'Tal Wilkenfeld',
+        personas:'Tal Wilkenfeld',
+        origen:'Facebook'
+    },
+    {
+        imagen:'721.jpg',
+        titulo:'John Lennon y Paul McCartney',
+        personas:'John Lennon, Paul McCartney',
+        origen:'Facebook'
+    },
 ];

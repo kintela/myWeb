@@ -589,6 +589,7 @@ export const conciertos:IConcierto[]=[
         sala:'Anfiteatro de Ranillas',
         grupo: 'Ben Harper',
         entrada: "entradas/45.jpg", 
+        fotos: true,
         videos:['https://www.youtube.com/embed/66-I6PeE_go?si=Dvr-56lSgC1rtdXp','https://www.youtube.com/embed/P1h1IC286Ys?si=VWx2Se9pOY-_G51m']
     },
     {
@@ -1038,6 +1039,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'San Mames',
         grupo: 'Bruce Springsteen',
+        fotos: true,
         entrada: "entradas/43.jpg",   
     },
     {
@@ -1045,6 +1047,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Barakaldo',
         sala:'Rock Star Live',
         grupo: 'Steve Winwood',
+        fotos: true,
         entrada: "entradas/44.jpg",   
     },
     {
@@ -1374,6 +1377,13 @@ export const conciertos:IConcierto[]=[
         sala:'BBK Live',
         grupo: 'Chris Cornell',
         cartel: "carteles/6.jpg",
+        fotos: true
+    }, 
+    {
+        fecha: new Date(Date.UTC(2010, 5, 28)),
+        ciudad: 'Bilbao',
+        sala:'San Mames',
+        grupo: 'AC/DC',
         fotos: true
     }, 
 

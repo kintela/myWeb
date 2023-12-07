@@ -2,10 +2,11 @@ import { IConcierto } from "./IConcierto";
 
 export const conciertos:IConcierto[]=[
     {
-        fecha: new Date(2023, 10, 20),
+        fecha: new Date(Date.UTC(2023, 9, 20)),
         ciudad: 'Bilbao',
         sala: 'Bilbao Arena',
         grupo: 'Miguel Rios',
+        fotos: true,
         videos:['https://www.youtube.com/embed/liimiG2-22k?si=q9oxD5r7gyI-rwMF','https://www.youtube.com/embed/BkGc1gXHfuw?si=JQ9mjv50MZHxk7O1','https://www.youtube.com/embed/ajCVOi_h6zA?si=S3LlHcS032JKnJ0z','https://www.youtube.com/embed/pf9EyKEnml0?si=4gHoHp0DqoKITUkD']
     },
     {
@@ -67,10 +68,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/eoxVyRS82pM?si=AG0haFZSSCiM5cGO']
     },
     {
-        fecha: new Date(2023, 9, 14),
+        fecha: new Date(Date.UTC(2023, 8, 14)),
         ciudad: 'Bilbao',
         sala: 'Santana 27',
         grupo: 'Paul Weller',
+        fotos: true,
         videos:['https://www.youtube.com/embed/rvGRm2PMw_s?si=9HnO4UhY42loEUzI','https://www.youtube.com/embed/OezlQsQxbbE?si=UxCI8ORTCRmLa5tT','https://www.youtube.com/embed/ILxhOkFTay8?si=KT8iEf5CkxN2ztK6']
     },
     {
@@ -209,26 +211,31 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/kG1f8vNxAjI?si=5Qjb4EOo2NqPKa2N']
     },
     {
-        fecha: new Date(2018, 4, 28),
+        fecha: new Date(Date.UTC(2018, 3, 28)),
         ciudad: 'Basauri',
         sala: 'Antzokia-MAZ Basauri',
         grupo: 'Sidonie',
+        fotos: true,
+        cartel: 'carteles/10.png',
         festival: true,
         videos:['https://www.youtube.com/embed/Q_I_c9oOHTg?si=ecaXNwRY-BjR2pmI']
     },
     {
-        fecha: new Date(2018, 4, 28),
+        fecha: new Date(Date.UTC(2018, 3, 28)),
         ciudad: 'Basauri',
         sala: 'Antzokia-MAZ Basauri',
         grupo: 'Rufus T. Firefly',
+        fotos: true,
+        cartel: 'carteles/10.png',
         festival: true,
         videos:['https://www.youtube.com/embed/9cE1Imji6Gs?si=j0RGiUn8dL4-sMTq','https://www.youtube.com/embed/BqdQD5zsV8M?si=YjrT1p9Xd9UYLmme']
     },
     {
-        fecha: new Date(2018, 4, 14),
+        fecha: new Date(Date.UTC(2018, 3, 14)),
         ciudad: 'Bilbao',
         sala: 'Stage Live',
-        grupo: 'Mi Capitán', 
+        grupo: 'Mi Capitan', 
+        fotos: true,
         videos:['https://www.youtube.com/embed/DyCt15JrTHs?si=56otubOT8CboNWT5','https://www.youtube.com/embed/KovlbQ9VRMw?si=47fSk7bknskelWQY','https://www.youtube.com/embed/Ww-P02LT7n8?si=tsRtpHW1qy4my4NM','https://www.youtube.com/embed/DacEgxdczmU?si=R5Rg6SESd7nLpKaV','https://www.youtube.com/embed/bjy8nb2zvlo?si=KViuSPqslmXtbd-w','https://www.youtube.com/embed/iFqBsLfpSes?si=08T9vNIofIIx4uyN','https://www.youtube.com/embed/GWBLM7NNIXY?si=xOYXAhJ_tWlHkO-C']
     },
     {
@@ -276,10 +283,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/J3490UtOao8?si=l4mwE7HxBsGjeCAH','https://www.youtube.com/embed/BmMrQxULhNs?si=4kxp1e0OLIBumOUd','https://www.youtube.com/embed/Kg6NROQgqj8?si=oa4go3UoxWfMpgla']
     },
     {
-        fecha: new Date(2017, 11, 12),
+        fecha: new Date(Date.UTC(2017, 10, 12)),
         ciudad: 'Bilbao',
         sala: 'Kutxa Beltza',
         grupo: 'Chuck Prophet',
+        fotos: true,
         videos:['https://www.youtube.com/embed/HPGKsqMYGb4?si=8YWOS3i1HGOHjKX_,','https://www.youtube.com/embed/zJstEdiXFUU?si=OC0xw2ULCNpcdwJc']
     },
     {
@@ -352,26 +360,31 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/xjQAiD5CrXk?si=kFG2uiz9jmfOMqco']
     },
     {
-        fecha: new Date(2017, 7, 6),
+        fecha: new Date(Date.UTC(2017,6, 7)),
         ciudad: 'Madrid',
         sala:'Mad Cool',
         grupo: 'Foo Fighters',
+        fotos: true,
         festival: true,
+        cartel: 'carteles/9.jpg',
         videos:['https://www.youtube.com/embed/sRJF0GBkQOM?si=B9Q-sugXSBbBXbPW','https://www.youtube.com/embed/9j4DmQhY-t8?si=AdGZbQ9uek3wqxjy']
     },
     {
-        fecha: new Date(2017, 7, 8),
+        fecha: new Date(Date.UTC(2017, 6, 7)),
         ciudad: 'Madrid',
         sala:'Mad Cool',
         grupo: 'Neuman',
+        fotos: true,
         festival: true,
+        cartel: 'carteles/9.jpg',
         videos:['https://www.youtube.com/embed/-GQqUfbAJjA?si=xwcWO4tl65a7Nd2c']
     },
     {
-        fecha: new Date(2017, 5, 30),
+        fecha: new Date(Date.UTC(2017, 4, 30)),
         ciudad: 'Bilbao',
         sala:'San Mames',
-        grupo: 'Gun\'s and Roses',
+        grupo: 'Guns\'s and Roses',
+        fotos:true,
         videos:['https://www.youtube.com/embed/wp0dLtX4kRo?si=5EQc2UikMSjaP5II','https://www.youtube.com/embed/Hf28LlP4RW8?si=YAfMLoCFEC35vvWb','https://www.youtube.com/embed/3gPL12dCrz4?si=0QWChEMxYNM3hxLQ']
     },
     {
@@ -397,10 +410,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/fVhYF5ZbOmM?si=bPMvdmuePNEI_Gqn']
     },
     {
-        fecha: new Date(2016, 10, 15),
+        fecha: new Date(Date.UTC(2016, 9, 15)),
         ciudad: 'Vitoria',
         sala:'Jimmy Jazz',
         grupo: 'Marah',
+        fotos: true,
         videos:['https://www.youtube.com/embed/pNN8GBdoEg8?si=QnFbFXArYmq9DE2x','https://www.youtube.com/embed/fyL2YR2eFFU?si=ViHm4UmR5JTIW31E']
     },
     {
@@ -499,9 +513,10 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/HN4NxFWOlfU?si=mzUUWrTWeO05dWum','https://www.youtube.com/embed/VEWBI2Z7vvU?si=ztoydIl9OHfVwcjY']
     },
     {
-        fecha: new Date(2015, 10, 12),
+        fecha: new Date(Date.UTC(2015, 10, 12)),
         ciudad: 'Madrid',
         sala:'Palacio de los deportes',
+        fotos: true,
         grupo: 'Dave Matthews Band',
         videos:['https://www.youtube.com/embed/mkk46FH3Ll0?si=omzJBAgwrVW1CCCk','https://www.youtube.com/embed/wyC49cDXNA4?si=bEohcrVYqP19jjkQ','https://www.youtube.com/embed/89GZ6JeONQU?si=3Ojh_2DuMqOKIJYc','https://www.youtube.com/embed/IuLjjsXNvPc?si=92lfEsHF0WiWNwC_']
     },
@@ -564,6 +579,7 @@ export const conciertos:IConcierto[]=[
         sala:'La Riviera',
         fecha: new Date(Date.UTC(2011, 3, 2)),
         grupo: 'Adele',
+        fotos: true,
         entrada: "entradas/51.jpg",
         videos:['https://www.youtube.com/embed/IPqA3sMgt_s?si=ShZSMEdK0Cp56CL6','https://www.youtube.com/embed/kmHnUnNcXfE?si=Rcpa2p-SaU83LpxV']
     },
@@ -573,6 +589,7 @@ export const conciertos:IConcierto[]=[
         sala:'Anoeta',
         grupo: 'U2',
         entrada: "entradas/48.jpg", 
+        fotos: true,
         videos:['https://www.youtube.com/embed/wH4eihHOjjI?si=g_TnEN28EaUk9zB2','https://www.youtube.com/embed/G4_BZ0b3y_8?si=y4t2Yn87ez_NO-VG','https://www.youtube.com/embed/FUYNcnKmmF4?si=imYuQne-czjbuDwH','https://www.youtube.com/embed/24zO7P5wHGU?si=ZxSlyY3i7cyHV4Ft','https://www.youtube.com/embed/GABFTjCbXGw?si=4sQ4dbHVxbfePfDG']
     },
     {
@@ -580,6 +597,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Plaza de toros',
         grupo: 'Mark Knopfler',
+        fotos: true,
         entrada: "entradas/47.jpg",
         videos:['https://www.youtube.com/embed/QTD1B-flR9Q?si=EM4vpi5Am6kKuflp','https://www.youtube.com/embed/RfjIgGwnKvw?si=Qfoz0ZHKBmbqOxxS','https://www.youtube.com/embed/0Yug9lP8x3U?si=7eMnpz8hriw0olbL','https://www.youtube.com/embed/zFm-q8XvOJU?si=VlQJ8n6g3Ndc_0ap','https://www.youtube.com/embed/-yKQfs57L24?si=tkdPeHv6Zi9v4iLP']
     },
@@ -1055,6 +1073,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Barakaldo',
         sala:'Rock Star Live',
         grupo: 'The Cult',
+        fotos: true,
         entrada: "entradas/46.jpg",   
     },
     {
@@ -1118,6 +1137,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Biarriz',
         sala:'Estadio Aguilera',
         grupo: 'Neil Young',
+        fotos: true,
         entrada: "entradas/58.jpg",   
     },
     {
@@ -1181,6 +1201,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Santana27',
         grupo: 'Stanley Jordan',
+        fotos: true,
         entrada: "entradas/72.jpg",   
     },
     {
@@ -1216,6 +1237,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Palacio Euskalduna',
         grupo: 'Eleanor McEvoy',
+        fotos: true,
         entrada: "entradas/77.jpg",   
     },
     {
@@ -1386,5 +1408,67 @@ export const conciertos:IConcierto[]=[
         grupo: 'AC/DC',
         fotos: true
     }, 
+    {
+        fecha: new Date(Date.UTC(2014, 8, 13)),
+        ciudad: 'Madrid',
+        sala:'Dcode',
+        grupo: 'Royal Blood',
+        cartel: "carteles/8.jpg",
+        fotos: true
+    }, 
+    {
+        fecha: new Date(Date.UTC(2014, 8, 13)),
+        ciudad: 'Madrid',
+        sala:'Dcode',
+        grupo: 'Russian Red',
+        cartel: "carteles/8.jpg",
+        fotos: true
+    }, 
+    {
+        fecha: new Date(Date.UTC(2014, 8, 13)),
+        ciudad: 'Madrid',
+        sala:'Dcode',
+        grupo: 'Beck',
+        cartel: "carteles/8.jpg",
+        fotos: true
+    }, 
+    {
+        fecha: new Date(Date.UTC(2017, 1, 7)),
+        ciudad: 'Bilbao',
+        sala:'Teatro Arriaga',
+        grupo: 'Gari',
+        fotos: true
+    }, 
+    {
+        fecha: new Date(Date.UTC(2017, 4, 6)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Marah',
+        fotos: true,        
+    },
+    {
+        fecha: new Date(Date.UTC(2017, 4, 30)),
+        ciudad: 'Bilbao',
+        sala:'San Mames',
+        grupo: 'Mark Lanegan',
+        fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 6, 4)),
+        ciudad: 'Bilbao',
+        sala:'BBK Live',
+        grupo: 'ZZ Top',
+        cartel: "carteles/11.jpg",
+        fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(2008, 6, 20)),
+        ciudad: 'Bilbao',
+        sala:'Kobetasonic',
+        grupo: 'Kiss',
+        cartel: "carteles/12.jpg",
+        fotos:true,
+    },
+   
 
 ];

@@ -970,10 +970,11 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },
     {
-        fecha: new Date(Date.UTC(2008, 1, 14)),
+        fecha: new Date(Date.UTC(2008, 0, 14)),
         ciudad: 'Barakaldo',
         sala:'Rock Star Live',
         grupo: 'Queens of the Stone Age',
+        fotos: true,
         entrada: "entradas/35.jpg",   
     },
     {
@@ -1307,6 +1308,73 @@ export const conciertos:IConcierto[]=[
         sala:'O2 Arena',
         grupo: 'Prince',
         fotos: true
-    },    
+    },   
+    {
+        fecha: new Date(Date.UTC(2008, 4, 30)),
+        ciudad: 'Madrid',
+        sala:'Electric Weekend',
+        festival: true,
+        grupo: 'Iggy Pop',
+        fotos: true,
+        cartel: "carteles/3.jpg",
+    }, 
+    {
+        fecha: new Date(Date.UTC(2008, 4, 30)),
+        ciudad: 'Madrid',
+        sala:'Electric Weekend',
+        festival: true,
+        grupo: 'Queens of the Stone Age',
+        fotos: true,
+        cartel: "carteles/3.jpg",
+    }, 
+    {
+        fecha: new Date(Date.UTC(2008, 4, 30)),
+        ciudad: 'Madrid',
+        sala:'Electric Weekend',
+        festival: true,
+        grupo: 'Metallica',
+        fotos: true,
+        cartel: "carteles/3.jpg",
+    }, 
+    {
+        fecha: new Date(Date.UTC(2009, 4, 14)),
+        ciudad: 'Vitoria',
+        sala:'Azkena Rock Festival',
+        festival: true,
+        grupo: 'The Black Crowes',
+        fotos: true,
+        cartel: "carteles/5.jpg",
+    }, 
+    {
+        fecha: new Date(Date.UTC(2009, 4, 14)),
+        ciudad: 'Vitoria',
+        sala:'Azkena Rock Festival',
+        festival: true,
+        grupo: 'Mike Farris',
+        fotos: true,
+        cartel: "carteles/5.jpg",
+    }, 
+    {
+        fecha: new Date(Date.UTC(2009, 3, 2)),
+        ciudad: 'Madrid',
+        sala:'Palacio de los deportes',
+        grupo: 'AC/DC',
+        fotos: true
+    }, 
+    {
+        fecha: new Date(Date.UTC(2009, 3, 4)),
+        ciudad: 'Bilbao',
+        sala:'BEC',
+        grupo: 'AC/DC',
+        fotos: true
+    }, 
+    {
+        fecha: new Date(Date.UTC(2009, 6, 9)),
+        ciudad: 'Bilbao',
+        sala:'BBK Live',
+        grupo: 'Chris Cornell',
+        cartel: "carteles/6.jpg",
+        fotos: true
+    }, 
 
 ];

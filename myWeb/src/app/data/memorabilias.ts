@@ -8591,7 +8591,7 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Judas Priest fans',
         grupo:'Judas Priest',
         origen:'propia',
-        personas:'Kintela, Pitu, Carlos Fradejas, Javito',
+        personas:'Kintela, Pitu, Carlos Fradejas, Javito, Jose Luis Caño',
         fecha: new Date(Date.UTC(1988, 4, 21)),
         lugar:'Velódromo Anoeta'
     },

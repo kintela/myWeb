@@ -6338,7 +6338,6 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'Luis Aguile en Espinosa de los Monteros 2007',
         grupo:'Luis Aguile',
         origen:'propia',
-        personas:'Kintela, Irene San Segundo, María Cabañes, Iranzu Extebarrieta',
         fecha: new Date(Date.UTC(2007, 6, 28)),
         lugar:'Plaza'
     },
@@ -6358,7 +6357,6 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'Luis Aguile en Espinosa de los Monteros 2007',
         grupo:'Luis Aguile',
         origen:'propia',
-        personas:'Kintela, Irene San Segundo, María Cabañes, Iranzu Extebarrieta',
         fecha: new Date(Date.UTC(2007, 6, 28)),
         lugar:'Plaza'
     },
@@ -6368,7 +6366,6 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'Luis Aguile en Espinosa de los Monteros 2007',
         grupo:'Luis Aguile',
         origen:'propia',
-        personas:'Kintela, Irene San Segundo, María Cabañes, Iranzu Extebarrieta',
         fecha: new Date(Date.UTC(2007, 6, 28)),
         lugar:'Plaza'
     },
@@ -6378,7 +6375,6 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'Luis Aguile en Espinosa de los Monteros 2007',
         grupo:'Luis Aguile',
         origen:'propia',
-        personas:'Kintela, Irene San Segundo, María Cabañes, Iranzu Extebarrieta',
         fecha: new Date(Date.UTC(2007, 6, 28)),
         lugar:'Plaza'
     },
@@ -6388,7 +6384,6 @@ export const memorabilias:IMemorabilia[] = [
         descripcion:'Luis Aguile en Espinosa de los Monteros 2007',
         grupo:'Luis Aguile',
         origen:'propia',
-        personas:'Kintela, Irene San Segundo, María Cabañes, Iranzu Extebarrieta',
         fecha: new Date(Date.UTC(2007, 6, 28)),
         lugar:'Plaza'
     },    
@@ -7387,17 +7382,7 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2009, 6, 9)),
         personas:'Kintela, Kily, Ainara Zamakona, Mirentxu',
         lugar:'BBK Live'
-    },   
-    {
-        imagen:'899.jpeg',
-        titulo:'Chris Cornell',
-        descripcion:'Chris Cornell en el BBK Live 2009',
-        grupo:'Chris Cornell',
-        origen:'propia',
-        fecha: new Date(Date.UTC(2009, 6, 9)),
-        personas:'Kintela, Kily, Ainara Zamakona, Mirentxu, Bertoni',
-        lugar:'BBK Live'
-    },  
+    },      
     {
         imagen:'899.jpeg',
         titulo:'Chris Cornell',
@@ -8685,5 +8670,251 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'Turbo Negro',
         origen:'propia',
     },
-    
+    {
+        imagen:'1059.jpg',
+        titulo:'Corizonas en el WOP festival 2018',
+        grupo:'Corizonas',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 11, 14)),
+        lugar:'Palacio Euskalduna'
+    },
+    {
+        imagen:'1060.jpg',
+        titulo:'The Screaming Cheetah Wheelies',
+        grupo:'The Screaming Cheetah Wheelies',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1061.jpg',
+        titulo:'Chris Cornell y Kirk Hamett',
+        personas:'Chris Cornell, Kirk Hamett',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1062.jpg',
+        titulo:'Curtis Harding',
+        grupo:'Curtis Harding',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2019, 10, 21)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'1063.jpg',
+        titulo:'Def con dos',
+        grupo:'Def con dos',
+        origen:'propia',
+    },
+    {
+        imagen:'1064.jpg',
+        titulo:'Derby Motoreta\'s Burrito Kachimba',
+        grupo:'Derby Motoreta\'s Burrito Kachimba',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2021, 10, 13)),
+        lugar:'MAZ Basauri'
+    },
+    {
+        imagen:'1065.jpg',
+        titulo:'Derby Motoreta\'s Burrito Kachimba',
+        grupo:'Derby Motoreta\'s Burrito Kachimba',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2021, 10, 13)),
+        lugar:'MAZ Basauri'
+    },
+    {
+        imagen:'1066.jpg',
+        titulo:'Derby Motoreta\'s Burrito Kachimba',
+        grupo:'Derby Motoreta\'s Burrito Kachimba',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2021, 10, 13)),
+        lugar:'MAZ Basauri'
+    },
+    {
+        imagen:'1067.jpg',
+        titulo:'Derby Motoreta\'s Burrito Kachimba',
+        grupo:'Derby Motoreta\'s Burrito Kachimba',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2021, 10, 13)),
+        lugar:'MAZ Basauri'
+    },
+    {
+        imagen:'1068.jpg',
+        titulo:'Diavlo',
+        grupo:'Diavlo',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2019, 1, 8)),
+        lugar:'Azkena'
+    },
+    {
+        imagen:'1069.jpg',
+        titulo:'Eddie Van Halen y Jeff Beck',
+        personas:'Eddie Van Halen, Jeff Beck',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1070.jpg',
+        titulo:'Eddie Van Halen, Jimmy Page y Jeff Beck',
+        personas:'Eddie Van Halen,Jimmy Page, Jeff Beck',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1071.jpg',
+        titulo:'Eels',
+        grupo:'Eels',
+        origen:'propia',
+        personas:'Kintela, Sonia Muga',
+        fecha: new Date(Date.UTC(2023, 3, 30)),
+        lugar:'La Riviera'
+    },
+    {
+        imagen:'1072.jpg',
+        titulo:'Eskorbuto',
+        personas:'Eskorbuto',
+        origen:'propia',
+    },
+    {
+        imagen:'1073.jpg',
+        titulo:'Eskorbuto',
+        personas:'Eskorbuto',
+        origen:'Spotify',
+    },
+    {
+        imagen:'1074.jpg',
+        titulo:'Eskorbuto',
+        personas:'Eskorbuto',
+        origen:'propia',
+    },
+    {
+        imagen:'1075.jpg',
+        titulo:'Eskorbuto',
+        personas:'Eskorbuto',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1076.jpg',
+        titulo:'Ghalia Volt',
+        grupo:'Ghalia Volt',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2023, 6, 30)),
+        lugar:'Bilbao Blues'
+    },
+    {
+        imagen:'1077.jpg',
+        titulo:'Ghalia Volt',
+        grupo:'Ghalia Volt',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2023, 6, 30)),
+        lugar:'Bilbao Blues'
+    },
+    {
+        imagen:'1078.jpg',
+        titulo:'Bilbao Blues',
+        lugar:'Bilbao Blues'
+    },
+    {
+        imagen:'1079.jpg',
+        titulo:'The Beatles',
+        grupo:'The Beatles',
+    },
+    {
+        imagen:'1080.jpg',
+        titulo:'Los chikos del maíz',
+        grupo:'Los chikos del maíz',
+    },
+    {
+        imagen:'1081.jpg',
+        titulo:'Gin Lady',
+        grupo:'Gin Lady',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2023, 0, 12)),
+        lugar:'Kutxa Beltza'
+    },
+    {
+        imagen:'1082.jpg',
+        titulo:'Fuel Fandango',
+        grupo:'Fuel Fandango',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2016, 10, 12)),
+        lugar:'Jimmy Jazz'
+    },
+    {
+        imagen:'1083.jpg',
+        titulo:'Fantastic Negrito',
+        grupo:'Fantastic Negrito',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2022, 6, 31)),
+        lugar:'Bilbao Blues Festival'
+    },
+    {
+        imagen:'1084.jpg',
+        titulo:'Freddie Mercury',
+        grupo:'Freddie Mercury',
+    },
+    {
+        imagen:'1085.jpg',
+        titulo:'Gari',
+        grupo:'Gari',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2022, 5, 7)),
+        lugar:'Teatro Arriaga'
+    },
+    {
+        imagen:'1086.jpg',
+        titulo:'Gari',
+        grupo:'Gari',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2022, 5, 7)),
+        lugar:'Teatro Arriaga'
+    },
+    {
+        imagen:'1087.jpg',
+        titulo:'Chuck Berry y Mick Jagger',
+        personas:'Chuck Berry, Mick Jagger'
+    },
+    {
+        imagen:'1088.jpg',
+        titulo:'James Hetfield',
+        personas:'James Hetfield',
+    },
+    {
+        imagen:'1089.jpg',
+        titulo:'Jeff Beck',
+        grupo:'Jeff Beck',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 5, 30)),
+        lugar:'BBK Music Legends'
+    },
+    {
+        imagen:'1090.jpg',
+        titulo:'Jeff Beck',
+        grupo:'Jeff Beck',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 5, 30)),
+        lugar:'BBK Music Legends'
+    },
+    {
+        imagen:'1091.jpg',
+        titulo:'Joe Bonamassa',
+        grupo:'Joe Bonamassa',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2014, 5, 21)),
+        lugar:'ARF'
+    },
+    {
+        imagen:'1092.jpg',
+        titulo:'Julian Maeso',
+        grupo:'Julian Maeso',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2017, 11, 29)),
+        personas:'Kintela, Sonia Muga',
+        lugar:'Jimmy Jazz'
+    },
+    {
+        imagen:'1093.jpg',
+        titulo:'Morgan',
+        grupo:'Morgan',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2019, 11, 19)),
+        personas:'Kintela, Sonia Muga, kily, Ainara Zamakona',
+        lugar:'Kafe Antzokia'
+    },
 ];

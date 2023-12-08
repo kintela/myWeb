@@ -24,10 +24,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/N9yI45hqoIk?si=Zv3OjBA5sJNFGq9F','https://www.youtube.com/embed/Bvb54eNVkrc?si=BYqJE5IMsHWXfbMz','https://www.youtube.com/embed/GhCa8si6Zv0?si=H0kzaIgE4vtbs7QN','https://www.youtube.com/embed/xntbDGHPxR0?si=ZqXJZ5nP79Oud-K_','https://www.youtube.com/embed/PlJU_ZDwcVE?si=fpkGEU6vMnTlzpTq']
     },
     {
-        fecha: new Date(2023, 4, 30),
+        fecha: new Date(Date.UTC(2023, 3, 30)),
         ciudad: 'Madrid',
         sala: 'La Riviera',
-        grupo: 'Eeels',
+        grupo: 'Eels',
+        fotos: true,
         videos:['https://www.youtube.com/embed/23x2-PF2Q_0?si=gMUT2mJn8R7nTUnA','https://www.youtube.com/embed/9xBE9WKq5cE?si=jI4JLmkWcUWBxgHr','https://www.youtube.com/embed/7p5o1Gc-P0c?si=w3Tv3zctwMLugCCB']
     },
     {
@@ -39,10 +40,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/VJXd-aB6mJk?si=i8c_e4M9QcWstbcI','https://www.youtube.com/embed/h4zWl1KKMao?si=aBVHeMpasgpAfoDy']
     },
     {
-        fecha: new Date(2023, 1, 12),
+        fecha: new Date(Date.UTC(2023, 0, 12)),
         ciudad: 'Bilbao',
         sala: 'Kutxa Beltza',
         grupo: 'Gin lady',
+        fotos: true,
         videos:['https://www.youtube.com/embed/NLD7AoCPRFY?si=koMLcWLEivVnUEoo','https://www.youtube.com/embed/QFANfzOmO28?si=Xclwu7376c5AGyNo','https://www.youtube.com/embed/_YqUywIFCEc?si=2Nz44Opnu3FkjQ9U','https://www.youtube.com/embed/XReABkPlVuU?si=6Nj6qK5PmksOFT0x','https://www.youtube.com/embed/K6-F6wpNYeI?si=U_3oaE81z9pCq1W6']
     },
     {
@@ -54,10 +56,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/XvSd3SDQLJA?si=1WwTRt1-r5SHk7mk','https://www.youtube.com/embed/zFhOxd-5JOs?si=IoWkdoadRYBSVoLr','https://www.youtube.com/embed/3y1bElKd4u0?si=XbksGFi_QUN1WHW1']
     },
     {
-        fecha: new Date(2022, 7, 31),
+        fecha: new Date(Date.UTC(2022, 6, 31)),
         ciudad: 'Bilbao',
         sala: 'Bilbao Blues Festival',
         grupo: 'Fantastic Negrito',
+        fotos: true,
         festival: true,
         videos:['https://www.youtube.com/embed/B0jOzOauoWQ?si=A9WEZFt9XFAIx8B4']
     },
@@ -93,11 +96,12 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/Ssg71F5pqLA?si=yI5My4WFI_IhiMRP']
     },
     {
-        fecha: new Date(2021, 11, 13),
+        fecha: new Date(Date.UTC(2021, 10, 13)),
         ciudad: 'Basauri',
         sala: 'MAZ Basauri',
         grupo: 'Derby Motoreta\'s Burrito Kachimba',
         festival: true,
+        fotos: true,
         videos:['https://www.youtube.com/embed/8n1T0oza92c?si=arFpYCarqybBAyNX','https://www.youtube.com/embed/6Z1DkneZs1M?si=iYgOy0mk_lyx-Du4','https://www.youtube.com/embed/1gOtSuz4_vg?si=__BjiWHG1cjcTXgL']
     },
     {
@@ -171,10 +175,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/TJW1e1LD-U0?si=Ah9MRNcbV3dUtXKa']
     },
     {
-        fecha: new Date(2019, 4, 20),
+        fecha: new Date(Date.UTC(2019, 1, 8)),
         ciudad: 'Bilbao',
         sala: 'Azkena',
         grupo: 'Diavlo',
+        fotos: true,
         videos:['https://www.youtube.com/embed/YhwlNTRlo0k?si=Fl8GGR4Bp748pSfW']
     },
     {
@@ -279,10 +284,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/nrRg2f9rLXI?si=QifdXTeLBC0rL7DH','https://www.youtube.com/embed/COGprESR0qE?si=vH1nikiGWjyEed3O']
     },
     {
-        fecha: new Date(2017, 12, 29),
+        fecha: new Date(Date.UTC(2017, 11, 29)),
         ciudad: 'Vitoria',
         sala: 'Jimmy Jazz',
         grupo: 'Julian Maeso',
+        fotos: true,
         videos:['https://www.youtube.com/embed/J3490UtOao8?si=l4mwE7HxBsGjeCAH','https://www.youtube.com/embed/BmMrQxULhNs?si=4kxp1e0OLIBumOUd','https://www.youtube.com/embed/Kg6NROQgqj8?si=oa4go3UoxWfMpgla']
     },
     {
@@ -406,10 +412,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/HkPaaSucbAY?si=xr5bJ7ovR75w7AD_']
     },
     {
-        fecha: new Date(2016, 11, 12),
+        fecha: new Date(Date.UTC(2016, 10, 12)),
         ciudad: 'Vitoria',
         sala:'Jimmy Jazz',
         grupo: 'Fuel Fandango',
+        fotos: true,
         videos:['https://www.youtube.com/embed/fVhYF5ZbOmM?si=bPMvdmuePNEI_Gqn']
     },
     {
@@ -1048,7 +1055,7 @@ export const conciertos:IConcierto[]=[
         fecha: new Date(Date.UTC(2008, 10, 20)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
-        grupo: 'Jose Bonamassa',
+        grupo: 'Joe Bonamassa',
         entrada: "entradas/41.jpg",   
     },
     {
@@ -1129,6 +1136,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
         grupo: 'Morgan',
+        fotos: true,
         entrada: "entradas/56.jpg",   
     },
     {
@@ -1459,6 +1467,13 @@ export const conciertos:IConcierto[]=[
         fotos: true
     }, 
     {
+        fecha: new Date(Date.UTC(2022, 5, 7)),
+        ciudad: 'Bilbao',
+        sala:'Teatro Arriaga',
+        grupo: 'Gari',
+        fotos: true
+    }, 
+    {
         fecha: new Date(Date.UTC(2017, 4, 6)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -1531,6 +1546,47 @@ export const conciertos:IConcierto[]=[
         sala:'Velódromo Anoeta',
         grupo: 'Pearl Jam',
         entrada: "entradas/94.jpg",
+    },
+    {
+        fecha: new Date(Date.UTC(2018, 11, 14)),
+        ciudad: 'Bilbao',
+        sala:'Palacio Euskalduna',
+        grupo: 'Corizonas',
+        festival: true,
+        fotos:true,
+        cartel: "carteles/13.jpeg"
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 10, 21)),
+        ciudad: 'Bilbao',
+        sala:'Kafe Antzokia',
+        grupo: 'Curtis Harding',
+        fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(2023, 6, 30)),
+        ciudad: 'Bilbao',
+        sala:'Bilbao Blues',
+        grupo: 'Ghalia Volt',
+        festival: true,
+        fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(2018, 5, 30)),
+        ciudad: 'Bilbao',
+        sala:'BBK Music Legends',
+        grupo: 'Jeff Beck',
+        cartel: "carteles/14.jpeg",
+        festival: true,
+        fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(2014, 5, 21)),
+        ciudad: 'Vitoria',
+        sala:'ARF',
+        grupo: 'Joe Bonamassa',
+        cartel: "carteles/15.jpeg",
+        fotos: true,
     },
    
 

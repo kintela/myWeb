@@ -8568,6 +8568,122 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2022, 11, 1)),
         lugar:'Santana 27'
     },
-    
+    {
+        imagen:'1043.jpg',
+        titulo:'Placa callejero AC/DC',
+        grupo:'AC/DC',
+        origen:'propia',
+    },
+    {
+        imagen:'1044.jpg',
+        titulo:'Hi Hat Jimi Hendrix',
+        grupo:'Jimi Hendrix',
+        origen:'propia',
+    },
+    {
+        imagen:'1045.jpg',
+        titulo:'Iggy Pop',
+        grupo:'Iggy Pop',
+        origen:'propia',
+    },
+    {
+        imagen:'1046.jpg',
+        titulo:'Judas Priest fans',
+        grupo:'Judas Priest',
+        origen:'propia',
+        personas:'Kintela, Pitu, Carlos Fradejas, Javito',
+        fecha: new Date(Date.UTC(1988, 4, 21)),
+        lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'1047.jpg',
+        titulo:'Judas Priest fans',
+        grupo:'Judas Priest',
+        origen:'propia',
+        fecha: new Date(Date.UTC(1988, 4, 21)),
+        lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'1048.jpg',
+        titulo:'Judas Priest fans',
+        grupo:'Judas Priest',
+        origen:'propia',
+        fecha: new Date(Date.UTC(1988, 4, 21)),
+        lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'1049.jpg',
+        titulo:'Judas Priest fans',
+        grupo:'Judas Priest',
+        origen:'propia',
+        fecha: new Date(Date.UTC(1988, 4, 21)),
+        lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'1050.jpg',
+        titulo:'Judas Priest fans',
+        grupo:'Judas Priest',
+        origen:'propia',
+        fecha: new Date(Date.UTC(1988, 4, 21)),
+        lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'1051.jpg',
+        titulo:'Judas Priest fans',
+        grupo:'Judas Priest',
+        origen:'propia',
+        fecha: new Date(Date.UTC(1988, 4, 21)),
+        lugar:'Velódromo Anoeta'
+    },
+    {
+        imagen:'1052.jpg',
+        titulo:'Kiss',
+        grupo:'Kiss',
+        origen:'propia',
+    },
+    {
+        imagen:'1053.jpg',
+        titulo:'Iron Maiden',
+        grupo:'Iron Maiden',
+        origen:'propia',
+        fecha: new Date(Date.UTC(1988, 8, 17)),
+        lugar:'Plaza de toros'
+    },
+    {
+        imagen:'1054.jpg',
+        titulo:'Iron Maiden',
+        grupo:'Iron Maiden',
+        origen:'propia',
+        fecha: new Date(Date.UTC(1988, 8, 17)),
+        lugar:'Plaza de toros'
+    },
+    {
+        imagen:'1055.jpg',
+        titulo:'Iron Maiden',
+        grupo:'Iron Maiden',
+        origen:'propia',
+        fecha: new Date(Date.UTC(1988, 8, 17)),
+        lugar:'Plaza de toros'
+    },
+    {
+        imagen:'1056.jpg',
+        titulo:'Mark Lanegan',
+        grupo:'Mark Lanegan',
+        origen:'propia',
+    },
+    {
+        imagen:'1057.jpg',
+        titulo:'Marylin Manson',
+        grupo:'Marylin Manson',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2001, 0, 27)),
+        lugar:'Pabellón de la casilla'
+    },
+    {
+        imagen:'1058.jpg',
+        titulo:'Turbo Negro',
+        grupo:'Turbo Negro',
+        origen:'propia',
+    },
     
 ];

@@ -882,6 +882,7 @@ export const conciertos:IConcierto[]=[
         sala:'Velódromo Anoeta',
         grupo: 'Judas Priest',
         entrada: "entradas/1.jpg",   
+        fotos: true
     },
     {
         fecha: new Date(Date.UTC(1988, 8, 17)),
@@ -890,6 +891,7 @@ export const conciertos:IConcierto[]=[
         grupo: 'Iron Maiden',
         festival: true,
         descripcion: 'Monster of Rock',
+        fotos: true,
         entrada: "entradas/2.jpg",   
     },
     {
@@ -932,6 +934,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Pabellón de la casilla',
         grupo: 'Marilyn Manson',
+        fotos: true,
         entrada: "entradas/8.jpg",   
     },
     {

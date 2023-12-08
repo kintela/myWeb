@@ -1337,6 +1337,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Londres',
         sala:'O2 Arena',
         grupo: 'Prince',
+        entrada: "entradas/95.jpg",
         fotos: true
     },   
     {
@@ -1389,6 +1390,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Madrid',
         sala:'Palacio de los deportes',
         grupo: 'AC/DC',
+        entrada: "entradas/91.jpg",
         fotos: true
     }, 
     {
@@ -1396,6 +1398,15 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'BEC',
         grupo: 'AC/DC',
+        entrada: "entradas/90.jpg",
+        fotos: true
+    }, 
+    {
+        fecha: new Date(Date.UTC(1996, 6, 10)),
+        ciudad: 'Madrid',
+        sala:'Plaza de toros de las ventas',
+        grupo: 'AC/DC',
+        entrada: "entradas/92.jpg",
         fotos: true
     }, 
     {
@@ -1496,6 +1507,27 @@ export const conciertos:IConcierto[]=[
         sala:'Kafe Antzokia',
         grupo: 'Chris Robinson Brotherhood',
         fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(1993, 10, 6)),
+        ciudad: 'Donosti',
+        sala:'Velódromo Anoeta',
+        grupo: 'Aerosmith',
+        entrada: "entradas/89.jpg",
+    },
+    {
+        fecha: new Date(Date.UTC(1997, 10, 29)),
+        ciudad: 'Zaragoza',
+        sala:'Plaza de toros',
+        grupo: 'Kiss',
+        entrada: "entradas/93.jpg",
+    },
+    {
+        fecha: new Date(Date.UTC(1996, 10, 22)),
+        ciudad: 'Donosti',
+        sala:'Velódromo Anoeta',
+        grupo: 'Pearl Jam',
+        entrada: "entradas/94.jpg",
     },
    
 

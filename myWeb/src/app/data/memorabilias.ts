@@ -9135,4 +9135,185 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2018, 11, 14)),
         lugar:'Palacio Euskalduna'
     },
+    {
+        imagen:'1124.jpg',
+        titulo:'M Clan',
+        grupo:'M Clan',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2015, 7, 15)),
+        lugar:'Fiestas'
+    },
+    {
+        imagen:'1125.jpg',
+        titulo:'Metallica',
+        grupo:'Metallica',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2022, 6, 3)),
+        lugar:'San Mames'
+    },
+    {
+        imagen:'1126.jpg',
+        titulo:'Mi Hermana Corina grabando video clip en Tio Pete',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+        personas:'Javier Caballero, Hugo Allende',         
+    },
+    {
+        imagen:'1127.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+        personas:'Javier Caballero, Hugo Allende, Alex Smith, Kintela',        
+    },
+    {
+        imagen:'1128.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+    },
+    {
+        imagen:'1129.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+    },
+    {
+        imagen:'1130.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+    },
+    {
+        imagen:'1131.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+    },
+    {
+        imagen:'1132.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+    },
+    {
+        imagen:'1133.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+    },
+    {
+        imagen:'1134.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+    },
+    {
+        imagen:'1135.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',   
+    },
+    {
+        imagen:'1136.jpg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        personas:'Kily, Ainara Zamakona, Karmele',
+        origen:'propia',   
+    },
+    {
+        imagen:'1137.jpg',
+        titulo:'Mike Farris',
+        grupo:'Mike Farris',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2016, 5, 11)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'1138.jpg',
+        titulo:'Morgan',
+        grupo:'Morgan',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 9, 11)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'1139.jpg',
+        titulo:'Motorhead',
+        grupo:'Motorhead',
+        origen:'propia',   
+    },
+    {
+        imagen:'1140.jpg',
+        titulo:'Muse',
+        grupo:'Muse',
+        origen:'propia',   
+        lugar:'San Mames',
+        fecha: new Date(Date.UTC(2018, 10, 3))
+    },
+    {
+        imagen:'1141.jpg',
+        titulo:'Niña Coyote eta Chico Tornado',
+        grupo:'Niña Coyote eta Chico Tornado',
+        origen:'propia',   
+        lugar:'Aste Nagusia',
+        fecha: new Date(Date.UTC(2022, 7, 20)),
+    },
+    {
+        imagen:'1142.jpg',
+        titulo:'Ozzy Osbourne',
+        personas:'Ozzy Osbourne',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1143.jpg',
+        titulo:'Jimmy Page y Chris Cornell',
+        personas:'Jimmy Page, Chris Cornell',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1144.jpg',
+        titulo:'Mis tesoros',
+        origen:'propia',
+    },
+    {
+        imagen:'1145.jpg',
+        titulo:'Ringo Starr',
+        grupo:'Ringo Starr',
+        origen:'propia',   
+        lugar:'Palacio Euskalduna',
+        fecha: new Date(Date.UTC(2018, 6, 1)),
+        personas:'Jone Quintela, Sonia Muga, Kintela'
+    },
+    {
+        imagen:'1146.jpg',
+        titulo:'Robe Iniesta',
+        grupo:'Robe Iniesta',
+        origen:'propia',   
+        lugar:'Bilbao Arena',
+        fecha: new Date(Date.UTC(2021, 10, 5))
+    },
+    {
+        imagen:'1147.jpg',
+        titulo:'Robe Iniesta',
+        grupo:'Robe Iniesta',
+        origen:'propia',   
+        lugar:'Bilbao Arena',
+        fecha: new Date(Date.UTC(2021, 10, 5))
+    },
+    {
+        imagen:'1148.jpg',
+        titulo:'Jace Everett',
+        grupo:'Jace Everett',
+        origen:'propia',   
+        lugar:'Bar Los Picos',
+        fecha: new Date(Date.UTC(2014, 4, 9)),
+    },
+    {
+        imagen:'1149.jpg',
+        titulo:'Ruper Ordorika',
+        grupo:'Ruper Ordorika',
+        origen:'propia',   
+        lugar:'La Alhondiga',
+        fecha: new Date(Date.UTC(2016, 3, 22)),
+    },
 ];

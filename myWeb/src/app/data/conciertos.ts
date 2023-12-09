@@ -116,10 +116,11 @@ export const conciertos:IConcierto[]=[
         
     },
     {
-        fecha: new Date(2021, 11, 5),
+        fecha: new Date(Date.UTC(2021, 10, 5)),
         ciudad: 'Bilbao',
         sala: 'Bilbao Arena',
         grupo: 'Robe Iniesta',
+        fotos: true,
         videos:['https://www.youtube.com/embed/pEEI6ssTeOQ?si=5tVlfEMx65jsT3l2']
         
     },
@@ -186,10 +187,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/YhwlNTRlo0k?si=Fl8GGR4Bp748pSfW']
     },
     {
-        fecha: new Date(2018, 11, 3),
+        fecha: new Date(Date.UTC(2018, 10, 3)),
         ciudad: 'Bilbao',
         sala: 'San Mames',
         grupo: 'Muse',
+        fotos: true,
         videos:['https://www.youtube.com/embed/xZCGYluPj5Q?si=iQOhQodZoetQhyVJ']
     },
     {
@@ -200,10 +202,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/mOJJ4nGkHgs?si=GvM3S2aZPLHYYYDF']
     },
     {
-        fecha: new Date(2018, 10, 11),
+        fecha: new Date(Date.UTC(2018, 9, 11)),
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia',
         grupo: 'Morgan',
+        fotos: true,
         videos:['https://www.youtube.com/embed/izOCKYVKNXo?si=ctjrXqh62u5Z1-cn','https://www.youtube.com/embed/JCqu_ZjFf4Q?si=UkQL49OzvTdU-_-Q','https://www.youtube.com/embed/F54RnPaFniE?si=BCdghKbSjjVwf3mV']
     },
     {
@@ -258,10 +261,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/zAsgemLIzrY?si=Fq7ORbmhef3jEiwf','https://www.youtube.com/embed/1YTGMN5NtE8?si=r6_FvwCzcLMWXzaD']
     },
     {
-        fecha: new Date(2018, 3, 31),
+        fecha: new Date(Date.UTC(2016, 3, 22)),
         ciudad: 'Bilbao',
         sala: 'La Alhondiga',
         grupo: 'Ruper Ordorika',
+        fotos: true,
         videos:['https://www.youtube.com/embed/2rEVul3PgkI?si=9sTeiaSONi7fNqOi']
     },
     {
@@ -470,10 +474,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/PvhTOI8Slfs?si=na-WFr7DI5CIhZr7']
     },
     {
-        fecha: new Date(2016, 6, 11),
+        fecha: new Date(Date.UTC(2016, 5, 11)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
         grupo: 'Mike Farris',
+        fotos: true,
         videos:['https://www.youtube.com/embed/-5ECQEuv3vw?si=5RDXJ7wVA0FeW18W']
     },
     {
@@ -580,6 +585,7 @@ export const conciertos:IConcierto[]=[
         sala:'Bar Los Picos',
         grupo: 'Jace Everett',
         entrada: "entradas/60.jpg",
+        fotos: true,
         videos:['https://www.youtube.com/embed/6mbOOcXpi6U?si=_FsMT2fe7kJg7lzY']
     },
     {
@@ -1293,7 +1299,7 @@ export const conciertos:IConcierto[]=[
     },
     {
         fecha: new Date(Date.UTC(2007, 5, 21)),
-        ciudad: 'Billbao',
+        ciudad: 'Bilbao',
         sala:'BBK Live',
         festival: true,
         grupo: 'Metallica',
@@ -1302,7 +1308,7 @@ export const conciertos:IConcierto[]=[
     },
     {
         fecha: new Date(Date.UTC(2007, 5, 21)),
-        ciudad: 'Billbao',
+        ciudad: 'Bilbao',
         sala:'BBK Live',
         festival: true,
         grupo: 'Iron Maiden',
@@ -1311,7 +1317,7 @@ export const conciertos:IConcierto[]=[
     },
     {
         fecha: new Date(Date.UTC(2007, 5, 21)),
-        ciudad: 'Billbao',
+        ciudad: 'Bilbao',
         sala:'BBK Live',
         festival: true,
         grupo: 'Maceo Parker',
@@ -1320,7 +1326,7 @@ export const conciertos:IConcierto[]=[
     },
     {
         fecha: new Date(Date.UTC(2007, 5, 21)),
-        ciudad: 'Billbao',
+        ciudad: 'Bilbao',
         sala:'BBK Live',
         festival: true,
         grupo: 'Red Hot Chili Peppers',
@@ -1635,6 +1641,34 @@ export const conciertos:IConcierto[]=[
         fotos:true,
         cartel: "carteles/13.jpeg"
     },
+    {
+        fecha: new Date(Date.UTC(2015, 7, 15)),
+        ciudad: 'Portugalete',
+        sala:'Fiestas',
+        grupo: 'M Clan',
+        fotos:true,
+    },
+    {
+        fecha: new Date(Date.UTC(2022, 6, 3)),
+        ciudad: 'Bilbao',
+        sala:'San Mames',
+        grupo: 'Metallica',
+        fotos: true,
+    }, 
+    {
+        fecha: new Date(Date.UTC(2022, 7, 20)),
+        ciudad: 'Bilbao',
+        sala:'Aste Nagusia',
+        grupo: 'Niña Coyote eta Chico Tornado',
+        fotos: true,
+    }, 
+    {
+        fecha: new Date(Date.UTC(2018, 6, 1)),
+        ciudad: 'Bilbao',
+        sala:'Palacio Euskalduna',
+        grupo: 'Ringo Starr',
+        fotos: true,
+    }, 
    
 
 ];

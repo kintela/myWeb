@@ -8917,4 +8917,222 @@ export const memorabilias:IMemorabilia[] = [
         personas:'Kintela, Sonia Muga, kily, Ainara Zamakona',
         lugar:'Kafe Antzokia'
     },
+    {
+        imagen:'1094.jpg',
+        titulo:'Josh Homme, David Grohl y John Paul Jones',
+        personas:'Josh Homme, David Grohl, John Paul Jones',
+    },
+    {
+        imagen:'1095.jpg',
+        titulo:'Julian Lage Trio',
+        grupo:'Julian Lage Trio',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2019, 6, 4)),
+        lugar:'Musikebarri'
+    },
+    {
+        imagen:'1096.jpg',
+        titulo:'Julian Lage Trio',
+        grupo:'Julian Lage Trio',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2019, 6, 4)),
+        lugar:'Musikebarri'
+    },
+    {
+        imagen:'1097.jpg',
+        titulo:'Julian Maeso',
+        grupo:'Julian Maeso',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2017, 11, 29)),
+        lugar:'Jimmy Jazz'
+    },
+    {
+        imagen:'1098.jpg',
+        titulo:'Keith Richards y Angus Young',
+        personas:'Keith Richards, Angus Young',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1099.jpg',
+        titulo:'Keith Richards y John Belushi',
+        personas:'Keith Richards, John Belushi',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1100.jpg',
+        titulo:'Keith Richards y Bruce Springsteen',
+        personas:'Keith Richards, Bruce Springsteen',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1101.jpg',
+        titulo:'Keith Richards y Eric Clapton',
+        personas:'Keith Richards, Eric Clapton',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1102.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1103.jpg',
+        titulo:'Kintela en Astun',
+        grupo:'Mi Hermana Corina',
+        personas:'Kintela',
+        origen:'propia',
+    },
+    {
+        imagen:'1104.jpg',
+        titulo:'Kintela en el estudio',
+        grupo:'Mi Hermana Corina',
+        personas:'Kintela',
+        origen:'propia',
+    },
+    {
+        imagen:'1105.jpg',
+        titulo:'Kintela en el estudio',
+        grupo:'Mi Hermana Corina',
+        personas:'Kintela',
+        origen:'propia',
+    },
+    {
+        imagen:'1106.jpg',
+        titulo:'Kintela en directo',
+        grupo:'Mi Hermana Corina',
+        personas:'Kintela',
+        origen:'propia',
+    },
+    {
+        imagen:'1107.jpg',
+        titulo:'Kintela en directo',
+        grupo:'Mi Hermana Corina',
+        personas:'Kintela',
+        origen:'propia',
+    },
+    {
+        imagen:'1108.jpg',
+        titulo:'Kintela en directo',
+        grupo:'Mi Hermana Corina',
+        personas:'Kintela',
+        origen:'propia',
+    },
+    {
+        imagen:'1109.jpg',
+        titulo:'Kurt Cobain',
+        grupo:'Nirvana',
+        personas:'Kurt Cobain',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1110.jpg',
+        titulo:'Kurt Cobain',
+        grupo:'Nirvana',
+        personas:'Kurt Cobain',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1111.jpg',
+        titulo:'Lemmy Kilmister',
+        grupo:'Motorhead',
+        personas:'Lemmy Kilmister',
+        origen:'propia',
+    },
+    {
+        imagen:'1112.jpg',
+        titulo:'Leon Benavente',
+        grupo:'Leon Benavente',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2022, 3, 1)),
+        lugar:'Santana 27'
+    },
+    {
+        imagen:'1113.jpg',
+        titulo:'Lisa and the Lips',
+        grupo:'Lisa and the Lips',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2014, 7, 21)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'1114.jpg',
+        titulo:'Lisa and the Lips',
+        grupo:'Lisa and the Lips',
+        origen:'propia',
+        personas:'Kintela',
+        fecha: new Date(Date.UTC(2014, 7, 21)),
+        lugar:'Kafe Antzokia'
+    },
+    {
+        imagen:'1115.jpg',
+        titulo:'Lizz Wright',
+        grupo:'Lizz Wright',
+        origen:'propia',
+        personas:'Kintela',
+        fecha: new Date(Date.UTC(2019, 2, 23)),
+        lugar:'BBK'
+    },
+    {
+        imagen:'1116.jpg',
+        titulo:'Loquillo',
+        grupo:'Loquillo',
+        origen:'propia',
+        personas:'Kintela',
+        fecha: new Date(Date.UTC(2017, 10, 11)),
+        lugar:'Palacion Euskalduna'
+    },
+    {
+        imagen:'1117.jpg',
+        titulo:'Los DelTonos',
+        grupo:'Los DelTonos',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 3, 7)),
+        lugar:'Satelite T'
+    },
+    {
+        imagen:'1118.jpg',
+        titulo:'Los Enemigos',
+        grupo:'Los Enemigos',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2022, 9, 21)),
+        lugar:'BAF'
+    },
+    {
+        imagen:'1119.jpg',
+        titulo:'Luis Brea',
+        grupo:'Luis Brea',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 2, 16)),
+        lugar:'Plateruena'
+    },
+    {
+        imagen:'1120.jpg',
+        titulo:'Luis Brea',
+        grupo:'Luis Brea',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 2, 16)),
+        lugar:'Plateruena'
+    },
+    {
+        imagen:'1121.jpg',
+        titulo:'MadCool',
+        origen:'propia',
+    },
+    {
+        imagen:'1122.jpg',
+        titulo:'Maika Makovski',
+        grupo:'Maika Makovski',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2021, 11, 12)),
+        lugar:'MAZ'
+    },
+    {
+        imagen:'1123.jpg',
+        titulo:'Mattew Sweet',
+        grupo:'Matthew Sweet',
+        origen:'propia',
+        fecha: new Date(Date.UTC(2018, 11, 14)),
+        lugar:'Palacio Euskalduna'
+    },
 ];

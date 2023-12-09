@@ -81,10 +81,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/rvGRm2PMw_s?si=9HnO4UhY42loEUzI','https://www.youtube.com/embed/OezlQsQxbbE?si=UxCI8ORTCRmLa5tT','https://www.youtube.com/embed/ILxhOkFTay8?si=KT8iEf5CkxN2ztK6']
     },
     {
-        fecha: new Date(2022, 4, 1),
+        fecha: new Date(Date.UTC(2022, 3, 1)),
         ciudad: 'Bilbao',
         sala: 'Santana 27',
         grupo: 'Leon Benavente',
+        fotos: true,
         videos:['https://www.youtube.com/embed/fov1zmaAvbc?si=7q8LKDkGS3hBzHCb','https://www.youtube.com/embed/5AGWkaa3JMU?si=ax1biBIBEKSwHk-C','https://www.youtube.com/embed/H7VWxzKwlBg?si=Elr2IOQCx2BCiG4J','https://www.youtube.com/embed/mRZb1T4-z_U?si=b-wAt_nGP11CZFgh','https://www.youtube.com/embed/aLeQPfc-EiI?si=Aj-iOr9bOB_SmCQt','https://www.youtube.com/embed/Zm49BNUPXxo?si=4S1BdA7jjGkcVVPh']
     },
     {
@@ -93,6 +94,7 @@ export const conciertos:IConcierto[]=[
         sala: 'Antzokia-MAZ Basauri',
         grupo: 'Xoel López',
         festival: true,
+        cartel: "carteles/16.jpg",
         videos:['https://www.youtube.com/embed/Ssg71F5pqLA?si=yI5My4WFI_IhiMRP']
     },
     {
@@ -102,6 +104,7 @@ export const conciertos:IConcierto[]=[
         grupo: 'Derby Motoreta\'s Burrito Kachimba',
         festival: true,
         fotos: true,
+        cartel: "carteles/16.jpg",
         videos:['https://www.youtube.com/embed/8n1T0oza92c?si=arFpYCarqybBAyNX','https://www.youtube.com/embed/6Z1DkneZs1M?si=iYgOy0mk_lyx-Du4','https://www.youtube.com/embed/1gOtSuz4_vg?si=__BjiWHG1cjcTXgL']
     },
     {
@@ -251,6 +254,7 @@ export const conciertos:IConcierto[]=[
         sala: 'Satelite T',
         grupo: 'Los DelTonos', 
         entrada: "entradas/67.jpg",   
+        fotos: true,
         videos:['https://www.youtube.com/embed/zAsgemLIzrY?si=Fq7ORbmhef3jEiwf','https://www.youtube.com/embed/1YTGMN5NtE8?si=r6_FvwCzcLMWXzaD']
     },
     {
@@ -268,10 +272,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/nX5R_r6nPwE?si=VDUPSj3qWXMWNOFn']
     },
     {
-        fecha: new Date(2018, 3, 16),
+        fecha: new Date(Date.UTC(2018, 2, 16)),
         ciudad: 'Durango',
         sala: 'Plateruena',
         grupo: 'Luis Brea',
+        fotos: true,
         videos:['https://www.youtube.com/embed/9dZs3juDN8g?si=af1omRb48EchiGo6','https://www.youtube.com/embed/nzbxZbcor2M?si=1lE1Is6L6O-burvP']
     },
     {
@@ -300,10 +305,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/HPGKsqMYGb4?si=8YWOS3i1HGOHjKX_,','https://www.youtube.com/embed/zJstEdiXFUU?si=OC0xw2ULCNpcdwJc']
     },
     {
-        fecha: new Date(2017, 11, 11),
+        fecha: new Date(Date.UTC(2017, 10, 11)),
         ciudad: 'Bilbao',
         sala: 'Palacion Euskalduna',
         grupo: 'Loquillo',
+        fotos: true,
         videos:['https://www.youtube.com/embed/K-KSoQJoxw0?si=HWUZOyW-mylIcsRk']
     },
     {
@@ -1166,6 +1172,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
         grupo: 'Lisa and the Lips',
+        fotos: true,
         entrada: "entradas/61.jpg",   
     },
     {
@@ -1587,6 +1594,46 @@ export const conciertos:IConcierto[]=[
         grupo: 'Joe Bonamassa',
         cartel: "carteles/15.jpeg",
         fotos: true,
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 6, 4)),
+        ciudad: 'Algorta',
+        sala:'Musikebarri',
+        grupo: 'Julian Lage Trio',
+        fotos: true,
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 2, 23)),
+        ciudad: 'Bilbao',
+        sala:'BBK',
+        grupo: 'Lizz Wright',
+        fotos: true,
+    },
+    {
+        fecha: new Date(Date.UTC(2022, 9, 21)),
+        ciudad: 'Barakaldo',
+        sala:'BAF',
+        grupo: 'Los Enemigos',
+        festival: true,
+        fotos: true,
+    },
+    {
+        fecha: new Date(Date.UTC(2021, 11, 12)),
+        ciudad: 'Basauri',
+        sala:'MAZ',
+        grupo: 'Maika Makovski',
+        festival: true,
+        fotos: true,
+        cartel: "carteles/16.jpg",
+    },
+    {
+        fecha: new Date(Date.UTC(2018, 11, 14)),
+        ciudad: 'Bilbao',
+        sala:'Palacio Euskalduna',
+        grupo: 'Matthew Sweet',
+        festival: true,
+        fotos:true,
+        cartel: "carteles/13.jpeg"
     },
    
 

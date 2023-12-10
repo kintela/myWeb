@@ -9,4 +9,5 @@ export interface IConcierto {
     entrada?:string;
     descripcion?:string;
     cartel?:string;
+    cronica?:string;
 }

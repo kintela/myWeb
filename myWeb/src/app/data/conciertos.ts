@@ -1260,6 +1260,7 @@ export const conciertos:IConcierto[]=[
         sala:'BBK',
         grupo: 'Esperanza Spalding',
         entrada: "entradas/75.jpg",   
+        cronica: 'https://bilbaoenvivo.wordpress.com/2012/10/31/esperanza-spalding-futura-megaestrella-entrevista'
     },
     {
         fecha: new Date(Date.UTC(2012, 10, 8)),
@@ -1267,6 +1268,7 @@ export const conciertos:IConcierto[]=[
         sala:'BBK',
         grupo: 'Robben Ford',
         entrada: "entradas/76.jpg",   
+        cronica: 'https://bilbaoenvivo.wordpress.com/2012/11/09/robben-ford-lo-viejo-como-nuevo'
     },
     {
         fecha: new Date(Date.UTC(2012, 10, 8)),
@@ -1701,6 +1703,29 @@ export const conciertos:IConcierto[]=[
         grupo: 'The Magpie Salute',
         fotos: true,
     },
+    {
+        fecha: new Date(Date.UTC(1993, 4, 1)),
+        ciudad: 'Donosti',
+        sala: 'Velódromo Anoeta',
+        grupo: 'Bon Jovi',
+        videos:['https://www.youtube.com/embed/m-ysvkmH2ew?si=LZzHmihc8Dv9dqsm'],
+        cronica: 'https://www.facebook.com/spainbonjovi/photos/26-años-del-keep-the-faith-tour-1993-san-sebastián-madrid-barcelona-el-30-de-abr/2278007358960265/?locale=zh_CN&paipv=0&eav=AfbDFphBeVBaQbpctOmTtAF-Z6zurHJkYsmV8_pF-a94g4kKRc_xJZ8R18pkpceIjNA&_rdr',
+    },
+    {
+        fecha: new Date(Date.UTC(2010, 10, 30)),
+        ciudad: 'Donosti',
+        sala: 'Kursaal',
+        grupo: 'Paco de Lucía',
+        cronica: 'https://www.diariovasco.com/20140226/mas-actualidad/cultura/guitarra-paco-lucia-conquisto-201402261235.html'
+    },
+    {
+        fecha: new Date(Date.UTC(2013, 1, 9)),
+        ciudad: 'Donosti',
+        sala: 'Kursaal',
+        grupo: 'Jethro Tull',
+        cronica: 'https://www.noticiasdegipuzkoa.eus/cultura/2013/01/08/jethro-tull-28-anos-despues-4337510.html'
+    },
+   
    
 
 ];

@@ -8582,7 +8582,7 @@ export const memorabilias:IMemorabilia[] = [
     },
     {
         imagen:'1047.jpg',
-        titulo:'Judas Priest fans',
+        titulo:'Judas Priest',
         grupo:'Judas Priest',
         origen:'propia',
         fecha: new Date(Date.UTC(1988, 4, 21)),
@@ -8590,7 +8590,7 @@ export const memorabilias:IMemorabilia[] = [
     },
     {
         imagen:'1048.jpg',
-        titulo:'Judas Priest fans',
+        titulo:'Judas Priest',
         grupo:'Judas Priest',
         origen:'propia',
         fecha: new Date(Date.UTC(1988, 4, 21)),
@@ -8598,7 +8598,7 @@ export const memorabilias:IMemorabilia[] = [
     },
     {
         imagen:'1049.jpg',
-        titulo:'Judas Priest fans',
+        titulo:'Judas Priest',
         grupo:'Judas Priest',
         origen:'propia',
         fecha: new Date(Date.UTC(1988, 4, 21)),
@@ -8606,7 +8606,7 @@ export const memorabilias:IMemorabilia[] = [
     },
     {
         imagen:'1050.jpg',
-        titulo:'Judas Priest fans',
+        titulo:'Judas Priest',
         grupo:'Judas Priest',
         origen:'propia',
         fecha: new Date(Date.UTC(1988, 4, 21)),
@@ -8614,7 +8614,7 @@ export const memorabilias:IMemorabilia[] = [
     },
     {
         imagen:'1051.jpg',
-        titulo:'Judas Priest fans',
+        titulo:'Judas Priest',
         grupo:'Judas Priest',
         origen:'propia',
         fecha: new Date(Date.UTC(1988, 4, 21)),

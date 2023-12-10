@@ -65,11 +65,12 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/B0jOzOauoWQ?si=A9WEZFt9XFAIx8B4']
     },
     {
-        fecha: new Date(2022, 7, 31),
+        fecha: new Date(Date.UTC(2022, 6, 31)),
         ciudad: 'Bilbao',
         sala: 'Bilbao Blues Festival',
         grupo: 'Shemekia Copeland',
         festival: true,
+        fotos: true,
         videos:['https://www.youtube.com/embed/eoxVyRS82pM?si=AG0haFZSSCiM5cGO']
     },
     {
@@ -89,10 +90,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/fov1zmaAvbc?si=7q8LKDkGS3hBzHCb','https://www.youtube.com/embed/5AGWkaa3JMU?si=ax1biBIBEKSwHk-C','https://www.youtube.com/embed/H7VWxzKwlBg?si=Elr2IOQCx2BCiG4J','https://www.youtube.com/embed/mRZb1T4-z_U?si=b-wAt_nGP11CZFgh','https://www.youtube.com/embed/aLeQPfc-EiI?si=Aj-iOr9bOB_SmCQt','https://www.youtube.com/embed/Zm49BNUPXxo?si=4S1BdA7jjGkcVVPh']
     },
     {
-        fecha: new Date(2021, 11, 12),
+        fecha: new Date(Date.UTC(2021, 10, 12)),
         ciudad: 'Basauri',
         sala: 'Antzokia-MAZ Basauri',
         grupo: 'Xoel López',
+        fotos: true,
         festival: true,
         cartel: "carteles/16.jpg",
         videos:['https://www.youtube.com/embed/Ssg71F5pqLA?si=yI5My4WFI_IhiMRP']
@@ -149,10 +151,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/PlWYa84duAg?si=_hDzw3XRK4mnnGeZ','https://www.youtube.com/embed/B5D0CSKB9K4?si=LAjKJE42MUT7Q20Z']
     },
     {
-        fecha: new Date(2019, 10, 21),
+        fecha: new Date(Date.UTC(2019, 9, 21)),
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia',
         grupo: 'White Lies',
+        fotos: true,
         videos:['https://www.youtube.com/embed/p5Du4y-cDAQ?si=p7tEp1_cXJzZksDY','https://www.youtube.com/embed/QPf0pGTJLi0?si=8Io8WM9jvNU8iTPU','https://www.youtube.com/embed/F2MMfad-8XM?si=5M6Nixb0Z4Vuea0M','https://www.youtube.com/embed/2hyzsCy1iSE?si=iGsbZhojYjF8dMX5','https://www.youtube.com/embed/-jtjAC7a5F4?si=jh8LjGiVHUcTB7uR']
     },
     {
@@ -443,6 +446,7 @@ export const conciertos:IConcierto[]=[
         sala:'Bar Los Picos',
         grupo: 'The Soul Jacket',
         entrada: "entradas/65.jpg", 
+        fotos: true,
         videos:['https://www.youtube.com/embed/zPasJycuXhU?si=gPZ9WylCZVcY_YPe','https://www.youtube.com/embed/yQeCxLGefp4?si=IloWBLSu2ZU6Vj9V','https://www.youtube.com/embed/iyX_6rcSm7Y?si=7CmElPCCCWNGaBEx','https://www.youtube.com/embed/apKOLlSsIhg?si=lb3waN5Ce_j7mADQ','https://www.youtube.com/embed/7ECDp3N4I64?si=u81O6QfY3QEhmNSw']
     },
     {
@@ -482,10 +486,11 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/-5ECQEuv3vw?si=5RDXJ7wVA0FeW18W']
     },
     {
-        fecha: new Date(2016, 5, 14),
+        fecha: new Date(Date.UTC(2016, 4, 14)),
         ciudad: 'Bilbao',
         sala:'Santana 27',
         grupo: 'WolfMother',
+        fotos: true,
         videos:['https://www.youtube.com/embed/toBrgc6qB2I?si=ixNIzmC9utJ4sI5J','https://www.youtube.com/embed/hWez7L1NU78?si=09zn97PqN-IRJa42']
     },
     {
@@ -565,11 +570,12 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/MsmGl-ATg2I?si=-cHGsJjru5UXRb7x']
     },
     {
-        fecha: new Date(2015, 6, 20),
+        fecha: new Date(Date.UTC(2015, 5, 20)),
         ciudad: 'Vitoria',
         sala:'Azkena Rock Festival',
         grupo: 'Sven Hammond',
         festival: true,
+        fotos: true,
         videos:['https://www.youtube.com/embed/Eg3cREEKX30?si=2KrRHGkZZ4QqvQEk']
     },
     {
@@ -1186,6 +1192,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
         grupo: 'Supersuckers',
+        fotos: true,
         entrada: "entradas/62.jpg",   
     },
     {
@@ -1669,6 +1676,31 @@ export const conciertos:IConcierto[]=[
         grupo: 'Ringo Starr',
         fotos: true,
     }, 
+    {
+        fecha: new Date(Date.UTC(2021, 10, 13)),
+        ciudad: 'Basauri',
+        sala: 'MAZ Basauri',
+        grupo: 'Sotomonte',
+        festival: true,
+        fotos: true,
+        cartel: "carteles/16.jpg"
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 5, 15)),
+        ciudad: 'Bilbao',
+        sala: 'BBK Legends',
+        grupo: 'Little Steven',
+        festival: true,
+        fotos: true,
+        cartel: "carteles/17.jpeg"
+    },
+    {
+        fecha: new Date(Date.UTC(2018, 10, 1)),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia',
+        grupo: 'The Magpie Salute',
+        fotos: true,
+    },
    
 
 ];

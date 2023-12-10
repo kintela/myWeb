@@ -9316,4 +9316,155 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'La Alhondiga',
         fecha: new Date(Date.UTC(2016, 3, 22)),
     },
+    {
+        imagen:'1150.jpg',
+        titulo:'Corizonas',
+        grupo:'Corizonas',
+        origen:'propia',   
+        lugar:'Palacio Euskalduna',
+        fecha: new Date(Date.UTC(2018, 11, 14)),
+    },
+    {
+        imagen:'1151.jpg',
+        titulo:'Shemekia Copeland',
+        grupo:'Shemekia Copeland',
+        origen:'propia',   
+        lugar:'Bilbao Blues Festival',
+        fecha: new Date(Date.UTC(2022, 6, 31)),
+    },
+    {
+        imagen:'1152.jpg',
+        titulo:'Sotomonte',
+        grupo:'Sotomonte',
+        origen:'propia',   
+        lugar:'MAZ Basauri',
+        fecha: new Date(Date.UTC(2021, 10, 13)),
+    },
+    {
+        imagen:'1153.jpg',
+        titulo:'StarCrawler',
+        grupo:'StarCrawler',
+        origen:'propia',   
+    },
+    {
+        imagen:'1154.jpg',
+        titulo:'Little Steven',
+        grupo:'Little Steven',
+        origen:'propia',   
+        lugar:'BBK Legends',
+        fecha: new Date(Date.UTC(2019, 5, 15))
+    },
+    {
+        imagen:'1155.jpg',
+        titulo:'Sven Hammond',
+        grupo:'Sven Hammond',
+        origen:'propia',   
+        lugar:'Azkena Rock Festival',
+        personas:'Kintela',
+        fecha: new Date(Date.UTC(2015, 5, 20))
+    },
+    {
+        imagen:'1156.jpg',
+        titulo:'Supersuckers',
+        grupo:'Supersuckers',
+        origen:'propia',   
+        lugar:'Kafe Antzokia',
+        fecha: new Date(Date.UTC(2014, 8, 21)),
+    },
+    {
+        imagen:'1157.jpg',
+        titulo:'The Beatles',
+        grupo:'The Beatles',
+        origen:'propia',   
+    },
+    {
+        imagen:'1158.jpg',
+        titulo:'BIME',
+        origen:'propia',   
+    },
+    {
+        imagen:'1159.jpg',
+        titulo:'The Magpie Salute',
+        grupo:'The Magpie Salute',
+        origen:'propia',   
+        lugar:'Kafe Antzokia',
+        fecha: new Date(Date.UTC(2018, 10, 1))
+    },
+    {
+        imagen:'1160.jpg',
+        titulo:'The Soul Jacket',
+        grupo:'The Soul Jacket',
+        origen:'propia',   
+        lugar:'Bar Los Picos',
+        fecha: new Date(Date.UTC(2016, 8, 2)),
+    },
+    {
+        imagen:'1161.jpg',
+        titulo:'Thomas Azier',
+        lugar:'BIME',
+        origen:'propia'
+    },
+    {
+        imagen:'1162.jpg',
+        titulo:'Travelling Brothers',
+        lugar:'Bilñbao Blues Festival',
+        origen:'propia'
+    },
+    {
+        imagen:'1163.jpg',
+        titulo:'Eric Clapton y Eddie Van Halen',
+        personas:'Eric Clapton, Eddie Van Halen',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1164.jpg',
+        titulo:'Eddie Van Halen y Slash',
+        personas:'Eddie Van Halen, Slash',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1165.jpg',
+        titulo:'Eddie Van Halen',
+        origen:'propia'
+    },
+    {
+        imagen:'1166.jpg',
+        titulo:'Eddie Vedder y Anthony Kiedis',
+        personas:'Eddie Vedder, Anthony Kiedis',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1167.jpg',
+        titulo:'White Lies',
+        grupo:'White Lies',
+        origen:'propia',   
+        lugar:'Kafe Antzokia',
+        fecha: new Date(Date.UTC(2019, 9, 21)),
+    },
+    {
+        imagen:'1168.jpg',
+        titulo:'WolfMother',
+        grupo:'WolfMother',
+        origen:'propia',   
+        lugar:'Santana 27',
+        personas:'Kintela, Sonia Muga, Kily, Ainara Zamakona',
+        fecha: new Date(Date.UTC(2016, 4, 14)),
+    },
+    {
+        imagen:'1169.jpg',
+        titulo:'Xoel López',
+        grupo:'Xoel López',
+        origen:'propia',   
+        lugar:'Antzokia-MAZ Basauri',
+        fecha: new Date(Date.UTC(2021, 10, 12)),
+    },
+    {
+        imagen:'1170.jpg',
+        titulo:'ZZ Top',
+        grupo:'ZZ Top',
+        origen:'propia',   
+        lugar:'BBK Live',
+        fecha: new Date(Date.UTC(2008, 6, 4))
+    },
+
 ];

@@ -6623,15 +6623,13 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Beck',
         grupo:'beck',
         origen:'propia',
-        fecha: new Date(Date.UTC(2014, 8, 13)),
-        lugar:'Dcode'
     },
     {
+        conciertoId: 60,
         imagen:'967.jpeg',
         titulo:'Dave Matthews Band',
         grupo:'Dave Matthews Band',
         origen:'propia',
-        fecha: new Date(Date.UTC(2015, 10, 12)),
         lugar:'Palacio de los deportes'
     },
     {
@@ -6890,8 +6888,6 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Sidonie',
         origen:'propia',
         grupo:'Sidonie',
-        fecha: new Date(Date.UTC(2018, 3, 28)),
-        lugar:'Antzokia-MAZ Basauri'
     },
     {
         conciertoId: 39,
@@ -6899,8 +6895,6 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Sidonie',
         origen:'propia',
         grupo:'Sidonie',
-        fecha: new Date(Date.UTC(2018, 3, 28)),
-        lugar:'Antzokia-MAZ Basauri'
     },
     {
         conciertoId: 40,
@@ -7056,8 +7050,6 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Angel Stanich',
         grupo:'Angel Stanich',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 0, 25)),
-        lugar:'Kafe Antzokia'
     },
     {
         conciertoId: 86,

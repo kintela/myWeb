@@ -288,6 +288,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/zAsgemLIzrY?si=Fq7ORbmhef3jEiwf','https://www.youtube.com/embed/1YTGMN5NtE8?si=r6_FvwCzcLMWXzaD']
     },
     {
+        id:59,
         fecha: new Date(Date.UTC(2016, 3, 22)),
         ciudad: 'Bilbao',
         sala: 'La Alhondiga',
@@ -513,6 +514,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/PvhTOI8Slfs?si=na-WFr7DI5CIhZr7']
     },
     {
+        id:58,
         fecha: new Date(Date.UTC(2016, 5, 11)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -521,6 +523,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/-5ECQEuv3vw?si=5RDXJ7wVA0FeW18W']
     },
     {
+        id:62,
         fecha: new Date(Date.UTC(2016, 4, 14)),
         ciudad: 'Bilbao',
         sala:'Santana 27',
@@ -546,7 +549,7 @@ export const conciertos:IConcierto[]=[
         fecha: new Date(2016, 4, 15),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
-        grupo: 'The Silent Comedyy',
+        grupo: 'The Silent Comedy',
         videos:['https://www.youtube.com/embed/4O5fMwpYeZw?si=fmzwCMg0EZoap-BT']
     },
     {
@@ -574,12 +577,21 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/HN4NxFWOlfU?si=mzUUWrTWeO05dWum','https://www.youtube.com/embed/VEWBI2Z7vvU?si=ztoydIl9OHfVwcjY']
     },
     {
+        id:60,
         fecha: new Date(Date.UTC(2015, 10, 12)),
         ciudad: 'Madrid',
         sala:'Palacio de los deportes',
         fotos: true,
         grupo: 'Dave Matthews Band',
         videos:['https://www.youtube.com/embed/mkk46FH3Ll0?si=omzJBAgwrVW1CCCk','https://www.youtube.com/embed/wyC49cDXNA4?si=bEohcrVYqP19jjkQ','https://www.youtube.com/embed/89GZ6JeONQU?si=3Ojh_2DuMqOKIJYc','https://www.youtube.com/embed/IuLjjsXNvPc?si=92lfEsHF0WiWNwC_']
+    },
+    {
+        id:61,
+        fecha: new Date(Date.UTC(2009, 6, 9)),
+        ciudad: 'Bilbao',
+        sala:'BBK Live',
+        fotos: true,
+        grupo: 'Dave Matthews Band'        
     },
     {
         fecha: new Date(2015, 8, 14),
@@ -605,6 +617,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/MsmGl-ATg2I?si=-cHGsJjru5UXRb7x']
     },
     {
+        id:64,
         fecha: new Date(Date.UTC(2015, 5, 20)),
         ciudad: 'Vitoria',
         sala:'Azkena Rock Festival',
@@ -621,6 +634,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/xFa5zxVoMeE?si=pr_5gh2kCCthtmTo','https://www.youtube.com/embed/yUFoHZAxTpo?si=IOvtSI0_WI-mYO2D','https://www.youtube.com/embed/ERZ0pCUSFdQ?si=1dEhCHd7KLeUbN68']
     },
     {
+        id:71,
         fecha: new Date(Date.UTC(2014, 4, 9)),
         ciudad: 'Lierganes',
         sala:'Bar Los Picos',
@@ -638,6 +652,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/SQYv37WggIk?si=fqO5oN0QOQ-F1i1-']
     },
     {
+        id:74,
         ciudad: 'Madrid',
         sala:'La Riviera',
         fecha: new Date(Date.UTC(2011, 3, 2)),
@@ -647,6 +662,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/IPqA3sMgt_s?si=ShZSMEdK0Cp56CL6','https://www.youtube.com/embed/kmHnUnNcXfE?si=Rcpa2p-SaU83LpxV']
     },
     {
+        id:75,
         fecha: new Date(Date.UTC(2010, 8, 26)),
         ciudad: 'Donosti',
         sala:'Anoeta',
@@ -656,6 +672,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/wH4eihHOjjI?si=g_TnEN28EaUk9zB2','https://www.youtube.com/embed/G4_BZ0b3y_8?si=y4t2Yn87ez_NO-VG','https://www.youtube.com/embed/FUYNcnKmmF4?si=imYuQne-czjbuDwH','https://www.youtube.com/embed/24zO7P5wHGU?si=ZxSlyY3i7cyHV4Ft','https://www.youtube.com/embed/GABFTjCbXGw?si=4sQ4dbHVxbfePfDG']
     },
     {
+        id:76,
         fecha: new Date(Date.UTC(2010, 6, 30)),
         ciudad: 'Bilbao',
         sala:'Plaza de toros',
@@ -665,6 +682,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/QTD1B-flR9Q?si=EM4vpi5Am6kKuflp','https://www.youtube.com/embed/RfjIgGwnKvw?si=Qfoz0ZHKBmbqOxxS','https://www.youtube.com/embed/0Yug9lP8x3U?si=7eMnpz8hriw0olbL','https://www.youtube.com/embed/zFm-q8XvOJU?si=VlQJ8n6g3Ndc_0ap','https://www.youtube.com/embed/-yKQfs57L24?si=tkdPeHv6Zi9v4iLP']
     },
     {
+        id:78,
         fecha: new Date(Date.UTC(2010, 6, 15)),
         ciudad: 'Zaragoza',
         sala:'Anfiteatro de Ranillas',
@@ -682,6 +700,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:101,
         fecha: new Date(Date.UTC(2007, 5, 23)),
         ciudad: 'Donosti',
         sala:'Anoeta',
@@ -930,6 +949,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:97,
         fecha: new Date(Date.UTC(2007, 7, 31)),
         ciudad: 'Vitoria',
         sala:'ARF',
@@ -1033,6 +1053,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/15.jpg",   
     },
     {
+        id:96,
         fecha: new Date(Date.UTC(2007, 10, 4)),
         ciudad: 'Durango',
         sala:'Feria de muestras',
@@ -1048,6 +1069,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/33.jpg",   
     },
     {
+        id:95,
         fecha: new Date(Date.UTC(2007, 10, 26)),
         ciudad: 'Barakaldo',
         sala:'BEC',
@@ -1056,6 +1078,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },
     {
+        id:94,
         fecha: new Date(Date.UTC(2008, 0, 14)),
         ciudad: 'Barakaldo',
         sala:'Rock Star Live',
@@ -1083,14 +1106,7 @@ export const conciertos:IConcierto[]=[
         sala:'Rock Star Live',
         grupo: 'Motorhead',
         entrada: "entradas/38.jpg",   
-    },
-    {
-        fecha: new Date(Date.UTC(2008, 6, 24)),
-        ciudad: 'Barakaldo',
-        sala:'Rock Star Live',
-        grupo: 'Motorhead',
-        entrada: "entradas/38.jpg",   
-    },
+    },   
     {
         fecha: new Date(Date.UTC(2008, 5, 24)),
         ciudad: 'Pamplona',
@@ -1120,6 +1136,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/42.jpg",   
     },
     {
+        id:81,
         fecha: new Date(Date.UTC(2009, 6, 26)),
         ciudad: 'Bilbao',
         sala:'San Mames',
@@ -1128,6 +1145,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/43.jpg",   
     },
     {
+        id:80,
         fecha: new Date(Date.UTC(2009, 6, 28)),
         ciudad: 'Barakaldo',
         sala:'Rock Star Live',
@@ -1136,6 +1154,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/44.jpg",   
     },
     {
+        id:77,
         fecha: new Date(Date.UTC(2010, 6, 23)),
         ciudad: 'Barakaldo',
         sala:'Rock Star Live',
@@ -1202,6 +1221,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/57.jpg",   
     },
     {
+        id:72,
         fecha: new Date(Date.UTC(2013, 6, 18)),
         ciudad: 'Biarriz',
         sala:'Estadio Aguilera',
@@ -1217,6 +1237,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/59.jpg",   
     },
     {
+        id:69,
         fecha: new Date(Date.UTC(2014, 7, 21)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -1225,6 +1246,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/61.jpg",   
     },
     {
+        id:65,
         fecha: new Date(Date.UTC(2014, 8, 21)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -1270,6 +1292,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/71.jpg",   
     },
     {
+        id:83,
         fecha: new Date(Date.UTC(2009, 4, 28)),
         ciudad: 'Bilbao',
         sala:'Santana27',
@@ -1285,6 +1308,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/73.jpg",   
     },
     {
+        id:86,
         fecha: new Date(Date.UTC(2009, 4, 10)),
         ciudad: 'Bilbao',
         sala:'Azkena',
@@ -1309,6 +1333,7 @@ export const conciertos:IConcierto[]=[
         cronica: 'https://bilbaoenvivo.wordpress.com/2012/11/09/robben-ford-lo-viejo-como-nuevo'
     },
     {
+        id:73,
         fecha: new Date(Date.UTC(2012, 10, 8)),
         ciudad: 'Bilbao',
         sala:'Palacio Euskalduna',
@@ -1390,6 +1415,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },   
     {
+        id:100,
         fecha: new Date(Date.UTC(2007, 6, 21)),
         ciudad: 'Vitoria',
         sala:'Polideportizo de Mendizorroza',
@@ -1397,6 +1423,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },  
     {
+        id:99,
         fecha: new Date(Date.UTC(2007, 6, 28)),
         ciudad: 'Espinosa de los Monteros',
         sala:'Plaza',
@@ -1404,6 +1431,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },  
     {
+        id:98,
         fecha: new Date(Date.UTC(2007, 7, 11)),
         ciudad: 'Londres',
         sala:'O2 Arena',
@@ -1412,6 +1440,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },   
     {
+        id:91,
         fecha: new Date(Date.UTC(2008, 4, 30)),
         ciudad: 'Madrid',
         sala:'Electric Weekend',
@@ -1421,6 +1450,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/3.jpg",
     }, 
     {
+        id:92,
         fecha: new Date(Date.UTC(2008, 4, 30)),
         ciudad: 'Madrid',
         sala:'Electric Weekend',
@@ -1430,6 +1460,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/3.jpg",
     }, 
     {
+        id:93,
         fecha: new Date(Date.UTC(2008, 4, 30)),
         ciudad: 'Madrid',
         sala:'Electric Weekend',
@@ -1439,6 +1470,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/3.jpg",
     }, 
     {
+        id:84,
         fecha: new Date(Date.UTC(2009, 4, 14)),
         ciudad: 'Vitoria',
         sala:'Azkena Rock Festival',
@@ -1448,6 +1480,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/5.jpg",
     }, 
     {
+        id:85,
         fecha: new Date(Date.UTC(2009, 4, 14)),
         ciudad: 'Vitoria',
         sala:'Azkena Rock Festival',
@@ -1457,6 +1490,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/5.jpg",
     }, 
     {
+        id:88,
         fecha: new Date(Date.UTC(2009, 3, 2)),
         ciudad: 'Madrid',
         sala:'Palacio de los deportes',
@@ -1465,6 +1499,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     }, 
     {
+        id:87,
         fecha: new Date(Date.UTC(2009, 3, 4)),
         ciudad: 'Bilbao',
         sala:'BEC',
@@ -1481,6 +1516,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     }, 
     {
+        id:82,
         fecha: new Date(Date.UTC(2009, 6, 9)),
         ciudad: 'Bilbao',
         sala:'BBK Live',
@@ -1489,6 +1525,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     }, 
     {
+        id:79,
         fecha: new Date(Date.UTC(2010, 5, 28)),
         ciudad: 'Bilbao',
         sala:'San Mames',
@@ -1496,6 +1533,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     }, 
     {
+        id:66,
         fecha: new Date(Date.UTC(2014, 8, 13)),
         ciudad: 'Madrid',
         sala:'Dcode',
@@ -1504,6 +1542,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     }, 
     {
+        id:67,
         fecha: new Date(Date.UTC(2014, 8, 13)),
         ciudad: 'Madrid',
         sala:'Dcode',
@@ -1512,6 +1551,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     }, 
     {
+        id:68,
         fecha: new Date(Date.UTC(2014, 8, 13)),
         ciudad: 'Madrid',
         sala:'Dcode',
@@ -1552,6 +1592,7 @@ export const conciertos:IConcierto[]=[
         fotos:true,
     },
     {
+        id:90,
         fecha: new Date(Date.UTC(2008, 6, 4)),
         ciudad: 'Bilbao',
         sala:'BBK Live',
@@ -1560,6 +1601,7 @@ export const conciertos:IConcierto[]=[
         fotos:true,
     },
     {
+        id:89,
         fecha: new Date(Date.UTC(2008, 6, 20)),
         ciudad: 'Bilbao',
         sala:'Kobetasonic',
@@ -1652,6 +1694,7 @@ export const conciertos:IConcierto[]=[
         fotos:true,
     },
     {
+        id:70,
         fecha: new Date(Date.UTC(2014, 5, 21)),
         ciudad: 'Vitoria',
         sala:'ARF',
@@ -1705,6 +1748,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/13.jpeg"
     },
     {
+        id:63,
         fecha: new Date(Date.UTC(2015, 7, 15)),
         ciudad: 'Portugalete',
         sala:'Fiestas',

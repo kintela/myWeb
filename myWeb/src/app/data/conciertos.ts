@@ -1725,6 +1725,20 @@ export const conciertos:IConcierto[]=[
         grupo: 'Jethro Tull',
         cronica: 'https://www.noticiasdegipuzkoa.eus/cultura/2013/01/08/jethro-tull-28-anos-despues-4337510.html'
     },
+    {
+        fecha: new Date(Date.UTC(2012, 1, 10)),
+        ciudad: 'Santurtzi',
+        sala: 'Serantes Kultur Aretoa',
+        grupo: 'Jorge Drexler',
+        cronica: 'https://www.lavanguardia.com/musica/20120210/54252403425/jorge-drexler-presenta-santurtzi-andar-la-trama.html'
+    },
+    {
+        fecha: new Date(Date.UTC(2011, 3, 15)),
+        ciudad: 'Santurtzi',
+        sala: 'Serantes Kultur Aretoa',
+        grupo: 'Ariel Rot',
+        cronica: 'https://santurtziberriak.blogspot.com/2011/04/agenda-cultural-agenda-kulturala.html'
+    },
    
    
 

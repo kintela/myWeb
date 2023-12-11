@@ -457,7 +457,7 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'Nirvana',
         origen:'Facebook'
     },
-    {
+    {        
         imagen:'71.jpg',
         titulo:'Robert Plant y Jimmy Page',
         personas:'Robert Plant, Jimmy Page',
@@ -7978,127 +7978,111 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Palacio de los deportes'
     },
     {
+        conciertoId: 56,
         imagen:'970.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
-        fecha: new Date(Date.UTC(2016, 9, 15)),
-        lugar:'Jimmy Jazz'
     },
     {
+        conciertoId: 56,
         imagen:'971.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
-        fecha: new Date(Date.UTC(2016, 9, 15)),
-        lugar:'Jimmy Jazz'
     },
     {
+        conciertoId: 56,
         imagen:'972.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
-        fecha: new Date(Date.UTC(2016, 9, 15)),
-        lugar:'Jimmy Jazz'
     },
     {
+        conciertoId: 56,
         imagen:'973.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
-        fecha: new Date(Date.UTC(2016, 9, 15)),
-        lugar:'Jimmy Jazz'
     },
     {
+        conciertoId: 56,
         imagen:'974.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
-        fecha: new Date(Date.UTC(2016, 9, 15)),
-        lugar:'Jimmy Jazz'
     },
     {
+        conciertoId: 56,
         imagen:'975.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
-        fecha: new Date(Date.UTC(2016, 9, 15)),
-        lugar:'Jimmy Jazz'
     },
     {
+        conciertoId: 56,
         imagen:'976.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
-        fecha: new Date(Date.UTC(2016, 9, 15)),
-        lugar:'Jimmy Jazz'
     },
-    {
+    {   conciertoId: 54,    
         imagen:'977.jpeg',
         titulo:'Gari',
         grupo:'Gari',
         origen:'propia',
-        fecha: new Date(Date.UTC(2017, 1, 7)),
-        lugar:'Teatro Arriaga'
     },
     {
+        conciertoId: 54, 
         imagen:'978.jpeg',
         titulo:'Gari',
         grupo:'Gari',
         origen:'propia',
-        fecha: new Date(Date.UTC(2017, 1, 7)),
-        lugar:'Teatro Arriaga'
     },
     {
+        conciertoId: 54, 
         imagen:'979.jpeg',
         titulo:'Gari',
         grupo:'Gari',
         origen:'propia',
-        fecha: new Date(Date.UTC(2017, 1, 7)),
-        lugar:'Teatro Arriaga'
     },
     {
+        conciertoId: 53,
         imagen:'980.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
-        fecha: new Date(Date.UTC(2017, 4, 6)),
-        lugar:'Kafe Antzokia'
     },
     {
+        conciertoId: 53,
         imagen:'981.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
         personas:'Kintela, Olaia, Borja',
-        fecha: new Date(Date.UTC(2017, 4, 6)),
-        lugar:'Kafe Antzokia'
     },
     {
+        conciertoId: 53,
         imagen:'982.jpeg',
         titulo:'Marah',
         grupo:'Marah',
         origen:'propia',
         personas:'Kintela, Olaia, Borja',
-        fecha: new Date(Date.UTC(2017, 4, 6)),
-        lugar:'Kafe Antzokia'
     },
     {
+        conciertoId: 52,
         imagen:'983.jpeg',
         titulo:'Mark Lanegan',
         grupo:'Mark Lanegan',
         origen:'propia',
         personas:'Kintela, Sonia Muga',
-        fecha: new Date(Date.UTC(2017, 4, 30)),
-        lugar:'San Mames'
     },
     {
+        conciertoId: 51, 
         imagen:'984.jpeg',
         titulo:'Guns\'s and Roses',
         grupo:'Guns\'s and Roses',
         origen:'propia',
-        fecha: new Date(Date.UTC(2017, 4, 30)),
-        lugar:'San Mames'
     },
     {
         imagen:'985.jpeg',
@@ -8109,20 +8093,18 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Madcool 2017'
     },
     {
+        conciertoId: 50,    
         imagen:'986.jpeg',
         titulo:'Mad Cool 2017',
         origen:'propia',
         grupo:'Neuman',
-        fecha: new Date(Date.UTC(2017, 6, 7)),
-        lugar:'Mad Cool'
     },
     {
+        conciertoId: 50, 
         imagen:'987.jpeg',
         titulo:'Mad Cool 2017',
         origen:'propia',
         grupo:'Neuman',
-        fecha: new Date(Date.UTC(2017, 6, 7)),
-        lugar:'Mad Cool'
     },
     {
         imagen:'988.jpeg',
@@ -8132,12 +8114,11 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Madcool 2017'
     },
     {
+        conciertoId: 49,
         imagen:'989.jpeg',
         titulo:'Mad Cool 2017',
         origen:'propia',
         grupo:'Foo Fighters',
-        fecha: new Date(Date.UTC(2017, 6, 7)),
-        lugar:'Mad Cool'
     },
     {
         imagen:'990.jpeg',
@@ -8155,95 +8136,85 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Madcool 2017'
     },
     {
+        conciertoId: 47,
         imagen:'992.jpeg',
         titulo:'Chuck Prophet',
         origen:'propia',
         grupo:'Chuck Prophet',
-        fecha: new Date(Date.UTC(2017, 10, 12)),
-        lugar:'Kutxa Beltza'
     },
     {
+        conciertoId: 47,
         imagen:'993.jpeg',
         titulo:'Chuck Prophet',
         origen:'propia',
         grupo:'Chuck Prophet',
-        fecha: new Date(Date.UTC(2017, 10, 12)),
-        lugar:'Kutxa Beltza'
     },
     {
+        conciertoId: 47,
         imagen:'994.jpeg',
         titulo:'Chuck Prophet',
         origen:'propia',
         grupo:'Chuck Prophet',
         personas:'Kintela',
-        fecha: new Date(Date.UTC(2017, 10, 12)),
-        lugar:'Kutxa Beltza'
     },
     {
+        conciertoId: 41,
         imagen:'995.jpeg',
         titulo:'Mi Capitan',
         origen:'propia',
         grupo:'Mi Capitan',
-        fecha: new Date(Date.UTC(2018, 3, 14)),
-        lugar:'Stage Live'
     },
     {
+        conciertoId: 41,
         imagen:'996.jpeg',
         titulo:'Mi Capitan',
         origen:'propia',
         grupo:'Mi Capitan',
-        fecha: new Date(Date.UTC(2018, 3, 14)),
-        lugar:'Stage Live'
     },
     {
+        conciertoId: 41,
         imagen:'997.jpeg',
         titulo:'Mi Capitan',
         origen:'propia',
         grupo:'Mi Capitan',
-        fecha: new Date(Date.UTC(2018, 3, 14)),
-        lugar:'Stage Live'
     },
     {
+        conciertoId: 41,
         imagen:'998.jpeg',
         titulo:'Mi Capitan',
         origen:'propia',
         grupo:'Mi Capitan',
-        fecha: new Date(Date.UTC(2018, 3, 14)),
-        lugar:'Stage Live'
     },
     {
+        conciertoId: 41,
         imagen:'999.jpeg',
         titulo:'Mi Capitan',
         origen:'propia',
         grupo:'Mi Capitan',
-        fecha: new Date(Date.UTC(2018, 3, 14)),
-        lugar:'Stage Live'
     },
     {
+        conciertoId: 40,
         imagen:'1000.jpeg',
         titulo:'Rufus T. Firefly',
         origen:'propia',
         grupo:'Rufus T. Firefly',
-        fecha: new Date(Date.UTC(2018, 3, 28)),
-        lugar:'Antzokia-MAZ Basauri'
     },
     {
+        conciertoId: 40,
         imagen:'1001.jpeg',
         titulo:'Rufus T. Firefly',
         origen:'propia',
         grupo:'Rufus T. Firefly',
-        fecha: new Date(Date.UTC(2018, 3, 28)),
-        lugar:'Antzokia-MAZ Basauri'
     },
     {
+        conciertoId: 40,
         imagen:'1002.jpeg',
         titulo:'Rufus T. Firefly',
         origen:'propia',
         grupo:'Rufus T. Firefly',
-        fecha: new Date(Date.UTC(2018, 3, 28)),
-        lugar:'Antzokia-MAZ Basauri'
     },
     {
+        conciertoId: 39,
         imagen:'1003.jpeg',
         titulo:'Sidonie',
         origen:'propia',
@@ -8252,6 +8223,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Antzokia-MAZ Basauri'
     },
     {
+        conciertoId: 39,
         imagen:'1004.jpeg',
         titulo:'Sidonie',
         origen:'propia',
@@ -8260,117 +8232,104 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Antzokia-MAZ Basauri'
     },
     {
+        conciertoId: 40,
         imagen:'1005.jpeg',
         titulo:'Rufus T. Firefly',
         origen:'propia',
         grupo:'Rufus T. Firefly',
         personas:'Sonia Muga',
-        fecha: new Date(Date.UTC(2018, 3, 28)),
-        lugar:'Antzokia-MAZ Basauri'
     },
     {
+        conciertoId: 2,
         imagen:'1006.jpeg',
         titulo:'Paul Weller',
-        origen:'propia',
         grupo:'Paul Weller',
-        fecha: new Date(Date.UTC(2023, 8, 14)),
-        lugar:'Santana 27'
+        origen:'propia'
+       
     },
     {
+        conciertoId: 2,
         imagen:'1007.jpeg',
         titulo:'Paul Weller',
-        origen:'propia',
         grupo:'Paul Weller',
-        fecha: new Date(Date.UTC(2023, 8, 14)),
-        lugar:'Santana 27'
+        origen:'propia'
     },
     {
+        conciertoId: 2,
         imagen:'1008.jpeg',
         titulo:'Paul Weller',
-        origen:'propia',
         grupo:'Paul Weller',
-        fecha: new Date(Date.UTC(2023, 8, 14)),
-        lugar:'Santana 27'
+        origen:'propia'       
     },
     {
+        conciertoId: 2,
         imagen:'1009.jpeg',
         titulo:'Paul Weller',
-        origen:'propia',
         grupo:'Paul Weller',
-        fecha: new Date(Date.UTC(2023, 8, 14)),
-        lugar:'Santana 27'
+        origen:'propia'       
     },
     {
+        conciertoId: 2,
         imagen:'1010.jpeg',
         titulo:'Paul Weller',
-        origen:'propia',
         grupo:'Paul Weller',
-        fecha: new Date(Date.UTC(2023, 8, 14)),
-        lugar:'Santana 27'
+        origen:'propia'       
     },
     {
+        conciertoId: 2,
         imagen:'1011.jpeg',
         titulo:'Paul Weller',
-        origen:'propia',
         grupo:'Paul Weller',
-        fecha: new Date(Date.UTC(2023, 8, 14)),
-        lugar:'Santana 27'
+        origen:'propia'       
     },
     {
+        conciertoId: 1,
         imagen:'1012.jpeg',
         titulo:'Miguel Rios',
-        origen:'propia',
         grupo:'Miguel Rios',
-        fecha: new Date(Date.UTC(2023, 9, 20)),
-        lugar:'Bilbao Arena'
-    },
+        origen:'propia'
+    },   
     {
+        conciertoId: 1,
         imagen:'1013.jpeg',
         titulo:'Miguel Rios',
-        origen:'propia',
         grupo:'Miguel Rios',
-        fecha: new Date(Date.UTC(2023, 9, 20)),
-        lugar:'Bilbao Arena'
+        origen:'propia'
     },
     {
+        conciertoId: 1,
         imagen:'1014.jpeg',
         titulo:'Miguel Rios',
-        origen:'propia',
         grupo:'Miguel Rios',
-        fecha: new Date(Date.UTC(2023, 9, 20)),
-        lugar:'Bilbao Arena'
+        origen:'propia'
     },
     {
+        conciertoId: 1,
         imagen:'1015.jpeg',
         titulo:'Miguel Rios',
-        origen:'propia',
         grupo:'Miguel Rios',
-        fecha: new Date(Date.UTC(2023, 9, 20)),
-        lugar:'Bilbao Arena'
+        origen:'propia'
     },
     {
+        conciertoId: 1,
         imagen:'1016.jpeg',
         titulo:'Miguel Rios',
-        origen:'propia',
         grupo:'Miguel Rios',
-        fecha: new Date(Date.UTC(2023, 9, 20)),
-        lugar:'Bilbao Arena'
+        origen:'propia'
     },
     {
+        conciertoId: 1,
         imagen:'1017.jpeg',
         titulo:'Miguel Rios',
-        origen:'propia',
         grupo:'Miguel Rios',
-        fecha: new Date(Date.UTC(2023, 9, 20)),
-        lugar:'Bilbao Arena'
+        origen:'propia'
     },
     {
+        conciertoId: 1,
         imagen:'1018.jpeg',
         titulo:'Miguel Rios',
-        origen:'propia',
         grupo:'Miguel Rios',
-        fecha: new Date(Date.UTC(2023, 9, 20)),
-        lugar:'Bilbao Arena'
+        origen:'propia'
     },
     {
         imagen:'1019.jpeg',
@@ -8426,6 +8385,7 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Instagram',
     },
     {
+        conciertoId: 45,
         imagen:'1026.jpg',
         titulo:'Angel Stanich',
         grupo:'Angel Stanich',
@@ -8456,12 +8416,11 @@ export const memorabilias:IMemorabilia[] = [
         personas:'Kintela, Ainara Zamakona, Sonia Muga, Montxito, Julen',
     },
     {
+        conciertoId: 33,
         imagen:'1030.jpg',
         titulo:'Aurora & The Betrayers',
         grupo:'Aurora & The Betrayers',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 10, 30)),
-        lugar:'Azkena'
     },
     {
         imagen:'1031.jpg',
@@ -8470,20 +8429,18 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook',
     },
     {
+        conciertoId: 4,
         imagen:'1032.jpg',
         titulo:'Bette Smith',
         grupo:'Bette Smith',
         origen:'propia',
-        fecha: new Date(Date.UTC(2023, 6, 28)),
-        lugar:'Bilbao Blues'
     },
     {
+        conciertoId: 4,
         imagen:'1033.jpg',
         titulo:'Bette Smith',
         grupo:'Bette Smith',
         origen:'propia',
-        fecha: new Date(Date.UTC(2023, 6, 28)),
-        lugar:'Bilbao Blues'
     },
     {
         imagen:'1034.jpg',
@@ -8498,60 +8455,53 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',
     },
     {
+        conciertoId: 13,
         imagen:'1036.jpg',
         titulo:'Chicago All Stars',
         grupo:'Chicago All Stars',
         origen:'propia',
-        fecha: new Date(Date.UTC(2022, 6, 28)),
-        lugar:'Bilbao Blues'
     },
     {
+        conciertoId:6,
         imagen:'1037.jpg',
         titulo:'Los Chikos del maíz',
         grupo:'Los Chikos del maíz',
         origen:'propia',
-        fecha: new Date(Date.UTC(2023, 2, 10)),
-        lugar:'Santana 27'
     },
     {
+        conciertoId: 44,
         imagen:'1038.jpg',
         titulo:'Chris Robinson Brotherhood',
         grupo:'Chris Robinson Brotherhood',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 2, 7)),
-        lugar:'Kafe Antzokia'
     },
     {
+        conciertoId: 44,
         imagen:'1039.jpg',
         titulo:'Chris Robinson Brotherhood',
         grupo:'Chris Robinson Brotherhood',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 2, 7)),
-        lugar:'Kafe Antzokia'
     },
     {
+        conciertoId: 44,
         imagen:'1040.jpg',
         titulo:'Chris Robinson Brotherhood',
         grupo:'Chris Robinson Brotherhood',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 2, 7)),
-        lugar:'Kafe Antzokia'
     },
     {
+        conciertoId: 8,
         imagen:'1041.jpg',
         titulo:'Clutch',
         grupo:'Clutch',
         origen:'propia',
-        fecha: new Date(Date.UTC(2022, 11, 1)),
-        lugar:'Santana 27'
     },
     {
+        conciertoId: 8,
         imagen:'1042.jpg',
         titulo:'Clutch',
         grupo:'Clutch',
         origen:'propia',
-        fecha: new Date(Date.UTC(2022, 11, 1)),
-        lugar:'Santana 27'
     },
     {
         imagen:'1043.jpg',
@@ -8671,12 +8621,11 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',
     },
     {
+        conciertoId:31,
         imagen:'1059.jpg',
         titulo:'Corizonas en el WOP festival 2018',
         grupo:'Corizonas',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 11, 14)),
-        lugar:'Palacio Euskalduna'
     },
     {
         imagen:'1060.jpg',
@@ -8691,12 +8640,11 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook',
     },
     {
+        conciertoId:25,
         imagen:'1062.jpg',
         titulo:'Curtis Harding',
         grupo:'Curtis Harding',
         origen:'propia',
-        fecha: new Date(Date.UTC(2019, 10, 21)),
-        lugar:'Kafe Antzokia'
     },
     {
         imagen:'1063.jpg',
@@ -8705,44 +8653,39 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',
     },
     {
+        conciertoId:19,
         imagen:'1064.jpg',
         titulo:'Derby Motoreta\'s Burrito Kachimba',
         grupo:'Derby Motoreta\'s Burrito Kachimba',
         origen:'propia',
-        fecha: new Date(Date.UTC(2021, 10, 13)),
-        lugar:'MAZ Basauri'
     },
     {
+        conciertoId:19,
         imagen:'1065.jpg',
         titulo:'Derby Motoreta\'s Burrito Kachimba',
         grupo:'Derby Motoreta\'s Burrito Kachimba',
         origen:'propia',
-        fecha: new Date(Date.UTC(2021, 10, 13)),
-        lugar:'MAZ Basauri'
     },
     {
+        conciertoId:19,
         imagen:'1066.jpg',
         titulo:'Derby Motoreta\'s Burrito Kachimba',
         grupo:'Derby Motoreta\'s Burrito Kachimba',
         origen:'propia',
-        fecha: new Date(Date.UTC(2021, 10, 13)),
-        lugar:'MAZ Basauri'
     },
     {
+        conciertoId:19,
         imagen:'1067.jpg',
         titulo:'Derby Motoreta\'s Burrito Kachimba',
         grupo:'Derby Motoreta\'s Burrito Kachimba',
         origen:'propia',
-        fecha: new Date(Date.UTC(2021, 10, 13)),
-        lugar:'MAZ Basauri'
     },
     {
+        conciertoId: 30,
         imagen:'1068.jpg',
         titulo:'Diavlo',
         grupo:'Diavlo',
         origen:'propia',
-        fecha: new Date(Date.UTC(2019, 1, 8)),
-        lugar:'Azkena'
     },
     {
         imagen:'1069.jpg',
@@ -8757,13 +8700,12 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook'
     },
     {
+        conciertoId: 5,
         imagen:'1071.jpg',
         titulo:'Eels',
         grupo:'Eels',
         origen:'propia',
         personas:'Kintela, Sonia Muga',
-        fecha: new Date(Date.UTC(2023, 3, 30)),
-        lugar:'La Riviera'
     },
     {
         imagen:'1072.jpg',
@@ -8790,20 +8732,18 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook',
     },
     {
+        conciertoId: 3,
         imagen:'1076.jpg',
         titulo:'Ghalia Volt',
         grupo:'Ghalia Volt',
         origen:'propia',
-        fecha: new Date(Date.UTC(2023, 6, 30)),
-        lugar:'Bilbao Blues'
     },
     {
+        conciertoId: 3,
         imagen:'1077.jpg',
         titulo:'Ghalia Volt',
         grupo:'Ghalia Volt',
         origen:'propia',
-        fecha: new Date(Date.UTC(2023, 6, 30)),
-        lugar:'Bilbao Blues'
     },
     {
         imagen:'1078.jpg',
@@ -8821,28 +8761,25 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'Los chikos del maíz',
     },
     {
+        conciertoId: 7,
         imagen:'1081.jpg',
         titulo:'Gin Lady',
         grupo:'Gin Lady',
         origen:'propia',
-        fecha: new Date(Date.UTC(2023, 0, 12)),
-        lugar:'Kutxa Beltza'
     },
     {
+        conciertoId: 55,
         imagen:'1082.jpg',
         titulo:'Fuel Fandango',
         grupo:'Fuel Fandango',
         origen:'propia',
-        fecha: new Date(Date.UTC(2016, 10, 12)),
-        lugar:'Jimmy Jazz'
     },
     {
+        conciertoId: 11,
         imagen:'1083.jpg',
         titulo:'Fantastic Negrito',
         grupo:'Fantastic Negrito',
         origen:'propia',
-        fecha: new Date(Date.UTC(2022, 6, 31)),
-        lugar:'Bilbao Blues Festival'
     },
     {
         imagen:'1084.jpg',
@@ -8850,20 +8787,18 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'Freddie Mercury',
     },
     {
+        conciertoId: 15,
         imagen:'1085.jpg',
         titulo:'Gari',
         grupo:'Gari',
         origen:'propia',
-        fecha: new Date(Date.UTC(2022, 5, 7)),
-        lugar:'Teatro Arriaga'
     },
     {
+        conciertoId: 15,
         imagen:'1086.jpg',
         titulo:'Gari',
         grupo:'Gari',
         origen:'propia',
-        fecha: new Date(Date.UTC(2022, 5, 7)),
-        lugar:'Teatro Arriaga'
     },
     {
         imagen:'1087.jpg',
@@ -8876,20 +8811,18 @@ export const memorabilias:IMemorabilia[] = [
         personas:'James Hetfield',
     },
     {
+        conciertoId: 38,
         imagen:'1089.jpg',
         titulo:'Jeff Beck',
         grupo:'Jeff Beck',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 5, 30)),
-        lugar:'BBK Music Legends'
     },
     {
+        conciertoId: 38,
         imagen:'1090.jpg',
         titulo:'Jeff Beck',
         grupo:'Jeff Beck',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 5, 30)),
-        lugar:'BBK Music Legends'
     },
     {
         imagen:'1091.jpg',
@@ -8900,22 +8833,20 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'ARF'
     },
     {
+        conciertoId: 46,
         imagen:'1092.jpg',
         titulo:'Julian Maeso',
         grupo:'Julian Maeso',
         origen:'propia',
-        fecha: new Date(Date.UTC(2017, 11, 29)),
         personas:'Kintela, Sonia Muga',
-        lugar:'Jimmy Jazz'
     },
     {
+        conciertoId: 22,
         imagen:'1093.jpg',
         titulo:'Morgan',
         grupo:'Morgan',
         origen:'propia',
-        fecha: new Date(Date.UTC(2019, 11, 19)),
         personas:'Kintela, Sonia Muga, kily, Ainara Zamakona',
-        lugar:'Kafe Antzokia'
     },
     {
         imagen:'1094.jpg',
@@ -8923,28 +8854,25 @@ export const memorabilias:IMemorabilia[] = [
         personas:'Josh Homme, David Grohl, John Paul Jones',
     },
     {
+        conciertoId: 27,
         imagen:'1095.jpg',
         titulo:'Julian Lage Trio',
         grupo:'Julian Lage Trio',
         origen:'propia',
-        fecha: new Date(Date.UTC(2019, 6, 4)),
-        lugar:'Musikebarri'
     },
     {
+        conciertoId: 27,
         imagen:'1096.jpg',
         titulo:'Julian Lage Trio',
         grupo:'Julian Lage Trio',
         origen:'propia',
-        fecha: new Date(Date.UTC(2019, 6, 4)),
-        lugar:'Musikebarri'
     },
     {
+        conciertoId: 46,
         imagen:'1097.jpg',
         titulo:'Julian Maeso',
         grupo:'Julian Maeso',
         origen:'propia',
-        fecha: new Date(Date.UTC(2017, 11, 29)),
-        lugar:'Jimmy Jazz'
     },
     {
         imagen:'1098.jpg',
@@ -9040,12 +8968,11 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',
     },
     {
+        conciertoId: 16,
         imagen:'1112.jpg',
         titulo:'Leon Benavente',
         grupo:'Leon Benavente',
         origen:'propia',
-        fecha: new Date(Date.UTC(2022, 3, 1)),
-        lugar:'Santana 27'
     },
     {
         imagen:'1113.jpg',
@@ -9065,54 +8992,46 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Kafe Antzokia'
     },
     {
+        conciertoId:29,
         imagen:'1115.jpg',
         titulo:'Lizz Wright',
         grupo:'Lizz Wright',
         origen:'propia',
-        personas:'Kintela',
-        fecha: new Date(Date.UTC(2019, 2, 23)),
-        lugar:'BBK'
     },
     {
+        conciertoId: 48,
         imagen:'1116.jpg',
         titulo:'Loquillo',
         grupo:'Loquillo',
         origen:'propia',
-        personas:'Kintela',
-        fecha: new Date(Date.UTC(2017, 10, 11)),
-        lugar:'Palacion Euskalduna'
     },
     {
+        conciertoId: 42,
         imagen:'1117.jpg',
         titulo:'Los DelTonos',
         grupo:'Los DelTonos',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 3, 7)),
-        lugar:'Satelite T'
     },
     {
+        conciertoId: 9,
         imagen:'1118.jpg',
         titulo:'Los Enemigos',
         grupo:'Los Enemigos',
         origen:'propia',
-        fecha: new Date(Date.UTC(2022, 9, 21)),
-        lugar:'BAF'
     },
     {
+        conciertoId: 43,
         imagen:'1119.jpg',
         titulo:'Luis Brea',
         grupo:'Luis Brea',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 2, 16)),
-        lugar:'Plateruena'
     },
     {
+        conciertoId: 43,
         imagen:'1120.jpg',
         titulo:'Luis Brea',
         grupo:'Luis Brea',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 2, 16)),
-        lugar:'Plateruena'
     },
     {
         imagen:'1121.jpg',
@@ -9120,20 +9039,18 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',
     },
     {
+        conciertoId: 17,
         imagen:'1122.jpg',
         titulo:'Maika Makovski',
         grupo:'Maika Makovski',
         origen:'propia',
-        fecha: new Date(Date.UTC(2021, 11, 12)),
-        lugar:'MAZ'
     },
     {
+        conciertoId: 32,
         imagen:'1123.jpg',
         titulo:'Mattew Sweet',
         grupo:'Matthew Sweet',
         origen:'propia',
-        fecha: new Date(Date.UTC(2018, 11, 14)),
-        lugar:'Palacio Euskalduna'
     },
     {
         imagen:'1124.jpg',
@@ -9144,12 +9061,11 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Fiestas'
     },
     {
+        conciertoId: 14,
         imagen:'1125.jpg',
         titulo:'Metallica',
         grupo:'Metallica',
         origen:'propia',
-        fecha: new Date(Date.UTC(2022, 6, 3)),
-        lugar:'San Mames'
     },
     {
         imagen:'1126.jpg',
@@ -9229,6 +9145,7 @@ export const memorabilias:IMemorabilia[] = [
         lugar:'Kafe Antzokia'
     },
     {
+        conciertoId: 36,
         imagen:'1138.jpg',
         titulo:'Morgan',
         grupo:'Morgan',
@@ -9243,20 +9160,18 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',   
     },
     {
+        conciertoId: 34,
         imagen:'1140.jpg',
         titulo:'Muse',
         grupo:'Muse',
         origen:'propia',   
-        lugar:'San Mames',
-        fecha: new Date(Date.UTC(2018, 10, 3))
     },
     {
+        conciertoId: 10,
         imagen:'1141.jpg',
         titulo:'Niña Coyote eta Chico Tornado',
         grupo:'Niña Coyote eta Chico Tornado',
         origen:'propia',   
-        lugar:'Aste Nagusia',
-        fecha: new Date(Date.UTC(2022, 7, 20)),
     },
     {
         imagen:'1142.jpg',
@@ -9276,29 +9191,26 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',
     },
     {
+        conciertoId: 37,
         imagen:'1145.jpg',
         titulo:'Ringo Starr',
         grupo:'Ringo Starr',
         origen:'propia',   
-        lugar:'Palacio Euskalduna',
-        fecha: new Date(Date.UTC(2018, 6, 1)),
         personas:'Jone Quintela, Sonia Muga, Kintela'
     },
     {
+        conciertoId: 21,
         imagen:'1146.jpg',
         titulo:'Robe Iniesta',
         grupo:'Robe Iniesta',
         origen:'propia',   
-        lugar:'Bilbao Arena',
-        fecha: new Date(Date.UTC(2021, 10, 5))
     },
     {
+        conciertoId: 21,
         imagen:'1147.jpg',
         titulo:'Robe Iniesta',
         grupo:'Robe Iniesta',
         origen:'propia',   
-        lugar:'Bilbao Arena',
-        fecha: new Date(Date.UTC(2021, 10, 5))
     },
     {
         imagen:'1148.jpg',
@@ -9317,28 +9229,25 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2016, 3, 22)),
     },
     {
+        conciertoId: 31,
         imagen:'1150.jpg',
         titulo:'Corizonas',
         grupo:'Corizonas',
         origen:'propia',   
-        lugar:'Palacio Euskalduna',
-        fecha: new Date(Date.UTC(2018, 11, 14)),
     },
     {
+        conciertoId: 12,
         imagen:'1151.jpg',
         titulo:'Shemekia Copeland',
         grupo:'Shemekia Copeland',
         origen:'propia',   
-        lugar:'Bilbao Blues Festival',
-        fecha: new Date(Date.UTC(2022, 6, 31)),
     },
     {
+        conciertoId: 20,
         imagen:'1152.jpg',
         titulo:'Sotomonte',
         grupo:'Sotomonte',
         origen:'propia',   
-        lugar:'MAZ Basauri',
-        fecha: new Date(Date.UTC(2021, 10, 13)),
     },
     {
         imagen:'1153.jpg',
@@ -9347,12 +9256,11 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',   
     },
     {
+        conciertoId: 28,
         imagen:'1154.jpg',
         titulo:'Little Steven',
         grupo:'Little Steven',
         origen:'propia',   
-        lugar:'BBK Legends',
-        fecha: new Date(Date.UTC(2019, 5, 15))
     },
     {
         imagen:'1155.jpg',
@@ -9378,30 +9286,31 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',   
     },
     {
+        conciertoId: 23,
         imagen:'1158.jpg',
-        titulo:'BIME',
+        titulo:'Jo Goes Hunting',
+        grupo:'Jo Goes Hunting',
         origen:'propia',   
     },
     {
+        conciertoId: 35,
         imagen:'1159.jpg',
         titulo:'The Magpie Salute',
         grupo:'The Magpie Salute',
         origen:'propia',   
-        lugar:'Kafe Antzokia',
-        fecha: new Date(Date.UTC(2018, 10, 1))
     },
     {
+        conciertoId: 57,
         imagen:'1160.jpg',
         titulo:'The Soul Jacket',
         grupo:'The Soul Jacket',
         origen:'propia',   
-        lugar:'Bar Los Picos',
-        fecha: new Date(Date.UTC(2016, 8, 2)),
     },
     {
+        conciertoId: 24,
         imagen:'1161.jpg',
         titulo:'Thomas Azier',
-        lugar:'BIME',
+        grupo:'Thomas Azier',
         origen:'propia'
     },
     {
@@ -9434,12 +9343,11 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook'
     },
     {
+        conciertoId: 26,
         imagen:'1167.jpg',
         titulo:'White Lies',
         grupo:'White Lies',
         origen:'propia',   
-        lugar:'Kafe Antzokia',
-        fecha: new Date(Date.UTC(2019, 9, 21)),
     },
     {
         imagen:'1168.jpg',
@@ -9451,12 +9359,11 @@ export const memorabilias:IMemorabilia[] = [
         fecha: new Date(Date.UTC(2016, 4, 14)),
     },
     {
+        conciertoId:18,
         imagen:'1169.jpg',
         titulo:'Xoel López',
         grupo:'Xoel López',
-        origen:'propia',   
-        lugar:'Antzokia-MAZ Basauri',
-        fecha: new Date(Date.UTC(2021, 10, 12)),
+        origen:'propia',  
     },
     {
         imagen:'1170.jpg',
@@ -9503,7 +9410,6 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'1176.jpg',
         titulo:'Warren Haynes',
         personas:'Warren Haynes',
-        grupo:'Clutch',
         origen:'Facebook'
     },
     {
@@ -9760,36 +9666,32 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook'
     },
     {
+        conciertoId: 8,
         imagen:'1217.jpg',
         titulo:'Clutch',
         grupo:'Clutch',
         origen:'propia',
-        lugar:'Santana 27',
-        fecha: new Date(Date.UTC(2022, 11, 1)),
     },
     {
+        conciertoId: 8,
         imagen:'1218.jpg',
         titulo:'Clutch',
         grupo:'Clutch',
         origen:'propia',
-        lugar:'Santana 27',
-        fecha: new Date(Date.UTC(2022, 11, 1)),
     },
     {
+        conciertoId: 8,
         imagen:'1219.jpg',
         titulo:'Clutch',
         grupo:'Clutch',
         origen:'propia',
-        lugar:'Santana 27',
-        fecha: new Date(Date.UTC(2022, 11, 1)),
     },
     {
+        conciertoId: 8,
         imagen:'1220.jpg',
         titulo:'Clutch',
         grupo:'Clutch',
         origen:'propia',
-        lugar:'Santana 27',
-        fecha: new Date(Date.UTC(2022, 11, 1)),
     },
     {
         imagen:'1221.jpg',

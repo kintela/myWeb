@@ -36,9 +36,16 @@ export class ConciertosComponent implements OnInit {
 
   @HostListener('window:resize', ['$event'])
 
-  navegarAFotos(concierto: IConcierto) {
+  navegarAFotosOLD(concierto: IConcierto) {
     const formattedDate = this.formatDate(concierto.fecha);
     const queryParams = `?grupo=${encodeURIComponent(concierto.grupo)}&fecha=${formattedDate}&lugar=${encodeURIComponent(concierto.sala)}`;
+    const url = `/music/memorabilia${queryParams}`;
+    window.open(url, '_blank'); // Abre en una nueva pestaña
+  }
+
+  navegarAFotos(concierto: IConcierto) {
+    //const formattedDate = this.formatDate(concierto.fecha);
+    const queryParams = `?conciertoId=${concierto.id}`;
     const url = `/music/memorabilia${queryParams}`;
     window.open(url, '_blank'); // Abre en una nueva pestaña
   }

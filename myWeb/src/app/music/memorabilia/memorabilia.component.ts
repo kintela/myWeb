@@ -17,7 +17,7 @@ export class MemorabiliaComponent implements OnInit {
 
   constructor(private dialog: MatDialog, private route: ActivatedRoute) { }
 
-  ngOnInit(): void {
+  ngOnInitOLD(): void {
     this.route.queryParams.subscribe(queryParams => {
       if (queryParams['grupo'] && queryParams['fecha'] && queryParams['lugar']) {
         const grupo = decodeURIComponent(queryParams['grupo']);
@@ -26,7 +26,26 @@ export class MemorabiliaComponent implements OnInit {
 
         console.log(grupo, fecha, lugar);
   
-        this.aplicarFiltroRuta(grupo, fecha, lugar);
+        //this.aplicarFiltroRuta(grupo, fecha, lugar);
+
+      } else {
+        this.filteredMemorabilias = memorabilias;
+      }
+    });
+
+    const faltantes = this.encontrarNumerosFaltantes(memorabilias);
+    console.log("faltan estos numeros",faltantes);
+  
+  }
+
+  ngOnInit(): void {
+    this.route.queryParams.subscribe(queryParams => {
+      if (queryParams['conciertoId']) {
+        const conciertoId = +queryParams['conciertoId'];
+
+        console.log('conciertoId', conciertoId);
+  
+        this.aplicarFiltroRuta(conciertoId);
 
       } else {
         this.filteredMemorabilias = memorabilias;
@@ -39,7 +58,7 @@ export class MemorabiliaComponent implements OnInit {
   }
 
 
-  aplicarFiltroRuta(grupo: string, fecha: Date, lugar: string) {
+  aplicarFiltroRutaOLD(grupo: string, fecha: Date, lugar: string) {
     this.filteredMemorabilias = this.memorabilias.filter(memorabilia => {
       const grupoCoincide = memorabilia.grupo ? memorabilia.grupo.toLowerCase() === grupo.toLowerCase() : false;
       const lugarCoincide = memorabilia.lugar ? memorabilia.lugar.toLowerCase() === lugar.toLowerCase() : false;
@@ -47,6 +66,10 @@ export class MemorabiliaComponent implements OnInit {
   
       return grupoCoincide && lugarCoincide && fechaCoincide;
     });
+  }
+
+  aplicarFiltroRuta(conciertoId: number) {
+    this.filteredMemorabilias = this.memorabilias.filter(memorabilia =>memorabilia.conciertoId===conciertoId);
   }
   
   

@@ -2,6 +2,7 @@ import { IConcierto } from "./IConcierto";
 
 export const conciertos:IConcierto[]=[
     {
+        id: 1,
         fecha: new Date(Date.UTC(2023, 9, 20)),
         ciudad: 'Bilbao',
         sala: 'Bilbao Arena',
@@ -24,6 +25,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/N9yI45hqoIk?si=Zv3OjBA5sJNFGq9F','https://www.youtube.com/embed/Bvb54eNVkrc?si=BYqJE5IMsHWXfbMz','https://www.youtube.com/embed/GhCa8si6Zv0?si=H0kzaIgE4vtbs7QN','https://www.youtube.com/embed/xntbDGHPxR0?si=ZqXJZ5nP79Oud-K_','https://www.youtube.com/embed/PlJU_ZDwcVE?si=fpkGEU6vMnTlzpTq']
     },
     {
+        id: 5,
         fecha: new Date(Date.UTC(2023, 3, 30)),
         ciudad: 'Madrid',
         sala: 'La Riviera',
@@ -32,6 +34,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/23x2-PF2Q_0?si=gMUT2mJn8R7nTUnA','https://www.youtube.com/embed/9xBE9WKq5cE?si=jI4JLmkWcUWBxgHr','https://www.youtube.com/embed/7p5o1Gc-P0c?si=w3Tv3zctwMLugCCB']
     },
     {
+        id: 6,
         fecha: new Date(Date.UTC(2023, 2, 10)),
         ciudad: 'Bilbao',
         sala: 'Santana 27',
@@ -40,6 +43,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/VJXd-aB6mJk?si=i8c_e4M9QcWstbcI','https://www.youtube.com/embed/h4zWl1KKMao?si=aBVHeMpasgpAfoDy']
     },
     {
+        id: 7,
         fecha: new Date(Date.UTC(2023, 0, 12)),
         ciudad: 'Bilbao',
         sala: 'Kutxa Beltza',
@@ -48,6 +52,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/NLD7AoCPRFY?si=koMLcWLEivVnUEoo','https://www.youtube.com/embed/QFANfzOmO28?si=Xclwu7376c5AGyNo','https://www.youtube.com/embed/_YqUywIFCEc?si=2Nz44Opnu3FkjQ9U','https://www.youtube.com/embed/XReABkPlVuU?si=6Nj6qK5PmksOFT0x','https://www.youtube.com/embed/K6-F6wpNYeI?si=U_3oaE81z9pCq1W6']
     },
     {
+        id: 8,
         fecha: new Date(Date.UTC(2022, 11, 1)),
         ciudad: 'Bilbao',
         sala: 'Santana 27',
@@ -56,6 +61,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/XvSd3SDQLJA?si=1WwTRt1-r5SHk7mk','https://www.youtube.com/embed/zFhOxd-5JOs?si=IoWkdoadRYBSVoLr','https://www.youtube.com/embed/3y1bElKd4u0?si=XbksGFi_QUN1WHW1']
     },
     {
+        id:11,
         fecha: new Date(Date.UTC(2022, 6, 31)),
         ciudad: 'Bilbao',
         sala: 'Bilbao Blues Festival',
@@ -65,6 +71,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/B0jOzOauoWQ?si=A9WEZFt9XFAIx8B4']
     },
     {
+        id: 12,
         fecha: new Date(Date.UTC(2022, 6, 31)),
         ciudad: 'Bilbao',
         sala: 'Bilbao Blues Festival',
@@ -74,6 +81,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/eoxVyRS82pM?si=AG0haFZSSCiM5cGO']
     },
     {
+        id: 2,
         fecha: new Date(Date.UTC(2023, 8, 14)),
         ciudad: 'Bilbao',
         sala: 'Santana 27',
@@ -82,6 +90,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/rvGRm2PMw_s?si=9HnO4UhY42loEUzI','https://www.youtube.com/embed/OezlQsQxbbE?si=UxCI8ORTCRmLa5tT','https://www.youtube.com/embed/ILxhOkFTay8?si=KT8iEf5CkxN2ztK6']
     },
     {
+        id: 16,
         fecha: new Date(Date.UTC(2022, 3, 1)),
         ciudad: 'Bilbao',
         sala: 'Santana 27',
@@ -90,6 +99,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/fov1zmaAvbc?si=7q8LKDkGS3hBzHCb','https://www.youtube.com/embed/5AGWkaa3JMU?si=ax1biBIBEKSwHk-C','https://www.youtube.com/embed/H7VWxzKwlBg?si=Elr2IOQCx2BCiG4J','https://www.youtube.com/embed/mRZb1T4-z_U?si=b-wAt_nGP11CZFgh','https://www.youtube.com/embed/aLeQPfc-EiI?si=Aj-iOr9bOB_SmCQt','https://www.youtube.com/embed/Zm49BNUPXxo?si=4S1BdA7jjGkcVVPh']
     },
     {
+        id:18,
         fecha: new Date(Date.UTC(2021, 10, 12)),
         ciudad: 'Basauri',
         sala: 'Antzokia-MAZ Basauri',
@@ -100,6 +110,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/Ssg71F5pqLA?si=yI5My4WFI_IhiMRP']
     },
     {
+        id:19,
         fecha: new Date(Date.UTC(2021, 10, 13)),
         ciudad: 'Basauri',
         sala: 'MAZ Basauri',
@@ -118,6 +129,7 @@ export const conciertos:IConcierto[]=[
         
     },
     {
+        id:21,
         fecha: new Date(Date.UTC(2021, 10, 5)),
         ciudad: 'Bilbao',
         sala: 'Bilbao Arena',
@@ -127,19 +139,23 @@ export const conciertos:IConcierto[]=[
         
     },
     {
+        id:23,
         fecha: new Date(2019, 10, 31),
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia-BIME',
         grupo: 'Jo Goes Hunting',
         festival: true,
+        fotos: true,
         videos:['https://www.youtube.com/embed/gpC7-BvyNW8?si=uoLptZCN-1ivDxnU','https://www.youtube.com/embed/I-AkdtogAQA?si=ADoB6_Jb2QqRhgxo']
     },
     {
+        id:24,
         fecha: new Date(2019, 10, 31),
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia-BIME',
         grupo: 'Thomas Azier',
         festival: true,
+        fotos: true,
         videos:['https://www.youtube.com/embed/ZC6gBD-Cfvs?si=m8FPJE9SM8QpBFbh','https://www.youtube.com/embed/Y2bdQZb9j14?si=wUf67ROzCiTmCBaX','https://www.youtube.com/embed/85JwXUNY8GI?si=6YdtugrXcL7AfGa3']
     },
     {
@@ -151,6 +167,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/PlWYa84duAg?si=_hDzw3XRK4mnnGeZ','https://www.youtube.com/embed/B5D0CSKB9K4?si=LAjKJE42MUT7Q20Z']
     },
     {
+        id:26,
         fecha: new Date(Date.UTC(2019, 9, 21)),
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia',
@@ -182,6 +199,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/TJW1e1LD-U0?si=Ah9MRNcbV3dUtXKa']
     },
     {
+        id:30,
         fecha: new Date(Date.UTC(2019, 1, 8)),
         ciudad: 'Bilbao',
         sala: 'Azkena',
@@ -190,6 +208,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/YhwlNTRlo0k?si=Fl8GGR4Bp748pSfW']
     },
     {
+        id:34,
         fecha: new Date(Date.UTC(2018, 10, 3)),
         ciudad: 'Bilbao',
         sala: 'San Mames',
@@ -205,6 +224,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/mOJJ4nGkHgs?si=GvM3S2aZPLHYYYDF']
     },
     {
+        id:36,
         fecha: new Date(Date.UTC(2018, 9, 11)),
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia',
@@ -227,6 +247,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/kG1f8vNxAjI?si=5Qjb4EOo2NqPKa2N']
     },
     {
+        id:39,
         fecha: new Date(Date.UTC(2018, 3, 28)),
         ciudad: 'Basauri',
         sala: 'Antzokia-MAZ Basauri',
@@ -237,6 +258,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/Q_I_c9oOHTg?si=ecaXNwRY-BjR2pmI']
     },
     {
+        id:40,
         fecha: new Date(Date.UTC(2018, 3, 28)),
         ciudad: 'Basauri',
         sala: 'Antzokia-MAZ Basauri',
@@ -247,6 +269,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/9cE1Imji6Gs?si=j0RGiUn8dL4-sMTq','https://www.youtube.com/embed/BqdQD5zsV8M?si=YjrT1p9Xd9UYLmme']
     },
     {
+        id:41,
         fecha: new Date(Date.UTC(2018, 3, 14)),
         ciudad: 'Bilbao',
         sala: 'Stage Live',
@@ -255,6 +278,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/DyCt15JrTHs?si=56otubOT8CboNWT5','https://www.youtube.com/embed/KovlbQ9VRMw?si=47fSk7bknskelWQY','https://www.youtube.com/embed/Ww-P02LT7n8?si=tsRtpHW1qy4my4NM','https://www.youtube.com/embed/DacEgxdczmU?si=R5Rg6SESd7nLpKaV','https://www.youtube.com/embed/bjy8nb2zvlo?si=KViuSPqslmXtbd-w','https://www.youtube.com/embed/iFqBsLfpSes?si=08T9vNIofIIx4uyN','https://www.youtube.com/embed/GWBLM7NNIXY?si=xOYXAhJ_tWlHkO-C']
     },
     {
+        id:42,
         fecha: new Date(Date.UTC(2018, 3, 7)),
         ciudad: 'Bilbao',
         sala: 'Satelite T',
@@ -279,6 +303,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/nX5R_r6nPwE?si=VDUPSj3qWXMWNOFn']
     },
     {
+        id:43,
         fecha: new Date(Date.UTC(2018, 2, 16)),
         ciudad: 'Durango',
         sala: 'Plateruena',
@@ -287,6 +312,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/9dZs3juDN8g?si=af1omRb48EchiGo6','https://www.youtube.com/embed/nzbxZbcor2M?si=1lE1Is6L6O-burvP']
     },
     {
+        id:45,
         fecha: new Date(Date.UTC(2018, 0, 25)),
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia',
@@ -296,6 +322,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/nrRg2f9rLXI?si=QifdXTeLBC0rL7DH','https://www.youtube.com/embed/COGprESR0qE?si=vH1nikiGWjyEed3O']
     },
     {
+        id:46,
         fecha: new Date(Date.UTC(2017, 11, 29)),
         ciudad: 'Vitoria',
         sala: 'Jimmy Jazz',
@@ -304,6 +331,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/J3490UtOao8?si=l4mwE7HxBsGjeCAH','https://www.youtube.com/embed/BmMrQxULhNs?si=4kxp1e0OLIBumOUd','https://www.youtube.com/embed/Kg6NROQgqj8?si=oa4go3UoxWfMpgla']
     },
     {
+        id:47,
         fecha: new Date(Date.UTC(2017, 10, 12)),
         ciudad: 'Bilbao',
         sala: 'Kutxa Beltza',
@@ -312,9 +340,10 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/HPGKsqMYGb4?si=8YWOS3i1HGOHjKX_,','https://www.youtube.com/embed/zJstEdiXFUU?si=OC0xw2ULCNpcdwJc']
     },
     {
+        id:48,
         fecha: new Date(Date.UTC(2017, 10, 11)),
         ciudad: 'Bilbao',
-        sala: 'Palacion Euskalduna',
+        sala: 'Palacio Euskalduna',
         grupo: 'Loquillo',
         fotos: true,
         videos:['https://www.youtube.com/embed/K-KSoQJoxw0?si=HWUZOyW-mylIcsRk']
@@ -382,6 +411,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/xjQAiD5CrXk?si=kFG2uiz9jmfOMqco']
     },
     {
+        id:49,
         fecha: new Date(Date.UTC(2017,6, 7)),
         ciudad: 'Madrid',
         sala:'Mad Cool',
@@ -392,6 +422,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/sRJF0GBkQOM?si=B9Q-sugXSBbBXbPW','https://www.youtube.com/embed/9j4DmQhY-t8?si=AdGZbQ9uek3wqxjy']
     },
     {
+        id:50,
         fecha: new Date(Date.UTC(2017, 6, 7)),
         ciudad: 'Madrid',
         sala:'Mad Cool',
@@ -402,6 +433,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/-GQqUfbAJjA?si=xwcWO4tl65a7Nd2c']
     },
     {
+        id:51,
         fecha: new Date(Date.UTC(2017, 4, 30)),
         ciudad: 'Bilbao',
         sala:'San Mames',
@@ -425,6 +457,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/HkPaaSucbAY?si=xr5bJ7ovR75w7AD_']
     },
     {
+        id:55,
         fecha: new Date(Date.UTC(2016, 10, 12)),
         ciudad: 'Vitoria',
         sala:'Jimmy Jazz',
@@ -433,6 +466,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/fVhYF5ZbOmM?si=bPMvdmuePNEI_Gqn']
     },
     {
+        id:56,
         fecha: new Date(Date.UTC(2016, 9, 15)),
         ciudad: 'Vitoria',
         sala:'Jimmy Jazz',
@@ -441,6 +475,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/pNN8GBdoEg8?si=QnFbFXArYmq9DE2x','https://www.youtube.com/embed/fyL2YR2eFFU?si=ViHm4UmR5JTIW31E']
     },
     {
+        id:57,
         fecha: new Date(Date.UTC(2016, 8, 2)),
         ciudad: 'Lierganes',
         sala:'Bar Los Picos',
@@ -863,6 +898,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        
         fecha: new Date(Date.UTC(2007, 1, 9)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -1150,6 +1186,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/55.jpg",   
     },
     {
+        id: 22,
         fecha: new Date(Date.UTC(2019, 11, 19)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -1210,6 +1247,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/68.jpg",   
     },
     {
+        id:33,
         fecha: new Date(Date.UTC(2018, 10, 30)),
         ciudad: 'Bilbao',
         sala:'Azkena',
@@ -1481,7 +1519,8 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/8.jpg",
         fotos: true
     }, 
-    {
+    {         
+        id: 54,  
         fecha: new Date(Date.UTC(2017, 1, 7)),
         ciudad: 'Bilbao',
         sala:'Teatro Arriaga',
@@ -1489,6 +1528,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     }, 
     {
+        id:15,  
         fecha: new Date(Date.UTC(2022, 5, 7)),
         ciudad: 'Bilbao',
         sala:'Teatro Arriaga',
@@ -1496,6 +1536,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     }, 
     {
+        id:53,
         fecha: new Date(Date.UTC(2017, 4, 6)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -1503,6 +1544,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:52,
         fecha: new Date(Date.UTC(2017, 4, 30)),
         ciudad: 'Bilbao',
         sala:'San Mames',
@@ -1526,6 +1568,7 @@ export const conciertos:IConcierto[]=[
         fotos:true,
     },
     {
+        id: 4,
         fecha: new Date(Date.UTC(2023, 6, 28)),
         ciudad: 'Bilbao',
         sala:'Bilbao Blues',
@@ -1534,6 +1577,7 @@ export const conciertos:IConcierto[]=[
         fotos:true,
     },
     {
+        id: 13,
         fecha: new Date(Date.UTC(2022, 6, 28)),
         ciudad: 'Bilbao',
         sala:'Bilbao Blues',
@@ -1542,6 +1586,7 @@ export const conciertos:IConcierto[]=[
         fotos:true,
     },
     {
+        id:44,
         fecha: new Date(Date.UTC(2018, 2, 7)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -1570,6 +1615,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/94.jpg",
     },
     {
+        id:31,
         fecha: new Date(Date.UTC(2018, 11, 14)),
         ciudad: 'Bilbao',
         sala:'Palacio Euskalduna',
@@ -1579,6 +1625,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/13.jpeg"
     },
     {
+        id:25,
         fecha: new Date(Date.UTC(2019, 10, 21)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -1586,6 +1633,7 @@ export const conciertos:IConcierto[]=[
         fotos:true,
     },
     {
+        id: 3,
         fecha: new Date(Date.UTC(2023, 6, 30)),
         ciudad: 'Bilbao',
         sala:'Bilbao Blues',
@@ -1594,6 +1642,7 @@ export const conciertos:IConcierto[]=[
         fotos:true,
     },
     {
+        id:38,
         fecha: new Date(Date.UTC(2018, 5, 30)),
         ciudad: 'Bilbao',
         sala:'BBK Music Legends',
@@ -1611,6 +1660,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,
     },
     {
+        id:27,
         fecha: new Date(Date.UTC(2019, 6, 4)),
         ciudad: 'Algorta',
         sala:'Musikebarri',
@@ -1618,6 +1668,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,
     },
     {
+        id:29,
         fecha: new Date(Date.UTC(2019, 2, 23)),
         ciudad: 'Bilbao',
         sala:'BBK',
@@ -1625,6 +1676,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,
     },
     {
+        id: 9,
         fecha: new Date(Date.UTC(2022, 9, 21)),
         ciudad: 'Barakaldo',
         sala:'BAF',
@@ -1633,6 +1685,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,
     },
     {
+        id:17,
         fecha: new Date(Date.UTC(2021, 11, 12)),
         ciudad: 'Basauri',
         sala:'MAZ',
@@ -1642,6 +1695,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/16.jpg",
     },
     {
+        id:32,
         fecha: new Date(Date.UTC(2018, 11, 14)),
         ciudad: 'Bilbao',
         sala:'Palacio Euskalduna',
@@ -1658,6 +1712,7 @@ export const conciertos:IConcierto[]=[
         fotos:true,
     },
     {
+        id:14,
         fecha: new Date(Date.UTC(2022, 6, 3)),
         ciudad: 'Bilbao',
         sala:'San Mames',
@@ -1665,6 +1720,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,
     }, 
     {
+        id: 10,
         fecha: new Date(Date.UTC(2022, 7, 20)),
         ciudad: 'Bilbao',
         sala:'Aste Nagusia',
@@ -1672,6 +1728,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,
     }, 
     {
+        id:37,
         fecha: new Date(Date.UTC(2018, 6, 1)),
         ciudad: 'Bilbao',
         sala:'Palacio Euskalduna',
@@ -1679,6 +1736,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,
     }, 
     {
+        id:20,
         fecha: new Date(Date.UTC(2021, 10, 13)),
         ciudad: 'Basauri',
         sala: 'MAZ Basauri',
@@ -1688,6 +1746,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/16.jpg"
     },
     {
+        id:28,
         fecha: new Date(Date.UTC(2019, 5, 15)),
         ciudad: 'Bilbao',
         sala: 'BBK Legends',
@@ -1697,6 +1756,7 @@ export const conciertos:IConcierto[]=[
         cartel: "carteles/17.jpeg"
     },
     {
+        id:35,
         fecha: new Date(Date.UTC(2018, 10, 1)),
         ciudad: 'Bilbao',
         sala: 'Kafe Antzokia',

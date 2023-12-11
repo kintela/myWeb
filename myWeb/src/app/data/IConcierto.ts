@@ -1,4 +1,5 @@
 export interface IConcierto {
+    id?:number
     fecha?:Date;
     sala?:string;
     ciudad?:string;
@@ -9,5 +10,5 @@ export interface IConcierto {
     entrada?:string;
     descripcion?:string;
     cartel?:string;
-    cronica?:string;
+    cronica?:string;    
 }

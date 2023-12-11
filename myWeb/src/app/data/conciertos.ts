@@ -217,9 +217,10 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/xZCGYluPj5Q?si=iQOhQodZoetQhyVJ']
     },
     {
+        
         fecha: new Date(2018, 8, 24),
         ciudad: 'Bilbao',
-        sala: 'Aire Libre-Aste Nagusia',
+        sala: 'Aste Nagusia',
         grupo: 'Santiago Auserón',
         videos:['https://www.youtube.com/embed/mOJJ4nGkHgs?si=GvM3S2aZPLHYYYDF']
     },
@@ -692,6 +693,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/66-I6PeE_go?si=Dvr-56lSgC1rtdXp','https://www.youtube.com/embed/P1h1IC286Ys?si=VWx2Se9pOY-_G51m']
     },
     {
+        id:141,
         fecha: new Date(Date.UTC(2003, 5, 25)),
         ciudad: 'Bilbao',
         sala:'San Mames',
@@ -709,6 +711,7 @@ export const conciertos:IConcierto[]=[
         fotos: true     
     },
     {
+        id:140,
         fecha: new Date(Date.UTC(2003, 9, 26)),
         ciudad: 'Donosti',
         sala:'Velódromo Anoeta',
@@ -717,6 +720,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:139,
         fecha: new Date(Date.UTC(2003, 10, 26)),
         ciudad: 'Bergara',
         sala:'Jam',
@@ -725,6 +729,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:138,
         fecha: new Date(Date.UTC(2004, 2, 24)),
         ciudad: 'Barcelona',
         sala:'Palau Sant Jordi',
@@ -732,6 +737,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:137,
         fecha: new Date(Date.UTC(2004, 3, 29)),
         ciudad: 'Donosti',
         sala:'Polideportivo Anoeta',
@@ -740,6 +746,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:136,
         fecha: new Date(Date.UTC(2004, 5, 12)),
         ciudad: 'Bayona',
         sala:'Plaza de Toros',
@@ -748,6 +755,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:135,
         fecha: new Date(Date.UTC(2004, 6, 2)),
         ciudad: 'Mondragón',
         sala:'Polideportivo',
@@ -756,6 +764,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:134,
         fecha: new Date(Date.UTC(2005, 5, 17)),
         ciudad: 'Bilbao',
         sala:'BEC',
@@ -764,6 +773,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:132,
         fecha: new Date(Date.UTC(2005, 6, 8)),
         ciudad: 'Santander',
         sala:'Summer Festival',
@@ -774,6 +784,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:133,
         fecha: new Date(Date.UTC(2005, 6, 8)),
         ciudad: 'Santander',
         sala:'Summer Festival',
@@ -783,6 +794,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:131,
         fecha: new Date(Date.UTC(2005, 7, 3)),
         ciudad: 'Vitoria',
         sala:'Mendizorroza',
@@ -791,6 +803,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:130,
         fecha: new Date(Date.UTC(2005, 7, 9)),
         ciudad: 'Donosti',
         sala:'Anoeta',
@@ -799,6 +812,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:129,
         fecha: new Date(Date.UTC(2005, 10, 9)),
         ciudad: 'Bilbao',
         sala:'Santana27',
@@ -807,6 +821,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:128,
         fecha: new Date(Date.UTC(2005, 10, 25)),
         ciudad: 'Donosti',
         sala:'Anoeta',
@@ -815,6 +830,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:127,
         fecha: new Date(Date.UTC(2006, 3, 18)),
         ciudad: 'Bilbao',
         sala:'Museo Guggenheim',
@@ -823,6 +839,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:126,
         fecha: new Date(Date.UTC(2006, 4, 14)),
         ciudad: 'Bilbao',
         sala:'Santana27',
@@ -831,6 +848,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:116,
         fecha: new Date(Date.UTC(2006, 10, 16)),
         ciudad: 'Bilbao',
         sala:'Santana27',
@@ -839,6 +857,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:125,
         fecha: new Date(Date.UTC(2006, 4, 31)),
         ciudad: 'Barcelona',
         sala:'Palau Sant Jordi',
@@ -847,14 +866,52 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:120,
         fecha: new Date(Date.UTC(2006, 6, 14)),
         ciudad: 'Bilbao',
         sala:'BBK Live',
-        grupo: 'BBk Live',
+        grupo: 'Gun´s and Roses',
         festival: true,
         fotos: true,        
     },
     {
+        id:121,
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        ciudad: 'Bilbao',
+        sala:'BBK Live',
+        grupo: 'Placebo',
+        festival: true,
+        fotos: true,        
+    },
+    {
+        id:122,
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        ciudad: 'Bilbao',
+        sala:'BBK Live',
+        grupo: 'The Cult',
+        festival: true,
+        fotos: true,        
+    },
+    {
+        id:123,
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        ciudad: 'Bilbao',
+        sala:'BBK Live',
+        grupo: 'Ben Harper',
+        festival: true,
+        fotos: true,        
+    },
+    {
+        id:124,
+        fecha: new Date(Date.UTC(2006, 6, 14)),
+        ciudad: 'Bilbao',
+        sala:'BBK Live',
+        grupo: 'Fun Lovin Criminals',
+        festival: true,
+        fotos: true,        
+    },
+    {
+        id:118,
         fecha: new Date(Date.UTC(2006, 8, 3)),
         ciudad: 'Vitoria',
         sala:'ARF',
@@ -863,6 +920,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:119,
         fecha: new Date(Date.UTC(2006, 8, 3)),
         ciudad: 'Vitoria',
         sala:'ARF',
@@ -871,6 +929,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:117,
         fecha: new Date(Date.UTC(2006, 9, 24)),
         ciudad: 'Bilbao',
         sala:'BEC',
@@ -879,6 +938,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:115,
         fecha: new Date(Date.UTC(2006, 10, 25)),
         ciudad: 'Donosti',
         sala:'Kursaal',
@@ -886,6 +946,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:114,
         fecha: new Date(Date.UTC(2006, 10, 29)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -894,6 +955,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:113,
         fecha: new Date(Date.UTC(2006, 11, 22)),
         ciudad: 'Bilbao',
         sala:'BEC',
@@ -902,6 +964,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:111,
         fecha: new Date(Date.UTC(2007, 0, 29)),
         ciudad: 'Bilbao',
         sala:'BEC',
@@ -909,6 +972,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:112,
         fecha: new Date(Date.UTC(2007, 0, 29)),
         ciudad: 'Bilbao',
         sala:'BEC',
@@ -917,7 +981,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
-        
+        id:110,
         fecha: new Date(Date.UTC(2007, 1, 9)),
         ciudad: 'Bilbao',
         sala:'Kafe Antzokia',
@@ -925,6 +989,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:109,
         fecha: new Date(Date.UTC(2007, 3, 3)),
         ciudad: 'Bilbao',
         sala:'La Casilla',
@@ -933,6 +998,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:108,
         fecha: new Date(Date.UTC(2007, 3, 29)),
         ciudad: 'Durango',
         sala:'Plateruena',
@@ -941,6 +1007,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:107,
         fecha: new Date(Date.UTC(2007, 4, 19)),
         ciudad: 'Bilbao',
         sala:'BEC',
@@ -958,6 +1025,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,        
     },
     {
+        id:144,
         fecha: new Date(Date.UTC(1988, 4, 21)),
         ciudad: 'Donosti',
         sala:'Velódromo Anoeta',
@@ -966,6 +1034,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },
     {
+        id:143,
         fecha: new Date(Date.UTC(1988, 8, 17)),
         ciudad: 'Pamplona',
         sala:'Plaza de toros',
@@ -1011,6 +1080,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/7.jpg",   
     },
     {
+        id:142,
         fecha: new Date(Date.UTC(2001, 0, 27)),
         ciudad: 'Bilbao',
         sala:'Pabellón de la casilla',
@@ -1370,6 +1440,7 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/88.jpg",   
     },
     {
+        id:102,
         fecha: new Date(Date.UTC(2007, 5, 21)),
         ciudad: 'Bilbao',
         sala:'BBK Live',
@@ -1379,6 +1450,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },
     {
+        id:103,
         fecha: new Date(Date.UTC(2007, 5, 21)),
         ciudad: 'Bilbao',
         sala:'BBK Live',
@@ -1388,6 +1460,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },
     {
+        id:104,
         fecha: new Date(Date.UTC(2007, 5, 21)),
         ciudad: 'Bilbao',
         sala:'BBK Live',
@@ -1397,6 +1470,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },
     {
+        id:105,
         fecha: new Date(Date.UTC(2007, 5, 21)),
         ciudad: 'Bilbao',
         sala:'BBK Live',
@@ -1406,6 +1480,7 @@ export const conciertos:IConcierto[]=[
         fotos: true
     },
     {
+        id:106,
         fecha: new Date(Date.UTC(2007, 5, 6)),
         ciudad: 'Madrid',
         sala:'FestiMad',
@@ -1507,13 +1582,12 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/90.jpg",
         fotos: true
     }, 
-    {
+    {        
         fecha: new Date(Date.UTC(1996, 6, 10)),
         ciudad: 'Madrid',
         sala:'Plaza de toros de las ventas',
         grupo: 'AC/DC',
-        entrada: "entradas/92.jpg",
-        fotos: true
+        entrada: "entradas/92.jpg"
     }, 
     {
         id:82,
@@ -1842,6 +1916,15 @@ export const conciertos:IConcierto[]=[
         sala: 'Serantes Kultur Aretoa',
         grupo: 'Ariel Rot',
         cronica: 'https://santurtziberriak.blogspot.com/2011/04/agenda-cultural-agenda-kulturala.html'
+    },
+    {
+        id:145,
+        fecha: new Date(Date.UTC(2023, 11, 2)),
+        ciudad: 'Bilbao',
+        sala: 'BBK',
+        grupo: 'The Screaming Cheetah Whellies',
+        videos:['https://www.youtube.com/embed/HN0u7YKQ3pI?si=bTk_43O-GimbcoRU','https://www.youtube.com/embed/F2rxmXsWrXE?si=DOZZAVhOHxeZiIgt'],
+        fotos: true,   
     },
    
    

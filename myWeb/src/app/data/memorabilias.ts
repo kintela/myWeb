@@ -8381,5 +8381,35 @@ export const memorabilias:IMemorabilia[] = [
         personas:'The Beatles',
         origen:'Facebook'
     },
+    {
+        imagen:'1230.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1231.jpg',
+        titulo:'Dave Matthews Band',
+        grupo:'Dave Matthews Band',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1232.jpg',
+        titulo:'Dave Matthews Band',
+        grupo:'Dave Matthews Band',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1233.jpg',
+        titulo:'Paul McCartney',
+        personas:'Paul McCartney',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1234.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook'
+    },
 
 ];

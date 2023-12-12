@@ -10924,5 +10924,100 @@ export const memorabilias:IMemorabilia[] = [
         grupo:'Mi Hermana Corina',
         origen:'propia',  
     },
+    {
+        conciertoId: 168,
+        imagen:'1567.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+    {
+        conciertoId: 168,
+        imagen:'1568.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+    {
+        conciertoId: 169,
+        imagen:'1569.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+    {
+        conciertoId: 169,
+        imagen:'1570.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+    {
+        conciertoId: 170,
+        imagen:'1571.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+        personas:'Kintela'
+    },
+    {
+        conciertoId: 170,
+        imagen:'1572.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+        personas:'Kintela'
+    },
+    {
+        conciertoId: 170,
+        imagen:'1573.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+    {
+        conciertoId: 170,
+        imagen:'1574.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+    {
+        conciertoId: 171,
+        imagen:'1575.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+    {
+        conciertoId: 171,
+        imagen:'1576.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+    {
+        conciertoId: 171,
+        imagen:'1577.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+        personas:'Pablo Cardenal'
+    },
+    {
+        conciertoId: 171,
+        imagen:'1578.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+    {
+        conciertoId: 171,
+        imagen:'1579.jpeg',
+        titulo:'Mi Hermana Corina',
+        grupo:'Mi Hermana Corina',
+        origen:'propia',  
+    },
+   
 
 ]

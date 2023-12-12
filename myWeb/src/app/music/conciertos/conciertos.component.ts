@@ -6,6 +6,9 @@ import { IConcierto } from 'src/app/data/IConcierto';
 import { conciertos } from 'src/app/data/conciertos';
 import { ReproductorVideoComponent } from 'src/app/shared/reproductor-video/reproductor-video.component';
 import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.component';
+import { Location } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-conciertos',
@@ -21,17 +24,25 @@ export class ConciertosComponent implements OnInit {
   filtroGrupo: string = '';
   gruposDisponibles: string[] = [];
 
-  constructor(private sanitizer: DomSanitizer, private dialog: MatDialog, private router: Router) { }
+  constructor(private sanitizer: DomSanitizer, private dialog: MatDialog, private router: Router,private location: Location, private route: ActivatedRoute) { }
 
-  ngOnInit(): void {
-    this.isScreenSmall = window.innerWidth < 768; // por ejemplo, para tablets y móviles
-    //this.conciertosFiltrados = this.conciertos;
-    this.conciertos = this.conciertos.sort((a, b) => {
-      return new Date(b.fecha).getTime() - new Date(a.fecha).getTime();
+  
+  ngOnInit(): void {    
+    this.route.queryParams.subscribe(params => {
+      if (params['search']) {
+          this.filtroBusqueda = params['search'];
+          // Llama a actualizarFiltro aquí si quieres aplicar el filtro inmediatamente
+      }
+      this.isScreenSmall = window.innerWidth < 768; // por ejemplo, para tablets y móviles
+      this.conciertos = this.conciertos.sort((a, b) => {
+        return new Date(b.fecha).getTime() - new Date(a.fecha).getTime();
+      });
+      this.conciertosFiltrados = [...this.conciertos]; 
+
+      this.actualizarFiltro();
+      this.actualizarGruposDisponibles();
     });
-    this.conciertosFiltrados = [...this.conciertos]; 
-    this.actualizarFiltro();
-    this.actualizarGruposDisponibles();
+    
   }
 
   @HostListener('window:resize', ['$event'])
@@ -42,27 +53,67 @@ export class ConciertosComponent implements OnInit {
     const url = `/music/memorabilia${queryParams}`;
     window.open(url, '_blank'); // Abre en una nueva pestaña
   }
+
+  actualizarFiltroOLD(): void {
+    let conciertosFiltrados = this.conciertos;
+  
+    // Filtra primero por búsqueda
+    if (this.filtroBusqueda) {
+      const terminoBusqueda = this.filtroBusqueda.toLowerCase();
+      conciertosFiltrados = conciertosFiltrados.filter(concierto => {
+        return Object.keys(concierto).some(
+          key => concierto[key] && concierto[key].toString().toLowerCase().includes(terminoBusqueda)
+        );
+      });
+    } else {
+      // Si el filtroBusqueda está vacío, resetear los conciertos filtrados a todos los conciertos
+      conciertosFiltrados = [...this.conciertos];
+    }
+  
+    // Actualiza la URL
+    const queryParams = this.filtroBusqueda ? { search: this.filtroBusqueda } : {};
+    const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
+    this.location.go(url);
+  
+    // Filtrado por grupo, excepto cuando se selecciona 'Todos'
+    if (this.filtroGrupo && this.filtroGrupo !== 'Todos') {
+      conciertosFiltrados = conciertosFiltrados.filter(concierto => concierto.grupo === this.filtroGrupo);
+    }
+  
+    this.conciertosFiltrados = conciertosFiltrados;
+  }
   
   actualizarFiltro(): void {
     let conciertosFiltrados = this.conciertos;
-
+  
+    // Objeto para almacenar los queryParams
+    const queryParams: any = {};
+  
     // Filtra primero por búsqueda
     if (this.filtroBusqueda) {
-        const terminoBusqueda = this.filtroBusqueda.toLowerCase();
-        conciertosFiltrados = conciertosFiltrados.filter(concierto => {
-            return Object.keys(concierto).some(
-                key => concierto[key] && concierto[key].toString().toLowerCase().includes(terminoBusqueda)
-            );
-        });
+      const terminoBusqueda = this.filtroBusqueda.toLowerCase();
+      conciertosFiltrados = conciertosFiltrados.filter(concierto => {
+        return Object.keys(concierto).some(
+          key => concierto[key] && concierto[key].toString().toLowerCase().includes(terminoBusqueda)
+        );
+      });
+      queryParams.search = this.filtroBusqueda; // Añade el parámetro search a los queryParams
     }
-
+  
     // Filtrado por grupo, excepto cuando se selecciona 'Todos'
     if (this.filtroGrupo && this.filtroGrupo !== 'Todos') {
-        conciertosFiltrados = conciertosFiltrados.filter(concierto => concierto.grupo === this.filtroGrupo);
+      conciertosFiltrados = conciertosFiltrados.filter(concierto => concierto.grupo === this.filtroGrupo);
+      queryParams.grupo = this.filtroGrupo; // Añade el parámetro grupo a los queryParams
     }
-
+  
+    // Actualiza la URL con los queryParams adecuados
+    const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
+    this.location.go(url);
+  
     this.conciertosFiltrados = conciertosFiltrados;
   }
+  
+  
 
   actualizarGruposDisponibles(): void {
     this.gruposDisponibles = [...new Set(this.conciertos.map(concierto => concierto.grupo))]

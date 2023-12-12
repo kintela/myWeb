@@ -2249,6 +2249,45 @@ export const conciertos:IConcierto[]=[
         grupo: 'Mi Hermana Corina',
         fotos: true,
     },
+    {
+        id: 168,
+        fecha: new Date(Date.UTC(2016, 6, 30)),
+        ciudad: 'Plentzia',
+        sala: 'Club Kai Eder',
+        grupo: 'Mi Hermana Corina',
+        fotos: true,
+    },
+    {
+        id: 169,
+        fecha: new Date(Date.UTC(2016, 6, 31)),
+        ciudad: 'Lekeitio',
+        grupo: 'Mi Hermana Corina',
+        fotos: true,
+    },
+    {
+        id: 170,
+        //fecha: new Date(Date.UTC(2016, 6, 31)),
+        ciudad: 'Bilbao',
+        sala: 'Plaza Nueva',
+        grupo: 'Mi Hermana Corina',
+        fotos: true,
+    },
+    {
+        id: 171,
+        //fecha: new Date(Date.UTC(2016, 6, 31)),
+        ciudad: 'Bilbao',
+        sala: 'Pub Dublinners',
+        grupo: 'Mi Hermana Corina',
+        fotos: true,
+    },
+    {
+        id: 172,
+        //fecha: new Date(Date.UTC(2016, 6, 31)),
+        ciudad: 'Portugalete',
+        sala: 'Ballonti',
+        grupo: 'Mi Hermana Corina',
+        videos:['https://www.youtube.com/embed/azQstnA4iwY?si=NvvUdZ0Qyc5d9Z-t']
+    },
    
 
 ];

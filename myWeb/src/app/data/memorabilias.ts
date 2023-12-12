@@ -8213,7 +8213,7 @@ export const memorabilias:IMemorabilia[] = [
         origen:'Facebook'
     },
     {
-        imagen:'1202.jpg',
+        imagen:'1203.jpg',
         titulo:'Keith Richards y Tom Waits',
         personas:'Keith Richards, Tom Waits',
         origen:'Facebook'
@@ -8349,6 +8349,36 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'1224.jpg',
         titulo:'Charly García',
         personas:'Charly García',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1225.jpg',
+        titulo:'Paul Weller',
+        personas:'Paul Weller',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1226.jpg',
+        titulo:'Paul Weller',
+        personas:'Paul Weller',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1227.jpg',
+        titulo:'Tom Waits',
+        personas:'Tom Waits',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1228.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook'
+    },
+    {
+        imagen:'1229.jpg',
+        titulo:'The Beatles',
+        personas:'The Beatles',
         origen:'Facebook'
     },
 

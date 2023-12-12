@@ -11,4 +11,5 @@ export interface IConcierto {
     descripcion?:string;
     cartel?:string;
     cronica?:string;    
+    videosInstagram?:string[];
 }

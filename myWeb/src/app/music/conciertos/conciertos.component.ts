@@ -36,15 +36,8 @@ export class ConciertosComponent implements OnInit {
 
   @HostListener('window:resize', ['$event'])
 
-  navegarAFotosOLD(concierto: IConcierto) {
-    const formattedDate = this.formatDate(concierto.fecha);
-    const queryParams = `?grupo=${encodeURIComponent(concierto.grupo)}&fecha=${formattedDate}&lugar=${encodeURIComponent(concierto.sala)}`;
-    const url = `/music/memorabilia${queryParams}`;
-    window.open(url, '_blank'); // Abre en una nueva pestaña
-  }
 
   navegarAFotos(concierto: IConcierto) {
-    //const formattedDate = this.formatDate(concierto.fecha);
     const queryParams = `?conciertoId=${concierto.id}`;
     const url = `/music/memorabilia${queryParams}`;
     window.open(url, '_blank'); // Abre en una nueva pestaña
@@ -96,15 +89,6 @@ export class ConciertosComponent implements OnInit {
       data: { image: image },
       panelClass: 'custom-dialog-container' // Clase para estilos personalizados
     });
-  }
-
-
-  private formatDate(date: Date): string {
-    const day = date.getUTCDate().toString().padStart(2, '0');
-    const month = (date.getUTCMonth() + 1).toString().padStart(2, '0');
-    const year = date.getUTCFullYear();
-    return `${day}-${month}-${year}`;
-  }
-  
+  }  
   
 }

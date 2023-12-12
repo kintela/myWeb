@@ -53,7 +53,7 @@
               </div>   
               <div *ngIf="concierto.videos">
                 <div>
-                  <a *ngFor="let videoUrl of concierto.videos; let i = index" (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
+                  <a *ngFor="let videoUrl of concierto.videos; let i = index" (click)="mostrarVideo(videoUrl)" class="clickable-link">youtube{{i + 1}}</a>
                 </div>
               </div>
               <div *ngIf="concierto.fotos">
@@ -71,7 +71,12 @@
                 <div>
                   <a  href="{{concierto.cronica}}" target="_blank" class="clickable-link">Crónica</a>
                 </div>                
-              </div>                           
+              </div>    
+              <div *ngIf="concierto.videosInstagram">
+                <div>
+                  <a *ngFor="let videoUrl of concierto.videosInstagram; let i = index" href="{{videoUrl}}" target="_blank" class="clickable-link">instagram{{i + 1}}</a>
+                </div>                
+              </div>                        
             </div>    
           </mat-cell>
         </ng-container>

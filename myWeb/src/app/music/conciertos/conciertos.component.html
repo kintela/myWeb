@@ -6,7 +6,7 @@
     </mat-form-field>
 
     <mat-form-field>
-      <mat-label>Grupo</mat-label>
+      <mat-label>Grupos {{ gruposDisponibles.length - 1 }}</mat-label>
       <mat-select [(value)]="filtroGrupo" (selectionChange)="actualizarFiltro()" class="selector-grupo">
           <mat-option *ngFor="let grupo of gruposDisponibles" [value]="grupo">
               {{ grupo }}

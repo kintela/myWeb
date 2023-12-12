@@ -43,24 +43,7 @@ export class ConciertosComponent implements OnInit {
       this.actualizarGruposDisponibles();
     });
   }
-  
-  ngOnInitOLD(): void {    
-    this.route.queryParams.subscribe(params => {
-      if (params['search']) {
-          this.filtroBusqueda = params['search'];
-          // Llama a actualizarFiltro aquí si quieres aplicar el filtro inmediatamente
-      }
-      this.isScreenSmall = window.innerWidth < 768; // por ejemplo, para tablets y móviles
-      this.conciertos = this.conciertos.sort((a, b) => {
-        return new Date(b.fecha).getTime() - new Date(a.fecha).getTime();
-      });
-      this.conciertosFiltrados = [...this.conciertos]; 
-
-      this.actualizarFiltro();
-      this.actualizarGruposDisponibles();
-    });
     
-  }
 
   @HostListener('window:resize', ['$event'])
 
@@ -104,14 +87,15 @@ export class ConciertosComponent implements OnInit {
   }
   
   
-
   actualizarGruposDisponibles(): void {
-    this.gruposDisponibles = [...new Set(this.conciertos.map(concierto => concierto.grupo))]
-      .sort((a, b) => a.localeCompare(b));
-
+    this.gruposDisponibles = [...new Set(this.conciertos
+      .map(concierto => concierto.grupo)
+      .filter(grupo => grupo)) // Filtra cualquier grupo falso, como null, undefined o cadenas vacías.
+    ].sort((a, b) => a.localeCompare(b));
+  
     this.gruposDisponibles.unshift('Todos');
-      
   }
+  
 
   onResize(event) {
     this.isScreenSmall = window.innerWidth < 768;

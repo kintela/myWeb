@@ -2016,35 +2016,35 @@ export const conciertos:IConcierto[]=[
         videosInstagram:['https://www.instagram.com/p/Cd0Eo--D57_/?igshid=MTc4MmM1YmI2Ng%3D%3D'],
     },
     {
-        //fecha: new Date(Date.UTC(2022, 4, 20)),
+        fecha: new Date(Date.UTC(2017, 1, 10)),
         ciudad: 'Bilbao',
         sala: 'Shake',
         grupo: 'Mi Hermana Corina',
-        videosInstagram:['https://www.instagram.com/p/BjhcDizhAdN/?igshid=MTc4MmM1YmI2Ng%3D%3D'],
+        videos:['https://www.youtube.com/embed/iow8RD3mt0k?si=nXd7naMOZseCN2no']
     },
     {
-        //fecha: new Date(Date.UTC(2022, 4, 20)),
+        fecha: new Date(Date.UTC(2019, 0, 24)),
         ciudad: 'Bilbao',
         sala: 'Satelite T',
         grupo: 'Mi Hermana Corina',
         videosInstagram:['https://www.instagram.com/p/BtDD6xHhwVi/?igshid=MTc4MmM1YmI2Ng%3D%3D'],
     },
     {
-        //fecha: new Date(Date.UTC(2022, 4, 20)),
+        fecha: new Date(Date.UTC(2017, 7, 25)),
         ciudad: 'Bilbao',
         sala: 'Shake',
         grupo: 'Mi Hermana Corina',
         videosInstagram:['https://www.instagram.com/p/ByuzK2RDf9r/?igshid=MTc4MmM1YmI2Ng%3D%3D','https://www.instagram.com/p/Byuz1w9jjhS/?igshid=MTc4MmM1YmI2Ng%3D%3D','https://www.instagram.com/p/Byu-zIdDVxn/?igshid=MTc4MmM1YmI2Ng%3D%3D','https://www.instagram.com/p/Byu_c-ZDn5S/?igshid=MTc4MmM1YmI2Ng%3D%3D'],
     },
     {
-        //fecha: new Date(Date.UTC(2022, 4, 20)),
+        fecha: new Date(Date.UTC(2019, 6, 7)),
         ciudad: 'Plentzia',
         sala: 'Hotel Bahia',
         grupo: 'Mi Hermana Corina',
         videosInstagram:['https://www.instagram.com/p/BzoWR3ahZbX/?igshid=MTc4MmM1YmI2Ng%3D%3D','https://www.instagram.com/p/BzoWcdEBOZJ/?igshid=MTc4MmM1YmI2Ng%3D%3D'],
     },
     {
-        //fecha: new Date(Date.UTC(2022, 4, 20)),
+        fecha: new Date(Date.UTC(2017, 6, 28)),
         ciudad: 'Plentzia',
         sala: 'Club Kai Eder',
         grupo: 'Mi Hermana Corina',
@@ -2207,6 +2207,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Candanchu',
         sala: 'Pista Grande',
         grupo: 'Mi Hermana Corina',
+        videos:['https://www.youtube.com/embed/79nwzCV7GJU?si=PjHiP8MokEOrv2WQ'],
         fotos: true,
     },
     {
@@ -2247,6 +2248,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Getxo',
         sala: 'Txiringito de Arrigunaga',
         grupo: 'Mi Hermana Corina',
+        videos:['https://www.youtube.com/embed/-Jr-oMxL0Rk?si=NjTRT7HQwzQT1uzv'],
         fotos: true,
     },
     {
@@ -2259,14 +2261,15 @@ export const conciertos:IConcierto[]=[
     },
     {
         id: 169,
-        fecha: new Date(Date.UTC(2016, 6, 31)),
+        fecha: new Date(Date.UTC(2016, 6, 30)),
         ciudad: 'Lekeitio',
+        sala: 'Club de pesca',
         grupo: 'Mi Hermana Corina',
         fotos: true,
     },
     {
         id: 170,
-        //fecha: new Date(Date.UTC(2016, 6, 31)),
+        fecha: new Date(Date.UTC(2012, 3, 24)),
         ciudad: 'Bilbao',
         sala: 'Plaza Nueva',
         grupo: 'Mi Hermana Corina',
@@ -2274,7 +2277,7 @@ export const conciertos:IConcierto[]=[
     },
     {
         id: 171,
-        //fecha: new Date(Date.UTC(2016, 6, 31)),
+        fecha: new Date(Date.UTC(2010, 1, 19)),
         ciudad: 'Bilbao',
         sala: 'Pub Dublinners',
         grupo: 'Mi Hermana Corina',
@@ -2282,9 +2285,9 @@ export const conciertos:IConcierto[]=[
     },
     {
         id: 172,
-        //fecha: new Date(Date.UTC(2016, 6, 31)),
+        fecha: new Date(Date.UTC(2016, 6, 15)),
         ciudad: 'Portugalete',
-        sala: 'Ballonti',
+        sala: 'Centro Comercial Ballonti',
         grupo: 'Mi Hermana Corina',
         videos:['https://www.youtube.com/embed/azQstnA4iwY?si=NvvUdZ0Qyc5d9Z-t']
     },

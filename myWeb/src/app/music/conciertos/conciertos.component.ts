@@ -26,8 +26,25 @@ export class ConciertosComponent implements OnInit {
 
   constructor(private sanitizer: DomSanitizer, private dialog: MatDialog, private router: Router,private location: Location, private route: ActivatedRoute) { }
 
-  
   ngOnInit(): void {    
+    this.route.queryParams.subscribe(params => {
+      if (params['search']) {
+        this.filtroBusqueda = params['search'];
+      }
+      if (params['grupo']) {
+        this.filtroGrupo = params['grupo'];
+      }
+  
+      this.isScreenSmall = window.innerWidth < 768;
+      this.conciertos = this.conciertos.sort((a, b) => new Date(b.fecha).getTime() - new Date(a.fecha).getTime());
+      this.conciertosFiltrados = [...this.conciertos]; 
+  
+      this.actualizarFiltro();
+      this.actualizarGruposDisponibles();
+    });
+  }
+  
+  ngOnInitOLD(): void {    
     this.route.queryParams.subscribe(params => {
       if (params['search']) {
           this.filtroBusqueda = params['search'];
@@ -54,34 +71,7 @@ export class ConciertosComponent implements OnInit {
     window.open(url, '_blank'); // Abre en una nueva pestaña
   }
 
-  actualizarFiltroOLD(): void {
-    let conciertosFiltrados = this.conciertos;
-  
-    // Filtra primero por búsqueda
-    if (this.filtroBusqueda) {
-      const terminoBusqueda = this.filtroBusqueda.toLowerCase();
-      conciertosFiltrados = conciertosFiltrados.filter(concierto => {
-        return Object.keys(concierto).some(
-          key => concierto[key] && concierto[key].toString().toLowerCase().includes(terminoBusqueda)
-        );
-      });
-    } else {
-      // Si el filtroBusqueda está vacío, resetear los conciertos filtrados a todos los conciertos
-      conciertosFiltrados = [...this.conciertos];
-    }
-  
-    // Actualiza la URL
-    const queryParams = this.filtroBusqueda ? { search: this.filtroBusqueda } : {};
-    const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
-    this.location.go(url);
-  
-    // Filtrado por grupo, excepto cuando se selecciona 'Todos'
-    if (this.filtroGrupo && this.filtroGrupo !== 'Todos') {
-      conciertosFiltrados = conciertosFiltrados.filter(concierto => concierto.grupo === this.filtroGrupo);
-    }
-  
-    this.conciertosFiltrados = conciertosFiltrados;
-  }
+
   
   actualizarFiltro(): void {
     let conciertosFiltrados = this.conciertos;

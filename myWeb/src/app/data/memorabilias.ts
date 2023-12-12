@@ -7714,14 +7714,14 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Mi Hermana Corina grabando video clip en Tio Pete',
         grupo:'Mi Hermana Corina',
         origen:'propia',   
-        personas:'Javier Caballero, Hugo Allende',         
+        personas:'Javier Castro, Hugo Allende',         
     },
     {
         imagen:'1127.jpg',
         titulo:'Mi Hermana Corina',
         grupo:'Mi Hermana Corina',
         origen:'propia',   
-        personas:'Javier Caballero, Hugo Allende, Alex Smith, Kintela',        
+        personas:'Javier Castro, Hugo Allende, Alex Smith, Kintela',        
     },
     {
         imagen:'1128.jpg',
@@ -10615,7 +10615,7 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Mi Hermana Corina',
         grupo:'Mi Hermana Corina',
         origen:'propia',  
-        personas:'Javier Caballero'
+        personas:'Javier Castro'
     },
     {
         conciertoId: 162,
@@ -10623,7 +10623,7 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Mi Hermana Corina',
         grupo:'Mi Hermana Corina',
         origen:'propia',  
-        personas:'Javier Caballero'
+        personas:'Javier Castro'
     },
     {
         conciertoId: 162,
@@ -10646,7 +10646,7 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Mi Hermana Corina',
         grupo:'Mi Hermana Corina',
         origen:'propia',  
-        personas:'Javier Caballero'
+        personas:'Javier Castro'
     },
     {
         conciertoId: 162,

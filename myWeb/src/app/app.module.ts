@@ -40,6 +40,7 @@ import { ReproductorVideoComponent } from './shared/reproductor-video/reproducto
 import { MemorabiliaComponent } from './music/memorabilia/memorabilia.component';
 import { VisorImagenComponent } from './shared/visor-imagen/visor-imagen.component';
 import { Cancion18Component } from './music/canciones/cancion18/cancion18.component';
+import { MhcComponent } from './music/mhc/mhc.component';
 
 registerLocaleData(localeEs);
 
@@ -77,7 +78,7 @@ registerLocaleData(localeEs);
     ConciertosComponent, 
     ReproductorVideoComponent, 
     MemorabiliaComponent, 
-    VisorImagenComponent     
+    VisorImagenComponent, MhcComponent     
   ],
   imports: [
     BrowserModule,

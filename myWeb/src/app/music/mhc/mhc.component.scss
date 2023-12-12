@@ -1,0 +1,29 @@
+/* my-band.component.css */
+mat-card {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  mat-card-title, mat-card-subtitle {
+    color: #1976d2; /* Puedes cambiar este color según tu preferencia */
+  }
+  
+  mat-card-content {
+    font-size: 16px; /* Ajusta el tamaño de la fuente según necesites */
+  }
+  
+  mat-card-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .clickable-link {
+    cursor: pointer;
+    text-decoration: underline; /* Esto es opcional para darle un aspecto más similar a un enlace */
+    margin-right: 10px; /* Añade un margen a la derecha de cada enlace */
+    margin-bottom: 10px; /* Añade un margen en la parte inferior si deseas que se envuelvan a la siguiente línea */
+    display: inline-block; /* Esto asegura que el margen inferior se aplique correctamente */
+  }
+  
+  

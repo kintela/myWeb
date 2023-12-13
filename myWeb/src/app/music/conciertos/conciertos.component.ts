@@ -50,10 +50,10 @@ export class ConciertosComponent implements OnInit {
   @HostListener('window:resize', ['$event'])
 
 
-  navegarAFotos(concierto: IConcierto) {
-    const queryParams = `?conciertoId=${concierto.id}`;
+  navegarAFotos(conciertoId:number) {
+    const queryParams = `?conciertoId=${conciertoId}`;
     const url = `/music/memorabilia${queryParams}`;
-    window.open(url, '_blank'); // Abre en una nueva pestaña
+    window.open(url, '_blank'); 
   }
 
   

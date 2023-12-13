@@ -1,91 +1,3 @@
-<!--<mat-card>
-    <mat-card-header>
-    </mat-card-header>
-    <img mat-card-image src="assets/mhc.png" alt="Imagen de la banda">
-    <mat-card-content>
-      <p>Mi Hermana Corina es una banda de Rock formada en 1998 en los antiguos locales de la escuela de música Mr Jam al cual yo me uno allá por el 2008 con lo cual estamos hablando de una trayectoria ininterrumpida de 25 años ahi es nada.</p>
-      <p>El nombre se lo puso el cantante original Fernando Lacabex,quien habla de su hermana Corina, una chica cuarentona con una discapacidad intelectual que le hacía sentirse como una niña y que desgraciadamente falleció en 2013.</p>
-      <p>La banda tuvo que pasar por el peor de los tragos en 2009 tras el fallecimiento en un accidente de moto del bateria Eduardo Mendiguren alias Wito un tipo irrepetible.</p>
-      <p>Hasta mi entrada en la banda el unico compositor es Hugo Allende muy influenciado por el Pop-Rock británico pero en 2008 con mi entrada y la de Alex Olabarría al bajo, nos metemos en algun sonido mas hard rockero.</p>
-      <p>Tras la perdida de Wito, Teresa Familiar se hace con las baquetas hasta 2012 que nos deja y su lugar lo ocupa Javier Castro (Ex Eightman)</p>
-      <p>El secreto de que MHC siga funcionando estriba en que hay cabida para todos los puntos de vista</p>
-      <p>En 25 años que lleva como banda MHC, ha publicado nueve discos pasando por diversos estudios como Tio Pete, Lorentzo Records o el Tigre, con la única intención de satisfacer sus inquietudes musicales. </p>
-      <p>A pesar de que nunca ha tenido la presión de una discográfica, la banda se ha sometido a una disciplina de ensayos y bolos con los que costear las grabaciones. </p>
-      <p>A veces nos preguntamos si estamos un poco mal de la cabeza, pero enseguida cambiamos de tema porque en el fondo es verdad y no queremos reconocerlo. </p>
-      <p>No nos dedicamos a esto profesionalmente, y menos mal porque si lo hiciéramos nos hubiéramos muerto de hambre.</p>
-      <p>Pero desde luego que es un orgullo mantener la banda activa tantos años. Muy pocos pueden decir lo mismo</p>
-      <p>Los primeros pasos los dieron ellos</p>
-      <div class="link-container">        
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/lFV5oF09qwo?si=LgYpHzr3PtcuQsPh')" class="clickable-link">the road was not so winding and long</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/dmd2eXH6V6E?si=UWiDgSdcKFGqE60U')" class="clickable-link">the guy in the mirror</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/H5-UuUnUVk8?si=j_VkQcK43es2defW')" class="clickable-link">My little one</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/jDRBp8Ri2YI?si=X5NnVgBnb8NRdEnl')" class="clickable-link">Born in the 60's</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/sGhLNo4bRpc?si=_bcL4FqMGyubnmo2')" class="clickable-link">If you live your dream</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/6KxcAxT1JP4?si=RHLkzkxZgV1S6Jmi')" class="clickable-link">Beat on the brat</a>
-      </div>
-      <p>Grabando los primeros discos</p>
-      <div class="link-container">        
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/WN5FP6GVmy8?si=UjzLfx5WnetfJRIy')" class="clickable-link">making off In a sea of prawns 2002</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/nblnaqbA2x8?si=EjwZmO3WJg5XA2Nx')" class="clickable-link">making off MHC Junio 2007</a>
-      </div>
-      <P>Hemos grabado algún video clip y todo</P>
-      <div class="link-container">
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/VJYDlC0aO2Q?si=86wdlN43-zUgNHjq')" class="clickable-link">Senseless Time</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/MK129GazW6o?si=atgnQLfvCsMPhchw')" class="clickable-link">Stay Free</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/W8fYNboO9hM?si=T4fkONaUgg6Qy6Ap')" class="clickable-link">Y que bonito es Candanchu</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/vXnZT8ANzQ4?si=FRowMyPfy-gVAAJi')" class="clickable-link">Es Invierno</a>
-      </div>
-      <p>Hemos aparecido en algún medio</p>
-      <div class="link-container">             
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/iwuYzLjO8RM?si=lqo4f_CvWYoOKaHi')" class="clickable-link">TeleBilbao 27-03-2014</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/ctsmv4RHQXI?si=KtP-KUeJhNENXj8-')" class="clickable-link">Local Musical de TeleBilbao 2015</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/eQT-HRYmeYQ?si=Fkh9243vq7cMMXAO')" class="clickable-link">Iflandia La Jungla Sonora: You could have it all</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/TzvFYfDz2q4?si=SzWJchV5Jn_riSER')" class="clickable-link">Iflandia La Jungla Sonora: Stay Free</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/oLryAFZuHhQ?si=RT0XdOQPkeubFXiO')" class="clickable-link">Cadena Ser-Hoy por hoy: In the middle of the night</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/NyEst8Wr9Is?si=kcaNaDz84fSdTJO1')" class="clickable-link">TeleBilbao 2015: In the middle of the night</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/gc2ZiJ95EBk?si=epTDc_lgKM5neLft')" class="clickable-link">Telenorte TVE1 26-02-2015</a>
-        <a (click)="mostrarVideo('https://www.youtube.com/embed/XL1pUEEZ_XM?si=BWd2ef5coWN7Z5uq')" class="clickable-link">informativo territorial de Aragón TVE1 03-02-2014</a>
-      </div>
-    </mat-card-content>
-    <p>Algunos fans nos han versioneado</p>
-    <a (click)="mostrarVideo('https://www.youtube.com/embed/BR9NSnv9Oz4?si=MadkUY4J8LKyiXqM')" class="clickable-link">Cover candanchuti</a>
-
-    <p>Y los menos locos pero que sin los que nada de esto habria sido posible, siempre estaran en nuestros corazones</p>
-
-    <div class="row">
-      <img src="assets/memorabilia/mhc/1.jpeg">
-      <img src="assets/memorabilia/mhc/2.jpeg">
-      <img src="assets/memorabilia/mhc/3.jpeg">
-      <img src="assets/memorabilia/mhc/4.jpeg">            
-    </div>
-    <div class="row">
-      <img src="assets/memorabilia/mhc/5.jpeg">
-      <img src="assets/memorabilia/mhc/6.jpeg">
-      <img src="assets/memorabilia/mhc/7.jpeg">
-      <img src="assets/memorabilia/mhc/8.jpeg">      
-    </div>
-    <div class="row">
-      <img src="assets/memorabilia/mhc/9.jpeg">
-      <img src="assets/memorabilia/mhc/10.jpeg">
-      <img src="assets/memorabilia/mhc/11.jpeg">
-      <img src="assets/memorabilia/mhc/12.jpeg">      
-    </div>
-    <div class="row">
-      <img src="assets/memorabilia/mhc/13.jpg">
-      <img src="assets/memorabilia/mhc/14.jpeg">
-      <img src="assets/memorabilia/mhc/15.jpeg">
-      <img src="assets/memorabilia/mhc/16.jpeg">
-    </div>
-   
-    <mat-card-actions>      
-        <button mat-button (click)="abrirConciertos()" class="clickable-link">Conciertos</button>        
-        <a href="https://open.spotify.com/intl-es/artist/172oZzuDzY0IbL2UhtQANs?si=NoHg25u_S3afrQ2NuRP62A" target="_blank">
-          <img src="assets/spotify.png" alt="Spotify" class="spotify-logo" matTooltip="Escuchanos">
-        </a>        
-    </mat-card-actions>      
-</mat-card>-->
-
-
 <div class="logo-container">
   <img src="assets/mhc.png" alt="Imagen de la banda" class="logo_mhc">
 </div>
@@ -173,7 +85,25 @@
     <img src="assets/memorabilia/mhc/16.jpeg" (click)="openImageViewer('mhc/16.jpeg')">
   </div>
 
-  <a href="">Making Off Wito en 2010</a>
+  <div *ngFor="let disco of discos">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{disco.titulo}}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="{{disco.caratula}}" alt="{{disco.titulo}}" class="imagen-disco">
+      <mat-card-content>
+        <p>Grabado en el estudio {{disco.estudio}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <a href="{{disco.url}}" target="_blank">
+          <img src="assets/spotify.png" alt="Spotify" class="spotify-logo" matTooltip="Escuchalos">
+        </a>
+        <a  (click)="navegarAFotos(disco.conciertoId)" class="clickable-link">Making Off {{disco.titulo}} en {{disco.year}}</a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+  
  
   <div class="link-container">
     <button mat-button (click)="abrirConciertos()" class="clickable-link">Conciertos</button>        

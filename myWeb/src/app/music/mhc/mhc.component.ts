@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { discos } from 'src/app/data/discos';
 import { ReproductorVideoComponent } from 'src/app/shared/reproductor-video/reproductor-video.component';
 import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.component';
 
@@ -9,6 +10,7 @@ import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.c
   styleUrls: ['./mhc.component.scss']
 })
 export class MhcComponent {
+  discos=discos;
   
   constructor(private dialog: MatDialog) { }
 
@@ -31,4 +33,10 @@ export class MhcComponent {
       panelClass: 'custom-dialog-container' // Clase para estilos personalizados
     });
   }  
+
+  navegarAFotos(conciertoId:number) {
+    const queryParams = `?conciertoId=${conciertoId}`;
+    const url = `/music/memorabilia${queryParams}`;
+    window.open(url, '_blank');
+  }
 }

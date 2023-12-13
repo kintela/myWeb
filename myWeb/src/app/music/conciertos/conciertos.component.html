@@ -18,25 +18,25 @@
      
 <mat-table [dataSource]="conciertosFiltrados" *ngIf="!isScreenSmall" class="mat-elevation-z8">
         <!-- Columna de Fecha -->
-        <ng-container matColumnDef="fecha">
+        <ng-container matColumnDef="fecha" >
           <mat-header-cell *matHeaderCellDef> Fecha </mat-header-cell>
           <mat-cell *matCellDef="let concierto"> {{ concierto.fecha | date:'dd/MM/yyyy' }} </mat-cell>
         </ng-container>
       
         <!-- Columna de Grupos -->
-        <ng-container matColumnDef="grupo">
+        <ng-container matColumnDef="grupo" >
           <mat-header-cell *matHeaderCellDef> Grupos </mat-header-cell>
           <mat-cell *matCellDef="let concierto"> {{ concierto.grupo }} </mat-cell>
         </ng-container>
       
         <!-- Columna de Ciudad -->
-        <ng-container matColumnDef="ciudad">
+        <ng-container matColumnDef="ciudad" >
           <mat-header-cell *matHeaderCellDef> Ciudad </mat-header-cell>
           <mat-cell *matCellDef="let concierto"> {{ concierto.ciudad }} </mat-cell>
         </ng-container>
       
         <!-- Columna de Sala -->
-        <ng-container matColumnDef="sala">
+        <ng-container matColumnDef="sala" >
           <mat-header-cell *matHeaderCellDef> Sala </mat-header-cell>
           <mat-cell *matCellDef="let concierto"> {{ concierto.sala }} </mat-cell>
         </ng-container>
@@ -63,8 +63,7 @@
               </div>
               <div *ngIf="concierto.cartel">
                 <div>
-                  <a  (click)="openImageViewer(concierto.cartel)" class="clickable-link">Cartel</a>
-                 
+                  <a  (click)="openImageViewer(concierto.cartel)" class="clickable-link">Cartel</a>                 
                 </div>                
               </div>
               <div *ngIf="concierto.cronica">
@@ -88,20 +87,41 @@
 <ng-container *ngIf="isScreenSmall">
     <div *ngFor="let concierto of conciertosFiltrados" >
         <mat-card>
-            <mat-card-subtitle>
-                {{ concierto.grupo }}
-            </mat-card-subtitle>
-        </mat-card>
-        <mat-card-content>
-            <p><strong>Fecha:</strong> {{ concierto.fecha | date:'dd/MM/yyyy' }}</p>
-            <p><strong>Ciudad:</strong> {{ concierto.ciudad }}</p>
-            <p><strong>Sala:</strong> {{ concierto.sala }}</p>
-            <div class="video-links">
-                <ng-container *ngFor="let videoUrl of concierto.videos; let i = index">
-                    <a (click)="mostrarVideo(videoUrl)" class="clickable-link">Video{{i + 1}}</a>
-                </ng-container>
-            </div>
-        </mat-card-content>
+          <mat-card-subtitle>
+              {{ concierto?.grupo }}
+          </mat-card-subtitle>
+        
+          <mat-card-content>
+              <p><strong>Fecha:</strong> {{ concierto?.fecha | date:'dd/MM/yyyy' }}</p>
+              <p><strong>Ciudad:</strong> {{ concierto?.ciudad }}</p>
+              <p><strong>Sala:</strong> {{ concierto?.sala }}</p>
+              <div *ngIf="concierto.fotos">
+                <div>
+                  <a  (click)="navegarAFotos(concierto)" class="clickable-link">Fotos</a>
+                </div>                
+              </div>
+              <div *ngIf="concierto.cartel">
+                <div>
+                  <a  (click)="openImageViewer(concierto.cartel)" class="clickable-link">Cartel</a>                 
+                </div>                
+              </div>
+              <div *ngIf="concierto.entrada">
+                <div>
+                  <a  (click)="openImageViewer(concierto.entrada)" class="clickable-link">Entrada</a>
+                </div>                
+              </div>   
+              <div *ngIf="concierto.videosInstagram">
+                <div>
+                  <a *ngFor="let videoUrl of concierto.videosInstagram; let i = index" href="{{videoUrl}}" target="_blank" class="clickable-link">instagram{{i + 1}}</a>
+                </div>                
+              </div>
+              <div *ngIf="concierto.videos">
+                <div>
+                  <a *ngFor="let videoUrl of concierto.videos; let i = index" (click)="mostrarVideo(videoUrl)" class="clickable-link">youtube{{i + 1}}</a>
+                </div>
+              </div>
+          </mat-card-content>
+      </mat-card>
     </div>
 </ng-container>
 

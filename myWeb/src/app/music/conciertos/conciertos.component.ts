@@ -34,8 +34,10 @@ export class ConciertosComponent implements OnInit {
       if (params['grupo']) {
         this.filtroGrupo = params['grupo'];
       }
+
   
-      this.isScreenSmall = window.innerWidth < 768;
+      this.isScreenSmall = window.innerWidth <= 1080;
+
       this.conciertos = this.conciertos.sort((a, b) => new Date(b.fecha).getTime() - new Date(a.fecha).getTime());
       this.conciertosFiltrados = [...this.conciertos]; 
   
@@ -94,6 +96,8 @@ export class ConciertosComponent implements OnInit {
     ].sort((a, b) => a.localeCompare(b));
   
     this.gruposDisponibles.unshift('Todos');
+
+    console.log('this.gruposDisponibles',this.gruposDisponibles);
   }
   
 

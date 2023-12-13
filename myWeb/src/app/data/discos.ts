@@ -34,7 +34,6 @@ export const discos:IDisco[]=[
         year:2017,
         estudio:"Tigre",
         spotify:"https://open.spotify.com/intl-es/album/64jZdpzGLDlTBDw8XmVy8V?si=8XidP1T7R3qL9BNarUf0Hg",
-        conciertoId:177,
         caratula:"assets/memorabilia/mhc/emhc2.jpg"
     },
     {
@@ -43,7 +42,15 @@ export const discos:IDisco[]=[
         year:2021,
         estudio:"Tigre",
         spotify:"https://open.spotify.com/intl-es/album/64jZdpzGLDlTBDw8XmVy8V?si=8XidP1T7R3qL9BNarUf0Hg",
-        conciertoId:177,
         caratula:"assets/memorabilia/mhc/while.jpg"
+    },
+    {
+        grupo:"Mi Hermana Corina",
+        titulo:"Y qué bonito es Candanchú",
+        year:2013,
+        estudio:"Lorentzo Records",
+        spotify:"https://open.spotify.com/intl-es/album/7t5Z1IJByWGBIUohmZkv3T?si=Zfgh-LT_Sx6YdfILnA4b7A",
+        caratula:"assets/memorabilia/mhc/y_que_bonito_es_candanchu.jpg",
+        conciertoId:177,
     }
 ]

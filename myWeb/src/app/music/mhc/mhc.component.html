@@ -40,6 +40,36 @@
     <a (click)="mostrarVideo('https://www.youtube.com/embed/WN5FP6GVmy8?si=UjzLfx5WnetfJRIy')" class="clickable-link">making off In a sea of prawns 2002</a>
     <a (click)="mostrarVideo('https://www.youtube.com/embed/nblnaqbA2x8?si=EjwZmO3WJg5XA2Nx')" class="clickable-link">making off MHC Junio 2007</a>
   </div>
+
+  <p>Luego empezaron los nuevos...</p>
+  <mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h3>Discos</h3>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div *ngFor="let disco of discos">
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>{{disco.titulo}}-{{disco.year}}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="{{disco.caratula}}" alt="{{disco.titulo}}" class="imagen-disco">
+          <mat-card-content>
+            <!--<p>Grabado en el estudio {{disco.estudio}}</p>-->
+          </mat-card-content>
+          <mat-card-actions>
+            <a href="{{disco.url}}" target="_blank">
+              <img src="assets/spotify.png" alt="Spotify" class="spotify-logo" matTooltip="Escuchalos">
+            </a>
+            <a *ngIf="disco.conciertoId"  (click)="navegarAFotos(disco.conciertoId)" class="clickable-link">Making Off</a>
+          </mat-card-actions>
+          <mat-card-footer>Grabado en el estudio {{disco.estudio}}</mat-card-footer>   
+        </mat-card>
+      </div>
+    
+    </mat-expansion-panel>
+  </mat-accordion>
   <P>Hemos grabado algún video clip y todo</P>
   <div class="link-container">
     <a (click)="mostrarVideo('https://www.youtube.com/embed/VJYDlC0aO2Q?si=86wdlN43-zUgNHjq')" class="clickable-link">Senseless Time</a>
@@ -67,44 +97,33 @@
 
   <p>Y los menos locos pero que sin los que nada de esto habria sido posible, siempre estaran en nuestros corazones</p>
 
-  <div class="fans">
-    <img src="assets/memorabilia/mhc/1.jpeg" (click)="openImageViewer('mhc/1.jpeg')">
-    <img src="assets/memorabilia/mhc/2.jpeg" (click)="openImageViewer('mhc/2.jpeg')">
-    <img src="assets/memorabilia/mhc/4.jpeg" (click)="openImageViewer('mhc/4.jpeg')">            
-    <img src="assets/memorabilia/mhc/5.jpeg" (click)="openImageViewer('mhc/5.jpeg')">
-    <img src="assets/memorabilia/mhc/6.jpeg" (click)="openImageViewer('mhc/6.jpeg')">
-    <img src="assets/memorabilia/mhc/7.jpeg" (click)="openImageViewer('mhc/7.jpeg')">
-    <img src="assets/memorabilia/mhc/8.jpeg" (click)="openImageViewer('mhc/8.jpeg')">      
-    <img src="assets/memorabilia/mhc/9.jpeg" (click)="openImageViewer('mhc/9.jpeg')">
-    <img src="assets/memorabilia/mhc/10.jpeg" (click)="openImageViewer('mhc/10.jpeg')">
-    <img src="assets/memorabilia/mhc/11.jpeg" (click)="openImageViewer('mhc/11.jpeg')">
-    <img src="assets/memorabilia/mhc/12.jpeg" (click)="openImageViewer('mhc/12.jpeg')">      
-    <img src="assets/memorabilia/mhc/13.jpg" (click)="openImageViewer('mhc/13.jpg')">
-    <img src="assets/memorabilia/mhc/14.jpeg" (click)="openImageViewer('mhc/14.jpeg')">
-    <img src="assets/memorabilia/mhc/15.jpeg" (click)="openImageViewer('mhc/15.jpeg')">
-    <img src="assets/memorabilia/mhc/16.jpeg" (click)="openImageViewer('mhc/16.jpeg')">
-  </div>
+  <mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <h3>Fans</h3>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="fans">
+        <img src="assets/memorabilia/mhc/1.jpeg" (click)="openImageViewer('mhc/1.jpeg')">
+        <img src="assets/memorabilia/mhc/2.jpeg" (click)="openImageViewer('mhc/2.jpeg')">
+        <img src="assets/memorabilia/mhc/4.jpeg" (click)="openImageViewer('mhc/4.jpeg')">            
+        <img src="assets/memorabilia/mhc/5.jpeg" (click)="openImageViewer('mhc/5.jpeg')">
+        <img src="assets/memorabilia/mhc/6.jpeg" (click)="openImageViewer('mhc/6.jpeg')">
+        <img src="assets/memorabilia/mhc/7.jpeg" (click)="openImageViewer('mhc/7.jpeg')">
+        <img src="assets/memorabilia/mhc/8.jpeg" (click)="openImageViewer('mhc/8.jpeg')">      
+        <img src="assets/memorabilia/mhc/9.jpeg" (click)="openImageViewer('mhc/9.jpeg')">
+        <img src="assets/memorabilia/mhc/10.jpeg" (click)="openImageViewer('mhc/10.jpeg')">
+        <img src="assets/memorabilia/mhc/11.jpeg" (click)="openImageViewer('mhc/11.jpeg')">
+        <img src="assets/memorabilia/mhc/12.jpeg" (click)="openImageViewer('mhc/12.jpeg')">      
+        <img src="assets/memorabilia/mhc/13.jpg" (click)="openImageViewer('mhc/13.jpg')">
+        <img src="assets/memorabilia/mhc/14.jpeg" (click)="openImageViewer('mhc/14.jpeg')">
+        <img src="assets/memorabilia/mhc/15.jpeg" (click)="openImageViewer('mhc/15.jpeg')">
+        <img src="assets/memorabilia/mhc/16.jpeg" (click)="openImageViewer('mhc/16.jpeg')">
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
 
-  <div *ngFor="let disco of discos">
-    <mat-card>
-      <mat-card-header>
-        <mat-card-title>{{disco.titulo}}</mat-card-title>
-      </mat-card-header>
-      <img mat-card-image src="{{disco.caratula}}" alt="{{disco.titulo}}" class="imagen-disco">
-      <mat-card-content>
-        <p>Grabado en el estudio {{disco.estudio}}</p>
-      </mat-card-content>
-      <mat-card-actions>
-        <a href="{{disco.url}}" target="_blank">
-          <img src="assets/spotify.png" alt="Spotify" class="spotify-logo" matTooltip="Escuchalos">
-        </a>
-        <a  (click)="navegarAFotos(disco.conciertoId)" class="clickable-link">Making Off {{disco.titulo}} en {{disco.year}}</a>
-      </mat-card-actions>
-    </mat-card>
-  </div>
-
-  
- 
   <div class="link-container">
     <button mat-button (click)="abrirConciertos()" class="clickable-link">Conciertos</button>        
     <a href="https://open.spotify.com/intl-es/artist/172oZzuDzY0IbL2UhtQANs?si=NoHg25u_S3afrQ2NuRP62A" target="_blank">

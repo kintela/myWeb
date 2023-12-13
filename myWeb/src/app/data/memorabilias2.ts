@@ -903,4 +903,312 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Mi Hermana Corina',
         origen:'propia', 
     },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1684.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela, Alex Olabarria, Hugo Allende'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1685.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela, Hugo Allende'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1686.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Alex Olabarria, Hugo Allende'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1687.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Hugo Allende'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1688.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Alex Olabarria'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1689.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela, Hugo Allende'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1690.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1691.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1692.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Hugh Allende'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1693.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela, Alex Olabarria, Hugo Allende'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1694.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela, Alex Olabarria, Hugo Allende'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1695.jpeg',
+        titulo:'Promocionando Stay Free en La Jungla Sonora',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela, Alex Olabarria, Hugo Allende, Raul'
+    },
+    {
+        conciertoId: 176,
+        fecha: new Date(Date.UTC(2014, 10, 10)),
+        imagen:'1696.jpeg',
+        titulo:'Promocionando Stay Free en Graffitti de Radio Euskadi',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela, Alex Olabarria, Javier Castro'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1697.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1698.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1699.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Javier Castro'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1700.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Javier Castro'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1701.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Hugo Allende'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1702.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Javier Castro, Etxeba'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1703.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1704.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1705.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 1, 15)),
+        imagen:'1706.jpeg',
+        titulo:'Grabación del Video Clip y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1707.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Hugo Allende, Aitor Ariño'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1708.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Kintela, Aitor Ariño, Alex Olabarria'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1709.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Hugo Allende'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1710.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1711.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Hugo Allende, Kintela, Aitor Ariño'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1712.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Hugo Allende, Alex Olabarria, Aitor Ariño'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1713.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Alex Olabarria'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1714.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Ana, Angela, Juana, Javier Castro, Alex Olabarria, Aitor Ariño, Hugo Allende'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1715.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Hugo Allende'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1716.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Angela, Alex Olabarria'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1717.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+        personas:'Angela, Alex Olabarria'
+    },
+    {
+        conciertoId: 177,
+        fecha: new Date(Date.UTC(2013, 10, 16)),
+        imagen:'1718.jpeg',
+        titulo:'Grabación del tema y qué bonito es Candanchú',
+        grupo:'Mi Hermana Corina',
+        origen:'propia', 
+    },
+
 ]

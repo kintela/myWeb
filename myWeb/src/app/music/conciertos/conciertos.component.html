@@ -94,6 +94,11 @@
               <p><strong>Fecha:</strong> {{ concierto?.fecha | date:'dd/MM/yyyy' }}</p>
               <p><strong>Ciudad:</strong> {{ concierto?.ciudad }}</p>
               <p><strong>Sala:</strong> {{ concierto?.sala }}</p>
+              <div *ngIf="concierto.cronica">
+                <div>
+                  <a  href="{{concierto.cronica}}" target="_blank" class="clickable-link">Crónica</a>
+                </div>                
+              </div>  
               <div *ngIf="concierto.fotos">
                 <div>
                   <a  (click)="navegarAFotos(concierto)" class="clickable-link">Fotos</a>

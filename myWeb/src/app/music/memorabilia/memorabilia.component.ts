@@ -3,6 +3,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute } from '@angular/router';
 import { IMemorabilia } from 'src/app/data/IMemorabilia';
 import { memorabilias } from 'src/app/data/memorabilias';
+import { memorabilias2 } from 'src/app/data/memorabilias2';
 import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.component';
 
 @Component({
@@ -11,34 +12,17 @@ import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.c
   styleUrls: ['./memorabilia.component.scss']
 })
 export class MemorabiliaComponent implements OnInit {
-  memorabilias=memorabilias
+  memorabilias1=memorabilias
+  memorabilias2=memorabilias2;
+  memorabilias:IMemorabilia[];
+
   searchText = '';
   filteredMemorabilias: IMemorabilia[] = [];
 
-  constructor(private dialog: MatDialog, private route: ActivatedRoute) { }
-
-  ngOnInitOLD(): void {
-    this.route.queryParams.subscribe(queryParams => {
-      if (queryParams['grupo'] && queryParams['fecha'] && queryParams['lugar']) {
-        const grupo = decodeURIComponent(queryParams['grupo']);
-        const fecha = this.parseDate(queryParams['fecha']);
-        const lugar = decodeURIComponent(queryParams['lugar']);
-
-        console.log(grupo, fecha, lugar);
-  
-        //this.aplicarFiltroRuta(grupo, fecha, lugar);
-
-      } else {
-        this.filteredMemorabilias = memorabilias;
-      }
-    });
-
-    const faltantes = this.encontrarNumerosFaltantes(memorabilias);
-    console.log("faltan estos numeros",faltantes);
-  
-  }
+  constructor(private dialog: MatDialog, private route: ActivatedRoute) { }  
 
   ngOnInit(): void {
+    this.memorabilias = [...this.memorabilias1, ...this.memorabilias2];
     this.route.queryParams.subscribe(queryParams => {
       if (queryParams['conciertoId']) {
         const conciertoId = +queryParams['conciertoId'];
@@ -48,25 +32,15 @@ export class MemorabiliaComponent implements OnInit {
         this.aplicarFiltroRuta(conciertoId);
 
       } else {
-        this.filteredMemorabilias = memorabilias;
+        this.filteredMemorabilias = this.memorabilias;
       }
     });
 
-    const faltantes = this.encontrarNumerosFaltantes(memorabilias);
+    const faltantes = this.encontrarNumerosFaltantes(this.memorabilias);
     console.log("faltan estos numeros",faltantes);
   
   }
-
-
-  aplicarFiltroRutaOLD(grupo: string, fecha: Date, lugar: string) {
-    this.filteredMemorabilias = this.memorabilias.filter(memorabilia => {
-      const grupoCoincide = memorabilia.grupo ? memorabilia.grupo.toLowerCase() === grupo.toLowerCase() : false;
-      const lugarCoincide = memorabilia.lugar ? memorabilia.lugar.toLowerCase() === lugar.toLowerCase() : false;
-      const fechaCoincide = memorabilia.fecha ? this.isSameDay(memorabilia.fecha, fecha) : false;
   
-      return grupoCoincide && lugarCoincide && fechaCoincide;
-    });
-  }
 
   aplicarFiltroRuta(conciertoId: number) {
     this.filteredMemorabilias = this.memorabilias.filter(memorabilia =>memorabilia.conciertoId===conciertoId);
@@ -75,7 +49,7 @@ export class MemorabiliaComponent implements OnInit {
   
 
   applyFilter() {
-    this.filteredMemorabilias = memorabilias.filter(item => 
+    this.filteredMemorabilias = this.memorabilias.filter(item => 
       Object.values(item).some(val => 
         val.toString().toLowerCase().includes(this.searchText.toLowerCase())
       )
@@ -102,7 +76,7 @@ export class MemorabiliaComponent implements OnInit {
 
   private encontrarNumerosFaltantes(memorabilias: IMemorabilia[]): number[] {
     // Crear un conjunto con todos los números de imagen que tienes
-    const numerosImagenes = new Set(memorabilias.map(m => parseInt(m.imagen.split('.')[0])));
+    const numerosImagenes = new Set(this.memorabilias.map(m => parseInt(m.imagen.split('.')[0])));
 
     // Crear un arreglo para los números faltantes
     let numerosFaltantes: number[] = [];

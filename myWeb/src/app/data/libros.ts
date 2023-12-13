@@ -472,5 +472,25 @@ export const libros:ILibro[]=[
         enlace:'https://www.edicionesoblivium.com/producto/verdades-y-mentiras-sobre-tocar-un-instrumento-de-jose-bruno-y-javier-vidal/',
         sinopsis:'Hay muchos y muy buenos libros sobre tocar un instrumento. Bien, este en particular trata de la aventura de tocarlos todos y en él se repasan vivencias y situaciones con las que los músicos profesionales o aficionados nos topamos en la práctica y el disfrute instrumental, encima o debajo del escenario.\n\nEstaremos en la primera fila del concierto para mostrar sin artificios qué sucede cuando el baterista cuenta ¡1, 2, 3, 4!, se encienden los focos y el tiempo se detiene. También hurgaremos en las orejas del oyente entusiasmado para entender cómo funciona la pasión musical. Rastrearemos la vocación desde sus orígenes, cuando comenzamos a emocionarnos con canciones, soñamos con nuestro primer instrumento y nos adentramos en la aventura del aprendizaje. Montaremos una banda, sin duda la parte más divertida y emocionante de todas las actividades musicales, y entraremos en el estudio de grabación para experimentar con micrófonos, emociones y divorcios que alcanzan la categoría de arte.\n\nA la hora de defender valores estéticos, los músicos nos servimos de la inspiración, la creatividad, la improvisación, las musas, el dinero y los demonios, de cuyo manejo dependemos para llegar sanos y salvos al estribillo, y que también repasaremos buscando ese punto extra de motivación.\n\nLa lectura de este libro puede alumbrar planes futuros sin importar lo relevantes que resulten: la música siempre sorprende. Hemos mirado el mundo a través de las orejas, de la misma manera en que lo hacemos cuando comenzamos a tocar una canción, con convencimiento y expresión, viviendo la interpretación musical como un baile entre realidad y ficción, con sus grandes verdades, con sus sugerentes mentiras.'
     },
+    {
+        titulo: 'Chico & Rita',
+        categoria: 'Comic',
+        autor: 'Javier Mariscal y Fernando Trueba',
+        ISBN:'978-84-96722-73-6',
+        depositoLegal:'M-48886-2010',
+        caratula: '1.jpg',
+        editorial:'www.sinsentido.es',
+        enlace:'https://www.elargonauta.com/libros/chico-rita/978-84-96722-73-6',
+        sinopsis:'El director Fernando Trueba y el diseñador Javier Mariscal se unen en Chico & Rita para contar una hermosa historia de amor. Unidos por su común amor y admiración por la música y la cultura cubana, Trueba y Mariscal nos ofrecen una sensual recreación de una época, La Habana y Nueva York en plena efervescencia del jazz.\n\nAdaptación de la película del mismo nombre, Chico & Rita es una novela gráfica resultado del arduo trabajo de hacer una adaptación ?a la inversa?. Esta vez es la película quien ha dado el pistoletazo de salida a la producción del libro.\n\nEl deseo inicial por hacer esta película proviene de mi amor y admiración por el trabajo de Mariscal. Para mí, Mariscal es un hijo de Picasso. Es Mediterráneo en estado puro. Es muy sensual, muy vital. Su trazo libre, la alegría de su línea, su sentido de color, sus temas ?las mujeres, el mar, el cielo, la comida? son elementos esenciales de nuestra vida, de nuestra cultura. Había soñado cómo sería una película ?pintada? íntegramente por Mariscal. Hacer juntos Chico & Rita es la materialización de ese sueño.? (Fernando Trueba)\n\nUno toca muchas cosas, tomas parte de tu propia vida y 90 minutos de tiempo de la gente y tenéis un diálogo. Esto no suele ser normal. Cuando trabajas con color y luz, con personajes, movimiento y voces, y esos tipos de ritmos y música, se pueden decir muchas cosas.? (Javier Mariscal, sobre el poder del cine).\n\nEn la Cuba de finales de los cuarenta, Chico y Rita inician una apasionada historia de amor. Chico es un joven pianista enamorado del jazz y Rita sueña con ser una gran cantante. Desde la noche en que el destino los junta en un baile de La Habana, la vida va uniéndolos y separándolos como a los personajes de un bolero.'
+    },
+    {
+        titulo: 'Bob Dylan Revisited',
+        categoria: 'Comic',
+        autor: 'Varios autores',
+        ISBN:'978-84-679-0273-0',        
+        caratula: '2.jpeg',
+        editorial:'https://www.normaeditorial.com/',
+        enlace:'https://www.normaeditorial.com/ficha/comic-europeo/bob-dylan',
+        sinopsis:'Bob Dylan es un artista del Renacimiento. Compositor, poeta, pintor… su arte se extiende a muchas otras disciplinas, como demuestra su carrera y la infl uencia que supone para otros creadores como fotógrafos, diseñadores, escritores, cineastas… Ya era hora de que el cómic le rindiera un homenaje como es debido. \n\nBob Dylan Revisited reúne 13 canciones míticas del compositor norteamericano adaptadas por 13 distintos autores de cómic. 13 versiones dibujadas para disfrutar mientras se escuchan las canciones originales, o mientras se tararean o recuerdan. \n\nAlgunos de los dibujantes que participan son: Lorenzo Mattotti, Jean-Claude Götting, Dave McKean, Alfred, Gradimir Smudja, Benjamin Flao y Zep, entre otros.'    },
     
 ];

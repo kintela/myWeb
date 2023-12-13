@@ -1,35 +1,19 @@
-.containerOLD {
-    background-image: url('../../assets/telecaster2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+  .row {
     display: flex;
-    flex-direction: column; /* Ordena los hijos en una columna */
-    align-items: center; /* Centra los hijos horizontalmente */
-    text-align: center;
-    padding-top: 20px; /* Agrega un espacio en la parte superior, ajusta según sea necesario */
-  }
-
-  .container {
-    background-image: url('../../assets/telecaster2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Alinea el contenido al inicio (izquierda) del contenedor */
-    text-align: left; /* Alinea el texto a la izquierda */
-    padding-top: 20px; /* Ajusta al espacio deseado desde la parte superior */
-    padding-left: 6%; /* Ajusta al espacio deseado desde la izquierda */
+    justify-content: space-around; /* Ajusta esto según prefieras */
+    margin-bottom: 20px; /* Espacio entre filas */
   }
   
-  /* Si quieres que el texto se mantenga dentro de un ancho máximo: */
-  .text-content {
-    max-width: 600px; /* O el ancho máximo que desees */
-    width: 100%;
+  mat-card {
+    flex: 0 0 30%; /* Cada tarjeta ocupa el 30% del espacio */
+    /* Ajusta el tamaño de las imágenes */
+    img {
+      width: 100%; /* Hace que la imagen sea responsiva y se ajuste al contenedor */
+      height: auto;
+      cursor: pointer;
+    }
   }
+  
 
   
   

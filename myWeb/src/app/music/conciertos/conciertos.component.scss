@@ -21,6 +21,11 @@
     align-items: center; /* Centra los elementos verticalmente */
     gap: 20px; /* Establece una separación fija entre elementos */
 }
+
+.encabezado-con-busqueda.mobile-view {
+    flex-direction: column;
+    align-items: flex-start;
+}
   
 .encabezado-con-busqueda h4 {
     flex: 0 0 auto; /* No crece, no se encoje y se basa en su ancho automático */

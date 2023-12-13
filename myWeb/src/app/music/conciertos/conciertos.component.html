@@ -1,5 +1,4 @@
-
-<div class="encabezado-con-busqueda">
+<div class="encabezado-con-busqueda" [ngClass]="{'mobile-view': isScreenSmall}">
     <mat-form-field class="campo-busqueda">
         <mat-label>Buscar</mat-label>
         <input matInput [(ngModel)]="filtroBusqueda" (ngModelChange)="actualizarFiltro()" placeholder="Escribe para filtrar..." />

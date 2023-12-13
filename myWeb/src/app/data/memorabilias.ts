@@ -7772,6 +7772,7 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',   
     },
     {
+        conciertoId: 173,
         imagen:'1136.jpg',
         titulo:'Mi Hermana Corina',
         grupo:'Mi Hermana Corina',

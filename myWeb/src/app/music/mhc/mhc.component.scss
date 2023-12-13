@@ -31,5 +31,44 @@ mat-card {
     height: 40px;
   }
 
+  .logo-container {
+    max-width: 200px; /* O el tamaño máximo que prefieras */
+    margin: auto; /* Centrar el logo si es necesario */
+  }
+  
+  .logo_mhc {
+    width: 100%; /* Esto hará que la imagen sea tan ancha como su contenedor */
+    height: auto; /* Esto asegura que la altura se ajuste para mantener la proporción */
+  }
+  
+  p {
+    text-align: center;
+    margin: auto;
+    margin: 1em auto; /* Añade espacio antes y después de cada párrafo */
+    //max-width: 800px; /* O el ancho máximo que prefieras */
+  }
+  
+  .link-container {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .fans {
+    display: flex;
+    flex-wrap: wrap; /* Las imágenes se moverán a la siguiente línea si no hay espacio */
+    justify-content: space-around; /* Distribuye las imágenes uniformemente */
+    align-items: flex-start; /* Alinea las imágenes en la parte superior del contenedor */
+    gap: 10px; /* Esto reemplaza la necesidad de margin y agrega espacio entre las imágenes */
+  }
+  
+  .fans img {
+    max-width: 20%; /* Esto asegura que la imagen sea como máximo tan ancha como su contenedor */
+    height: auto; /* Esto asegura que la altura se ajuste para mantener la proporción */
+    object-fit: contain; /* Esto hace que la imagen se escale proporcionalmente dentro de su contenedor */
+    cursor: pointer; /* Esto hace que el cursor cambie a una mano cuando se pasa sobre la imagen */
+  }
+  
+  
+
   
   

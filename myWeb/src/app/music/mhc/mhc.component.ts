@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ReproductorVideoComponent } from 'src/app/shared/reproductor-video/reproductor-video.component';
+import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.component';
 
 @Component({
   selector: 'app-mhc',
@@ -23,4 +24,11 @@ export class MhcComponent {
       }
     });
   }
+
+  openImageViewer(image: string) {
+    this.dialog.open(VisorImagenComponent, {
+      data: { image: image },
+      panelClass: 'custom-dialog-container' // Clase para estilos personalizados
+    });
+  }  
 }

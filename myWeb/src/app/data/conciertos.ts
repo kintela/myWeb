@@ -2065,10 +2065,12 @@ export const conciertos:IConcierto[]=[
         videosInstagram:['https://www.instagram.com/p/CaqYI_PDRu7/?igshid=MTc4MmM1YmI2Ng%3D%3D','https://www.instagram.com/p/CcsN6CYDJ2x/?igshid=MTc4MmM1YmI2Ng%3D%3D'],
     },
     {
+        id: 173,
         fecha: new Date(Date.UTC(2022, 6, 20)),
         ciudad: 'Mundaka',
         sala: 'Casino',
         grupo: 'Mi Hermana Corina',
+        fotos: true,
         videosInstagram:['https://www.instagram.com/p/CeHNjNvDO-9/?igshid=MTc4MmM1YmI2Ng%3D%3D'],
     },
     {

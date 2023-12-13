@@ -1,10 +1,11 @@
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { IMemorabilia } from 'src/app/data/IMemorabilia';
 import { memorabilias } from 'src/app/data/memorabilias';
 import { memorabilias2 } from 'src/app/data/memorabilias2';
 import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.component';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-memorabilia',
@@ -19,20 +20,25 @@ export class MemorabiliaComponent implements OnInit {
   searchText = '';
   filteredMemorabilias: IMemorabilia[] = [];
 
-  constructor(private dialog: MatDialog, private route: ActivatedRoute) { }  
+
+  constructor(private dialog: MatDialog, private route: ActivatedRoute, private router: Router, private location: Location) { }  
 
   ngOnInit(): void {
     this.memorabilias = [...this.memorabilias1, ...this.memorabilias2];
+    
+
+    this.filteredMemorabilias = this.memorabilias;
+
     this.route.queryParams.subscribe(queryParams => {
       if (queryParams['conciertoId']) {
         const conciertoId = +queryParams['conciertoId'];
-
-        console.log('conciertoId', conciertoId);
   
-        this.aplicarFiltroRuta(conciertoId);
+        this.aplicarFiltroConcierto(conciertoId);
+      } 
+      if(queryParams['search']){
+        this.searchText = queryParams['search'];        
 
-      } else {
-        this.filteredMemorabilias = this.memorabilias;
+        this.aplicarFiltroSearch();
       }
     });
 
@@ -42,12 +48,52 @@ export class MemorabiliaComponent implements OnInit {
   }
   
 
-  aplicarFiltroRuta(conciertoId: number) {
-    this.filteredMemorabilias = this.memorabilias.filter(memorabilia =>memorabilia.conciertoId===conciertoId);
+  aplicarFiltroConcierto(conciertoId: number) {
+    const queryParams: any = {};
+    queryParams['conciertoId'] = conciertoId;
+
+    this.filteredMemorabilias = this.filteredMemorabilias.filter(memorabilia =>memorabilia.conciertoId===conciertoId);
+    
+    const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
+    this.location.go(url);
+  }
+
+  aplicarFiltroSearch() {
+    const queryParams: any = {};
+  
+    if (this.searchText) {
+      queryParams['search'] = this.searchText;
+      const terminoBusqueda = this.searchText.toLowerCase();
+      this.filteredMemorabilias = this.memorabilias.filter(m => {
+        return Object.keys(m).some(key => m[key] && m[key].toString().toLowerCase().includes(terminoBusqueda));
+      });
+    } else {
+      // Si searchText está vacío, simplemente muestra todas las memorabilias
+      this.filteredMemorabilias = this.memorabilias;
+    }
+  
+    // Crear una nueva URL con los queryParams actualizados
+    const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
+    this.location.go(url);
+  }
+  
+
+  aplicarFiltroSearchold() {
+    const queryParams: any = {};
+    queryParams['search'] = this.searchText;
+
+    const terminoBusqueda = this.searchText.toLowerCase();
+    this.filteredMemorabilias = this.filteredMemorabilias.filter(m => {
+        return Object.keys(m).some(
+          key => m[key] && m[key].toString().toLowerCase().includes(terminoBusqueda)
+        );
+      });
+
+    const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
+    this.location.go(url);
   }
   
   
-
   applyFilter() {
     this.filteredMemorabilias = this.memorabilias.filter(item => 
       Object.values(item).some(val => 

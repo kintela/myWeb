@@ -56,12 +56,10 @@ export class ConciertosComponent implements OnInit {
     window.open(url, '_blank'); // Abre en una nueva pestaña
   }
 
-
   
   actualizarFiltro(): void {
     let conciertosFiltrados = this.conciertos;
   
-    // Objeto para almacenar los queryParams
     const queryParams: any = {};
   
     // Filtra primero por búsqueda

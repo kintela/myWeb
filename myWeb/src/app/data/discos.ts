@@ -1,6 +1,32 @@
 import { IDisco } from "./IDisco";
 
-export const discos:IDisco[]=[
+export const discos:IDisco[]=[   
+    {
+        grupo:"Mi Hermana Corina",
+        titulo:"In a sea of prawns",
+        year:2002,
+        estudio:"Tipo Pete",
+        spotify:"https://open.spotify.com/intl-es/album/0gGiDA0q5aMb37UWoaFjk7?si=lBbuGed_Td2kfB9xwihBHg",
+        caratula:"assets/memorabilia/mhc/in_a_sea_off_prawns.jpg",
+        video:"https://www.youtube.com/embed/WN5FP6GVmy8?si=UjzLfx5WnetfJRIy"
+    },
+    {
+        grupo:"Mi Hermana Corina",
+        titulo:"Sisterland",
+        year:2004,
+        estudio:"Letamendia Records",
+        spotify:"https://open.spotify.com/intl-es/album/0Uxibu93QWCshaeWGrw3qF?si=ao8J5XPjR9G234i-4ayIRA",
+        caratula:"assets/memorabilia/mhc/sisterland.jpg",        
+    },
+    {
+        grupo:"Mi Hermana Corina",
+        titulo:"MHC",
+        year:2007,
+        estudio:"Tio Pete",
+        spotify:"https://open.spotify.com/intl-es/album/7HiwqYyRyBpvC4Je1FEvZX?si=QgFxSEReQxWMXOA5BIab8A",
+        caratula:"assets/memorabilia/mhc/mhc.jpg",
+        video:"https://www.youtube.com/embed/nblnaqbA2x8?si=EjwZmO3WJg5XA2Nx"
+    },
     {
         grupo:"Mi Hermana Corina",
         titulo:"Wito",
@@ -41,7 +67,7 @@ export const discos:IDisco[]=[
         titulo:"While",
         year:2021,
         estudio:"Tigre",
-        spotify:"https://open.spotify.com/intl-es/album/64jZdpzGLDlTBDw8XmVy8V?si=8XidP1T7R3qL9BNarUf0Hg",
+        spotify:"https://open.spotify.com/intl-es/album/6Z0Gkjv9knLLgVbHuoZcSq?si=m9JeWAQ8SqG1RiOY7_Sy2Q",
         caratula:"assets/memorabilia/mhc/while.jpg"
     },
     {
@@ -52,5 +78,6 @@ export const discos:IDisco[]=[
         spotify:"https://open.spotify.com/intl-es/album/7t5Z1IJByWGBIUohmZkv3T?si=Zfgh-LT_Sx6YdfILnA4b7A",
         caratula:"assets/memorabilia/mhc/y_que_bonito_es_candanchu.jpg",
         conciertoId:177,
-    }
+    },
+   
 ]

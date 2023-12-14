@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { IDisco } from 'src/app/data/IDisco';
 import { discos } from 'src/app/data/discos';
 import { ReproductorVideoComponent } from 'src/app/shared/reproductor-video/reproductor-video.component';
 import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.component';
@@ -9,10 +10,18 @@ import { VisorImagenComponent } from 'src/app/shared/visor-imagen/visor-imagen.c
   templateUrl: './mhc.component.html',
   styleUrls: ['./mhc.component.scss']
 })
-export class MhcComponent {
+export class MhcComponent implements OnInit{
   discos=discos;
+
+  primerosDiscos:IDisco[]=[];
+  restoDiscos:IDisco[]=[];
   
   constructor(private dialog: MatDialog) { }
+
+  ngOnInit(): void {
+    this.primerosDiscos = this.discos.filter(disco => disco.year < 2010);
+    this.restoDiscos = this.discos.filter(disco => disco.year >= 2010);
+  }
 
   abrirConciertos() {
     const url = document.location.origin + '/music/conciertos?grupo=Mi%20Hermana%20Corina';

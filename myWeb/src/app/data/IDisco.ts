@@ -6,4 +6,5 @@ export interface IDisco{
     spotify?:string;
     conciertoId?:number
     caratula:string;
+    video?:string;
 }

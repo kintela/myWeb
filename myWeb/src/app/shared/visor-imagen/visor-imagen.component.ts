@@ -12,7 +12,12 @@ export class VisorImagenComponent implements OnInit{
   constructor(@Inject(MAT_DIALOG_DATA) public data: any, public dialogRef: MatDialogRef<VisorImagenComponent>) {}
 
   ngOnInit(): void {
-    this.imagePath =  this.data.image;
+    if (this.data.origen=='conciertos' || this.data.origen=='memorabilia') {
+      this.imagePath = 'assets/memorabilia/' + this.data.image;
+    }else{
+      this.imagePath =  this.data.image;
+    }
+    
   }
 
   cerrarDialogo(): void {

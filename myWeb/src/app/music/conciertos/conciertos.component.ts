@@ -113,7 +113,7 @@ export class ConciertosComponent implements OnInit {
 
   openImageViewer(image: string) {
     this.dialog.open(VisorImagenComponent, {
-      data: { image: image },
+      data: { image: image, origen: 'conciertos' },
       panelClass: 'custom-dialog-container' // Clase para estilos personalizados
     });
   }  

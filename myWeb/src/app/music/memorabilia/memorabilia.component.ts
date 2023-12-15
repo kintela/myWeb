@@ -104,7 +104,7 @@ export class MemorabiliaComponent implements OnInit {
 
   openImageViewer(image: string) {
     this.dialog.open(VisorImagenComponent, {
-      data: { image: image },
+      data: { image: image , origen:'memorabilia'},
       panelClass: 'custom-dialog-container' // Clase para estilos personalizados
     });
   }

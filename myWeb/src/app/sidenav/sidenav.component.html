@@ -58,6 +58,12 @@
                 </mat-expansion-panel>
             </mat-accordion>
 
+            <mat-nav-list (click)="snav.toggle()">
+                <a mat-list-item class='nav-link' routerLink="lamentxu" (click)="changeTitle('La Mentxu')">
+                    <mat-icon class="mat-icon-color">celebration</mat-icon>La Mentxu
+                </a>
+            </mat-nav-list>
+
             <!--<mat-nav-list (click)="snav.toggle()">
                 <a mat-list-item class='nav-link' routerLink="historia" (click)="changeTitle('Historia')">
                     <mat-icon class="mat-icon-color">book</mat-icon>Historia

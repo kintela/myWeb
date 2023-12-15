@@ -1210,5 +1210,7 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Mi Hermana Corina',
         origen:'propia', 
     },
+    
+
 
 ]

@@ -1,0 +1,52 @@
+.content-container {
+    display: flex;
+    flex-direction: column; /* Cambiamos a columna para que los elementos se apilen verticalmente */
+  }
+  
+  .logo-container {
+    align-self: flex-start; /* Alinea la imagen al principio del contenedor */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    order: 1; /* Esto asegura que la imagen se muestre primero */
+    width: 100%; /* Esto ocupa el ancho completo para que el texto debajo empiece debajo de la imagen */
+    max-width: 150px; /* Ajusta el tamaño máximo de la imagen */
+  }
+  
+  .logo_mentxu {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text-container {
+    order: 2; /* Esto asegura que el texto venga después de la imagen */
+  }
+  
+  @media screen and (min-width: 768px) {
+    .content-container {
+      flex-direction: row; /* Cambiamos a fila para que la imagen y el texto estén en la misma fila */
+    }
+  
+    .logo-container {
+      width: auto; /* Permite que la imagen retome su ancho natural */
+    }
+  
+    .text-container {
+      flex: 1; /* Permite que el texto ocupe el espacio restante */
+    }
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around; /* Ajusta esto según prefieras */
+    margin-bottom: 20px; /* Espacio entre filas */
+  }
+  
+  mat-card {
+    flex: 0 0 30%; /* Cada tarjeta ocupa el 30% del espacio */
+    /* Ajusta el tamaño de las imágenes */
+    img {
+      width: 100%; /* Hace que la imagen sea responsiva y se ajuste al contenedor */
+      height: auto;
+      cursor: pointer;
+    }
+  }

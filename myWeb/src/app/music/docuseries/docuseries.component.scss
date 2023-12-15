@@ -4,22 +4,21 @@
     flex-wrap: wrap;
     gap: 20px;
 }
-
-
   
-  .ficha {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  mat-list-item {
-    width: 50%; /* Esto hace que cada ficha ocupe la mitad del ancho del contenedor. */
+.ficha {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .frase {
   margin-bottom: 5px; /* Puedes ajustar este valor según tus necesidades */
 }
+
+mat-expansion-panel {
+  margin-bottom: 10px; /* Ajusta este valor según tus necesidades */
+}
+
 
 
 

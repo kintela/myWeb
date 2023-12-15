@@ -3,10 +3,13 @@
         <img [src]="imagen" alt="{{ texto }}">
     </div>
     <mat-card-content class="texto-centrado">
-      <a [href]="enlace" target="_blank">
+      <a [href]="enlace" target="_blank" *ngIf="origen!='dvd'">
         {{ texto }}
       </a>
     </mat-card-content>
+    <mat-card-footer *ngIf="origen=='dvd'">
+      {{ texto }}
+    </mat-card-footer>
 </mat-card>
 
   

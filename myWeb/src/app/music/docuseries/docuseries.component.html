@@ -9,144 +9,158 @@
         </mat-select>
       </mat-form-field>
       
-      <mat-list>                        
-            <mat-accordion>
-                <mat-expansion-panel>
-                    <mat-expansion-panel-header>
-                        <mat-panel-title>
-                          Mix ({{ getVideoCountByCategory('mix') }})
-                        </mat-panel-title>                        
-                    </mat-expansion-panel-header>
-                    <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
-                            <div *ngIf="video.categoria === 'Mix'">
-                              <app-ficha-video
-                                [imagen]="'assets/caratulas/videos/' + video.imagen"
-                                [enlace]="video.enlace"
-                                [texto]="video.texto">
-                              </app-ficha-video>
-                            </div>
-                        </ng-container>
+      <mat-accordion>         
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>
+                    Mix ({{ getVideoCountByCategory('mix') }})
+                  </mat-panel-title>                        
+              </mat-expansion-panel-header>
+              <div class="fichas-contenedor">
+                  <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                      <div *ngIf="video.categoria === 'Mix'">
+                        <app-ficha-video
+                          [imagen]="'assets/caratulas/videos/' + video.imagen"
+                          [enlace]="video.enlace"
+                          [texto]="video.texto">
+                        </app-ficha-video>
                       </div>
-                </mat-expansion-panel>
+                  </ng-container>
+                </div>
+          </mat-expansion-panel>
 
-                <mat-expansion-panel>
-                    <mat-expansion-panel-header>
-                        <mat-panel-title>
-                            Rock Radikal Vasco ({{ getVideoCountByCategory('rock radikal vasco') }})
-                        </mat-panel-title>                        
-                    </mat-expansion-panel-header>
-                    <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
-                            <div *ngIf="video.categoria === 'Rock Radikal Vasco'">
-                              <app-ficha-video
-                                [imagen]="'assets/caratulas/videos/' + video.imagen"
-                                [enlace]="video.enlace"
-                                [texto]="video.texto">
-                              </app-ficha-video>
-                            </div>
-                        </ng-container>
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      Rock Radikal Vasco ({{ getVideoCountByCategory('rock radikal vasco') }})
+                  </mat-panel-title>                        
+              </mat-expansion-panel-header>
+              <div class="fichas-contenedor">
+                  <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                      <div *ngIf="video.categoria === 'Rock Radikal Vasco'">
+                        <app-ficha-video
+                          [imagen]="'assets/caratulas/videos/' + video.imagen"
+                          [enlace]="video.enlace"
+                          [texto]="video.texto">
+                        </app-ficha-video>
                       </div>
-                </mat-expansion-panel>              
-              
-                <mat-expansion-panel>
-                    <mat-expansion-panel-header>
-                        <mat-panel-title>
-                            The Beatles ({{ getVideoCountByCategory('the beatles') }})
-                        </mat-panel-title>                        
-                    </mat-expansion-panel-header>
-                    <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
-                            <div *ngIf="video.categoria === 'the beatles'">
-                              <app-ficha-video
-                                [imagen]="'assets/caratulas/videos/' + video.imagen"
-                                [enlace]="video.enlace"
-                                [texto]="video.texto">
-                              </app-ficha-video>
-                            </div>
-                        </ng-container>
+                  </ng-container>
+                </div>
+          </mat-expansion-panel>              
+        
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      The Beatles ({{ getVideoCountByCategory('the beatles') }})
+                  </mat-panel-title>                        
+              </mat-expansion-panel-header>
+              <div class="fichas-contenedor">
+                  <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                      <div *ngIf="video.categoria === 'the beatles'">
+                        <app-ficha-video
+                          [imagen]="'assets/caratulas/videos/' + video.imagen"
+                          [enlace]="video.enlace"
+                          [texto]="video.texto">
+                        </app-ficha-video>
                       </div>
-                </mat-expansion-panel>        
-                
-                <mat-expansion-panel>
-                    <mat-expansion-panel-header>
-                        <mat-panel-title>
-                            The Rolling Stones ({{ getVideoCountByCategory('the rolling stones') }})
-                        </mat-panel-title>                        
-                    </mat-expansion-panel-header>
-                    <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
-                            <div *ngIf="video.categoria === 'the rolling stones'">
-                              <app-ficha-video
-                                [imagen]="'assets/caratulas/videos/' + video.imagen"
-                                [enlace]="video.enlace"
-                                [texto]="video.texto">
-                              </app-ficha-video>
-                            </div>
-                        </ng-container>
-                      </div>
-                </mat-expansion-panel>       
+                  </ng-container>
+                </div>
+          </mat-expansion-panel>        
           
-                <mat-expansion-panel>
-                    <mat-expansion-panel-header>
-                        <mat-panel-title>
-                            Eric Clapton ({{ getVideoCountByCategory('eric clapton') }})
-                        </mat-panel-title>                        
-                    </mat-expansion-panel-header>
-                    <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
-                            <div *ngIf="video.categoria === 'eric clapton'">
-                              <app-ficha-video
-                                [imagen]="'assets/caratulas/videos/' + video.imagen"
-                                [enlace]="video.enlace"
-                                [texto]="video.texto">
-                              </app-ficha-video>
-                            </div>
-                        </ng-container>
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      The Rolling Stones ({{ getVideoCountByCategory('the rolling stones') }})
+                  </mat-panel-title>                        
+              </mat-expansion-panel-header>
+              <div class="fichas-contenedor">
+                  <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                      <div *ngIf="video.categoria === 'the rolling stones'">
+                        <app-ficha-video
+                          [imagen]="'assets/caratulas/videos/' + video.imagen"
+                          [enlace]="video.enlace"
+                          [texto]="video.texto">
+                        </app-ficha-video>
                       </div>
-                </mat-expansion-panel>       
+                  </ng-container>
+                </div>
+          </mat-expansion-panel>       
+    
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      Eric Clapton ({{ getVideoCountByCategory('eric clapton') }})
+                  </mat-panel-title>                        
+              </mat-expansion-panel-header>
+              <div class="fichas-contenedor">
+                  <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                      <div *ngIf="video.categoria === 'eric clapton'">
+                        <app-ficha-video
+                          [imagen]="'assets/caratulas/videos/' + video.imagen"
+                          [enlace]="video.enlace"
+                          [texto]="video.texto">
+                        </app-ficha-video>
+                      </div>
+                  </ng-container>
+                </div>
+          </mat-expansion-panel>       
 
-                <mat-expansion-panel>
-                    <mat-expansion-panel-header>
-                        <mat-panel-title>
-                            Festivales ({{ getVideoCountByCategory('festivales') }})
-                        </mat-panel-title>                        
-                    </mat-expansion-panel-header>
-                    <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
-                            <div *ngIf="video.categoria === 'festivales'">
-                              <app-ficha-video
-                                [imagen]="'assets/caratulas/videos/' + video.imagen"
-                                [enlace]="video.enlace"
-                                [texto]="video.texto">
-                              </app-ficha-video>
-                            </div>
-                        </ng-container>
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      Festivales ({{ getVideoCountByCategory('festivales') }})
+                  </mat-panel-title>                        
+              </mat-expansion-panel-header>
+              <div class="fichas-contenedor">
+                  <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                      <div *ngIf="video.categoria === 'festivales'">
+                        <app-ficha-video
+                          [imagen]="'assets/caratulas/videos/' + video.imagen"
+                          [enlace]="video.enlace"
+                          [texto]="video.texto">
+                        </app-ficha-video>
                       </div>
-                </mat-expansion-panel>    
-                
-                <mat-expansion-panel>
-                    <mat-expansion-panel-header>
-                        <mat-panel-title>
-                            Punk ({{ getVideoCountByCategory('punk') }})
-                        </mat-panel-title>                        
-                    </mat-expansion-panel-header>
-                    <div class="fichas-contenedor">
-                        <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
-                            <div *ngIf="video.categoria === 'punk'">
-                              <app-ficha-video
-                                [imagen]="'assets/caratulas/videos/' + video.imagen"
-                                [enlace]="video.enlace"
-                                [texto]="video.texto">
-                              </app-ficha-video>
-                            </div>
-                        </ng-container>
+                  </ng-container>
+                </div>
+          </mat-expansion-panel>    
+          
+          <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      Punk ({{ getVideoCountByCategory('punk') }})
+                  </mat-panel-title>                        
+              </mat-expansion-panel-header>
+              <div class="fichas-contenedor">
+                  <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                      <div *ngIf="video.categoria === 'punk'">
+                        <app-ficha-video
+                          [imagen]="'assets/caratulas/videos/' + video.imagen"
+                          [enlace]="video.enlace"
+                          [texto]="video.texto">
+                        </app-ficha-video>
                       </div>
-                </mat-expansion-panel>     
-
-            </mat-accordion>
-      </mat-list>        
-    </mat-card-content>
+                  </ng-container>
+                </div>
+          </mat-expansion-panel>   
+          
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                  DVDs
+                </mat-panel-title>                        
+            </mat-expansion-panel-header>
+            <div class="fichas-contenedor">
+                <ng-container *ngFor="let dvd of dvds; let i = index">
+                      <app-ficha-video
+                        [imagen]="'assets/memorabilia/dvds/' + dvd.imagen"
+                        [texto]="dvd.titulo"
+                        [origen]="'dvd'">
+                      </app-ficha-video>
+                </ng-container>
+              </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </mat-card-content>
 
     <mat-card-footer>
       <div class="frase">

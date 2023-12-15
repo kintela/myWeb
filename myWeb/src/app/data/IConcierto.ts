@@ -1,6 +1,6 @@
 export interface IConcierto {
     id?:number
-    fecha?:Date;
+    fecha:Date;
     sala?:string;
     ciudad?:string;
     videos?:string[];

@@ -1032,6 +1032,7 @@ export const conciertos:IConcierto[]=[
         sala:'Velódromo Anoeta',
         grupo: 'Judas Priest',
         entrada: "entradas/1.jpg",   
+        cronica: 'https://www.facebook.com/inforock.net/photos/a.576767165704035/2963714467009281/?type=3',
         fotos: true
     },
     {

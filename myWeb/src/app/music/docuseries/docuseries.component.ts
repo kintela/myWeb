@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IVideo } from 'src/app/data/IVideo';
+import { dvds } from 'src/app/data/dvds';
 import { videos } from 'src/app/data/videos';
 
 @Component({
@@ -11,6 +12,7 @@ export class DocuseriesComponent implements OnInit{
   videos=videos;
   plataformas: string[] = [];
   plataformaSeleccionada: string = 'todas';
+  dvds=dvds;
 
   ngOnInit(): void {
     this.plataformas = this.getPlataformasUnicas();

@@ -57,7 +57,7 @@
               </div>
               <div *ngIf="concierto.fotos">
                 <div>
-                  <a  (click)="navegarAFotos(concierto)" class="clickable-link">Fotos</a>
+                  <a  (click)="navegarAFotos(concierto.id)" class="clickable-link">Fotos</a>
                 </div>                
               </div>
               <div *ngIf="concierto.cartel">
@@ -101,7 +101,7 @@
               </div>  
               <div *ngIf="concierto.fotos">
                 <div>
-                  <a  (click)="navegarAFotos(concierto)" class="clickable-link">Fotos</a>
+                  <a  (click)="navegarAFotos(concierto.id)" class="clickable-link">Fotos</a>
                 </div>                
               </div>
               <div *ngIf="concierto.cartel">

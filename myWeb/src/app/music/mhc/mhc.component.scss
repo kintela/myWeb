@@ -68,6 +68,15 @@ mat-card {
     object-fit: contain; /* Esto hace que la imagen se escale proporcionalmente dentro de su contenedor */
     cursor: pointer; /* Esto hace que el cursor cambie a una mano cuando se pasa sobre la imagen */
   }
+
+  .imagen-centrada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; /* Ajusta la imagen al 50% de su tamaño original */
+    height: auto; /* Mantiene la proporción original */
+  }
+  
   
   
 

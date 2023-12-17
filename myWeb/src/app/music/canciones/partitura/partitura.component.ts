@@ -7,7 +7,7 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
   styleUrls: ['./partitura.component.scss']
 })
 export class PartituraComponent implements OnInit {
-  rutaPartitura:string = "assets/partituras/";
+  rutaPartitura:string = "https://kintela.azureedge.net/assets/assets/partituras/";
   rutaPartituraCompleta: string;
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: any, public dialogRef: MatDialogRef<PartituraComponent>) { }

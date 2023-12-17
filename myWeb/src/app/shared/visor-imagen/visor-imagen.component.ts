@@ -13,7 +13,7 @@ export class VisorImagenComponent implements OnInit{
 
   ngOnInit(): void {
     if (this.data.origen=='conciertos' || this.data.origen=='memorabilia') {
-      this.imagePath = 'assets/memorabilia/' + this.data.image;
+      this.imagePath = 'https://kintela.azureedge.net/assets/assets/memorabilia/' + this.data.image;
     }else{
       this.imagePath =  this.data.image;
     }

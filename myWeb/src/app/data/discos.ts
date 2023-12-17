@@ -7,7 +7,7 @@ export const discos:IDisco[]=[
         year:2002,
         estudio:"Tipo Pete",
         spotify:"https://open.spotify.com/intl-es/album/0gGiDA0q5aMb37UWoaFjk7?si=lBbuGed_Td2kfB9xwihBHg",
-        caratula:"assets/memorabilia/mhc/in_a_sea_off_prawns.jpg",
+        caratula:"https://kintela.azureedge.net/assets/assets/memorabilia/mhc/in_a_sea_off_prawns.jpg",
         video:"https://www.youtube.com/embed/WN5FP6GVmy8?si=UjzLfx5WnetfJRIy"
     },
     {
@@ -16,7 +16,7 @@ export const discos:IDisco[]=[
         year:2004,
         estudio:"Letamendia Records",
         spotify:"https://open.spotify.com/intl-es/album/0Uxibu93QWCshaeWGrw3qF?si=ao8J5XPjR9G234i-4ayIRA",
-        caratula:"assets/memorabilia/mhc/sisterland.jpg",        
+        caratula:"https://kintela.azureedge.net/assets/assets/memorabilia/mhc/sisterland.jpg",        
     },
     {
         grupo:"Mi Hermana Corina",
@@ -24,7 +24,7 @@ export const discos:IDisco[]=[
         year:2007,
         estudio:"Tio Pete",
         spotify:"https://open.spotify.com/intl-es/album/7HiwqYyRyBpvC4Je1FEvZX?si=QgFxSEReQxWMXOA5BIab8A",
-        caratula:"assets/memorabilia/mhc/mhc.jpg",
+        caratula:"https://kintela.azureedge.net/assets/assets/memorabilia/mhc/mhc.jpg",
         video:"https://www.youtube.com/embed/nblnaqbA2x8?si=EjwZmO3WJg5XA2Nx"
     },
     {
@@ -34,7 +34,7 @@ export const discos:IDisco[]=[
         estudio:"Lorentzo Records",
         spotify:"https://open.spotify.com/intl-es/album/5KOaD4WBu5s4CQ3YKA0auz?si=4vXCtxWWRGuL0MCoVCaazg",
         conciertoId:174,
-        caratula:"assets/memorabilia/mhc/wito.jpg"
+        caratula:"https://kintela.azureedge.net/assets/assets/memorabilia/mhc/wito.jpg"
     },
     {
         grupo:"Mi Hermana Corina",
@@ -43,7 +43,7 @@ export const discos:IDisco[]=[
         estudio:"Lorentzo Records",
         spotify:"https://open.spotify.com/intl-es/album/6B8aAQ8tEsOTe1I6PLJeEH?si=pq9gbPk0QWidk3l0o53BEQ",
         conciertoId:175,
-        caratula:"assets/memorabilia/mhc/the_day_after.jpg"
+        caratula:"https://kintela.azureedge.net/assets/assets/memorabilia/mhc/the_day_after.jpg"
     },
     {
         grupo:"Mi Hermana Corina",
@@ -52,7 +52,7 @@ export const discos:IDisco[]=[
         estudio:"Tipo Pete",
         spotify:"https://open.spotify.com/intl-es/album/1PVJK3qvUVNZDjrC2mEwQi?si=00CO4hUtQoyz7Hd1pqUOlw",
         conciertoId:176,
-        caratula:"assets/memorabilia/mhc/stay_free.jpg"
+        caratula:"https://kintela.azureedge.net/assets/assets/memorabilia/mhc/stay_free.jpg"
     },
     {
         grupo:"Mi Hermana Corina",
@@ -60,7 +60,7 @@ export const discos:IDisco[]=[
         year:2017,
         estudio:"Tigre",
         spotify:"https://open.spotify.com/intl-es/album/64jZdpzGLDlTBDw8XmVy8V?si=8XidP1T7R3qL9BNarUf0Hg",
-        caratula:"assets/memorabilia/mhc/emhc2.jpg"
+        caratula:"https://kintela.azureedge.net/assets/assets/memorabilia/mhc/emhc2.jpg"
     },
     {
         grupo:"Mi Hermana Corina",
@@ -68,7 +68,7 @@ export const discos:IDisco[]=[
         year:2021,
         estudio:"Tigre",
         spotify:"https://open.spotify.com/intl-es/album/6Z0Gkjv9knLLgVbHuoZcSq?si=m9JeWAQ8SqG1RiOY7_Sy2Q",
-        caratula:"assets/memorabilia/mhc/while.jpg"
+        caratula:"https://kintela.azureedge.net/assets/assets/memorabilia/mhc/while.jpg"
     },
     {
         grupo:"Mi Hermana Corina",
@@ -76,7 +76,7 @@ export const discos:IDisco[]=[
         year:2013,
         estudio:"Lorentzo Records",
         spotify:"https://open.spotify.com/intl-es/album/7t5Z1IJByWGBIUohmZkv3T?si=Zfgh-LT_Sx6YdfILnA4b7A",
-        caratula:"assets/memorabilia/mhc/y_que_bonito_es_candanchu.jpg",
+        caratula:"https://kintela.azureedge.net/assets/assets/memorabilia/mhc/y_que_bonito_es_candanchu.jpg",
         conciertoId:177,
     },
    

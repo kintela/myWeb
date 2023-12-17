@@ -11,7 +11,7 @@
         <div class="fichas-contenedor">
             <ng-container *ngFor="let libro of librosFiltrados; let i = index">
                 <app-ficha-libro
-                    [caratula]="'assets/caratulas/libros/' + libro.caratula"
+                    [caratula]="'https://kintela.azureedge.net/assets/assets/caratulas/libros/' + libro.caratula"
                     [enlace]="libro.enlace"
                     [titulo]="libro.titulo"
                     [depositoLegal]="libro.depositoLegal"

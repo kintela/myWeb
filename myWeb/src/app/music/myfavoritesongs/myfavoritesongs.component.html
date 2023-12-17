@@ -3,7 +3,7 @@
   <mat-card-content>
       <div *ngFor="let cancion of canciones; let i = index">
         <app-ficha-cancion
-          [imagen]="'assets/caratulas/albums/' + cancion.imagen"
+          [imagen]="'https://kintela.azureedge.net/assets/assets/caratulas/albums/' + cancion.imagen"
           [enlace]="'cancion' + (i + 1) + '?titulo=' + cancion.titulo + '&grupo=' + cancion.grupo + '&album=' + cancion.album + '&anio=' + cancion.anio"
           [texto]="cancion.titulo"
           [spotify]="cancion.spotify"

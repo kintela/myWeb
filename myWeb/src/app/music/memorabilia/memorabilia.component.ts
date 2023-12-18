@@ -78,21 +78,6 @@ export class MemorabiliaComponent implements OnInit {
   }
   
 
-  aplicarFiltroSearchold() {
-    const queryParams: any = {};
-    queryParams['search'] = this.searchText;
-
-    const terminoBusqueda = this.searchText.toLowerCase();
-    this.filteredMemorabilias = this.filteredMemorabilias.filter(m => {
-        return Object.keys(m).some(
-          key => m[key] && m[key].toString().toLowerCase().includes(terminoBusqueda)
-        );
-      });
-
-    const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
-    this.location.go(url);
-  }
-  
   
   applyFilter() {
     this.filteredMemorabilias = this.memorabilias.filter(item => 

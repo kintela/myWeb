@@ -1,6 +1,14 @@
+<div class="encabezado-con-busqueda">
+    <mat-form-field>
+        <mat-label>Buscar</mat-label>
+        <input matInput [(ngModel)]="searchText" (ngModelChange)="aplicarFiltroSearch()" placeholder="Escribe para filtrar..." />
+    </mat-form-field>
+    
+    <h4>{{mediaFiltered.length}} coincidencias</h4>
+</div>
 <div class="container">
     <div class="cards-container">
-        <mat-card *ngFor="let item of media" class="card">
+        <mat-card *ngFor="let item of mediaFiltered" class="card">
             <mat-card-header>
                 <mat-card-subtitle>{{ item.timestamp | date }}</mat-card-subtitle>
             </mat-card-header>

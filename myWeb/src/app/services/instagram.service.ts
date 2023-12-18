@@ -21,6 +21,10 @@ export class InstagramService {
     return this.http.get<InstagramResponse>(this.functionUrl);
   }
 
+  getInstagramMediaOLD(url?: string): Observable<InstagramResponse> {
+    return this.http.get<InstagramResponse>(url || this.functionUrl);
+  }
+
   // Método para obtener los medios de la próxima página usando la URL de paginación.
   getMoreInstagramMedia(nextPageUrl: string): Observable<InstagramResponse> {
     return this.http.get<InstagramResponse>(nextPageUrl);

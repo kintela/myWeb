@@ -13,16 +13,18 @@ interface InstagramResponse {
   providedIn: 'root'
 })
 export class InstagramService { 
-  private baseUrl = 'https://graph.instagram.com/';
+  private functionUrl = 'https://famyweb.azurewebsites.net/api/HttpTriggerInstagram?code=tZ_akOLCcr6_rtn39D3rfiouj1jQkNOYpIC1BauEKb8bAzFuz28usg==';
 
   constructor(private http: HttpClient) { }
 
- getMedia(userId: string, accessToken: string): Observable<InstagramResponse> {
-    const url = `${this.baseUrl}${userId}/media?fields=id,media_type,media_url,caption,timestamp&access_token=${accessToken}`;
-    return this.http.get<InstagramResponse>(url);
+  getInstagramMedia(): Observable<InstagramResponse> {
+    return this.http.get<InstagramResponse>(this.functionUrl);
   }
 
-  getNextPage(nextPageUrl: string): Observable<InstagramResponse> {
+  // Método para obtener los medios de la próxima página usando la URL de paginación.
+  getMoreInstagramMedia(nextPageUrl: string): Observable<InstagramResponse> {
     return this.http.get<InstagramResponse>(nextPageUrl);
   }
+
+  
 }

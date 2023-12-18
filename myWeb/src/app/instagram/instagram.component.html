@@ -1,18 +1,31 @@
 <div class="container">
-    <mat-card *ngFor="let item of media" class="card">
-        <mat-card-header>
-            <mat-card-title>{{ item.caption }}</mat-card-title>
-            <mat-card-subtitle>{{ item.timestamp | date }}</mat-card-subtitle>
-        </mat-card-header>
-        <img mat-card-image *ngIf="item.media_type === 'IMAGE'" [src]="item.media_url" alt="Imagen">
-      <mat-card-content>
-      </mat-card-content>
-      <mat-card-footer>
-        <a href="{{ item.media_url }}" target="_blank">Ver en Instagram</a>
-      </mat-card-footer>
-    </mat-card>
+    <div class="cards-container">
+        <mat-card *ngFor="let item of media" class="card">
+            <mat-card-header>
+                <mat-card-subtitle>{{ item.timestamp | date }}</mat-card-subtitle>
+            </mat-card-header>
+            <ng-container *ngIf="item.media_type === 'IMAGE'; else video">
+                <img mat-card-image *ngIf="item.media_type === 'IMAGE'" [src]="item.media_url" alt="Imagen" matTooltip="{{item.caption}}">
+            </ng-container>
+            <ng-template #video>
+                <img mat-card-image *ngIf="item.media_type === 'VIDEO'" [src]="item.thumbnail_url" alt="Imagen" matTooltip="{{item.caption}}">
+            </ng-template>
+          <mat-card-content>
+          </mat-card-content>
+          <mat-card-footer>
+            <ng-container *ngIf="item.media_type === 'IMAGE'; else videoLink">
+                <a href="{{ item.permalink }}" target="_blank">Ver foto</a>
+            </ng-container>
+            <ng-template #videoLink>
+                <a href="{{ item.permalink }}" target="_blank">Ver video</a>
+            </ng-template>              
+          </mat-card-footer>
+        </mat-card>    
+    </div>
 
-    <button *ngIf="nextPageUrl" (click)="loadMore()">Cargar más</button>
+    <div class="load-more-button-container" *ngIf="nextPageUrl">
+        <button mat-raised-button color="primary" (click)="loadMore()">Cargar más</button>
+    </div>
 
 </div>
   

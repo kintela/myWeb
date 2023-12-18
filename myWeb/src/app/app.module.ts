@@ -1,5 +1,6 @@
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -42,6 +43,7 @@ import { VisorImagenComponent } from './shared/visor-imagen/visor-imagen.compone
 import { Cancion18Component } from './music/canciones/cancion18/cancion18.component';
 import { MhcComponent } from './music/mhc/mhc.component';
 import { LamentxuComponent } from './lamentxu/lamentxu.component';
+import { InstagramComponent } from './instagram/instagram.component';
 
 registerLocaleData(localeEs);
 
@@ -79,14 +81,15 @@ registerLocaleData(localeEs);
     ConciertosComponent, 
     ReproductorVideoComponent, 
     MemorabiliaComponent, 
-    VisorImagenComponent, MhcComponent, LamentxuComponent     
+    VisorImagenComponent, MhcComponent, LamentxuComponent, InstagramComponent     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'es' } // Configurar español como el locale predeterminado

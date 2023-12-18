@@ -1341,6 +1341,66 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Nirvana',
         origen:'Facebook',
     },
+    {
+        imagen:'1739.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        grupo:'Nirvana',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1740.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        grupo:'Nirvana',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1741.jpg',
+        titulo:'Abraham Boba',
+        personas:' Abraham Boba',
+        grupo:'Leon Benavente',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1742.jpg',
+        titulo:'John Lennon',
+        personas:'John Lennon',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1743.jpg',
+        titulo:'Josh Homme',
+        personas:'Josh Homme',
+        grupo:'Queens of the Stone Age',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1744.jpg',
+        titulo:'John Lennon',
+        personas:'John Lennon',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1745.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1746.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1747.jpg',
+        titulo:'Steve Harris y Bruce Dickinson',
+        personas:'Steve Harris, Bruce Dickinson',
+        grupo:'Iron Maiden',
+        origen:'Facebook',
+    },
+    
     
 
 

@@ -1,0 +1,18 @@
+<div class="container">
+    <mat-card *ngFor="let item of media" class="card">
+        <mat-card-header>
+            <mat-card-title>{{ item.caption }}</mat-card-title>
+            <mat-card-subtitle>{{ item.timestamp | date }}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image *ngIf="item.media_type === 'IMAGE'" [src]="item.media_url" alt="Imagen">
+      <mat-card-content>
+      </mat-card-content>
+      <mat-card-footer>
+        <a href="{{ item.media_url }}" target="_blank">Ver en Instagram</a>
+      </mat-card-footer>
+    </mat-card>
+
+    <button *ngIf="nextPageUrl" (click)="loadMore()">Cargar más</button>
+
+</div>
+  

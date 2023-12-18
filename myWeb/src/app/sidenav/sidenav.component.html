@@ -64,6 +64,12 @@
                 </a>
             </mat-nav-list>
 
+            <mat-nav-list (click)="snav.toggle()">
+                <a mat-list-item class='nav-link' routerLink="instagram" (click)="changeTitle('Instagram')">
+                    <mat-icon class="mat-icon-color">photo</mat-icon>Instagram
+                </a>
+            </mat-nav-list>
+
             <!--<mat-nav-list (click)="snav.toggle()">
                 <a mat-list-item class='nav-link' routerLink="historia" (click)="changeTitle('Historia')">
                     <mat-icon class="mat-icon-color">book</mat-icon>Historia

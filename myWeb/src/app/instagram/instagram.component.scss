@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+.card {
+    margin: 5px;
+    width: 300px; 
+}
+
+.card img {
+    cursor: pointer; /* Cambia el cursor a mano/pointer */
+    /* Otros estilos de tu imagen */
+  }

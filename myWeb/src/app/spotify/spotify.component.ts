@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SpotifyService } from '../services/spotify.service';
-import { forkJoin, switchMap, take, tap } from 'rxjs';
+import { forkJoin, map, switchMap, take, tap } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -18,6 +18,8 @@ export class SpotifyComponent implements OnInit {
   spotifyUrl!:string
   profileImg!:string;
   userPlaylists: any[] = [];
+  userPlaylistsFiltered: any[] = [];
+  searchText = '';
 
   constructor(private spotifyService:SpotifyService, private route: ActivatedRoute) { }
 
@@ -61,31 +63,17 @@ export class SpotifyComponent implements OnInit {
     this.profileImg = profile.images[0].url;
   }
   
-  
-
-  private useAccessTokenOLD(accessToken: string) {
-    forkJoin({
-      profile: this.spotifyService.fetchProfile(accessToken),
-      playlists: this.spotifyService.fetchUserPlaylists(accessToken)
-    })
-    .subscribe(
-      data => {
-        this.populateUI(data.profile);
-        this.userPlaylists = data.playlists.items;
-        console.log("User's playlists:", data.playlists);
-      },
-      error => {
-        console.error(error);
-        // Si hay un error (por ejemplo, el token expiró), redirige para obtener un nuevo token
-        localStorage.removeItem('spotifyAccessToken');
-        this.spotifyService.redirectToAuthCodeFlow(this.clientId)
-          .pipe(take(1))
-          .subscribe(authUrl => {
-            window.location.href = authUrl;
-          });
-      }
-    );
+  aplicarFiltroSearch() {  
+    if (this.searchText) {
+      const terminoBusqueda = this.searchText.toLowerCase();
+      this.userPlaylistsFiltered = this.userPlaylists.filter(m => {
+        return Object.keys(m).some(key => m[key] && m[key].toString().toLowerCase().includes(terminoBusqueda));
+      });
+    } else {
+      this.userPlaylistsFiltered = this.userPlaylists;
+    }  
   }
+  
 
   private useAccessToken(accessToken: string) {
     forkJoin({
@@ -93,12 +81,17 @@ export class SpotifyComponent implements OnInit {
       playlists: this.spotifyService.fetchAllPlaylists(accessToken, 'https://api.spotify.com/v1/me/playlists?limit=20')
     })
     .pipe(
-      tap(data => console.log('Received combined data:', data))
+      tap(data => console.log('Received combined data:', data)),
+      map(data => {
+        data.playlists.sort((a, b) => a.name.localeCompare(b.name));
+        return data;
+      })
     )
     .subscribe(
       data => {
         this.populateUI(data.profile);
         this.userPlaylists = data.playlists;
+        this.aplicarFiltroSearch();
         console.log("User's playlists:", data.playlists);
       },
       error => {
@@ -113,5 +106,21 @@ export class SpotifyComponent implements OnInit {
       }
     );
   }
+
+  // En tu componente
+onPlaylistImageClick(playlistId: string) {
+  const accessToken = localStorage.getItem('spotifyAccessToken');
+  if (accessToken) {
+    this.spotifyService.fetchTracks(accessToken, playlistId).subscribe(tracks => {
+      console.log('Tracks:', tracks.items);
+      // Aquí se muestran las pistas por consola.
+    }, error => {
+      console.error('Error fetching tracks:', error);
+    });
+  } else {
+    console.log('Access Token is not available');
+  }
+}
+
 
 }

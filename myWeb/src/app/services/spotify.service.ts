@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, from, map } from 'rxjs';
+import { Observable, from, map, of, switchMap } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -56,7 +56,7 @@ export class SpotifyService {
     );
 }
 
-fetchUserPlaylists(token: string): Observable<any> {
+fetchUserPlaylistsOLD(token: string): Observable<any> {
   const headers = new Headers({
     'Authorization': `Bearer ${token}`
   });
@@ -66,6 +66,35 @@ fetchUserPlaylists(token: string): Observable<any> {
     headers: headers
   }).then(response => response.json()));
 }
+
+fetchUserPlaylists(token: string, url: string = "https://api.spotify.com/v1/me/playlists"): Observable<any> {
+  const headers = new Headers({
+    'Authorization': `Bearer ${token}`
+  });
+  
+  return from(fetch(url, {
+    method: "GET",
+    headers: headers
+  }).then(response => response.json()));
+}
+
+
+fetchAllPlaylists(accessToken: string, url: string): Observable<any[]> {
+  return this.fetchUserPlaylists(accessToken, url).pipe(
+    switchMap(data => {
+      if (data.next) {
+        // Si hay más datos, combina los resultados actuales con los siguientes
+        return this.fetchAllPlaylists(accessToken, data.next).pipe(
+          map(nextData => data.items.concat(nextData))
+        );
+      } else {
+        // Si no hay más datos, devuelve los resultados actuales
+        return of(data.items);
+      }
+    })
+  );
+}
+
 
 
 generateCodeChallenge(codeVerifier: string):Observable<string> {

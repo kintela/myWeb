@@ -17,7 +17,7 @@ export class SpotifyComponent implements OnInit {
   spotifyUri!:string;
   spotifyUrl!:string
   profileImg!:string;
-  //accessToken!:string;
+  userPlaylists: any[] = [];
 
   constructor(private spotifyService:SpotifyService, private route: ActivatedRoute) { }
 
@@ -30,13 +30,11 @@ export class SpotifyComponent implements OnInit {
     } else {
       this.route.queryParams.subscribe(params => {
         this.code = params['code'];
-        console.log("Captured code:", this.code);
-  
+        
         if (this.code) {
           this.spotifyService.getAccessToken(this.clientId, this.code)
             .pipe(
               tap(accessToken => {
-                console.log("Access Token:", accessToken);
                 localStorage.setItem('spotifyAccessToken', accessToken);
                 this.useAccessToken(accessToken);
               })
@@ -62,8 +60,10 @@ export class SpotifyComponent implements OnInit {
     this.spotifyUrl = profile.external_urls.spotify;
     this.profileImg = profile.images[0].url;
   }
+  
+  
 
-  private useAccessToken(accessToken: string) {
+  private useAccessTokenOLD(accessToken: string) {
     forkJoin({
       profile: this.spotifyService.fetchProfile(accessToken),
       playlists: this.spotifyService.fetchUserPlaylists(accessToken)
@@ -71,6 +71,34 @@ export class SpotifyComponent implements OnInit {
     .subscribe(
       data => {
         this.populateUI(data.profile);
+        this.userPlaylists = data.playlists.items;
+        console.log("User's playlists:", data.playlists);
+      },
+      error => {
+        console.error(error);
+        // Si hay un error (por ejemplo, el token expiró), redirige para obtener un nuevo token
+        localStorage.removeItem('spotifyAccessToken');
+        this.spotifyService.redirectToAuthCodeFlow(this.clientId)
+          .pipe(take(1))
+          .subscribe(authUrl => {
+            window.location.href = authUrl;
+          });
+      }
+    );
+  }
+
+  private useAccessToken(accessToken: string) {
+    forkJoin({
+      profile: this.spotifyService.fetchProfile(accessToken),
+      playlists: this.spotifyService.fetchAllPlaylists(accessToken, 'https://api.spotify.com/v1/me/playlists?limit=20')
+    })
+    .pipe(
+      tap(data => console.log('Received combined data:', data))
+    )
+    .subscribe(
+      data => {
+        this.populateUI(data.profile);
+        this.userPlaylists = data.playlists;
         console.log("User's playlists:", data.playlists);
       },
       error => {

@@ -1,26 +1,11 @@
-<!--<h1>Display your Spotify profile data</h1>
-
-<section id="profile">
-<h2>Logged in as <span id="displayName"></span></h2>
-<span id="avatar"></span>
-<ul>
-    <li>User ID: <span>{{id}}</span></li>
-    <li>Email: <span>{{email}}</span></li>
-    <li>Spotify URI: <a href="{{spotifyUri}}"></a>Uri</li>
-    <li>Link: <a href="{{spotifyUrl}}"></a>Link</li>
-    <li>Profile Image: <img src="{{profileImg}}"></li>
-</ul>
-</section>-->
-
-
 <div class="container">
     <div class="cards-container" >
         <mat-card class="card" *ngFor="let playlist of userPlaylists">
             <mat-card-header>
-              <div mat-card-avatar [style.background-image]="'url(' + playlist.images[0].url + ')'"></div>
-              <mat-card-title>{{ playlist.name }}</mat-card-title>
+              <!--<div mat-card-avatar [style.background-image]="'url(' + playlist.images[0].url + ')'" matTooltip="{{ playlist.name }}"></div>-->
+              <mat-card-subtitle>{{ playlist.name | truncate:20 }}</mat-card-subtitle>
             </mat-card-header>
-            <img mat-card-image [src]="playlist.images[0].url" alt="{{ playlist.name }}" matTooltip="{{playlist.description}}">
+            <img *ngIf="playlist.images.length > 0" mat-card-image [src]="playlist.images[0].url" alt="{{ playlist.name }}">
             <mat-card-content>
               <p>Tracks: {{ playlist.tracks.total }}</p>
             </mat-card-content>
@@ -28,9 +13,7 @@
               <a href="{{ playlist.external_urls.spotify }}" target="_blank">Abrir en Spotify</a>
             </mat-card-actions>
           </mat-card>
-    </div>
-
-   
+    </div>   
 </div>
     
   

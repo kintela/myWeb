@@ -45,6 +45,7 @@ import { MhcComponent } from './music/mhc/mhc.component';
 import { LamentxuComponent } from './lamentxu/lamentxu.component';
 import { InstagramComponent } from './instagram/instagram.component';
 import { SpotifyComponent } from './spotify/spotify.component';
+import { TruncatePipe } from './pipes/truncate.pipe';
 
 registerLocaleData(localeEs);
 
@@ -82,7 +83,12 @@ registerLocaleData(localeEs);
     ConciertosComponent, 
     ReproductorVideoComponent, 
     MemorabiliaComponent, 
-    VisorImagenComponent, MhcComponent, LamentxuComponent, InstagramComponent, SpotifyComponent     
+    VisorImagenComponent, 
+    MhcComponent, 
+    LamentxuComponent, 
+    InstagramComponent, 
+    SpotifyComponent, 
+    TruncatePipe     
   ],
   imports: [
     BrowserModule,

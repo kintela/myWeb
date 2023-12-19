@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SpotifyService } from '../services/spotify.service';
-import { switchMap, take } from 'rxjs';
+import { forkJoin, switchMap, take, tap } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -17,36 +17,41 @@ export class SpotifyComponent implements OnInit {
   spotifyUri!:string;
   spotifyUrl!:string
   profileImg!:string;
+  //accessToken!:string;
 
   constructor(private spotifyService:SpotifyService, private route: ActivatedRoute) { }
 
-  ngOnInit(): void {
-    this.route.queryParams.subscribe(params => {
-      this.code = params['code']; // Esto captura el código de la URL
-      console.log("Captured code:", this.code);
 
-      if (this.code) {
-        this.spotifyService.getAccessToken(this.clientId, this.code)
-          .pipe(
-            switchMap(accessToken => this.spotifyService.fetchProfile(accessToken))
-          )
-          .subscribe(
-            profile => {
-              this.populateUI(profile);
-            },
-            error => {
-              console.error(error);
-            }
-          );
-      } else {
-        this.spotifyService.redirectToAuthCodeFlow(this.clientId)
-          .pipe(take(1))
-          .subscribe(authUrl => {
-            window.location.href = authUrl;
-          });
-      }
-    });
+  ngOnInit(): void {
+    const storedAccessToken = localStorage.getItem('spotifyAccessToken');
+  
+    if (storedAccessToken) {
+      this.useAccessToken(storedAccessToken);
+    } else {
+      this.route.queryParams.subscribe(params => {
+        this.code = params['code'];
+        console.log("Captured code:", this.code);
+  
+        if (this.code) {
+          this.spotifyService.getAccessToken(this.clientId, this.code)
+            .pipe(
+              tap(accessToken => {
+                console.log("Access Token:", accessToken);
+                localStorage.setItem('spotifyAccessToken', accessToken);
+                this.useAccessToken(accessToken);
+              })
+            ).subscribe();
+        } else {
+          this.spotifyService.redirectToAuthCodeFlow(this.clientId)
+            .pipe(take(1))
+            .subscribe(authUrl => {
+              window.location.href = authUrl;
+            });
+        }
+      });
+    }
   }
+  
 
   populateUI(profile: any) {
     console.log('populateUI',profile);
@@ -56,6 +61,29 @@ export class SpotifyComponent implements OnInit {
     this.spotifyUri = profile.uri;
     this.spotifyUrl = profile.external_urls.spotify;
     this.profileImg = profile.images[0].url;
+  }
+
+  private useAccessToken(accessToken: string) {
+    forkJoin({
+      profile: this.spotifyService.fetchProfile(accessToken),
+      playlists: this.spotifyService.fetchUserPlaylists(accessToken)
+    })
+    .subscribe(
+      data => {
+        this.populateUI(data.profile);
+        console.log("User's playlists:", data.playlists);
+      },
+      error => {
+        console.error(error);
+        // Si hay un error (por ejemplo, el token expiró), redirige para obtener un nuevo token
+        localStorage.removeItem('spotifyAccessToken');
+        this.spotifyService.redirectToAuthCodeFlow(this.clientId)
+          .pipe(take(1))
+          .subscribe(authUrl => {
+            window.location.href = authUrl;
+          });
+      }
+    );
   }
 
 }

@@ -44,6 +44,7 @@ import { Cancion18Component } from './music/canciones/cancion18/cancion18.compon
 import { MhcComponent } from './music/mhc/mhc.component';
 import { LamentxuComponent } from './lamentxu/lamentxu.component';
 import { InstagramComponent } from './instagram/instagram.component';
+import { SpotifyComponent } from './spotify/spotify.component';
 
 registerLocaleData(localeEs);
 
@@ -81,7 +82,7 @@ registerLocaleData(localeEs);
     ConciertosComponent, 
     ReproductorVideoComponent, 
     MemorabiliaComponent, 
-    VisorImagenComponent, MhcComponent, LamentxuComponent, InstagramComponent     
+    VisorImagenComponent, MhcComponent, LamentxuComponent, InstagramComponent, SpotifyComponent     
   ],
   imports: [
     BrowserModule,

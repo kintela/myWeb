@@ -28,6 +28,7 @@ import { Cancion18Component } from './music/canciones/cancion18/cancion18.compon
 import { MhcComponent } from './music/mhc/mhc.component';
 import { LamentxuComponent } from './lamentxu/lamentxu.component';
 import { InstagramComponent } from './instagram/instagram.component';
+import { SpotifyComponent } from './spotify/spotify.component';
 
 const routes: Routes = [
   { path: 'cancion1', component: Cancion1Component },
@@ -57,6 +58,7 @@ const routes: Routes = [
   {path:'lamentxu',component: LamentxuComponent},
   {path:'historia',component: HistoriaComponent},
   {path:'instagram',component: InstagramComponent},
+  {path:'spotify',component: SpotifyComponent},
   {path: '',component: HomeComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];

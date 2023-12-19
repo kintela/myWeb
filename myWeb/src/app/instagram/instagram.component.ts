@@ -48,27 +48,5 @@ export class InstagramComponent implements OnInit {
     }  
   }
 
-  loadAllMedia(url?: string) {
-    /*if (!url && this.isLoadingAllMedia) {
-      return;
-    }
-    
-    this.isLoadingAllMedia = true;
-    this.instagramService.getInstagramMedia(url).subscribe(response => {
-      this.media = this.media.concat(response.data);
-      console.log(this.media);
-      this.nextPageUrl = response.paging.next;
-      if (this.nextPageUrl) {
-        this.loadAllMedia(this.nextPageUrl);
-      } else {
-        this.isLoadingAllMedia = false;
-        this.aplicarFiltroSearch(); 
-      }
-    },
-    error => console.error(error),
-    ()=>{
-      console.log(this.media);
-    });*/
-  }
 
 }

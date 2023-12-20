@@ -16,7 +16,7 @@
               mat-card-image 
                 [src]="playlist.images[0].url"
                 alt="{{ playlist.name }}" 
-                (click)="onPlaylistImageClick(playlist.id)"
+                (click)="onPlaylistImageClick(playlist.id, playlist.name)"
                 matTooltip="Detalle">
             <mat-card-content>
               <p>Tracks: {{ playlist.tracks.total }}</p>

@@ -121,10 +121,14 @@ onPlaylistImageClickOLD(playlistId: string) {
     console.log('Access Token is not available');
   }
 }
-  onPlaylistImageClick(playlistId: string) {
+  onPlaylistImageClick(playlistId: string, playListName:string) {
     const accessToken = localStorage.getItem('spotifyAccessToken');
     if (accessToken) {
-      this.router.navigate(['/spotify/tracks'], { queryParams: { playlistId: playlistId } });
+      const url = this.router.serializeUrl(
+        this.router.createUrlTree(['/spotify/tracks'], { queryParams: { playlistId: playlistId, playListName:playListName } })
+      );
+      window.open(url, '_blank');
+      //this.router.navigate(['/spotify/tracks'], { queryParams: { playlistId: playlistId, playListName:playListName } });
     } else {
       console.log('Access Token is not available');
     }

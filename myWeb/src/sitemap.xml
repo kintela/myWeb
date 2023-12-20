@@ -81,5 +81,7 @@
   <url>
     <loc>https://www.kintela.es/spotify</loc>
   </url>
-
+  <url>
+    <loc>https://www.kintela.es/spotify/tracks</loc>
+  </url>
 </urlset>

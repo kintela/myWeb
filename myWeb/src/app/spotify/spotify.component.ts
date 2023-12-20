@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SpotifyService } from '../services/spotify.service';
 import { forkJoin, map, switchMap, take, tap } from 'rxjs';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-spotify',
@@ -21,7 +21,7 @@ export class SpotifyComponent implements OnInit {
   userPlaylistsFiltered: any[] = [];
   searchText = '';
 
-  constructor(private spotifyService:SpotifyService, private route: ActivatedRoute) { }
+  constructor(private spotifyService:SpotifyService, private route: ActivatedRoute, private router: Router) { }
 
 
   ngOnInit(): void {
@@ -108,12 +108,12 @@ export class SpotifyComponent implements OnInit {
   }
 
   // En tu componente
-onPlaylistImageClick(playlistId: string) {
+onPlaylistImageClickOLD(playlistId: string) {
   const accessToken = localStorage.getItem('spotifyAccessToken');
   if (accessToken) {
     this.spotifyService.fetchTracks(accessToken, playlistId).subscribe(tracks => {
       console.log('Tracks:', tracks.items);
-      // Aquí se muestran las pistas por consola.
+      this.router.navigate(['/spotify/tracks'], { queryParams: { playlistId: playlistId } });
     }, error => {
       console.error('Error fetching tracks:', error);
     });
@@ -121,6 +121,14 @@ onPlaylistImageClick(playlistId: string) {
     console.log('Access Token is not available');
   }
 }
+  onPlaylistImageClick(playlistId: string) {
+    const accessToken = localStorage.getItem('spotifyAccessToken');
+    if (accessToken) {
+      this.router.navigate(['/spotify/tracks'], { queryParams: { playlistId: playlistId } });
+    } else {
+      console.log('Access Token is not available');
+    }
+  }
 
 
 }

@@ -12,7 +12,12 @@
             <mat-card-header>
               <mat-card-subtitle>{{ playlist.name | truncate:20 }}</mat-card-subtitle>
             </mat-card-header>
-            <img *ngIf="playlist.images.length > 0" mat-card-image [src]="playlist.images[0].url" alt="{{ playlist.name }}" (click)="onPlaylistImageClick(playlist.id)">
+            <img *ngIf="playlist.images.length > 0" 
+              mat-card-image 
+                [src]="playlist.images[0].url"
+                alt="{{ playlist.name }}" 
+                (click)="onPlaylistImageClick(playlist.id)"
+                matTooltip="Detalle">
             <mat-card-content>
               <p>Tracks: {{ playlist.tracks.total }}</p>
             </mat-card-content>

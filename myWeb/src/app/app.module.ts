@@ -46,6 +46,7 @@ import { LamentxuComponent } from './lamentxu/lamentxu.component';
 import { InstagramComponent } from './instagram/instagram.component';
 import { SpotifyComponent } from './spotify/spotify.component';
 import { TruncatePipe } from './pipes/truncate.pipe';
+import { TracksComponent } from './spotify/tracks/tracks.component';
 
 registerLocaleData(localeEs);
 
@@ -88,7 +89,7 @@ registerLocaleData(localeEs);
     LamentxuComponent, 
     InstagramComponent, 
     SpotifyComponent, 
-    TruncatePipe     
+    TruncatePipe, TracksComponent     
   ],
   imports: [
     BrowserModule,

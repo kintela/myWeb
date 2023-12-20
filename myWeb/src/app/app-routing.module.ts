@@ -29,6 +29,8 @@ import { MhcComponent } from './music/mhc/mhc.component';
 import { LamentxuComponent } from './lamentxu/lamentxu.component';
 import { InstagramComponent } from './instagram/instagram.component';
 import { SpotifyComponent } from './spotify/spotify.component';
+import { TracksComponent } from './spotify/tracks/tracks.component';
+import { AuthSpotifyService } from './guards/auth-spotify.service';
 
 const routes: Routes = [
   { path: 'cancion1', component: Cancion1Component },
@@ -59,6 +61,11 @@ const routes: Routes = [
   {path:'historia',component: HistoriaComponent},
   {path:'instagram',component: InstagramComponent},
   {path:'spotify',component: SpotifyComponent},
+  {
+    path:'spotify/tracks',
+    component: TracksComponent,
+    canActivate: [AuthSpotifyService]
+  },
   {path: '',component: HomeComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];

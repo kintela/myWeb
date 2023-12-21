@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap } from 'rxjs';
 import { MusixmatchService } from 'src/app/services/musixmatch.service';
 import { SpotifyService } from 'src/app/services/spotify.service';
+import { YoutubeService } from 'src/app/services/youtube.service';
 
 @Component({
   selector: 'app-tracks',
@@ -20,9 +22,13 @@ export class TracksComponent implements OnInit{
   albumSeleccionado!:string;
   playlistId!:string;
   playlistName!:string;
-  constructor(private route: ActivatedRoute, private spotifyService:SpotifyService, private musixMatchService: MusixmatchService) { }
+  videoUrl: SafeResourceUrl;
+
+  constructor(private route: ActivatedRoute, private spotifyService:SpotifyService, private musixMatchService: MusixmatchService,
+    private youtubeService:YoutubeService, private sanitizer: DomSanitizer) { }
 
   ngOnInit(): void {
+    this.getVideo('Mi Hermana Corina');
     const accessToken = localStorage.getItem('spotifyAccessToken');
     this.route.queryParams.subscribe(params => {
       this.playlistId = params['playlistId'];
@@ -38,6 +44,17 @@ export class TracksComponent implements OnInit{
         });
       }
     });
+  }
+
+  getVideo(pista:string):void{
+    this.youtubeService.getVideos(pista).subscribe(
+      data=>{
+        console.log('Video:',data);
+        this.setVideo('https://www.youtube.com/embed/'+data.items[0].id.videoId);
+      },
+      error=>console.error('Error al obtener el video:',error),
+      ()=>{}
+    );
   }
 
 
@@ -61,6 +78,11 @@ export class TracksComponent implements OnInit{
         console.error('Error al obtener la letra de la canción:', error);
       }
     );
+  }
+
+  private setVideo(url: string): void {
+    const autoplayUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${url}?autoplay=1`);
+    this.videoUrl = autoplayUrl;
   }
 
 }

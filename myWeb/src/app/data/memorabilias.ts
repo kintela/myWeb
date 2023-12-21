@@ -4130,7 +4130,7 @@ export const memorabilias:IMemorabilia[] = [
         origen:'propia',
     },
     {
-        imagen:'607.jeg',
+        imagen:'607.jpg',
         titulo:'Paul McCartney y Billy Preston',
         descripcion:'Primera vez que colaboran juntos en Get Back',
         personas:'Paul McCartney, Billy Preston',

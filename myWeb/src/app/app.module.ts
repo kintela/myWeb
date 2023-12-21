@@ -47,6 +47,7 @@ import { InstagramComponent } from './instagram/instagram.component';
 import { SpotifyComponent } from './spotify/spotify.component';
 import { TruncatePipe } from './pipes/truncate.pipe';
 import { TracksComponent } from './spotify/tracks/tracks.component';
+import { YoutubeComponent } from './youtube/youtube.component';
 
 registerLocaleData(localeEs);
 
@@ -89,7 +90,7 @@ registerLocaleData(localeEs);
     LamentxuComponent, 
     InstagramComponent, 
     SpotifyComponent, 
-    TruncatePipe, TracksComponent     
+    TruncatePipe, TracksComponent, YoutubeComponent     
   ],
   imports: [
     BrowserModule,

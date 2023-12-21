@@ -1,70 +1,60 @@
-<!-- Contenedor principal -->
-<div class="container">
-
-    <!-- Primera fila -->
-    <div class="row">
-      <!-- Columna de la tabla de pistas -->
-      <div class="column table-column">
-        <mat-card>
-            <mat-card-header>
-                <mat-card-title>{{playlistName}}</mat-card-title>   
-                <mat-card-subtitle>Lista de canciones</mat-card-subtitle>
-            </mat-card-header>
-            <mat-card-content>
-                <div class="mat-elevation-z8">
-                    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
-                        <ng-container matColumnDef="caratula">
-                            <th mat-header-cell *matHeaderCellDef> Carátula </th>
-                            <td mat-cell *matCellDef="let element"> 
-                            <img [src]="element.track.album.images[2]?.url" alt="Album Art" class="album-art">
-                            </td>
-                        </ng-container>
-                
-                        <ng-container matColumnDef="pista">
-                            <th mat-header-cell *matHeaderCellDef> Pista </th>
-                            <td mat-cell *matCellDef="let element"> {{element.track.name}} </td>
-                        </ng-container>
-                  
-                        <ng-container matColumnDef="album">
-                            <th mat-header-cell *matHeaderCellDef> Album </th>
-                            <td mat-cell *matCellDef="let element"> {{element.track.album.name}} </td>
-                        </ng-container>
-                  
-                        <ng-container matColumnDef="artista">
-                            <th mat-header-cell *matHeaderCellDef> Artista </th>
-                            <td mat-cell *matCellDef="let element"> {{element.track.artists[0].name}} </td>
-                        </ng-container>     
-                  
-                      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-                      <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="onSelectTrack(row.track)" class="clickable-row"></tr>
-                    </table>
-                </div>
-        
-            </mat-card-content>        
-        </mat-card>
-      </div>
-      
-      <!-- Columna de la letra de la canción -->
-      <div class="column lyrics-column">
-        <mat-card>
-            <mat-card-header>
-                <mat-card-title>{{pistaSeleccionada}}</mat-card-title>   
-                <mat-card-subtitle>{{artistaSeleccionado}} - {{albumSeleccionado}}</mat-card-subtitle>         
-            </mat-card-header>            
-            <mat-card-content>
-              <pre>{{ letrasCancion }}</pre>
-            </mat-card-content>
-          </mat-card>
-      </div>
-    </div>
-  
-    <!-- Segunda fila -->
-    <div class="row video-row">
-      <div class="video-container">
-        <iframe width="560" height="315" [src]="videoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
+<div class="container">    
+  <div class="column table-column">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>{{playlistName}}</mat-card-title>   
+            <mat-card-subtitle>Lista de canciones</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="mat-elevation-z8">
+                <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+                    <ng-container matColumnDef="caratula">
+                        <th mat-header-cell *matHeaderCellDef> Carátula </th>
+                        <td mat-cell *matCellDef="let element"> 
+                        <img [src]="element.track.album.images[2]?.url" alt="Album Art" class="album-art">
+                        </td>
+                    </ng-container>
+            
+                    <ng-container matColumnDef="pista">
+                        <th mat-header-cell *matHeaderCellDef> Pista </th>
+                        <td mat-cell *matCellDef="let element"> {{element.track.name}} </td>
+                    </ng-container>
+              
+                    <ng-container matColumnDef="album">
+                        <th mat-header-cell *matHeaderCellDef> Album </th>
+                        <td mat-cell *matCellDef="let element"> {{element.track.album.name}} </td>
+                    </ng-container>
+              
+                    <ng-container matColumnDef="artista">
+                        <th mat-header-cell *matHeaderCellDef> Artista </th>
+                        <td mat-cell *matCellDef="let element"> {{element.track.artists[0].name}} </td>
+                    </ng-container>     
+              
+                  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                  <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="onSelectTrack(row.track)" class="clickable-row"></tr>
+                </table>
+            </div>
+    
+        </mat-card-content>        
+    </mat-card>
   </div>
+      
+  <div class="column lyrics-video-column">
+    <mat-card *ngIf="pistaSeleccionada">
+        <mat-card-header>
+            <mat-card-title>{{pistaSeleccionada}}</mat-card-title>   
+            <mat-card-subtitle>{{artistaSeleccionado}} - {{albumSeleccionado}}</mat-card-subtitle>         
+        </mat-card-header>            
+        <mat-card-content>
+          <pre>{{ letrasCancion }}</pre>
+        </mat-card-content>
+    </mat-card>
+
+    <div class="video-container" *ngIf="pistaSeleccionada">
+      <iframe [src]="videoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>  
+</div>
   
 
 

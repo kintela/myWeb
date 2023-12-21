@@ -5,7 +5,7 @@
 }
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   
   .row {
@@ -15,19 +15,18 @@
   
   .column {
     flex: 1; /* Los elementos de la columna se expandirán uniformemente */
+    padding: 10px; /* Espaciado alrededor de las columnas */
   }
   
   .table-column {
     margin-right: 20px; /* Espacio entre la tabla y la columna de la letra */
   }
   
-  .lyrics-column {
-    flex: 2; /* La columna de la letra puede tomar más espacio si lo necesitas */
+  .video-container iframe {
+    width: 100%; /* El video se ajusta al ancho de la columna */
+    height: auto; /* Altura automática para mantener la proporción */
   }
   
-  .video-row {
-    width: 100%; /* El video abarcará el ancho completo */
-  }
 
   .clickable-row {
     cursor: pointer;

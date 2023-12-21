@@ -28,7 +28,6 @@ export class TracksComponent implements OnInit{
     private youtubeService:YoutubeService, private sanitizer: DomSanitizer) { }
 
   ngOnInit(): void {
-    this.getVideo('Mi Hermana Corina');
     const accessToken = localStorage.getItem('spotifyAccessToken');
     this.route.queryParams.subscribe(params => {
       this.playlistId = params['playlistId'];
@@ -46,7 +45,7 @@ export class TracksComponent implements OnInit{
     });
   }
 
-  getVideo(pista:string):void{
+  /*getVideo(pista:string):void{
     this.youtubeService.getVideos(pista).subscribe(
       data=>{
         console.log('Video:',data);
@@ -55,10 +54,10 @@ export class TracksComponent implements OnInit{
       error=>console.error('Error al obtener el video:',error),
       ()=>{}
     );
-  }
+  }*/
 
 
-  onSelectTrack(track: any): void {
+  onSelectTrackOLD(track: any): void {
     //console.log('Pista seleccionada:', track.name);
     this.pistaSeleccionada = track.name;
     this.artistaSeleccionado = track.artists[0].name;
@@ -79,6 +78,45 @@ export class TracksComponent implements OnInit{
       }
     );
   }
+
+  onSelectTrack(track: any): void {
+    this.pistaSeleccionada = track.name;
+    this.artistaSeleccionado = track.artists[0].name;
+    this.albumSeleccionado = track.album.name;
+  
+    // Llamada a MusixMatch para obtener el ID de la pista
+    this.musixMatchService.getMusixMatchTrackId(track.artists[0].name, track.name).pipe(
+      switchMap(response => {
+        const trackId = response.message.body.track_list[0].track.track_id;
+        console.log('Track ID:', trackId);
+  
+        // Obtiene las letras de la canción
+        return this.musixMatchService.getMusixMatchTrackLyrics(trackId);
+      }),
+      switchMap(lyricsResponse => {
+        this.letrasCancion = lyricsResponse.message.body.lyrics.lyrics_body;
+  
+        // Formar el término de búsqueda para YouTube
+        const searchTerm = `${this.artistaSeleccionado} ${this.albumSeleccionado} ${this.pistaSeleccionada}`;
+  
+        // Llamada a la API de YouTube para obtener el video
+        return this.youtubeService.getVideos(searchTerm);
+      })
+    ).subscribe(
+      videoResponse => {
+        console.log('Video:', videoResponse);
+        if (videoResponse.items && videoResponse.items.length > 0) {
+          this.setVideo('https://www.youtube.com/embed/' + videoResponse.items[0].id.videoId);
+        } else {
+          console.log('No se encontraron videos para esta pista.');
+        }
+      },
+      error => {
+        console.error('Error al obtener datos:', error);
+      }
+    );
+  }
+  
 
   private setVideo(url: string): void {
     const autoplayUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${url}?autoplay=1`);

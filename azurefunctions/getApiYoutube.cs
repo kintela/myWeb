@@ -25,7 +25,7 @@ namespace Kintela.Function
 
             try
             {
-                KeyVaultSecret secret = await client.GetSecretAsync("YoutubeApi");
+                KeyVaultSecret secret = await client.GetSecretAsync("apiYoutube");
                 string apiKey = secret.Value;
 
                 // Aquí devolvemos la clave API en la respuesta, pero podría ser un riesgo de seguridad.

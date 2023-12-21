@@ -6,8 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class MusixmatchService {
-  private azureFunctionTrack_Search_Url = 'https://famyweb.azurewebsites.net/api/ApiMusixMatchTrackSearch?code=AE65EG1izg5AN5Faa6kvEfUWr2SW38_m6IHS2eJEq-cwAzFukY2H_w==';
-  private azureFunctionTrack_Lyrics_Url ='https://famyweb.azurewebsites.net/api/ApiMusixMatchTrackLyrics?code=4ARFCCySk32k0P2jU6k6FpsGjWJexri9Mk1RpXNxHFnhAzFucetH2Q=='
+  private azureFunctionTrack_Search_Url = 'https://famyweb.azurewebsites.net/api/GetTrackIdMusixMatch?code=X8jpO0avfPhDKeo3s-M3LMPrDtAO8CV7V1U0AHTX-teFAzFuKjJ8xQ==';
+  private azureFunctionTrack_Lyrics_Url ='https://famyweb.azurewebsites.net/api/GetLyricsMusixMatch?code=I1ROkI4e8f98iOcDXsTb_1t3vbdHiZ5fqsDSAo4AzTiyAzFupUuvvw=='
 
   constructor(private http: HttpClient) { }
 

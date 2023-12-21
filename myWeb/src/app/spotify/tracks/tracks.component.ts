@@ -45,40 +45,6 @@ export class TracksComponent implements OnInit{
     });
   }
 
-  /*getVideo(pista:string):void{
-    this.youtubeService.getVideos(pista).subscribe(
-      data=>{
-        console.log('Video:',data);
-        this.setVideo('https://www.youtube.com/embed/'+data.items[0].id.videoId);
-      },
-      error=>console.error('Error al obtener el video:',error),
-      ()=>{}
-    );
-  }*/
-
-
-  onSelectTrackOLD(track: any): void {
-    //console.log('Pista seleccionada:', track.name);
-    this.pistaSeleccionada = track.name;
-    this.artistaSeleccionado = track.artists[0].name;
-    this.albumSeleccionado = track.album.name;
-    this.musixMatchService.getMusixMatchTrackId(track.artists[0].name, track.name).pipe(
-      switchMap(response => {
-        const trackId = response.message.body.track_list[0].track.track_id;
-        console.log('Track ID:', trackId);
-        return this.musixMatchService.getMusixMatchTrackLyrics(trackId);
-      })
-    ).subscribe(
-      lyricsResponse => {
-        console.log(lyricsResponse);
-        this.letrasCancion = lyricsResponse.message.body.lyrics.lyrics_body;
-      },
-      error => {
-        console.error('Error al obtener la letra de la canción:', error);
-      }
-    );
-  }
-
   onSelectTrack(track: any): void {
     this.pistaSeleccionada = track.name;
     this.artistaSeleccionado = track.artists[0].name;

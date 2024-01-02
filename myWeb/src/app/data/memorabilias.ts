@@ -5969,7 +5969,7 @@ export const memorabilias:IMemorabilia[] = [
     },
     {
         conciertoId: 87,
-        imagen:'874.jpg',
+        imagen:'875.jpg',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',

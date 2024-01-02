@@ -304,7 +304,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         conciertoId: 174,
         fecha: new Date(Date.UTC(2010, 4, 22)),
-        imagen:'1615.jpeg',
+        imagen:'1616.jpeg',
         titulo:'Grabando Wito en 2010 en Lorentzo Records',
         grupo:'Mi Hermana Corina',
         origen:'propia',   

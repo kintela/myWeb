@@ -113,7 +113,7 @@ export class MemorabiliaComponent implements OnInit {
     let numerosFaltantes: number[] = [];
 
     // Recorrer desde 1 hasta el número máximo (704 en tu caso)
-    for (let i = 1; i <= 704; i++) {
+    for (let i = 1; i <= 1864; i++) {
         if (!numerosImagenes.has(i)) {
             // Si el número no está en tu conjunto, añadirlo a la lista de faltantes
             numerosFaltantes.push(i);

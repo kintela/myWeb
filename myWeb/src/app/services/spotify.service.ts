@@ -6,8 +6,8 @@ import { Observable, from, map, of, switchMap } from 'rxjs';
   providedIn: 'root'
 })
 export class SpotifyService {
-  redirect_uri= "http://localhost:4200/spotify";
-  //redirect_uri = "https://kintela.es/spotify";
+  //redirect_uri= "http://localhost:4200/spotify";
+  redirect_uri = "https://kintela.es/spotify";
 
   constructor(private http: HttpClient) { }
 

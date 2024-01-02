@@ -54,8 +54,11 @@
       <iframe [src]="videoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
     </div>-->
 
-    <div id="player" class="video-container" *ngIf="pistaSeleccionada"></div>
-
+    <mat-card *ngIf="pistaSeleccionada">                  
+        <mat-card-content>
+          <div id="player" class="video-container"></div>
+        </mat-card-content>
+    </mat-card>
   </div>  
 </div>
   

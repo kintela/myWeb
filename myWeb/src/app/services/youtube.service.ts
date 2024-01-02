@@ -31,7 +31,7 @@ export class YoutubeService {
           console.error('API Key is undefined in getVideos');
           return throwError(new Error('API Key is undefined'));
         }
-        const youtubeApiUrl = `https://www.googleapis.com/youtube/v3/search?q=${encodeURIComponent(searchText)}&key=${apiKey}&type=video`;
+        const youtubeApiUrl = `https://www.googleapis.com/youtube/v3/search?q=${encodeURIComponent(searchText)}&key=${apiKey}&type=video`;//type=video para que no busque playlists
         return this.http.get(youtubeApiUrl);
       }),
       catchError(error => {
@@ -41,9 +41,5 @@ export class YoutubeService {
     );
   }
 
-  /*getVideosOLD(searchText:string): Observable<any> {
-
-    return this.http.get('https://www.googleapis.com/youtube/v3/search?q=' + searchText + '&key=' + this.apiKey);
-  }*/
 
 }

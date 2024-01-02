@@ -12,7 +12,7 @@ export class YoutubeService {
 
   getApiKey(): Observable<string> {
     return this.http.get<{apiKey: string}>(this.azureFunctionYoutubeUrl).pipe(
-      tap(response => console.log('Response from getApiKey:', response)),
+      //tap(response => console.log('Response from getApiKey:', response)),
       catchError(error => {
         console.error('Error in getApiKey:', error);
         return throwError(error);
@@ -25,13 +25,13 @@ export class YoutubeService {
 
   getVideos(searchText: string): Observable<any> {
     return this.getApiKey().pipe(
-      tap(apiKey => console.log('API Key before switchMap in getVideos:', apiKey)),
+      //tap(apiKey => console.log('API Key before switchMap in getVideos:', apiKey)),
       switchMap(apiKey => {
         if (!apiKey) {
           console.error('API Key is undefined in getVideos');
           return throwError(new Error('API Key is undefined'));
         }
-        const youtubeApiUrl = `https://www.googleapis.com/youtube/v3/search?q=${encodeURIComponent(searchText)}&key=${apiKey}`;
+        const youtubeApiUrl = `https://www.googleapis.com/youtube/v3/search?q=${encodeURIComponent(searchText)}&key=${apiKey}&type=video`;
         return this.http.get(youtubeApiUrl);
       }),
       catchError(error => {

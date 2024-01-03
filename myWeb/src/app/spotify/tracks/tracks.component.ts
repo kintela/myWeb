@@ -28,6 +28,8 @@ export class TracksComponent implements OnInit{
 
   player: any;
   currentTrackIndex: number = 0;
+  videoDisponible: boolean = false;
+
 
   constructor(private route: ActivatedRoute, private spotifyService:SpotifyService, private musixMatchService: MusixmatchService,
     private youtubeService:YoutubeService, private sanitizer: DomSanitizer) { }
@@ -95,13 +97,16 @@ export class TracksComponent implements OnInit{
         if (videoResponse.items && videoResponse.items.length > 0) {
           //this.setVideo('https://www.youtube.com/embed/' + videoResponse.items[0].id.videoId);
           this.setVideo(videoResponse.items[0].id.videoId);
+          this.videoDisponible = true;
         } else {
           console.log('No se encontraron videos para esta pista.');
+          this.videoDisponible = false;
         }
       },
       error => {
         console.error('Error al obtener datos:', error);
         this.letrasCancion = 'Letras no disponibles.';
+        this.videoDisponible = false;
       }
     );
   }

@@ -2172,6 +2172,7 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'Van Halen',
     },
+    
 
 
 ]

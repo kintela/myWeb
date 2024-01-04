@@ -2294,6 +2294,79 @@ export const conciertos:IConcierto[]=[
         grupo: 'Mi Hermana Corina',
         videos:['https://www.youtube.com/embed/azQstnA4iwY?si=NvvUdZ0Qyc5d9Z-t']
     },
+    {
+        fecha: new Date(Date.UTC(2019, 0, 24)),
+        ciudad: 'Bilbao',
+        sala: 'Satelite T',
+        grupo: 'Mi Hermana Corina',
+        descripcion: 'Homenaje a Bowie',
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 2, 30)),
+        ciudad: 'Candanchú',
+        sala: 'Hotel Edelweiss',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 5, 14)),
+        ciudad: 'Bilbao',
+        sala: 'Shake',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 6, 19)),
+        ciudad: 'Plantzia',
+        sala: 'Club kai-Eder',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 8, 28)),
+        ciudad: 'Bilbao',
+        sala: 'Moiqut',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2019, 10, 8)),
+        ciudad: 'Bilbao',
+        sala: 'Bar El Amarillo',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2020, 2, 6)),
+        ciudad: 'Bilbao',
+        sala: 'Txoko Juanjo',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2020, 3, 4)),
+        ciudad: 'Candanchú',
+        sala: 'Hotel Edelweiss',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2021, 9, 29)),
+        ciudad: 'Laukariz',
+        sala: 'Club de Campo Laukariz',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2021, 10, 26)),
+        ciudad: 'Bilbao',
+        sala: 'Pub Bowie',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2022, 6, 14)),
+        ciudad: 'Bilbao',
+        sala: 'Kunsthal',
+        grupo: 'Mi Hermana Corina',
+    },
+    {
+        fecha: new Date(Date.UTC(2023,2 , 25)),
+        ciudad: 'Candanchú',
+        sala: 'Hotel Edelweiss',
+        grupo: 'Mi Hermana Corina',
+    },
    
 
 ];

@@ -9274,7 +9274,14 @@ export const memorabilias:IMemorabilia[] = [
         titulo:'Kurt Cobain',
         personas:'Kurt Cobain',
         origen:'Facebook',
-    },     
+    },   
+    {
+        imagen:'1350.jpg',
+        titulo:'Michael Stipe',
+        personas:'Michael Stipe',
+        grupo:'R.E.M.',
+        origen:'Facebook',
+    },    
     {
         conciertoId: 154,
         imagen:'1351.jpeg',

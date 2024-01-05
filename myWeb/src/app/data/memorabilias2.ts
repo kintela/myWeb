@@ -2172,7 +2172,68 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'Van Halen',
     },
-    
-
-
+    {
+        imagen:'1865.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook',
+        grupo:'Nirvana',
+    },
+    {
+        imagen:'1866.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1867.jpg',
+        titulo:'Eddie Vedder y Keith Richards',
+        personas:'Eddie Vedder, Keith Richards',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1868.jpg',
+        titulo:'John Lennon',
+        personas:'John Lennon',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1869.jpg',
+        titulo:'Rage Against the Machine',
+        personas:'Tom Morello, Zack de la Rocha, Tim Commerford, Brad Wilk',
+        origen:'Facebook',
+        grupo:'Rage Against the Machine',
+    },
+    {
+        imagen:'1870.jpg',
+        titulo:'Malcold Young',
+        personas:'Malcold Young',
+        origen:'Facebook',
+        grupo:'AC/DC',
+    },
+    {
+        imagen:'1871.jpg',
+        titulo:'Rage Against the Machine',
+        personas:'Tom Morello, Zack de la Rocha',
+        origen:'Facebook',
+        grupo:'Rage Against the Machine',
+    },
+    {
+        imagen:'1872.jpg',
+        titulo:'The Allman Brothers Band',
+        origen:'Facebook',
+        grupo:'The Allman Brothers Band',
+    },
+    {
+        imagen:'1873.jpg',
+        titulo:'Jeff Beck y Billy Gibbons',
+        personas:'Jeff Beck, Billy Gibbons',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1874.jpg',
+        titulo:'Ozzy Osbourne',
+        personas:'Ozzy Osbourne',
+        origen:'Facebook',
+    },
 ]

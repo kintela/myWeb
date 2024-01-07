@@ -159,6 +159,24 @@
                 </ng-container>
               </div>
           </mat-expansion-panel>
+
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Vinilos
+                </mat-panel-title>                        
+            </mat-expansion-panel-header>
+            <div class="fichas-contenedor">
+                <ng-container *ngFor="let vinilo of vinilos; let i = index">
+                      <app-ficha-video
+                        [imagen]="'https://kintela.azureedge.net/assets/assets/caratulas/vinilos/' + vinilo.caratula"
+                        [texto]="vinilo.titulo"
+                        [year]="vinilo.year"
+                        [origen]="'dvd'">
+                      </app-ficha-video>
+                </ng-container>
+              </div>
+          </mat-expansion-panel>
         </mat-accordion>
       </mat-card-content>
 

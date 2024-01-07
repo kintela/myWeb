@@ -491,6 +491,18 @@ export const libros:ILibro[]=[
         caratula: '2.jpeg',
         editorial:'https://www.normaeditorial.com/',
         enlace:'https://www.normaeditorial.com/ficha/comic-europeo/bob-dylan',
-        sinopsis:'Bob Dylan es un artista del Renacimiento. Compositor, poeta, pintor… su arte se extiende a muchas otras disciplinas, como demuestra su carrera y la infl uencia que supone para otros creadores como fotógrafos, diseñadores, escritores, cineastas… Ya era hora de que el cómic le rindiera un homenaje como es debido. \n\nBob Dylan Revisited reúne 13 canciones míticas del compositor norteamericano adaptadas por 13 distintos autores de cómic. 13 versiones dibujadas para disfrutar mientras se escuchan las canciones originales, o mientras se tararean o recuerdan. \n\nAlgunos de los dibujantes que participan son: Lorenzo Mattotti, Jean-Claude Götting, Dave McKean, Alfred, Gradimir Smudja, Benjamin Flao y Zep, entre otros.'    },
+        sinopsis:'Bob Dylan es un artista del Renacimiento. Compositor, poeta, pintor… su arte se extiende a muchas otras disciplinas, como demuestra su carrera y la infl uencia que supone para otros creadores como fotógrafos, diseñadores, escritores, cineastas… Ya era hora de que el cómic le rindiera un homenaje como es debido. \n\nBob Dylan Revisited reúne 13 canciones míticas del compositor norteamericano adaptadas por 13 distintos autores de cómic. 13 versiones dibujadas para disfrutar mientras se escuchan las canciones originales, o mientras se tararean o recuerdan. \n\nAlgunos de los dibujantes que participan son: Lorenzo Mattotti, Jean-Claude Götting, Dave McKean, Alfred, Gradimir Smudja, Benjamin Flao y Zep, entre otros.'
+    },
+    {
+        titulo: 'Camaron: La leyenda del genio',
+        categoria: 'Comic',
+        autor: 'Sete Gonzalez',
+        ISBN:'978-84-17858-56-8',
+        depositoLegal:'B.24.327-2019',     
+        caratula: '3.jpg',
+        editorial:'https://www.planetadelibros.com/',
+        enlace:'https://www.planetadelibros.com/libro-camaron/307688',
+        sinopsis:'Su voz desgarrada cambió la historia del flamenco. José Monje Cruz, Camarón, empezó a desplegar su don cuando era solo un niño y llegó a conquistar las audiencias de París y Nueva York. Inquieto, pasional, magnético, su arte creció imparable y revolucionario. Desde su nacimiento en San Fernando (Cádiz) hasta su temprana muerte, pasando por su estancia en Madrid, su etapa con Paco de Lucía, su boda con la Chispa, sus trabajos con Tomatito y sus conciertos más memorables, este libro es un homenaje con duende a un hombre de breve biografía pero huella infinita.'
+    },
     
 ];

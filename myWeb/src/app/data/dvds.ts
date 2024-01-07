@@ -146,8 +146,8 @@ export const dvds:IDvd[]=[
     },
     {
         id:25,
-        imagen:"17.jpg",
-        titulo:"Let ther be rock",
+        imagen:"47.jpg",
+        titulo:"Let there be rock",
         grupo:"AC/DC",
     },
     {
@@ -182,7 +182,7 @@ export const dvds:IDvd[]=[
     },
     {
         id:31,
-        imagen:"24.jpg",
+        imagen:"25.jpg",
         titulo:"Down Under",
         grupo:"Santana",
     },
@@ -273,5 +273,11 @@ export const dvds:IDvd[]=[
         imagen:"46.jpg",
         titulo:"Get Back",
         grupo:"Paul McCartney",
+    },
+    {
+        id:48,
+        imagen:"48.jpg",
+        titulo:"Tom Petty and the heartbreakers From Gainesville",
+        grupo:"Tom Petty and the heartbreakers",
     },
 ]

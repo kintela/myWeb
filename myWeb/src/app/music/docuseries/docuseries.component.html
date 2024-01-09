@@ -180,13 +180,11 @@
         </mat-accordion>
       </mat-card-content>
 
-    <mat-card-footer>
-      <div class="frase">
-        Eskorbuto fueron los Sex Pistols sin Malcom Mclaren. -Roberto Mosso
-      </div>
-      <div class="frase">
-        Quieres que te cuente un cuento. No cuentes con nosotros. -Pako Eskorbuto
-      </div>
-    </mat-card-footer>
+      <mat-card-footer>
+        <div *ngFor="let frase of frases" class="frase">
+          {{ frase.frase }} - {{ frase.autor }}
+        </div>
+      </mat-card-footer>
+      
 </mat-card>
   

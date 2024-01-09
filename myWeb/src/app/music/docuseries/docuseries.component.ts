@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IVideo } from 'src/app/data/IVideo';
 import { dvds } from 'src/app/data/dvds';
+import { frases } from 'src/app/data/frases';
 import { videos } from 'src/app/data/videos';
 import { vinilos } from 'src/app/data/vinilos';
 
@@ -12,6 +13,7 @@ import { vinilos } from 'src/app/data/vinilos';
 export class DocuseriesComponent implements OnInit{
   videos=videos;
   vinilos=vinilos;
+  frases=frases;
   plataformas: string[] = [];
   plataformaSeleccionada: string = 'todas';
   dvds=dvds;

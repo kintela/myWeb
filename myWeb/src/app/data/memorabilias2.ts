@@ -2389,4 +2389,18 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'John Lennon',
         origen:'Facebook',
     },
+    {
+        imagen:'1899.jpg',
+        titulo:'Paul McCartney',
+        personas:'Paul McCartney',
+        grupo:'The Beatles',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1900.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        grupo:'Van Halen',
+        origen:'Facebook',
+    },
 ]

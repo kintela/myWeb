@@ -282,6 +282,90 @@ export const videos:IVideo[] = [
         plataforma: 'filmin'
     },
     {
+        imagen: '1.jpeg',
+        enlace: 'https://watch.plex.tv/es/movie/tom-petty-and-the-heartbreakers-runnin-down-a-dream',
+        texto: 'Tom Petty Runnin` Down a Dream',
+        categoria: 'Mix',
+        plataforma: 'plex'
+    },
+    {
+        imagen: '2.jpeg',
+        enlace: 'https://www.canalsurmas.es/videos/54753-documentales-the-storm-jesus-poncesi-sat-ip-02092022',
+        texto: 'Storm',
+        categoria: 'Mix',
+        plataforma: 'canalsurmas'
+    },
+    {
+        imagen: '3.jpeg',
+        enlace: 'https://www.filmin.es/pelicula/crock-of-gold-bebiendo-con-shane-macgowan?shem=ssusxt',
+        texto: 'Shane MacGowan',
+        categoria: 'Mix',
+        plataforma: 'filmin'
+    },    
+    {
+        imagen: '5.jpeg',
+        enlace: 'https://www.amazon.com/-/es/Mick-Rock/dp/B06XYQKRBC',
+        texto: 'Mick Rock',
+        categoria: 'Mix',
+        plataforma: 'primevideo'
+    },   
+    {
+        imagen: '6.jpeg',
+        enlace: 'https://www.youtube.com/watch?v=QCgMgUcXxHs',
+        texto: 'En la cama con Madonna',
+        categoria: 'Mix',
+        plataforma: 'youtube'
+    },   
+    {
+        imagen: '7.jpeg',
+        enlace: 'https://www.netflix.com/title/81506634',
+        texto: 'Ramoncín',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },                    
+    {
+        imagen: '11.jpeg',
+        enlace: 'https://www.filmin.es/pelicula/i-need-a-dodge-joe-strummer-on-the-run',
+        texto: 'Joe Strummer',
+        categoria: 'Mix',
+        plataforma: 'filmin'
+    },   
+    {
+        imagen: '12.jpeg',
+        enlace: 'https://www.filmin.es/pelicula/dentro-del-chelsea-hotel',
+        texto: 'Chelsea Hotel',
+        categoria: 'Mix',
+        plataforma: 'filmin'
+    },   
+    {
+        imagen: '13.jpeg',
+        enlace: 'https://www.netflix.com/watch/81393720?trackId=255824129&tctx=0%2C0%2C69e99661-4f11-4a9e-8fba-26c7bc1f9e50-229969214%2C69e99661-4f11-4a9e-8fba-26c7bc1f9e50-229969214%7C2%2Cunknown%2C%2C%2CtitlesResults%2C81393720%2CVideo%3A81393720%2CminiDpPlayButton',
+        texto: 'Heroes del silencio',
+        categoria: 'Mix',
+        plataforma: 'filmin'
+    },    
+    {
+        imagen: '16.jpeg',
+        enlace: 'https://www.primevideo.com/detail/Mi-vida-entre-las-hormigas/0N0GLK8VCJES4ZUO2RAG6W20LV',
+        texto: 'Ilegales',
+        categoria: 'Mix',
+        plataforma: 'primevideo'
+    },    
+    {
+        imagen: '17.jpeg',
+        enlace: 'https://www.canalsurmas.es/videos/68602-ok-la-importancia-de-llamarse-ernesto-trailer-2022mp4-07032023/',
+        texto: 'Eric Jimenez',
+        categoria: 'Mix',
+        plataforma: 'canalsurmas'
+    },   
+    {
+        imagen: '18.jpeg',
+        enlace: 'https://www.youtube.com/watch?v=Hl9kELOgzAI',
+        texto: 'Lemmy',
+        categoria: 'Mix',
+        plataforma: 'youtube'
+    },           
+    {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.facebook.com/watch/?v=280469979672631&extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing',
         texto: 'Rock Radikal Vasco I',
@@ -313,6 +397,13 @@ export const videos:IVideo[] = [
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.youtube.com/watch?v=8xyJ0xpVcz0',
         texto: 'Rock Radikal Vasco V',
+        categoria: 'Rock Radikal Vasco',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: 'rock_radikal_vasco.jpg',
+        enlace: 'https://www.youtube.com/watch?v=GIODJAbAfVc',
+        texto: 'Eskorbuto',
         categoria: 'Rock Radikal Vasco',
         plataforma: 'youtube'
     },
@@ -371,6 +462,20 @@ export const videos:IVideo[] = [
         texto: 'Yesterday',
         categoria: 'the beatles',
         plataforma: 'appleTV'
+    },
+    {
+        imagen: '20.jpeg',
+        enlace: 'https://tv.apple.com/us/show/mccartney-321/umc.cmc.62zq0x2i794tnb4ybpfoolkrg?l=es',
+        texto: 'Mc Cartney 3,2,1',
+        categoria: 'the beatles',
+        plataforma: 'appleTV'
+    },
+    {
+        imagen: '21.jpeg',
+        enlace: 'https://www.disneyplus.com/es-es/series/the-beatles-get-back/7DcWEeWVqrkE',
+        texto: 'Get Back',
+        categoria: 'the beatles',
+        plataforma: 'disney+'
     },
     {
         imagen: 'rolling_stone_life_and_death_of_brian_jones.jpg',
@@ -499,6 +604,63 @@ export const videos:IVideo[] = [
         plataforma: 'filmin'
     },
     {
+        imagen: '4.jpeg',
+        enlace: 'https://www.netflix.com/title/81555051',
+        texto: 'Stiv no compromise no regrets',
+        categoria: 'punk',
+        plataforma: 'netflix'
+    },
+    {
+        imagen: '8.jpeg',
+        enlace: 'https://www.filmin.es/pelicula/sid-y-nancy',
+        texto: 'Sid y Nancy',
+        categoria: 'punk',
+        plataforma: 'filmin'
+    },
+    {
+        imagen: '19.jpeg',
+        enlace: 'https://www.eitb.eus/es/nahieran/musica/no-somos-nada/5768/',
+        texto: 'No somos nada',
+        categoria: 'punk',
+        plataforma: 'eitb'
+    },
+    {
+        imagen: '9.jpeg',
+        enlace: 'https://www.netflix.com/title/81006953',
+        texto: 'Rompan Todo',
+        categoria: 'latinoamerica',
+        plataforma: 'netflix'
+    },  
+    {
+        imagen: '10.jpeg',
+        enlace: 'https://www.netflix.com/title/81219817',
+        texto: 'Fito Paez',
+        categoria: 'latinoamerica',
+        plataforma: 'netflix'
+    },  
+    {
+        imagen: '14.jpeg',
+        enlace: 'https://www.youtube.com/watch?v=jsBfg0OAjGM',
+        texto: 'Charly Garcia-Piano Bar Sessions',
+        categoria: 'latinoamerica',
+        plataforma: 'youtube'
+    },     
+    {
+        imagen: '15.jpeg',
+        enlace: 'https://www.youtube.com/watch?v=xX06uBssVCY',
+        texto: 'Charly Garcia-Luna Park',
+        categoria: 'latinoamerica',
+        plataforma: 'youtube'
+    },     
+    {
+        imagen: '22.jpeg',
+        enlace: 'https://www.youtube.com/watch?v=ssfD-Jhj7xo',
+        texto: 'Sui Generis-Despedida',
+        categoria: 'latinoamerica',
+        plataforma: 'youtube',
+        info: 'https://www.infobae.com/teleshow/infoshow/2020/09/05/a-45-anos-de-adios-sui-generis-2-recitales-los-27-porros-de-charly-la-pizza-de-nito-y-el-miedo-a-terminar-presos/'
+    }, 
+    {
         imagen: 'maquis.jpg',
         enlace: 'https://www.atresplayer.com/lasexta/programas/lasexta-columna/temporada-13/columnas-de-la-historia-guerrilleros-de-ciudad-el-ejercito-fantasma-contra-franco-parte-i_6537877a7ea0b0e4ff304299/',
         texto: 'Maquis',
@@ -547,4 +709,5 @@ export const videos:IVideo[] = [
         categoria: 'ii_guerra_mundial',
         plataforma: 'rtve_play'
     },
+   
 ];

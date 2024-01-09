@@ -7,9 +7,9 @@
         {{ texto }}
       </a>
     </mat-card-content>
-    <mat-card-footer *ngIf="origen=='dvd'">
-      {{ texto }} - {{ year }}
-    </mat-card-footer>
+    <mat-card-footer>
+      <a [href]="info" target="_blank">info</a>
+    </mat-card-footer>    
 </mat-card>
 
   

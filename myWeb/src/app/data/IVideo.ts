@@ -4,4 +4,5 @@ export interface IVideo {
     imagen?: string;
     categoria?: string;
     plataforma?: string;
+    info?: string;
 }

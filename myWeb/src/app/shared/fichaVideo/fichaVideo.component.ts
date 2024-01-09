@@ -11,6 +11,7 @@ export class FichaVideoComponent implements OnInit {
   @Input() texto: string;
   @Input() origen: string;
   @Input() year: number;
+  @Input() info: string;
 
   constructor() { 
     //console.log('Origen desde el constructor',this.origen);

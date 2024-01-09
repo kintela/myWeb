@@ -44,6 +44,12 @@ export const vinilos:IVinilo[]=[
         caratula:"8.jpeg"
     },
     {
+        titulo:"Magical Mystery Tour",
+        grupo:"The Beatles",
+        year:1967,
+        caratula:"38.jpeg"
+    },
+    {
         titulo:"El amigo de las tormentas",
         grupo:"Surfin' Bichos",
         year:1992,

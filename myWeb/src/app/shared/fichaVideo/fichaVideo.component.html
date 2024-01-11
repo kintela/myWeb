@@ -1,10 +1,10 @@
 <mat-card class="ficha">
-    <div class="ficha-imagen">
+    <div class="ficha-imagen" [ngStyle]="imagenContainerStyle">
         <img [src]="imagen" alt="{{ texto }}">
     </div>
     <mat-card-content class="texto-centrado">
-      <a [href]="enlace" target="_blank" *ngIf="origen!='dvd'">
-        {{ texto }}
+      <a [href]="enlace" target="_blank" *ngIf="origen!='dvd'" [matTooltip]="texto">
+        {{ texto | truncate: 20}}
       </a>
     </mat-card-content>
     <mat-card-footer *ngIf="info && info.trim() !== ''">

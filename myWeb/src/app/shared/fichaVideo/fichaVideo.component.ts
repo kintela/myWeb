@@ -13,6 +13,14 @@ export class FichaVideoComponent implements OnInit {
   @Input() year: number;
   @Input() info: string;
 
+  get imagenContainerStyle() {
+    if (this.origen === 'vinilo') {
+      return { height: '150px', width: '150px' }; // Formato cuadrado para vinilos
+    } else {
+      return { height: '200px', width: '150px' }; // Formato rectangular predeterminado
+    }
+  }
+
   constructor() { 
     //console.log('Origen desde el constructor',this.origen);
   }

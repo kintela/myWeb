@@ -2403,4 +2403,59 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Van Halen',
         origen:'Facebook',
     },
+    {
+        imagen:'1901.jpg',
+        titulo:'Angus Young',
+        personas:'Angus Young',
+        grupo:'AC/DC',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1902.jpg',
+        titulo:'Angus Young',
+        personas:'Angus Young',
+        grupo:'AC/DC',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1903.jpg',
+        titulo:'Robert Johnson',
+        personas:'Robert Johnson',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1904.jpg',
+        titulo:'Elvis Presley',
+        personas:'Elvis Presley',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1905.jpg',
+        titulo:'George Harrison y Paul McCartney',
+        personas:'George Harrison, Paul McCartney',
+        grupo:'The Beatles',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1906.jpg',
+        titulo:'David Bowie y Gail Ann Dorsey',
+        personas:'David Bowie, Gail Ann Dorsey',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1907.jpg',
+        titulo:'Angus Young y Malcolm Young',
+        personas:'Angus Young, Malcolm Young',
+        grupo:'AC/DC',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1908.jpg',
+        titulo:'Patti Smith, Lou Reed, John Cale y David Byrne',
+        personas:'Patti Smith, Lou Reed, John Cale, David Byrne',
+        origen:'Facebook',
+        year: 1976
+    },
+    
+    
 ]

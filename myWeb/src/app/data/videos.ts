@@ -364,7 +364,14 @@ export const videos:IVideo[] = [
         texto: 'Lemmy',
         categoria: 'Mix',
         plataforma: 'youtube'
-    },           
+    },    
+    {
+        imagen: '27.jpeg',
+        enlace: 'https://www.youtube.com/watch?v=adTmmDA9jtk',
+        texto: 'Camaron en Montreaux',
+        categoria: 'Mix',
+        plataforma: 'youtube'
+    },              
     {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.facebook.com/watch/?v=280469979672631&extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing',

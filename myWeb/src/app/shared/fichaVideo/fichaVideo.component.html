@@ -7,7 +7,7 @@
         {{ texto }}
       </a>
     </mat-card-content>
-    <mat-card-footer>
+    <mat-card-footer *ngIf="info && info.trim() !== ''">
       <a [href]="info" target="_blank">info</a>
     </mat-card-footer>    
 </mat-card>

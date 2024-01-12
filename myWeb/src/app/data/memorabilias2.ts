@@ -2456,6 +2456,97 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         year: 1976
     },
-    
+    {
+        imagen:'1909.jpg',
+        titulo:'Mark Lanegan y Josh Homme',
+        personas:'Mark Lanegan, Josh Homme',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1910.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1911.jpg',
+        titulo:'Jeff Beck y Eric Clapton',
+        personas:'Jeff Beck, Eric Clapton',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1912.jpg',
+        titulo:'David Bowie y Axel Rose',
+        personas:'David Bowie, Axel Rose',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1913.jpg',
+        titulo:'The Rolling Stones',
+        grupo:'The Rolling Stones',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1914.jpg',
+        titulo:'Lemmy Kilmister',
+        personas:'Lemmy Kilmister',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1915.jpg',
+        titulo:'Keith Richards. Mick Jagger y Brian Jones',
+        personas:'Keith Richards, Mick Jagger, Brian Jones',
+        grupo:'The Rolling Stones',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1916.jpg',
+        titulo:'Tina Turner y Janis Joplin',
+        personas:'Tina Turner, Janis Joplin',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1917.jpg',
+        titulo:'Howlin\' Wolf',
+        personas:'Howlin\' Wolf',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1918.jpg',
+        titulo:'Jim Morrison',
+        personas:'Jim Morrison',
+        grupo:'The Doors',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1919.jpg',
+        titulo:'Nirvana',
+        personas:'Dave Grohl, Krist Novoselic, Kurt Cobain',
+        grupo:'Nirvana',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1920.jpg',
+        titulo:'Jimmy Page',
+        personas:'Jimmy Page',
+        grupo:'Led Zeppelin',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1921.jpg',
+        titulo:'Steve Ray Vaughan',
+        personas:'Steve Ray Vaughan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1922.jpg',
+        titulo:'Michael Schenker',
+        personas:'Michael Schenker',    
+        origen:'Facebook',
+    },
+
+
+
+
     
 ]

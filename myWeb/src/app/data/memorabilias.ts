@@ -729,7 +729,8 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'113.jpg',
         titulo:'Buddy Guy',
         personas:'Buddy Guy',
-        origen:'Facebook'
+        origen:'Facebook',
+        categoria:'Blues'
     },
     {
         imagen:'114.jpg',
@@ -1409,7 +1410,8 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'217.jpg',
         titulo:'Buddy Guy',
         personas:'Buddy Guy',
-        origen:'Facebook'
+        origen:'Facebook',
+        categoria:'Blues'
     },
     {
         imagen:'218.jpg',

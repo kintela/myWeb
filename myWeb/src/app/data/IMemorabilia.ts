@@ -9,4 +9,5 @@ export interface IMemorabilia{
     lugar?:string;
     fecha?:Date;
     conciertoId?:number
+    categoria?:string;
 }

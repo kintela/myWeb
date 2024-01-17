@@ -2983,6 +2983,34 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'The Beatles',
         origen:'Facebook',
     },
+    {
+        imagen:'1990.jpg',
+        titulo:'Randy Rhoads',
+        personas:'Randy Rhoads',
+        grupo:'Quiet Riot',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1991.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, David Lee Roth, Alex Van Halen, Michael Anthony',
+        grupo:'Van Halen',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1992.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        grupo:'Van Halen',
+        origen:'Facebook',
+    },
+    {
+        imagen:'1993.jpg',
+        titulo:'Honeyboy Edwards',
+        personas:'Honeyboy Edwards',
+        categoria:'Blues',
+        origen:'Facebook',
+    },
 
     
 ]

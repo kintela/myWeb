@@ -494,6 +494,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'76.jpg',
         titulo:'Metallica',
         grupo:'Metallica',
+        personas:'James Hetfield, Lars Ulrich, Kirk Hammett, Cliff Burton',
         origen:'Facebook'
     },
     {

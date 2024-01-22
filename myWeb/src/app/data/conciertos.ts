@@ -2367,6 +2367,14 @@ export const conciertos:IConcierto[]=[
         sala: 'Hotel Edelweiss',
         grupo: 'Mi Hermana Corina',
     },
+    {
+        fecha: new Date(Date.UTC(2024,0 , 20)),
+        ciudad: 'Santander',
+        sala: 'Escenario Santander',
+        grupo: 'Quique González',
+        entrada: "entradas/96.jpg", 
+        videos:['https://www.youtube.com/embed/yN_UIdqtYtM?si=VhgTJ76XvkdjZcsf', 'https://www.youtube.com/embed/Z5lbrVt1Ncg?si=b2SouNliTncvSdxy'],
+    },
    
 
 ];

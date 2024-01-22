@@ -7,6 +7,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala: 'Bilbao Arena',
         grupo: 'Miguel Rios',
+        entrada: "entradas/97.jpg", 
         fotos: true,
         videos:['https://www.youtube.com/embed/liimiG2-22k?si=q9oxD5r7gyI-rwMF','https://www.youtube.com/embed/BkGc1gXHfuw?si=JQ9mjv50MZHxk7O1','https://www.youtube.com/embed/ajCVOi_h6zA?si=S3LlHcS032JKnJ0z','https://www.youtube.com/embed/pf9EyKEnml0?si=4gHoHp0DqoKITUkD']
     },
@@ -1946,6 +1947,7 @@ export const conciertos:IConcierto[]=[
         ciudad: 'Bilbao',
         sala: 'BBK',
         grupo: 'The Screaming Cheetah Whellies',
+        entrada: "entradas/98.jpg",
         videos:['https://www.youtube.com/embed/HN0u7YKQ3pI?si=bTk_43O-GimbcoRU','https://www.youtube.com/embed/F2rxmXsWrXE?si=DOZZAVhOHxeZiIgt'],
         fotos: true,   
     },
@@ -2368,11 +2370,13 @@ export const conciertos:IConcierto[]=[
         grupo: 'Mi Hermana Corina',
     },
     {
+        id: 178,
         fecha: new Date(Date.UTC(2024,0 , 20)),
         ciudad: 'Santander',
         sala: 'Escenario Santander',
         grupo: 'Quique González',
         entrada: "entradas/96.jpg", 
+        fotos: true,
         videos:['https://www.youtube.com/embed/yN_UIdqtYtM?si=VhgTJ76XvkdjZcsf', 'https://www.youtube.com/embed/Z5lbrVt1Ncg?si=b2SouNliTncvSdxy'],
     },
    

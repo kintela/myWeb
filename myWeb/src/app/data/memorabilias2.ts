@@ -3410,7 +3410,33 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Willson Pickett, Duane Allman',
         origen:'Facebook',
     },
-    
+    {
+        conciertoId: 178,
+        imagen:'2055.jpg',
+        titulo:'Quique González',
+        personas:'Quique González',
+        origen:'propia',
+    },
+    {
+        conciertoId: 178,
+        imagen:'2056.jpg',
+        titulo:'Quique González',
+        personas:'Quique González',
+        origen:'propia',
+    },
+    {
+        conciertoId: 178,
+        imagen:'2057.jpg',
+        titulo:'Quique González',
+        personas:'Quique González',
+        origen:'propia',
+    },
+    {
+        imagen:'2058.jpg',
+        titulo:'Kim Thayil',
+        personas:'Kim Thayil',
+        origen:'Facebook',
+    },
 
     
 ]

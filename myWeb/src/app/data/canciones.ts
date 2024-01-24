@@ -195,5 +195,17 @@ export const canciones:ICancion[] = [
         imagen:'anti_todo.jpeg',
         spotify:'https://open.spotify.com/intl-es/track/3fUiFddLXHTaFA3q90l6LF?si=12bcfd7f00604971',
         tono:'Dm'
+      },
+      {
+        titulo: 'Free Fallin',
+        grupo: 'Tom Petty',
+        compositor: 'Tom Petty, Jeff Lynne',
+        album: 'Full moon fever',
+        anio: 1989,
+        afinacion: 'Estándar',
+        imagen:'full_moon_fever.jpeg',
+        spotify:'https://open.spotify.com/intl-es/track/5tVA6TkbaAH9QMITTQRrNv?si=3e5f0b0b53d54105',
+        tono:'E',
+        capo:'Capo en I'
       }
 ];

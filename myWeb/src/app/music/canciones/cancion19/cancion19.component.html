@@ -1,0 +1,31 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>{{grupo}} - {{nombreCancion}} - {{album}} - {{anio}}</mat-card-title>
+    </mat-card-header>
+  
+    <mat-card-content>
+      <p>
+        "Free Fallin'" es una de las canciones más famosas y duraderas de Tom Petty, lanzada en 1989 como el primer sencillo de su álbum en solitario "Full Moon Fever"
+      </p>
+
+      <p>
+        La canción fue escrita por Petty y su frecuente colaborador, Jeff Lynne, quien también produjo el álbum. La letra de "Free Fallin'" refleja una nostalgia y una reflexión sobre la vida en Los Ángeles, California, con referencias a lugares como Ventura Boulevard y Reseda, que son barrios de L.A.
+      </p>
+  
+      
+
+      <div class="link-container">
+        <a (click)="setVideo('https://www.youtube.com/embed/1lWJXDG2i0A?si=NShcdjVOPH--9Lsk')" class="clickable-link">Video Oficial</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/uzPNIiGierM?si=xvvnitd2eolc95-Z')" class="clickable-link">With Axl Rose e Izzy Stradlin</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/_ApNIWzMwUQ?si=0FsVmlgoQJsKZ9pK')" class="clickable-link">Superbowl 2008</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/20Ov0cDPZy8?si=lLcO073HA-pTdttM')" class="clickable-link">John Mayer</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/nCs-EtvTNvI?si=eFUAo1v6ONEPSM2k')" class="clickable-link">Coldplay & Peter Buck (R.E.M.)</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/Shon46jcIgM?si=HpkdEMDYY3sfGghu')" class="clickable-link">Tutorial Guitar</a>
+        
+      </div>
+
+      <div class="video-container">
+        <iframe width="560" height="315" [src]="currentVideoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </mat-card-content>
+  </mat-card>

@@ -3898,7 +3898,7 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'The Quarrymen',
         year: 1958,
-        comentarios: '24 de enero de 1958. La banda The Beatles se presenta por primera vez como The QuarryMen en el The Cavern Club en Liverpool, Reino Unido. Es la única vez que aparecen con ese nombre, la siguiente vez ya se llamarán los Beatles',
+        descripcion: '24 de enero de 1958. La banda The Beatles se presenta por primera vez como The QuarryMen en el The Cavern Club en Liverpool, Reino Unido. Es la única vez que aparecen con ese nombre, la siguiente vez ya se llamarán los Beatles',
     },
 
     

@@ -10,5 +10,4 @@ export interface IMemorabilia{
     fecha?:Date;
     conciertoId?:number
     categoria?:string;
-    comentarios?:string;
 }

@@ -1,7 +1,11 @@
 <mat-card>
-  <mat-card-subtitle>Mis <strong>{{canciones.length}}</strong> canciones favoritas para tocar con una buena acustica al lado de un buen fuego</mat-card-subtitle>
+  <mat-card-subtitle>Mis <strong>{{canciones.length}}</strong> canciones favoritas para tocar con una buena acústica al lado de un buen fuego</mat-card-subtitle>
+  
   <mat-card-content>
-      <div *ngFor="let cancion of canciones; let i = index">
+    <!-- Un único contenedor para todas las fichas de canción -->
+    <div class="contenedor-canciones">
+      <!-- *ngFor aplicado a app-ficha-cancion directamente -->
+      <div *ngFor="let cancion of canciones; let i = index" class="ficha-cancion">
         <app-ficha-cancion
           [imagen]="'https://kintela.azureedge.net/assets/assets/caratulas/albums/' + cancion.imagen"
           [enlace]="'cancion' + (i + 1) + '?titulo=' + cancion.titulo + '&grupo=' + cancion.grupo + '&album=' + cancion.album + '&anio=' + cancion.anio"
@@ -10,7 +14,8 @@
           [id]="cancion.id"
           [indiceCancion]="i">
         </app-ficha-cancion>
-      </div>        
+      </div>
+    </div>        
   </mat-card-content>
 </mat-card>
 

@@ -14,6 +14,7 @@ export class FichaCancionComponent {
   @Input() texto: string;
   @Input() spotify: string;
   @Input() indiceCancion: number;
+  @Input() id: number;
 
   canciones=canciones;
 

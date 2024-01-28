@@ -2,17 +2,19 @@ import { ICancion } from "./ICancion";
 
 export const canciones:ICancion[] = [
     {
-        titulo: 'Something',
-        grupo: 'The Beatles',
-        compositor: 'George Harrison',
-        album: 'Abbey Road',
-        anio: 1969,
-        afinacion: 'Estándar',
-        tono:'C',
-        imagen:'abbey_road.jpg',
-        spotify:'https://open.spotify.com/intl-es/track/0pNeVovbiZHkulpGeOx1Gj?si=e188d79f00364450'
-      },
+      id: 1,
+      titulo: 'Something',
+      grupo: 'The Beatles',
+      compositor: 'George Harrison',
+      album: 'Abbey Road',
+      anio: 1969,
+      afinacion: 'Estándar',
+      tono:'C',
+      imagen:'abbey_road.jpg',
+      spotify:'https://open.spotify.com/intl-es/track/0pNeVovbiZHkulpGeOx1Gj?si=e188d79f00364450'
+    },
       {
+        id: 2,
         titulo: 'Here comes the sun',
         grupo: 'The Beatles',
         compositor: 'George Harrison',
@@ -24,6 +26,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/6dGnYIeXmHdcikdzNNDMm2?si=07813580292649a9'
       },
       {
+        id: 3,
         titulo: 'Norwegian wood (This bird has flown)',
         grupo: 'The Beatles',
         compositor: 'John Lennon',
@@ -35,6 +38,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/1H7gMYGykdtwZOV6s1N0by?si=292ba97f36824c98'
       },
       {
+        id: 4,
         titulo: 'You\'ve got to hide your love away',
         grupo: 'The Beatles',
         compositor: 'John Lennon',
@@ -45,6 +49,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/4F1AgKpuFRMLEgtPETVwZk?si=d0d5bd84513143c8'
       },
       {
+        id: 5,
         titulo: 'Blackbird',
         grupo: 'The Beatles',
         compositor: 'Paul McCartney',
@@ -55,6 +60,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/5jgFfDIR6FR0gvlA56Nakr?si=e097e980078e4dad'
       },
       {
+        id: 6,
         titulo: 'Pero a tu lado',
         grupo: 'Los Secretos',
         compositor: 'Álvaro Urquijo',
@@ -66,6 +72,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/3JOXwHPhtdRU3kYKcf64Gj?si=699b70c2db544863'
       },
       {
+        id: 7,
         titulo: 'El sitio de mi recreo',
         grupo: 'Antonio Vega',
         compositor: 'Antonio Vega',
@@ -78,6 +85,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/2tkMVjFwDzUCG3ulmz3fCb?si=b087224e83294a4a'
       },
       {
+        id: 8,
         titulo: 'Txoria txori',
         grupo: 'Mikel Laboa',
         compositor: 'Mikel Laboa',
@@ -90,6 +98,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/1rNVPbVfu4TmtHFcirfOoQ?si=9954e6bcd3944f59'
       },
       {
+        id: 9,
         titulo: 'Amapola',
         grupo: 'Gari',
         compositor: 'Gari',
@@ -101,6 +110,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/6EEmpWGCJj4C8s9zV1UqMb?si=fa1f74e7c83943d2'
       },
       {
+        id: 10,
         titulo: 'Al Alba',
         grupo: 'Eduardo Aute',
         compositor: 'Eduardo Aute',
@@ -112,6 +122,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/6G26CpDyFmWNfpm8aFXKq5?si=4ebe2fb236fe40b2'
       },
       {
+        id: 11,
         titulo: 'Wish you were here',
         grupo: 'Pink Floyd',
         compositor: 'David Gilmour',
@@ -122,6 +133,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/7aE5WXu5sFeNRh3Z05wwu4?si=7fb1d13292774f9a'
       },
       {
+        id: 12,
         titulo: 'Tears in heaven',
         grupo: 'Eric Clapton',
         compositor: 'Eric Clapton',
@@ -132,6 +144,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/3UqHlIBI771FNCiLY5MKrp?si=150d13b94f054262'
       },
       {
+        id: 13,
         titulo: 'Every Breath you take',
         grupo: 'The Police',
         compositor: 'Sting',
@@ -143,6 +156,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/1JSTJqkT5qHq8MDJnJbRE1?si=ed46ad980f734a48'
       },
       {
+        id: 14,
         titulo: 'Bitter sweet symphony',
         grupo: 'The Verve',
         compositor: 'Richard Ashcroft',
@@ -154,6 +168,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/2i4AouhQeGFBb4g3cx8yqg?si=1831387bf3c641c8'
       },
       {
+        id: 15,
         titulo: 'Fortunate Son',
         grupo: 'Creedence Clearwater Revival',
         compositor: 'John Fogerty',
@@ -165,6 +180,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/4BP3uh0hFLFRb5cjsgLqDh?si=09e10429a77a4e1b'
       },
       {
+        id: 16,
         titulo: 'Santa Lucia',
         grupo: 'Miguel Rios',
         compositor: 'Roque Narvaja',
@@ -176,6 +192,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/4rOf6mtF2MpDwWipaila0L?si=8dd74beb3b4d4553'
       },
       {
+        id: 17,
         titulo: 'El blues del autobus',
         grupo: 'Miguel Rios',
         compositor: 'Miguel Ríos, Carlos Narea, José Luis Armenteros',
@@ -186,6 +203,7 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/15GCALNDBX5oWcUjmYujXQ?si=53f2af9fdaac4c57'
       },
       {
+        id: 18,
         titulo: 'Cerebros Destruídos',
         grupo: 'Eskorbuto',
         compositor: 'Jualma, Iosu Exposito',
@@ -197,6 +215,7 @@ export const canciones:ICancion[] = [
         tono:'Dm'
       },
       {
+        id: 19,
         titulo: 'Free Fallin',
         grupo: 'Tom Petty',
         compositor: 'Tom Petty, Jeff Lynne',
@@ -207,5 +226,17 @@ export const canciones:ICancion[] = [
         spotify:'https://open.spotify.com/intl-es/track/5tVA6TkbaAH9QMITTQRrNv?si=3e5f0b0b53d54105',
         tono:'E',
         capo:'Capo en I'
+      },
+      {
+        id: 20,
+        titulo: 'Learning To Fly',
+        grupo: 'Tom Petty & The Heartbreakers',
+        compositor: 'Tom Petty, Jeff Lynne',
+        album: 'Into the great wide open',
+        anio: 1991,
+        afinacion: 'Estándar',
+        imagen:'into_the_great_wide_open.jpeg',
+        spotify:'https://open.spotify.com/intl-es/track/17S4XrLvF5jlGvGCJHgF51?si=05df67c184a74a4c',
+        tono:'C',
       }
 ];

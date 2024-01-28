@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>{{grupo}} - {{nombreCancion}} - {{album}} - {{anio}}</mat-card-title>
+    </mat-card-header>
+  
+    <mat-card-content>
+      <p>
+        "Learning to Fly" es una canción emblemática de Tom Petty and the Heartbreakers, lanzada como el primer sencillo de su álbum de 1991, "Into the Great Wide Open". Escrita por Tom Petty y su colaborador Jeff Lynne,
+      </p>
+
+      <p>
+        La canción representa metafóricamente el viaje de un individuo hacia el descubrimiento de sí mismo y la búsqueda de su lugar en el mundo, destacando el deseo humano de independencia, libertad y la persecución de sueños. Petty encapsula la esencia de liberarse de la zona de confort y abrazar las incertidumbres de la vida, animando a los oyentes a elevarse por encima de sus miedos y limitaciones​
+      </p>
+  
+      
+
+      <div class="link-container">
+        <a (click)="setVideo('https://www.youtube.com/embed/s5BJXwNeKsQ?si=31w_Dj4IT1o7T5BT')" class="clickable-link">Video Oficial</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/oFPxn08Jb88?si=T6TdQzuxen-S9K3B')" class="clickable-link">Bob Dylan</a>
+        <a (click)="setVideo('https://www.youtube.com/embed/B00W8uzM-xA?si=sjeQ2eIpFmerB_H8')" class="clickable-link">Tutorial Guitar</a>
+        
+      </div>
+
+      <div class="video-container">
+        <iframe width="560" height="315" [src]="currentVideoUrl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </mat-card-content>
+  </mat-card>

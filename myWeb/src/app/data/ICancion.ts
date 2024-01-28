@@ -1,4 +1,5 @@
 export interface ICancion {
+    id: number;
     titulo: string;
     grupo: string;
     compositor?: string;

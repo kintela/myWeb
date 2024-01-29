@@ -65,18 +65,24 @@
             </mat-nav-list>
 
             <mat-nav-list (click)="snav.toggle()">
+                <a mat-list-item class='nav-link' routerLink="recetas" (click)="changeTitle('Planificador Menú Semanal')">
+                    Planificador Menú Semanal
+                </a>
+            </mat-nav-list>
+
+            <!--<mat-nav-list (click)="snav.toggle()">
                 <a mat-list-item class='nav-link' routerLink="instagram" (click)="changeTitle('Instagram')">
                     <mat-icon class="mat-icon-color">photo</mat-icon>Instagram
                 </a>
             </mat-nav-list>
 
             <mat-nav-list (click)="snav.toggle()">
-                <a mat-list-item class='nav-link' routerLink="instagram" (click)="changeTitle('Spotify')">
+                <a mat-list-item class='nav-link' routerLink="spotify" (click)="changeTitle('Spotify')">
                     <mat-icon class="mat-icon-color">music</mat-icon>Spotify
                 </a>
             </mat-nav-list>
-
-            <!--<mat-nav-list (click)="snav.toggle()">
+            
+            <mat-nav-list (click)="snav.toggle()">
                 <a mat-list-item class='nav-link' routerLink="historia" (click)="changeTitle('Historia')">
                     <mat-icon class="mat-icon-color">book</mat-icon>Historia
                 </a>

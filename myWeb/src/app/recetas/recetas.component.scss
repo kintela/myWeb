@@ -1,0 +1,17 @@
+/* Estilos específicos para el selector de categorías */
+.selector-categorias {
+    display: inline-block; /* Hace que el selector se muestre en línea */
+    margin-right: 20px; /* Añade espacio a la derecha del selector de categorías */
+    min-width: 200px; /* Ancho mínimo para el selector de categorías */
+  }
+  
+  /* Estilos específicos para el selector de platos */
+  .selector-platos {
+    display: inline-block; /* Hace que el selector se muestre en línea */
+    min-width: 400px; /* Ancho mínimo para el selector de platos */
+  }
+  
+  .mat-option-text {
+    white-space: nowrap; /* Evita que el texto de las opciones salte de línea */
+  }
+  

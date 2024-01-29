@@ -1,10 +1,37 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PLATOS } from '../data/platos';
 
 @Component({
   selector: 'app-recetas',
   templateUrl: './recetas.component.html',
   styleUrls: ['./recetas.component.scss']
 })
-export class RecetasComponent {
+export class RecetasComponent implements OnInit{
+  categorias: string[] = [];
+  platosFiltrados: any[] = [];
+  categoriaSeleccionada = 'Todas';
+
+  ngOnInit(): void {
+    const categoriasUnicas = [...new Set(PLATOS.flatMap(plato => plato.categorias))];
+    categoriasUnicas.sort();
+
+    this.categorias = [...categoriasUnicas, 'Todas'];
+    
+    this.filtrarPlatos();
+  }
+
+  filtrarPlatos() {
+    if (this.categoriaSeleccionada === 'Todas') {
+      this.platosFiltrados = PLATOS;
+    } else {
+      this.platosFiltrados = PLATOS.filter(plato => plato.categorias.includes(this.categoriaSeleccionada));
+    }
+    this.platosFiltrados.sort((a, b) => a.nombre.localeCompare(b.nombre));
+  }
+
+  onCategoriaSeleccionada(categoria: string) {
+    this.categoriaSeleccionada = categoria;
+    this.filtrarPlatos();
+  }
 
 }

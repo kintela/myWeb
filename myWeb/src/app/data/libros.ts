@@ -504,5 +504,16 @@ export const libros:ILibro[]=[
         enlace:'https://www.planetadelibros.com/libro-camaron/307688',
         sinopsis:'Su voz desgarrada cambió la historia del flamenco. José Monje Cruz, Camarón, empezó a desplegar su don cuando era solo un niño y llegó a conquistar las audiencias de París y Nueva York. Inquieto, pasional, magnético, su arte creció imparable y revolucionario. Desde su nacimiento en San Fernando (Cádiz) hasta su temprana muerte, pasando por su estancia en Madrid, su etapa con Paco de Lucía, su boda con la Chispa, sus trabajos con Tomatito y sus conciertos más memorables, este libro es un homenaje con duende a un hombre de breve biografía pero huella infinita.'
     },
+    {
+        titulo: 'Engañar al Mundo',
+        categoria: 'Biografía',
+        autor: 'Josh Frank y Caryn Ganz',
+        ISBN:'978-84-19234-10-0',
+        depositoLegal:'BI 00416-2023',     
+        caratula: '4.jpg',
+        editorial:'https://editores-euskadi.net/editorial-liburuak/',
+        enlace:'https://www.elargonauta.com/libros/enganar-al-mundo-pixies/978-84-19234-10-0/',
+        sinopsis:'Antes de que Internet, la MTV y los iPods proporcionaran a los aficionados información y comunidades lejanas -en la era pre "Never Mind"-, los jóvenes de todo el mundo crecían en un relativo aislamiento del arte creado por ellos mismos para difundir lentamente escenas y tendencias. En estas condiciones, cuatro jóvenes de Boston formaron una banda llamada Pixies.\n\nDurante su carrera inicial de siete años, tocaron en algunos de los mejores festivales de Europa, mantuvieron a la prensa expectante y cultivaron una ferviente base de fans hambrientos de más y más. La banda trabajó rápido, produciendo cuatro álbumes a un ritmo vertiginoso, pero las presiones y los choques de personalidad pasaron factura: Pixies se disolvió justo cuando las bandas cantaban sus alabanzas como innovadores del rock&roll.'
+    },
     
 ];

@@ -21,9 +21,7 @@ export class RecetasComponent implements OnInit{
     { tipo: 'Cena', lunes: null, martes: null, miércoles: null, jueves: null, viernes: null, sábado: null, domingo: null }
   ];
 
-  
-
-  
+    
   constructor() { }
 
   ngOnInit(): void {

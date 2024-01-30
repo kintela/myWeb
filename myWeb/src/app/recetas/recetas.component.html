@@ -24,7 +24,10 @@
     <mat-header-cell *matHeaderCellDef> {{column}} </mat-header-cell>
     <mat-cell *matCellDef="let element"> 
       <span *ngIf="column === 'tipo'">{{ element[column] }}</span>
-      <button mat-button *ngIf="column !== 'tipo' && !element[column]" (click)="seleccionarPlato(element, column)">
+      <button mat-raised-button 
+        *ngIf="column !== 'tipo' && !element[column]" 
+        (click)="seleccionarPlato(element, column)" color="primary"
+        [disabled]="!platoSeleccionado" >
         Añadir
       </button>
       <span *ngIf="column !== 'tipo' && element[column]">{{ element[column].nombre }}</span>

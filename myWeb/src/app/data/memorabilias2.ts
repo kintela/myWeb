@@ -4223,6 +4223,99 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',   
         year: 1995,
     },
+    {
+        imagen:'2174.jpg',
+        titulo:'Jimi Hendrix y Mick Jagger',
+        personas:'Jimi Hendrix, Mick Jagger',
+        origen:'Facebook',   
+    },
+    {
+        imagen:'2175.jpg',
+        titulo:'Keith Richards',
+        personas:'',
+        origen:'Facebook',   
+    },
+    {
+        imagen:'2176.jpg',
+        titulo:'Albert King',
+        personas:'Albert King',
+        origen:'Facebook',   
+        categoria:'Blues'     
+    },
+    {
+        imagen:'2177.jpg',
+        titulo:'Keith Richards y Ronnie Wood',
+        personas:'Keith Richards, Ronnie Wood',
+        origen:'Facebook',   
+    },
+    {
+        imagen:'2178.jpg',
+        titulo:'David Lee Roth',
+        personas:'David Lee Roth',
+        origen:'Facebook',   
+    },
+    {
+        imagen:'2179.jpg',
+        titulo:'Bonnie Raitt',
+        personas:'Bonnie Raitt',
+        origen:'Facebook',   
+        categoria:'Blues'     
+    },
+    {
+        imagen:'2180.jpg',
+        titulo:'Son House',
+        personas:'Son House',
+        origen:'Facebook',   
+        categoria:'Blues'     
+    },
+    {
+        imagen:'2181.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',   
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2182.jpg',
+        titulo:'John Lennon y Keith Richards',
+        personas:'John Lennon, Keith Richards',
+        origen:'Facebook',   
+        year:1968,
+    },
+    {
+        imagen:'2183.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',   
+        year:1969,
+    },
+    {
+        imagen:'2184.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',   
+        year:1997,
+    },
+    {
+        imagen:'2185.jpg',
+        titulo:'Keb Mo',
+        personas:'Keb Mo',
+        origen:'Facebook',   
+        categoria:'Blues'     
+    },
+    {
+        imagen:'2186.jpg',
+        titulo:'Lightnin\' Hopkins',
+        personas:'Lightnin\' Hopkins',
+        origen:'Facebook',   
+        categoria:'Blues'     
+    },
+    {
+        imagen:'2187.jpg',
+        titulo:'Noel Redding',
+        personas:'Noel Redding',
+        origen:'Facebook',   
+    },
     
     
 ]

@@ -1,4 +1,4 @@
-<div>
+<div class="cabecera">
     <mat-form-field appearance="fill" class="selector-categorias">
       <mat-label>Categorías</mat-label>
       <mat-select [(value)]="categoriaSeleccionada" (selectionChange)="onCategoriaSeleccionada($event.value)">
@@ -11,32 +11,49 @@
     <mat-form-field appearance="fill" class="selector-platos">
         <mat-label>Platos</mat-label>
         <mat-select [(value)]="platoSeleccionado">
-          <mat-option *ngFor="let plato of platosFiltrados" [value]="plato" cdkDrag>
+          <mat-option *ngFor="let plato of platosFiltrados" [value]="plato">
             {{ plato.nombre }}
           </mat-option>
         </mat-select>
     </mat-form-field>
+
+    <button mat-raised-button (click)="fileInput.click()" color="accent">
+      Cargar menu
+      <input type="file" (change)="cargarDataSource($event)" #fileInput hidden>
+    </button>   
           
 </div>
 
-<mat-table [dataSource]="dataSource" class="mat-elevation-z8">
-  <ng-container matColumnDef="{{column}}" *ngFor="let column of displayedColumns">
-    <mat-header-cell *matHeaderCellDef> {{column}} </mat-header-cell>
-    <mat-cell *matCellDef="let element"> 
-      <span *ngIf="column === 'tipo'">{{ element[column] }}</span>
-      <button mat-raised-button 
-        *ngIf="column !== 'tipo' && !element[column]" 
-        (click)="seleccionarPlato(element, column)" color="primary"
-        [disabled]="!platoSeleccionado" >
-        Añadir
-      </button>
-      <span *ngIf="column !== 'tipo' && element[column]">{{ element[column].nombre }}</span>
-    </mat-cell>        
-  </ng-container>
+<div class="calendario">
+  <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <ng-container matColumnDef="{{column}}" *ngFor="let column of displayedColumns">
+      <mat-header-cell *matHeaderCellDef> {{column}} </mat-header-cell>
+      <mat-cell *matCellDef="let element"> 
+        <span *ngIf="column === 'tipo'">{{ element[column] }}</span>
+        <button mat-raised-button 
+          *ngIf="column !== 'tipo' && !element[column]" 
+          (click)="seleccionarPlato(element, column)" color="primary"
+          [disabled]="!platoSeleccionado" >
+          Añadir
+        </button>
+        <span *ngIf="column !== 'tipo' && element[column]">{{ element[column].nombre }}</span>
+      </mat-cell>        
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+  
+  <button mat-raised-button  
+    (click)="guardarDataSource()" 
+    color="primary" 
+    [disabled]="!hayDatosParaGuardar()"
+    class="boton-guardar"
+  >Guardar Datos
+  </button>
+</div>
 
-  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
-</mat-table>
+
 
 
 

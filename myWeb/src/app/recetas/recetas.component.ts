@@ -21,7 +21,6 @@ export class RecetasComponent implements OnInit{
     { tipo: 'Cena', lunes: null, martes: null, miércoles: null, jueves: null, viernes: null, sábado: null, domingo: null }
   ];
 
-    
   constructor() { }
 
   ngOnInit(): void {
@@ -54,6 +53,42 @@ export class RecetasComponent implements OnInit{
     }
     console.log(this.dataSource);
   }
+
+  guardarDataSource() {
+    const dataStr = JSON.stringify(this.dataSource);
+    const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
+  
+    const date = new Date();
+    const formattedDate = date.toISOString().split('T')[0]; // Formato: 'aaaa-mm-dd'
+
+    const exportFileDefaultName = `menuSemanal-${formattedDate}.json`;
+  
+    const linkElement = document.createElement('a');
+    linkElement.setAttribute('href', dataUri);
+    linkElement.setAttribute('download', exportFileDefaultName);
+    linkElement.click();
+  }
+
+  cargarDataSource(event) {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const text = (e.target.result as string);
+        this.dataSource = JSON.parse(text);
+      };
+      reader.readAsText(file);
+    }
+  }
+
+  hayDatosParaGuardar() {
+    return this.dataSource.some(dia => {
+      // Revisa si algún 'dia' tiene al menos un plato que no sea null
+      return Object.values(dia).some(valor => valor !== null && typeof valor === 'object');
+    });
+  }
+  
+  
 
 
 }

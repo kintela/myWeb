@@ -15,5 +15,21 @@
     white-space: nowrap; /* Evita que el texto de las opciones salte de línea */
   }
 
+  .cabecera{
+    display: flex; 
+    align-items: center; 
+    gap: 8px;
+  }
+
+
+  .boton-guardar {
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+  }
+
  
+  
+  
+  
+
+  
   

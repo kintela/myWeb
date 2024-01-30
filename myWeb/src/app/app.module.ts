@@ -51,7 +51,7 @@ import { YoutubeComponent } from './youtube/youtube.component';
 import { Cancion19Component } from './music/canciones/cancion19/cancion19.component';
 import { Cancion20Component } from './music/canciones/cancion20/cancion20.component';
 import { RecetasComponent } from './recetas/recetas.component';
-import { DragDropModule } from '@angular/cdk/drag-drop';
+
 
 registerLocaleData(localeEs);
 
@@ -102,8 +102,7 @@ registerLocaleData(localeEs);
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    HttpClientModule,
-    DragDropModule
+    HttpClientModule    
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'es' } // Configurar español como el locale predeterminado

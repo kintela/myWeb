@@ -8,51 +8,34 @@
       </mat-select>
     </mat-form-field>
   
-    <!--<mat-form-field appearance="fill" class="selector-platos">
+    <mat-form-field appearance="fill" class="selector-platos">
         <mat-label>Platos</mat-label>
-        <mat-select #platosSelect>
-          <mat-option *ngFor="let plato of platosFiltrados" [value]="plato.nombre" cdkDrag>
+        <mat-select [(value)]="platoSeleccionado">
+          <mat-option *ngFor="let plato of platosFiltrados" [value]="plato" cdkDrag>
             {{ plato.nombre }}
           </mat-option>
         </mat-select>
-    </mat-form-field>-->
-    <mat-form-field appearance="fill">
-        <mat-label>Platos</mat-label>
-        <mat-select [(value)]="platoSeleccionado">
-          <mat-option *ngFor="let plato of platosFiltrados" [value]="plato">{{ plato.nombre }}</mat-option>
-        </mat-select>
-      </mat-form-field>
-      <button (click)="agregarALista(platoSeleccionado)">Agregar Plato</button>          
+    </mat-form-field>
+          
 </div>
 
-<div cdkDropList class="platos-lista" (cdkDropListDropped)="onDrop($event)">
-    <div *ngFor="let plato of platosAgregados" cdkDrag>{{ plato.nombre }}</div>
-</div>
+<mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <ng-container matColumnDef="{{column}}" *ngFor="let column of displayedColumns">
+    <mat-header-cell *matHeaderCellDef> {{column}} </mat-header-cell>
+    <mat-cell *matCellDef="let element"> 
+      <span *ngIf="column === 'tipo'">{{ element[column] }}</span>
+      <button mat-button *ngIf="column !== 'tipo' && !element[column]" (click)="seleccionarPlato(element, column)">
+        Añadir
+      </button>
+      <span *ngIf="column !== 'tipo' && element[column]">{{ element[column].nombre }}</span>
+    </mat-cell>        
+  </ng-container>
 
-<div class="planificador">
-    <table mat-table [dataSource]="datosTabla" class="mat-elevation-z8">
-      
-      <!-- Columna de Tipo (Comida/Cena) -->
-      <ng-container matColumnDef="tipo">
-        <th mat-header-cell *matHeaderCellDef> Tipo </th>
-        <td mat-cell *matCellDef="let elemento"> {{ elemento.tipo }} </td>
-      </ng-container>
-  
-      <!-- Columnas de Días -->
-      <ng-container matColumnDef="{{ dia }}" *ngFor="let dia of displayedColumns">
-        <th mat-header-cell *matHeaderCellDef> {{ dia }} </th>
-        <td mat-cell *matCellDef="let elemento" cdkDropList (cdkDropListDropped)="onDrop($event, elemento, dia)">
-          <div *ngFor="let plato of elemento.platos[dia]" cdkDrag>{{ plato.nombre }}</div>
-        </td>
-      </ng-container>
-  
-      <!-- Encabezado y Filas -->
-      <tr mat-header-row *matHeaderRowDef="fullColumns"></tr>
-      <tr mat-row *matRowDef="let row; columns: fullColumns;"></tr>
-    </table>
-  </div>
-  
-  
-  
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+
+
+
   
   

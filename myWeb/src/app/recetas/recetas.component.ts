@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { PLATOS } from '../data/platos';
-import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import { IPlato } from '../data/IPlatos';
+
 
 @Component({
   selector: 'app-recetas',
@@ -12,19 +12,21 @@ export class RecetasComponent implements OnInit{
   categorias: string[] = [];
   platosFiltrados: any[] = [];
   categoriaSeleccionada = 'Todas';
-  platoSeleccionado:IPlato;
-  platosAgregados: IPlato[] = [];
+  platoSeleccionado: IPlato;
 
-  displayedColumns: string[] = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
-  fullColumns: string[] = []; // Propiedad para todas las columnas, incluido "tipo"
-  datosTabla = [
-    { tipo: 'Comida', platos: {} }, // Asegúrate de que 'platos' esté inicializado para evitar errores
-    { tipo: 'Cena', platos: {} }
+  displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
+ 
+  dataSource = [
+    { tipo: 'Comida', lunes: null, martes: null, miércoles: null, jueves: null, viernes: null, sábado: null, domingo: null },
+    { tipo: 'Cena', lunes: null, martes: null, miércoles: null, jueves: null, viernes: null, sábado: null, domingo: null }
   ];
+
   
+
   
+  constructor() { }
+
   ngOnInit(): void {
-    this.fullColumns = ['tipo', ...this.displayedColumns];
     const categoriasUnicas = [...new Set(PLATOS.flatMap(plato => plato.categorias))];
     categoriasUnicas.sort();
 
@@ -42,27 +44,18 @@ export class RecetasComponent implements OnInit{
     this.platosFiltrados.sort((a, b) => a.nombre.localeCompare(b.nombre));
   }
 
-  agregarALista(plato: IPlato) {
-    this.platosAgregados.push(plato);
-  }
 
   onCategoriaSeleccionada(categoria: string) {
     this.categoriaSeleccionada = categoria;
     this.filtrarPlatos();
   }
 
-  onDrop(event: CdkDragDrop<string[]>) {
-    if (event.previousContainer === event.container) {
-      moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
-    } else {
-      transferArrayItem(event.previousContainer.data,
-                        event.container.data,
-                        event.previousIndex,
-                        event.currentIndex);
+  seleccionarPlato(element: any, dia: string) {
+    if (this.platoSeleccionado) {
+      element[dia] = this.platoSeleccionado;
     }
+    console.log(this.dataSource);
   }
-  
-
 
 
 }

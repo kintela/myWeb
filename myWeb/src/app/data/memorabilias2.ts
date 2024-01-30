@@ -4316,6 +4316,20 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Noel Redding',
         origen:'Facebook',   
     },
-    
+    {
+        imagen:'2188.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',   
+        descripcion:'David Bowie llegó a Estados Unidos por primera vez en 1971 ataviado en vestidos del diseñador Michael Fish. Tras unas semanas recorriendo el pais en avión, tren y hasta autobús, Bowie volvió a Londres revigorizado. Se alojó en hoteles baratos y, a veces, compartió casa con empleados de Mercury Records. Regreso con muchas vivencias y planes. Tenía nuevas canciones, un léxico fresco y hasta tentaciones musicales contrapuestas: adoraba el rock nihilista de The Stooges, pero tampoco era inmune al confortable encanto de cantautores tipo James Taylor o Carole King, entonces en ascenso. Ganaría el rock, vehículo final para una historia que había empezado a hilar en Los Ángeles: la de una estrella mesiánica y decadente llamada… Ziggy Stardust.',
+        year:1971,
+    },
+    {
+        imagen:'2189.jpg',
+        titulo:'Andrew Loog Oldham con The Rolling Stones',
+        personas:'Andrew Loog Oldham, Charlie Watts, Mick Jagger, Keith Richards, Brian Jones, Bill Wyman',
+        origen:'Facebook',   
+        descripcion:'El productor británico de los Rolling Stones en su primera época, quien los "descubrió" y forjó su imagen de "chicos malos", bien puede ser la excepción que confirma la regla. Andrew, quien produjo y compuso también a Small Faces, John Mayall, Rod Stewart, Jimmy Page, Jeff Beck, Eric Clapton, Humble Pie, Alex Chilton, Jimmy Cliff, Nikki Sudden, The Verve y décadas después produjo a los Ratones Paranoicos y Charly García. Entre sus hitos, consiguió que Lennon y McCartney compusieran para los Rolling la canción que les daría su primer éxito "I Wanna Be Your Man", encerrar a Jagger y Richards en su propia cocina y no dejarlos salir hasta que compusieran su primera canción, e inventar una novedosa serie de tácticas de promoción y marketing como la famosa frase "¿Dejaría usted que su hija se case con un Rolling Stone?',
+    },
     
 ]

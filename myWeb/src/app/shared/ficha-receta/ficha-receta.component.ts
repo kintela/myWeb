@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { IListaCompra } from 'src/app/data/IListaCompra';
 import { IPlato } from 'src/app/data/IPlatos';
 
 @Component({
@@ -8,4 +9,17 @@ import { IPlato } from 'src/app/data/IPlatos';
 })
 export class FichaRecetaComponent {
   @Input() plato:IPlato;
+
+  listaCompra: Array<{ ingrediente: string; cantidad: string; seleccionado: boolean }> = [];
+
+  agregarAListaCompra(ingrediente: string) {
+    const item = {
+      ingrediente: ingrediente,
+      cantidad: '1', // Valor predeterminado o puedes proporcionar una forma de especificarlo
+      seleccionado: true,
+    };
+    this.listaCompra.push(item);
+  } 
+  
+
 }

@@ -101,17 +101,7 @@ export class PlanificadorMenusComponent implements OnInit{
     this.platoParaReceta = plato;
   }
 
-  eliminarPlatoOLD(plato: IPlato) {
-    this.dataSource.forEach((dia) => {
-      Object.keys(dia).forEach((clave) => {
-        if (dia[clave] === plato) {
-          dia[clave] = null;
-        }
-      });
-    });
-    this.platoParaReceta = null; 
-  }
-
+  
   eliminarPlato(evento: { plato: IPlato; dia: string; tipo: string }) {
     console.log(evento);
     // Accede a la propiedad específica usando el día y el tipo

@@ -53,6 +53,8 @@ import { Cancion20Component } from './music/canciones/cancion20/cancion20.compon
 import { PlanificadorMenusComponent } from './planificador-de-menus/planificador-menus.component';
 import { FichaPlatoComponent } from './shared/ficha-plato/ficha-plato.component';
 import { FichaRecetaComponent } from './shared/ficha-receta/ficha-receta.component';
+import { ListaCompraComponent } from './planificador-de-menus/lista-compra/lista-compra.component';
+
 
 
 registerLocaleData(localeEs);
@@ -98,7 +100,7 @@ registerLocaleData(localeEs);
     SpotifyComponent, 
     TruncatePipe, TracksComponent, YoutubeComponent, Cancion19Component, Cancion20Component, 
     PlanificadorMenusComponent, 
-    FichaPlatoComponent, FichaRecetaComponent     
+    FichaPlatoComponent, FichaRecetaComponent, ListaCompraComponent     
   ],
   imports: [
     BrowserModule,

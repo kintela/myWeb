@@ -4,4 +4,12 @@
     object-fit: cover;
     cursor: pointer;
   }
+
+  .fixed-width-card {
+    width: 200px; /* O el ancho que desees */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    margin: auto; /* Centra la tarjeta si su contenedor es más ancho */
+  }
   
+  
+ 

@@ -33,6 +33,7 @@ import { TracksComponent } from './spotify/tracks/tracks.component';
 import { AuthSpotifyService } from './guards/auth-spotify.service';
 import { Cancion19Component } from './music/canciones/cancion19/cancion19.component';
 import { Cancion20Component } from './music/canciones/cancion20/cancion20.component';
+import { PlanificadorMenusComponent } from './planificador-de-menus/planificador-menus.component';
 
 const routes: Routes = [
   { path: 'cancion1', component: Cancion1Component },
@@ -65,6 +66,7 @@ const routes: Routes = [
   {path:'historia',component: HistoriaComponent},
   {path:'instagram',component: InstagramComponent},
   {path:'spotify',component: SpotifyComponent},
+  {path:'recetas',component: PlanificadorMenusComponent},
   {
     path:'spotify/tracks',
     component: TracksComponent,

@@ -1,0 +1,69 @@
+<div class="cabecera">
+    <mat-form-field appearance="fill" class="selector-categorias">
+      <mat-label>Categorías</mat-label>
+      <mat-select [(value)]="categoriaSeleccionada" (selectionChange)="onCategoriaSeleccionada($event.value)">
+        <mat-option *ngFor="let categoria of categorias" [value]="categoria">
+          {{ categoria }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill" class="selector-platos">
+        <mat-label>Platos</mat-label>
+        <mat-select [(value)]="platoSeleccionado">
+          <mat-option *ngFor="let plato of platosFiltrados" [value]="plato">
+            {{ plato.nombre }}
+          </mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <button mat-raised-button (click)="fileInput.click()" color="primary">
+      Cargar menu
+      <input type="file" (change)="cargarDataSource($event)" #fileInput hidden>
+    </button>   
+          
+</div>
+
+<div class="calendario">
+  <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <ng-container matColumnDef="{{column}}" *ngFor="let column of displayedColumns">
+      <mat-header-cell *matHeaderCellDef> {{column}} </mat-header-cell>
+      <mat-cell *matCellDef="let element"> 
+        <span *ngIf="column === 'tipo'">{{ element[column] }}</span>
+        <button mat-raised-button 
+          *ngIf="column !== 'tipo' && !element[column]" 
+          (click)="seleccionarPlato(element, column)" color="warn"
+          [disabled]="!platoSeleccionado" >
+          Añadir
+        </button>
+        <app-ficha-plato *ngIf="column !== 'tipo' && element[column]" 
+          [plato]="element[column]"
+          [dia]="column" 
+          [tipo]="element['tipo']"
+          (platoParaReceta)="mostrarFichaReceta($event)"
+          (platoEliminado)="eliminarPlato($event)">
+        </app-ficha-plato>
+      </mat-cell>        
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+  
+  <button mat-raised-button  
+    (click)="guardarDataSource()" 
+    color="primary" 
+    [disabled]="!hayDatosParaGuardar()"
+    class="boton-guardar"
+  >Guardar Datos
+  </button>
+</div>
+
+<app-ficha-receta *ngIf="platoParaReceta" [plato]="platoParaReceta"></app-ficha-receta>
+
+
+
+
+
+  
+  

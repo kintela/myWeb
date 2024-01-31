@@ -50,6 +50,10 @@ import { TracksComponent } from './spotify/tracks/tracks.component';
 import { YoutubeComponent } from './youtube/youtube.component';
 import { Cancion19Component } from './music/canciones/cancion19/cancion19.component';
 import { Cancion20Component } from './music/canciones/cancion20/cancion20.component';
+import { PlanificadorMenusComponent } from './planificador-de-menus/planificador-menus.component';
+import { FichaPlatoComponent } from './shared/ficha-plato/ficha-plato.component';
+import { FichaRecetaComponent } from './shared/ficha-receta/ficha-receta.component';
+
 
 registerLocaleData(localeEs);
 
@@ -92,7 +96,9 @@ registerLocaleData(localeEs);
     LamentxuComponent, 
     InstagramComponent, 
     SpotifyComponent, 
-    TruncatePipe, TracksComponent, YoutubeComponent, Cancion19Component, Cancion20Component     
+    TruncatePipe, TracksComponent, YoutubeComponent, Cancion19Component, Cancion20Component, 
+    PlanificadorMenusComponent, 
+    FichaPlatoComponent, FichaRecetaComponent     
   ],
   imports: [
     BrowserModule,
@@ -100,7 +106,7 @@ registerLocaleData(localeEs);
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule    
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'es' } // Configurar español como el locale predeterminado

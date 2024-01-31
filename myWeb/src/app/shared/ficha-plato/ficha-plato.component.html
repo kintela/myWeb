@@ -1,0 +1,26 @@
+<mat-card class="fixed-width-card">
+    <mat-card-header>
+        <mat-card-subtitle [matTooltip]="plato.nombre">
+            {{ plato.nombre.length > 20 ? (plato.nombre | slice:0:15) + '...' : plato.nombre }}
+        </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <img *ngIf="plato.imagen; else defaultImage" 
+             src="https://kintela.azureedge.net/assets/assets/recetas/{{ plato.imagen }}" 
+             alt="Imagen de la receta" 
+             (click)="emitirPlatoSeleccionado()"
+             class="plato-imagen">
+        <ng-template #defaultImage>
+            <img src="https://kintela.azureedge.net/assets/assets/recetas/0.png" 
+                 alt="Imagen de la receta" 
+                 (click)="emitirPlatoSeleccionado()"
+                 class="plato-imagen">
+        </ng-template>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-icon-button color="warn" (click)="eliminarPlato()">
+          <mat-icon>delete</mat-icon>
+        </button>
+    </mat-card-actions>
+</mat-card>
+

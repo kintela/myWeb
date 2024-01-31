@@ -17,7 +17,7 @@
         </mat-select>
     </mat-form-field>
 
-    <button mat-raised-button (click)="fileInput.click()" color="accent">
+    <button mat-raised-button (click)="fileInput.click()" color="primary">
       Cargar menu
       <input type="file" (change)="cargarDataSource($event)" #fileInput hidden>
     </button>   
@@ -32,13 +32,14 @@
         <span *ngIf="column === 'tipo'">{{ element[column] }}</span>
         <button mat-raised-button 
           *ngIf="column !== 'tipo' && !element[column]" 
-          (click)="seleccionarPlato(element, column)" color="primary"
+          (click)="seleccionarPlato(element, column)" color="warn"
           [disabled]="!platoSeleccionado" >
           Añadir
         </button>
         <app-ficha-plato *ngIf="column !== 'tipo' && element[column]" 
           [plato]="element[column]"
-          (platoParaReceta)="mostrarFichaReceta($event)">
+          (platoParaReceta)="mostrarFichaReceta($event)"
+          (platoEliminado)="eliminarPlato($event)">
         </app-ficha-plato>
       </mat-cell>        
     </ng-container>

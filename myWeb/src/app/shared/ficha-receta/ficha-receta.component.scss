@@ -21,5 +21,10 @@
     object-fit: cover;
     border: 2px solid black; /* Borde negro */
   }
+
+  .video-container {
+    text-align: center; /* Esto centrará el contenido del contenedor */
+    padding: 8px 0; /* Añade algo de espacio arriba y abajo del enlace */
+  }
   
   

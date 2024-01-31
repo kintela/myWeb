@@ -9,8 +9,13 @@ import { IPlato } from 'src/app/data/IPlatos';
 export class FichaPlatoComponent {
   @Input() plato:IPlato;
   @Output() platoParaReceta = new EventEmitter<IPlato>();
+  @Output() platoEliminado = new EventEmitter<IPlato>();
 
   emitirPlatoSeleccionado() {
     this.platoParaReceta.emit(this.plato);
+  }
+
+  eliminarPlato() {
+    this.platoEliminado.emit(this.plato);
   }
 }

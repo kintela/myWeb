@@ -20,6 +20,9 @@
                 </ng-template>
             </mat-card-content>
         </mat-card>
+        <div *ngIf="plato.enlaceVideo" class="video-container">
+            <a href="{{ plato.enlaceVideo }}" target="_blank">Video</a>
+        </div>
     </div>
     <div class="ficha-columna">
       <mat-card>

@@ -1,7 +1,7 @@
 export interface IPlato {
     nombre: string;
     categorias?: string[];
-    enlaceReceta?: string;
+    enlaceVideo?: string;
     ingredientes?: string[];
     imagen?: string;
     preparacion?: string[];

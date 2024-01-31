@@ -14,6 +14,7 @@ export class PlanificadorMenusComponent implements OnInit{
   categoriaSeleccionada = 'Todas';
   platoSeleccionado: IPlato;
   platoParaReceta: IPlato;
+  platoEliminado:IPlato;
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
  
@@ -92,6 +93,17 @@ export class PlanificadorMenusComponent implements OnInit{
   
   mostrarFichaReceta(plato: IPlato) {
     this.platoParaReceta = plato;
+  }
+
+  eliminarPlato(plato: IPlato) {
+    this.dataSource.forEach((dia) => {
+      Object.keys(dia).forEach((clave) => {
+        if (dia[clave] === plato) {
+          dia[clave] = null;
+        }
+      });
+    });
+    this.platoParaReceta = null; 
   }
 
 }

@@ -5,7 +5,7 @@ export const PLATOS:IPlato[]=[
         nombre:'Langostinos al horno',
         categorias:['Pescado'],
         imagen:'1.jpg',
-        enlaceReceta:'https://www.hogarmania.com/cocina/recetas/pescados-mariscos/langostinos-horno-perejil-karlos-arguinano.html?utm_source=TwitterKarlos&utm_medium=social&utm_campaign=langostinos-horno-perejil-karlos-arguinano'
+        enlaceVideo:'https://www.hogarmania.com/cocina/recetas/pescados-mariscos/langostinos-horno-perejil-karlos-arguinano.html?utm_source=TwitterKarlos&utm_medium=social&utm_campaign=langostinos-horno-perejil-karlos-arguinano'
     },
     {
         nombre:'Tortilla de Patatas',
@@ -39,7 +39,7 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Patatas a la riojana',
         categorias:['Verduras','Patatas'],
-        enlaceReceta:'https://www.hogarmania.com/cocina/recetas/ensaladas-verduras/patatas-riojana-3737.html'
+        enlaceVideo:'https://www.hogarmania.com/cocina/recetas/ensaladas-verduras/patatas-riojana-3737.html'
     },
     {
         nombre:'Ensalada de pasta',

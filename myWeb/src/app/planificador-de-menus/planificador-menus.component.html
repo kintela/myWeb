@@ -38,6 +38,8 @@
         </button>
         <app-ficha-plato *ngIf="column !== 'tipo' && element[column]" 
           [plato]="element[column]"
+          [dia]="column" 
+          [tipo]="element['tipo']"
           (platoParaReceta)="mostrarFichaReceta($event)"
           (platoEliminado)="eliminarPlato($event)">
         </app-ficha-plato>

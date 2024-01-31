@@ -2,19 +2,25 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { PLATOS } from '../data/platos';
 import { IPlato } from '../data/IPlatos';
 
+export interface PlatoEliminadoEvent {
+  plato: IPlato;
+  dia: string;
+  tipo: string;
+}
 
 @Component({
   selector: 'app-recetas',
   templateUrl: './planificador-menus.component.html',
   styleUrls: ['./planificador-menus.component.scss']
 })
+
 export class PlanificadorMenusComponent implements OnInit{
   categorias: string[] = [];
   platosFiltrados: any[] = [];
   categoriaSeleccionada = 'Todas';
   platoSeleccionado: IPlato;
   platoParaReceta: IPlato;
-  platoEliminado:IPlato;
+  platoEliminado:PlatoEliminadoEvent;
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
  
@@ -95,7 +101,7 @@ export class PlanificadorMenusComponent implements OnInit{
     this.platoParaReceta = plato;
   }
 
-  eliminarPlato(plato: IPlato) {
+  eliminarPlatoOLD(plato: IPlato) {
     this.dataSource.forEach((dia) => {
       Object.keys(dia).forEach((clave) => {
         if (dia[clave] === plato) {
@@ -105,5 +111,16 @@ export class PlanificadorMenusComponent implements OnInit{
     });
     this.platoParaReceta = null; 
   }
+
+  eliminarPlato(evento: { plato: IPlato; dia: string; tipo: string }) {
+    console.log(evento);
+    // Accede a la propiedad específica usando el día y el tipo
+    let dia = this.dataSource.find(d => d.tipo === evento.tipo);
+    if (dia && dia[evento.dia] === evento.plato) {
+      dia[evento.dia] = null;
+    }
+    this.platoParaReceta = null;
+  }
+  
 
 }

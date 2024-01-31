@@ -36,7 +36,10 @@
           [disabled]="!platoSeleccionado" >
           Añadir
         </button>
-        <span *ngIf="column !== 'tipo' && element[column]">{{ element[column].nombre }}</span>
+        <app-ficha-plato *ngIf="column !== 'tipo' && element[column]" 
+          [plato]="element[column]"
+          (platoParaReceta)="mostrarFichaReceta($event)">
+        </app-ficha-plato>
       </mat-cell>        
     </ng-container>
   
@@ -52,6 +55,8 @@
   >Guardar Datos
   </button>
 </div>
+
+<app-ficha-receta *ngIf="platoParaReceta" [plato]="platoParaReceta"></app-ficha-receta>
 
 
 

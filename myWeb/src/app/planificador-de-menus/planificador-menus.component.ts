@@ -5,14 +5,15 @@ import { IPlato } from '../data/IPlatos';
 
 @Component({
   selector: 'app-recetas',
-  templateUrl: './recetas.component.html',
-  styleUrls: ['./recetas.component.scss']
+  templateUrl: './planificador-menus.component.html',
+  styleUrls: ['./planificador-menus.component.scss']
 })
-export class RecetasComponent implements OnInit{
+export class PlanificadorMenusComponent implements OnInit{
   categorias: string[] = [];
   platosFiltrados: any[] = [];
   categoriaSeleccionada = 'Todas';
   platoSeleccionado: IPlato;
+  platoParaReceta: IPlato;
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
  
@@ -89,6 +90,8 @@ export class RecetasComponent implements OnInit{
   }
   
   
-
+  mostrarFichaReceta(plato: IPlato) {
+    this.platoParaReceta = plato;
+  }
 
 }

@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-subtitle>
+            {{ plato.nombre }}
+        </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <img *ngIf="plato.imagen; else defaultImage" 
+             src="https://kintela.azureedge.net/assets/assets/recetas/{{ plato.imagen }}" 
+             alt="Imagen de la receta" 
+             (click)="emitirPlatoSeleccionado()"
+             class="plato-imagen">
+        <ng-template #defaultImage>
+            <img src="https://kintela.azureedge.net/assets/assets/recetas/0.png" 
+                 alt="Imagen de la receta" 
+                 (click)="emitirPlatoSeleccionado()"
+                 class="plato-imagen">
+        </ng-template>
+    </mat-card-content>
+</mat-card>
+

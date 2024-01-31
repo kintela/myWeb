@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { PLATOS } from '../data/platos';
 import { IPlato } from '../data/IPlatos';
+import { IListaCompra } from '../data/IListaCompra';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -21,6 +22,7 @@ export class PlanificadorMenusComponent implements OnInit{
   platoSeleccionado: IPlato;
   platoParaReceta: IPlato;
   platoEliminado:PlatoEliminadoEvent;
+  listaCompra: IListaCompra[] = [];
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
  
@@ -110,6 +112,11 @@ export class PlanificadorMenusComponent implements OnInit{
       dia[evento.dia] = null;
     }
     this.platoParaReceta = null;
+  }
+
+  mostrarListaCompra($event){
+    console.log($event);
+    this.listaCompra = $event;
   }
   
 

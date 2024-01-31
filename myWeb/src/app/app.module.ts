@@ -51,8 +51,8 @@ import { YoutubeComponent } from './youtube/youtube.component';
 import { Cancion19Component } from './music/canciones/cancion19/cancion19.component';
 import { Cancion20Component } from './music/canciones/cancion20/cancion20.component';
 import { PlanificadorMenusComponent } from './planificador-de-menus/planificador-menus.component';
-import { FichaPlatoComponent } from './shared/ficha-plato/ficha-plato.component';
-import { FichaRecetaComponent } from './shared/ficha-receta/ficha-receta.component';
+import { FichaPlatoComponent } from './planificador-de-menus/ficha-plato/ficha-plato.component';
+import { FichaRecetaComponent } from './planificador-de-menus/ficha-receta/ficha-receta.component';
 import { ListaCompraComponent } from './planificador-de-menus/lista-compra/lista-compra.component';
 
 

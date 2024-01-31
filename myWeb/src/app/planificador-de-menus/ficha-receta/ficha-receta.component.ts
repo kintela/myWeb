@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { IListaCompra } from 'src/app/data/IListaCompra';
 import { IPlato } from 'src/app/data/IPlatos';
 
@@ -9,6 +9,7 @@ import { IPlato } from 'src/app/data/IPlatos';
 })
 export class FichaRecetaComponent {
   @Input() plato:IPlato;
+  @Output() listaCompraFinal =new EventEmitter<IListaCompra[]>();
 
   listaCompra: Array<{ ingrediente: string; cantidad: string; seleccionado: boolean }> = [];
 
@@ -19,6 +20,8 @@ export class FichaRecetaComponent {
       seleccionado: true,
     };
     this.listaCompra.push(item);
+
+    this.listaCompraFinal.emit(this.listaCompra);
   } 
   
 

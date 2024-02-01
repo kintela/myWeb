@@ -1,5 +1,5 @@
 export interface IListaCompra{
     ingrediente: string;
-    cantidad: string;
+    cantidad: number;
     seleccionado: boolean;
 }

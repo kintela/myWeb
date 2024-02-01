@@ -9,19 +9,16 @@ import { IPlato } from 'src/app/data/IPlatos';
 })
 export class FichaRecetaComponent {
   @Input() plato:IPlato;
-  @Output() listaCompraFinal =new EventEmitter<IListaCompra[]>();
-
-  listaCompra: Array<{ ingrediente: string; cantidad: string; seleccionado: boolean }> = [];
-
+  @Output() listaCompra=new EventEmitter<IListaCompra>();
+  
   agregarAListaCompra(ingrediente: string) {
-    const item = {
+    const item:IListaCompra = {
       ingrediente: ingrediente,
-      cantidad: '1', // Valor predeterminado o puedes proporcionar una forma de especificarlo
+      cantidad: 1,
       seleccionado: true,
     };
-    this.listaCompra.push(item);
+    this.listaCompra.emit(item);
 
-    this.listaCompraFinal.emit(this.listaCompra);
   } 
   
 

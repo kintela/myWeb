@@ -22,7 +22,8 @@ export class PlanificadorMenusComponent implements OnInit{
   platoSeleccionado: IPlato;
   platoParaReceta: IPlato;
   platoEliminado:PlatoEliminadoEvent;
-  listaCompra: IListaCompra[] = [];
+  listaCompra: IListaCompra;
+  listaCompraAcumulada: IListaCompra[]=[]; 
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
  
@@ -33,7 +34,7 @@ export class PlanificadorMenusComponent implements OnInit{
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
     const categoriasUnicas = [...new Set(PLATOS.flatMap(plato => plato.categorias))];
     categoriasUnicas.sort();
 
@@ -114,9 +115,14 @@ export class PlanificadorMenusComponent implements OnInit{
     this.platoParaReceta = null;
   }
 
-  mostrarListaCompra($event){
+  mostrarListaCompraOLD($event){
     console.log($event);
     this.listaCompra = $event;
+  }
+
+  mostrarListaCompra(item: IListaCompra) {
+    console.log(item);
+    this.listaCompraAcumulada.push(item); 
   }
   
 

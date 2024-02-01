@@ -1,3 +1,21 @@
 <mat-card>
-    
+    <mat-card-header>
+        <mat-card-title>Lista de la compra</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div *ngFor="let item of listaCompra; let i = index">
+            {{ item.ingrediente }}
+            <mat-form-field>
+                <input matInput [(ngModel)]="item.cantidad" type="text" [name]="'cantidad' + i">
+            </mat-form-field>
+            <button mat-icon-button (click)="eliminarItem(i)" aria-label="Eliminar elemento">
+                <mat-icon>delete</mat-icon>
+            </button>
+        </div>        
+    </mat-card-content>
 </mat-card>
+
+
+  
+  
+  

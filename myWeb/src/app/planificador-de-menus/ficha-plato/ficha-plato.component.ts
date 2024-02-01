@@ -23,7 +23,6 @@ export class FichaPlatoComponent {
     this.platoParaReceta.emit(this.plato);
   }
 
-
   eliminarPlato() {
     this.platoEliminado.emit({ plato: this.plato, dia: this.dia, tipo: this.tipo });
   }

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { MatTableDataSource } from '@angular/material/table';
+import { IListaCompra } from 'src/app/data/IListaCompra';
 
 @Component({
   selector: 'app-lista-compra',
@@ -6,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./lista-compra.component.scss']
 })
 export class ListaCompraComponent {
+  @Input() listaCompra: IListaCompra[];
 
+  displayedColumns: string[] = ['ingrediente', 'cantidad', 'seleccionado']; 
+
+  eliminarItem(index: number): void {
+    this.listaCompra.splice(index, 1);
+  }
+  
 }

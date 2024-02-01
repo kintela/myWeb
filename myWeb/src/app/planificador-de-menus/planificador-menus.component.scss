@@ -27,6 +27,13 @@
     margin-bottom: 20px;
   }
 
+  .recetaYLista {
+    display: flex; /* Esto habilita Flexbox para el contenedor */
+    justify-content: flex-start; /* Alinea los elementos al inicio del contenedor */
+    align-items: flex-start; /* Asegura que los elementos se alineen al inicio verticalmente */
+  }
+  
+
  
   
   

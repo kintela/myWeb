@@ -4486,4 +4486,18 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'John Mayall & The Bluesbreakers',
         origen:'Facebook',   
     },
+    {
+        imagen:'2212.jpg',
+        titulo:'Paul McCartney',
+        personas:'Paul McCartney',
+        origen:'Facebook',   
+        grupo:'The Beatles',
+    },
+    {
+        imagen:'2213.jpg',
+        titulo:'Paul McCartney, George Harrison y Ringo Starr',
+        personas:'Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',   
+        grupo:'The Beatles',
+    },
 ]

@@ -6,4 +6,5 @@ export interface IPlato {
     imagen?: string;
     preparacion?: string[];
     presentacion?: string[];
+    comensales?: number;
 }

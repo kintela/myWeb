@@ -59,7 +59,19 @@
   </button>
 </div>
 
-<app-ficha-receta *ngIf="platoParaReceta" [plato]="platoParaReceta"></app-ficha-receta>
+<div class="recetaYLista">
+  <app-ficha-receta *ngIf="platoParaReceta" 
+  [plato]="platoParaReceta"
+  (listaCompra)="mostrarListaCompra($event)">  
+  </app-ficha-receta>
+
+  <app-lista-compra *ngIf="listaCompraAcumulada.length > 0"
+  [listaCompra]="listaCompraAcumulada">
+  </app-lista-compra> 
+
+</div>
+
+
 
 
 

@@ -5,6 +5,9 @@
                 <mat-card-title>
                     {{ plato.nombre }}
                 </mat-card-title>
+                <mat-card-subtitle *ngIf="plato.comensales">
+                    para {{plato.comensales}} comensales
+                </mat-card-subtitle>           
             </mat-card-header>
             <mat-card-content>
                 <img *ngIf="plato.imagen; else defaultImage" 
@@ -33,7 +36,12 @@
         </mat-card-header>
         <mat-card-content>
             <ul>
-                <li *ngFor="let ingrediente of plato.ingredientes">{{ ingrediente }}</li>
+                <li *ngFor="let ingrediente of plato.ingredientes">
+                    {{ ingrediente }}
+                    <button mat-icon-button aria-label="Añadir a la cesta de la compra" (click)="agregarAListaCompra(ingrediente)">
+                        <mat-icon>shopping_cart</mat-icon>
+                    </button>
+                </li>
             </ul>
         </mat-card-content>
       </mat-card>
@@ -46,6 +54,18 @@
         <mat-card-content>
             <ol>
                 <li *ngFor="let paso of plato.preparacion">{{ paso }}</li>
+            </ol>
+        </mat-card-content>
+      </mat-card>
+      <mat-card>
+        <mat-card-header>
+            <mat-card-title>
+                Presentación
+            </mat-card-title>        
+        </mat-card-header>
+        <mat-card-content>
+            <ol>
+                <li *ngFor="let paso of plato.presentacion">{{ paso }}</li>
             </ol>
         </mat-card-content>
       </mat-card>

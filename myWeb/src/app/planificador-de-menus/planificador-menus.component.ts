@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { PLATOS } from '../data/platos';
 import { IPlato } from '../data/IPlatos';
+import { IListaCompra } from '../data/IListaCompra';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -21,6 +22,8 @@ export class PlanificadorMenusComponent implements OnInit{
   platoSeleccionado: IPlato;
   platoParaReceta: IPlato;
   platoEliminado:PlatoEliminadoEvent;
+  listaCompra: IListaCompra;
+  listaCompraAcumulada: IListaCompra[]=[]; 
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
  
@@ -31,7 +34,7 @@ export class PlanificadorMenusComponent implements OnInit{
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
     const categoriasUnicas = [...new Set(PLATOS.flatMap(plato => plato.categorias))];
     categoriasUnicas.sort();
 
@@ -101,17 +104,7 @@ export class PlanificadorMenusComponent implements OnInit{
     this.platoParaReceta = plato;
   }
 
-  eliminarPlatoOLD(plato: IPlato) {
-    this.dataSource.forEach((dia) => {
-      Object.keys(dia).forEach((clave) => {
-        if (dia[clave] === plato) {
-          dia[clave] = null;
-        }
-      });
-    });
-    this.platoParaReceta = null; 
-  }
-
+  
   eliminarPlato(evento: { plato: IPlato; dia: string; tipo: string }) {
     console.log(evento);
     // Accede a la propiedad específica usando el día y el tipo
@@ -120,6 +113,16 @@ export class PlanificadorMenusComponent implements OnInit{
       dia[evento.dia] = null;
     }
     this.platoParaReceta = null;
+  }
+
+  mostrarListaCompraOLD($event){
+    console.log($event);
+    this.listaCompra = $event;
+  }
+
+  mostrarListaCompra(item: IListaCompra) {
+    console.log(item);
+    this.listaCompraAcumulada.push(item); 
   }
   
 

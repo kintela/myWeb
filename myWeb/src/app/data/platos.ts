@@ -72,6 +72,17 @@ export const PLATOS:IPlato[]=[
         'A continuación añadimos la zanahoria a rodajas, la patata a gajos pequeños, cubrimos con agua, ponemos la sal, pimienta y el pimenton dulce',
         'Cuando ya estén la patata y la zanahoria blandas y el agua haya reducido un poco añadimos las alubias bien lavadas, movemos con vuidado que no se rompan y listo'],
 
+    },
+    {
+        nombre:'Burritos de carne picada',
+        categorias:['Carne'],
+        ingredientes:['carne picada','pimiento rojo','pimiento verde','cebolla','tomate frito','maiz','tortillas de trigo','sal','Tabasco','Salsa Barbacoa','Ketchp','queso rallado'],
+        preparacion:['Pochamos la cebolla y los pimientos','Cuando estén pochados añadimos la carne picada y la sal','Cuando la carne esté hecha añadimos el maiz y el tomate frito'],
+    },
+    {
+        nombre:'Vainas con carne',
+        categorias:['Verduras','Carne'],
+        ingredientes:['vainas','carne de ternera','cebolla','pimiento verde','sal',],
     }
 
 

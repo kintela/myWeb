@@ -83,6 +83,91 @@ export const PLATOS:IPlato[]=[
         nombre:'Vainas con carne',
         categorias:['Verduras','Carne'],
         ingredientes:['vainas','carne de ternera','cebolla','pimiento verde','sal',],
+    },
+    {
+        nombre:'Lentejas con arroz',
+        categorias:['Legumbres'],
+        ingredientes:['Medio vaso de lentejas por cada ración','un puñado de arroz','media cebolla','2 o 3 zanahorias','2 o 3 puerros','1 pimiento verde',
+        '2 o 3 patatas','2 tomates','chorizo de cocido','costilla de cerdo','sal','aceite de oliva'],
+        preparacion:['Pones a hervir los tomates para pelarlos y trocearlos antes de echarlos a la olla','Echas las lentejas y el arroz en la olla con un vaso de agua por cada ración',
+        'Troceas finita la cebolla y la echas tb en la olla','Troceas las zanahorias peladas y a la olla','Troceas las patatas y los puerros y a la olla',
+        'Echas el pimiento verde troceado solo en 2 para darle sabor, luego lo quitas','Echas los tomates troceados','Echas el chorizo y la costilla',
+        'Si echas costilla mas de 15 minutos de olla','Echas un chorro de aceite y sal','Pones la olla 15 minutos'],
+    },
+    {
+        nombre:'Anchoas albardadas',
+        categorias:['Pescado'],
+        ingredientes:['anchoas','harina','huevo','aceite de oliva','cogollos de lechuga'],
+        preparacion:['Se limpian las anchoas quitándoles la cabeza y las tripas','Se pasan por harina y huevo','Se fríen en aceite de oliva'],
+        presentacion:['Se sirven con cogollos de lechuga'],
+        imagen:'4.jpg'        
+    },
+    {
+        nombre:'Robadallo al horno',
+        categorias:['Pescado'],
+        ingredientes:['1 rodaballo','3 patatas','1 pimiento verde italiano','2 chalotas','2 tomates rama','2 dientes de ajo','Perejil','100 ml de vino blanco para el majado',
+        '150 ml de vino blanco para las patatas','Sal','Aceite de oliva virgen extra'],        
+        enlaceVideo:'https://www.youtube.com/watch?v=myTmIYDStWs'
+    },
+    {
+        nombre:'Alubias',
+        categorias:['Legumbres'],
+    },
+    {
+        nombre:'Lubina al horno',
+        categorias:['Pescado'],
+    },
+    {
+        nombre:'Tarta Lotus',
+        categorias:['Postre'],
+    },
+    {
+        nombre:'Cordero al horno',
+        categorias:['Carne'],
+    },
+    {
+        nombre:'Hamburgesas veganas',
+        categorias:['Verdura'],
+    },
+    {
+        nombre:'Fajitas de pollo',
+        categorias:['Carne'],
+    },
+    {
+        nombre:'Berenjena rellena al horno',
+        categorias:['Verdura'],
+    },
+    {
+        nombre:'Coliflor gratinada',
+        categorias:['Verdura'],
+    },
+    {
+        nombre:'Pasta fresca con salsa de naranja',
+        categorias:['Pasta'],
+    },
+    {
+        nombre:'Pulpo a feira',
+        categorias:['Pescado'],
+    },
+    {
+        nombre:'Pasta con verduras',
+        categorias:['Pasta','Verdura'],
+    },
+    {
+        nombre:'Pasta con carne picada',
+        categorias:['Pasta','Carne'],
+    },
+    {
+        nombre:'Guisantes con jamón',
+        categorias:['Verdura'],
+    },
+    {
+        nombre:'Alcachofas con jamón',
+        categorias:['Verdura'],
+    },
+    {
+        nombre:'Albóndigas en salsa',
+        categorias:['Carne'],
     }
 
 

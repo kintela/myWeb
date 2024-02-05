@@ -1,0 +1,107 @@
+<!--<form>
+    <mat-grid-list cols="3" rowHeight="fit" gutterSize="10px">
+      <mat-grid-tile>
+        <mat-form-field appearance="fill">
+          <mat-label>Nombre del plato</mat-label>
+          <input matInput placeholder="Introduce el nombre del plato">
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Ingredientes</mat-label>
+          <textarea matInput placeholder="Introduce los ingredientes"></textarea>
+        </mat-form-field>
+      </mat-grid-tile>
+      
+      <mat-grid-tile>
+        <mat-form-field appearance="fill">
+          <mat-label>Categorías</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let categoria of categorias" [value]="categoria">
+              {{ categoria }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Preparación</mat-label>
+          <textarea matInput placeholder="Introduce los pasos de la preparación"></textarea>
+        </mat-form-field>
+      </mat-grid-tile>
+      
+      <mat-grid-tile>
+        <div class="image-upload-container">
+          <button mat-raised-button (click)="imageInput.click()">
+            Cargar Imagen
+          </button>
+          <input type="file" #imageInput hidden (change)="onImageSelected($event)">
+          <img *ngIf="imageSrc" [src]="imageSrc" class="image-preview"/>
+        </div>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Presentación</mat-label>
+          <textarea matInput placeholder="Introduce la presentación del plato"></textarea>
+        </mat-form-field>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </form>-->
+
+  <form class="flex-form">
+    <!-- Contenedor de las tres columnas -->
+    <div class="flex-container">
+      <!-- Columna 1 -->
+      <div class="flex-item">
+        <mat-form-field appearance="fill">
+          <mat-label>Nombre del plato</mat-label>
+          <input matInput placeholder="Introduce el nombre del plato">
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Ingredientes</mat-label>
+          <textarea matInput placeholder="Introduce los ingredientes"></textarea>
+        </mat-form-field>
+      </div>
+      
+      <!-- Columna 2 -->
+      <div class="flex-item">
+        <mat-form-field appearance="fill">
+          <mat-label>Categorías</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let categoria of categorias" [value]="categoria">
+              {{ categoria }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Preparación</mat-label>
+          <textarea matInput placeholder="Introduce los pasos de la preparación"></textarea>
+        </mat-form-field>
+      </div>
+      
+      <!-- Columna 3 -->
+      <div class="flex-item">
+        <div class="image-upload-container">
+          <button mat-raised-button (click)="imageInput.click()">
+            Cargar Imagen
+          </button>
+          <input type="file" #imageInput hidden (change)="onImageSelected($event)">
+          <!-- Aquí puedes mostrar una vista previa de la imagen cargada -->
+          <img *ngIf="imageSrc" [src]="imageSrc" class="image-preview"/>
+        </div>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Presentación</mat-label>
+          <textarea matInput placeholder="Introduce la presentación del plato"></textarea>
+        </mat-form-field>
+      </div>
+    </div>
+  
+    <div class="flex-item actions">
+      <button mat-button (click)="cerrarDialogo()">Cerrar</button>
+      <!-- Otros botones o acciones -->
+    </div>
+  </form>
+  
+
+  <button mat-raised-button color="primary" (click)="cerrarDialogo()">Cerrar</button>
+  

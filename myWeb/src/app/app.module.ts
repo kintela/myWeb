@@ -54,6 +54,7 @@ import { PlanificadorMenusComponent } from './planificador-de-menus/planificador
 import { FichaPlatoComponent } from './planificador-de-menus/ficha-plato/ficha-plato.component';
 import { FichaRecetaComponent } from './planificador-de-menus/ficha-receta/ficha-receta.component';
 import { ListaCompraComponent } from './planificador-de-menus/lista-compra/lista-compra.component';
+import { FormularioRecetaComponent } from './planificador-de-menus/formulario-receta/formulario-receta.component';
 
 
 
@@ -100,7 +101,7 @@ registerLocaleData(localeEs);
     SpotifyComponent, 
     TruncatePipe, TracksComponent, YoutubeComponent, Cancion19Component, Cancion20Component, 
     PlanificadorMenusComponent, 
-    FichaPlatoComponent, FichaRecetaComponent, ListaCompraComponent     
+    FichaPlatoComponent, FichaRecetaComponent, ListaCompraComponent, FormularioRecetaComponent     
   ],
   imports: [
     BrowserModule,

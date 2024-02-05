@@ -2,6 +2,8 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { PLATOS } from '../data/platos';
 import { IPlato } from '../data/IPlatos';
 import { IListaCompra } from '../data/IListaCompra';
+import { FormularioRecetaComponent } from './formulario-receta/formulario-receta.component';
+import { MatDialog } from '@angular/material/dialog';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -28,10 +30,6 @@ export class PlanificadorMenusComponent implements OnInit{
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
 
-  //displayedColumns: string[] = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
- 
-
-
   dataSource = [
     { tipo: 'Comida', 
       lunes: { primerPlato: null, segundoPlato: null, postre: null }, 
@@ -53,7 +51,7 @@ export class PlanificadorMenusComponent implements OnInit{
   
 
 
-  constructor() { }
+  constructor(private dialog: MatDialog) { }
 
   ngOnInit(): void {    
     console.log(this.dataSource);
@@ -151,13 +149,23 @@ export class PlanificadorMenusComponent implements OnInit{
     this.dataSource = [...this.dataSource];
   }
   
-
-
-
   mostrarListaCompra(item: IListaCompra) {
     console.log(item);
     this.listaCompraAcumulada.push(item); 
   }
+
+  abrirDialogoAgregarPlato(): void {
+    const dialogRef = this.dialog.open(FormularioRecetaComponent, {
+      width: '50%',      
+       data: { categorias: this.categorias , platos: PLATOS}
+    });
+  
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('El diálogo fue cerrado');
+      // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
+    });
+  }
+  
   
 
 }

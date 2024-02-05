@@ -6,7 +6,7 @@
           {{ categoria }}
         </mat-option>
       </mat-select>
-    </mat-form-field>
+    </mat-form-field>       
   
     <mat-form-field appearance="fill" class="selector-platos">
         <mat-label>Platos</mat-label>
@@ -17,11 +17,14 @@
         </mat-select>
     </mat-form-field>
 
+    <button  mat-icon-button (click)="abrirDialogoAgregarPlato()" color="primary" matTooltip="Agrega un plato" class="boton-con-borde">
+      <mat-icon>add</mat-icon>
+    </button>
+
     <button mat-raised-button (click)="fileInput.click()" color="primary">
       Cargar menu
       <input type="file" (change)="cargarDataSource($event)" #fileInput hidden>
-    </button>   
-          
+    </button>             
 </div>
 
 <div class="calendario">  

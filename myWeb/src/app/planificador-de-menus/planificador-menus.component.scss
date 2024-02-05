@@ -33,6 +33,19 @@
     align-items: flex-start; /* Asegura que los elementos se alineen al inicio verticalmente */
   }
 
+  /* Agrega esto a tu archivo CSS */
+.boton-con-borde {
+  border: 1px solid #1976d2; /* Cambia el color del borde según tu preferencia */
+  background-color: #1976d2; /* Cambia el color de fondo según tu preferencia */
+  color: white; /* Cambia el color del texto si es necesario */
+}
+
+/* Si deseas redondear las esquinas */
+.boton-con-borde.mat-icon-button {
+  border-radius: 50%;
+}
+
+
  
 
 

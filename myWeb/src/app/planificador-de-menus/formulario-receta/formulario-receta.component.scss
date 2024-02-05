@@ -1,0 +1,35 @@
+.flex-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre los elementos */
+  }
+  
+  .flex-item {
+    flex: 1; /* Los elementos crecerán de manera equitativa */
+    min-width: 200px; /* Ancho mínimo para cada elemento */
+  }
+  
+  .image-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .image-preview {
+    width: 100%;
+    max-height: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  

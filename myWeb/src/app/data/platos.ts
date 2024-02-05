@@ -19,6 +19,7 @@ export const PLATOS:IPlato[]=[
     },
     {
         nombre:'Garbanzos con chorizo y Zanquarrón',
+        ingredientes:['Garbanzos','Chorizo','Zanquarrón'],
         categorias:['Legumbres'],
     },
     {

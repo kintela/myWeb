@@ -27,14 +27,22 @@ export class PlanificadorMenusComponent implements OnInit{
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
  
-  dataSource = [
+  dataSourceOLD = [
     { tipo: 'Comida', lunes: null, martes: null, miércoles: null, jueves: null, viernes: null, sábado: null, domingo: null },
     { tipo: 'Cena', lunes: null, martes: null, miércoles: null, jueves: null, viernes: null, sábado: null, domingo: null }
   ];
 
+  dataSource = [
+    { tipo: 'Comida', lunes: { primerPlato: null, segundoPlato: null, postre: null }, martes: { primerPlato: null, segundoPlato: null, postre: null }, miercolesmartes: { primerPlato: null, segundoPlato: null, postre: null },jueves: { primerPlato: null, segundoPlato: null, postre: null },viernes: { primerPlato: null, segundoPlato: null, postre: null },sabado: { primerPlato: null, segundoPlato: null, postre: null },domingo: { primerPlato: null, segundoPlato: null, postre: null },},
+    { tipo: 'Cena', lunes: { primerPlato: null, segundoPlato: null, postre: null }, martes: { primerPlato: null, segundoPlato: null, postre: null }, miercolesmartes: { primerPlato: null, segundoPlato: null, postre: null },jueves: { primerPlato: null, segundoPlato: null, postre: null },viernes: { primerPlato: null, segundoPlato: null, postre: null },sabado: { primerPlato: null, segundoPlato: null, postre: null },domingo: { primerPlato: null, segundoPlato: null, postre: null },},
+  ];
+  
+
+
   constructor() { }
 
   ngOnInit(): void {    
+    console.log(this.dataSource);
     const categoriasUnicas = [...new Set(PLATOS.flatMap(plato => plato.categorias))];
     categoriasUnicas.sort();
 
@@ -58,12 +66,22 @@ export class PlanificadorMenusComponent implements OnInit{
     this.filtrarPlatos();
   }
 
-  seleccionarPlato(element: any, dia: string) {
+  seleccionarPlatoOLD(element: any, dia: string) {
     if (this.platoSeleccionado) {
       element[dia] = this.platoSeleccionado;
     }
     console.log(this.dataSource);
   }
+
+  seleccionarPlato(element: any, dia: string, tipoPlato: 'primerPlato' | 'segundoPlato' | 'postre') {
+    if (!element[dia]) {
+      element[dia] = { primerPlato: null, segundoPlato: null, postre: null };
+    }
+    element[dia][tipoPlato] = this.platoSeleccionado;
+    // Asegúrate de actualizar el estado del componente para reflejar los cambios
+    this.dataSource = [...this.dataSource];
+  }
+  
 
   guardarDataSource() {
     const dataStr = JSON.stringify(this.dataSource);

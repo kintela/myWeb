@@ -25,7 +25,7 @@
 </div>
 
 <div class="calendario">
-  <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <!--<mat-table [dataSource]="dataSource" class="mat-elevation-z8">
     <ng-container matColumnDef="{{column}}" *ngFor="let column of displayedColumns">
       <mat-header-cell *matHeaderCellDef> {{column}} </mat-header-cell>
       <mat-cell *matCellDef="let element"> 
@@ -48,7 +48,58 @@
   
     <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
     <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>-->
+  <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <ng-container matColumnDef="{{column}}" *ngFor="let column of displayedColumns">
+      <mat-header-cell *matHeaderCellDef> {{column}} </mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <ng-container *ngIf="column === 'tipo'">{{ element[column] }}</ng-container>
+        <ng-container *ngIf="column !== 'tipo'">
+          <!-- Primer Plato -->
+          <button mat-raised-button *ngIf="!element[column]?.primerPlato" 
+            (click)="seleccionarPlato(element, column, 'primerPlato')" 
+            [disabled]="!platoSeleccionado">Primero
+          </button>
+          <app-ficha-plato *ngIf="element[column]?.primerPlato" 
+            [plato]="element[column].primerPlato" 
+            [dia]="column" 
+            [tipo]="element['tipo']" 
+            (platoParaReceta)="mostrarFichaReceta($event)" 
+            (platoEliminado)="eliminarPlato($event, 'primerPlato')">
+          </app-ficha-plato>
+  
+          <!-- Segundo Plato -->
+          <button mat-raised-button *ngIf="!element[column]?.segundoPlato"
+            (click)="seleccionarPlato(element, column, 'segundoPlato')" 
+            [disabled]="!platoSeleccionado">Segundo
+          </button>
+          <app-ficha-plato *ngIf="element[column]?.segundoPlato" 
+            [plato]="element[column].segundoPlato" 
+            [dia]="column" [tipo]="element['tipo']" 
+            (platoParaReceta)="mostrarFichaReceta($event)" 
+            (platoEliminado)="eliminarPlato($event, 'segundoPlato')">
+          </app-ficha-plato>
+  
+          <!-- Postre -->
+          <button mat-raised-button *ngIf="!element[column]?.postre" 
+            (click)="seleccionarPlato(element, column, 'postre')" 
+            [disabled]="!platoSeleccionado">Postre
+          </button>
+          <app-ficha-plato *ngIf="element[column]?.postre" 
+            [plato]="element[column].postre" 
+            [dia]="column" 
+            [tipo]="element['tipo']" 
+            (platoParaReceta)="mostrarFichaReceta($event)" 
+            (platoEliminado)="eliminarPlato($event, 'postre')">
+          </app-ficha-plato>
+        </ng-container>
+      </mat-cell>
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
   </mat-table>
+  
   
   <button mat-raised-button  
     (click)="guardarDataSource()" 

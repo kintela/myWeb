@@ -168,6 +168,14 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Albóndigas en salsa',
         categorias:['Carne'],
+    },
+    {
+        nombre:'Sopa de fideoas',
+        categorias:['Sopa'],
+    },
+    {
+        nombre:'Puré de calabaza',
+        categorias:['Verdura'],
     }
 
 

@@ -7,6 +7,7 @@ export interface PlatoEliminadoEvent {
   plato: IPlato;
   dia: string;
   tipo: string;
+  orden: 'primerPlato' | 'segundoPlato' | 'postre';
 }
 
 @Component({
@@ -27,10 +28,7 @@ export class PlanificadorMenusComponent implements OnInit{
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
  
-  dataSourceOLD = [
-    { tipo: 'Comida', lunes: null, martes: null, miércoles: null, jueves: null, viernes: null, sábado: null, domingo: null },
-    { tipo: 'Cena', lunes: null, martes: null, miércoles: null, jueves: null, viernes: null, sábado: null, domingo: null }
-  ];
+
 
   dataSource = [
     { tipo: 'Comida', lunes: { primerPlato: null, segundoPlato: null, postre: null }, martes: { primerPlato: null, segundoPlato: null, postre: null }, miercolesmartes: { primerPlato: null, segundoPlato: null, postre: null },jueves: { primerPlato: null, segundoPlato: null, postre: null },viernes: { primerPlato: null, segundoPlato: null, postre: null },sabado: { primerPlato: null, segundoPlato: null, postre: null },domingo: { primerPlato: null, segundoPlato: null, postre: null },},
@@ -64,14 +62,7 @@ export class PlanificadorMenusComponent implements OnInit{
   onCategoriaSeleccionada(categoria: string) {
     this.categoriaSeleccionada = categoria;
     this.filtrarPlatos();
-  }
-
-  seleccionarPlatoOLD(element: any, dia: string) {
-    if (this.platoSeleccionado) {
-      element[dia] = this.platoSeleccionado;
-    }
-    console.log(this.dataSource);
-  }
+  } 
 
   seleccionarPlato(element: any, dia: string, tipoPlato: 'primerPlato' | 'segundoPlato' | 'postre') {
     if (!element[dia]) {
@@ -123,20 +114,29 @@ export class PlanificadorMenusComponent implements OnInit{
   }
 
   
-  eliminarPlato(evento: { plato: IPlato; dia: string; tipo: string }) {
+
+  eliminarPlato(evento: PlatoEliminadoEvent) {
     console.log(evento);
     // Accede a la propiedad específica usando el día y el tipo
     let dia = this.dataSource.find(d => d.tipo === evento.tipo);
-    if (dia && dia[evento.dia] === evento.plato) {
-      dia[evento.dia] = null;
+    
+    // Asegúrate de que la estructura de los datos sea la esperada
+    if (dia && dia[evento.dia] && dia[evento.dia][evento.orden] === evento.plato) {
+      dia[evento.dia][evento.orden] = null;
     }
-    this.platoParaReceta = null;
+  
+    // Si se eliminó el plato que estaba siendo usado para la receta, elimina la referencia
+    if (this.platoParaReceta === evento.plato) {
+      this.platoParaReceta = null;
+    }
+  
+    // Este paso es necesario si estás utilizando la detección de cambios predeterminada
+    // Actualiza el dataSource para asegurar que los cambios se reflejen en la vista
+    this.dataSource = [...this.dataSource];
   }
+  
 
-  mostrarListaCompraOLD($event){
-    console.log($event);
-    this.listaCompra = $event;
-  }
+
 
   mostrarListaCompra(item: IListaCompra) {
     console.log(item);

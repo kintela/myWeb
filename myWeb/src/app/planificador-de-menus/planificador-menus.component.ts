@@ -27,12 +27,28 @@ export class PlanificadorMenusComponent implements OnInit{
   listaCompraAcumulada: IListaCompra[]=[]; 
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
+
+  //displayedColumns: string[] = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
  
 
 
   dataSource = [
-    { tipo: 'Comida', lunes: { primerPlato: null, segundoPlato: null, postre: null }, martes: { primerPlato: null, segundoPlato: null, postre: null }, miercolesmartes: { primerPlato: null, segundoPlato: null, postre: null },jueves: { primerPlato: null, segundoPlato: null, postre: null },viernes: { primerPlato: null, segundoPlato: null, postre: null },sabado: { primerPlato: null, segundoPlato: null, postre: null },domingo: { primerPlato: null, segundoPlato: null, postre: null },},
-    { tipo: 'Cena', lunes: { primerPlato: null, segundoPlato: null, postre: null }, martes: { primerPlato: null, segundoPlato: null, postre: null }, miercolesmartes: { primerPlato: null, segundoPlato: null, postre: null },jueves: { primerPlato: null, segundoPlato: null, postre: null },viernes: { primerPlato: null, segundoPlato: null, postre: null },sabado: { primerPlato: null, segundoPlato: null, postre: null },domingo: { primerPlato: null, segundoPlato: null, postre: null },},
+    { tipo: 'Comida', 
+      lunes: { primerPlato: null, segundoPlato: null, postre: null }, 
+      martes: { primerPlato: null, segundoPlato: null, postre: null }, 
+      miercoles: { primerPlato: null, segundoPlato: null, postre: null },
+      jueves: { primerPlato: null, segundoPlato: null, postre: null },
+      viernes: { primerPlato: null, segundoPlato: null, postre: null },
+      sabado: { primerPlato: null, segundoPlato: null, postre: null },
+      domingo: { primerPlato: null, segundoPlato: null, postre: null }},
+    { tipo: 'Cena', 
+      lunes: { primerPlato: null, segundoPlato: null, postre: null }, 
+      martes: { primerPlato: null, segundoPlato: null, postre: null }, 
+      miercoles: { primerPlato: null, segundoPlato: null, postre: null },
+      jueves: { primerPlato: null, segundoPlato: null, postre: null },
+      viernes: { primerPlato: null, segundoPlato: null, postre: null },
+      sabado: { primerPlato: null, segundoPlato: null, postre: null },
+      domingo: { primerPlato: null, segundoPlato: null, postre: null }},
   ];
   
 

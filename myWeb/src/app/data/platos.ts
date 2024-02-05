@@ -37,6 +37,7 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Brócoli con gulas',
         categorias:['Verduras'],
+        imagen:'5.jpeg',
     },
     {
         nombre:'Pechugas a la plancha',
@@ -58,6 +59,7 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Ensalada de pasta',
         categorias:['Ensalada','Pasta'],
+        imagen:'7.jpeg',
     },
     {
         nombre:'Sandwich de Jamon York y Queso',
@@ -76,12 +78,14 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Burritos de carne picada',
         categorias:['Carne'],
+        imagen:'6.jpeg',
         ingredientes:['carne picada','pimiento rojo','pimiento verde','cebolla','tomate frito','maiz','tortillas de trigo','sal','Tabasco','Salsa Barbacoa','Ketchp','queso rallado'],
         preparacion:['Pochamos la cebolla y los pimientos','Cuando estén pochados añadimos la carne picada y la sal','Cuando la carne esté hecha añadimos el maiz y el tomate frito'],
     },
     {
         nombre:'Vainas con carne',
         categorias:['Verduras','Carne'],
+        imagen:'8.jpeg',
         ingredientes:['vainas','carne de ternera','cebolla','pimiento verde','sal',],
     },
     {
@@ -176,6 +180,11 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Puré de calabaza',
         categorias:['Verdura'],
+    },
+    {
+        nombre:'Fruta',
+        categorias:['Postre'],
+        imagen:'9.jpeg'
     }
 
 

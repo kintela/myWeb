@@ -10,6 +10,13 @@
     box-sizing: border-box; /* Incluye padding y border en el ancho total */
     margin: auto; /* Centra la tarjeta si su contenedor es más ancho */
   }
+
+  .in-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
   
   
  

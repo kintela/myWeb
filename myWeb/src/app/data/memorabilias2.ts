@@ -4886,5 +4886,43 @@ export const memorabilias2:IMemorabilia[] = [
         year: 1976,
         descripcion:'Charlie Watts, Doug Clifford (medio) de Creedence Clearwater Revival y Ronnie Van Zant (derecha) de Lynyrd Skynyrd en el backstage del Knebworth Festival en 1976'
     },
+    {
+        imagen:'2270.jpg',
+        titulo:'John Lennon y Elton John',
+        personas:'John Lennon, Elton John',
+        origen:'Facebook',   
+    },
+    {
+        imagen:'2271.jpg',
+        grupo:'Eskorbuto',
+        titulo:'Juanma Suárez',
+        personas:'Juanma Suárez',
+        origen:'Facebook',   
+    },
+    {
+        imagen:'2272.jpg',
+        titulo:'BB King, Eric Clapton y Willie Nelson',
+        personas:'BB King, Eric Clapton, Willie Nelson',
+        origen:'Facebook',   
+    },
+    {
+        imagen:'2273.jpg',
+        titulo:'Bob Dylan y George Harrison',
+        personas:'Bob Dylan, George Harrison',
+        origen:'Facebook',   
+    },
+    {
+        imagen:'2274.jpg',
+        titulo:'Muddy Waters y Charlie Musselwhite',
+        personas:'Muddy Waters, Charlie Musselwhite',
+        categoria:'Blues',
+        origen:'Facebook',   
+    },
+    {
+        imagen:'2275.jpg',
+        titulo:'Lemmie Kilmister y Johnny Roten',
+        personas:'Lemmie Kilmister, Johnny Roten',
+        origen:'Facebook',   
+    },
     
 ]

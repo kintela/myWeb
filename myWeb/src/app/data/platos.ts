@@ -82,6 +82,7 @@ export const PLATOS:IPlato[]=[
         imagen:'6.jpeg',
         ingredientes:['carne picada','pimiento rojo','pimiento verde','cebolla','tomate frito','maiz','tortillas de trigo','sal','Tabasco','Salsa Barbacoa','Ketchp','queso rallado'],
         preparacion:['Pochamos la cebolla y los pimientos','Cuando estén pochados añadimos la carne picada y la sal','Cuando la carne esté hecha añadimos el maiz y el tomate frito'],
+        presentacion:['Puedes acompañar con unos nachos y guacamole'],
     },
     {
         nombre:'Vainas con carne',

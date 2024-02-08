@@ -5244,7 +5244,12 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'Black Sabbath'
     },
-
+    {
+        imagen:'2323.jpg',
+        titulo:'Jaco Pastorius y Johny Mitchel',
+        personas:'Jaco Pastorius y Johny Mitchel',
+        origen:'Facebook', 
+    },
 
     
 ]

@@ -5058,5 +5058,193 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Stevie Ray Vaughan, Carlos Santana',
         origen:'Facebook', 
     },
+    {
+        imagen:'2296.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger, Bill Wyman',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2297.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2298.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger, Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2299.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2300.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2301.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger, Keith Richards y Ronnie Wood',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2302.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2303.jpg',
+        titulo:'Freddie King',
+        personas:'Freddie King',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2304.jpg',
+        titulo:'Mississippi John Hurt',
+        personas:'Mississippi John Hurt',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2305.jpg',
+        titulo:'RIP',
+        personas:'Portu',
+        origen:'Facebook', 
+        grupo:'RIP'
+    },
+    {
+        imagen:'2306.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jaggery Ron Wood',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2307.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2308.jpg',
+        titulo:'G3',
+        personas:'Eric Johnson',
+        origen:'Facebook', 
+        grupo:'G3',
+    },
+    {
+        imagen:'2309.jpg',
+        titulo:'Bob Marley',
+        personas:'Bob Marley',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2310.jpg',
+        titulo:'Lenny Kravitz',
+        personas:'Lenny Kravitz',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2311.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2312.jpg',
+        titulo:'Lemmy Kilmister',
+        personas:'Lemmy Kilmister',
+        origen:'Facebook', 
+        grupo:'Motorhead',
+    },
+    {
+        imagen:'2313.jpg',
+        titulo:'John Lee Hooker',
+        personas:'John Lee Hooker',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2314.jpg',
+        titulo:'Keith Richards y Ronnie Wood',
+        personas:'Keith Richards y Ronnie Wood',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2315.jpg',
+        titulo:'Keith Richards y Mick Jagger',
+        personas:'Keith Richards y Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2316.jpg',
+        titulo:'Ronnie Wood y Mick Jagger',
+        personas:'Ronnie Wood y Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2317.jpg',
+        titulo:'Mick Taylor',
+        personas:'Mick Taylore',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2318.jpg',
+        titulo:'Charlie Patton',
+        personas:'Charlie Patton',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2319.jpg',
+        titulo:'Eddie Van Halen y Sammy Hagar',
+        personas:'Eddie Van Halen y Sammy Hagar',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2320.jpg',
+        titulo:'Stevie Ray Vaughan y Jimmy Ray Vaughan',
+        personas:'Stevie Ray Vaughan y Jimmy Ray Vaughan',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2321.jpg',
+        titulo:'John Frusciante',
+        personas:'John Frusciante',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2322.jpg',
+        titulo:'Black Sabbath',
+        personas:'Ozzy Osbourne y Tony Iommi',
+        origen:'Facebook', 
+        grupo:'Black Sabbath'
+    },
+
+
     
 ]

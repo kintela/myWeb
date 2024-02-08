@@ -65,10 +65,12 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Sandwich de Jamon York y Queso',
         categorias:['Sandwich'],
+        imagen:'11.jpg'
     },
     {
         nombre:'Alubias Blancas de Bote',
         categorias:['Legumbres'],
+        imagen:'10.jpg',
         comensales:4,
         ingredientes:['1 patata','1 pimiento rojo','1 pimiento verde','1 tomate','1 zanahoria','1 cebolla','2 ajos','1 cucharada de pimentón dulce','1 cucharadita de pimienta negra'],
         preparacion:['Pochas la cebolla','Una vez pochada añades los pimientos y los ajos bien picaditos','Cuando veamos que los pimientos y la cebolla están bien integrados añadimos el tomate también picadito y sofreimos un poco mas',

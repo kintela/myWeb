@@ -5250,6 +5250,73 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Jaco Pastorius y Johny Mitchel',
         origen:'Facebook', 
     },
-
+    {
+        imagen:'2324.jpg',
+        titulo:'UFO',
+        personas:'Michael Schenker',
+        origen:'Facebook', 
+        year: 1974
+    },
+    {
+        imagen:'2325.jpg',
+        titulo:'G3',
+        personas:'Joe Satriani',
+        origen:'Facebook', 
+        grupo:'G3'
+    },
+    {
+        imagen:'2326.jpg',
+        titulo:'G3',
+        personas:'Eric Johnson',
+        origen:'Facebook', 
+        grupo:'G3'
+    },
+    {
+        imagen:'2327.jpg',
+        titulo:'Howlin Wolf',
+        personas:'Howlin Wolf',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2328.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2329.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger, Charlie Watts, Keith Richards, Mick Taylor',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2330.jpg',
+        titulo:'Robert Plant y John Paul Jones',
+        personas:'Robert Plant y John Paul Jones',
+        origen:'Facebook', 
+        grupo:'Led Zeppelin'
+    },
+    {
+        imagen:'2331.jpg',
+        titulo:'Paul Weller',
+        personas:'Paul Weller',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2332.jpg',
+        titulo:'Paul McCartney y John Lennon',
+        personas:'Paul McCartney y John Lennon',
+        origen:'Facebook', 
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'2333.jpg',
+        titulo:'Kim Gordon',
+        personas:'Kim Gordon',
+        origen:'Facebook', 
+        grupo:'Sonic Youth'
+    },
     
 ]

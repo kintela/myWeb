@@ -71,7 +71,7 @@ export const PLATOS:IPlato[]=[
         categorias:['Legumbres'],
         comensales:4,
         ingredientes:['1 patata','1 pimiento rojo','1 pimiento verde','1 tomate','1 zanahoria','1 cebolla','2 ajos','1 cucharada de pimentón dulce','1 cucharadita de pimienta negra'],
-        preparacion:['Pochas la cebolla','Una vez pochada añades los pimientos y los ajos bien picaditos','Cuando veamos que los pimientos y la cebolla están bien integrados añadimos el tomate también picadito y sofreimos un poco mas',
+        preparacion:['Pochas la cebolla en una cazuela','Una vez pochada añades los pimientos y los ajos bien picaditos','Cuando veamos que los pimientos y la cebolla están bien integrados añadimos el tomate también picadito y sofreimos un poco mas',
         'A continuación añadimos la zanahoria a rodajas, la patata a gajos pequeños, cubrimos con agua, ponemos la sal, pimienta y el pimenton dulce',
         'Cuando ya estén la patata y la zanahoria blandas y el agua haya reducido un poco añadimos las alubias bien lavadas, movemos con vuidado que no se rompan y listo'],
 

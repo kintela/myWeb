@@ -5318,5 +5318,222 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'Sonic Youth'
     },
+    {
+        imagen:'2334.jpg',
+        titulo:'The Beatles',
+        personas:'Paul McCartney, George Harrison y John Lennon',
+        origen:'Facebook', 
+        grupo:'The Beatles',
+        year:1961
+    },
+    {
+        imagen:'2335.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook', 
+        year:1968
+    },
+    {
+        imagen:'2336.jpg',
+        titulo:'G3',
+        personas:'Joe Satriani, Steve Vai y Eric Johnson',
+        origen:'Facebook', 
+        grupo:'G3',
+        year:1996
+    },
+    {
+        imagen:'2337.jpg',
+        titulo:'BB King',
+        personas:'BB King',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2338.jpg',
+        titulo:'Rory Gallagher y Queen',
+        personas:'Rory Gallagher y Queen',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2339.jpg',
+        titulo:'Paul Mc Cartney y Les Paul',
+        personas:'Paul Mc Cartney y Les Paul',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2340.jpg',
+        titulo:'Muddy Waters',
+        personas:'Muddy Waters',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2341.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger y Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2342.jpg',
+        titulo:'Ozzy Osbourne',
+        personas:'Ozzy Osbourne',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2343.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2344.jpg',
+        titulo:'Prince',
+        personas:'Prince',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2345.jpg',
+        titulo:'Prince',
+        personas:'Prince',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2346.jpg',
+        titulo:'Alice Cooper',
+        personas:'Alice Cooper',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2347.jpg',
+        titulo:'Albert Collins y Stevie Ray Vaughan',
+        personas:'Albert Collins y Stevie Ray Vaughan',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2348.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2349.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2350.jpg',
+        titulo:'Frank Zappa y Captain Beefheart',
+        personas:'Frank Zappa y Captain Beefheart',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2351.jpg',
+        titulo:'Stevie Ray Vaughan y Buddy Guy',
+        personas:'Stevie Ray Vaughan y Buddy Guy',
+        origen:'Facebook', 
+        categoria:'Blues'
+    }, 
+    {
+        imagen:'2352.jpg',
+        titulo:'Chrissie Hynde',
+        personas:'Chrissie Hynde',
+        origen:'Facebook', 
+    },    
+    {
+        imagen:'2353.jpg',
+        titulo:'Malcom Young',
+        personas:'Malcom Young',
+        origen:'Facebook', 
+        grupo:'AC/DC'
+    },  
+    {
+        imagen:'2354.jpg',
+        titulo:'Ozzy Osbourne y Lemmy Kilmister',
+        personas:'Ozzy Osbourne y Lemmy Kilmister',
+        origen:'Facebook', 
+    },  
+    {
+        imagen:'2355.jpg',
+        titulo:'Queens Of The Stone Age',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age'
+    }, 
+    {
+        imagen:'2356.jpg',
+        titulo:'Queens Of The Stone Age',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age'
+    }, 
+    {
+        imagen:'2357.jpg',
+        titulo:'Queens Of The Stone Age',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age'
+    },
+    {
+        imagen:'2358.jpg',
+        titulo:'Queens Of The Stone Age',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age'
+    },
+    {
+        imagen:'2359.jpg',
+        titulo:'Queens Of The Stone Age',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age'
+    },
+    {
+        imagen:'2360.jpg',
+        titulo:'Queens Of The Stone Age',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age'
+    },
+    {
+        imagen:'2361.jpg',
+        titulo:'Queens Of The Stone Age',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age'
+    },
+    {
+        imagen:'2362.jpg',
+        titulo:'Buddy Guy y Junior Wells',
+        personas:'Buddy Guy and Junior Wells',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2363.jpg',
+        titulo:'Charly Garcia',
+        personas:'Charly Garcia',
+        origen:'Facebook', 
+        descripcion:'Se juntó todo en un petisito que tenía mucha polenta. Tocaba la guitarra de una forma muy rara; era un mal buen guitarrista. Tocaba como si tocara folklore. Vos ves tocar a George Harrison, a Cafrune y al de Nirvana, y te vas a dar cuenta que Cobain toca como Cafrune. Las posiciones ortodoxas: la Mayor poniendo los tres deditos acá, el mi Mayor así... Jamás escuchó jazz en su vida, ni quiere saber lo que es una séptima. Eso me parece bueno. Es raro, por eso llamaba la atención. Y como cantante es buenísimo. La fonética del tipo es muy musical, tiene algo johnlennonesco en el rango de voz. O sea: es buenísimo en todo, ¿qué querés que te diga? ¡Es mejor que yo, lo siento!'
+    },
+    {
+        imagen:'2364.jpg',
+        titulo:'The Beatles',
+        personas:'Paul McCartney, John Lennon, George Harrison, Ringo Star y Ed Sullivan',
+        origen:'Facebook', 
+        grupo:'The Beatles',
+        year:1964,
+        descripcion:'El 9 de febrero de 1964 Los Beatles actuaron para setenta millones de personas en Estados Unidos en el show del presentador estadounidense Ed Sullivan. Esa noche los chicos de Liverpool cambiaron la cultura popular y su legado permanente intacto hasta nuestros días'
+    },
+    {
+        imagen:'2365.jpg',
+        titulo:'Louis Armstrong and Harpo',
+        personas:'Louis Armstrong and Harpo',
+        origen:'Facebook', 
+        year:1960,
+    },
+
     
 ]

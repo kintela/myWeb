@@ -2379,6 +2379,24 @@ export const conciertos:IConcierto[]=[
         fotos: true,
         videos:['https://www.youtube.com/embed/yN_UIdqtYtM?si=VhgTJ76XvkdjZcsf', 'https://www.youtube.com/embed/Z5lbrVt1Ncg?si=b2SouNliTncvSdxy'],
     },
+    {
+        fecha: new Date(Date.UTC(2024,1 , 9)),
+        ciudad: 'Bilbao',
+        sala: 'Santana 27',
+        grupo: 'Coque Malla',
+        entrada: "entradas/99.jpg",
+        fotos: true,
+    },
+    {
+        fecha: new Date(Date.UTC(2024,1 , 10)),
+        ciudad: 'Vitoria',
+        sala: 'Jimmy Jazz',
+        grupo: 'Morgan',
+        fotos: true,
+        entrada: "entradas/100.jpg",
+        videos:['https://www.youtube.com/embed/4sC0arB7EyU?si=u7baFMvT8sYza4-9','https://www.youtube.com/embed/n0RTHThbEfI?si=oTyCwvCjD1b6Pp9O',
+        'https://www.youtube.com/embed/47KfavYQmiQ?si=mGYJAMAjNAUDH6ni','https://www.youtube.com/embed/GrYsoGyHadc?si=xAJeRoTKvnOBSSQO']
+    },
    
 
 ];

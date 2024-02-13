@@ -5534,6 +5534,62 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         year:1960,
     },
-
+    {
+        imagen:'2366.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        year:1969,
+        grupo:'The Rolling Stones',
+        descripcion:'Keith Richards en elbackstage del Madison Square Garden en 1969'
+    },
+    {
+        imagen:'2367.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2368.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2369.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2370.jpg',
+        titulo:'The Ramones',
+        personas:'Joey Ramone, Johnny Ramone, Dee Dee Ramone, Tommy Ramone',
+        origen:'Facebook', 
+        grupo:'The Ramones',
+    },
+    {
+        imagen:'2371.jpg',
+        titulo:'Bob Marley & The Wailers',
+        personas:'Bob Marley, Peter Tosh, Bunny Wailer',
+        origen:'Facebook', 
+        grupo:'Bob Marley & The Wailers',
+        year:1980,
+    },
+    {
+        imagen:'2372.jpg',
+        titulo:'Eric Clapton, Ronny Wood y Freddie King',
+        personas:'Eric Clapton, Ronny Wood, Freddie King',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2373.jpg',
+        titulo:'Muddy Waters y Johnny Winter',
+        personas:'Muddy Waters, Johnny Winter',
+        origen:'Facebook', 
+    },
     
 ]

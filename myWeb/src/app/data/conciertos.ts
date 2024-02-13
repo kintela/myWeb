@@ -2380,6 +2380,7 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/yN_UIdqtYtM?si=VhgTJ76XvkdjZcsf', 'https://www.youtube.com/embed/Z5lbrVt1Ncg?si=b2SouNliTncvSdxy'],
     },
     {
+        id:179,
         fecha: new Date(Date.UTC(2024,1 , 9)),
         ciudad: 'Bilbao',
         sala: 'Santana 27',
@@ -2388,6 +2389,7 @@ export const conciertos:IConcierto[]=[
         fotos: true,
     },
     {
+        id:180,
         fecha: new Date(Date.UTC(2024,1 , 10)),
         ciudad: 'Vitoria',
         sala: 'Jimmy Jazz',

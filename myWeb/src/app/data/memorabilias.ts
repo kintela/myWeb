@@ -11047,4 +11047,5 @@ export const memorabilias:IMemorabilia[] = [
         personas:'Kintela. Hugo Allende, Alex Olabarria',
         origen:'propia',   
     },
+    
 ]

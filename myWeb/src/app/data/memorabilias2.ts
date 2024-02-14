@@ -5650,5 +5650,51 @@ export const memorabilias2:IMemorabilia[] = [
         titulo:'Morgan',
         origen:'Propia', 
     },
+    {
+        imagen:'2383.jpg',
+        titulo:'Willie Dixon',
+        personas:'Willie Dixon',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2384.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2385.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2386.jpg',
+        titulo:'Keith Richards y Mick Jagger',
+        personas:'Keith Richards y Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2387.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2388.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook', 
+        grupo:'The Beatles',
+    },
+    {
+        imagen:'2389.jpg',
+        titulo:'Pearl Jam',
+        personas:'Eddie Vedder, Mike McCready, Stone Gossard, Jeff Ament, Matt Cameron',
+        origen:'Facebook', 
+        grupo:'Pearl Jam',
+        categoria:'Grunge',
+    },
     
 ]

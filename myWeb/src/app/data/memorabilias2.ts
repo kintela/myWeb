@@ -4988,6 +4988,7 @@ export const memorabilias2:IMemorabilia[] = [
         titulo:'Sister Rosetta Tharpe',
         personas:'Sister Rosetta Tharpe',
         origen:'Facebook',   
+        descripcion:'Según Cleveland.com, Sister Rosetta Tharpe "se conectó a una guitarra eléctrica a fines de la década de 1930, y se convirtió en una estrella de rock antes de que los hombres considerados los pioneros del rock & roll soñaran con hacerlo. Ella es la madrina del rock & roll que influyó en cada músico tradicionalmente identificado con ayudar a lanzar el género durante la década de 1950".'
     },
     {
         imagen:'2286.jpg',

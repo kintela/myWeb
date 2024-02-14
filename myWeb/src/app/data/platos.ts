@@ -189,6 +189,14 @@ export const PLATOS:IPlato[]=[
         nombre:'Fruta',
         categorias:['Postre'],
         imagen:'9.jpeg'
+    },
+    {
+        nombre:'Bacalao al Horno',
+        categorias:['Pescado'],
+        imagen:'12.jpg',
+        ingredientes:['bacalao','patatas','cebolla','pimiento verde','pimiento rojo','aceite de oliva','sal'],
+        preparacion:['Precalientas el horno a 220 grados','Echas un poco de aceite en la bandeja para que no se pege nada','Cortas las patatas finas, les echas sal y las metes en el horno 15 minutos','Cortas la cebolla en juliana y los pimientos, echas sal y los pones después otros 15 minutos en el horno',
+        'Pones el bacalao en un hueco entre todo lo demás, echas sal y lo metes 15 minutos mas a 200 grados'],
     }
 
 

@@ -5723,8 +5723,8 @@ export const memorabilias2:IMemorabilia[] = [
     },
     {
         imagen:'2393.jpg',
-        titulo:'Keith Richards y Mick Jagger',
-        personas:'Keith Richards, Mick Jagger',
+        titulo:'Keith Richards, Mick Jagger y Charlie Watts',
+        personas:'Keith Richards, Mick Jagger, Charlie Watts',
         origen:'Facebook', 
         grupo:'The Rolling Stones',
     },

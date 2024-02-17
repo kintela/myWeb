@@ -164,6 +164,10 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Pasta con carne picada',
         categorias:['Pasta','Carne'],
+        ingredientes:['pasta','carne picada','cebolla','zanahoria','pimiento verde','tomate frito','sal'],
+        preparacion:['Picas finoa la cebolla, la zanahoria y el pimiento','Pochamos todo añadiendo sal','Cuando esté todo pochado añadimos la carne picada a la que previamente hemos echado tambien sal','Cuando la carne esté hecha desengrasas y añades tomate frito',
+                        'Al final añades la pasta cocida y mezclas todo bien'],
+        presentacion:['Puedes añadir queso rallado por encima'],
     },
     {
         nombre:'Guisantes con jamón',
@@ -197,6 +201,13 @@ export const PLATOS:IPlato[]=[
         ingredientes:['bacalao','patatas','cebolla','pimiento verde','pimiento rojo','aceite de oliva','sal'],
         preparacion:['Precalientas el horno a 220 grados','Echas un poco de aceite en la bandeja para que no se pege nada','Cortas las patatas finas, les echas sal y las metes en el horno 15 minutos','Cortas la cebolla en juliana y los pimientos, echas sal y los pones después otros 15 minutos en el horno',
         'Pones el bacalao en un hueco entre todo lo demás, echas sal y lo metes 15 minutos mas a 200 grados'],
+    },
+    {
+        nombre:'Tarta de limón',
+        categorias:['Postre'],
+        ingredientes:['200 g de galletas','100 g de mantequilla fundida','2 huevos pequeños','50 g de mantequilla','ralladura de 1/2 limón','4 g de hojas de gelatina','100 g de azúcar','60 ml de zumo de limón',
+        '250 ml de nata (35% materia grasa)'],
+        enlaceVideo:'https://www.hogarmania.com/cocina/recetas/postres/tarta-fria-limon.html#google_vignette'
     }
 
 

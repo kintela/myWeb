@@ -208,6 +208,21 @@ export const PLATOS:IPlato[]=[
         ingredientes:['200 g de galletas','100 g de mantequilla fundida','2 huevos pequeños','50 g de mantequilla','ralladura de 1/2 limón','4 g de hojas de gelatina','100 g de azúcar','60 ml de zumo de limón',
         '250 ml de nata (35% materia grasa)'],
         enlaceVideo:'https://www.hogarmania.com/cocina/recetas/postres/tarta-fria-limon.html#google_vignette'
+    },
+    {
+        nombre:'Sopa de Pollo',
+        categorias:['Sopa'],
+        ingredientes:['1 carcasa de pollo','1 trozo cebolla','1 puerro'],
+        preparacion : ['Pones la carcasa de pollo en una olla con agua junto con el resto','Dejas hervir y echas sal', 'Añades los fideos y dejas cocer el tiempo que te diga la bolsa delo que eches'],
+    },
+    {
+        nombre:'Entrecot a la plancha',
+        categorias:['Carne'],
+    },
+    {
+        nombre:'Ensalada Mix',
+        categorias:['Ensalada'],
+        ingredientes:['lechuga','maiz','atún','aceitunas','huevo cocido','aceite de oliva','sal', 'vinagre', 'manzana','mozzarella o burrata','Pimiento picado'], 
     }
 
 

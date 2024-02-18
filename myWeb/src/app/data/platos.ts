@@ -164,7 +164,7 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Pasta con carne picada',
         categorias:['Pasta','Carne'],
-        ingredientes:['pasta','carne picada','cebolla','zanahoria','pimiento verde','tomate frito','sal'],
+        ingredientes:['pasta a poder ser La Molisana Mezzi Rigatini Nº 32 integral','carne picada','cebolla','zanahoria','pimiento verde','tomate frito','sal'],
         preparacion:['Picas finoa la cebolla, la zanahoria y el pimiento','Pochamos todo añadiendo sal','Cuando esté todo pochado añadimos la carne picada a la que previamente hemos echado tambien sal','Cuando la carne esté hecha desengrasas y añades tomate frito',
                         'Al final añades la pasta cocida y mezclas todo bien'],
         presentacion:['Puedes añadir queso rallado por encima'],
@@ -180,6 +180,10 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Albóndigas en salsa',
         categorias:['Carne'],
+        ingredientes:['carne picada','3 huevos','pan rallado','2 zanahorias','sal','pimienta','2 cebollas','harina','tomate frito','2 rebanadas de pan bimbo','leche','1 pmiento verdea'],
+        preparacion:['Pones la carne picada en un bol','Untamos en un poco de leche las 2 rebanadas de pan bimbo','picas fina 1 cebolla y la pochas','Echas esta cebolla pochada encima de la carne picada',
+        'Echas las rebanadas de pan bimbo empapadas en leche en el bol','Echas 3 huevos en el bol y mezclas todo con sal','Para la salsa picas la otra cebolla, las zanahorias y el pimiento verde no hace falta que sea muy fino porque luego se bate todo',
+        'Lo pochas todo y cuando esté pochado lo bates echando todo en un recipiente de batir y echando dentro también tomate frito','Haces las bolas enharinandolas y las fríes','Cuando estén fritas las echas en una cazuela y echas la salsa por encima mas un poco de agua para que cubra y las tienes a fuego lento hasta que reduzca'],
     },
     {
         nombre:'Sopa de fideoas',
@@ -212,8 +216,10 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Sopa de Pollo',
         categorias:['Sopa'],
-        ingredientes:['1 carcasa de pollo','1 trozo cebolla','1 puerro'],
-        preparacion : ['Pones la carcasa de pollo en una olla con agua junto con el resto','Dejas hervir y echas sal', 'Añades los fideos y dejas cocer el tiempo que te diga la bolsa delo que eches'],
+        ingredientes:['1 carcasa de pollo','1 trozo cebolla','1 puerro','sal','fideos','1 huevo cocido', '1 zanahoria'],
+        imagen:'13.jpeg',
+        preparacion : ['Pones la carcasa de pollo en una olla con agua junto con la cebolla, el puerro y las zanahorias','Dejas hervir y echas sal', 'Quitas todo','Añades los fideos y dejas cocer el tiempo que te diga la bolsa delo que eches'],
+        presentacion:['Puedes añadir un huevo cocido picado por encima','Puedes batir la zanahoria y el puerro que has sacado y echarlo encima'],
     },
     {
         nombre:'Entrecot a la plancha',

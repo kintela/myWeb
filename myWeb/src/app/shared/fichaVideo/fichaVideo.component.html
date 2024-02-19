@@ -1,9 +1,9 @@
 <mat-card class="ficha">
     <div class="ficha-imagen" [ngStyle]="imagenContainerStyle">
-        <img [src]="imagen" alt="{{ texto }}">
+        <img [src]="imagen" alt="{{ texto }}" [matTooltip]="texto">
     </div>
     <mat-card-content class="texto-centrado">
-      <a [href]="enlace" target="_blank" *ngIf="origen!='dvd'" [matTooltip]="texto">
+      <a [href]="enlace" target="_blank" *ngIf="origen!='dvd' && origen!='vinilo'" [matTooltip]="texto">
         {{ texto | truncate: 20}}
       </a>
     </mat-card-content>

@@ -26,7 +26,7 @@ import { Cancion14Component } from './music/canciones/cancion14/cancion14.compon
 import { Cancion15Component } from './music/canciones/cancion15/cancion15.component';
 import { Cancion16Component } from './music/canciones/cancion16/cancion16.component';
 import { Cancion17Component } from './music/canciones/cancion17/cancion17.component';
-import { DocuseriesComponent } from './music/docuseries/docuseries.component';
+import { MediaComponent } from './music/media/media.component';
 import { FichaVideoComponent } from './shared/fichaVideo/fichaVideo.component';
 import { FichaCancionComponent } from './shared/ficha-cancion/ficha-cancion.component';
 import { HistoriaComponent } from './historia/historia.component';
@@ -84,7 +84,7 @@ registerLocaleData(localeEs);
     Cancion16Component, 
     Cancion17Component,
     Cancion18Component,
-    DocuseriesComponent, 
+    MediaComponent, 
     FichaVideoComponent, 
     FichaCancionComponent, 
     HistoriaComponent, 

@@ -7,10 +7,10 @@ import { vinilos } from 'src/app/data/vinilos';
 
 @Component({
   selector: 'app-docuseries',
-  templateUrl: './docuseries.component.html',
-  styleUrls: ['./docuseries.component.scss']
+  templateUrl: './media.component.html',
+  styleUrls: ['./media.component.scss']
 })
-export class DocuseriesComponent implements OnInit{
+export class MediaComponent implements OnInit{
   videos=videos;
   vinilos=vinilos;
   frases=frases;

@@ -18,7 +18,7 @@ import { Cancion13Component } from './music/canciones/cancion13/cancion13.compon
 import { Cancion14Component } from './music/canciones/cancion14/cancion14.component';
 import { Cancion15Component } from './music/canciones/cancion15/cancion15.component';
 import { Cancion16Component } from './music/canciones/cancion16/cancion16.component';
-import { DocuseriesComponent } from './music/docuseries/docuseries.component';
+import { MediaComponent } from './music/media/media.component';
 import { HistoriaComponent } from './historia/historia.component';
 import { LibrosComponent } from './music/libros/libros.component';
 import { ConciertosComponent } from './music/conciertos/conciertos.component';
@@ -56,7 +56,7 @@ const routes: Routes = [
   { path: 'cancion18', component: Cancion18Component },
   { path: 'cancion19', component: Cancion19Component },
   { path: 'cancion20', component: Cancion20Component },
-  {path:'music/documentalesyseries',component: DocuseriesComponent},
+  {path:'music/media',component: MediaComponent},
   {path:'music/myfavoritesongs',component: MyfavoritesongsComponent},
   {path:'music/libros',component: LibrosComponent},
   {path:'music/conciertos',component: ConciertosComponent},  

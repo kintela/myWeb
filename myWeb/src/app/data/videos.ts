@@ -371,7 +371,28 @@ export const videos:IVideo[] = [
         texto: 'Camaron en Montreaux',
         categoria: 'Mix',
         plataforma: 'youtube'
-    },              
+    }, 
+    {
+        imagen: '28.jpg',
+        enlace: 'https://www.netflix.com/title/81383233',
+        texto: 'Bee Gees',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },     
+    {
+        imagen: '29.jpg',
+        enlace: 'https://www.netflix.com/title/81720500',
+        texto: 'La Gran Noche del Pop',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },      
+    {
+        imagen: '31.jpg',
+        enlace: 'https://www.rtve.es/play/videos/el-documental/documental-tiempo-leyenda/1450999/',
+        texto: 'La Leyenda del tiempo',
+        categoria: 'Mix',
+        plataforma: 'rtve_play'
+    },            
     {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.facebook.com/watch/?v=280469979672631&extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing',
@@ -518,6 +539,13 @@ export const videos:IVideo[] = [
         texto: 'The Rolling Stones',
         categoria: 'the rolling stones',
         plataforma: 'hbo'
+    },
+    {
+        imagen: '30.jpg',
+        enlace: 'https://vimeo.com/614942917',
+        texto: 'The Rolling Stones R&R Circus',
+        categoria: 'the rolling stones',
+        plataforma: 'vimeo'
     },
     {
         imagen: 'eric_clapton_the_1970s_review.jpg',

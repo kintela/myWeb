@@ -22,6 +22,12 @@
     gap: 20px; /* Establece una separación fija entre elementos */
 }
 
+.contenedor-coincidencias {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+}
+
 
 
 

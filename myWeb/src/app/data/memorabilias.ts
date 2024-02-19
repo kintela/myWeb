@@ -920,7 +920,7 @@ export const memorabilias:IMemorabilia[] = [
         imagen:'138.jpg',
         titulo:'Queen con Maradona',
         grupo:'Queen',
-        personas:'Queen, Maradona',
+        personas:'Freddy Mercury, Brian May, John Deacon, Roger Taylor, Diego Maradona',
         origen:'Facebook'
     },
     {

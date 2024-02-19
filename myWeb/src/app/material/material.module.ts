@@ -15,6 +15,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatBadgeModule } from '@angular/material/badge';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [],
@@ -36,7 +38,9 @@ import { MatRadioModule } from '@angular/material/radio';
     MatSelectModule,
     MatInputModule,
     MatGridListModule,
-    MatRadioModule
+    MatRadioModule,
+    MatBadgeModule,
+    MatChipsModule
   ]
 })
 export class MaterialModule { }

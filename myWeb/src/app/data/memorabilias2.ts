@@ -1933,7 +1933,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'1827.jpg',
         titulo:'Noel Gallagher y The Black Keys',
-        personas:'Noel Gallagher, The Black Keys',
+        personas:'Noel Gallagher, Dan Auerbach, Patrick Carney',
         origen:'Facebook',
     },  
     {

@@ -228,4 +228,10 @@ export const vinilos:IVinilo[]=[
         year:2023,
         caratula:"37.jpeg"
     },
+    {
+        titulo:"The Major Minor Collective",
+        grupo:"The Picturebooks",
+        year:2021,
+        caratula:"39.jpeg"
+    },
 ]

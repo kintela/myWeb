@@ -173,7 +173,7 @@
                 <ng-container *ngFor="let dvd of dvds; let i = index">
                       <app-ficha-video
                         [imagen]="'https://kintela.azureedge.net/assets/assets/memorabilia/dvds/' + dvd.imagen"
-                        [texto]="dvd.titulo"
+                        [texto]="dvd.grupo + ' - ' + dvd.titulo"
                         [origen]="'dvd'">
                       </app-ficha-video>
                 </ng-container>
@@ -190,7 +190,7 @@
                 <ng-container *ngFor="let vinilo of vinilos; let i = index">
                       <app-ficha-video
                         [imagen]="'https://kintela.azureedge.net/assets/assets/caratulas/vinilos/' + vinilo.caratula"
-                        [texto]="vinilo.titulo"
+                        [texto]="vinilo.grupo + ' - ' + vinilo.titulo"
                         [year]="vinilo.year"
                         [origen]="'vinilo'">
                       </app-ficha-video>

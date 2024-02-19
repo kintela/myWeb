@@ -1605,14 +1605,14 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'1778.jpg',
         titulo:'Corizonas',
-        personas:'Javier Vielba, David Krahe, Fernando Pardo, Eduardo Baos, Javi Vacas, Rubén Marrón',
+        personas:'Javier Vielba',
         grupo:'Corizonas',
         origen:'Facebook',
     },
     {
         imagen:'1779.jpg',
         titulo:'Javi Vacas',
-        personas:'Javier Vielba, David Krahe, Fernando Pardo, Eduardo Baos, Javi Vacas, Rubén Marrón',
+        personas:'Javier Vielba',
         grupo:'Corizonas',
         origen:'Facebook',
     },
@@ -5819,7 +5819,7 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Dave Matthews Band',
     },
     {
-        imagen:'24078.jpg',
+        imagen:'2408.jpg',
         titulo:'Dave Matthews Band',
         personas:'Dave Matthews',
         origen:'Facebook', 
@@ -6124,7 +6124,7 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
     },
     {
-        imagen:'2453jpg',
+        imagen:'2453.jpg',
         titulo:'Eddie Van Halen',
         personas:'Eddie Van Halen',
         origen:'Facebook', 

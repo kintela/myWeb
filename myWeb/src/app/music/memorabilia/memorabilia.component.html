@@ -1,8 +1,16 @@
 <div class="encabezado-con-busqueda">
     <mat-form-field>
         <mat-label>Buscar</mat-label>
-        <input matInput [(ngModel)]="searchText" (ngModelChange)="aplicarFiltroSearch()" placeholder="Escribe para filtrar..." />
+        <!--<input matInput [(ngModel)]="searchText" (ngModelChange)="aplicarFiltroSearch()" placeholder="Escribe para filtrar..." />-->
+        <input matInput [(ngModel)]="searchText" (ngModelChange)="aplicarFiltros()" placeholder="Escribe para filtrar..." />
     </mat-form-field>
+
+    <mat-radio-group [(ngModel)]="filtroPersonas" (ngModelChange)="aplicarFiltros()">
+      <mat-radio-button value="todos">Todos</mat-radio-button>
+      <mat-radio-button value="parejas">Parejas</mat-radio-button>
+      <mat-radio-button value="trios">Tríos</mat-radio-button>
+      <mat-radio-button value="cuadrillas">Cuadrillas</mat-radio-button>
+  </mat-radio-group>
     
     <h4>{{filteredMemorabilias.length}} coincidencias</h4>
 </div>

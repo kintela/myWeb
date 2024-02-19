@@ -20,11 +20,18 @@ export class MemorabiliaComponent implements OnInit {
   searchText = '';
   filteredMemorabilias: IMemorabilia[] = [];
 
+  filtroPersonas = 'todos';
 
   constructor(private dialog: MatDialog, private route: ActivatedRoute, private router: Router, private location: Location) { }  
 
   ngOnInit(): void {
     this.memorabilias = [...this.memorabilias1, ...this.memorabilias2];
+
+    // Suponiendo que 'memorabilias' es tu array de objetos memorabilia
+    const memorabiliasSinPersonas = memorabilias.filter(memorabilia => !memorabilia.personas);
+
+    console.log('Memorabilias sin la propiedad personas:', memorabiliasSinPersonas);
+
     
 
     this.filteredMemorabilias = this.memorabilias;
@@ -76,16 +83,51 @@ export class MemorabiliaComponent implements OnInit {
     const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
     this.location.go(url);
   }
+
+  aplicarFiltros() {
+    const terminoBusqueda = this.searchText.toLowerCase();
+  
+    this.filteredMemorabilias = this.memorabilias.filter(memorabilia => {
+      const coincideTexto = terminoBusqueda 
+        ? Object.keys(memorabilia).some(key =>memorabilia[key] && memorabilia[key].toString().toLowerCase().includes(terminoBusqueda)
+      ) : true;
+
+      const personasArray = (memorabilia.personas || '').split(/,| y /).map(s => s.trim()).filter(Boolean);
+      const numPersonas = personasArray.length;
+  
+      const coincideCategoria =
+        (this.filtroPersonas === 'todos') ||
+        (this.filtroPersonas === 'parejas' && numPersonas === 2) ||
+        (this.filtroPersonas === 'trios' && numPersonas === 3) ||
+        (this.filtroPersonas === 'cuadrillas' && numPersonas > 3);
+  
+      return coincideTexto && coincideCategoria;
+    });
+  
+    this.actualizarURL();
+  }
   
 
   
-  applyFilter() {
+  actualizarURL() {
+    const queryParams: any = {};
+    if (this.searchText) queryParams['search'] = this.searchText;
+    if (this.filtroPersonas !== 'todos') queryParams['filtro'] = this.filtroPersonas;
+  
+    const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
+    this.location.go(url);
+  }
+  
+  
+
+  
+  /*applyFilter() {
     this.filteredMemorabilias = this.memorabilias.filter(item => 
       Object.values(item).some(val => 
         val.toString().toLowerCase().includes(this.searchText.toLowerCase())
       )
     );
-  }
+  }*/
 
   openImageViewer(image: string) {
     this.dialog.open(VisorImagenComponent, {

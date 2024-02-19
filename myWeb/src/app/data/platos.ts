@@ -180,6 +180,7 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Albóndigas en salsa',
         categorias:['Carne'],
+        imagen:'14.jpg',
         ingredientes:['carne picada','3 huevos','pan rallado','2 zanahorias','sal','pimienta','2 cebollas','harina','tomate frito','2 rebanadas de pan bimbo','leche','1 pmiento verdea'],
         preparacion:['Pones la carne picada en un bol','Untamos en un poco de leche las 2 rebanadas de pan bimbo','picas fina 1 cebolla y la pochas','Echas esta cebolla pochada encima de la carne picada',
         'Echas las rebanadas de pan bimbo empapadas en leche en el bol','Echas 3 huevos en el bol y mezclas todo con sal','Para la salsa picas la otra cebolla, las zanahorias y el pimiento verde no hace falta que sea muy fino porque luego se bate todo',

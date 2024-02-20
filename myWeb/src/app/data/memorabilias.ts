@@ -5044,7 +5044,7 @@ export const memorabilias:IMemorabilia[] = [
     },
     {
         imagen:'715.jpg',
-        titulo:'Brian May, Eddie Van Halen y Tommy Iommi',
+        titulo:'Brian May, Eddie Van Halen y Tony Iommi',
         personas:'Brian May, Eddie Van Halen, Tommy Iommi',
         origen:'Facebook'
     },

@@ -2008,8 +2008,8 @@ export const memorabilias2:IMemorabilia[] = [
     },
     {
         imagen:'1839.jpg',
-        titulo:'Tonni Iommi',
-        personas:'Tonni Iommi',
+        titulo:'Tony Iommi',
+        personas:'Tony Iommi',
         origen:'Facebook',
         grupo:'Black Sabbath',
     },
@@ -6099,7 +6099,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'2449.jpg',
         titulo:'Albert King',
-        personas:'Eddie Van Halen',
+        personas:'Albert King',
         origen:'Facebook', 
         categoria:'Blues',
     },
@@ -6150,6 +6150,163 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Nina de Juan',
         origen:'Facebook', 
         grupo:'Morgan',
+    },
+    {
+        imagen:'2457.jpg',
+        titulo:'Paul McCartney y Elvis Costello',
+        personas:'Paul McCartney, Elvis Costello',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2458.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2459.jpg',
+        titulo:'Keith Richards y Mick Jagger',
+        personas:'Keith Richards, Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+        year: 1978,
+    },
+    {
+        imagen:'2460.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2461.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2462.jpg',
+        titulo:'Tony Iommi',
+        personas:'Tony Iommi',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2463.jpg',
+        titulo:'The Pictubebooks',
+        personas:'Philipp Mirtschink',
+        origen:'Facebook', 
+        grupo:'The Pictubebooks',
+    },
+    {
+        imagen:'2464.jpg',
+        titulo:'Tylor Hawkins',
+        personas:'Tylor Hawkins',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2465.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2466.jpg',
+        titulo:'Eskorbuto',
+        personas:'Iosu Expósito, Pako Galan, Jualma Suárez',
+        origen:'Facebook', 
+        grupo:'Eskorbuto'
+    },
+    {
+        imagen:'2467.jpg',
+        titulo:'Freddy Mercury',
+        personas:'Freddy Mercury',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2468.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana'
+    },
+    {
+        imagen:'2468.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana'
+    },
+    {
+        imagen:'2469.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana'
+    },
+    {
+        imagen:'2470.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana'
+    },
+    {
+        imagen:'2471.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana'
+    },
+    {
+        imagen:'2472.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana'
+    },
+    {
+        imagen:'2473.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana'
+    },
+    {
+        imagen:'2474.jpg',
+        titulo:'Nirvana',
+        personas:'Kurt Cobain, Dave Grohl, Krist Novoselic',
+        origen:'Facebook', 
+        grupo:'Nirvana'
+    },
+    {
+        imagen:'2475.jpg',
+        titulo:'Stevie Ray Vaughan y Muddy Waters',
+        personas:'Stevie Ray Vaughan, Muddy Waters',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2476.jpg',
+        titulo:'Jack White, Keith Richards y Mick Jagger',
+        personas:'Jack White, Keith Richards, Mick Jagger',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2477.jpg',
+        titulo:'BB King, John Lee Hooker y Willie Dixon',
+        personas:'BB King, John Lee Hooker, Willie Dixon',
+        origen:'Facebook', 
+        categoria:'Blues'   
+    },
+    {
+        imagen:'2478.jpg',
+        titulo:'ZZ Top',
+        personas:'Billy Gibbons, Dusty Hill, Frank Beard',
+        origen:'Facebook', 
+        grupo:'ZZ Top',
+        year:1970
     },
     
 ]

@@ -591,8 +591,29 @@ export const videos:IVideo[] = [
     },
     {
         imagen: 'farm_aid.jpg',
-        enlace: 'https://youtu.be/1oNLLBXiZXw?feature=shared',
+        enlace: 'https://www.youtube.com/watch?v=f79fjaMOIiY',
         texto: 'Farm AID 1985',
+        categoria: 'festivales',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: '32.jpg',
+        enlace: 'https://www.youtube.com/playlist?list=PLNYyB-jQI_J4wXjCc0t4FdIZZ-tl41vXz',
+        texto: 'Live AID 1985',
+        categoria: 'festivales',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: '32.jpg',
+        enlace: 'https://www.tokyvideo.com/es/video/live-aid-concert-for-africa-vol-1-1985',
+        texto: 'Live AID 1985 Vol.1',
+        categoria: 'festivales',
+        plataforma: 'youtube'
+    },
+    {
+        imagen: '32.jpg',
+        enlace: 'https://www.tokyvideo.com/es/video/live-aid-concert-for-africa-vol-2-1985',
+        texto: 'Live AID 1985 Vol.2',
         categoria: 'festivales',
         plataforma: 'youtube'
     },

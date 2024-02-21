@@ -37,7 +37,7 @@ export const PLATOS:IPlato[]=[
     },
     {
         nombre:'Brócoli con gulas',
-        categorias:['Verduras'],
+        categorias:['Verdura'],
         imagen:'5.jpeg',
     },
     {
@@ -46,7 +46,7 @@ export const PLATOS:IPlato[]=[
     },
     {
         nombre:'Patatas a la riojana',
-        categorias:['Verduras','Patatas'],
+        categorias:['Verdura','Patatas'],
         imagen:'2.jpg',
         comensales:4,
         ingredientes:['3 chorizos','1 pimiento verde','1 cabeza de ajos','aceite de oliva','2 hojas de laurel','perejil (para decorar)','6 patatas','1 cebolla','2 pimientos choriceros','agua','sal','1 guindilla'],
@@ -88,7 +88,7 @@ export const PLATOS:IPlato[]=[
     },
     {
         nombre:'Vainas con carne',
-        categorias:['Verduras','Carne'],
+        categorias:['Verdura','Carne'],
         imagen:'8.jpeg',
         ingredientes:['vainas','carne de ternera','cebolla','pimiento verde','sal',],
     },

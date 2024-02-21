@@ -237,7 +237,7 @@ export const PLATOS:IPlato[]=[
         imagen:'15.jpeg',
         comensales:4,
         enlaceVideo:'https://www.hogarmania.com/cocina/recetas/ensaladas-verduras/hamburguesas-calabaza.html',
-        ingredientes:['1/2 kg de calabaza','155 gr de copos de avena','150 ml salsa de tomate','aceite','vinagre','cebolla frita','1 zanahoria','100 gr de queso mozzarella','sal','1/2 cucharadita de comino en polvo','1 cucharada de ajo en polvo'],
+        ingredientes:['1/2 kg de calabaza','155 gr de copos de avena','150 ml salsa de tomate','aceite','vinagre','cebolla frita deshidratada','1 zanahoria','100 gr de queso mozzarella','sal','1/2 cucharadita de comino en polvo','1 cucharada de ajo en polvo'],
         preparacion:['Calienta una cazuela con abundante agua. Pela la calabaza, trocéala y añádela a la cazuela. Sazona, tapa y cuécela durante 12-15 minutos','Retira, escúrrela, pásala a un bol y aplástala con un tenedor hasta dejarla reducida a un puré.',
             'Pela la zanahoria, rállala y resérvala','Pon el puré de calabaza, los copos de avena y la zanahoria rallada en un bol grande. Agrega una cucharada de perejil picado, la cebolla, el comino y el ajo. Sazona y mezcla bien',
             'Corta el queso en daditos','Para montar las hamburguesas, pon un trozo de papel de horno (10 x 10 cm) sobre la tabla, coloca encima un aro de emplatar de 7 cm y rellénalo (a la mitad) con una parte de la mezcla, agrega unos daditos de queso y cúbrelos con otra parte de la mezcla de calabaza. Presiona un poco la masa, pasa la hamburguesa a una fuente y retira el aro. Repite el proceso y monta otras 7 hamburguesas.',

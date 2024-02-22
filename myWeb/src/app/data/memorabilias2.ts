@@ -6109,14 +6109,7 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Mick Jagger, Keith Richards, Ronnie Wood, Charlie Watts',
         origen:'Facebook', 
         grupo:'The Rolling Stones',
-    },
-    {
-        imagen:'2450.jpg',
-        titulo:'The Rolling Stones',
-        personas:'Keith Richards',
-        origen:'Facebook', 
-        grupo:'The Rolling Stones',
-    },
+    },   
     {
         imagen:'2452.jpg',
         titulo:'Ronnie Wood',
@@ -6449,5 +6442,72 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'The Rolling Stones',
     },
+    {
+        imagen:'2498.jpg',
+        titulo:'Red Hot Chili Peppers',
+        personas:'Anthony Kiedis, Flea, Chad Smith, John Frusciante',
+        origen:'Facebook', 
+        grupo:'Red Hot Chili Peppers',
+    },
+    {
+        imagen:'2499.jpg',
+        titulo:'Keith Richards y John Lenon',
+        personas:'Keith Richards, John Lenon',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2500.jpg',
+        titulo:'Keith Richards y Mick Jagger',
+        personas:'Keith Richards, Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2501.jpg',
+        titulo:'Johny Winter y Muudy Waters',
+        personas:'Johny Winter, Muudy Waters',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2502.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana',
+    },
+    {
+        imagen:'2503.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2504.jpg',
+        titulo:'Albert Collins',
+        personas:'Albert Collins',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2505.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2506.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2507.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    
     
 ]

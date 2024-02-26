@@ -6594,9 +6594,175 @@ export const memorabilias2:IMemorabilia[] = [
         imagen:'2520.jpg',
         titulo:'Kristy Wallace(Poison Ivy)',
         personas:'Kristy Wallace',
-        grupo:'he Cramps',
+        grupo:'The Cramps',
         origen:'Facebook', 
     },
+    {
+        imagen:'2521.jpg',
+        titulo:'Jimmy Page',
+        personas:'Jimmy Page',
+        grupo:'Led Zeppelin',
+        origen:'Facebook', 
+        year:1977
+    },
+    {
+        imagen:'2522.jpg',
+        titulo:'Eskorbuto',
+        personas:'Iosu Expósito, Pako Galan, Jualma Suárez',
+        grupo:'Eskorbuto',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2523.jpg',
+        titulo:'Rosendo',
+        personas:'Rosendo Mercado',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2524.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2525.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2526.jpg',
+        titulo:'Queens Of The Stone Age',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age',
+    },
+    {
+        imagen:'2527.jpg',
+        titulo:'Queens Of The Stone Age',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age',
+    },
+    {
+        imagen:'2528.jpg',
+        titulo:'George Harrison y Mick Jagger',
+        personas:'George Harrison, Mick Jagger',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2529.jpg',
+        titulo:'Keith Richards y Mick Jagger',
+        personas:'Keith Richards, Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2530.jpg',
+        titulo:'BB King',
+        personas:'BB King',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2531.jpg',
+        titulo:'Muddy Waters',
+        personas:'Muddy Waters',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2532.jpg',
+        titulo:'John Lee Hooker',
+        personas:'John Lee Hooker',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2533.jpg',
+        titulo:'Josele Santiago',
+        personas:'Josele Santiago',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2534.jpg',
+        titulo:'Slash y Andrew Stockdale',
+        personas:'Slash, Andrew Stockdale',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2535.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2536.jpg',
+        titulo:'Josh Homme',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age'
+    },
+    {
+        imagen:'2537.jpg',
+        titulo:'Nirvana',
+        personas:'Kurt Cobain, Krist Novoselic',
+        origen:'Facebook', 
+        grupo:'Nirvana'
+    },
+    {
+        imagen:'2538.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2539.jpg',
+        titulo:'Buddy Guy',
+        personas:'Buddy Guy',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2540.jpg',
+        titulo:'Clarence Gatemouth Brown',
+        personas:'Clarence Gatemouth Brown',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2541.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook', 
+        descripcion:'con 19 años',
+        year: 1964
+    },
+    {
+        imagen:'2542.jpg',
+        titulo:'Junior Wells',
+        personas:'Junior Wells',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2543.jpg',
+        titulo:'Otis Rush',
+        personas:'Otis Rush',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2544.jpg',
+        titulo:'The Byrds',
+        personas:'Roger McGuinn, David Crosby, Chris Hillman, Michael Clarke',
+        origen:'Facebook', 
+        grupo:'The Byrds'
+    },
+
     
     
 ]

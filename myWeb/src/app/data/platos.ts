@@ -15,7 +15,8 @@ export const PLATOS:IPlato[]=[
     },
     {
         nombre:'Tortilla de Patatas',
-        categorias:['Tortilla','Huevos']
+        categorias:['Tortilla','Huevos'],
+        imagen:'16.jpg',
     },
     {
         nombre:'Garbanzos con chorizo y Zanquarrón',

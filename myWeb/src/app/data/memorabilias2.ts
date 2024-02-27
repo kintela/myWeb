@@ -6762,6 +6762,13 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'The Byrds'
     },
+    {
+        imagen:'2545.jpg',
+        titulo:'Phil Lynott y Rory Gallagher',
+        personas:'Phil Lynott, Rory Gallagher',
+        origen:'Facebook', 
+        year: 1982
+    },
 
     
     

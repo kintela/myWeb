@@ -6769,6 +6769,48 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         year: 1982
     },
+    {
+        imagen:'2546.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'2547.jpg',
+        titulo:'Charlie Watts y Brian Jones',
+        personas:'Charlie Watts, Brian Jones',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2548.jpg',
+        titulo:'Queens Of The Stone Age',
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens Of The Stone Age'
+    },
+    {
+        imagen:'2549.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2550.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2551.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
 
     
     

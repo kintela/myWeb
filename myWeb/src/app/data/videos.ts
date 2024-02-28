@@ -434,7 +434,14 @@ export const videos:IVideo[] = [
         texto: 'David Byrne',
         categoria: 'Mix',
         plataforma: 'netflix'
-    },                 
+    },    
+    {
+        imagen: '40.jpg',
+        enlace: 'https://www.netflix.com/es/title/81466945',
+        texto: 'Welcome to the Machine',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },                
     {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.facebook.com/watch/?v=280469979672631&extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing',

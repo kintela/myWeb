@@ -191,6 +191,13 @@ export const videos:IVideo[] = [
         plataforma: 'appleTV'
     },
     {
+        imagen: '35.jpg',
+        enlace: 'https://www.netflix.com/es/title/80227122',
+        texto: 'Miles Davis',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },    
+    {
         imagen: 'all_my_loving.jpg',
         enlace: 'https://www.netflix.com/es/title/70076332?s=a&trkid=13747225&trg=more&vlang=es&clip=81597056',
         texto: 'All My Loving',
@@ -387,12 +394,47 @@ export const videos:IVideo[] = [
         plataforma: 'netflix'
     },      
     {
-        imagen: '31.jpg',
-        enlace: 'https://www.rtve.es/play/videos/el-documental/documental-tiempo-leyenda/1450999/',
-        texto: 'La Leyenda del tiempo',
+        imagen: '33.jpg',
+        enlace: 'https://www.netflix.com/es/title/70308063',
+        texto: 'Nina Simone',
         categoria: 'Mix',
-        plataforma: 'rtve_play'
-    },            
+        plataforma: 'netflix'
+    },   
+    {
+        imagen: '34.jpg',
+        enlace: 'https://www.netflix.com/es/title/81428525',
+        texto: 'Tina Turner',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    }, 
+    {
+        imagen: '36.jpg',
+        enlace: 'https://www.netflix.com/es/title/81469511',
+        texto: 'Stamping Ground',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },   
+    {
+        imagen: '37.jpg',
+        enlace: 'https://www.netflix.com/es/title/81555066',
+        texto: 'Beethoven',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },    
+    {
+        imagen: '38.jpg',
+        enlace: 'https://www.netflix.com/es/title/80191049',
+        texto: 'Robert Johnson',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },   
+    {
+        imagen: '39.jpg',
+        enlace: 'https://www.netflix.com/es/title/81321471',
+        texto: 'David Byrne',
+        categoria: 'Mix',
+        plataforma: 'netflix'
+    },                 
     {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.facebook.com/watch/?v=280469979672631&extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing',

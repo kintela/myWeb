@@ -6811,7 +6811,110 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'Van Halen'
     },
-
+    {
+        imagen:'2552.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2553.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2554.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2555.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2556.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2557.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2558.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2559.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2560.jpg',
+        titulo:'Trent Reznor',
+        personas:'Trent Reznor',
+        origen:'Facebook', 
+        grupo:'Nine Inch Nails'
+    },
+    {
+        imagen:'2561.jpg',
+        titulo:'Trent Reznor',
+        personas:'Trent Reznor',
+        origen:'Facebook', 
+        grupo:'Nine Inch Nails'
+    },
+    {
+        imagen:'2562.jpg',
+        titulo:'Trent Reznor',
+        personas:'Trent Reznor',
+        origen:'Facebook', 
+        grupo:'Nine Inch Nails'
+    },
+    {
+        imagen:'2563.jpg',
+        titulo:'Metallica',
+        personas:'James Hetfield, Lars Ulrich, Robert Trujillo',
+        origen:'Facebook', 
+        grupo:'Metallica'
+    },
+    {
+        imagen:'2564.jpg',
+        titulo:'Kirck Hammett',
+        personas:'Kirck Hammett',
+        origen:'Facebook', 
+        grupo:'Metallica'
+    },
+    {
+        imagen:'2565.jpg',
+        titulo:'James Hetfield',
+        personas:'James Hetfield',
+        origen:'Facebook', 
+        grupo:'Metallica'
+    },
+    {
+        imagen:'2566.jpg',
+        titulo:'Robert Trujillo',
+        personas:'Robert Trujillo',
+        origen:'Facebook', 
+        grupo:'Metallica'
+    },
+    {
+        imagen:'2567.jpg',
+        titulo:'Kyuss',
+        personas:'John Garcia, Josh Homme',
+        origen:'Facebook', 
+        grupo:'Kyuss'
+    },
     
     
 ]

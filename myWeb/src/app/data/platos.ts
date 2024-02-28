@@ -211,6 +211,7 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Tarta de limón',
         categorias:['Postre'],
+        imagen:'17.jpg',
         ingredientes:['200 g de galletas','100 g de mantequilla fundida','2 huevos pequeños','50 g de mantequilla','ralladura de 1/2 limón','4 g de hojas de gelatina','100 g de azúcar','60 ml de zumo de limón',
         '250 ml de nata (35% materia grasa)'],
         enlaceVideo:'https://www.hogarmania.com/cocina/recetas/postres/tarta-fria-limon.html#google_vignette'

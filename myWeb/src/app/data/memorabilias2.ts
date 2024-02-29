@@ -6223,14 +6223,7 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Kurt Cobain',
         origen:'Facebook', 
         grupo:'Nirvana'
-    },
-    {
-        imagen:'2468.jpg',
-        titulo:'Kurt Cobain',
-        personas:'Kurt Cobain',
-        origen:'Facebook', 
-        grupo:'Nirvana'
-    },
+    },   
     {
         imagen:'2469.jpg',
         titulo:'Kurt Cobain',
@@ -6914,6 +6907,59 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'John Garcia, Josh Homme',
         origen:'Facebook', 
         grupo:'Kyuss'
+    },
+    {
+        imagen:'2568.jpg',
+        titulo:'Muddy Waters',
+        personas:'Muddy Waters',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2569.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana',
+        categoria:'Grunge'
+    },
+    {
+        imagen:'2570.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana',
+        categoria:'Grunge'
+    },
+    {
+        imagen:'2571.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook', 
+        grupo:'Nirvana',
+        categoria:'Grunge'
+    },
+    {
+        imagen:'2572.jpg',
+        titulo:'John Mayall',
+        personas:'John Mayall',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2573.jpg',
+        titulo:'Sex Pistols',
+        personas:'Johnny Rotten, Steve Jones, Paul Cook, Glen Matlock',
+        origen:'Facebook', 
+        grupo:'Sex Pistols',
+        categoria:'Punk'
+    },
+    {
+        imagen:'2574.jpg',
+        titulo:'Brian Jones',
+        personas:'Brian Jones',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
     },
     
     

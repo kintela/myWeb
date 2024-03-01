@@ -6961,6 +6961,68 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'The Rolling Stones',
     },
-    
+    {
+        imagen:'2575.jpg',
+        titulo:'Ringo Starr y John Bonham',
+        personas:'Ringo Starr, John Bonham',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2576.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan, Tommy Shannon',
+        origen:'Facebook', 
+        grupo:'Krackerjack',
+        year: 1969,
+        descripcion:'En 1969, el bajista Tommy Shannon escuchó a Vaughan tocando en un club de Dallas. Fascinado por su estilo y habilidad, Shannon tomó un bajo y realizó una sesión de jam con él. Ambos músicos comenzaron a tocar juntos en una banda llamada Krackerjack meses después'
+    },
+    {
+        imagen:'2577.jpg',
+        titulo:'Iosu Expósito',
+        personas:'Iosu Expósito',
+        origen:'Facebook', 
+        grupo:'Eskorbuto',
+    },
+    {
+        imagen:'2578.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2579.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2580.jpg',
+        titulo:'Nirvana',
+        personas:'Kurt Cobain, Krist Novoselic',
+        origen:'Facebook', 
+        grupo:'Nirvana',
+        categoria:'Grunge'
+    },
+    {
+        imagen:'2581.jpg',
+        titulo:'Hound Dog Taylor',
+        personas:'Hound Dog Taylor',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2582.jpg',
+        titulo:'Black Sabbath',
+        personas:'Ozzy Osbourne, Tony Iommi',
+        origen:'Facebook', 
+        grupo:'Black Sabbath',
+    },
+    {
+        imagen:'2583.jpg',
+        titulo:'Keith Richards y Mick Jagger',
+        personas:'Keith Richards, Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
     
 ]

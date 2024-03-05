@@ -7192,6 +7192,26 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         year: 1967,
     },
+    {
+        imagen:'2609.jpg',
+        titulo:'Mick Jagger y Billy Preston',
+        personas:'Mick Jagger, Billy Preston',
+        origen:'Facebook', 
+        year: 1973,
+    },
+     {
+        imagen:'2610.jpg',
+        titulo:'Keith Richards, Tina Turner y David Bowie',
+        personas:'Keith Richards, Tina Turner, David Bowie',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2611.jpg',
+        titulo:'Eddie Van Halen y Jerry Cantrell',
+        personas:'Eddie Van Halen, Jerry Cantrell',
+        origen:'Facebook', 
+    },
+    
     
     
 ]

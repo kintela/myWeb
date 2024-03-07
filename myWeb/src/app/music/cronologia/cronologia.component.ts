@@ -12,6 +12,7 @@ export class CronologiaComponent implements OnInit {
   grupos: GrupoInfo[] = [];
   years: number[] = [];
   columnas: string[] = [];
+  pathCaratula:string = 'https://kintela.azureedge.net/assets/assets/caratulas/albums/';
 
   ngOnInit(): void {
     const discosPorGrupo: { [key: string]: DiscoInfo[] } = {};

@@ -133,6 +133,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1963,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"1.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -147,6 +148,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1964,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"2.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -154,6 +156,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1964,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"3.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -161,6 +164,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1965,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"4.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -168,6 +172,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1965,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"5.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -175,6 +180,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1966,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"6.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -182,6 +188,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1967,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"7.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -189,6 +196,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1967,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"8.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -196,6 +204,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1968,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"9.png",
     },
     {
         grupo:"The Beatles",
@@ -203,6 +212,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1969,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"10.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -210,6 +220,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1969,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"11.jpeg",
     },
     {
         grupo:"The Beatles",
@@ -217,6 +228,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
         year:1970,
         discografica:"Parlophone",
         productor:"George Martin",
+        caratula:"12.jpeg",
     },
     {
         grupo:"The Rolling Stones",

@@ -7211,6 +7211,34 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Eddie Van Halen, Jerry Cantrell',
         origen:'Facebook', 
     },
+    {
+        imagen:'2612.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2613.jpg',
+        titulo:'Gari',
+        personas:'Gari',
+        origen:'Facebook', 
+        grupo:'Gari eta maldanbera',
+    },
+    {
+        imagen:'2614.jpg',
+        titulo:'Oier',
+        personas:'Oier',
+        origen:'Facebook', 
+        grupo:'Gari eta maldanbera',
+    },
+    {
+        imagen:'2615.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook', 
+        grupo:'Blind Faith',
+    },
     
     
     

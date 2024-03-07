@@ -55,6 +55,8 @@ import { FichaPlatoComponent } from './planificador-de-menus/ficha-plato/ficha-p
 import { FichaRecetaComponent } from './planificador-de-menus/ficha-receta/ficha-receta.component';
 import { ListaCompraComponent } from './planificador-de-menus/lista-compra/lista-compra.component';
 import { FormularioRecetaComponent } from './planificador-de-menus/formulario-receta/formulario-receta.component';
+import { CronologiaComponent } from './music/cronologia/cronologia.component';
+import { FilterYearPipe } from './pipes/filterYear.pipe';
 
 
 
@@ -84,6 +86,8 @@ registerLocaleData(localeEs);
     Cancion16Component, 
     Cancion17Component,
     Cancion18Component,
+    Cancion19Component,
+    Cancion20Component,
     MediaComponent, 
     FichaVideoComponent, 
     FichaCancionComponent, 
@@ -99,9 +103,10 @@ registerLocaleData(localeEs);
     LamentxuComponent, 
     InstagramComponent, 
     SpotifyComponent, 
-    TruncatePipe, TracksComponent, YoutubeComponent, Cancion19Component, Cancion20Component, 
+    TruncatePipe, FilterYearPipe,
+    TracksComponent, YoutubeComponent, 
     PlanificadorMenusComponent, 
-    FichaPlatoComponent, FichaRecetaComponent, ListaCompraComponent, FormularioRecetaComponent     
+    FichaPlatoComponent, FichaRecetaComponent, ListaCompraComponent, FormularioRecetaComponent, CronologiaComponent     
   ],
   imports: [
     BrowserModule,

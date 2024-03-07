@@ -34,6 +34,7 @@ import { AuthSpotifyService } from './guards/auth-spotify.service';
 import { Cancion19Component } from './music/canciones/cancion19/cancion19.component';
 import { Cancion20Component } from './music/canciones/cancion20/cancion20.component';
 import { PlanificadorMenusComponent } from './planificador-de-menus/planificador-menus.component';
+import { CronologiaComponent } from './music/cronologia/cronologia.component';
 
 const routes: Routes = [
   { path: 'cancion1', component: Cancion1Component },
@@ -62,6 +63,7 @@ const routes: Routes = [
   {path:'music/conciertos',component: ConciertosComponent},  
   {path:'music/memorabilia',component: MemorabiliaComponent},
   {path:'music/mhc',component: MhcComponent},
+  {path:'music/cronologia',component: CronologiaComponent},
   {path:'lamentxu',component: LamentxuComponent},
   {path:'historia',component: HistoriaComponent},
   {path:'instagram',component: InstagramComponent},

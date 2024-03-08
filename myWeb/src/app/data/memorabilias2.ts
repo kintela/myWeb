@@ -7239,7 +7239,48 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'Blind Faith',
     },
-    
-    
+    {
+        imagen:'2616.jpg',
+        titulo:'BB King',
+        personas:'BB King',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2617.jpg',
+        titulo:'Iosu Expósito',
+        personas:'Iosu Expósito',
+        origen:'Facebook', 
+        grupo:'Eskorbuto'
+    },
+    {
+        imagen:'2618.jpg',
+        titulo:'Muddy Waters, Willie Dixon y Buddy Guy',
+        personas:'Muddy Waters, Willie Dixon, Buddy Guy',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2619.jpg',
+        titulo:'Elvis Presley',
+        personas:'Elvis Presley',
+        origen:'Facebook', 
+        year: 1968,
+        descripcion:'Elvis Presley en su regreso a los escenarios en 1968 en el especial comeback special'
+    },
+    {
+        imagen:'2620.jpg',
+        titulo:'Joey Ramone',
+        personas:'Joey Ramone',
+        origen:'Facebook', 
+        descripcion:'Joey Ramone era claramente un friki. Cualquiera que lo veía se daba cuenta de que de niño lo había pasado mal. Te venía un pálpito de que este chico con pinta de bueno para nada podría ser una estrella de rock. También era el cantante principal, y el cantante principal es quien habla con el público.      Me sorprendió el amor que se le tenía a alguien que había pasado el 90% de su vida sin ser amado en absoluto. Nunca conversamos mucho; era fácil hablar con los otros tres pero no con Joey, porque se veía que le daba miedo convertir su nueva celebridad en el reflejo de toda la vida llena de desprecio que había sufrido. Pero cuando yo sacaba la cámara, él bailaba frente a mí. Le tomé más fotografías individuales maravillosas que a cualquier otro miembro de la banda. Me alegro mucho de que se convirtiera en lo que se convirtió, cuando los camioneros que conducían por Nueva York bajaban la ventanilla y le gritaban ¡oye! ¡Joey Ramone! Era como verle nacer: no era un niño criado en cuna de oro, no tenía el pelo largo ni liso ni rubio, y tampoco te daba un fuerte apretón de manos. Era más bien un pajarito intentando salir de su cascarón, y te partía tanto el alma que solo podías querer protegerle." — Danny Fields, mánager de los Ramones'        
+    },
+    {
+        imagen:'2621.jpg',
+        titulo:'Eric Clapton con Cream',
+        personas:'Eric Clapton',
+        origen:'Facebook', 
+        year: 1968,
+    },
     
 ]

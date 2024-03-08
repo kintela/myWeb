@@ -515,5 +515,16 @@ export const libros:ILibro[]=[
         enlace:'https://www.elargonauta.com/libros/enganar-al-mundo-pixies/978-84-19234-10-0/',
         sinopsis:'Antes de que Internet, la MTV y los iPods proporcionaran a los aficionados información y comunidades lejanas -en la era pre "Never Mind"-, los jóvenes de todo el mundo crecían en un relativo aislamiento del arte creado por ellos mismos para difundir lentamente escenas y tendencias. En estas condiciones, cuatro jóvenes de Boston formaron una banda llamada Pixies.\n\nDurante su carrera inicial de siete años, tocaron en algunos de los mejores festivales de Europa, mantuvieron a la prensa expectante y cultivaron una ferviente base de fans hambrientos de más y más. La banda trabajó rápido, produciendo cuatro álbumes a un ritmo vertiginoso, pero las presiones y los choques de personalidad pasaron factura: Pixies se disolvió justo cuando las bandas cantaban sus alabanzas como innovadores del rock&roll.'
     },
+    {
+        titulo: 'Aquí vivia yo',
+        categoria: 'Biografía',
+        autor: 'Joan Vich Montaner',
+        ISBN:'978-84-19119-06-3',
+        depositoLegal:'M-12659-2022',     
+        caratula: '5.jpeg',
+        editorial:'Libros del K.O.',
+        enlace:'https://www.librosdelko.com/products/aqui-vivia-yo',
+        sinopsis:'En la primera edición del Festival Internacional de Benicàssim, celebrada en 1995, Joan Vich Montaner despachaba bebidas en una de las barras. En la última edición hasta la publicación de este libro —la de 2019—, se había convertido en codirector del célebre festival. Durante esos veinticinco años, además de haberse ocupado de otras tareas como la programación musical, fue recogiendo muchas historias que comparte en estas páginas. Algunas de ellas tienen como protagonistas a artistas célebres: Lou Reed, Morrissey, Noel Gallagher, Amy Winehouse… Pero otras tienen a personajes menos conocidos que también contribuyeron a que el FIB se convirtiera en el estandarte de los festivales españoles. Aunque este libro no es solo una recopilación de anécdotas jugosas o una aproximación —tan rigurosa como divertida— al funcionamiento de la industria musical, sino también un homenaje sincero a un evento que moldeó los gustos culturales y los veranos de muchos españoles, y un reconocimiento emotivo a la manera en la que la música se entreteje con nuestras biografías. Si has vibrado en algún festival durante el último cuarto de siglo, seguro que reconoces muchas de las emociones que describe el autor.'
+    },
     
 ];

@@ -247,7 +247,12 @@ export const PLATOS:IPlato[]=[
         presentacion:['Sirve en cada plato un par de hamburguesas y un poco de salsa de tomate','Adereza la rúcula con aceite, vinagre y sal y acompaña las hamburguesas con una porción de ensalada',
         'Adorna los platos con unas hojas de perejil'],
 
-    }
+    },
+    {
+        nombre:'Galletas de Plátanoo con chocolate',
+        categorias:['Postre'],
+        imagen:'18.jpg',
+    },
 
 
 ];

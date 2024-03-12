@@ -252,6 +252,7 @@ export const PLATOS:IPlato[]=[
         nombre:'Galletas de Plátanoo con chocolate',
         categorias:['Postre'],
         imagen:'18.jpg',
+        enlaceVideo:'https://www.cocinatis.com/receta/galletas-de-avena-y-platano-sin-azucar-una-receta-saludable-y-facil-con-solo-3-ingredientes.html ',
     },
 
 

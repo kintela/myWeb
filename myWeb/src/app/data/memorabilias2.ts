@@ -7474,5 +7474,53 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Townes Van Zandt',
         origen:'Facebook', 
     },
+    {
+        imagen:'2651.jpg',
+        titulo:'Keith Richards en Villa Nellcôte',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        year: 1971,
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2652.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2653.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2654.jpg',
+        titulo:'Slash y Wolfgang Van Halen',
+        personas:'Slash, Wolfgang Van Halen',
+        origen:'Facebook', 
+        year: 2024,
+    },
+    {
+        imagen:'2655.jpg',
+        titulo:'Rick Rubin',
+        personas:'Rick Rubin',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2656.jpg',
+        titulo:'Tom Morello',
+        personas:'Tom Morello',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2657.jpg',
+        titulo:'BB King',
+        personas:'BB King',
+        origen:'Facebook', 
+        categoria:'Blues',  
+    },
     
 ]

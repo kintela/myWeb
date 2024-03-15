@@ -97,6 +97,7 @@ export class MemorabiliaComponent implements OnInit {
   
       const coincideCategoria =
         (this.filtroPersonas === 'todos') ||
+        (this.filtroPersonas === 'solitario' && numPersonas === 1) ||
         (this.filtroPersonas === 'parejas' && numPersonas === 2) ||
         (this.filtroPersonas === 'trios' && numPersonas === 3) ||
         (this.filtroPersonas === 'cuadrillas' && numPersonas > 3);

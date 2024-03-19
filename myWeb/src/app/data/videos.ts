@@ -651,21 +651,7 @@ export const videos:IVideo[] = [
         texto: 'Live AID 1985',
         categoria: 'festivales',
         plataforma: 'youtube'
-    },
-    {
-        imagen: '32.jpg',
-        enlace: 'https://www.tokyvideo.com/es/video/live-aid-concert-for-africa-vol-1-1985',
-        texto: 'Live AID 1985 Vol.1',
-        categoria: 'festivales',
-        plataforma: 'youtube'
-    },
-    {
-        imagen: '32.jpg',
-        enlace: 'https://www.tokyvideo.com/es/video/live-aid-concert-for-africa-vol-2-1985',
-        texto: 'Live AID 1985 Vol.2',
-        categoria: 'festivales',
-        plataforma: 'youtube'
-    },
+    },   
     {
         imagen: 'eskorbuto.jpg',
         enlace: 'https://youtu.be/aUmY-8A3bZw?feature=shared',

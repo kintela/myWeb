@@ -31,9 +31,7 @@ export class MemorabiliaComponent implements OnInit {
     const memorabiliasSinPersonas = memorabilias.filter(memorabilia => !memorabilia.personas);
 
     console.log('Memorabilias sin la propiedad personas:', memorabiliasSinPersonas);
-
     
-
     this.filteredMemorabilias = this.memorabilias;
 
     this.route.queryParams.subscribe(queryParams => {
@@ -46,6 +44,11 @@ export class MemorabiliaComponent implements OnInit {
         this.searchText = queryParams['search'];        
 
         this.aplicarFiltroSearch();
+      }
+
+      if (queryParams['filtro']) {
+        this.filtroPersonas = queryParams['filtro'];
+        this.aplicarFiltros(); // Este método ya debe estar preparado para aplicar ambos filtros
       }
     });
 

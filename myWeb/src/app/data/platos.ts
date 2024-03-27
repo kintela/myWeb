@@ -188,7 +188,7 @@ export const PLATOS:IPlato[]=[
         'Lo pochas todo y cuando esté pochado lo bates echando todo en un recipiente de batir y echando dentro también tomate frito','Haces las bolas enharinandolas y las fríes','Cuando estén fritas las echas en una cazuela y echas la salsa por encima mas un poco de agua para que cubra y las tienes a fuego lento hasta que reduzca'],
     },
     {
-        nombre:'Sopa de fideoas',
+        nombre:'Sopa de fideos',
         categorias:['Sopa'],
     },
     {
@@ -253,6 +253,13 @@ export const PLATOS:IPlato[]=[
         categorias:['Postre'],
         imagen:'18.jpg',
         enlaceVideo:'https://www.cocinatis.com/receta/galletas-de-avena-y-platano-sin-azucar-una-receta-saludable-y-facil-con-solo-3-ingredientes.html ',
+    },
+    {
+        nombre:'Pollo a la virulé',
+        categorias:['Carne','Verdura'],
+        ingredientes:['Un Pollo Trozeado','Zanahoria','1 pimiento verde','1 pimiento rojo','Vino Blanco','Ketchup','Cebolla','Sal','Aceite de oliva'], 
+        imagen:'19.jpg',
+        preparacion:['Marcas los trozos de pollo','Picas fina la verdura y la pochas','Cuando esté pochada añades el pollo','Cuando el pollo esté hecho añades el vino blanco y el ketchup'],
     },
 
 

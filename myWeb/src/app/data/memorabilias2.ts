@@ -8361,6 +8361,18 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'The Rolling Stones',
     },
+    {
+        imagen:'2781.jpg',
+        titulo:'John Lenon y Chuck Berry',
+        personas:'John Lenon, Chuck Berry',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2782.jpg',
+        titulo:'John Lenon y Chuck Berry',
+        personas:'John Lenon, Chuck Berry',
+        origen:'Facebook', 
+    },
     
     
 ]

@@ -8294,6 +8294,73 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'The Rolling Stones',
         year: 1969,
     },
+    {
+        imagen:'2771.jpg',
+        titulo:'John Paul Jones',
+        personas:'Jon Paul Jones',
+        origen:'Facebook', 
+        grupo:'Led Zeppelin',
+    },
+    {
+        imagen:'2772.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2773.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger, Keith Richards, Charlie Watts, Bill Wyman, Mick Taylor',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2774.jpg',
+        titulo:'Keith Richards y Ronnie Wood',
+        personas:'Keith Richards, Ronnie Wood',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2775.jpg',
+        titulo:'Keith Richards y Charlie Watts',
+        personas:'Keith Richards, Charlie Watts',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2776.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2777.jpg',
+        titulo:'Dave Grohl, Josh Homme y Chad Smith',
+        personas:'Dave Grohl, Josh Homme, Chad Smith',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2778.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2779.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2780.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
     
     
 ]

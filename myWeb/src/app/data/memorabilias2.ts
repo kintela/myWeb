@@ -8502,8 +8502,8 @@ export const memorabilias2:IMemorabilia[] = [
     },
     {
         imagen:'2802.jpg',
-        titulo:'Brian Jones',
-        personas:'Brian Jones',
+        titulo:'Brian Johnson',
+        personas:'Brian Johnson',
         origen:'Facebook', 
         grupo:'AC/DC',
     },

@@ -6099,6 +6099,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 88,
         imagen:'856.jpg',
+        personas:'Angus Young y Brian Johnson',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6106,6 +6107,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 88,
         imagen:'857.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6134,6 +6136,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 88,
         imagen:'861.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6141,6 +6144,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 88,
         imagen:'862.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6148,6 +6152,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 88,
         imagen:'863.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6155,6 +6160,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 88,
         imagen:'864.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6162,6 +6168,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 88,
         imagen:'865.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6169,6 +6176,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 88,
         imagen:'866.jpg',
+        personas:'Brian Johnson',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6184,6 +6192,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 88,
         imagen:'868.jpg',
+        personas:'Brian Johnson',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6212,6 +6221,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 87,
         imagen:'872.jpg',
+        personas:'Angus Young y Brian Johnson',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6219,6 +6229,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 87,
         imagen:'873.jpg',
+        personas:'Angus Young y Brian Johnson',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6233,6 +6244,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 87,
         imagen:'875.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6240,6 +6252,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 87,
         imagen:'876.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6261,6 +6274,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 87,
         imagen:'879.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6268,6 +6282,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 87,
         imagen:'880.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6282,6 +6297,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 87,
         imagen:'882.jpg',
+        personas:'Angus Young',
         titulo:'AC/DC',
         grupo:'AC/DC',
         origen:'propia',
@@ -6541,6 +6557,7 @@ export const memorabilias:IMemorabilia[] = [
     {
         conciertoId: 79,
         imagen:'917.jpeg',
+        personas:'Angus Young',
         titulo:'AC/DC',        
         grupo:'AC/DC',
         origen:'propia',

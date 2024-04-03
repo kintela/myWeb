@@ -8744,6 +8744,70 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Neurotic Outsiders',
         year: 1995,
     },
+    {
+        imagen:'2839.jpg',
+        titulo:'Iosu Expósito',
+        personas:'Iosu Expósito',
+        origen:'Facebook', 
+        grupo:'Eskorbuto'
+    },
+    {
+        imagen:'2840.jpg',
+        titulo:'George Harrison y Leon Russell',
+        personas:'George Harrison, Leon Russell',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2841.jpg',
+        titulo:'George Harrison y Eric Idle',
+        personas:'George Harrison, Eric Idle',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2842.jpg',
+        titulo:'Slash y Scott Weiland',
+        personas:'Slash, Scott Weiland',
+        origen:'Facebook', 
+        grupo:'Velvet Revolver'
+    },
+    {
+        imagen:'2843.jpg',
+        titulo:'Amy Winehouse',
+        personas:'Amy Winehouse',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2844.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2845.jpg',
+        titulo:'Luis Alberto Spinetta',
+        personas:'Luis Alberto Spinetta',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2846.jpg',
+        titulo:'Mick Jagger',
+        personas:'Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2847.jpg',
+        titulo:'Rory Gallagher',
+        personas:'Rory Gallagher',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2848.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+    },
     
     
 ]

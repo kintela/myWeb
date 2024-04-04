@@ -8808,6 +8808,53 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Keith Richards',
         origen:'Facebook', 
     },
+    {
+        imagen:'2849.jpg',
+        titulo:'Keith Richards y Mick Jagger',
+        personas:'Keith Richards, Mick Jagger',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+        year: 1972,
+    },
+    {
+        imagen:'2850.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'2851.jpg',
+        titulo:'Traveling Wilburys',
+        personas:'George Harrison, Bob Dylan, Tom Petty, Roy Orbison, Jeff Lynne',
+        origen:'Facebook', 
+        grupo:'Traveling Wilburys',
+    },
+    {
+        imagen:'2852.jpg',
+        titulo:'Eric Clapton y Peter Green',
+        personas:'Eric Clapton, Peter Green',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2853.jpg',
+        titulo:'Stevie Ray Vaughan y Jeff Beck',
+        personas:'Stevie Ray Vaughan, Jeff Beck',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2854.jpg',
+        titulo:'Albert Collins',
+        personas:'Albert Collins',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2855.jpg',
+        titulo:'John Lennon y Paul McCartney',
+        personas:'John Lennon, Paul McCartney',
+        origen:'Facebook', 
+        grupo:'The Beatles',
+    },
     
     
 ]

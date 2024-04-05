@@ -337,7 +337,7 @@ export const historicoDiscos:IHistoricoDiscos[]=[
     },
     {
         grupo:"The Rolling Stones",
-        titulo:"Tatoos You",
+        titulo:"Tatoo You",
         year:1981,
         discografica:"Rolling Stones Records",
         productor:"The Glimmer Twins",

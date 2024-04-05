@@ -8855,6 +8855,34 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'The Beatles',
     },
+    {
+        imagen:'2856.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2857.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2858.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'2859.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen',
+    },
     
     
 ]

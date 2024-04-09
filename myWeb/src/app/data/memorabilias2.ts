@@ -9180,7 +9180,96 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         categoria:'Blues'
     },
-    
+    {
+        imagen:'2907.jpg',
+        titulo:'Black Sabbath', 
+        personas:'Ozzy Osbourne, Tony Iommi, Geezer Butler, Bill Ward',
+        origen:'Facebook', 
+        grupo:'Black Sabbath',
+        year: 1971,
+    },
+    {
+        imagen:'2908.jpg',
+        titulo:'Jeff Beck', 
+        personas:'Jeff Beck',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2909.jpg',
+        titulo:'The Rolling Stones', 
+        personas:'Mick Jagger, Keith Richards, Bill Wyman, Brian Jones',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2910.jpg',
+        titulo:'Slayer', 
+        personas:'Kerry King, Jeff Hanneman, Tom Araya, Dave Lombardo',
+        origen:'Facebook', 
+        grupo:'Slayer'
+    },
+    {
+        imagen:'2911.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2912.jpg',
+        titulo:'The Rolling Stones', 
+        personas:'Mick Jagger, Keith Richards, Bill Wyman, Brian Jones y Charlie Watts',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2913.jpg',
+        titulo:'Stevie Ray Vaughan y Jimmie Vaughan', 
+        personas:'Stevie Ray Vaughan, Jimmie Vaughan',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2914.jpg',
+        titulo:'Keith Richards', 
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2915.jpg',
+        titulo:'John Lee Hooker', 
+        personas:'John Lee Hooker',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2916.jpg',
+        titulo:'Nina Simone', 
+        personas:'Nina Simone',
+        origen:'Facebook', 
+        categoria:'Jazz'
+    },
+    {
+        imagen:'2917.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2918.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2919.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
     
     
 ]

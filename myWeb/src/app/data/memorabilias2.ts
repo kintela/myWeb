@@ -7558,14 +7558,14 @@ export const memorabilias2:IMemorabilia[] = [
     },
     {
         imagen:'2663.jpg',
-        titulo:'Coque Malla y Toño (Burning)',
-        personas:'Coque Malla, Toño',
+        titulo:'Coque Malla y Johnny Cifuentes',
+        personas:'Coque Malla, Johnny Cifuentes',
         origen:'Facebook', 
     },
     {
         imagen:'2664.jpg',
-        titulo:'Coque Malla y Toño (Burning)',
-        personas:'Coque Malla, Toño',
+        titulo:'Coque Malla y Johnny Cifuentes',
+        personas:'Coque Malla, Johnny Cifuentes',
         origen:'Facebook', 
     },
     {
@@ -9269,6 +9269,117 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Eddie Van Halen',
         origen:'Facebook', 
         grupo:'Van Halen'
+    },
+    {
+        imagen:'2920.jpg',
+        titulo:'The Beatles', 
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook', 
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'2921.jpg',
+        titulo:'The Beatles', 
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook', 
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'2922.jpg',
+        titulo:'Josh Homme', 
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens of the Stone Age'
+    },
+    {
+        imagen:'2923.jpg',
+        titulo:'Queens of the Stone Age', 
+        personas:'Josh Homme, Troy Van Leeuwen, Joey Castillo, Michael Shuman, Dean Fertita',
+        origen:'Facebook', 
+        grupo:'Queens of the Stone Age'
+    },
+    {
+        imagen:'2924.jpg',
+        titulo:'Josh Homme', 
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens of the Stone Age'
+    },
+    {
+        imagen:'2925.jpg',
+        titulo:'Josh Homme', 
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens of the Stone Age'
+    },
+    {
+        imagen:'2926.jpg',
+        titulo:'Josh Homme', 
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens of the Stone Age'
+    },
+    {
+        imagen:'2927.jpg',
+        titulo:'Keith Richards', 
+        personas:'Keith Richards',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2928.jpg',
+        titulo:'Stevie Ray Vaughan y Huey Lewis', 
+        personas:'Stevie Ray Vaughan, Huey Lewis',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2929.jpg',
+        titulo:'Toño Martín Díaz', 
+        personas:'Toño Martín Díaz',
+        origen:'Facebook', 
+        grupo:'Burning'
+    },
+    {
+        imagen:'2930.jpg',
+        titulo:'Josh Homme', 
+        personas:'Josh Homme',
+        origen:'Facebook', 
+        grupo:'Queens of the Stone Age'
+    },
+    {
+        imagen:'2931.jpg',
+        titulo:'The Beatles', 
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook', 
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'2932.jpg',
+        titulo:'The Beatles', 
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook', 
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'2933.jpg',
+        titulo:'The Beatles', 
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook', 
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'2934.jpg',
+        titulo:'The Beatles', 
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook', 
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'2935.jpg',
+        titulo:'The Beatles', 
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook', 
+        grupo:'The Beatles'
     },
     
     

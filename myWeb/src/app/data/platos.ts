@@ -26,6 +26,7 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Merluza al Horno',
         categorias:['Pescado'],
+        imagen:'22.jpg',
         ingredientes:['1 cola de merluza grandecita','500 gr de cebolla','2 patatas cocidas','75 gr de aceite de oliva virgen extra','5 gr de pimentón',
         '50 gr de aceite de oliva (refrito): aceite donde has dorado unos ajos','20 gr de vinagre de sidra','1 cayena','16 gr de ajo laminado','perejil picado',
         'una pizca de sal'],

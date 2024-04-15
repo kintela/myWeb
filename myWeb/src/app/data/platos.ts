@@ -262,6 +262,18 @@ export const PLATOS:IPlato[]=[
         imagen:'19.jpg',
         preparacion:['Marcas los trozos de pollo','Picas fina la verdura y la pochas','Cuando esté pochada añades el pollo','Cuando el pollo esté hecho añades el vino blanco y el ketchup'],
     },
+    {
+        nombre:'Pencas rellenas de Jamon york y queso',
+        categorias:['Verdura'],
+        ingredientes:['Pencas de acelga','Jamón York','Queso en lonchas','Harina','Huevos','Aceite de oliva','Sal'], 
+        preparacion:['Rellenas las rellenas con jamón york y queso','Las pasas por harina y huevo','Las rebozas'],
+    },
+    {
+        nombre:'Espinacas Salteadas',
+        categorias:['Verdura'],
+        ingredientes:['Espinacas','Cebolla','Ajo','Champiñones','Gambas','Uvas Pasas','Piñones o pistachos','Queso feta','Aceite de oliva','Sal'], 
+        preparacion:['Doras el ajo','Pochas la cebolla','Añades los champiñones','Añades las gambas','Añades las espinacas','Añades las uvas pasas y los piñones o pistachos','Gratinas con el queso feta'],
+    },
 
 
 ];

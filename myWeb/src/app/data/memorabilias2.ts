@@ -9381,6 +9381,136 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook', 
         grupo:'The Beatles'
     },
+    {
+        imagen:'2936.jpg',
+        titulo:'Jeff Beck', 
+        personas:'Jeff Beck',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2937.jpg',
+        titulo:'Hound Dog Taylor', 
+        personas:'Hound Dog Taylor',
+        origen:'Facebook', 
+        categoria:'Blues'
+    },
+    {
+        imagen:'2938.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2939.jpg',
+        titulo:'Led Zeppelin', 
+        personas:'Jimmy Page, Robert Plant',
+        origen:'Facebook', 
+        grupo:'Led Zeppelin'
+    },
+    {
+        imagen:'2940.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2941.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook', 
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'2942.jpg',
+        titulo:'George Harrison', 
+        personas:'George Harrison',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2943.jpg',
+        titulo:'Willie DeVille', 
+        personas:'Willie DeVille',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2944.jpg',
+        titulo:'The Rolling Stones', 
+        personas:'Charlie Watts, Bill Wyman',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2945.jpg',
+        titulo:'The Rolling Stones', 
+        personas:'Mick Jagger, Keith Richards, Ron Wood',
+        origen:'Facebook', 
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'2946.jpg',
+        titulo:'Black Sabbath', 
+        personas:'Ozzy Osbourne, Tony Iommi, Geezer Butler, Bill Ward',
+        origen:'Facebook', 
+        grupo:'Black Sabbath',
+    },
+    {
+        imagen:'2947.jpg',
+        titulo:'Jualma Suárez', 
+        personas:'Jualma Suárez',
+        origen:'Facebook', 
+        grupo:'Eskorbuto',
+    },
+    {
+        imagen:'2948.jpg',
+        titulo:'Muddy Waters', 
+        personas:'Muddy Waters',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2949.jpg',
+        titulo:'Stevie Ray Vaughan', 
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook', 
+    },
+    {
+        imagen:'2950.jpg',
+        titulo:'Muddy Waters', 
+        personas:'Muddy Waters',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    {
+        imagen:'2951.jpg',
+        titulo:'Layne Staley', 
+        personas:'Layne Staley',
+        origen:'Facebook', 
+        grupo:'Alice in Chains',
+    },
+    {
+        imagen:'2952.jpg',
+        titulo:'Layne Staley', 
+        personas:'Layne Staley',
+        origen:'Facebook', 
+        grupo:'Alice in Chains',
+    },
+    {
+        imagen:'2953.jpg',
+        titulo:'Layne Staley y Jerry Cantrell', 
+        personas:'Layne Staley, Jerry Cantrell',
+        origen:'Facebook', 
+        grupo:'Alice in Chains',
+    },
+    {
+        imagen:'2954.jpg',
+        titulo:'Johny Winter', 
+        personas:'Johny Winter',
+        origen:'Facebook', 
+        categoria:'Blues',
+    },
+    
     
     
 ]

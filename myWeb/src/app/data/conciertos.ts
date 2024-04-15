@@ -2410,6 +2410,16 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/tfrhc6Oaavs?si=TEHEpkZ1XnaUSLee','https://www.youtube.com/embed/oCk7nAF4qgI?si=CWfnwqkeqwjo5xO1',
     'https://www.youtube.com/embed/XbV0PgPpdAQ?si=39-e3jljZUMqdfpI','https://www.youtube.com/embed/1bvWr_nLPC0?si=D-kFc8qGWzlMPnXJ']
     },
+    {
+        id:182,
+        fecha: new Date(Date.UTC(2024,3 , 12)),
+        ciudad: 'Portugalete',
+        sala: 'Groove',
+        grupo: 'Daiistar',
+        fotos: true,
+        entrada: "entradas/102.JPG",
+        videos:['https://www.youtube.com/embed/NGzCZkWIx30?si=xBz77NDAHdiPUv0Z','https://www.youtube.com/embed/DtXPcct2yuY?si=KQsvI6h35koYtAtx']
+    },
    
 
 ];

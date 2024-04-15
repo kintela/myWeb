@@ -235,7 +235,7 @@ export const vinilos:IVinilo[]=[
         caratula:"39.jpeg"
     },
     {
-        titulo:"Good time",
+        titulo:"Goodtime",
         grupo:"Daiistar",
         year:2021,
         caratula:"40.jpeg"

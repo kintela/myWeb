@@ -12,7 +12,8 @@
           </mat-option>
       </mat-select>
   </mat-form-field>
-    <h4>{{conciertosFiltrados.length}} coincidencias</h4>
+    <!--<h4>{{conciertosFiltrados.length}} coincidencias</h4>-->
+    <mat-chip>{{conciertosFiltrados.length}} coincidencias</mat-chip>
 </div>
      
 <mat-table [dataSource]="conciertosFiltrados" *ngIf="!isScreenSmall" class="mat-elevation-z8">

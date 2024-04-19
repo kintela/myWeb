@@ -274,6 +274,13 @@ export const PLATOS:IPlato[]=[
         ingredientes:['Espinacas','Cebolla','Ajo','Champiñones','Gambas','Uvas Pasas','Piñones o pistachos','Queso feta','Aceite de oliva','Sal'], 
         preparacion:['Doras el ajo','Pochas la cebolla','Añades los champiñones','Añades las gambas','Añades las espinacas','Añades las uvas pasas y los piñones o pistachos','Gratinas con el queso feta'],
     },
+    {
+        nombre:'Tostada de Queso filadelfia y aguakate',
+        categorias:['Tostada'],
+        ingredientes:['Pan','Aguakate','Queso filadelfia','Aceite de oliva','Sal himalaya'], 
+        preparacion:['Tuestas el pan','Untas el queso filadelfia','Añades el aguakate','Añades un poco de aceite de oliva y sal de himalaya'],
+        imagen:'23.jpg',
+    },
 
 
 ];

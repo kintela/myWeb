@@ -9644,6 +9644,76 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Bo Diddley',
         origen:'Facebook',
     },
+    {
+        imagen:'2973.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen', 
+    },
+    {
+        imagen:'2974.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen', 
+    },
+    {
+        imagen:'2975.jpg',
+        titulo:'Eddie Van Halen', 
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen', 
+    },
+    {
+        imagen:'2976.jpg',
+        titulo:'Robert Plant', 
+        personas:'Robert Plant',
+        origen:'Facebook',
+        grupo:'Led Zeppelin', 
+    },
+    {
+        imagen:'2977.jpg',
+        titulo:'Stevie Ray Vaughan y el Dr John', 
+        personas:'Stevie Ray Vaughan, Dr John',
+        origen:'Facebook',
+    },
+    {
+        imagen:'2978.jpg',
+        titulo:'James Hetfield', 
+        personas:'James Hetfield',
+        origen:'Facebook',
+        grupo:'Metallica',
+        descripcion:'James Hetfield literalmente lleva al legendario Lemmy Kilmister en la sangre.Su nuevo tatuaje representa "Ace of Spades" junto a la Iron Cross, típicos símbolos que representan a Motörhead. Lo increíble es que la tinta fue mezclada con cenizas del mismo Lemmy Kilmister ♠️ Un saludo a mi amigo e inspiración, Mr. Lemmy Kilmister. Sin él, no habría Metallica.     Tinta negra mezclada con las cenizas de su cremación que gentilmente me entregaron. Así que ahora, Lemmy podrá seguir mostrándole el dedo del medio al mundo.' 
+    },
+    {
+        imagen:'2979.jpg',
+        titulo:'John Lee Hooker', 
+        personas:'John Lee Hooker',
+        origen:'Facebook',
+        categoria:'Blues',
+    },
+    {
+        imagen:'2980.jpg',
+        titulo:'AC/DC', 
+        personas:'Angus Young, Malcolm Young, Bon Scott, Phil Rudd, Cliff Williams',
+        origen:'Facebook',
+        grupo:'AC/DC',
+    },
+    {
+        imagen:'2981.jpg',
+        titulo:'AC/DC', 
+        personas:'Angus Young, Malcolm Young, Brian Johnson, Cliff Williams',
+        origen:'Facebook',
+        grupo:'AC/DC',
+    },
+    {
+        imagen:'2982.jpg',
+        titulo:'AC/DC', 
+        personas:'Angus Young, Malcolm Young, Bon Scott, Phil Rudd, Cliff Williams',
+        origen:'Facebook',
+        grupo:'AC/DC',
+    },
     
     
     

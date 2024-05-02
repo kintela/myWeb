@@ -10021,6 +10021,46 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Eric Clapton',
         origen:'Facebook',
     },
+    {
+        imagen:'3030.jpg',
+        titulo:'Mick Jagger, Stevie Ray Vaughan y Jimmy Vaughan',
+        personas:'Mick Jagger, Stevie Ray Vaughan, Jimmy Vaughan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3031.jpg',
+        titulo:'John Lee Hooker',
+        personas:'John Lee Hooker',
+        origen:'Facebook',
+        categoria:'Blues',
+    },
+    {
+        imagen:'3032.jpg',
+        titulo:'Bob Dylan',
+        personas:'Bob Dylan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3033.jpg',
+        titulo:'Frank Zappa',
+        personas:'Frank Zappa',
+        origen:'Facebook',
+        descripcion:'Frank Zappa con la guitarra que quemó Jimi Hendrix en el escenario del Monterey Pop Festival en 1967'
+    },
+    {
+        imagen:'3034.jpg',
+        titulo:'John Lee Hooker',
+        personas:'John Lee Hooker',
+        origen:'Facebook',
+        categoria:'Blues',
+    },
+    {
+        imagen:'3035.jpg',
+        titulo:'John Lennon',
+        personas:'John Lennon',
+        origen:'Facebook',
+        year: 1980,
+    },
         
     
 ]

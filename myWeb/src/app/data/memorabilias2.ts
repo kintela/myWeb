@@ -8870,7 +8870,7 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Van Halen',
     },
     {
-        imagen:'2858.j',
+        imagen:'2858.jpg',
         titulo:'Eddie Van Halen y David Lee Roth',
         personas:'Eddie Van Halen, David Lee Roth',
         origen:'Facebook', 
@@ -9918,14 +9918,7 @@ export const memorabilias2:IMemorabilia[] = [
         titulo:'Robert Plant',
         personas:'Robert Plant',
         origen:'Facebook',
-    },
-    {
-        imagen:'3015.jpg',
-        titulo:'Eddie Van Halen y David Lee Roth',
-        personas:'Eddie Van Halen, David Lee Roth',
-        origen:'Facebook',
-        grupo:'Van Halen',
-    },
+    },   
     {
         imagen:'3016.jpg',
         titulo:'Eddie Van Halen',
@@ -10060,6 +10053,46 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'John Lennon',
         origen:'Facebook',
         year: 1980,
+    },
+    {
+        imagen:'3036.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, Sammy Hagar, Alex Van Halen, Michael Anthony',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3037.jpg',
+        titulo:'John Lennon y Andy Warhol',
+        personas:'John Lennon, Andy Warhol',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3038.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger, Keith Richards, Ron Wood',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },
+    {
+        imagen:'3039.jpg',
+        titulo:'Janis Joplin y Tina Turner',
+        personas:'Janis Joplin, Tina Turner',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3040.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3041.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen',
     },
         
     

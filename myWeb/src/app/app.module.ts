@@ -57,6 +57,7 @@ import { ListaCompraComponent } from './planificador-de-menus/lista-compra/lista
 import { FormularioRecetaComponent } from './planificador-de-menus/formulario-receta/formulario-receta.component';
 import { CronologiaComponent } from './music/cronologia/cronologia.component';
 import { FilterYearPipe } from './pipes/filterYear.pipe';
+import { FlowisechatbotComponent } from './shared/flowisechatbot/flowisechatbot.component';
 
 
 
@@ -106,7 +107,7 @@ registerLocaleData(localeEs);
     TruncatePipe, FilterYearPipe,
     TracksComponent, YoutubeComponent, 
     PlanificadorMenusComponent, 
-    FichaPlatoComponent, FichaRecetaComponent, ListaCompraComponent, FormularioRecetaComponent, CronologiaComponent     
+    FichaPlatoComponent, FichaRecetaComponent, ListaCompraComponent, FormularioRecetaComponent, CronologiaComponent, FlowisechatbotComponent     
   ],
   imports: [
     BrowserModule,

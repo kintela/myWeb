@@ -297,10 +297,10 @@ export const PLATOS:IPlato[]=[
         nombre:'Garbanzos con langostinos',
         categorias:['Legumbres','pescado'],
         enlaceVideo:'https://www.instagram.com/reel/C6RbyBBtGLo/?igsh=MXA4bnZsOTJ1eml2Ng%3D%3D',
-        ingredientes:['400g Garbanzos cocidos','250g Langostinos limpios','4 o 5 Dientes de ajo','1/2 Cebolla pequeña', '1 cucharada pequeña de sal',
+        ingredientes:['400g Garbanzos cocidos','250g Langostinos crudos','4 o 5 Dientes de ajo','1/2 Cebolla pequeña', '1 cucharada pequeña de sal',
         '1 cucharada pequeña de pimienta','1 cucharada pequeña de pimentón dulce','1 Guindilla cayena (opcional)','1/2 Limón pequeño el zumo',
         '40ml Aceite de oliva','3 Ramas de cilantro o perejil.'],
-        preparacion:['En un bol echas los garbanzos cocidos y los langostinos cocidos también la cebolla y los ajos picados, la sal y la pimienta y el pimenton',
+        preparacion:['En un bol echas los garbanzos cocidos, los langostinos crudos, la cebolla y los ajos picados, la sal y la pimienta y el pimenton',
         'Echas encima el jugo de medio limon y una guindilla','Echas un buen chorro de aceite de oliva y mezclas bien','Dejas macerar 15 minutos',
         'A la sarten con fuego alegre unos 3 minutos','Echas el cilantro o perejil picado y listo'
         ],

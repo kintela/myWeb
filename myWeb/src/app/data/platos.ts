@@ -281,6 +281,39 @@ export const PLATOS:IPlato[]=[
         preparacion:['Tuestas el pan','Untas el queso filadelfia','Añades el aguakate','Añades un poco de aceite de oliva y sal de himalaya'],
         imagen:'23.jpg',
     },
+    {
+        nombre:'La tortilla del antonio',
+        categorias:['Tortilla','Verdura'],
+        enlaceVideo:'https://www.instagram.com/reel/C5vVrW1M27A/?igsh=bTRtN2s5NWx4eGZp',
+        ingredientes:['0,9 Kg de patatas','7 huevos','0,5 Kg de cebolla','150 gr de pimiento verde','Sal','Aceite de oliva'], 
+        preparacion:['Cortas las patatas en dados gruesos de 2 a 3 cms','Haces lo mismo con la cebolla','Cortas el pimiento en tiras grandes','Pochas la cebolla durante 10 o 15 minutos',
+            'Cuando empieze a dorar echas la patata','El fuego tiene que estar muy alto en todo el cocinado (8 de 9)','Al de 25 minutos cuando la patata empieze a dorarse echas el pimiento verde',
+            'Cocinas otros 10 minutos sin bajar el fuego','Despues de ese tiempo echas sal al gusto (no la echas antes para que no suelte agua)','Cocinas otros 5 minutos hasta que todo este bien tostado',
+            'Lo dejas escurriendo un buen rato para que suelte todo el aceite','Juntalo con los huevos previamente mezclados que no batidos hasta que se quede una mezcla bien cremosa',
+            'A la sarten a fuego medio'
+        ],
+    },
+    {
+        nombre:'Garbanzos con langostinos',
+        categorias:['Legumbres','pescado'],
+        enlaceVideo:'https://www.instagram.com/reel/C6RbyBBtGLo/?igsh=MXA4bnZsOTJ1eml2Ng%3D%3D',
+        ingredientes:['400g Garbanzos cocidos','250g Langostinos limpios','4 o 5 Dientes de ajo','1/2 Cebolla pequeña', '1 cucharada pequeña de sal',
+        '1 cucharada pequeña de pimienta','1 cucharada pequeña de pimentón dulce','1 Guindilla cayena (opcional)','1/2 Limón pequeño el zumo',
+        '40ml Aceite de oliva','3 Ramas de cilantro o perejil.'],
+        preparacion:['En un bol echas los garbanzos cocidos y los langostinos cocidos también la cebolla y los ajos picados, la sal y la pimienta y el pimenton',
+        'Echas encima el jugo de medio limon y una guindilla','Echas un buen chorro de aceite de oliva y mezclas bien','Dejas macerar 15 minutos',
+        'A la sarten con fuego alegre unos 3 minutos','Echas el cilantro o perejil picado y listo'
+        ],
+    },
+    {
+        nombre:'Torta de jamon York con huevo y queso',
+        categorias:['Torta'],
+        enlaceVideo:'https://www.instagram.com/reel/C6LzXY3NLYJ/?igsh=dzVodHE1anJzaWo2',
+        ingredientes:['1 tomate','1 huevo','Jamón York','Queso mozzarella rallado','1 tortilla de trigo'],
+        preparacion:['Pones en la sarten el tomate en rodajas junto con el jamon York trozeado, el huevo y el queso y encima de todo pones la tortilla de trigo',
+        'La volteas y cocinas al gusto' 
+        ],
+    },
 
 
 ];

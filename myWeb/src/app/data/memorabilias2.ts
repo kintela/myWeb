@@ -10217,8 +10217,62 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Eric Clapton',
         origen:'Facebook',
         year: 1964,
+    },  
+    {
+        imagen:'3061.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
     },   
-        
+    {
+        imagen:'3062.jpg',
+        titulo:'BB King',
+        personas:'BB King',
+        origen:'Facebook',
+        categoria:'Blues',
+    },    
+    {
+        imagen:'3063.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, David Lee Roth, Alex Van Halen, Michael Anthony',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },  
+    {
+        imagen:'3064.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },  
+    {
+        imagen:'3065.jpg',
+        titulo:'Paul McCartney',
+        personas:'Paul McCartney',
+        origen:'Facebook',
+        grupo:'The Beatles',
+    },  
+    {
+        imagen:'3066.jpg',
+        titulo:'Ringo Starr',
+        personas:'Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+    },  
+    {
+        imagen:'3067.jpg',
+        titulo:'Paul McCartney y John Lennon',
+        personas:'Paul McCartney, John Lennon',
+        origen:'Facebook',
+        grupo:'The Beatles',
+    },  
+    {
+        imagen:'3068.jpg',
+        titulo:'Peter Green',
+        personas:'Peter Green',
+        origen:'Facebook',
+    },  
         
     
 ]

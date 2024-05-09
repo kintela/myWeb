@@ -10273,6 +10273,56 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Peter Green',
         origen:'Facebook',
     },  
-        
+    {
+        imagen:'3069.jpg',
+        titulo:'James Brown',
+        personas:'James Brown',
+        origen:'Facebook',
+        descripcion:'James Brown fue el primer afroamericano en tener un jet privado. A mediados de los años sesenta, una época en la que elegir un asiento de autobús era un acto de desafío para los afroamericanos, la adquisición por parte de James Brown de un Learjet 23 en 1966 lo convirtió en un héroe. Envió el mensaje de que los afroamericanos también podían lograr el "éxito blanco'
+    },  
+    {
+        imagen:'3070.jpg',
+        titulo:'Muddy Waters',
+        personas:'Muddy Waters',
+        origen:'Facebook',
+        categoria:'Blues',
+    },  
+    {
+        imagen:'3071.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3072.jpg',
+        titulo:'Stevie Ray Vaughan y Jimmie Vaughan',
+        personas:'Stevie Ray Vaughan, Jimmie Vaughan',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3073.jpg',
+        titulo:'Jimmy Page, Jeff Beck, Ronnie Wood y Joe Perry',
+        personas:'Jimmy Page, Jeff Beck, Ronnie Wood, Joe Perry',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3074.jpg',
+        titulo:'Dave Grohl y Dimebag Darrell',
+        personas:'Dave Grohl, Dimebag Darrell',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3075.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3076.jpg',
+        titulo:'Son House',
+        personas:'Son House',
+        origen:'Facebook',
+        categoria:'Blues',
+    },     
     
 ]

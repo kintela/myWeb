@@ -1,6 +1,5 @@
 import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 
-//declare var Chatbot: any; 
 @Component({
   selector: 'app-flowisechatbot',
   templateUrl: './flowisechatbot.component.html',
@@ -14,10 +13,7 @@ export class FlowisechatbotComponent implements OnInit, OnDestroy{
    ngOnInit(): void {
     this.loadScript();
   }
-
-  ngOnDestroy(): void {
-    // Aquí puedes limpiar cualquier inicialización si es necesario
-  }
+  ngOnDestroy(): void {}
 
   loadScript(): void {
     const script = document.createElement('script');

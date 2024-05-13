@@ -1,1 +1,55 @@
-<p>cancion7 works!</p>
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>{{grupo}} - {{nombreCancion}} - {{album}} - {{anio}}</mat-card-title>
+    </mat-card-header>
+  
+    <mat-card-content>
+      <div class="content-layout">
+        <div class="audio-file">
+          <!--<a href="https://kintela.azureedge.net/assets/assets/canciones/something.mp3" target="_blank" class="clickable-link">Cover by Kintela feat. Pedro Boyra on Bass</a>-->
+        </div>
+        
+        <div class="text-content">
+          <p>
+            El Sitio de Mi Recreo" es una de las canciones más emblemáticas de Antonio Vega, uno de los cantautores más destacados de España. Es considerada uno de sus trabajos más personales y conmovedores.
+          </p>
+      
+          <p>
+            La letra de "El Sitio de Mi Recreo" es poética y reflexiva, característica del estilo lírico de Vega. La canción habla de un lugar íntimo y personal, un refugio donde el autor se siente seguro y en paz. Muchos interpretan esta "recreo" como un espacio mental o emocional donde Vega encuentra consuelo y serenidad, lejos de las complicaciones del mundo exterior.
+          </p>    
+        </div>
+        <div class="image-content">
+        </div>
+      </div>
+      <div class="link-container">
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/KgjfPcjWkyg?si=hWoVqXJqR84EsOrw')" class="clickable-link">Antonio vega</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/VE8_KbC9qfs?si=TZ2QsqPvc0arx0sx')" class="clickable-link">Rosario y Antonio Carmona</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/v3AYfK2PJ-k?si=158FXoYtDAPm_wqs')" class="clickable-link">Miguel Bosé</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/TCXsbQpK5p4?si=6m5mz4IasZsuZlMQ')" class="clickable-link">Miguel Campello</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/Kg26ccUM20Y?si=DMrjnr3sJgQ0xyyQ')" class="clickable-link">Los Pistones</a>
+      </div>
+
+      
+    </mat-card-content>
+</mat-card>
+
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>How to play...</mat-panel-title>
+  </mat-expansion-panel-header>
+  <mat-card>
+    <mat-card-content>
+      <div class="videos">
+        <!---<a (click)="mostrarVideo('https://www.youtube.com/embed/AsEx3arbSUA?si=xn6cUnfCKP-eVyCZ')" class="clickable-link">Rythm</a>-->
+      </div>
+      
+      <div class="tablatures">
+        <!--<img class="clickable-link" src="https://kintela.azureedge.net/assets/assets/canciones/something_tablature_1.JPG" (click)="openImageViewer('https://kintela.azureedge.net/assets/assets/canciones/something_tablature_1.JPG')">
+        <img class="clickable-link" src="https://kintela.azureedge.net/assets/assets/canciones/something_tablature_2.JPG" (click)="openImageViewer('https://kintela.azureedge.net/assets/assets/canciones/something_tablature_2.JPG')">  -->
+      </div>      
+    </mat-card-content>
+  </mat-card>
+  
+</mat-expansion-panel>
+
+ 

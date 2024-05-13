@@ -10354,8 +10354,8 @@ export const memorabilias2:IMemorabilia[] = [
     },  
     {
         imagen:'3081.jpg',
-        titulo:'Duane Allman y Aretta Franklin',
-        personas:'Duane Allman, Aretta Franklin',
+        titulo:'Duane Allman y Aretha Franklin',
+        personas:'Duane Allman, Aretha Franklin',
         origen:'Facebook',
     },  
     {

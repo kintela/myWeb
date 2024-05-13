@@ -10323,6 +10323,67 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Son House',
         origen:'Facebook',
         categoria:'Blues',
-    },     
+    },    
+    {
+        imagen:'3077.jpg',
+        titulo:'Gregg Allman , Dickey Betts y Derek Trucks',
+        personas:'Gregg Allman, Dickey Betts, Derek Trucks',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3078.jpg',
+        titulo:'Johny Winter',
+        personas:'Johny Winter',
+        origen:'Facebook',
+        categoria:'Blues',
+    },  
+    {
+        imagen:'3079.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+        descripcion:'Eddie Van Halen con el prototipo de la guitarra de Ernie Ball Music Man guitar. Que fue su signature guitar desde 1991 hasta 1995'
+    },   
+    {
+        imagen:'3080.jpg',
+        titulo:'Eric Clapton apoyando al pueblo palestino que sufre un genocidio en Gaza',
+        personas:'Eric Clapton',
+        origen:'Facebook',
+        year: 2024,
+    },  
+    {
+        imagen:'3081.jpg',
+        titulo:'Duane Allman y Aretta Franklin',
+        personas:'Duane Allman, Aretta Franklin',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3082.jpg',
+        titulo:'Eddie Van Halen y Michael Jackson',
+        personas:'Eddie Van Halen, Michael Jackson',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3083.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3084.jpg',
+        titulo:'David Bowie y Trent Reznor',
+        personas:'David Bowie, Trent Reznor',
+        origen:'Facebook',
+        descripcion:'Uno de los mejores momentos de mi vida fue cuando estaba con David Bowie sobre el escenario cantando "Hurt". Mientras lo hacíamos pensaba: Estoy parado en el escenario con una de las influencias más grandes que he tenido, y él está cantando una canción que yo escribí en mi cuarto, comentó Trent Reznor. Durante esta etapa en la que la fama de Nine Inch Nails estaba subiendo como lava volcánica, los excesos ya se habían convertido en el refugio de Reznor y él tuvo que lidiar con ello durante una etapa bastante importante en su vida. Mi forma de lidiar con la vida fue adormecerme con drogas y alcohol, porque eso me hacía sentirme mejor y mucho más preparado para hacerle frente a todo. Bowie logró darse cuenta de ello en la gira y, sin tener que decir mucho, su consejo logró ser mucho más efectivo para Trent que una clínica de rehabilitación en Tailandia. Sus palabras no sonaban como un regaño, pero pedazos de su sabiduría se quedaron pegados a mi», recuerda Trent y añade «Me dijo, ¿Sabes? hay un mejor camino que este, y no necesita terminar con desesperación o muerte, en el fondo. Ese fue el inicio de una nueva etapa sobre el escenario para el vocalista de Nine Inch Nails, quien después de varios años ha logrado mantenerse limpio'
+    },  
+    {
+        imagen:'3085.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },   
+      
     
 ]

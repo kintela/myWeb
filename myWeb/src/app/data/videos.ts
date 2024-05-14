@@ -441,7 +441,35 @@ export const videos:IVideo[] = [
         texto: 'Welcome to the Machine',
         categoria: 'Mix',
         plataforma: 'netflix'
-    },                
+    },  
+    {
+        imagen: '42.jpg',
+        enlace: 'https://www.youtube.com/watch?v=C3_g5nEDmVo',
+        texto: 'El año que cambió el jazz',
+        categoria: 'Mix',
+        plataforma: 'youtube'
+    },    
+    {
+        imagen: '43.jpg',
+        enlace: 'https://tv.apple.com/us/show/foo-fighters-sonic-highways/umc.cmc.40owu0t9i3pgms5pquaz9edvb?l=es',
+        texto: 'Foo Fighters: Sonic Highways',
+        categoria: 'Mix',
+        plataforma: 'apple tv'
+    },   
+    {
+        imagen: '44.jpg',
+        enlace: 'https://filmin.es/pelicula/unfinished-plan-el-camino-de-alain-johannes',
+        texto: 'Unfinished plan: El camino de Alain Johannes',
+        categoria: 'Mix',
+        plataforma: 'Filmin'
+    },              
+    {
+        imagen: '45.jpg',
+        enlace: 'https://www.documaniatv.com/historia/sound-city-video_9324b3a17.html',
+        texto: 'Sound City',
+        categoria: 'Mix',
+        plataforma: 'Documania TV'
+    },       
     {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.facebook.com/watch/?v=280469979672631&extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing',
@@ -714,6 +742,13 @@ export const videos:IVideo[] = [
         texto: 'No somos nada',
         categoria: 'punk',
         plataforma: 'eitb'
+    },
+    {
+        imagen: '41.jpg',
+        enlace: 'https://drive.google.com/file/d/1ZL2can6GM1XM0lMogCmNH-S1AGBfy09E/view?fbclid=IwZXh0bgNhZW0CMTAAAR0RXL1GNgZzd6IvcPmsiuncSDB7Ren2YB9s_Qqy74M3LRRPyV-eyxFjGuw_aem_AYKrRRFeUZTg0zVwifx35QaYdGw06Ig59bGlsEMCKPZsJIZ1O8U8vxAn9gWp-lWvo2nlrOsFAb9tUhM8gubE12Uo',
+        texto: 'A band called Death',
+        categoria: 'punk',
+        plataforma: 'Google Drive'
     },
     {
         imagen: '9.jpeg',

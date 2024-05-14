@@ -10384,6 +10384,60 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'Van Halen',
     },   
-      
+    {
+        imagen:'3086.jpg',
+        titulo:'Slash',
+        personas:'Slash',
+        origen:'Facebook',
+        grupo:'Guns N Roses',
+    },   
+    {
+        imagen:'3087.jpg',
+        titulo:'Bob Marley',
+        personas:'Bob Marley',
+        origen:'Facebook',
+    },   
+    {
+        imagen:'3088.jpg',
+        titulo:'The Rolling Stones con Billy Preston',
+        personas:'Mick Jagger, Keith Richards, Ron Wood, Billy Preston',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },   
+    {
+        imagen:'3089.jpg',
+        titulo:'Anna Popovic',
+        personas:'Anna Popovic',
+        origen:'Facebook',
+        year: 1976,
+    },   
+    {
+        imagen:'3090.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },  
+    {
+        imagen:'3091.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },    
+    {
+        imagen:'3092.jpg',
+        titulo:'Johny Winter y Muddy Waters',
+        personas:'Johny Winter, Muddy Waters',
+        origen:'Facebook',
+        categoria:'Blues',
+    },   
+    {
+        imagen:'3093.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },  
     
 ]

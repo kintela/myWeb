@@ -2420,6 +2420,17 @@ export const conciertos:IConcierto[]=[
         entrada: "entradas/102.JPG",
         videos:['https://www.youtube.com/embed/NGzCZkWIx30?si=xBz77NDAHdiPUv0Z','https://www.youtube.com/embed/DtXPcct2yuY?si=KQsvI6h35koYtAtx']
     },
+    {
+        fecha: new Date(Date.UTC(2024,3 , 20)),
+        ciudad: 'Bilbao',
+        sala: 'Sala Azkena',
+        grupo: 'Alain Johannes',
+        fotos: false,
+        entrada: "entradas/103.jpg",
+        videos:['https://www.youtube.com/embed/_oljRpv4Bjc?si=fdhe7DLDjiMYAqdT', 'https://www.youtube.com/embed/vT7qGkJmTzs?si=tH-jgYCrSgKPx_51','https://www.youtube.com/embed/feFaNVd_rn8?si=3Qd62doXY2Hoar1G',
+            'https://www.youtube.com/embed/sYJViuZ8-gU?si=UYqXvK_J1wHGb1Se','https://www.youtube.com/embed/DuJcUGbHqRQ?si=7ja-SG5hQjei5oXo'
+        ]
+    },
    
 
 ];

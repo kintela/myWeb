@@ -116,7 +116,15 @@ export const PLATOS:IPlato[]=[
         nombre:'Robadallo al horno',
         categorias:['Pescado'],
         ingredientes:['1 rodaballo','3 patatas','1 pimiento verde italiano','2 chalotas','2 tomates rama','2 dientes de ajo','Perejil','100 ml de vino blanco para el majado',
-        '150 ml de vino blanco para las patatas','Sal','Aceite de oliva virgen extra'],        
+        '150 ml de vino blanco para las patatas','Sal','Aceite de oliva virgen extra'],   
+        preparacion:['Pelas y trozeas en rodajas las patatas y a la bandeja del horno','Cortas la cebolla en juliana y la pones encima de las patatas','Haces tiras del pimiento verda y a la bandeja del horno',
+            'cortas las chalotas en juliana y a la bandeja','Cortas el tomate en rodajas como la patata y a la bandeja y este se derretira pero es para dar sasbor y humedad a las patatas',
+            'Añades sal, aceite y vino blanco','Lo remueves todo y lo extiendes y al horno precalentado 180 grados arriba y abajo y la bandeja al medio y en media hora ya estarian',
+            'Las patatas tienen que tirar un pekin a duras por que van a estar luego mas tiempo con el rodaballo','Comprobamos que hay liquido en la base y sino hay echas un poco mas de aceite',
+            'Colocas el rodaballo con la parte oscura hacia arriba y le echas sal por encima de la piel','Lo metes en horno a 180 grados en la bandeja de en medio y lo dejas unos 20 minutos',
+            'En un mortero machacas 2 dientes de ajo y cuando esten machacados añades unas hojas de perejil y sigues machacando y le añades un poco de vino blanco y a mitad del horneado lo echas encima del rodaballo',
+            ''
+        ],
         enlaceVideo:'https://www.youtube.com/watch?v=myTmIYDStWs'
     },
     {

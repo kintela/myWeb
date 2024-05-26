@@ -130,6 +130,15 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Tarta Lotus',
         categorias:['Postre'],
+        enlaceVideo:'https://www.lecturas.com/recetas/tarta-galletas-lotus-crema-mascarpone-sin-horno_13473.html',
+        ingredientes:['400 gramos de crema de galletas lotus','100 gramos de mantequilla','200 mililitros de nata para montar o leche evaporada','400 gramos de queso mascarpone',
+        '3 cucharadas de azúcar glas','Crema de galletas lotus'],
+        preparacion:['Tritura las galletas con una batidora o robot de cocina. También puedes hacerlo de forma manual poniendo las galletas dentro de una bolsa para congelado y machacándolas con un rodillo. Separa dos cucharadas galleta triturada para decorar al final.',
+        'Derrite la mantequilla en el microondas. Mezcla la mantequilla con la galleta triturada','Pon la mezcla en un molde redondo de 18 o 20 centímetros de diámetro. Presiona con una cuchara para compactar la base y que quede igualada.',
+        'Pon en un bol la nata, el queso mascarpone y el azúcar glas. Añade una o dos cucharadas de crema Lotus dependiendo si la quieres con más o menos sabor a galleta. Bate con varillas hasta conseguir una crema homogénea. También sirve una varilla manual.',
+        'Pon la crema en el molde sobre la base de galletas y alisa sin presionar para que quede uniforme la altura. Reserva en el frigorífico unas cuatro horas.',
+        'Pasado el reposo, derrite el resto de la crema Lotus en una cazuela a fuego lento. Vierte la crema de galleta sobre la crema de mascarpone fría. Extiéndela con una espátula para que quede bonita.'],
+        presentacion:['Decora con la galleta triturada reservada y con alguna galleta entera. Desmonta y sirve'],
     },
     {
         nombre:'Cordero al horno',
@@ -295,7 +304,7 @@ export const PLATOS:IPlato[]=[
     },
     {
         nombre:'Garbanzos con langostinos',
-        categorias:['Legumbres','pescado'],
+        categorias:['Legumbres','Pescado'],
         enlaceVideo:'https://www.instagram.com/reel/C6RbyBBtGLo/?igsh=MXA4bnZsOTJ1eml2Ng%3D%3D',
         ingredientes:['400g Garbanzos cocidos','250g Langostinos crudos','4 o 5 Dientes de ajo','1/2 Cebolla pequeña', '1 cucharada pequeña de sal',
         '1 cucharada pequeña de pimienta','1 cucharada pequeña de pimentón dulce','1 Guindilla cayena (opcional)','1/2 Limón pequeño el zumo',
@@ -314,6 +323,20 @@ export const PLATOS:IPlato[]=[
         'La volteas y cocinas al gusto' 
         ],
     },
+    {
+        nombre:'Lentajas a la marinera',
+        categorias:['Legumbres','Pescado'],
+        enlaceVideo:'https://www.youtube.com/watch?v=g3sn92CSD5w',
+        ingredientes:['Lentejas','1 Zanahoria', '1 hoja de laurel','sal','aceite de oliva','3 cabezas de ajo','gambas','Pescado a elegir (sepia, calamar o chipirones)','Cebolla','Pimiento Rojo','3 dientes de ajo','Tomate frito','Pimentón','comino','vino blanco'],
+        preparacion:['Echas las lentejas en una cazuela con la zanahoria trozeada y una hoja de laurel','Cubres con agua y lo pones a hervir','Cuando está hirviendo echas un poco de sal y aceite, tapas y lo dejas a fuego suave',
+        'Trozeas el pescado que hayas elegido (sepia, calamar o chipirones)','En una sarten con aceite bien caliente fries el pescado echandole sal y pimienta',
+        'Lo fries hasta que el agua que sueltan se reduzca','Echas un poco mas de aceite y echas encima la cebolla y rehoras bajando el fuego','Echas encima el pimiento rojo y sigues rehogando',
+        'Echas tomate frito','Cuando este todo bien intregado añadimos cucharadita y media de pimenton y un poco de comino','remueves todo y añades vino blanco y cocinas hasta que se evapore el alcohol','Echas todo en la cazuela de las lentejas y dejas que se sigan haciendo a fuego suave',
+        'En la misma sarten fries los ajos picaditos y cuando tengan un poco de color echas las gambas peladas y fries con sal y perefil al gusto hasta que cambien de color',
+        'Cuando esté echas un poco de agua para rescatar todo lo que haya en la sarten y lo añades a la cazuela de las lentejas y a reposar'
+        ],
+    },
+    
 
 
 ];

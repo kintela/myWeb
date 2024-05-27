@@ -147,6 +147,7 @@ export const PLATOS:IPlato[]=[
         'Pon la crema en el molde sobre la base de galletas y alisa sin presionar para que quede uniforme la altura. Reserva en el frigorífico unas cuatro horas.',
         'Pasado el reposo, derrite el resto de la crema Lotus en una cazuela a fuego lento. Vierte la crema de galleta sobre la crema de mascarpone fría. Extiéndela con una espátula para que quede bonita.'],
         presentacion:['Decora con la galleta triturada reservada y con alguna galleta entera. Desmonta y sirve'],
+        imagen:'24.jpg'
     },
     {
         nombre:'Cordero al horno',
@@ -267,7 +268,7 @@ export const PLATOS:IPlato[]=[
 
     },
     {
-        nombre:'Galletas de Plátanoo con chocolate',
+        nombre:'Galletas de Plátano con chocolate',
         categorias:['Postre'],
         imagen:'18.jpg',
         enlaceVideo:'https://www.cocinatis.com/receta/galletas-de-avena-y-platano-sin-azucar-una-receta-saludable-y-facil-con-solo-3-ingredientes.html ',

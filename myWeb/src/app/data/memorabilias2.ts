@@ -10749,4 +10749,61 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Tom Waits',
         origen:'Facebook',
     }, 
+    {
+        imagen:'3142.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3143.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3144.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook',
+        grupo:'Nirvana',    
+    }, 
+    {
+        imagen:'3145.jpg',
+        titulo:'Eskorbuto',
+        personas:'Iosu Expósito, Juanma Suárez, Paco Galán',
+        origen:'Facebook',
+        grupo:'Eskorbuto'
+    }, 
+    {
+        imagen:'3146.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3147.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3148.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3149.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3150.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
 ]

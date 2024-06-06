@@ -80,10 +80,10 @@ export const videos:IVideo[] = [
     },
     {
         imagen: 'antonio_vega.jpeg',
-        enlace: 'https://www.filmin.es/pelicula/antonio-vega-tu-voz-entre-otras-mil',
+        enlace: 'https://www.Filmin.es/pelicula/antonio-vega-tu-voz-entre-otras-mil',
         texto: 'Antonio Vega',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },
     {
         imagen: 'ecos_de_una_era.jpeg',
@@ -269,24 +269,24 @@ export const videos:IVideo[] = [
     },
     {
         imagen: 'hit_so_hard.jpg',
-        enlace: 'https://www.filmin.es/pelicula/hit-so-hard',
+        enlace: 'https://www.Filmin.es/pelicula/hit-so-hard',
         texto: 'The Hole',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },
     {
         imagen: 'control.jpg',
-        enlace: 'https://www.filmin.es/pelicula/control',
+        enlace: 'https://www.Filmin.es/pelicula/control',
         texto: 'Joy Division',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },
     {
         imagen: 'white_riot.jpg',
-        enlace: 'https://www.filmin.es/pelicula/white-riot-rock-contra-el-racismo',
+        enlace: 'https://www.Filmin.es/pelicula/white-riot-rock-contra-el-racismo',
         texto: 'AntiRacismo',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },
     {
         imagen: '1.jpeg',
@@ -304,10 +304,10 @@ export const videos:IVideo[] = [
     },
     {
         imagen: '3.jpeg',
-        enlace: 'https://www.filmin.es/pelicula/crock-of-gold-bebiendo-con-shane-macgowan?shem=ssusxt',
+        enlace: 'https://www.Filmin.es/pelicula/crock-of-gold-bebiendo-con-shane-macgowan?shem=ssusxt',
         texto: 'Shane MacGowan',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },    
     {
         imagen: '5.jpeg',
@@ -332,24 +332,24 @@ export const videos:IVideo[] = [
     },                    
     {
         imagen: '11.jpeg',
-        enlace: 'https://www.filmin.es/pelicula/i-need-a-dodge-joe-strummer-on-the-run',
+        enlace: 'https://www.Filmin.es/pelicula/i-need-a-dodge-joe-strummer-on-the-run',
         texto: 'Joe Strummer',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },   
     {
         imagen: '12.jpeg',
-        enlace: 'https://www.filmin.es/pelicula/dentro-del-chelsea-hotel',
+        enlace: 'https://www.Filmin.es/pelicula/dentro-del-chelsea-hotel',
         texto: 'Chelsea Hotel',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },   
     {
         imagen: '13.jpeg',
         enlace: 'https://www.netflix.com/watch/81393720?trackId=255824129&tctx=0%2C0%2C69e99661-4f11-4a9e-8fba-26c7bc1f9e50-229969214%2C69e99661-4f11-4a9e-8fba-26c7bc1f9e50-229969214%7C2%2Cunknown%2C%2C%2CtitlesResults%2C81393720%2CVideo%3A81393720%2CminiDpPlayButton',
         texto: 'Heroes del silencio',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },    
     {
         imagen: '16.jpeg',
@@ -458,7 +458,7 @@ export const videos:IVideo[] = [
     },   
     {
         imagen: '44.jpg',
-        enlace: 'https://filmin.es/pelicula/unfinished-plan-el-camino-de-alain-johannes',
+        enlace: 'https://Filmin.es/pelicula/unfinished-plan-el-camino-de-alain-johannes',
         texto: 'Unfinished plan: El camino de Alain Johannes',
         categoria: 'Mix',
         plataforma: 'Filmin'
@@ -717,10 +717,10 @@ export const videos:IVideo[] = [
     },
     {
         imagen: 'gimme_danger.jpg',
-        enlace: 'https://www.filmin.es/pelicula/gimme-danger',
+        enlace: 'https://www.Filmin.es/pelicula/gimme-danger',
         texto: 'The Stooges',
         categoria: 'punk',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },
     {
         imagen: '4.jpeg',
@@ -731,10 +731,10 @@ export const videos:IVideo[] = [
     },
     {
         imagen: '8.jpeg',
-        enlace: 'https://www.filmin.es/pelicula/sid-y-nancy',
+        enlace: 'https://www.Filmin.es/pelicula/sid-y-nancy',
         texto: 'Sid y Nancy',
         categoria: 'punk',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },
     {
         imagen: '19.jpeg',

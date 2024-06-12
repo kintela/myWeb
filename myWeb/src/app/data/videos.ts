@@ -469,7 +469,28 @@ export const videos:IVideo[] = [
         texto: 'Sound City',
         categoria: 'Mix',
         plataforma: 'Documania TV'
-    },       
+    },     
+    {
+        imagen: '46.jpg',
+        enlace: 'https://www.youtube.com/watch?v=NV8SGt2-xSs',
+        texto: 'The Decline of Western Civilization Part II: The Metal Years',
+        categoria: 'Mix',
+        plataforma: 'youtube'
+    },   
+    {
+        imagen: '47.jpg',
+        enlace: 'https://www.arte.tv/es/videos/114775-000-A/heavy-metal-kingdom/',
+        texto: 'Heavy Metal Kingdom',
+        categoria: 'Mix',
+        plataforma: 'arte'
+    }, 
+    {
+        imagen: '48.jpg',
+        enlace: 'https://www.documaniatv.com/biografias/20000-dias-en-la-tierra-nick-cave-video_91587dc67.html',
+        texto: '20000 dias en la tierra (Nick Cave)',
+        categoria: 'Mix',
+        plataforma: 'Documania TV'
+    },           
     {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.facebook.com/watch/?v=280469979672631&extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing',

@@ -11603,5 +11603,13 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'The Black Crowes',
     }, 
+    {
+        imagen:'3271.jpg',
+        titulo:'Sex Pistols',
+        personas:'Steve Jones, Johny Rotten, Sid Vicious',
+        origen:'Facebook',
+        grupo:'Sex Pistols',
+        year: 1977,
+    }, 
     
 ]

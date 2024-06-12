@@ -345,6 +345,19 @@ export const PLATOS:IPlato[]=[
         'Cuando esté echas un poco de agua para rescatar todo lo que haya en la sarten y lo añades a la cazuela de las lentejas y a reposar'
         ],
     },
+    {
+        nombre:'Crema de Zanahoria y Calabaza',
+        categorias:['Verdura','Crema'],
+        enlaceVideo:'https://ekilu.com/es/receta/crema-de-zanahoria-y-calabaza',
+        ingredientes:['Zanahorias','Calabaza','Cebolla','Patatas','Aceite de oliva','Sal'],
+        preparacion:['Pela las zanahorias, la calabaza y la patata, y corta estos ingredientes en trozos pequeños. También pica la cebolla.',
+            'En una olla echa un chorrito de aceite de oliva. Cuando el aceite esté caliente vierte los trozos de cebolla y sofríe durante 2-3 minutos a fuego medio, con cuidado de que no se quemen.',
+            'Añade a la olla los trozos de zanahoria y de calabaza, y cocina a fuego medio durante 10 minutos, hasta que las verduras comiencen a estar blanditas.',
+            'Añade la patata troceada y cubre todo con agua. Con 3 tazas de agua seguramente sea suficiente. Pon un poquito de sal, cubre con la tapa casi por completo (deja una pequeña abertura) y cocina aproximadamente durante 20 minutos, hasta que las verduras estén tiernas.',
+            'A continuación, pon todos los ingredientes en tu batidora y bate muy bien. Sirve en cuencos y ¡a comer!'
+        ],
+        imagen:'25.jpg'
+    },
     
 
 

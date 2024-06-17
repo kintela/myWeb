@@ -1,15 +1,50 @@
-<mat-card>
+  <mat-card>
     <mat-card-header>
       <mat-card-title>{{grupo}} - {{nombreCancion}} - {{album}} - {{anio}}</mat-card-title>
     </mat-card-header>
   
     <mat-card-content>
-      <p>
-        Escrita por John Lennon para el álbum Rubber Soul de 1965.
-      </p>
-  
-      <p>
-        La canción ha sido interpretada como una historia de amor fallido, una metáfora del sexo, un comentario sobre la sociedad de consumo, o una combinación de todas estas cosas.
-      </p>      
+      <div class="content-layout">
+        <div class="audio-file">
+          <strong><a href="https://kintela.azureedge.net/assets/assets/canciones/Norwegian wood.mp3" target="_blank" class="clickable-link">Cover by Kintela feat. Pedro Boyra on Bass and choruses</a></strong>
+          <mat-icon class="material-icons cursor-pointer" matTooltip="Escuchala">headset</mat-icon>
+        </div>
+        
+        <div class="text-content">
+          <p>
+            Escrita por John Lennon para el álbum Rubber Soul de 1965.
+          </p>
+      
+          <p>
+            La canción ha sido interpretada como una historia de amor fallido, una metáfora del sexo, un comentario sobre la sociedad de consumo, o una combinación de todas estas cosas.
+          </p>
+      
+      
+        </div>        
+      </div>
+      <div class="link-container">
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/Y_V6y1ZCg_8?si=yISkwmhKr0chvXfw')" class="clickable-link">The Beatles</a>
+      </div>
+
+      
+    </mat-card-content>
+</mat-card>
+
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>How to play...</mat-panel-title>
+  </mat-expansion-panel-header>
+  <mat-card>
+    <mat-card-content>
+      <div class="videos">
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/J8l8csTzTww?si=VxzGBp3FTtgffCgD')" class="clickable-link">Marty Music</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/qSualNx_CCc?si=K5Q7N5ScIKfbCP4s')" class="clickable-link">Andy</a>  
+      </div>
+      
+      <div class="tablatures">
+        <img class="clickable-link" src="https://kintela.azureedge.net/assets/assets/canciones/norwegian_wood.jpg" (click)="openImageViewer('https://kintela.azureedge.net/assets/assets/canciones/norwegian_wood.jpg')">
+      </div>      
     </mat-card-content>
   </mat-card>
+  
+</mat-expansion-panel>

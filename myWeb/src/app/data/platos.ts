@@ -215,11 +215,6 @@ export const PLATOS:IPlato[]=[
         categorias:['Verdura'],
     },
     {
-        nombre:'Fruta',
-        categorias:['Postre'],
-        imagen:'9.jpeg'
-    },
-    {
         nombre:'Bacalao al Horno',
         categorias:['Pescado'],
         imagen:'12.jpg',
@@ -333,7 +328,7 @@ export const PLATOS:IPlato[]=[
         ],
     },
     {
-        nombre:'Lentajas a la marinera',
+        nombre:'Lentejas a la marinera',
         categorias:['Legumbres','Pescado'],
         enlaceVideo:'https://www.youtube.com/watch?v=g3sn92CSD5w',
         ingredientes:['Lentejas','1 Zanahoria', '1 hoja de laurel','sal','aceite de oliva','3 cabezas de ajo','gambas','Pescado a elegir (sepia, calamar o chipirones)','Cebolla','Pimiento Rojo','3 dientes de ajo','Tomate frito','Pimentón','comino','vino blanco'],

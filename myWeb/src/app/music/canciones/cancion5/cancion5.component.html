@@ -1,19 +1,62 @@
-<mat-card>
+  <mat-card>
     <mat-card-header>
       <mat-card-title>{{grupo}} - {{nombreCancion}} - {{album}} - {{anio}}</mat-card-title>
     </mat-card-header>
   
     <mat-card-content>
-      <p>
-        Se encuentra en el álbum "The Beatles", comúnmente conocido como "The White Album", lanzado en 1968
-      </p>
-  
-      <p>
-        Aunque a primera vista "Blackbird" puede parecer una canción simple sobre un pájaro, McCartney ha explicado que fue escrita en respuesta a la lucha por los derechos civiles en los Estados Unidos durante la década de 1960. El "blackbird" (pájaro negro) simboliza a la comunidad afroamericana y su lucha por la libertad y la igualdad. Las letras "Take these broken wings and learn to fly" y "You were only waiting for this moment to arise" reflejan temas de esperanza y emancipación.
-      </p>
-  
+      <div class="content-layout">
+        <div class="audio-file">
+          <strong><a href="https://kintela.azureedge.net/assets/assets/canciones/Norwegian wood.mp3" target="_blank" class="clickable-link">Cover by Kintela feat. Pedro Boyra on Bass and choruses</a></strong>
+          <mat-icon class="material-icons cursor-pointer" matTooltip="Escuchala">headset</mat-icon>
+        </div>
+        
+        <div class="text-content">
+          <p>
+            Se encuentra en el álbum "The Beatles", comúnmente conocido como "The White Album", lanzado en 1968
+          </p>
+      
+          <p>
+            Aunque a primera vista "Blackbird" puede parecer una canción simple sobre un pájaro, McCartney ha explicado que fue escrita en respuesta a la lucha por los derechos civiles en los Estados Unidos durante la década de 1960. El "blackbird" (pájaro negro) simboliza a la comunidad afroamericana y su lucha por la libertad y la igualdad. Las letras "Take these broken wings and learn to fly" y "You were only waiting for this moment to arise" reflejan temas de esperanza y emancipación.
+          </p>
+      
+      
+        </div>        
+      </div>
+      <div class="link-container">
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/Jn-DcEjUuQw?si=pLjucd7m79YnWfz7')" class="clickable-link">Paul McCartney</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/RDxfjUEBT9I?si=e79WNvDAD1UYtkQV')" class="clickable-link">Paul McCartney</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/CGd9TqjhANI?si=Csc70CyIrb66-kiN')" class="clickable-link">Sarah McLachlan</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/1yOifFvYW2o?si=Ha3b6F2XT1dk0vrD')" class="clickable-link">Eddie Vedder</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/Sn6mrz0Hnw8?si=BrSriUGQVz4WNdpB')" class="clickable-link">Dave Grohl</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/LNTDcUauUo4?si=FyJJ-vjGtgvYLMx7')" class="clickable-link">Carly Simon</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/37DHXrFfwrE?si=mYJcfxv7GN57ezdp')" class="clickable-link">Bobby McFerrin</a>
+      </div>
+
       
     </mat-card-content>
+</mat-card>
+
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>How to play...</mat-panel-title>
+  </mat-expansion-panel-header>
+  <mat-card>
+    <mat-card-content>
+      <div class="videos">
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/5TnySn2KqD4?si=klCjzV9Bs-O-rfSi')" class="clickable-link">Marty Music</a>
+        <a href="https://www.instagram.com/reel/C2fDQF0st4h/?igsh=YXV5aG0wY3FtcXUy" target="_blank" class="clickable-link">Arpegios 1</a>
+        <a href="https://www.instagram.com/reel/CyQGSQGyIxK/?igshid=MTc4MmM1YmI2Ng%3D%3D" target="_blank" class="clickable-link">Arpegios 2</a>
+        <a href="https://www.instagram.com/reel/C7hbDV4xuKE/?igsh=NHAxbjYwM29uYWVl" target="_blank" class="clickable-link">Explicación</a>
+        <a href="https://www.instagram.com/reel/C6XPCyrOycH/?igsh=b2YxNnZiZTRkaWl2" target="_blank" class="clickable-link">Acordes</a>
+      </div>
+      
+      <div class="tablatures">
+        <!--<img class="clickable-link" src="https://kintela.azureedge.net/assets/assets/canciones/norwegian_wood.jpg" (click)="openImageViewer('https://kintela.azureedge.net/assets/assets/canciones/norwegian_wood.jpg')">-->
+      </div>      
+    </mat-card-content>
   </mat-card>
+  
+</mat-expansion-panel>
+
   
 

@@ -29,11 +29,7 @@ export class Cancion3Component implements OnInit {
   }
 
 
-  setVideo(url: string): void {
-    const autoplayUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${url}?autoplay=1`);
-    this.currentVideoUrl = autoplayUrl;
-  }
-
+  
   mostrarVideo(videoUrl: string) {
     this.dialog.open(ReproductorVideoComponent, {
       data: {

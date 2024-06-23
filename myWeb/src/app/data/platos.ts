@@ -172,7 +172,15 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Pasta fresca con salsa de naranja',
         categorias:['Pasta'],
-    },
+        ingredientes:['1 paquete de tortellini rellenos de queso (mejor de pasta fresca)','1 cebolla pequeña','100 gr de bacon en tiras o chorizo picadito',
+            '2 dientes de ajo','un puñado de uvas pasas','1 vaso de zumo de naranja natural','queso parmesano rallado'],
+        preparacion:['Cocer la pasta fresca según indicaciones del fabricante','En una sartén rehogas la cebolla y el ajo bien picados',
+            'Cuando esté pochado agregas el bacon, las uvas pasas y el zumo de naranja',
+            'Dejas cocer 5 minutos o hasta que el líquido haya reducido. Rectificar de sal si es necesario teniendo en cuenta que el bacon es bastante salado ya de por si',
+            'Agregas a la sarten los tortellini reservados y remueves bien para que se impregnen en salsa',
+            'Pasas el contenido de la sarten a una fuente para horno y espolvoreas con abundante queso parmesano',
+            'Gratinas hasta que la superficie se dore y sirves inmediatamente']
+},
     {
         nombre:'Pulpo a feira',
         categorias:['Pescado'],

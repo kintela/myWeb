@@ -1,20 +1,55 @@
-<mat-card>
+  <mat-card>
     <mat-card-header>
       <mat-card-title>{{grupo}} - {{nombreCancion}} - {{album}} - {{anio}}</mat-card-title>
     </mat-card-header>
   
     <mat-card-content>
-      <p>
-        La canción fue publicada en 1991 y rápidamente se convirtió en un clásico del repertorio de la banda.
-      </p>
-  
-      <p>
-        La canción se incluyó en su álbum "Adiós tristeza" de 1991. Se convirtió en uno de sus mayores éxitos.
-      </p>
-  
-      <p>
-        Es una balada romántica que habla sobre el amor, la añoranza y el deseo de estar junto a una persona especial.
-      </p>
+      <div class="content-layout">
+        <div class="audio-file">
+          <strong><a href="https://kintela.azureedge.net/assets/assets/canciones/blackbird.mp3" target="_blank" class="clickable-link">Cover by Kintela</a></strong>
+          <mat-icon class="material-icons cursor-pointer" matTooltip="Escuchala">headset</mat-icon>
+        </div>
+        
+        <div class="text-content">
+          <p>
+            La canción fue publicada en 1991 en su álbum "Adiós tristeza" y rápidamente se convirtió en un clásico del repertorio de la banda.
+          </p>
+      
+          <p>
+            Es una balada romántica que habla sobre el amor, la añoranza y el deseo de estar junto a una persona especial.
+          </p>
+      
+      
+        </div>        
+      </div>
+      <div class="link-container">
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/W_2aTKVWUhk?si=dFAOSZNcZ0eiL3oF')" class="clickable-link">los Secretos</a>
+      </div>
+
       
     </mat-card-content>
+</mat-card>
+
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>How to play...</mat-panel-title>
+  </mat-expansion-panel-header>
+  <mat-card>
+    <mat-card-content>
+      <div class="videos">
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/XcsrF3UW1Xw?si=Xadw6B6OD_e9vJMe')" class="clickable-link">Musicatulado</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/fnJ1r_KcUWg?si=sztWnhYJ5To4a7zx')" class="clickable-link">Fran Brea</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/j2sXuJyU4OI?si=3-Bkg4OZ1Cdum08f')" class="clickable-link">Arpegios</a>
+      </div>
+      
+      <div class="tablatures">
+        <!--<img class="clickable-link" src="https://kintela.azureedge.net/assets/assets/canciones/norwegian_wood.jpg" (click)="openImageViewer('https://kintela.azureedge.net/assets/assets/canciones/norwegian_wood.jpg')">-->
+      </div>      
+    </mat-card-content>
   </mat-card>
+  
+</mat-expansion-panel>
+
+  
+
+

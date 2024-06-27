@@ -179,7 +179,8 @@ export const PLATOS:IPlato[]=[
             'Dejas cocer 5 minutos o hasta que el líquido haya reducido. Rectificar de sal si es necesario teniendo en cuenta que el bacon es bastante salado ya de por si',
             'Agregas a la sarten los tortellini reservados y remueves bien para que se impregnen en salsa',
             'Pasas el contenido de la sarten a una fuente para horno y espolvoreas con abundante queso parmesano',
-            'Gratinas hasta que la superficie se dore y sirves inmediatamente']
+            'Gratinas hasta que la superficie se dore y sirves inmediatamente'],
+        imagen:'26.jpg'
 },
     {
         nombre:'Pulpo a feira',

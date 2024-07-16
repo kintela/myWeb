@@ -12571,5 +12571,14 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'Los Zigarros',    
     }, 
+    {
+        conciertoId: 183,
+        imagen:'3417.jpg',
+        titulo:'Rozalen en el festival de la guitarra de Córdoba',
+        personas:'Kintela, Sonia Muga, Alberto Calvo (Bertoni), Trini',
+        origen:'propia', 
+        grupo:'Rozalen',
+        year: 2024,
+    },
 
 ]

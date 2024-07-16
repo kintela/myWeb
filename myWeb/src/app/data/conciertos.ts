@@ -2431,6 +2431,17 @@ export const conciertos:IConcierto[]=[
             'https://www.youtube.com/embed/sYJViuZ8-gU?si=UYqXvK_J1wHGb1Se','https://www.youtube.com/embed/DuJcUGbHqRQ?si=7ja-SG5hQjei5oXo'
         ]
     },
+    {
+        id:183,
+        fecha: new Date(Date.UTC(2024,6 , 11)),
+        ciudad: 'Córdoba',
+        sala: 'Anfiteatro',
+        grupo: 'Rozalen',
+        fotos: true,
+        videos:['https://www.youtube.com/embed/LmeLtRckgrU?si=ekzMgBaSdKmbm6ZY','https://www.youtube.com/embed/psy9Zyzp8TM?si=rTaBf492sm4HdX65',
+            'https://www.youtube.com/embed/bL2gFqkK4J4?si=tewPV6ssJVLCs85k','https://www.youtube.com/embed/78YMGdCpCoA?si=vfF8Ls5TBfqCrUzv',
+        'https://www.youtube.com/embed/y-f6YnVIKV4?si=fqhonv8Tn1xJ3ub_']
+    },
    
 
 ];

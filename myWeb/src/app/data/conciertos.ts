@@ -2442,6 +2442,15 @@ export const conciertos:IConcierto[]=[
             'https://www.youtube.com/embed/bL2gFqkK4J4?si=tewPV6ssJVLCs85k','https://www.youtube.com/embed/78YMGdCpCoA?si=vfF8Ls5TBfqCrUzv',
         'https://www.youtube.com/embed/y-f6YnVIKV4?si=fqhonv8Tn1xJ3ub_']
     },
+    {
+        id:184,
+        fecha: new Date(Date.UTC(2024,6 , 15)),
+        ciudad: 'Santurtzi',
+        sala: 'Puerto',
+        grupo: 'Coque Malla',
+        fotos: true,
+        videos:['https://www.youtube.com/embed/gFKrnWMBRHw?si=ZMPa5BofOPrDo2lx','https://www.youtube.com/embed/OF7AThZcU-o?si=9_qXsu3Hmi6wgySh']
+    },
    
 
 ];

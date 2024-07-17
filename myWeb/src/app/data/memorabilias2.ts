@@ -12580,5 +12580,23 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Rozalen',
         year: 2024,
     },
+    {
+        conciertoId: 184,
+        imagen:'3418.jpg',
+        titulo:'Coque Malla en las fiestas de Snaturtzi',
+        personas:'Coque Malla',
+        origen:'propia', 
+        grupo:'Coque Malla',
+        year: 2024,
+    },
+    {
+        conciertoId: 184,
+        imagen:'3419.jpg',
+        titulo:'Coque Malla en las fiestas de Snaturtzi',
+        personas:'Coque Malla',
+        origen:'propia', 
+        grupo:'Coque Malla',
+        year: 2024,
+    },
 
 ]

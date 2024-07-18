@@ -2451,6 +2451,15 @@ export const conciertos:IConcierto[]=[
         fotos: true,
         videos:['https://www.youtube.com/embed/gFKrnWMBRHw?si=ZMPa5BofOPrDo2lx','https://www.youtube.com/embed/OF7AThZcU-o?si=9_qXsu3Hmi6wgySh']
     },
+    {
+        id:185,
+        fecha: new Date(Date.UTC(2024,6 , 18)),
+        ciudad: 'Santurtzi',
+        sala: 'Puerto',
+        grupo: 'Los Zigarros',
+        fotos: true,
+        videos:['']
+    },
    
 
 ];

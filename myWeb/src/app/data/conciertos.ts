@@ -2458,7 +2458,7 @@ export const conciertos:IConcierto[]=[
         sala: 'Puerto',
         grupo: 'Los Zigarros',
         fotos: true,
-        videos:['']
+        videos:['https://www.youtube.com/embed/BQORAd6ddGA?si=__dWqC6HiiEyToa7','https://www.youtube.com/embed/T0JJX4wfU3M?si=iboH6UplE2R0Rz2L']
     },
    
 

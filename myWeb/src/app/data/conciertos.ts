@@ -2460,6 +2460,28 @@ export const conciertos:IConcierto[]=[
         fotos: true,
         videos:['https://www.youtube.com/embed/BQORAd6ddGA?si=__dWqC6HiiEyToa7','https://www.youtube.com/embed/T0JJX4wfU3M?si=iboH6UplE2R0Rz2L']
     },
-   
+    {
+        id:186,
+        fecha: new Date(Date.UTC(2024,6, 26)),
+        ciudad: 'Bilbao',
+        sala: 'Bilbao Blues Festival',
+        grupo: 'Ibai García Blues Project',
+        fotos: true,
+        videos:['https://www.youtube.com/embed/Vbvw7yZrGsw?si=fmoxJHDsehWEKths']
+    },
+    {
+        fecha: new Date(Date.UTC(2024,6, 26)),
+        ciudad: 'Bilbao',
+        sala: 'Bilbao Blues Festival',
+        grupo: 'Southern Avenue',
+        videos:['https://www.youtube.com/embed/_Rt4Xy3B8gI?si=MD9PrCRKcx77jH2P']
+    },
+    {
+        fecha: new Date(Date.UTC(2024,6, 27)),
+        ciudad: 'Bilbao',
+        sala: 'Bilbao Blues Festival',
+        grupo: 'The Fabulous Thunderbirds',
+        videos:['https://www.youtube.com/embed/mHDfkq3bJPA?si=MhHOF1B2z3iJAGQc']
+    },
 
 ];

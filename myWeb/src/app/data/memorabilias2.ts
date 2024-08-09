@@ -12872,7 +12872,15 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'Eskorbuto'
     }, 
-
+    {
+        conciertoId: 186,
+        imagen:'3460.jpeg',
+        titulo:'Ibai García Blues Project en el Bilbao Blues Festival 2024',
+        personas:'Ibai García, Iñaki Arakama',
+        origen:'propia', 
+        grupo:'Ibai García Blues Project',
+        year: 2024,
+    },
 
 
 

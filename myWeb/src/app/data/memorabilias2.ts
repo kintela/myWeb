@@ -12754,5 +12754,127 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Jimi Hendrix',
         origen:'Facebook'
     }, 
+    {
+        imagen:'3442.jpg',
+        titulo:'Miles Davis y su hijo Erin',
+        personas:'Miles Davis, Erin Davis',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'3443.jpg',
+        titulo:'George Harrison y Paul McCartney',
+        personas:'George Harrison, Paul McCartney',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'3444.jpg',
+        titulo:'Debbie Harry',
+        personas:'Debbie Harry',
+        origen:'Facebook',
+        grupo:'Blondie',
+    }, 
+    {
+        imagen:'3445.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'3446.jpg',
+        titulo:'Randy Rhoads',
+        personas:'Randy Rhoads',
+        origen:'Facebook',
+        year: 1980,
+    }, 
+    {
+        imagen:'3447.jpg',
+        titulo:'Joaquín Sabina',
+        personas:'Joaquín Sabina',
+        origen:'Facebook'
+    }, 
+     {
+        imagen:'3448.jpg',
+        titulo:'Randy Rhoads',
+        personas:'Randy Rhoads',
+        origen:'Facebook',
+        year: 1975,
+    }, 
+    {
+        imagen:'3449.jpg',
+        titulo:'Kate Bush',
+        personas:'Kate Bush',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'3450.jpg',
+        titulo:'Kate Bush',
+        personas:'Kate Bush',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'3451.jpg',
+        titulo:'Kate Bush',
+        personas:'Kate Bush',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'3452.jpg',
+        titulo:'John Bonham',
+        personas:'John Bonham',
+        origen:'Facebook',
+        grupo:'Led Zeppelin',
+    }, 
+    {
+        imagen:'3453.jpg',
+        titulo:'Elvis Presley',
+        personas:'Elvis Presley',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'3454.jpg',
+        titulo:'Elvis Presley',
+        personas:'Elvis Presley',
+        origen:'Facebook'
+    }, 
+    {
+        imagen:'3455.jpg',
+        titulo:'Eskorbuto',
+        personas:'Iosu Expósito, Juanma Suárez, Paco Galán',
+        origen:'Facebook',
+        grupo:'Eskorbuto'
+    }, 
+    {
+        imagen:'3456.jpg',
+        titulo:'Pearl Jam',
+        personas:'Eddie Vedder, Jeff Ament',
+        origen:'Facebook',
+        grupo:'Pearl Jam'
+    }, 
+    {
+        imagen:'3457.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen',
+        year: 1974,
+        descripcion:'Van Halen hizo su primera aparición en Gazzarris en el Hollywood Strip en 1974!!'
+    }, 
+    {
+        imagen:'3458.jpg',
+        titulo:'Ringo Starr y Lemmy Kilmister',
+        personas:'Ringo Starr, Lemmy Kilmister',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3459.jpg',
+        titulo:'Eskorbuto',
+        personas:'Juanma Suárez',
+        origen:'Facebook',
+        grupo:'Eskorbuto'
+    }, 
+
+
+
+
 
 ]

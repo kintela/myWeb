@@ -362,6 +362,18 @@ export const PLATOS:IPlato[]=[
         ],
         imagen:'25.jpg'
     },
+    {
+        nombre:'Ensaladilla de pulpo',
+        categorias:['Pescado','Ensaladilla'],
+        enlaceVideo:'https://www.instagram.com/reel/C9QBFo3M8rH/?utm_source=ig_web_button_native_share',
+        ingredientes:['2 patatas','1 zanahoria','2 huevos','300gr pulpo cocido','pimenton','mayonesa','aceite de oliva','sal'],
+        preparacion:['Pasas por la plancha los tentaculos del pulpo cocido','Cueces las patatas, las zanahorias y los huevos','Cuando estén cocidos los pelas y los picas',
+            'Picas el pulpo y lo mezclas todo en un recipiente','Aádes pimenton y un buen chorro de aceite de oliva','Mezclas bien con un tenedor y añades mayonesa al gusto',
+            'Cuando tienes una textura cremosa empletas con aro'
+        ],
+        presentacion:['Puedes decorar con un poco de pulpo picado por encima y echas un poco de pimenton y aceite de oliva'],
+        imagen:'27.jpg'
+    },
     
 
 

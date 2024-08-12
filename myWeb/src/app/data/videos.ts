@@ -490,13 +490,13 @@ export const videos:IVideo[] = [
         texto: '20000 dias en la tierra (Nick Cave)',
         categoria: 'Mix',
         plataforma: 'Documania TV'
-    },           
+    },      
     {
-        imagen: 'rock_radikal_vasco.jpg',
-        enlace: 'https://www.facebook.com/watch/?v=280469979672631&extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing',
-        texto: 'Rock Radikal Vasco I',
-        categoria: 'Rock Radikal Vasco',
-        plataforma: 'facebook'
+        imagen: '49.jpg',
+        enlace: 'https://www.arte.tv/es/videos/064208-001-A/el-barco-del-infierno-1-9/',
+        texto: 'El barco del infierno (1/9)',
+        categoria: 'Mix',
+        plataforma: 'arte'
     },
     {
         imagen: 'rock_radikal_vasco.jpg',

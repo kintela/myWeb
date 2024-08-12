@@ -23,6 +23,8 @@ export class ConciertosComponent implements OnInit {
   filtroBusqueda: string = '';
   filtroGrupo: string = '';
   gruposDisponibles: string[] = [];
+  filtroAnio: number | null = null;
+  aniosDisponibles: number[] = [];
 
   constructor(private sanitizer: DomSanitizer, private dialog: MatDialog, private router: Router,private location: Location, private route: ActivatedRoute) { }
 
@@ -34,6 +36,9 @@ export class ConciertosComponent implements OnInit {
       if (params['grupo']) {
         this.filtroGrupo = params['grupo'];
       }
+      if (params['anio']) {
+        this.filtroAnio = +params['anio'];
+    }
 
   
       this.isScreenSmall = window.innerWidth <= 1080;
@@ -43,6 +48,7 @@ export class ConciertosComponent implements OnInit {
   
       this.actualizarFiltro();
       this.actualizarGruposDisponibles();
+      this.actualizarAniosDisponibles();
     });
   }
     
@@ -78,6 +84,12 @@ export class ConciertosComponent implements OnInit {
       conciertosFiltrados = conciertosFiltrados.filter(concierto => concierto.grupo === this.filtroGrupo);
       queryParams.grupo = this.filtroGrupo; // Añade el parámetro grupo a los queryParams
     }
+
+    // Filtra por año
+    if (this.filtroAnio) {
+      conciertosFiltrados = conciertosFiltrados.filter(concierto => concierto.fecha.getUTCFullYear() === this.filtroAnio);
+      queryParams.anio = this.filtroAnio;
+  }
   
     // Actualiza la URL con los queryParams adecuados
     const url = this.router.createUrlTree([], { relativeTo: this.route, queryParams }).toString();
@@ -97,6 +109,11 @@ export class ConciertosComponent implements OnInit {
 
     console.log('this.gruposDisponibles',this.gruposDisponibles);
   }
+
+  actualizarAniosDisponibles(): void {
+    this.aniosDisponibles = [...new Set(this.conciertos.map(concierto => concierto.fecha.getUTCFullYear()))]
+                            .sort((a, b) => b - a);
+}
   
 
   onResize(event) {

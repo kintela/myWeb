@@ -12,7 +12,18 @@
           </mat-option>
       </mat-select>
   </mat-form-field>
-    <mat-chip>{{conciertosFiltrados.length}} coincidencias</mat-chip>
+
+  <mat-form-field>
+    <mat-label>Año</mat-label>
+    <mat-select [(value)]="filtroAnio" (selectionChange)="actualizarFiltro()">
+        <mat-option [value]="null">Todos</mat-option>
+        <mat-option *ngFor="let anio of aniosDisponibles" [value]="anio">
+            {{ anio }}
+        </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-chip>{{conciertosFiltrados.length}} coincidencias</mat-chip>
 </div>
      
 <mat-table [dataSource]="conciertosFiltrados" *ngIf="!isScreenSmall" class="mat-elevation-z8">

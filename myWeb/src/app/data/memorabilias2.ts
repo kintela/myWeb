@@ -12881,8 +12881,32 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Ibai García Blues Project',
         year: 2024,
     },
-
-
+    {
+        imagen:'3461.jpg',
+        titulo:'Jimi Hendrix y Mick Jagguer',
+        personas:'Jimi Hendrix, Mick Jagguer',
+        origen:'Facebook',
+        year: 1967, 
+    }, 
+    {
+        imagen:'3462.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3463.jpg',
+        titulo:'Jimi Hendrix y Brian Jones',
+        personas:'Jimi Hendrix, Brian Jones',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3464.jpg',
+        titulo:'Red Hot Chili Peppers con Snoop Dog y Dr Dree en la clausura de los JJOO 2024',
+        personas:'Anthony Kiedis, Flea, John Frusciante, Chad Smith, Snoop Dog, Dr Dree',
+        origen:'Facebook',
+    }, 
 
 
 ]

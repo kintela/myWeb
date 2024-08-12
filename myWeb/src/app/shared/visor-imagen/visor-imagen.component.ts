@@ -15,7 +15,7 @@ export class VisorImagenComponent implements OnInit{
     if (this.data.origen=='conciertos' || this.data.origen=='memorabilia') {
       this.imagePath = 'https://kintela.azureedge.net/assets/assets/memorabilia/' + this.data.image;
     }else{
-      this.imagePath =  this.data.image;
+      this.imagePath =  'https://kintela.azureedge.net/assets/assets/lamentxu/' + this.data.image;
     }
     
   }

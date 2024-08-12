@@ -499,6 +499,13 @@ export const videos:IVideo[] = [
         plataforma: 'arte'
     },
     {
+        imagen: '50.jpg',
+        enlace: 'https://www.rtve.es/play/videos/imprescindibles/coque-malla/16145208/',
+        texto: 'Jorge, una travesía de Coque Malla',
+        categoria: 'Mix',
+        plataforma: 'rtve_play'
+    },
+    {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.youtube.com/watch?v=byd0judBk9c',
         texto: 'Rock Radikal Vasco II',

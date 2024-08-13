@@ -4,6 +4,7 @@ import { IPlato } from '../data/IPlatos';
 import { IListaCompra } from '../data/IListaCompra';
 import { FormularioRecetaComponent } from './formulario-receta/formulario-receta.component';
 import { MatDialog } from '@angular/material/dialog';
+import { FormularioCategoriaComponent } from './formulario-categoria/formulario-categoria.component';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -178,6 +179,18 @@ export class PlanificadorMenusComponent implements OnInit{
     const dialogRef = this.dialog.open(FormularioRecetaComponent, {
       width: '50%',      
        data: { categorias: this.categorias , platos: PLATOS}
+    });
+  
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('El diálogo fue cerrado');
+      // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
+    });
+  }
+
+  abrirDialogoAgregarCategoria(): void {
+    const dialogRef = this.dialog.open(FormularioCategoriaComponent, {
+      width: '50%',      
+       data: { categorias: this.categorias}
     });
   
     dialogRef.afterClosed().subscribe(result => {

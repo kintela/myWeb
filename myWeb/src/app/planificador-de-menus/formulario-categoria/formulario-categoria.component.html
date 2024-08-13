@@ -1,0 +1,26 @@
+<div class="form-container" style="padding: 16px;">
+    <h2>Añade una categoría</h2>
+    <form (ngSubmit)="onSubmit()" #categoryForm="ngForm">
+      <mat-form-field appearance="fill" class="full-width">
+        <mat-label>Categorría</mat-label>
+        <input
+          matInput
+          type="text"
+          id="category"
+          name="category"
+          ngModel
+          required
+          placeholder="Enter category name"
+        />
+      </mat-form-field>
+      
+      <div class="form-actions" style="margin-top: 16px;">
+        <button mat-raised-button color="primary" type="submit" [disabled]="!categoryForm.form.valid">
+          Añadir
+        </button>
+        <button mat-button type="button" (click)="onClose()">Cerrar</button>
+      </div>
+    </form>
+  </div>
+  
+  

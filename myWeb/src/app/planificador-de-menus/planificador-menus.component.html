@@ -6,7 +6,11 @@
           {{ categoria }}
         </mat-option>
       </mat-select>
-    </mat-form-field>       
+    </mat-form-field>    
+    
+    <button  mat-icon-button (click)="abrirDialogoAgregarCategoria()" color="primary" matTooltip="Agrega una categoría" class="boton-con-borde">
+      <mat-icon>add</mat-icon>
+    </button>
   
     <mat-form-field appearance="fill" class="selector-platos">
         <mat-label>Platos</mat-label>

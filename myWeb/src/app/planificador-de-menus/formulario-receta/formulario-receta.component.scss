@@ -1,35 +1,51 @@
 .flex-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* Espacio entre los elementos */
-  }
-  
-  .flex-item {
-    flex: 1; /* Los elementos crecerán de manera equitativa */
-    min-width: 200px; /* Ancho mínimo para cada elemento */
-  }
-  
-  .image-upload-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .image-preview {
-    width: 100%;
-    max-height: 200px;
-    margin-top: 10px;
-    object-fit: cover;
-  }
-  
-  .actions {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacio entre las filas */
+  padding: 20px; /* Espacio entre el borde de la ventana y los elementos internos */
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espacio entre los elementos */
+}
+
+.row {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.image-preview {
+  width: 100%;
+  max-height: 200px;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; /* Espacio entre los botones */
+}
+
+.wide-input-container {
+  width: 300px; /* Define un ancho específico para el contenedor */
+}
+

@@ -27,4 +27,7 @@ export class FormularioRecetaComponent implements OnInit{
   cerrarDialogo(): void {
     this.dialogRef.close();
   }
+  guardarReceta(){
+    
+  }
 }

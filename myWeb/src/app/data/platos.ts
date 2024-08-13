@@ -187,10 +187,6 @@ export const PLATOS:IPlato[]=[
         categorias:['Pescado'],
     },
     {
-        nombre:'Pasta con verduras',
-        categorias:['Pasta','Verdura'],
-    },
-    {
         nombre:'Pasta con carne picada',
         categorias:['Pasta','Carne'],
         ingredientes:['pasta a poder ser La Molisana Mezzi Rigatini Nº 32 integral','carne picada','cebolla','zanahoria','pimiento verde','tomate frito','sal'],
@@ -201,6 +197,18 @@ export const PLATOS:IPlato[]=[
     {
         nombre:'Guisantes con jamón',
         categorias:['Verdura'],
+        enlaceVideo:'https://www.abc.es/recetasderechupete/guisantes-con-jamon/4629/',
+        imagen:'35.jpg',
+        ingredientes:['1 Kg de guisantes frescos (una vez peladas las vainas os quedará en 500 grs de guisantes) o 2 latas (2 x 250 g, peso escurrido) de guisantes finos al natural',
+            '2 cebolletas frescas o una cebolla','80 g de un buen jamón','100 ml de aceite de oliva virgen extra','Sal y pimienta negra recién molida (al gusto)',
+            '4 huevos de tamaño XL (uno por persona)'
+        ],
+        preparacion:['En la receta podéis emplear cualquier tipo de guisante, desde los guisantes frescos, los ultra congelados, guisantes finos, muy finos o de tamaño medio. Si nos decidimos por guisantes de lata, la receta no nos llevará más de 5 minutos, si optamos por ultra congelados serán 10 minutos más. Vosotros/as elegís.',
+            'En caso de emplear guisantes congelados, los cocemos en abundante agua salada durante 10 minutos, contando este tiempo una vez que el agua rompa a hervir. Una vez hervidos los refrescaremos y reservaremos.',
+            'Picamos en juliana, es decir en tiras, una cebolla o dos cebolletas. Cortamos de igual manera las lonchas de jamón. Reservamos.',
+            'En una cazuela grande y con un chorrito de buen aceite de oliva virgen rehogaremos las cebolletas en juliana. Una vez rehogada agregaremos un buen jamón y rehogaremos durante 1 minuto más.',
+            'Añadimos los guisantes que tenemos reservados y juntamos bien con una cuchara de madera sin romper los guisantes. Rectificamos de sal y pimienta negra, aunque recordad que el plato lleva jamón (este no es muy salado).',            
+        ]
     },
     {
         nombre:'Alcachofas con jamón',
@@ -367,14 +375,150 @@ export const PLATOS:IPlato[]=[
         categorias:['Pescado','Ensaladilla'],
         enlaceVideo:'https://www.instagram.com/reel/C9QBFo3M8rH/?utm_source=ig_web_button_native_share',
         ingredientes:['2 patatas','1 zanahoria','2 huevos','300gr pulpo cocido','pimenton','mayonesa','aceite de oliva','sal'],
-        preparacion:['Pasas por la plancha los tentaculos del pulpo cocido','Cueces las patatas, las zanahorias y los huevos','Cuando estén cocidos los pelas y los picas',
-            'Picas el pulpo y lo mezclas todo en un recipiente','Aádes pimenton y un buen chorro de aceite de oliva','Mezclas bien con un tenedor y añades mayonesa al gusto',
-            'Cuando tienes una textura cremosa empletas con aro'
+        preparacion:['Pasas por la plancha los tentaculos del pulpo cocido','Cueces primero las patatas (15 minutos), luego añades las zanahorias y los huevos otros 15 minutos','Cuando estén cocidos los pelas y los picas',
+            'Picas el pulpo y lo mezclas todo en un recipiente','Añades pimenton y un buen chorro de aceite de oliva','Mezclas bien con un tenedor y añades mayonesa al gusto',
+            'Cuando tienes una textura cremosa emplatas con aro'
         ],
         presentacion:['Puedes decorar con un poco de pulpo picado por encima y echas un poco de pimenton y aceite de oliva'],
         imagen:'27.jpg'
     },
-    
+    {
+        nombre:'Menestra de verduras',
+        categorias:['Verdura'],
+        enlaceVideo:'https://www.abc.es/recetasderechupete/menestra-de-verdura-con-jamon/12501/',
+        ingredientes:['1 patata grande','1 cebolla mediana','2 zanahorias','400 gr de judias verdes','275 gr de guisantes','275 gr de coliflor','100 gr de jamos serrano en taquitos','1 cucharada de harina','sal','aceite de oliva'],
+        preparacion:['Pelamos las patatas, las zanahorias y la cebolla. Las lavamos y las cortamos en brunoise (dados pequeños), para que se mezcle todo bien. Cortamos las judías verdes y la coliflor',
+            'En una olla vertemos agua para cubrir las verduras, un chorrito de aceite de oliva virgen extra y un poco de sal. Calentamos a fuego alto y cuando esté hirviendo, añadimos las verduras troceadas (zanahorias, judías verdes, guisantes, patatas) y mantenemos cociendo a fuego medio durante 30 minutos aproximadamente.',
+            'Las patatas y la coliflor se añadirán cuando lo anterior lleve 10 minutos, ya que con 18-20 minutos de cocción será suficiente, no queremos las verduras muy cocidas, aunque en este caso tampoco estarán al dente, en la cocción justa',
+            'Mientras se cuecen nuestras verduras, ponemos aceite de oliva virgen extra en un sartén y empezaremos con el sofrito. Lo calentamos a fuego medio e introducimos el jamón y la cebolla. Sofreímos, puedes añadir un poco de ajo y pimenton',
+            'Añadimos una cucharada de harina y removemos bien. A continuación vertemos dos cucharadas del caldo de la cocción de las verduras y mantenemos unos minutos a fuego bajo',
+            'Una vez la cebolla está transparente y el jamón dorado. Retiramos la sartén del fuego y reservamos.',
+            'Cuando las verduras estén cocidas las retiramos del fuego y las escurrimos. Las colocamos en una fuente y añadimos el sofrito encima de las verduras.',
+        ],
+        presentacion:['Servimos la menestra de verdura  y la aliñamos con aceite de oliva virgen extra o si preferimos con vinagre o mayonesa. Podemos acompañar nuestra menestra con huevo duro, dados de pan frito o incluso un huevo escalfado.'],
+        imagen:'28.jpg'        
+    },
+    {
+        nombre:'Merluza a la romana',
+        categorias:['Pescado'],
+        enlaceVideo:'https://www.abc.es/recetasderechupete/merluza-a-la-romana-con-patatas-fritas-y-ensalada-de-tomate-una-receta-para-triunfar-en-tu-comida-o-cena/46749/',
+        ingredientes:['6-8 filetes de merluza (no muy finos)','Harina de trigo común o harina de garbanzos','2 huevos M','Sal','Aceite'],
+        preparacion:['Si la merluza es congelada, pásala del congelador al frigorífico el día anterior para que se vaya descongelando muy poco a poco. Media hora antes de cocinarla sácala del frigorífico, quita el exceso de agua, escurre bien y déjala a temperatura ambiente (si hace mucho calor, escurre y vuelve a guardar en el frigorífico).','Rebozamos los filetes de merluza con harina. Les damos pequeños golpes para quitar el exceso de harina y reservamos.',
+            'Batimos los huevos y rebozamos la merluza enharinada. Ponemos las merluza a freír en una sartén grande con bien de aceite. Añadimos sal al gusto y freímos un par de minutos por cada lado.',
+            'Sacamos los filetes y los dejamos en un plato sobre papel absorbente. Esto es importante para quitar el exceso de aceite y que tenga una textura mucho más agradable y nada grasienta.'
+        ],
+        presentacion:['Puedes acompañarla con patatas fritas y ensalada de tomate'],
+        imagen:'29.jpg'        
+    },
+    {
+        nombre:'Pasta integral con verduras',
+        categorias:['Pasta','Verdura'],
+        enlaceVideo:'https://www.abc.es/recetasderechupete/pasta-integral-con-verduras-receta-de-pasta-sana-y-deliciosa/40794/',
+        ingredientes:['200 gr de pasta integral','150 g. zanahorias','150 g. berenjena','150 g. cebolla','150 g. pimiento rojo','1 diente de ajo','200 g. salsa de tomate','Aceite de oliva virgen extra','Sal y pimienta negra recién molida'
+        ],
+        preparacion:['Lavamos las verduras y las troceamos a nuestro gusto. En este caso cortaremos las zanahorias, cebolla y ajo en brunoise, en daditos pequeños. El pimiento rojo lo cortamos en bastones finos y la berenjena en dados de 1-2 cm.',
+            'En una cazuela amplia calentamos un chorrito de aceite de oliva. Añadimos la cebolla, zanahoria, ajo y pimiento rojo. Reservaremos la berenjena para añadir después. Sofreímos las verduras a fuego medio-alto durante 6-7 minutos.',
+            'Cuando la verdura comience a ablandarse incorporamos la berenjena troceada y una pizca de sal. Seguimos cocinando las verduras, removiendo de vez en cuando, 5 minutos más a temperatura media-alta.',
+            'Añadimos la salsa de tomate y la integramos con las verduras. Cocinamos 5 minutos más. Mientras se cocinan las verduras, cocemos la pasta.'
+        ],
+        presentacion:['Puedes acompañarla con patatas fritas y ensalada de tomate'],
+        imagen:'30.jpg'        
+    },
+    {
+        nombre:'Tartar de salmón y aguacate',
+        categorias:['Pescado','Verdura'],
+        enlaceVideo:'https://www.abc.es/recetasderechupete/tartar-de-salmon-al-estilo-clasico-receta-paso-a-paso/10154/',
+        ingredientes:['500 g. de salmón, preferiblemente lomo','½ cebolleta','1 aguacate maduro grande (o 2 medianos)','30 g. de alcaparras','30 g. de pepinillos','1 cucharadita (tipo postre) de mostaza antigua',
+            '2 cucharaditas de salsa Worcestershire o salsa Perrins','2 cucharadas de salsa de soja (opcional). Si lleva salsa de soja no lleva sal','Eneldo o cebollino fresco (un poquito para decorar)',
+            '5 cucharadas soperas de aceite de oliva virgen extra','1 cucharadita de Tabasco (opcional)','Sal','Pimienta negra recién molida'
+        ],
+        preparacion:['Limpiamos el lomo con un papel de cocina y retiramos la piel con la ayuda de un cuchillo afilado. Para evitar todo lo relacionado con el anisakis congelamos el lomo de salmón durante no menos de 48 horas.',
+            'Una vez descongelado, dejándolo fuera desde la noche anterior, le retiramos, en la medida de lo posible, las espinas que pueda tener. Reservamos.',
+            'Picamos la cebolleta muy fina y la ponemos en un bol amplio. Añadimos al bol las alcaparras, los pepinillos y la mitad del cebollino, todo troceadito. Mezclamos los ingredientes. Incorporamos a la mezcla anterior el aceite de oliva virgen extra, la salsa Worcesterchire, la mostaza, el tabasco (opcional), la salsa de soja (en este caso me gusta su sabor, aunque es opcional) y la pimienta negra molida.',
+            'Mezclamos bien y probamos. Es fundamental para saber el punto de sal, con la soja no creo que sea necesario añadirla, pero si fuese necesario le damos un punto más de sal.',
+            'Troceamos el salmón en trozos de más o menos 1 cm. Para que no quede totalmente triturado, que se vean y se noten. Los incorporamos a la mezcla y removemos hasta que se integre con el resto de ingredientes y quede impregnado del aderezo. Reservamos en frío en la nevera.',
+            'Pelamos y troceamos el aguacate en pedacitos no más grandes de 0,5 a 1 cm. Es importante que el aguacate esté bien maduro para que se incorpore perfectamente al tartar, si está muy duro no aportará ni sabor ni textura a la mezcla.',
+            'Añadimos el aguacate troceado al resto de ingredientes y mezclamos bien. Servimos en el momento, para que el pescado no quede demasiado cocinado. Espolvoreamos con el resto del cebollino o el eneldo fresco.'
+        ],
+        presentacion:['Podemos montar el plato con la ayuda de un molde. Lo rellenamos y retiramos para que quede con forma cilíndrica.'],
+        imagen:'31.jpg'        
+    },
+    {
+        nombre:'Guisado de carne de ternera',
+        categorias:['Carne','Verdura'],
+        enlaceVideo:'https://www.abc.es/recetasderechupete/receta-guiso-carne-ternera-estofada/17688/',
+        ingredientes:['1,5 kg. de carne de ternera de aguja','250 g. de zanahorias','1 cebolla grande','4 dientes de ajo','200 ml. de vino blanco',
+            '500 ml. de agua aproximadamente (tenéis que ver el agua que necesitáis para cubrir un dedo todos los ingredientes)','2 g. de tomillo seco (puede ser molido)',
+            '80 ml. de aceite de oliva virgen extra','Sal','Pimienta negra recién molida'
+        ],
+        preparacion:['Comenzamos limpiando la carne para eliminar restos de grasa y piel. La troceamos en dados de unos 2 o 3 centímetros, en dados más o menos iguales. Calentamos un chorrito de aceite de oliva virgen extra en una cazuela grande y añadimos la carne. La doramos a temperatura fuerte hasta que quede sellada por toda su superficie. Siempre removiendo y dándole vueltas para que se cocine por todos los lados.',
+            'Agregamos las zanahorias cortadas en rodajas finas y la cebolla cortada en daditos. Incorporamos también los dientes de ajo y el tomillo. Continuamos sofriendo las verduras y la carne a temperatura media unos 15 minutos.',
+            'Salpimentamos y añadimos el vino blanco. Dejamos que se cocine durante unos minutos para que el vino evapore su alcohol.',
+            'Cubrimos todos los ingredientes con agua (que tenga como un dedo más de agua por encima de los ingredientes) y tapamos la cazuela. Cocinamos a temperatura media durante 1 hora a fuego medio. Pasado este tiempo, destapamos la cazuela y seguimos la cocción 45 minutos más a temperatura media-baja.',
+        ],        
+        presentacion:['Servimos la carne acompañada de unas patatas fritas en dados o con un poco de arroz blanco.'],
+        imagen:'32.jpg'        
+    },
+    {
+        nombre:'Sopa de pollo',
+        categorias:['Sopa','Carne'],
+        enlaceVideo:'https://www.abc.es/recetasderechupete/sopa-de-picadillo/18549/',
+        ingredientes:['1/2 pollo (500 gr. con las carcasas)','2 huevos','2 zanahorias','1 hueso en salazón (mejor de rodilla)','1 puerro','100 gr. de jamón serrano',
+            '120 gr. de fideos para sopa. También valdría la misma cantidad de arroz (opcional)','Hojas frescas de hierbabuena'
+        ],
+        preparacion:['Pelamos y lavamos la zanahoria y hacemos lo mismo con el puerro, además éste lo partimos en dos trozos grandes. Lo metemos todo en una olla junto con el pollo troceado y el hueso salado.',
+            'Nosotros hemos escogido un trozo de espinazo, pero también le va genial un trozo de hueso de ternera. Por ejemplo de la parte de la rodilla.',
+            'Lo cocemos todo junto durante al menos 1 hora, en caso de usar una olla rápida 20 minutos son suficientes.',
+            'En paralelo, cocemos los dos huevos en abundante agua.',
+            'Cuando acabe la cocción del pollo y la verdura colamos y reservamos el caldo. Dejamos que el pollo y el hueso se atemperen para no quemarnos y lo deshuesamos todo.',
+            'Picamos el jamón (si no lo hemos comprado en tiras) y las hojas de hierbabuena. Pelamos y cortamos el huevo en trocitos pequeños o en rodajas. A vuestro gusto.',
+            'Ponemos al fuego una cacerola. Vertemos el caldo colado, echamos la carne, el jamón, el huevo y la hierbabuena.',
+            'Añadimos los fideos (4 raciones) y cocinamos todo junto a fuego medio el tiempo indicado para los mismos.'
+        ],        
+        presentacion:['Servimos en cuencos. Primero un par de cucharadas del caldo y a continuación una buena cantidad de fideos y del resto de ingredientes.'],
+        imagen:'33.jpg'        
+    },
+    {
+        nombre:'Bacalao a la portuguesa',
+        categorias:['Pescado'],
+        enlaceVideo:'https://www.abc.es/recetasderechupete/bacalao-a-la-portuguesa/12627/',
+        ingredientes:['4 lomos de bacalao','4 patatas grandes especiales para hornear','3 cebollas grandes','1 vaso de Oporto blanco, coñac o brandy',
+            '1 cucharadita. pimentón dulce','Aceite de oliva virgen extra','Harina para rebozar','Sal'
+        ],
+        preparacion:['Podéis utilizar bacalao en salazón, pero si no tenéis (o no queréis) tiempo, os recomiendo comprar un trozo de lomo ya desalado (son un poco más caros y los venden ya así).',
+            'Si optamos por la opción de un lomo de bacalao salado, debemos desalarlo. Para ello primero debemos trocearlo si es muy grande. Para desalar el bacalao la pieza de pescado tiene que quedar cubierta de agua en abundancia. Las partes gruesas se desalarán durante 48 horas, con cambio de agua cada 6 horas aproximadamente. Las partes más finas se desalarán durante 36 horas, con cambio de agua cada 8 horas.',
+            'Mientras el pescado se esté desalando debe permanecer a una temperatura entre 6 y 8º C dentro del frigorífico, ya que a temperatura ambiente puede fermentar. Si os pasa os daréis cuenta enseguida, a mí ya me ha pasado alguna vez, el olor es… bueno, no hace falta que lo describa. Dentro de la nevera evitamos variaciones de temperatura, que acelerarían o retrasarían el desalado, sobre todo en verano',
+            'Pelamos la cebolla y la cortamos en juliana. Ponemos a calentar 5 cucharadas de aceite de oliva virgen extra en una sartén grande y añadimos la cebolla cuando este comience a estar caliente. Rehogamos la cebolla hasta que esté bien blandita, unos 15 o 20 minutos. Retiramos la sartén del fuego y añadimos el pimentón dulce de la Vera.',
+            'Removemos para integrar con la cebolla y volvemos a poner la sartén al fuego. Añadimos el vino, dejamos que se reduzca durante 2 minutos y retiramos. Reservamos para una fuente la cebolla y su salsa. La sartén la reutilizaremos posteriormente así que no la retiramos ya que aprovecharemos los jugos.',
+            'Pelamos las patatas y las cortamos en láminas finas, de 3 o 4 mm. de grosor. Calentamos abundante aceite en la sartén que hemos utilizado antes y freímos las patatas dejándolas un poquito crudas. Las patatas terminarán de cocinarse después en el horno. Reservamos.',
+            'Eliminamos el exceso de aceite y freímos los lomos de bacalao previamente enharinado. No es necesario que se frían demasiado, con darles un toque durante 1 o 2 minutos por cada lado es suficiente, así nos aseguramos que durante el horneado quede en su punto, jugoso y sabroso.',
+            'Precalentamos el horno a 200º C.',
+            'En una fuente apta para horno vamos montando el plato. Primero colocamos una base con las patatas y añadimos un poco de sal. Encima de las patatas ponemos los lomos de bacalao y repartimos por encima y por los laterales la cebolla con toda su salsa. Horneamos a 170º C con calor por arriba y por abajo, durante 15 o 20 minutos en la parte central del horno. Retiramos del horno y servimos caliente'
+        ],        
+        presentacion:['Servimos en cuencos. Primero un par de cucharadas del caldo y a continuación una buena cantidad de fideos y del resto de ingredientes.'],
+        imagen:'34.jpg'        
+    },
+    {
+        nombre:'Paella',
+        categorias:['Arroz','Verdura','Carne'],
+        enlaceVideo:'https://www.abc.es/recetasderechupete/paella-valenciana/21607/',
+        ingredientes:['700 g. de arroz bomba La Fallera','400 g. de conejo (importante que incluya cabeza e higadillos)','150 g. de “bachoqueta”, judía verde plana (en este caso roja)',
+            '150 g. de garrofón','200 g. de alcachofas (3 alcachofas medianas)','Aceite de oliva virgen extra','1 cucharadita de pimentón dulce','Tomate triturado',
+            '7 hebras de azafrán','Romero fresco','Sal','una paella de 50 cm. de diámetro'
+        ],
+        preparacion:['Esto es el primer gran problema que surge al tratar de hacer el plato en casa. Para que quede bien, la cantidad de arroz no debe superar en mucho el dedo de grosor, por lo que para hacer, por ejemplo, una paella para seis personas necesitaremos un recipiente de en torno a medio metro de diámetro.',
+            'A falta de leña y fuego con madera de naranjo, necesitaremos un buen quemador de gas o difusor de temperatura para que alcance la superficie total de la paella. En caso de necesitar aumentar la cantidad de ingredientes habrá que aumentar también el tamaño de la paella o cazuela.',
+            'Vamos a empezar por un buen sofrito, la base de nuestra paella. Lo primero es cortar en trozos todos los ingredientes. El pollo y el conejo como para un guiso (puedes pedirle al carnicero que lo prepare), las judías verdes sin hebras y en trozos de dos o tres centímetros. Las alcachofas bien limpias y en mitades o cuartos según su tamaño.',
+            'Sofreímos en abundante aceite de oliva virgen extra el pollo, el conejo, las judías, el garrafó y las alcachofas. Cuando estén bien dorados los trozos de carne sazonamos bien y echamos el pimentón dulce. Los trozos de conejo y pollo deben estar bien dorados, con cuidado de que no se quemen. Justo después añadimos el tomate triturado y dejamos que se rehoge bien el sofrito',
+            'Añadimos el agua. Es mejor quedarse corto que pasarse pues siempre podemos añadir algo más de agua si vemos que el arroz está demasiado seco y no se ha hecho todavía. Las proporciones dependen mucho del fuego, del calor que haga, del grado de humedad y del diámetro de la paella. Necesitamos tres veces el volumen de agua que de arroz. Aunque es la experiencia la que os hará ajustar y perfeccionar estas cantidades.',
+            'Cocinamos el caldo durante 25 o 30 minutos. Es un buen momento de echar el azafrán (también podéis añadir antes agua infusionada con azafrán), debemos ir probando el caldo para saber si está lo suficientemente sabroso y poder corregirlo. No queremos que se quede soso, así que es fundamental que el caldo lo prueben al menos 2 personas para que haya consenso en este tema.',
+            'Añadimos el arroz en diagonal y en forma de cruz tal como veis en las fotos. Distribuimos el arroz de forma uniforme por la paella. Cocemos entre 18 a 20 minutos, aunque aquí el tiempo lo marca de nuevo el grano de arroz y la potencia del fuego, que debemos ir dejando consumirse. Tiene que quedar completamente seco y suelto.',
+            'Podéis tener un cazo con agua hirviendo al lado, por si hay que añadir agua. A mitad cocción también podemos poner unas ramitas de romero, que retiraremos antes de servir.',
+            'Una buena paella debe tener socarrat. Lo mejor para conseguirlo fácilmente sin quemar el arroz es cuando esta terminando de cocinarse la paella, es hacer pequeños agujeros con el extremos de una cuchara y añadir un poquito de aceite de oliva virgen extra en los mismos. Subir el fuego del quemador al máximo durante un minuto y tostar el arroz. Apagamos el fuego y dejamos reposar la paella.',
+            'La dejamos reposar unos minutos tapada con un gran paño de algodón. Con unos 5-8 minutos fuera del fuego será suficiente para lograr un resultado de rechupete.'
+        ],        
+        imagen:'36.jpg'        
+    },
 
 
 ];

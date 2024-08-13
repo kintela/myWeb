@@ -30,7 +30,7 @@ export class PlanificadorMenusComponent implements OnInit{
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
 
-  dataSource = [
+  dataSourceOLD = [
     { tipo: 'Comida', 
       lunes: { primerPlato: null, segundoPlato: null, postre: null }, 
       martes: { primerPlato: null, segundoPlato: null, postre: null }, 
@@ -47,6 +47,26 @@ export class PlanificadorMenusComponent implements OnInit{
       viernes: { primerPlato: null, segundoPlato: null, postre: null },
       sabado: { primerPlato: null, segundoPlato: null, postre: null },
       domingo: { primerPlato: null, segundoPlato: null, postre: null }},
+  ];
+
+  dataSource = [
+    { tipo: 'Comida', 
+      lunes: { primerPlato: null, segundoPlato: null }, 
+      martes: { primerPlato: null, segundoPlato: null}, 
+      miercoles: { primerPlato: null, segundoPlato: null },
+      jueves: { primerPlato: null, segundoPlato: null},
+      viernes: { primerPlato: null, segundoPlato: null},
+      sabado: { primerPlato: null, segundoPlato: null},
+      domingo: { primerPlato: null, segundoPlato: null}},
+    { tipo: 'Cena', 
+      lunes: { platoUnico: null}, 
+      martes: { platoUnico: null}, 
+      miercoles: { platoUnico: null}, 
+      jueves: { platoUnico: null}, 
+      viernes: { platoUnico: null}, 
+      sabado: { platoUnico: null}, 
+      domingo: { platoUnico: null }
+    },
   ];
   
 
@@ -78,9 +98,9 @@ export class PlanificadorMenusComponent implements OnInit{
     this.filtrarPlatos();
   } 
 
-  seleccionarPlato(element: any, dia: string, tipoPlato: 'primerPlato' | 'segundoPlato' | 'postre') {
+  seleccionarPlato(element: any, dia: string, tipoPlato: 'primerPlato' | 'segundoPlato' | 'platoUnico') {
     if (!element[dia]) {
-      element[dia] = { primerPlato: null, segundoPlato: null, postre: null };
+      element[dia] = { primerPlato: null, segundoPlato: null, platoUnico:null};
     }
     element[dia][tipoPlato] = this.platoSeleccionado;
     // Asegúrate de actualizar el estado del componente para reflejar los cambios

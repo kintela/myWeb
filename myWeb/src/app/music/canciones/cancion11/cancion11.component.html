@@ -1,1 +1,63 @@
-<p>cancion11 works!</p>
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>{{grupo}} - {{nombreCancion}} - {{album}} - {{anio}}</mat-card-title>
+    </mat-card-header>
+  
+    <mat-card-content>
+      <div class="content-layout">
+        <div class="audio-file">
+          <strong><a href="https://kintela.azureedge.net/assets/assets/canciones/wish_you_were_here.mp3" target="_blank" class="clickable-link">Cover by Kintela feat. Pedro Boyra on Bass</a></strong>
+          <mat-icon class="material-icons cursor-pointer" matTooltip="Escuchala">headset</mat-icon>
+        </div>
+        
+        <div class="text-content">
+          <p> 
+            Es un tributo de Roger Waters a su amigo Syd Barret. El miembro fundador de la banda que dejó el grupo debido a problemas de salud mental diagnosticado con esquizofrenia y bipolaridad
+          </p>
+      
+          <p>
+            La letra expresa la añoranza y la alienación que sentian los miembros de la banda por su ausencia
+          </p>
+      
+          <p>
+            La canción critica además la industria musical y su efecto deshumanizador, destavando la deconexión y la lucha por la autenticidad en un mundo cada vez mas comerciualizado
+          </p>
+        </div>
+      </div>
+      <div class="link-container">
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/16C741fQ1s4?si=6WDLZFbz-dboljh_')" class="clickable-link">Roger Waters</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/84Tq-eAJIk4?si=s0ppoztwkUGfgwtk')" class="clickable-link">Pink Floyd</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/3j8mr-gcgoI?si=MXRd4m_dEFtBObdd')" class="clickable-link">David Gilmour</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/zhPAcKzZKcA?si=4_Ynb-2AXuZmc4do')" class="clickable-link">Radiohead</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/oPssk0PEwtg?si=eVsnUYzvwTArRBii')" class="clickable-link">Limp Bizkit ft. John Rzeznik</a>
+        
+    <a (click)="mostrarVideo('https://www.youtube.com/embed/X_VGwqUzdvk?si=aV6rEhJ62rjvxjln')" class="clickable-link">Ed Sheeran</a>
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/u9TrCN9S9zE?si=dKWn0n_zEoGeqE10')" class="clickable-link">Miley Cyrus</a>
+      </div>
+
+      
+    </mat-card-content>
+</mat-card>
+
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>How to play...</mat-panel-title>
+  </mat-expansion-panel-header>
+  <mat-card>
+    <mat-card-content>
+      <div class="videos">
+        <a (click)="mostrarVideo('https://www.youtube.com/embed/Qbr-nTMO-xw?si=pC7GGtNg-Bf9-umV')" class="clickable-link">David Gilmour Master class</a>
+        <a (click)="mostrarVideo('https://www.instagram.com/reel/CyqndpQOmrE/?igshid=MTc4MmM1YmI2Ng%3D%3D')" class="clickable-link">Intro Rythm</a>
+        <a (click)="mostrarVideo('https://www.instagram.com/p/C2h4LTfOB2Z/?igsh=bmV2eWdjc3MycDRm')" class="clickable-link">Intro Solo 1</a>
+        <a (click)="mostrarVideo('https://www.instagram.com/reel/C7RwhTdOtPw/?igsh=MTJtc3ZwMGV0YjJxMA%3D%3D')" class="clickable-link">Intro Solo 2</a>
+      </div>
+      
+      <div class="tablatures">
+        <img class="clickable-link" src="https://kintela.azureedge.net/assets/assets/canciones/wis_you_were_here_tablature_1.jpg" (click)="openImageViewer('https://kintela.azureedge.net/assets/assets/canciones/wis_you_were_here_tablature_1.jpg')">
+        <img class="clickable-link" src="https://kintela.azureedge.net/assets/assets/canciones/wis_you_were_here_tablature_2.jpg" (click)="openImageViewer('https://kintela.azureedge.net/assets/assets/canciones/wis_you_were_here_tablature_2.jpg')">
+        <img class="clickable-link" src="https://kintela.azureedge.net/assets/assets/canciones/wis_you_were_here_tablature_solo.jpg" (click)="openImageViewer('https://kintela.azureedge.net/assets/assets/canciones/wis_you_were_here_tablature_solo.jpg')">
+      </div>      
+    </mat-card-content>
+  </mat-card>
+  
+</mat-expansion-panel>

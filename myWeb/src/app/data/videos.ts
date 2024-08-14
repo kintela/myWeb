@@ -681,6 +681,13 @@ export const videos:IVideo[] = [
         plataforma: 'Apple TV'
     },
     {
+        imagen: '51.jpg',
+        enlace: 'https://www.youtube.com/watch?v=TkO9xQKv8vs',
+        texto: 'Clapton es Dios',
+        categoria: 'eric clapton',
+        plataforma: 'youtube'
+    },
+    {
         imagen: 'monterey.jpg',
         enlace: 'https://youtu.be/7MX2VEYpTfw?feature=shared',
         texto: 'Monterey 1967',

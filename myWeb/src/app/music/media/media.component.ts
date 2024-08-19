@@ -22,6 +22,7 @@ export class MediaComponent implements OnInit{
     this.plataformas = this.getPlataformasUnicas();
 
     console.log(this.plataformas);
+    console.log(this.videos);
   }
   
   getPlataformasUnicas(): string[] {
@@ -45,7 +46,7 @@ export class MediaComponent implements OnInit{
 
   getVideoCountByCategory(category: string): number {
     return this.videos.filter(video =>
-      video.categoria?.toLowerCase() === category &&
+      video.categoria?.toLowerCase() === category.toLowerCase() &&
       (this.plataformaSeleccionada === 'todas' || video.plataforma === this.plataformaSeleccionada)
     ).length;
   }

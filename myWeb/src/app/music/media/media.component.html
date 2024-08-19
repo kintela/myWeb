@@ -46,7 +46,26 @@
                       </div>
                   </ng-container>
                 </div>
-          </mat-expansion-panel>              
+          </mat-expansion-panel>  
+          
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Heavy Metal ({{ getVideoCountByCategory('Heavy Metal') }})
+                </mat-panel-title>                        
+            </mat-expansion-panel-header>
+            <div class="fichas-contenedor">
+                <ng-container *ngFor="let video of getVideosFiltrados(); let i = index">
+                    <div *ngIf="video.categoria === 'Heavy Metal'">
+                      <app-ficha-video
+                        [imagen]="'https://kintela.azureedge.net/assets/assets/caratulas/videos/' + video.imagen"
+                        [enlace]="video.enlace"
+                        [texto]="video.texto">
+                      </app-ficha-video>
+                    </div>
+                </ng-container>
+              </div>
+        </mat-expansion-panel>         
         
           <mat-expansion-panel>
               <mat-expansion-panel-header>

@@ -203,14 +203,7 @@ export const videos:IVideo[] = [
         texto: 'All My Loving',
         categoria: 'Mix',
         plataforma: 'netflix'
-    },
-    {
-        imagen: 'metallica.jpeg',
-        enlace: 'https://www.netflix.com/es/title/80174429?s=a&trkid=13747225&trg=more&vlang=es&clip=81476513',
-        texto: 'Metallica',
-        categoria: 'Mix',
-        plataforma: 'netflix'
-    },
+    },   
     {
         imagen: 'hiphop.jpeg',
         enlace: 'https://www.netflix.com/es/title/80141782?s=a&trkid=13747225&trg=more&vlang=es&clip=81015553',
@@ -366,13 +359,6 @@ export const videos:IVideo[] = [
         plataforma: 'canalsurmas'
     },   
     {
-        imagen: '18.jpeg',
-        enlace: 'https://www.youtube.com/watch?v=Hl9kELOgzAI',
-        texto: 'Lemmy',
-        categoria: 'Mix',
-        plataforma: 'youtube'
-    },    
-    {
         imagen: '27.jpeg',
         enlace: 'https://www.youtube.com/watch?v=adTmmDA9jtk',
         texto: 'Camaron en Montreaux',
@@ -469,21 +455,7 @@ export const videos:IVideo[] = [
         texto: 'Sound City',
         categoria: 'Mix',
         plataforma: 'Documania TV'
-    },     
-    {
-        imagen: '46.jpg',
-        enlace: 'https://www.youtube.com/watch?v=NV8SGt2-xSs',
-        texto: 'The Decline of Western Civilization Part II: The Metal Years',
-        categoria: 'Mix',
-        plataforma: 'youtube'
-    },   
-    {
-        imagen: '47.jpg',
-        enlace: 'https://www.arte.tv/es/videos/114775-000-A/heavy-metal-kingdom/',
-        texto: 'Heavy Metal Kingdom',
-        categoria: 'Mix',
-        plataforma: 'arte'
-    }, 
+    },       
     {
         imagen: '48.jpg',
         enlace: 'https://www.documaniatv.com/biografias/20000-dias-en-la-tierra-nick-cave-video_91587dc67.html',
@@ -491,13 +463,6 @@ export const videos:IVideo[] = [
         categoria: 'Mix',
         plataforma: 'Documania TV'
     },      
-    {
-        imagen: '49.jpg',
-        enlace: 'https://www.arte.tv/es/videos/064208-001-A/el-barco-del-infierno-1-9/',
-        texto: 'El barco del infierno (1/9)',
-        categoria: 'Mix',
-        plataforma: 'arte'
-    },
     {
         imagen: '50.jpg',
         enlace: 'https://www.rtve.es/play/videos/imprescindibles/coque-malla/16145208/',
@@ -540,6 +505,41 @@ export const videos:IVideo[] = [
         categoria: 'Rock Radikal Vasco',
         plataforma: 'youtube'
     },
+    {
+        imagen: '47.jpg',
+        enlace: 'https://www.arte.tv/es/videos/114775-000-A/heavy-metal-kingdom/',
+        texto: 'Heavy Metal Kingdom',
+        categoria: 'Heavy Metal',
+        plataforma: 'arte'
+    }, 
+    {
+        imagen: '49.jpg',
+        enlace: 'https://www.arte.tv/es/videos/064208-001-A/el-barco-del-infierno-1-9/',
+        texto: 'El barco del infierno (1/9)',
+        categoria: 'Heavy Metal',
+        plataforma: 'arte'
+    },
+    {
+        imagen: '46.jpg',
+        enlace: 'https://www.youtube.com/watch?v=NV8SGt2-xSs',
+        texto: 'The Decline of Western Civilization Part II: The Metal Years',
+        categoria: 'Heavy Metal',
+        plataforma: 'youtube'
+    },   
+    {
+        imagen: '18.jpeg',
+        enlace: 'https://www.youtube.com/watch?v=Hl9kELOgzAI',
+        texto: 'Lemmy',
+        categoria: 'Heavy Metal',
+        plataforma: 'youtube'
+    },   
+    {
+        imagen: 'metallica.jpeg',
+        enlace: 'https://www.netflix.com/es/title/80174429?s=a&trkid=13747225&trg=more&vlang=es&clip=81476513',
+        texto: 'Metallica',
+        categoria: 'Heavy Metal',
+        plataforma: 'netflix'
+    },   
     {
         imagen: 'mighty_good_the_beatles.jpg',
         enlace: 'https://www.netflix.com/es/title/81471399?s=a&trkid=13747225&trg=more&vlang=es&clip=',

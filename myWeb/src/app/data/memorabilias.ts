@@ -116,10 +116,9 @@ export const memorabilias:IMemorabilia[] = [
     },
     {
         imagen:'18.jpg',
-        titulo:'Elvis Presley y Madonna',
-        personas:'Elvis Presley, Madonna',
+        titulo:'Elvis Presley',
+        personas:'Elvis Presley',
         year:1970,
-        descripcion:'Elvis Presley firmandole un autografo a Madonna en 1970',
         origen:'Facebook'
     },
     {

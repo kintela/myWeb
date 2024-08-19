@@ -159,6 +159,9 @@ export const PLATOS:IPlato[]=[
     },
     {
         nombre:'Fajitas de pollo',
+        ingredientes:['pechuga de pollo','pimiento rojo','pimiento verde','cebolla','sal','polvos old el paso','tortillas de trigo'],
+        preparacion:['Pochas la cebolla y el pimiento y lo retiras','en la misma sartén fries el pollo en tiras','Cuando el pollo esté hecho mezclas con la verdura y echas los polvos old el paso y mezclas',],
+        presentacion:['Sirves en las tortillas de trigo'],
         categorias:['Carne'],
     },
     {

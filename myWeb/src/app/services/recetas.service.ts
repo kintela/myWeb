@@ -12,8 +12,8 @@ export class RecetasService {
 
   constructor(private http: HttpClient) { }
 
-  getCategoriasRecetas(): Observable<ICategoriaReceta> {
-    return this.http.get<ICategoriaReceta>(`${this.urlWebApi}/recetas/categorias`)
+  getCategoriasRecetas(): Observable<ICategoriaReceta[]> {
+    return this.http.get<ICategoriaReceta[]>(`${this.urlWebApi}/recetas/categorias`)
       .pipe(
         catchError(this.handleError)
       )

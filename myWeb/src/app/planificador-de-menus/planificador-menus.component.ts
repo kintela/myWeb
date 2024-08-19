@@ -5,6 +5,7 @@ import { IListaCompra } from '../data/IListaCompra';
 import { FormularioRecetaComponent } from './formulario-receta/formulario-receta.component';
 import { MatDialog } from '@angular/material/dialog';
 import { FormularioCategoriaComponent } from './formulario-categoria/formulario-categoria.component';
+import { RecetasService } from '../services/recetas.service';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -72,14 +73,23 @@ export class PlanificadorMenusComponent implements OnInit{
   
 
 
-  constructor(private dialog: MatDialog) { }
+  constructor(private dialog: MatDialog, private recetasService:RecetasService) { }
 
   ngOnInit(): void {    
-    console.log(this.dataSource);
     const categoriasUnicas = [...new Set(PLATOS.flatMap(plato => plato.categorias))];
     categoriasUnicas.sort();
 
     this.categorias = [...categoriasUnicas, 'Todas'];
+
+    this.recetasService.getCategoriasRecetas().subscribe(
+      data=>{
+        console.log(data);
+        this.categorias = data.map(categoria=>categoria.nombre);
+        this.categorias.sort();
+        this.categorias.push('Todas');
+      },err=>console.error(err),
+      ()=>{}
+    );
 
     this.filtrarPlatos();
   }

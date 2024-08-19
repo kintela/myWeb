@@ -2,7 +2,5 @@ import { IReceta } from "./IReceta";
 
 export interface ICategoriaReceta {
     categoriaId: number;
-    nombre: string;
-    recetas: IReceta[];
-  
+    nombre: string;  
 }

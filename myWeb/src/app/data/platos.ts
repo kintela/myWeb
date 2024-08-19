@@ -1,7 +1,7 @@
 import { IPlato } from "./IPlatos";
 
 export const PLATOS:IPlato[]=[
-    {
+    /*{
         nombre:'Langostinos al horno',
         categorias:['Pescado'],
         imagen:'1.jpg',
@@ -204,14 +204,12 @@ export const PLATOS:IPlato[]=[
         imagen:'35.jpg',
         ingredientes:['1 Kg de guisantes frescos (una vez peladas las vainas os quedará en 500 grs de guisantes) o 2 latas (2 x 250 g, peso escurrido) de guisantes finos al natural',
             '2 cebolletas frescas o una cebolla','80 g de un buen jamón','100 ml de aceite de oliva virgen extra','Sal y pimienta negra recién molida (al gusto)',
-            '4 huevos de tamaño XL (uno por persona)'
-        ],
+            '4 huevos de tamaño XL (uno por persona)'],
         preparacion:['En la receta podéis emplear cualquier tipo de guisante, desde los guisantes frescos, los ultra congelados, guisantes finos, muy finos o de tamaño medio. Si nos decidimos por guisantes de lata, la receta no nos llevará más de 5 minutos, si optamos por ultra congelados serán 10 minutos más. Vosotros/as elegís.',
             'En caso de emplear guisantes congelados, los cocemos en abundante agua salada durante 10 minutos, contando este tiempo una vez que el agua rompa a hervir. Una vez hervidos los refrescaremos y reservaremos.',
             'Picamos en juliana, es decir en tiras, una cebolla o dos cebolletas. Cortamos de igual manera las lonchas de jamón. Reservamos.',
             'En una cazuela grande y con un chorrito de buen aceite de oliva virgen rehogaremos las cebolletas en juliana. Una vez rehogada agregaremos un buen jamón y rehogaremos durante 1 minuto más.',
-            'Añadimos los guisantes que tenemos reservados y juntamos bien con una cuchara de madera sin romper los guisantes. Rectificamos de sal y pimienta negra, aunque recordad que el plato lleva jamón (este no es muy salado).',            
-        ]
+            'Añadimos los guisantes que tenemos reservados y juntamos bien con una cuchara de madera sin romper los guisantes. Rectificamos de sal y pimienta negra, aunque recordad que el plato lleva jamón (este no es muy salado).']
     },
     {
         nombre:'Alcachofas con jamón',
@@ -294,7 +292,7 @@ export const PLATOS:IPlato[]=[
         ingredientes:['Un Pollo Trozeado','Zanahoria','1 pimiento verde','1 pimiento rojo','Vino Blanco','Ketchup','Cebolla','Sal','Aceite de oliva'], 
         imagen:'19.jpg',
         preparacion:['Marcas los trozos de pollo','Picas fina la verdura y la pochas','Cuando esté pochada añades el pollo','Cuando el pollo esté hecho añades el vino blanco y el ketchup'],
-    },
+    },*/
     {
         nombre:'Pencas rellenas de Jamon york y queso',
         categorias:['Verdura'],

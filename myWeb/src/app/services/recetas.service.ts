@@ -1,7 +1,8 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { ICategoriaReceta } from '../data/ICategoriaReceta';
+import { CategoriaDTO } from '../data/CategoriaDTO';
 import { catchError, Observable, throwError } from 'rxjs';
+import { RecetaDTO } from '../data/RecetaDTO';
 
 @Injectable({
   providedIn: 'root'
@@ -12,11 +13,22 @@ export class RecetasService {
 
   constructor(private http: HttpClient) { }
 
-  getCategoriasRecetas(): Observable<ICategoriaReceta[]> {
-    return this.http.get<ICategoriaReceta[]>(`${this.urlWebApi}/recetas/categorias`)
+  getCategoriasRecetas(): Observable<CategoriaDTO[]> {
+    return this.http.get<CategoriaDTO[]>(`${this.urlWebApi}/recetas/categorias`)
       .pipe(
         catchError(this.handleError)
       )
+  }
+
+  getRecetas(): Observable<RecetaDTO[]> {
+    return this.http.get<RecetaDTO[]>(`${this.urlWebApi}/recetas`)
+      .pipe(
+        catchError(this.handleError)
+      )
+  }
+
+  getRecetasPorCategoria(nombreCategoria: string): Observable<RecetaDTO[]> {
+    return this.http.get<RecetaDTO[]>(`${this.urlWebApi}/recetas/PorCategoria/${nombreCategoria}`);
   }
 
 

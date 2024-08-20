@@ -1,11 +1,12 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { PLATOS } from '../data/platos';
 import { IPlato } from '../data/IPlatos';
 import { IListaCompra } from '../data/IListaCompra';
 import { FormularioRecetaComponent } from './formulario-receta/formulario-receta.component';
 import { MatDialog } from '@angular/material/dialog';
 import { FormularioCategoriaComponent } from './formulario-categoria/formulario-categoria.component';
 import { RecetasService } from '../services/recetas.service';
+import { CategoriaDTO } from '../data/CategoriaDTO';
+import { RecetaDTO } from '../data/RecetaDTO';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -21,35 +22,17 @@ export interface PlatoEliminadoEvent {
 })
 
 export class PlanificadorMenusComponent implements OnInit{
-  categorias: string[] = [];
+  categorias:CategoriaDTO[] = [];
+  recetas:RecetaDTO[] = [];
   platosFiltrados: any[] = [];
-  categoriaSeleccionada = 'Todas';
+  categoriaSeleccionada: CategoriaDTO | null = null;
   platoSeleccionado: IPlato;
   platoParaReceta: IPlato;
   platoEliminado:PlatoEliminadoEvent;
   listaCompra: IListaCompra;
   listaCompraAcumulada: IListaCompra[]=[]; 
 
-  displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
-
-  dataSourceOLD = [
-    { tipo: 'Comida', 
-      lunes: { primerPlato: null, segundoPlato: null, postre: null }, 
-      martes: { primerPlato: null, segundoPlato: null, postre: null }, 
-      miercoles: { primerPlato: null, segundoPlato: null, postre: null },
-      jueves: { primerPlato: null, segundoPlato: null, postre: null },
-      viernes: { primerPlato: null, segundoPlato: null, postre: null },
-      sabado: { primerPlato: null, segundoPlato: null, postre: null },
-      domingo: { primerPlato: null, segundoPlato: null, postre: null }},
-    { tipo: 'Cena', 
-      lunes: { primerPlato: null, segundoPlato: null, postre: null }, 
-      martes: { primerPlato: null, segundoPlato: null, postre: null }, 
-      miercoles: { primerPlato: null, segundoPlato: null, postre: null },
-      jueves: { primerPlato: null, segundoPlato: null, postre: null },
-      viernes: { primerPlato: null, segundoPlato: null, postre: null },
-      sabado: { primerPlato: null, segundoPlato: null, postre: null },
-      domingo: { primerPlato: null, segundoPlato: null, postre: null }},
-  ];
+  displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];  
 
   dataSource = [
     { tipo: 'Comida', 
@@ -76,35 +59,49 @@ export class PlanificadorMenusComponent implements OnInit{
   constructor(private dialog: MatDialog, private recetasService:RecetasService) { }
 
   ngOnInit(): void {    
-    const categoriasUnicas = [...new Set(PLATOS.flatMap(plato => plato.categorias))];
-    categoriasUnicas.sort();
-
-    this.categorias = [...categoriasUnicas, 'Todas'];
-
     this.recetasService.getCategoriasRecetas().subscribe(
       data=>{
-        console.log(data);
-        this.categorias = data.map(categoria=>categoria.nombre);
-        this.categorias.sort();
-        this.categorias.push('Todas');
+        console.log("categorias",data);
+        this.categorias = data;
+        const todasCategoria: CategoriaDTO = { categoriaId: 0, nombre: 'Todas' };
+        this.categorias.push(todasCategoria);
+
+        this.categoriaSeleccionada = todasCategoria;
+
       },err=>console.error(err),
       ()=>{}
     );
 
-    this.filtrarPlatos();
+    this.recetasService.getRecetas().subscribe(
+      data=>{      
+        this.recetas = data;
+        console.log("Recetas",this.recetas);
+
+        const todasReceta: RecetaDTO = { recetaId: 0, nombre: 'Todos', ingredientes: [], preparacion: [], presentacion: [], enlaceVideo: '', imagen: '' };
+        this.recetas.push(todasReceta);
+
+        this.filtrarPlatos();
+      },err=>console.error(err),
+      ()=>{}
+    );
+
+    
   }
 
   filtrarPlatos() {
-    if (this.categoriaSeleccionada === 'Todas') {
-      this.platosFiltrados = PLATOS;
+    if (this.categoriaSeleccionada.nombre === 'Todas') {
+      this.platosFiltrados = this.recetas;
     } else {
-      this.platosFiltrados = PLATOS.filter(plato => plato.categorias.includes(this.categoriaSeleccionada));
+      this.recetasService.getRecetasPorCategoria(this.categoriaSeleccionada.nombre).subscribe(
+        data=>this.platosFiltrados = data,
+        err=>console.error(err),
+        ()=>{}
+      );
     }
-    this.platosFiltrados.sort((a, b) => a.nombre.localeCompare(b.nombre));
   }
 
 
-  onCategoriaSeleccionada(categoria: string) {
+  onCategoriaSeleccionada(categoria: CategoriaDTO) {
     this.categoriaSeleccionada = categoria;
     this.filtrarPlatos();
   } 
@@ -188,7 +185,7 @@ export class PlanificadorMenusComponent implements OnInit{
   abrirDialogoAgregarPlato(): void {
     const dialogRef = this.dialog.open(FormularioRecetaComponent, {
       width: '50%',      
-       data: { categorias: this.categorias , platos: PLATOS}
+       data: { categorias: this.categorias , platos: this.recetas}
     });
   
     dialogRef.afterClosed().subscribe(result => {

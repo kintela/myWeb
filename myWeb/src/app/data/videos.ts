@@ -611,6 +611,13 @@ export const videos:IVideo[] = [
         plataforma: 'disney+'
     },
     {
+        imagen: '52.jpeg',
+        enlace: 'https://www.disneyplus.com/es-es/movies/the-beatles-let-it-be/71Oc25GCtPny',
+        texto: 'Let itr be',
+        categoria: 'the beatles',
+        plataforma: 'disney+'
+    },
+    {
         imagen: 'rolling_stone_life_and_death_of_brian_jones.jpg',
         enlace: 'https://www.netflix.com/es/title/81555057?s=a&trkid=13747225&trg=more&vlang=es&clip=81584958',
         texto: 'Brian Jones',

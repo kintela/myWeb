@@ -12271,7 +12271,7 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Jeff Beck, Rod Stewart, Ron Wood, Nicky Hopkins',
         origen:'Facebook',
         grupo:'Jeff Beck Group',
-        descripcion:'En 1967  Jeff formó el Jeff Beck Group, un supergrupo integrado además por (nada menos) Rod Stewart, el stone Ron Wood y Nicky Hopkins. Hay quienes consideran que la diferencia entre este grupo y Led Zeppelin consistió en que el de Page y Plant funcionó realmente como banda y el de Beck se diluyó en rencillas tontas que terminaron opacando lo que amenazaba ser el gran suceso del rock inglés'
+        descripcion:'En 1967  Jeff formó el Jeff Beck Group, un supergrupo integrado además por (nada menos) Rod Stewart, el stone Ron Wood y Nicky Hopkins. Hay quienes consideran que la diferencia entre este grupo y Led Zeppelin consistió en que Zeppelin funcionó realmente como banda y el de Beck se diluyó en rencillas tontas que terminaron opacando lo que amenazaba ser el gran suceso del rock inglés'
     },   
     {
         imagen:'3372.jpg',
@@ -13126,6 +13126,35 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'Foo Fighters',
     }, 
-
+    {
+        imagen:'3497.jpg',
+        titulo:'Madonna',
+        personas:'Madonna',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3498.jpg',
+        titulo:'Camarón de la Isla y Tomatito',
+        personas:'Camarón de la Isla, Tomatito',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3499.jpg',
+        titulo:'Janis Joplin y Johnny Winter',
+        personas:'Janis Joplin, Johnny Winter',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3500.jpg',
+        titulo:'Janis Joplin y Johnny Winter',
+        personas:'Janis Joplin, Johnny Winter',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3501.jpg',
+        titulo:'Robert Plant',
+        personas:'Robert Plant',
+        origen:'Facebook',
+    }, 
 
 ]

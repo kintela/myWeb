@@ -5,8 +5,10 @@ import { FormularioRecetaComponent } from './formulario-receta/formulario-receta
 import { MatDialog } from '@angular/material/dialog';
 import { FormularioCategoriaComponent } from './formulario-categoria/formulario-categoria.component';
 import { RecetasService } from '../services/recetas.service';
-import { CategoriaDTO } from '../data/CategoriaDTO';
-import { RecetaDTO } from '../data/RecetaDTO';
+import { CategoriaDTO } from '../data/DTOs/categoriaDTO';
+import { RecetaDTO } from '../data/DTOs/recetaDTO';
+import { MenuSemanalDTO } from '../data/DTOs/menuSemanalDTO';
+import { MenuSemanalService } from '../services/menusemanal.service';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -56,7 +58,7 @@ export class PlanificadorMenusComponent implements OnInit{
   
 
 
-  constructor(private dialog: MatDialog, private recetasService:RecetasService) { }
+  constructor(private dialog: MatDialog, private recetasService:RecetasService, private menuSemanalService:MenuSemanalService) { }
 
   ngOnInit(): void {    
     this.recetasService.getCategoriasRecetas().subscribe(
@@ -115,8 +117,45 @@ export class PlanificadorMenusComponent implements OnInit{
     this.dataSource = [...this.dataSource];
   }
   
+  guardarDataSource(){
+    const menuSemanalDTO: MenuSemanalDTO = {
+      usuarioId: 1,
+      fechaCreacion: new Date().toISOString().split('T')[0],  // Solo la parte de la fecha "YYYY-MM-DD"
+      recetaPrimerPlatoLunes: this.dataSource[0].lunes.primerPlato?.recetaId || null,
+      recetaSegundoPlatoLunes: this.dataSource[0].lunes.segundoPlato?.recetaId || null,
+      recetaCenaLunes: this.dataSource[1].lunes.platoUnico?.recetaId || null,
+      recetaPrimerPlatoMartes: this.dataSource[0].martes.primerPlato?.recetaId || null,
+      recetaSegundoPlatoMartes: this.dataSource[0].martes.segundoPlato?.recetaId || null,
+      recetaCenaMartes: this.dataSource[1].martes.platoUnico?.recetaId || null,
+      recetaPrimerPlatoMiercoles: this.dataSource[0].miercoles.primerPlato?.recetaId || null,
+      recetaSegundoPlatoMiercoles: this.dataSource[0].miercoles.segundoPlato?.recetaId || null,
+      recetaCenaMiercoles: this.dataSource[1].miercoles.platoUnico?.recetaId || null,
+      recetaPrimerPlatoJueves: this.dataSource[0].jueves.primerPlato?.recetaId || null,
+      recetaSegundoPlatoJueves: this.dataSource[0].jueves.segundoPlato?.recetaId || null,
+      recetaCenaJueves: this.dataSource[1].jueves.platoUnico?.recetaId || null,
+      recetaPrimerPlatoViernes: this.dataSource[0].viernes.primerPlato?.recetaId || null,
+      recetaSegundoPlatoViernes: this.dataSource[0].viernes.segundoPlato?.recetaId || null,
+      recetaCenaViernes: this.dataSource[1].viernes.platoUnico?.recetaId || null,
+      recetaPrimerPlatoSabado: this.dataSource[0].sabado.primerPlato?.recetaId || null,
+      recetaSegundoPlatoSabado: this.dataSource[0].sabado.segundoPlato?.recetaId || null,
+      recetaCenaSabado: this.dataSource[1].sabado.platoUnico?.recetaId || null,
+      recetaPrimerPlatoDomingo: this.dataSource[0].domingo.primerPlato?.recetaId || null,
+      recetaSegundoPlatoDomingo: this.dataSource[0].domingo.segundoPlato?.recetaId || null,
+      recetaCenaDomingo: this.dataSource[1].domingo.platoUnico?.recetaId || null,
+    };
 
-  guardarDataSource() {
+    console.log('Menu semanal a enviar:', menuSemanalDTO);
+
+    this.menuSemanalService.enviarMenuSemanal(menuSemanalDTO)
+      .subscribe(
+        data=>{
+          console.log('Menu semanal enviado con éxito', data);
+        },err=>console.error('Error enviando el menú semanal',err),
+        ()=>{}
+      );
+  }
+
+  guardarDataSourceOLD() {
     const dataStr = JSON.stringify(this.dataSource);
     const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
   

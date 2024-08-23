@@ -1,34 +1,33 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { CategoriaDTO } from '../data/CategoriaDTO';
 import { catchError, Observable, throwError } from 'rxjs';
-import { RecetaDTO } from '../data/RecetaDTO';
+import { RecetaDTO } from '../data/DTOs/recetaDTO';
+import { ComunService } from './comun.service';
+import { CategoriaDTO } from '../data/DTOs/categoriaDTO';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RecetasService {
 
-  urlWebApi = 'https://localhost:7228/api';
-
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private comunService:ComunService) { }
 
   getCategoriasRecetas(): Observable<CategoriaDTO[]> {
-    return this.http.get<CategoriaDTO[]>(`${this.urlWebApi}/recetas/categorias`)
+    return this.http.get<CategoriaDTO[]>(`${this.comunService.urlWebApi}/recetas/categorias`)
       .pipe(
         catchError(this.handleError)
       )
   }
 
   getRecetas(): Observable<RecetaDTO[]> {
-    return this.http.get<RecetaDTO[]>(`${this.urlWebApi}/recetas`)
+    return this.http.get<RecetaDTO[]>(`${this.comunService.urlWebApi}/recetas`)
       .pipe(
         catchError(this.handleError)
       )
   }
 
   getRecetasPorCategoria(nombreCategoria: string): Observable<RecetaDTO[]> {
-    return this.http.get<RecetaDTO[]>(`${this.urlWebApi}/recetas/PorCategoria/${nombreCategoria}`);
+    return this.http.get<RecetaDTO[]>(`${this.comunService.urlWebApi}/recetas/PorCategoria/${nombreCategoria}`);
   }
 
 

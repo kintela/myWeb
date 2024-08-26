@@ -8403,7 +8403,7 @@ export const memorabilias2:IMemorabilia[] = [
         titulo:'George Harrison',
         personas:'George Harrison',
         origen:'Facebook', 
-        descripcion:'George Harrison  fue uno de los primeros músicos en usar un sintetizador MOOG en el Reino Unido. De acuerdo con The Holly Hobs, sin instrucciones escritas, Harrison tuvo que "mover" el instrumento para obtener los sonidos deseados.        Tuve que hacer el mío especialmente porque el Sr. Moog se lo acababa de inventar, dijo Harrison en Anthology. "Era enorme, con cientos de conectores y dos teclados, pero una cosa era tener uno y la otra tratar de hacer que funcione. No había manual de instrucciones, e incluso si lo hubiera, probablemente tendría miles de páginas. No creo que ni el Sr. Moog supiera cómo hacer música con eso, continuó. Fue más una cosa técnica cuando escuchas los sonidos de canciones como Here Comes the Sun, hizo algunas cosas buenas, pero todos eran sonidos infantiles'
+        descripcion:'George Harrison  fue uno de los primeros músicos en usar un sintetizador MOOG en el Reino Unido. De acuerdo con The Holly Hobs, sin instrucciones escritas, Harrison tuvo que "mover" el instrumento para obtener los sonidos deseados.Tuve que hacer el mío especialmente porque el Sr. Moog se lo acababa de inventar, dijo Harrison en Anthology. "Era enorme, con cientos de conectores y dos teclados, pero una cosa era tener uno y la otra tratar de hacer que funcione. No había manual de instrucciones, e incluso si lo hubiera, probablemente tendría miles de páginas. No creo que ni el Sr. Moog supiera cómo hacer música con eso, continuó. Fue más una cosa técnica cuando escuchas los sonidos de canciones como Here Comes the Sun, hizo algunas cosas buenas, pero todos eran sonidos infantiles'
     },
     {
         imagen:'2788.jpg',
@@ -9795,8 +9795,8 @@ export const memorabilias2:IMemorabilia[] = [
     },
     {
         imagen:'2995.jpg',
-        titulo:'Iggy Pop y David Bowie', 
-        personas:'Iggy Pop, David Bowie',
+        titulo:'Iggy Pop', 
+        personas:'Iggy Pop',
         origen:'Facebook',
     },
     {
@@ -13154,6 +13154,177 @@ export const memorabilias2:IMemorabilia[] = [
         imagen:'3501.jpg',
         titulo:'Robert Plant',
         personas:'Robert Plant',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3502.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+        year: 1993, 
+    }, 
+    {
+        imagen:'3503.jpg',
+        titulo:'Keith Richards y Ronn Wood',
+        personas:'Keith Richards, Ronn Wood',
+        origen:'Facebook',
+        year: 1979,
+    }, 
+    {
+        imagen:'3504.jpg',
+        titulo:'Robert Plant',
+        personas:'Robert Plant',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3505.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    }, 
+    {
+        imagen:'3506.jpg',
+        titulo:'Red Hot Chili Peppers',
+        personas:'Anthony Kiedis, Flea, John Frusciante, Chad Smith',
+        origen:'Facebook',
+        grupo:'Red Hot Chili Peppers'
+    }, 
+    {
+        imagen:'3507.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+        year: 1972, 
+    }, 
+    {
+        imagen:'3508.jpg',
+        titulo:'Miles Davis',
+        personas:'Miles Davis',
+        origen:'Facebook',
+        descripcion: 'Hay una pandilla de puristas pronosticando que los instrumentos eléctricos arruinarán la música. No, señor. Lo que arruinará la música será la mala música, pero no los instrumentos que los músicos elijan tocar'
+    },        
+    {
+        imagen:'3510.jpg',
+        titulo:'The Stooges',
+        personas:'Iggy Pop, Ron Asheton, Scott Asheton, Dave Alexander',
+        origen:'Facebook',
+        grupo:'The Stooges'
+    }, 
+    {
+        imagen:'3511.jpg',
+        titulo:'Tom Waits',
+        personas:'Tom Waits',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3512.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+        year: 1972, 
+    }, 
+    {
+        imagen:'3513.jpg',
+        titulo:'Elvis Presley',
+        personas:'Elvis Presley',
+        origen:'Facebook',
+        year: 1956, 
+    }, 
+    {
+        imagen:'3514.jpg',
+        titulo:'Thin Lizzy',
+        personas:'Phil Lynott',
+        origen:'Facebook',
+        year: 1981, 
+    }, 
+    {
+        imagen:'3515.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3516.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3517.jpg',
+        titulo:'Peter Frampton, Steve Lukather, Jimmy Page, y Eddie Van Halen',
+        personas:'Peter Frampton, Steve Lukather, Jimmy Page, Eddie Van Halen',
+        origen:'Facebook',
+        year: 1993,
+    }, 
+    {
+        imagen:'3518.jpg',
+        titulo:'John Frusciante',
+        personas:'John Frusciante',
+        origen:'Facebook',
+        year: 2003,
+        grupo:'Red Hot Chili Peppers'
+    }, 
+    {
+        imagen:'3519.jpg',
+        titulo:'Anthony Kiedis',
+        personas:'Anthony Kiedis',
+        origen:'Facebook',
+        year: 2003,
+        grupo:'Red Hot Chili Peppers'
+    }, 
+    {
+        imagen:'3520.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    }, 
+    {
+        imagen:'3521.jpg',
+        titulo:'Ritchie Blackmore',
+        personas:'Ritchie Blackmore',
+        origen:'Facebook',
+        grupo:'Deep Purple',
+        year: 1974,
+    }, 
+    {
+        imagen:'3522.jpg',
+        titulo:'Iggy Pop',
+        personas:'Iggy Pop',
+        origen:'Facebook',
+        grupo:'The Stooges'
+    }, 
+    {
+        imagen:'3523.jpg',
+        titulo:'Keith Richards y Lenny Kravitz',
+        personas:'Keith Richards, Lenny Kravitz',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3524.jpg',
+        titulo:'Elvis Presley y BB King',
+        personas:'Elvis Presley, BB King',
+        origen:'Facebook',
+        year: 1957,
+    }, 
+    {
+        imagen:'3525.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+    }, 
+    {
+        imagen:'3526.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3527.jpg',
+        titulo:'Miles Davis',
+        personas:'Miles Davis',
         origen:'Facebook',
     }, 
 

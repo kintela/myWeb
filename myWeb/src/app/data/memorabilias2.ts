@@ -13327,5 +13327,33 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Miles Davis',
         origen:'Facebook',
     }, 
+    {
+        imagen:'3528.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+        year: 1963,
+        descripcion: 'David Bowie — entonces conocido como Dave Jay — en una sesión promocional de fotos de la banda en que tocaba el saxo, The Kon-rads,1963. #Bowie grabó con ellos una demo, I Never Dreamed, que la discográfica Decca rechazaría; la cinta fue hallada en un basural y vendida en subasta por 45.000€ en 2018'
+    }, 
+    {
+        imagen:'3529.jpg',
+        titulo:'Joe Satrini y Sammy Hagar',
+        personas:'Joe Satrini, Sammy Hagar',
+        origen:'Facebook',
+        year: 2024,
+    }, 
+    {
+        imagen:'3530.jpg',
+        titulo:'Scorpions',
+        personas:'Klaus Meine, Rudolf Schenker, Matthias Jabs, Pawel Maciwoda, Mikkey Dee',
+        origen:'Facebook',
+        year: 1973,
+    }, 
+    {
+        imagen:'3531.jpg',
+        titulo:'Snoop Dog y Paul McCartney',
+        personas:'Snoop Dog, Paul McCartney',
+        origen:'Facebook',
+    }, 
 
 ]

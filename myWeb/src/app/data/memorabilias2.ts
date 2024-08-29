@@ -7870,13 +7870,7 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Kurt Cobain',
         origen:'Facebook', 
         grupo:'Nirvana',
-    },
-    {
-        imagen:'2709.jpg',
-        titulo:'Willson Pickett y Duanne Allman',
-        personas:'Willson Pickett, Duanne Allman',
-        origen:'Facebook',         
-    },
+    },    
     {
         imagen:'2710.jpg',
         titulo:'Charlie Watts',
@@ -13354,6 +13348,127 @@ export const memorabilias2:IMemorabilia[] = [
         titulo:'Snoop Dog y Paul McCartney',
         personas:'Snoop Dog, Paul McCartney',
         origen:'Facebook',
+    }, 
+    {
+        imagen:'3532.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, David Lee Roth, Michael Anthony, Alex Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3532.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3534.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, David Lee Roth, Michael Anthony',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3535.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, David Lee Roth, Michael Anthony, Alex Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3536.jpg',
+        titulo:'Eddie Van Halen con invitados',
+        personas:'Eddie Van Halen, invitado',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3537.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3538.jpg',
+        titulo:'David Lee Roth',
+        personas:'David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3539.jpg',
+        titulo:'Eddie Van Halen y Michael Anthony',
+        personas:'Eddie Van Halen, Michael Anthony',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3540.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, David Lee Roth, Michael Anthony, Alex Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3541.jpg',
+        titulo:'David Byrne y Andy Warhol',
+        personas:'David Byrne, Andy Warhol',
+        origen:'Facebook',
+        year:1978
+    }, 
+    {
+        imagen:'3542.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3543.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3544.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3545.jpg',
+        titulo:'Mick Jagguer y Peter Tosh',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+        year:1978
+    }, 
+    {
+        imagen:'3546.jpg',
+        titulo:'Keith Richards y Charlie Watts',
+        personas:'Keith Richards, Charlie Watts',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3547.jpg',
+        titulo:'Keith Richards y Charlie Watts',
+        personas:'Keith Richards, Charlie Watts',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3548.jpg',
+        titulo:'Wilson Pickett y Jimi Hendrix',
+        personas:'Wilson Pickett, Jimi Hendrix',
+        origen:'Facebook',
+        year:1966
+    }, 
+    {
+        imagen:'3549.jpg',
+        titulo:'Carly Simon y Steven Tyler',
+        personas:'Carly Simon, Steven Tyler',
+        origen:'Facebook',
+        year:1979
     }, 
 
 ]

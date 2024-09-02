@@ -13470,5 +13470,203 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         year:1979
     }, 
+    {
+        imagen:'3550.jpg',
+        titulo:'Glen Matlock y Johnny Rotten',
+        personas:'Glen Matlock, Johnny Rotten',
+        origen:'Facebook',
+        year:1976,
+        grupo:'Sex Pistols',    
+        descripcion: 'Glen Matlock y Johnny Rotten tocando en la fiesta por San Valentín en el estudio de Andrew Logan, Butlers Wharf (Londres), 14 de febrero de 1976. Según Jon Savage, editor de NME, Lydon había tomado tres dosis de ácido'
+    }, 
+    {
+        imagen:'3551.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',        
+    }, 
+    {
+        imagen:'3552.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',        
+    }, 
+    {
+        imagen:'3553.jpg',
+        titulo:'Keith Richards y Ronnie Wood',
+        personas:'Keith Richards, Ronnie Wood',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',        
+    }, 
+    {
+        imagen:'3554.jpg',
+        titulo:'Jack White',
+        personas:'Jack White',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3555.jpg',
+        titulo:'Jack White',
+        personas:'Jack White',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3556.jpg',
+        titulo:'Rozalen en Albacete',
+        personas:'Rozalen',
+        origen:'Facebook',
+        year:2024
+    }, 
+    {
+        imagen:'3557.jpg',
+        titulo:'Rozalen en Albacete',
+        personas:'Rozalen',
+        origen:'Facebook',
+        year:2024
+    }, 
+    {
+        imagen:'3558.jpg',
+        titulo:'Rozalen en Albacete',
+        personas:'Rozalen',
+        origen:'Facebook',
+        year:2024
+    }, 
+    {
+        imagen:'3559.jpg',
+        titulo:'Rozalen en Albacete',
+        personas:'Rozalen',
+        origen:'Facebook',
+        year:2024
+    }, 
+    {
+        imagen:'3560.jpg',
+        titulo:'Rozalen en Albacete',
+        personas:'Rozalen',
+        origen:'Facebook',
+        year:2024
+    }, 
+    {
+        imagen:'3561.jpg',
+        titulo:'Rozalen en Albacete',
+        personas:'Rozalen',
+        origen:'Facebook',
+        year:2024
+    }, 
+    {
+        imagen:'3562.jpg',
+        titulo:'The Police',
+        personas:'Sting, Stewart Copeland, Andy Summers',
+        origen:'Facebook',
+        grupo:'The Police',
+        year:1983
+    }, 
+    {
+        imagen:'3563.jpg',
+        titulo:'Paul McCartney y John Lennon',
+        personas:'Paul McCartney, John Lennon',
+        origen:'Facebook',
+        grupo:'The Beatles',
+        year:1963
+    }, 
+    {
+        imagen:'3564.jpg',
+        titulo:'Jack White',
+        personas:'Jack White',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3565.jpg',
+        titulo:'Jack White',
+        personas:'Jack White',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3566.jpg',
+        titulo:'Jack White',
+        personas:'Jack White',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3567.jpg',
+        titulo:'David Bowie, Mick Taylor y Carlos Alomar',
+        personas:'David Bowie, Mick Taylor, Carlos Alomar',
+        origen:'Facebook',
+        year:1983
+    }, 
+    {
+        imagen:'3568.jpg',
+        titulo:'PJ Harvey',
+        personas:'PJ Harvey',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3569.jpg',
+        titulo:'AC/DC',
+        personas:'Angus Young, Malcolm Young, Bon Scott, Phil Rudd',
+        origen:'Facebook',
+        grupo:'AC/DC',
+        year:1974
+    }, 
+    {
+        imagen:'3570.jpg',
+        titulo:'Johnny Winter',
+        personas:'Johnny Winter',
+        origen:'Facebook',
+        categoria:'Blues'
+    }, 
+    {
+        imagen:'3571.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook',
+        grupo:'Nirvana'
+    }, 
+    {
+        imagen:'3572.jpg',
+        titulo:'Pattie Smith',
+        personas:'Pattie Smith',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3573.jpg',
+        titulo:'Pattie Smith',
+        personas:'Pattie Smith',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3574.jpg',
+        titulo:'George Harrison y Madonna',
+        personas:'George Harrison, Madonna',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3575.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie ray Vaughan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3576.jpg',
+        titulo:'Scorpions',
+        personas:'Klaus Maine, Rudolf Schenker, Mattias Jabs, Pawel Maciwoda, Mikkey Dee',
+        origen:'Facebook',
+        grupo:'Scorpions'
+    },
+    {
+        imagen:'3577.jpg',
+        titulo:'Joe Strummer',
+        personas:'Joe Strummer',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3578.jpg',
+        titulo:'Steve Harris',
+        personas:'Steve Harris',
+        origen:'Facebook',
+        grupo:'Iron Maiden'
+    },
+    
 
 ]

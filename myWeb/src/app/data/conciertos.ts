@@ -1115,7 +1115,7 @@ export const conciertos:IConcierto[]=[
     {
         fecha: new Date(Date.UTC(2002, 10, 20)),
         ciudad: 'Bilbao',
-        sala:'Pabelloón de la casilla',
+        sala:'Pabellón de la casilla',
         grupo: 'Oasis',
         entrada: "entradas/12.jpg",   
     },

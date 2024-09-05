@@ -13667,6 +13667,179 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'Iron Maiden'
     },
-    
+    {
+        imagen:'3579.jpg',
+        titulo:'Noel Gallagher y Bono',
+        personas:'Noel Gallagher, Bono',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3580.jpg',
+        titulo:'Patti Smith, Iggy Pop y James Williamson de The Stooges',
+        personas:'Patti Smith, Iggy Pop, James Williamson',
+        origen:'Facebook',
+        descripcion: 'En noviembre de 1974, entre bastidores en el  Whisky a Go Go de Los Ángeles',
+        year:1974
+    },
+    {
+        imagen:'3581.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+        year:1962
+    },
+    {
+        imagen:'3582.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+        year:1962
+    },
+    {
+        imagen:'3583.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+        year:1962
+    },
+    {
+        imagen:'3584.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+        year:1962
+    },
+    {
+        imagen:'3585.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+        year:1962
+    },
+    {
+        imagen:'3586.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+        year:1962
+    },
+    {
+        imagen:'3587.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+        year:1962
+    },
+    {
+        imagen:'3588.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3588.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3589.jpg',
+        titulo:'Albert King, BB King, Eric Clapton y Stevie Ray Vaughan',
+        personas:'Albert King, BB King, Eric Clapton, Stevie Ray Vaughan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3590.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3591.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3592.jpg',
+        titulo:'George Harrison y Eric Clapton',
+        personas:'George Harrison, Eric Clapton',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3593.jpg',
+        titulo:'George Harrison y Eric Clapton',
+        personas:'George Harrison, Eric Clapton',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3594.jpg',
+        titulo:'Steve Jones y Sid Vicious',
+        personas:'Steve Jones, Sid Vicious',
+        origen:'Facebook',
+        grupo:'Sex Pistols'
+    },
+    {
+        imagen:'3595.jpg',
+        titulo:'Jack White',
+        personas:'Jack White',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3596.jpg',
+        titulo:'Mick Jones',
+        personas:'Mick Jones',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3597.jpg',
+        titulo:'Sex Pistols',
+        personas:'Johnny Rotten, Steve Jones, Glen Matlock, Paul Cook',
+        origen:'Facebook',
+        grupo:'Sex Pistols'
+    },
+    {
+        imagen:'3598.jpg',
+        titulo:'Mick Jagger',
+        personas:'Mick Jagger',
+        origen:'Facebook',
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'3599.jpg',
+        titulo:'Mick Jagger y Keith Richards',
+        personas:'Mick Jagger, Keith Richards',
+        origen:'Facebook',
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'3600.jpg',
+        titulo:'Mick Jagger',
+        personas:'Mick Jagger',
+        origen:'Facebook',
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'3601.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger, Keith Richards, Mick Taylor, Bobby Keys',
+        origen:'Facebook',
+        grupo:'The Rolling Stones'
+    },
+    {
+        imagen:'3602.jpg',
+        titulo:'Siouxsie & Robert Smith',
+        personas:'Siouxsie, Robert Smith',
+        origen:'Facebook',
+        descripcion: 'Tocando junto a The Banshees en el  Hammersmith Odeon, 28 de Diciembre de 1982',
+        year:1982
+    },
 
 ]

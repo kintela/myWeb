@@ -13841,5 +13841,130 @@ export const memorabilias2:IMemorabilia[] = [
         descripcion: 'Tocando junto a The Banshees en el  Hammersmith Odeon, 28 de Diciembre de 1982',
         year:1982
     },
+    {
+        imagen:'3603.jpg',
+        titulo:'Lou Reed',
+        personas:'Lou Reed',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3604.jpg',
+        titulo:'John Lennon y David Bowie',
+        personas:'John Lennon, David Bowie',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3605.jpg',
+        titulo:'Chrissie Hynde',
+        personas:'Chrissie Hynde',
+        origen:'Facebook',
+        year:1976
+    },
+    {
+        imagen:'3606.jpg',
+        titulo:'Chett Baker',
+        personas:'Chett Baker',
+        origen:'Facebook',
+        descripcion: 'la última foto de Chet Baker. Rotterdam, Mayo 1988',
+        year:1988
+    },
+    {
+        imagen:'3607.jpg',
+        titulo:'Amy Winehouse disney',
+        personas:'Amy Winehouse',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3608.jpg',
+        titulo:'Slash disney',
+        personas:'Slash',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3609.jpg',
+        titulo:'Axl Rose disney',
+        personas:'Axl Rose',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3610.jpg',
+        titulo:'Ringo Starr disney',
+        personas:'Ringo Starr',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3611.jpg',
+        titulo:'Flea disney',
+        personas:'Flea',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3612.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3613.jpg',
+        titulo:'James Brown',
+        personas:'James Brown',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3614.jpg',
+        titulo:'Debbie Harry',
+        personas:'Debbie Harry',
+        origen:'Facebook',
+        year:1980
+    },
+     {
+        imagen:'3615.jpg',
+        titulo:'Joe Cocker, Jimmy Page, Charlie Watts, Paul Rodgers, Jeff Beck, Eric Clapton, Bill Wyman',
+        personas:'Joe Cocker, Jimmy Page, Charlie Watts, Paul Rodgers, Jeff Beck, Eric Clapton, Bill Wyman',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3616.jpg',
+        titulo:'Debbie Harry',
+        personas:'Debbie Harry',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3617.jpg',
+        titulo:'Kim Deal',
+        personas:'Kim Deal',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3618.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+    },
+     {
+        imagen:'3619.jpg',
+        titulo:'John Lennon y George Harrison',
+        personas:'John Lennon, George Harrison',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3620.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3621.jpg',
+        titulo:'Iggy Pop',
+        personas:'Iggy Pop',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3622.jpg',
+        titulo:'Bruce Springsteen',
+        personas:'Bruce Springsteen',
+        origen:'Facebook',
+    },
+
 
 ]

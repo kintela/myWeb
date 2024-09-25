@@ -8,8 +8,9 @@ import { RecetasService } from '../services/recetas.service';
 import { CategoriaDTO } from '../data/DTOs/categoriaDTO';
 import { RecetaDTO } from '../data/DTOs/recetaDTO';
 import { MenuSemanalDTO } from '../data/DTOs/menuSemanalDTO';
-import { MenuSemanalService } from '../services/menusemanal.service';
+import { MenuSemanalService } from '../services/menuSemanal.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { forkJoin, map } from 'rxjs';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -34,6 +35,7 @@ export class PlanificadorMenusComponent implements OnInit{
   platoEliminado:PlatoEliminadoEvent;
   listaCompra: IListaCompra;
   listaCompraAcumulada: IListaCompra[]=[]; 
+  menuSemanal:MenuSemanalDTO;
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];  
 
@@ -60,7 +62,7 @@ export class PlanificadorMenusComponent implements OnInit{
 
 
   constructor(private dialog: MatDialog, private recetasService:RecetasService, private menuSemanalService:MenuSemanalService,
-    private snackBar: MatSnackBar
+    private snackBar: MatSnackBar, private recetaService:RecetasService
   ) { }
 
   ngOnInit(): void {    
@@ -88,6 +90,86 @@ export class PlanificadorMenusComponent implements OnInit{
         this.filtrarPlatos();
       },err=>console.error(err),
       ()=>{}
+    );
+
+    this.menuSemanalService.getMenuSemanalActual(1).subscribe(
+      data => {
+        this.menuSemanal = data;
+        console.log("Menu Semanal Actual", this.menuSemanal);
+    
+        const recetaIdMapping = [];
+        const dias = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
+    
+        // Ensure that menuSemanal has at least one element
+        if (this.menuSemanal) {
+          const menu = this.menuSemanal[0]; // Access the first element of the array
+    
+          // Extract recetaIds for 'Comida' (Lunch)
+          dias.forEach(dia => {
+            const primerPlatoId = menu[`recetaPrimerPlato${dia}`];
+            const segundoPlatoId = menu[`recetaSegundoPlato${dia}`];
+    
+            if (primerPlatoId) {
+              recetaIdMapping.push({
+                dia: dia.toLowerCase(),
+                tipo: 'Comida',
+                plato: 'primerPlato',
+                recetaId: primerPlatoId,
+              });
+            }
+            if (segundoPlatoId) {
+              recetaIdMapping.push({
+                dia: dia.toLowerCase(),
+                tipo: 'Comida',
+                plato: 'segundoPlato',
+                recetaId: segundoPlatoId,
+              });
+            }
+          });
+    
+          // Extract recetaIds for 'Cena' (Dinner)
+          dias.forEach(dia => {
+            const cenaId = menu[`recetaCena${dia}`];
+    
+            if (cenaId) {
+              recetaIdMapping.push({
+                dia: dia.toLowerCase(),
+                tipo: 'Cena',
+                plato: 'platoUnico',
+                recetaId: cenaId,
+              });
+            }
+          });
+    
+          // Fetch all recipes concurrently
+          const observables = recetaIdMapping.map(mapping =>
+            this.recetaService.getRecetasById(mapping.recetaId).pipe(
+              map(receta => ({
+                ...mapping,
+                receta, // Assuming the recipe is the first element
+              }))
+            )
+          );
+    
+          // Wait for all recipe requests to complete
+          forkJoin(observables).subscribe(results => {
+            results.forEach(result => {
+              const { dia, tipo, plato, receta } = result;
+              const dataSourceEntry = this.dataSource.find(entry => entry.tipo === tipo);
+    
+              if (dataSourceEntry && dataSourceEntry[dia]) {
+                dataSourceEntry[dia][plato] = receta;
+              }
+            });
+    
+            // Now the dataSource is updated with the recipes
+            console.log("Updated dataSource:", this.dataSource);
+          });
+        } else {
+          console.error('menuSemanal is empty or undefined');
+        }
+      },
+      err => console.error(err)
     );
 
     

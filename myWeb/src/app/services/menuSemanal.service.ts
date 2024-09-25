@@ -31,6 +31,13 @@ export class MenuSemanalService {
       catchError(this.handleError)
     );
   }
+
+  getMenuSemanalActual(usuarioId:number): Observable<MenuSemanalDTO> {
+    return this.http.get<MenuSemanalDTO>(`${this.comunService.urlWebApi}/MenuSemanal`)
+      .pipe(
+        catchError(this.handleError)
+      );
+  }
   
 
 

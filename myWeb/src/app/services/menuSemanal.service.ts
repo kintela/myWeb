@@ -11,12 +11,28 @@ export class MenuSemanalService {
 
   constructor(private comunService:ComunService, private http: HttpClient) { }
 
+  verificarMenuExistente(usuarioId: number, fecha: string) {
+    return this.http.get<boolean>(`${this.comunService.urlWebApi}/MenuSemanal/exists?usuarioId=${usuarioId}&fecha=${fecha}`)
+    .pipe(
+      catchError(this.handleError)
+    );
+  }
+
   enviarMenuSemanal(menuSemanal: MenuSemanalDTO): Observable<MenuSemanalDTO> {
     return this.http.post<MenuSemanalDTO>(`${this.comunService.urlWebApi}/MenuSemanal`, menuSemanal)
       .pipe(
         catchError(this.handleError)
       );
   }
+
+  actualizarMenuSemanal(menuSemanalDTO: MenuSemanalDTO): Observable<MenuSemanalDTO> {
+    return this.http.put<MenuSemanalDTO>(`${this.comunService.urlWebApi}/MenuSemanal?usuarioId=${menuSemanalDTO.usuarioId}&fecha=${menuSemanalDTO.fechaCreacion}`, menuSemanalDTO)
+    .pipe(
+      catchError(this.handleError)
+    );
+  }
+  
+
 
   private handleError(err: HttpErrorResponse) {
     let errorMessage = '';

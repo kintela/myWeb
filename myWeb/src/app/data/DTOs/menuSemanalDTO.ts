@@ -1,6 +1,6 @@
 export interface MenuSemanalDTO {
-    usuarioId: number;
     //menuSemanalId: number;  
+    usuarioId: number;    
     fechaCreacion: string;
     recetaPrimerPlatoLunes:number;
     recetaSegundoPlatoLunes:number;

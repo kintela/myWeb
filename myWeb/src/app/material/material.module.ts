@@ -17,6 +17,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [],
@@ -40,7 +41,8 @@ import { MatChipsModule } from '@angular/material/chips';
     MatGridListModule,
     MatRadioModule,
     MatBadgeModule,
-    MatChipsModule
+    MatChipsModule,
+    MatSnackBarModule
   ]
 })
 export class MaterialModule { }

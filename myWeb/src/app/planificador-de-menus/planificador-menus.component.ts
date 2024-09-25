@@ -9,6 +9,7 @@ import { CategoriaDTO } from '../data/DTOs/categoriaDTO';
 import { RecetaDTO } from '../data/DTOs/recetaDTO';
 import { MenuSemanalDTO } from '../data/DTOs/menuSemanalDTO';
 import { MenuSemanalService } from '../services/menusemanal.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -58,7 +59,9 @@ export class PlanificadorMenusComponent implements OnInit{
   
 
 
-  constructor(private dialog: MatDialog, private recetasService:RecetasService, private menuSemanalService:MenuSemanalService) { }
+  constructor(private dialog: MatDialog, private recetasService:RecetasService, private menuSemanalService:MenuSemanalService,
+    private snackBar: MatSnackBar
+  ) { }
 
   ngOnInit(): void {    
     this.recetasService.getCategoriasRecetas().subscribe(
@@ -146,12 +149,36 @@ export class PlanificadorMenusComponent implements OnInit{
 
     console.log('Menu semanal a enviar:', menuSemanalDTO);
 
-    this.menuSemanalService.enviarMenuSemanal(menuSemanalDTO)
+    this.menuSemanalService.verificarMenuExistente(menuSemanalDTO.usuarioId, menuSemanalDTO.fechaCreacion)
       .subscribe(
-        data=>{
-          console.log('Menu semanal enviado con éxito', data);
-        },err=>console.error('Error enviando el menú semanal',err),
-        ()=>{}
+        existe => {
+          if (existe) {
+            // Si el menú ya existe, hacer una solicitud PUT
+            this.menuSemanalService.actualizarMenuSemanal(menuSemanalDTO)
+              .subscribe(
+                data => {
+                  console.log('Menú semanal actualizado con éxito', data);
+                  this.snackBar.open('El menú se ha actualizado correctamente.', 'Cerrar', {
+                    duration: 3000, // Duración en milisegundos
+                  });
+                },
+                err => console.error('Error actualizando el menú semanal', err)
+              );
+          } else {
+            // Si el menú no existe, hacer una solicitud POST
+            this.menuSemanalService.enviarMenuSemanal(menuSemanalDTO)
+              .subscribe(
+                data => {
+                  console.log('Menú semanal enviado con éxito', data);
+                  this.snackBar.open('El menú se ha guardado correctamente.', 'Cerrar', {
+                    duration: 3000, // Duración en milisegundos
+                  });
+                },
+                err => console.error('Error enviando el menú semanal', err)
+              );
+          }
+        },
+        err => console.error('Error verificando la existencia del menú', err)
       );
   }
 

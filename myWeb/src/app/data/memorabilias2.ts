@@ -13965,6 +13965,219 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Bruce Springsteen',
         origen:'Facebook',
     },
-
+    {
+        imagen:'3623.jpg',
+        titulo:'Van Halen y Alice in chains',
+        personas:'Eddie Van Halen, Jerry Cantrell, Sammy Hagar, Mike Inez, Alex Van Halen, Layne Staley, Michael Anthony, Sean Kinney',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3624.jpg',
+        titulo:'Enrique Morente y Leonard Cohen',
+        personas:'Enrique Morente, Leonard Cohen',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3625.jpg',
+        titulo:'Janis Joplin',
+        personas:'Janis Joplin',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3626.jpg',
+        titulo:'Trent Reznor',
+        personas:'Trent Reznor',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3627.jpg',
+        titulo:'Trent Reznor',
+        personas:'Trent Reznor',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3628.jpg',
+        titulo:'Jimmy Page y Steven Tyler',
+        personas:'Jimmy Page, Steven Tyler',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3629.jpg',
+        titulo:'Stevie Nicks',
+        personas:'Stevie Nicks',
+        origen:'Facebook',
+        grupo:'Fleetwood Mac',
+        year:1975
+    },
+    {
+        imagen:'3630.jpg',
+        titulo:'Janis Joplin',
+        personas:'Janis Joplin',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3631.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3632.jpg',
+        titulo:'Sisters of Mercy',
+        personas:'Andrew Eldritch, Patricia Morrison',
+        origen:'Facebook',
+        grupo:'Sisters of Mercy'   
+    },
+    {
+        imagen:'3633.jpg',
+        titulo:'Whitesnake',
+        personas:'David Coverdale, Steve Vai, Rudy Sarzo, Tommy Aldridge',
+        origen:'Facebook',
+        grupo:'Whitesnake'
+    },
+    {
+        imagen:'3634.jpg',
+        titulo:'David Coverdale',
+        personas:'David Coverdale',
+        origen:'Facebook',
+        grupo:'Whitesnake'
+    },
+    {
+        imagen:'3635.jpg',
+        titulo:'David Coverdale',
+        personas:'David Coverdale',
+        origen:'Facebook',
+        grupo:'Whitesnake'
+    },
+    {
+        imagen:'3636.jpg',
+        titulo:'John Cale',
+        personas:'John Cale',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3637.jpg',
+        titulo:'Steve Vai',
+        personas:'Steve Vai',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3638.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'3639.jpg',
+        titulo:'Kiss',
+        personas:'Gene Simmons, Paul Stanley, Eric Carr, Vinnie Vincent',
+        origen:'Facebook',
+        grupo:'Kiss',
+        year:1983
+    },
+    {
+        imagen:'3640.jpg',
+        titulo:'Steve Vai y Nuno Bettencourt',
+        personas:'Steve Vai, Nuno Bettencourt',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3641.jpg',
+        titulo:'The Clash',
+        personas:'Paul Simonon, Topper Headon',
+        origen:'Facebook',
+        grupo:'The Clash',
+    },
+    {
+        imagen:'3642.jpg',
+        titulo:'Pete Townshend y Keith Moon',
+        personas:'Pete Townshend, Keith Moon',
+        origen:'Facebook',
+        grupo:'The Who',
+        year:1974
+    },
+    {
+        imagen:'3643.jpg',
+        titulo:'Sex Pistols',
+        personas:'Johnny Rotten, Steve Jones, Sid Vicious, Paul Cook',
+        origen:'Facebook',
+        grupo:'Sex Pistols',
+        year:1977
+    },
+    {
+        imagen:'3644.jpg',
+        titulo:'Madonna',
+        personas:'Madonna',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3645.jpg',
+        titulo:'David Bowie y Axl Rose',
+        personas:'David Bowie, Axl Rose',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3646.jpg',
+        titulo:'Joaquin Sabina',
+        personas:'Joaquin Sabina',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3647.jpg',
+        titulo:'John Lennon',
+        personas:'John Lennon',
+        origen:'Facebook',
+        grupo:'The Beatles',
+    },
+    {
+        imagen:'3648.jpg',
+        titulo:'Paul McCartney',
+        personas:'Paul McCartney',
+        origen:'Facebook',
+        grupo:'The Beatles',
+    },
+    {
+        imagen:'3649.jpg',
+        titulo:'Nirvana',
+        personas:'Kurt Cobain, Dave Grohl, Krist Novoselic',
+        origen:'Facebook',
+        grupo:'Nirvana',
+    },
+    {
+        imagen:'3650.jpg',
+        titulo:'The Clash',
+        personas:'Joe Strummer, Paul Simonon',
+        origen:'Facebook',
+        grupo:'The Clash',
+        year:1977
+    },
+    {
+        imagen:'3651.jpg',
+        titulo:'Joe Cocker',
+        personas:'Joe Cocker',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3652.jpg',
+        titulo:'Gene Simmons',
+        personas:'Gene Simmons',
+        origen:'Facebook',
+        grupo:'Kiss',
+        year:1975
+    },
+    {
+        imagen:'3653.jpg',
+        titulo:'Jimmy Page y John Bonham',
+        personas:'Jimmy Page, John Bonham',
+        origen:'Facebook',
+        grupo:'Led Zeppelin',
+    },
+    {
+        imagen:'3654.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook',
+    },
 
 ]

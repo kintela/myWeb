@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { ComunService } from './comun.service';
 import { MenuSemanalDTO } from '../data/DTOs/menuSemanalDTO';
 import { catchError, Observable, throwError } from 'rxjs';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -26,7 +26,11 @@ export class MenuSemanalService {
   }
 
   actualizarMenuSemanal(menuSemanalDTO: MenuSemanalDTO): Observable<MenuSemanalDTO> {
-    return this.http.put<MenuSemanalDTO>(`${this.comunService.urlWebApi}/MenuSemanal?usuarioId=${menuSemanalDTO.usuarioId}&fecha=${menuSemanalDTO.fechaCreacion}`, menuSemanalDTO)
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json'
+    });
+
+    return this.http.put<MenuSemanalDTO>(`${this.comunService.urlWebApi}/MenuSemanal/${menuSemanalDTO.usuarioId}/${menuSemanalDTO.fechaCreacion}`, menuSemanalDTO, {headers})
     .pipe(
       catchError(this.handleError)
     );

@@ -37,7 +37,7 @@ export class MenuSemanalService {
   }
 
   getMenuSemanalActual(usuarioId:number): Observable<MenuSemanalDTO> {
-    return this.http.get<MenuSemanalDTO>(`${this.comunService.urlWebApi}/MenuSemanal`)
+    return this.http.get<MenuSemanalDTO>(`${this.comunService.urlWebApi}/MenuSemanal/currentWeek/${usuarioId}`)
       .pipe(
         catchError(this.handleError)
       );
@@ -52,7 +52,10 @@ export class MenuSemanalService {
       errorMessage = `An error occurred: ${err.error.message}`;
     } else {
       // The backend returned an unsuccessful response code.
-      // The response body may contain clues as to what went wrong,
+      if (err.status === 404) {
+        // Return an empty result or a specific value indicating no data found
+        return throwError('No se ha encontrado ningún registro.');
+      }
       errorMessage = `Server returned code: ${err.status}, error message is: ${err.message}`;
     }
     console.error(errorMessage);

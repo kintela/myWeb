@@ -167,9 +167,18 @@ export class PlanificadorMenusComponent implements OnInit{
           });
         } else {
           console.error('menuSemanal is empty or undefined');
+          
         }
       },
-      err => console.error(err)
+      err =>{
+        if (err === 'No se ha encontrado ningún registro.') {
+          this.snackBar.open('No hay ningún menu cargado para esta semana.', 'Cerrar', {
+            duration: 3000,
+          });
+        } else {
+          console.error(err);
+        }
+      }
     );
 
     
@@ -323,6 +332,21 @@ export class PlanificadorMenusComponent implements OnInit{
     // Este paso es necesario si estás utilizando la detección de cambios predeterminada
     // Actualiza el dataSource para asegurar que los cambios se reflejen en la vista
     this.dataSource = [...this.dataSource];
+
+    // Actualizar el registro en la base de datos
+    const menuSemanalDTO = this.convertirDataSourceAMenuSemanalDTO(this.dataSource);
+    this.menuSemanalService.actualizarMenuSemanal(menuSemanalDTO).subscribe(
+      response => {
+        console.log('Receta eliminada del menú semanal', response);
+        this.snackBar.open('Receta eliminada del menú semanal.', 'Cerrar', {
+          duration: 3000, 
+        });
+      },
+      error => {
+        console.error('Error al eliminar la receta del menú semanal', error);
+      }
+    );
+
   }
   
   mostrarListaCompra(item: IListaCompra) {
@@ -352,6 +376,21 @@ export class PlanificadorMenusComponent implements OnInit{
       console.log('El diálogo fue cerrado');
       // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
     });
+  }
+
+  convertirDataSourceAMenuSemanalDTO(dataSource): MenuSemanalDTO {
+    const menuSemanalDTO = new MenuSemanalDTO();
+    dataSource.forEach(dia => {
+      ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'].forEach(d => {
+        if (dia.tipo === 'Comida') {
+          menuSemanalDTO[`recetaPrimerPlato${d.charAt(0).toUpperCase() + d.slice(1)}`] = dia[d].primerPlato ? dia[d].primerPlato.id : null;
+          menuSemanalDTO[`recetaSegundoPlato${d.charAt(0).toUpperCase() + d.slice(1)}`] = dia[d].segundoPlato ? dia[d].segundoPlato.id : null;
+        } else if (dia.tipo === 'Cena') {
+          menuSemanalDTO[`recetaCena${d.charAt(0).toUpperCase() + d.slice(1)}`] = dia[d].platoUnico ? dia[d].platoUnico.id : null;
+        }
+      });
+    });
+    return menuSemanalDTO;
   }
   
   

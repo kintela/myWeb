@@ -1,4 +1,4 @@
-export interface MenuSemanalDTO {
+export class MenuSemanalDTO {
     //menuSemanalId: number;  
     usuarioId: number;    
     fechaCreacion: string;

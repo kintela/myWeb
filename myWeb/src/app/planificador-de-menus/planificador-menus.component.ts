@@ -11,6 +11,7 @@ import { MenuSemanalDTO } from '../data/DTOs/menuSemanalDTO';
 import { MenuSemanalService } from '../services/menuSemanal.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { forkJoin, map } from 'rxjs';
+import { ConfirmDialogComponent } from '../shared/confirmdialog/confirmdialog.component';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -68,7 +69,7 @@ export class PlanificadorMenusComponent implements OnInit{
   ngOnInit(): void {    
     this.recetasService.getCategoriasRecetas().subscribe(
       data=>{
-        console.log("categorias",data);
+        //console.log("categorias",data);
         this.categorias = data;
         const todasCategoria: CategoriaDTO = { categoriaId: 0, nombre: 'Todas' };
         this.categorias.push(todasCategoria);
@@ -82,7 +83,7 @@ export class PlanificadorMenusComponent implements OnInit{
     this.recetasService.getRecetas().subscribe(
       data=>{      
         this.recetas = data;
-        console.log("Recetas",this.recetas);
+        //console.log("Recetas",this.recetas);
 
         const todasReceta: RecetaDTO = { recetaId: 0, nombre: 'Todos', ingredientes: [], preparacion: [], presentacion: [], enlaceVideo: '', imagen: '' };
         this.recetas.push(todasReceta);
@@ -102,7 +103,7 @@ export class PlanificadorMenusComponent implements OnInit{
     
         // Ensure that menuSemanal has at least one element
         if (this.menuSemanal) {
-          const menu = this.menuSemanal[0]; // Access the first element of the array
+          const menu = this.menuSemanal;
     
           // Extract recetaIds for 'Comida' (Lunch)
           dias.forEach(dia => {
@@ -312,9 +313,44 @@ export class PlanificadorMenusComponent implements OnInit{
     this.platoParaReceta = plato;
   }
 
-  
-
   eliminarPlato(evento: PlatoEliminadoEvent) {
+    const dialogRef = this.dialog.open(ConfirmDialogComponent);
+  
+    dialogRef.afterClosed().subscribe(result => {
+      if (result) {
+        // Asegúrate de que la estructura de los datos sea la esperada
+        let dia = this.dataSource.find(d => d.tipo === evento.tipo);
+        if (dia && dia[evento.dia] && dia[evento.dia][evento.orden] === evento.plato) {
+          dia[evento.dia][evento.orden] = null;
+        }
+  
+        // Si se eliminó el plato que estaba siendo usado para la receta, elimina la referencia
+        if (this.platoParaReceta === evento.plato) {
+          this.platoParaReceta = null;
+        }
+  
+        // Este paso es necesario si estás utilizando la detección de cambios predeterminada
+        // Actualiza el dataSource para asegurar que los cambios se reflejen en la vista
+        this.dataSource = [...this.dataSource];
+  
+        // Actualizar el registro en la base de datos
+        const menuSemanalDTO = this.convertirDataSourceAMenuSemanalDTO(this.dataSource);
+        this.menuSemanalService.actualizarMenuSemanal(menuSemanalDTO).subscribe(
+          response => {
+            console.log('Receta eliminada del menú semanal', response);
+            this.snackBar.open('Receta eliminada del menú semanal.', 'Cerrar', {
+              duration: 3000, 
+            });
+          },
+          error => {
+            console.error('Error al eliminar la receta del menú semanal', error);
+          }
+        );
+      }
+    });
+  }
+
+  eliminarPlatoOLD(evento: PlatoEliminadoEvent) {
     console.log(evento);
     // Accede a la propiedad específica usando el día y el tipo
     let dia = this.dataSource.find(d => d.tipo === evento.tipo);

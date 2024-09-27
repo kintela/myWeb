@@ -33,59 +33,6 @@
     </button>             
 </div>
 
-<!--<div class="calendario">  
-  <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
-    <ng-container matColumnDef="{{column}}" *ngFor="let column of displayedColumns">
-      <mat-header-cell *matHeaderCellDef> {{column}} </mat-header-cell>
-      <mat-cell *matCellDef="let element">
-        <ng-container *ngIf="column === 'tipo'">
-          {{ element[column] }}
-        </ng-container>
-
-        <ng-container *ngIf="column !== 'tipo'">
-          <button mat-raised-button *ngIf="!element[column]?.primerPlato" 
-            (click)="seleccionarPlato(element, column, 'primerPlato')" 
-            [disabled]="!platoSeleccionado">Primero
-          </button>
-          <app-ficha-plato *ngIf="element[column]?.primerPlato" 
-            [plato]="element[column].primerPlato" 
-            [dia]="column" 
-            [tipo]="element['tipo']" 
-            [orden]="'primerPlato'"
-            (platoParaReceta)="mostrarFichaReceta($event)" 
-            (platoEliminado)="eliminarPlato($event, 'primerPlato')">
-          </app-ficha-plato>
-
-          <button mat-raised-button *ngIf="!element[column]?.segundoPlato"
-            (click)="seleccionarPlato(element, column, 'segundoPlato')" 
-            [disabled]="!platoSeleccionado">Segundo
-          </button>
-          <app-ficha-plato *ngIf="element[column]?.segundoPlato" 
-            [plato]="element[column].segundoPlato" 
-            [dia]="column" [tipo]="element['tipo']" 
-            [orden]="'segundoPlato'"
-            (platoParaReceta)="mostrarFichaReceta($event)" 
-            (platoEliminado)="eliminarPlato($event, 'segundoPlato')">
-          </app-ficha-plato>         
-        </ng-container>
-      </mat-cell>
-    </ng-container>
-  
-    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
-  </mat-table>
-  
- 
-  
-  <button mat-raised-button  
-    (click)="guardarDataSource()" 
-    color="primary" 
-    [disabled]="!hayDatosParaGuardar()"
-    class="boton-guardar"
-  >Guardar Datos
-  </button>
-</div>-->
-
 <div class="calendario">  
   <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
     <ng-container matColumnDef="{{column}}" *ngFor="let column of displayedColumns">

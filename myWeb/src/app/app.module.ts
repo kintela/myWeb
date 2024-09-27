@@ -59,6 +59,8 @@ import { CronologiaComponent } from './music/cronologia/cronologia.component';
 import { FilterYearPipe } from './pipes/filterYear.pipe';
 import { FlowisechatbotComponent } from './shared/flowisechatbot/flowisechatbot.component';
 import { FormularioCategoriaComponent } from './planificador-de-menus/formulario-categoria/formulario-categoria.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ConfirmDialogComponent } from './shared/confirmdialog/confirmdialog.component';
 
 
 
@@ -108,7 +110,9 @@ registerLocaleData(localeEs);
     TruncatePipe, FilterYearPipe,
     TracksComponent, YoutubeComponent, 
     PlanificadorMenusComponent, 
-    FichaPlatoComponent, FichaRecetaComponent, ListaCompraComponent, FormularioRecetaComponent, CronologiaComponent, FlowisechatbotComponent, FormularioCategoriaComponent     
+    FichaPlatoComponent, FichaRecetaComponent, ListaCompraComponent, FormularioRecetaComponent, CronologiaComponent, FlowisechatbotComponent, 
+    FormularioCategoriaComponent,
+    ConfirmDialogComponent   
   ],
   imports: [
     BrowserModule,
@@ -116,7 +120,8 @@ registerLocaleData(localeEs);
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    HttpClientModule    
+    HttpClientModule,
+    MatDialogModule    
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'es' } // Configurar español como el locale predeterminado

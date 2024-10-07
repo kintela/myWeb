@@ -13700,7 +13700,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'3583.jpg',
         titulo:'The Beatles',
-        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        personas:'George Harrison',
         origen:'Facebook',
         grupo:'The Beatles',
         year:1962
@@ -13708,7 +13708,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'3584.jpg',
         titulo:'The Beatles',
-        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        personas:'John Lennon',
         origen:'Facebook',
         grupo:'The Beatles',
         year:1962
@@ -13716,7 +13716,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'3585.jpg',
         titulo:'The Beatles',
-        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        personas:'John Lennon, Paul McCartney',
         origen:'Facebook',
         grupo:'The Beatles',
         year:1962
@@ -13724,7 +13724,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'3586.jpg',
         titulo:'The Beatles',
-        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        personas:'George Harrison',
         origen:'Facebook',
         grupo:'The Beatles',
         year:1962
@@ -14179,5 +14179,216 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'George Harrison',
         origen:'Facebook',
     },
+    {
+        imagen:'3655.jpg',
+        titulo:'The Rolling Stones',
+        personas:'Mick Jagger, Keith Richards, Charlie Watts, Mick Taylor',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+        year:1972
+    },
+    {
+        imagen:'3656.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+    },
+    {
+        imagen:'3657.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook',
+        grupo:'Nirvana',
+    },
+    {
+        imagen:'3658.jpg',
+        titulo:'George Harrison y Jeff Lyne',
+        personas:'George Harrison, Jeff Lyne',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3659.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3660.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3661.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3662.jpg',
+        titulo:'Fito Paez, Charly Garcia, Willy Iturri, Pablo Guyot y Alfredo Toth durante las grabaciones del álbum Piano Bar',
+        personas:'Fito Paez, Charly Garcia, Willy Iturri, Pablo Guyot, Alfredo Toth',
+        origen:'Facebook',
+        grupo:'Van Halen',
+        year:1984
+    },
+    {
+        imagen:'3663.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3664.jpg',
+        titulo:'Ian Atsbury',
+        personas:'Ian Atsbury',
+        origen:'Facebook',
+        grupo:'The Cult',
+    },
+    {
+        imagen:'3665.jpg',
+        titulo:'Ozzy Osbourne',
+        personas:'Ozzy Osbourne',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3666.jpg',
+        titulo:'Rosendo y María Parsons (mánager de Leño)',
+        personas:'Rosendo, María Parsons',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3667.jpg',
+        titulo:'Janis Joplin',
+        personas:'Janis Joplin',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3668.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3669.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3670.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3671.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3672.jpg',
+        titulo:'Jack White y Toom Waits',
+        personas:'Jack White, Tom Waits',
+        origen:'Facebook',
+        year:2018
+    },
+    {
+        imagen:'3673.jpg',
+        titulo:'Elvis Presley y Ed Sullivan',
+        personas:'Elvis Presley, Ed Sullivan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3674.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3675.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3676.jpg',
+        titulo:'Ron Wood',
+        personas:'Ron Wood',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3677.jpg',
+        titulo:'Bon Scott',
+        personas:'Bon Scott',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3678.jpg',
+        titulo:'Eddie Van Halen y Alex Van Halen',
+        personas:'Eddie Van Halen, Alex Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },
+    {
+        imagen:'3679.jpg',
+        titulo:'Motorhead',
+        personas:'Lemmy Kilmister, Eddie Clarke, Phil Taylor',
+        origen:'Facebook',
+        grupo:'Motorhead',
+    },
+    {
+        imagen:'3680.jpg',
+        titulo:'Robert Plant',
+        personas:'Robert Plant',
+        origen:'Facebook',        
+    },
+    {
+        imagen:'3681.jpg',
+        titulo:'Eric Clapton y John Lennon',
+        personas:'Eric Clapton, John Lennon',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3682.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3683.jpg',
+        titulo:'The Clash',
+        personas:'Joe Strummer, Mick Jones',
+        origen:'Facebook',
+        grupo:'The Clash',
+        year:1981
+    },
+    {
+        imagen:'3684.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3685.jpg',
+        titulo:'Joan Jet',
+        personas:'Joan Jet',
+        origen:'Facebook',
+        grupo:'The Runaways',
+    },
+    
+
 
 ]

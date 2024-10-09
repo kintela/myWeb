@@ -2483,5 +2483,14 @@ export const conciertos:IConcierto[]=[
         grupo: 'The Fabulous Thunderbirds',
         videos:['https://www.youtube.com/embed/mHDfkq3bJPA?si=MhHOF1B2z3iJAGQc']
     },
+    {
+        id:187,
+        fecha: new Date(Date.UTC(2024,9, 4)),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia',
+        grupo: 'Niños Mutantes',
+        fotos:true
+    },
+
 
 ];

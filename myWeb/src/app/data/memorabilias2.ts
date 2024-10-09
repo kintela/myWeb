@@ -14388,6 +14388,33 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'The Runaways',
     },
+    {
+        conciertoId: 187,
+        imagen:'3686.jpg',
+        titulo:'Niños Mutantes',
+        personas:'Juanl Alberto Martínez, Nani Castañeda, Miguel Haro, Andrés López',
+        origen:'propia',
+        grupo:'Niños Mutantes',
+        year:2024,
+        descripcion: 'Concierto de despedida'
+    },
+    {
+        conciertoId: 187,
+        imagen:'3687.jpg',
+        titulo:'Niños Mutantes',
+        personas:'Juanl Alberto Martínez, Nani Castañeda, Miguel Haro, Andrés López',
+        origen:'propia',
+        grupo:'Niños Mutantes',
+        year:2024,
+        descripcion: 'Concierto de despedida'
+    },
+    {
+        imagen:'3688.jpg',
+        titulo:'Antonio Vega y Pepe Risi (Burning)',
+        personas:'Antonio Vega, Pepe Risi',
+        origen:'Facebook',
+        year:1991
+    },
     
 
 

@@ -14415,7 +14415,171 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         year:1991
     },
-    
+     {
+        imagen:'3689.jpg',
+        titulo:'Keith Richards y Ronnie Wood',
+        personas:'Keith Richards, Ronnie Wood',
+        origen:'Facebook',
+        grupo:'The Rolling Stones', 
+    },
+     {
+        imagen:'3690.jpg',
+        titulo:'Bob Dylan y Patty Smith',
+        personas:'Bob Dylan, Patty Smith',
+        origen:'Facebook',
+        year:1975
+    },
+     {
+        imagen:'3691.jpg',
+        titulo:'The Cure',
+        personas:'Robert Smith',
+        origen:'Facebook',
+        grupo:'The Cure',
+    },
+    {
+        imagen:'3692.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+    },    
+    {
+        imagen:'3693.jpg',
+        titulo:'Iggy Pop',
+        personas:'Iggy Pop',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3694.jpg',
+        titulo:'Chrissie Hynde',
+        personas:'Chrissie Hynde',
+        origen:'Facebook',
+        grupo:'The Pretenders',
+    },
+    {
+        imagen:'3695.jpg',
+        titulo:'Mark Knopfler',
+        personas:'Mark Knopfler',
+        origen:'Facebook',
+        grupo:'Dire Straits',
+    },
+    {
+        imagen:'3696.jpg',
+        titulo:'Eric Clapton y Pete Townshend',
+        personas:'Eric Clapton, Pete Townshend',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3697.jpg',
+        titulo:'The Clash',
+        personas:'Joe Strummer, Mick Jones',
+        origen:'Facebook',
+        grupo:'The Clash',
+    },
+    {
+        imagen:'3698.jpg',
+        titulo:'David Gilmore',
+        personas:'David Gilmore',
+        origen:'Facebook',
+        grupo:'Pink Floyd',
+    },
+    {
+        imagen:'3699.jpg',
+        titulo:'Samantha Fish',
+        personas:'Samantha Fish',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3700.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3701.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3702.jpg',
+        titulo:'Elvis Presley',
+        personas:'Elvis Presley',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3703.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3704.jpg',
+        titulo:'Stevie Ray Vaughan, Lizza Minelli y Nancy Willson (Heart)',
+        personas:'Stevie Ray Vaughan, Lizza Minelli, Nancy Willson',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3705.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3706.jpg',
+        titulo:'Joe Strummer',
+        personas:'Joe Strummer',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3707.jpg',
+        titulo:'Robert Smith',
+        personas:'Robert Smith',
+        origen:'Facebook',
+        grupo:'The Cure',
+    },   
+    {
+        imagen:'3708.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3709.jpg',
+        titulo:'Stevie Ray Vaughan y Ronnie Wood',
+        personas:'Stevie Ray Vaughan, Ronnie Wood',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3710.jpg',
+        titulo:'Eddie Van Halen, Brian May',
+        personas:'Eddie Van Halen, Brian May',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3711.jpg',
+        titulo:'George Harrison',
+        personas:'George Harrison',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3712.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3713.jpg',
+        titulo:'John Lennon',
+        personas:'John Lennon',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3714.jpg',
+        titulo:'Juanma Suarez',
+        personas:'Juanma Suarez',
+        origen:'Facebook',
+        grupo:'Eskorbuto'
+    },    
 
 
 ]

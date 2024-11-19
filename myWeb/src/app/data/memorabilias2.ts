@@ -2513,13 +2513,6 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
     },
     {
-        imagen:'1918.jpg',
-        titulo:'Jim Morrison',
-        personas:'Jim Morrison',
-        grupo:'The Doors',
-        origen:'Facebook',
-    },
-    {
         imagen:'1919.jpg',
         titulo:'Nirvana',
         personas:'Dave Grohl, Krist Novoselic, Kurt Cobain',
@@ -13440,7 +13433,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'3545.jpg',
         titulo:'Mick Jagguer y Peter Tosh',
-        personas:'Jeff Beck',
+        personas:'Mick Jagguer, Peter Tosh',
         origen:'Facebook',
         year:1978
     }, 
@@ -14579,7 +14572,81 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Juanma Suarez',
         origen:'Facebook',
         grupo:'Eskorbuto'
-    },    
+    }, 
+    {
+        imagen:'3715.jpg',
+        titulo:'Frank Zappa y Claudia Cardinale',
+        personas:'Frank Zappa, Claudia Cardinale',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3716.jpg',
+        titulo:'The Who',
+        personas:'Roger Daltrey, Pete Townshend, Keith Moon',
+        origen:'Facebook',
+        grupo:'The Who',
+    },   
+    {
+        imagen:'3717.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3718.jpg',
+        titulo:'Syd Barrett',
+        personas:'Syd Barrett',
+        origen:'Facebook',
+    },   
+    {
+        imagen:'3719.jpg',
+        titulo:'Howlin Wolf,  John Hammond y John Lee Hooker',
+        personas:'Howlin Wolf,  John Hammond, John Lee Hooker',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3720.jpg',
+        titulo:'Elvis Presley',
+        personas:'Elvis Presley',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3721.jpg',
+        titulo:'Lemmy Kilmister y Ozzy Osbourne',
+        personas:'Lemmy Kilmister, Ozzy Osbourne',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3722.jpg',
+        titulo:'Mick Jagger y Keith Richards',
+        personas:'Mick Jagger, Keith Richards',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    }, 
+    {
+        imagen:'3723.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3724.jpg',
+        titulo:'The Clash',
+        personas:'Joe Strummer, Paul Simonon',
+        origen:'Facebook',
+        grupo:'The Clash',
+    }, 
+    {
+        imagen:'3725.jpg',
+        titulo:'The Doors',
+        personas:'Jim Morrison, Ray Manzarek, Robby Krieger, John Densmore',
+        origen:'Facebook',
+        grupo:'The Doors',
+    },  
+
+    
+ 
+        
 
 
 ]

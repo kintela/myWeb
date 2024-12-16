@@ -2283,13 +2283,7 @@ export const memorabilias2:IMemorabilia[] = [
         titulo:'Michael Jackson',
         personas:'Michael Jackson',
         origen:'Facebook',
-    },
-    {
-        imagen:'1882.jpg',
-        titulo:'Jimi Hendrix y Johnny Winter',
-        personas:'Jimi Hendrix, Johnny Winter',
-        origen:'Facebook',
-    },
+    },   
     {
         imagen:'1883.jpg',
         titulo:'Eddie Van Halen',
@@ -14643,10 +14637,260 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'The Doors',
     },  
-
+    {
+        imagen:'3726.jpg',
+        titulo:'Miles Davis',
+        personas:'Miles Davis',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3727.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3728.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3729.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },   
+    {
+        imagen:'3730.jpg',
+        titulo:'David Bowie y Twiggy',
+        personas:'David Bowie, Twiggy',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3731.jpg',
+        titulo:'Jimmy Page y Jaco Pastorius',
+        personas:'Jimmy Page, Jaco Pastorius',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3732.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3733.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3734.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },   
+    {
+        imagen:'3735.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },  
+    {
+        imagen:'3736.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },  
+    {
+        imagen:'3737.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, Alex Van Halen, Michael Anthony, Dave Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },  
+    {
+        imagen:'3738.jpg',
+        titulo:'Ritchie Blackmore',
+        personas:'Ritchie Blackmore',
+        origen:'Facebook',
+    },   
+    {
+        imagen:'3739.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },         
+    {
+        imagen:'3740.jpg',
+        titulo:'Jimi Hendrix y Johnny Winter',
+        personas:'Jimi Hendrix, Johnny Winter',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3741.jpg',
+        titulo:'Ariel Rot',
+        personas:'Ariel Rot',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3742.jpg',
+        titulo:'Ariel Rot',
+        personas:'Ariel Rot',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3743.jpg',
+        titulo:'Ariel Rot',
+        personas:'Ariel Rot',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3744.jpg',
+        titulo:'Bob Dylan',
+        personas:'Bob Dylan',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3745.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+        year:1972
+    },
+    {
+        imagen:'3746.jpg',
+        titulo:'Iggy Pop',
+        personas:'Iggy Pop',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3747.jpg',
+        titulo:'Jimmy Page',
+        personas:'Jimmy Page',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3748.jpg',
+        titulo:'Ozzy Osbourne y Randy Rhoads',
+        personas:'Ozzy Osbourne, Randy Rhoads',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3749.jpg',
+        titulo:'Bonnie Raitt',
+        personas:'Bonnie Raitt',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3750.jpg',
+        titulo:'Leonard Cohen y Enrique Morente',
+        personas:'Leonard Cohen, Enrique Morente',
+        origen:'Facebook',
+    },
+    {
+        imagen:'3751.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, Alex Van Halen, Michael Anthony, Dave Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen',
+        year:1981
+    },  
+    {
+        imagen:'3752.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3753.jpg',
+        titulo:'Stone Roses',
+        personas:'Ian Brown, John Squire, Mani, Reni',
+        origen:'Facebook',
+        grupo:'Stone Roses',
+        year:1992
+    },  
+    {
+        imagen:'3754.jpg',
+        titulo:'Debbie Harry en el Whisky a Go Go',
+        personas:'Debbie Harry',
+        origen:'Facebook',
+        year:1977
+    },  
+    {
+        imagen:'3755.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook',
+        year:1969
+    },  
+    {
+        imagen:'3756.jpg',
+        titulo:'Eric Clapton y George Harrison',
+        personas:'Eric Clapton, George Harrison',
+        origen:'Facebook',
+        year:1969
+    },  
+    {
+        imagen:'3757.jpg',
+        titulo:'Mick Jagguer y Keith Richards',
+        personas:'Mick Jagguer, Keith Richards',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },  
+    {
+        imagen:'3758.jpg',
+        titulo:'Keith Richards y John Mayer',
+        personas:'Keith Richards, John Mayer',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3759.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, Alex Van Halen, Michael Anthony, Sammy Hagar',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },  
+    {
+        imagen:'3760.jpg',
+        titulo:'The Beatles',
+        personas:'John Lennon, Paul McCartney, George Harrison, Ringo Starr',
+        origen:'Facebook',
+        grupo:'The Beatles',
+    },  
+    {
+        imagen:'3761.jpg',
+        titulo:'Pearl Jam',
+        personas:'Eddie Vedder, Mike McCready, Stone Gossard, Jeff Ament, Matt Cameron',
+        origen:'Facebook',
+        grupo:'Pearl Jam',
+    },  
+    {
+        imagen:'3762.jpg',
+        titulo:'Patty Smith',
+        personas:'Patty Smith',
+        origen:'Facebook',
+        year:1981
+    },  
+    {
+        imagen:'3763.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3764.jpg',
+        titulo:'Chad Smith',
+        personas:'Chad Smith',
+        origen:'Facebook',
+    },  
     
- 
-        
 
 
 ]

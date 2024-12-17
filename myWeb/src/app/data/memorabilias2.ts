@@ -14890,6 +14890,32 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Chad Smith',
         origen:'Facebook',
     },  
+    {
+        imagen:'3765.jpg',
+        titulo:'Patti Smith',
+        personas:'Patti Smith',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3766.jpg',
+        titulo:'Mark Knopfler y Phill Lynott',
+        personas:'Mark Knopfler, Phill Lynott',
+        origen:'Facebook',
+    },       
+    {
+        imagen:'3767.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, Alex Van Halen, Michael Anthony, David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },  
+    {
+        imagen:'3768.jpg',
+        titulo:'The Clash',
+        personas:'Joe Strummer, Paul Simonon',
+        origen:'Facebook',
+        grupo:'The Clash',
+    },  
     
 
 

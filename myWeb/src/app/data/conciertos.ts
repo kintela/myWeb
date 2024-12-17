@@ -2507,8 +2507,20 @@ export const conciertos:IConcierto[]=[
         sala: 'Sala BBK',
         grupo: 'Bala',
         fotos:true,
-        videos:['https://www.youtube.com/embed/jkn5gI7CFXk?si=-SfYTLq1H_wGd6IT' ]
+        videos:['https://www.youtube.com/embed/jkn5gI7CFXk?si=-SfYTLq1H_wGd6IT' ],
+        entrada: "entradas/105.jpg"
     },
+    {
+        id:190,
+        fecha: new Date(Date.UTC(2024,10, 1)),
+        ciudad: 'Bilbao',
+        sala: 'Kafe Antzokia',
+        grupo: 'Kabaka Pyramid',
+        fotos:true,
+        videos:['https://www.youtube.com/embed/df5PbR2B5Q8?si=GHdpXmkGUdTuAEG8' ],
+        entrada: "entradas/104.jpg"
+    },
+
 
 
 ];

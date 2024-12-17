@@ -2491,6 +2491,24 @@ export const conciertos:IConcierto[]=[
         grupo: 'Niños Mutantes',
         fotos:true
     },
+    {
+        id:188,
+        fecha: new Date(Date.UTC(2024,10, 29)),
+        ciudad: 'Portugalete',
+        sala: 'Sala Groove',
+        grupo: 'Fortune Child',
+        fotos:true,
+        videos:['https://www.youtube.com/embed/DiMLbiPZpr0?si=HlFMEs1FiSxRehGw','https://www.youtube.com/embed/6QzYkcBBReU?si=M8-y97daerM2ovMn' ]
+    },
+    {
+        id:189,
+        fecha: new Date(Date.UTC(2024,10, 8)),
+        ciudad: 'Bilbao',
+        sala: 'Sala BBK',
+        grupo: 'Bala',
+        fotos:true,
+        videos:['https://www.youtube.com/embed/jkn5gI7CFXk?si=-SfYTLq1H_wGd6IT' ]
+    },
 
 
 ];

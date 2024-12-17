@@ -14901,18 +14901,25 @@ export const memorabilias2:IMemorabilia[] = [
         titulo:'Mark Knopfler y Phill Lynott',
         personas:'Mark Knopfler, Phill Lynott',
         origen:'Facebook',
-    },       
+    },  
     {
         imagen:'3767.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },       
+    {
+        imagen:'3768.jpg',
         titulo:'Van Halen',
         personas:'Eddie Van Halen, Alex Van Halen, Michael Anthony, David Lee Roth',
         origen:'Facebook',
         grupo:'Van Halen'
     },  
     {
-        imagen:'3768.jpg',
+        imagen:'3769.jpg',
         titulo:'The Clash',
-        personas:'Joe Strummer, Paul Simonon',
+        personas:'Joe Strummer, Paul Simoon',
         origen:'Facebook',
         grupo:'The Clash',
     },  

@@ -2498,7 +2498,8 @@ export const conciertos:IConcierto[]=[
         sala: 'Sala Groove',
         grupo: 'Fortune Child',
         fotos:true,
-        videos:['https://www.youtube.com/embed/DiMLbiPZpr0?si=HlFMEs1FiSxRehGw','https://www.youtube.com/embed/6QzYkcBBReU?si=M8-y97daerM2ovMn' ]
+        videos:['https://www.youtube.com/embed/DiMLbiPZpr0?si=HlFMEs1FiSxRehGw','https://www.youtube.com/embed/6QzYkcBBReU?si=M8-y97daerM2ovMn' ],
+        entrada: "entradas/106.jpg"
     },
     {
         id:189,

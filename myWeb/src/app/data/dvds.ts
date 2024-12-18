@@ -280,4 +280,10 @@ export const dvds:IDvd[]=[
         titulo:"Tom Petty and the heartbreakers From Gainesville",
         grupo:"Tom Petty and the heartbreakers",
     },
+    {
+        id:49,
+        imagen:"49.jpeg",
+        titulo:"Black is Beltza II.Ainhoa",
+        grupo:"Fermin Muguruza",
+    },
 ]

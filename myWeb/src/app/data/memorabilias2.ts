@@ -15179,7 +15179,196 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'propia',
         grupo:'Kabaka Pyramid',
     },    
-    
+    {
+        imagen:'3802.jpg',
+        titulo:'Steve Wonder y Prince',
+        personas:'Steve Wonder, Prince',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3803.jpg',
+        titulo:'Iosu Expósito',
+        personas:'Iosu Expósito',
+        origen:'Facebook',
+        grupo:'Eskorbuto',
+        year:1991
+    },  
+    {
+        imagen:'3804.jpg',
+        titulo:'David Bowie y Jeff Beck',
+        personas:'David Bowie, Jeff Beck',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3805.jpg',
+        titulo:'Charlie Watts y Mick Jagger',
+        personas:'Charlie Watts, Mick Jagger',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },  
+    {
+        imagen:'3806.jpg',
+        titulo:'Bono y Liam Gallagher',
+        personas:'Bono, Liam Gallagher',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3807.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3808.jpg',
+        titulo:'Albert King y Jim Morrison',
+        personas:'Albert King, Jim Morrison',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3809.jpg',
+        titulo:'Iosu Expósito',
+        personas:'Iosu Expósito',
+        origen:'Facebook',
+        grupo:'Eskorbuto',
+    },   
+    {
+        imagen:'3810.jpg',
+        titulo:'Joe Strummer y John Lydon (Johnny Rotten)',
+        personas:'Joe Strummer, John Lydon',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3811.jpg',
+        titulo:'Lemmy Kilmister',
+        personas:'Lemmy Kilmister',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3812.jpg',
+        titulo:'Evaristo Páramos',
+        personas:'Evaristo Páramos',
+        origen:'Facebook',
+        grupo:'La Polla Records',
+    },  
+    {
+        imagen:'3813.jpg',
+        titulo:'Eddie Van Halen y Brian May',
+        personas:'Eddie Van Halen, Brian May',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3814.jpg',
+        titulo:'Jeff Beck y Billy Gibbons',
+        personas:'Jeff Beck, Billy Gibbons',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3815.jpg',
+        titulo:'Eddie Vedder',
+        personas:'Eddie Vedder',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3816.jpg',
+        titulo:'Jeff Hayley',
+        personas:'Jeff Hayley',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3817.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3818.jpg',
+        titulo:'Paco de Lucía   ',
+        personas:'Paco de Lucía',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3819.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },  
+    {
+        imagen:'3820.jpg',
+        titulo:'Lemmy Kilmister',
+        personas:'Lemmy Kilmister',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'3821.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'3822.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'3823.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'3824.jpg',
+        titulo:'Eddie Vedder',
+        personas:'Eddie Vedder',
+        origen:'Facebook',
+        grupo:'Pearl Jam'
+    },
+    {
+        imagen:'3825.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen. David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    },
+    {
+        imagen:'3826.jpg',
+        titulo:'Paul McCartney y George Harrison',
+        personas:'Paul McCartney, George Harrison',
+        origen:'Facebook',
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'3827.jpg',
+        titulo:'John Lennon y George Harrison',
+        personas:'John Lennon, George Harrison',
+        origen:'Facebook',
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'3828.jpg',
+        titulo:'Paul McCartney, George Harrison y John Lennon',
+        personas:'Paul McCartney, George Harrison, John Lennon',
+        origen:'Facebook',
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'3829.jpg',
+        titulo:'Paul McCartney, George Harrison y John Lennon',
+        personas:'Paul McCartney, George Harrison, John Lennon',
+        origen:'Facebook',
+        grupo:'The Beatles'
+    },
+    {
+        imagen:'3830.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+        year:1971
+    },
 
 
 ]

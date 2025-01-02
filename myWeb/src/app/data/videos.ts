@@ -471,6 +471,20 @@ export const videos:IVideo[] = [
         plataforma: 'rtve_play'
     },
     {
+        imagen: '53.jpeg',
+        enlace: 'https://www.disneyplus.com/es-es/movies/abbey-road-if-these-walls-could-sing/6qV9r0UnbXdm',
+        texto: 'Abbey Road si las paredes cantasen',
+        categoria: 'Mix',
+        plataforma: 'disney+'
+    },
+    {
+        imagen: '55.jpeg',
+        enlace: 'https://www.disneyplus.com/es-es/movies/bono-and-the-edge-a-sort-of-homecoming-with-dave-letterman/5slJjC2bpE0g',
+        texto: 'Bono & The Edge a sort of homecoming with Dave Letterman',
+        categoria: 'Mix',
+        plataforma: 'disney+'
+    },
+    {
         imagen: 'rock_radikal_vasco.jpg',
         enlace: 'https://www.youtube.com/watch?v=byd0judBk9c',
         texto: 'Rock Radikal Vasco II',
@@ -613,7 +627,14 @@ export const videos:IVideo[] = [
     {
         imagen: '52.jpeg',
         enlace: 'https://www.disneyplus.com/es-es/movies/the-beatles-let-it-be/71Oc25GCtPny',
-        texto: 'Let itr be',
+        texto: 'Let it be',
+        categoria: 'the beatles',
+        plataforma: 'disney+'
+    },
+    {
+        imagen: '54.jpeg',
+        enlace: 'https://www.disneyplus.com/es-es/movies/beatles-64/mxZO6yBpYWOq',
+        texto: 'Beatles 64',
         categoria: 'the beatles',
         plataforma: 'disney+'
     },

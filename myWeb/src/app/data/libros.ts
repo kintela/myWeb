@@ -548,5 +548,16 @@ export const libros:ILibro[]=[
         enlace:'https://brunogalindo.com/libros/vasos-comunicantes-como-y-para-que-escribir-canciones/',
         sinopsis:'Vasos comunicantes (¿Cómo y para qué escribir canciones?) es una recopilación de respuestas a esta única pregunta; declaraciones o entrevistas que sirven para explicar los secretos y técnicas de más de 200 autores de más de 40 países, y que han sido recogidas por el periodista y crítico musical Bruno Galindo en el período 1995-2001.\n\nEntre los autores entrevistados aparecen nombres clave en la historia de la música contemporánea, nombres tan imprescindibles como David Bowie, Prince, Björk, Bono, Noel Gallagher, Iggy Pop, Antonio Vega, Thom Yorke, Joe Strummer, David Byrne, Courtney Love, Youssou N’Dour, Charly García, Khaled, John Lee Hooker, Joaquín Sabina, John Lydon, Compay Segundo, Andrés Calamaro, Perry Farrell, Brian Eno, Aretha Franklin, Manu Chao, Jarvis Cocker, Mike D, Elvis Costello, Marylin Manson, Paolo Conte, Billy Bragg, Tricky, Enrique Urquijo, Lenine, Howie B, Kiko Veneno, Julián Hernández, Paddy McAloon, Carlinhos Brown, Franco Battiato, Manolo García, Ali Farka Toure, Santiago Auserón, Silvio Rodríguez, Lauryn Hill, Pedro Guerra, Manu Dibango, Sinèad O’Connor, Neneh Cherry, Curtis Mayfield, k. d. Lang, Fito Páez, Flaco Jiménez, Herbert Vianna, Goran Bregovic, David Sylvian, Luis Eduardo Aute, Mike Scott, Cheikh Lô, Rachid Taha, Jorge Drexler, Mark Knopfler, más miembros de bandas legendarias como The Beatles, The Doors, Sex Pistols, Os Mutantes y Radio Futura, y familiares o personajes del entorno de Bob Marley y Jimi Hendrix.'
     },
+    {
+        titulo: 'Nirvana: Espíritu adolescente',
+        categoria: 'Biografía',
+        autor: 'David León',
+        ISBN:'978-84-18246-09-8',
+        depositoLegal:'B.3.610-2020',     
+        caratula: '8.jpg',
+        editorial:'boldletters',
+        enlace:'https://www.elargonauta.com/libros/nirvana-espiritu-adolescente/978-84-18246-09-8/',
+        sinopsis:'La banda conocida como los reyes del "Grunge", que definió a una generación, cuya influencia llega hasta nuestros días y cuyo solista, Kurt Cobain, se convirtió en todo un icono. Tuvieron su primer gran éxito con el tema "Smells Like Teeen Spirit" que revolucionó las listas de éxitos y su música ya ha quedado inmortalizada con su admisión en el museo Rock & Roll Hall of Fame.'
+    },
     
 ];

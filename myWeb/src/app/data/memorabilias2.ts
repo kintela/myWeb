@@ -13344,7 +13344,7 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Van Halen',
     }, 
     {
-        imagen:'3532.jpg',
+        imagen:'3533.jpg',
         titulo:'Eddie Van Halen',
         personas:'Eddie Van Halen',
         origen:'Facebook',
@@ -15369,6 +15369,19 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         year:1971
     },
+    {
+        imagen:'3831.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3832.jpg',
+        titulo:'Joe Satriani y Kirk Hammet',
+        personas:'Joe Satriani, Kirk Hammet',
+        origen:'Facebook',
+    }, 
 
 
 ]

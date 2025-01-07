@@ -149,20 +149,6 @@ export const videos:IVideo[] = [
         plataforma: 'Apple TV'
     },
     {
-        imagen: 'western_stars.jpeg',
-        enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjW5azpy56CAxW0U6QEHVSyA0wQtwJ6BAgOEAI&url=https%3A%2F%2Ftv.apple.com%2Fes%2Fmovie%2Fwestern-stars%2Fumc.cmc.4b56borzlb0le4hleommro07r&usg=AOvVaw1ErqeY0TKPMQyq_uO4Q9NP&opi=89978449',
-        texto: 'Western Stars',
-        categoria: 'Mix',
-        plataforma: 'Apple TV'
-    },
-    {
-        imagen: 'springsteen.jpeg',
-        enlace: 'https://www.netflix.com/es/title/80232329?s=a&trkid=13747225&trg=more&vlang=es&clip=81008802',
-        texto: 'Bruce Springsteen',
-        categoria: 'Mix',
-        plataforma: 'netflix'
-    },
-    {
         imagen: 'kurt_cobain.jpeg',
         enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwibvoTHz56CAxUhUKQEHXbCB9IQtwJ6BAgPEAI&url=https%3A%2F%2Ftv.apple.com%2Fus%2Fmovie%2Fcobain-montage-of-heck%2Fumc.cmc.6kfpwg3avmrvuv16w8gosungr&usg=AOvVaw38sAXse3qgeu69cVtZBST1&opi=89978449',
         texto: 'Kurt Cobain',
@@ -483,6 +469,62 @@ export const videos:IVideo[] = [
         texto: 'Bono & The Edge a sort of homecoming with Dave Letterman',
         categoria: 'Mix',
         plataforma: 'disney+'
+    },
+    {
+        imagen: '56.jpeg',
+        enlace: 'https://www.filmin.es/pelicula/victor-manuel-el-abuelo-victor',
+        texto: 'Victor Manuel. El abuelo Victor',
+        categoria: 'Mix',
+        plataforma: 'filmin'
+    },
+    {
+        imagen: '58.jpeg',
+        enlace: 'https://www.disneyplus.com/es-es/series/thank-you-goodnight-la-historia-de-bon-jovi/323NHrM5rTrj',
+        texto: 'Thank you, good night. The Bon Jovi Story',
+        categoria: 'Mix',
+        plataforma: 'disney+'
+    },
+    {
+        imagen: '59.jpeg',
+        enlace: 'https://www.primevideo.com/-/es/detail/Rory-Gallagher---Ghost-Blues-The-Story-Of-Rory-Gallagher/0RIFW3DIDU4V1U8XQC0WGYQ4K8',
+        texto: 'Ghost Blues. The Story of Rory Gallagher',
+        categoria: 'Mix',
+        plataforma: 'primevideo'
+    },
+    {
+        imagen: '60.jpeg',
+        enlace: 'https://www.atresplayer.com/lasexta/programas/salvados/temporada-21/supersubmarina-cien-maneras-de-volver-parte-1_6717ff594911b0e4b3bb8b87/',
+        texto: 'Supersubmarina',
+        categoria: 'Mix',
+        plataforma: 'atresplayer'
+    },
+    {
+        imagen: '61.jpeg',
+        enlace: 'https://www.filmin.es/pelicula/la-estrella-azul',
+        texto: 'La estrella azul',
+        categoria: 'Mix',
+        plataforma: 'filmin'
+    },
+    {
+        imagen: '57.jpeg',
+        enlace: 'https://www.disneyplus.com/es-es/movies/bruce-springsteen-and-the-e-street-band-diarios-de-carretera/2pygKsgu73mm',
+        texto: 'Bruce Springsteen & The E Street Band. Diarios de carretera',
+        categoria: 'Bruce Springsteen',
+        plataforma: 'disney+'
+    },
+    {
+        imagen: 'western_stars.jpeg',
+        enlace: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&ved=2ahUKEwjW5azpy56CAxW0U6QEHVSyA0wQtwJ6BAgOEAI&url=https%3A%2F%2Ftv.apple.com%2Fes%2Fmovie%2Fwestern-stars%2Fumc.cmc.4b56borzlb0le4hleommro07r&usg=AOvVaw1ErqeY0TKPMQyq_uO4Q9NP&opi=89978449',
+        texto: 'Western Stars',
+        categoria: 'Bruce Springsteen',
+        plataforma: 'Apple TV'
+    },
+    {
+        imagen: 'springsteen.jpeg',
+        enlace: 'https://www.netflix.com/es/title/80232329?s=a&trkid=13747225&trg=more&vlang=es&clip=81008802',
+        texto: 'Bruce Springsteen',
+        categoria: 'Bruce Springsteen',
+        plataforma: 'netflix'
     },
     {
         imagen: 'rock_radikal_vasco.jpg',

@@ -14919,7 +14919,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'3769.jpg',
         titulo:'The Clash',
-        personas:'Joe Strummer, Paul Simoon',
+        personas:'Joe Strummer, Paul Simonon',
         origen:'Facebook',
         grupo:'The Clash',
     },  
@@ -15382,6 +15382,62 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Joe Satriani, Kirk Hammet',
         origen:'Facebook',
     }, 
+    {
+        imagen:'3833.jpg',
+        titulo:'Elvis Presley y BB King',
+        personas:'Elvis Presley, BB King',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3834.jpg',
+        titulo:'Robert Fripp, Brian Eno y David Bowie',
+        personas:'Robert Fripp, Brian Eno, David Bowie',
+        origen:'Facebook',
+        descripcion: 'En la grabación de Heroes',
+        year:1977
+    }, 
+    {
+        imagen:'3835.jpg',
+        titulo:'The Clash',
+        personas:'Joe Strummer, Paul Simonon, Mick Jones',
+        origen:'Facebook',
+        grupo:'The Clash',
+    }, 
+    {
+        imagen:'3836.jpg',
+        titulo:'Debbie Harry y Joey Ramone',
+        personas:'Debbie Harry, Joey Ramone',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3837.jpg',
+        titulo:'Eric Clapton',
+        personas:'Eric Clapton',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3838.jpg',
+        titulo:'Freddie Mercury',
+        personas:'Freddie Mercury',
+        origen:'Facebook',
+        descripcion:'En los Mountain Studios de Montreux',
+        year:1982
+    }, 
+    {
+        imagen:'3839.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+        year:1976
+    }, 
+    {
+        imagen:'3840.jpg',
+        titulo:'Chuck Berry',
+        personas:'Chuck Berry',
+        origen:'Facebook',
+    }, 
+
+     
 
 
 ]

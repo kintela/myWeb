@@ -4,6 +4,8 @@
   gap: 15px; /* Espacio entre las filas */
   padding: 20px; /* Espacio entre el borde de la ventana y los elementos internos */
   height: 100%; /* Asegura que el formulario ocupe toda la altura disponible */
+  max-width: 1200px; /* Ajusta el ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario horizontalmente */
 }
 
 .scroll-container {
@@ -24,7 +26,7 @@
 
 .flex-item {
   flex: 1;
-  min-width: 200px;
+  min-width: 300px;
 }
 
 .image-upload {

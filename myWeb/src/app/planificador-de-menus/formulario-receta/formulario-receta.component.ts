@@ -28,9 +28,9 @@ export class FormularioRecetaComponent implements OnInit{
     this.recetaForm = this.fb.group({
       nombre: ['', Validators.required],
       categoriaId: ['', Validators.required],
-      ingredientes: [[]],
-      preparacion: [[]],
-      presentacion: [[]],
+      ingredientes: [''],
+      preparacion: [''],
+      presentacion: [''],
       enlaceVideo: [''],
       imagen: [''],
       comensales: [null]
@@ -53,9 +53,17 @@ export class FormularioRecetaComponent implements OnInit{
   cerrarDialogo(): void {
     this.dialogRef.close();
   }
+
+  
   guardarReceta(){
     if (this.recetaForm.valid) {
       const recetaDTO = this.recetaForm.value;
+
+       // Convertir los campos de texto en arrays de strings
+       recetaDTO.ingredientes = recetaDTO.ingredientes ? String(recetaDTO.ingredientes).split('\n').filter(line => line.trim() !== '') : [];
+       recetaDTO.preparacion = recetaDTO.preparacion ? String(recetaDTO.preparacion).split('\n').filter(line => line.trim() !== '') : [];
+       recetaDTO.presentacion = recetaDTO.presentacion ? String(recetaDTO.presentacion).split('\n').filter(line => line.trim() !== '') : [];
+       
       this.recetasService.createReceta(recetaDTO).subscribe(
         response => {
           console.log('Receta guardada', response);

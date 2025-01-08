@@ -11,7 +11,7 @@
           <mat-label>Categorías</mat-label>
           <mat-select>
             <mat-option *ngFor="let categoria of categorias" [value]="categoria">
-              {{ categoria }}
+              {{ categoria.nombre }}
             </mat-option>
           </mat-select>
         </mat-form-field>

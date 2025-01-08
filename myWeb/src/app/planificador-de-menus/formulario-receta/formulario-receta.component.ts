@@ -17,7 +17,7 @@ export class FormularioRecetaComponent implements OnInit{
     this.categorias = this.data.categorias;
     this.platos = this.data.platos;
     console.log(this.categorias);
-    console.log(this.platos);
+    //console.log(this.platos);
   }
 
   onImageSelected($event) {

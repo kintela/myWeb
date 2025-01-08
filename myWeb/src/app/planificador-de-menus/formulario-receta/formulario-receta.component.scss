@@ -18,7 +18,7 @@
 
 .flex-item {
   flex: 1;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 .image-upload {
@@ -46,6 +46,6 @@
 }
 
 .wide-input-container {
-  width: 300px; /* Define un ancho específico para el contenedor */
+  width: 100%; /* Ajusta el ancho para que se adapte al contenedor */
 }
 

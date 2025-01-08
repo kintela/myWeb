@@ -34,6 +34,13 @@ export class RecetasService {
     return this.http.get<RecetaDTO>(`${this.comunService.urlWebApi}/recetas/${recetaId}`);
   }
 
+  createReceta(receta: RecetaDTO): Observable<RecetaDTO> {
+    return this.http.post<RecetaDTO>(`${this.comunService.urlWebApi}/recetas`, receta)
+      .pipe(
+        catchError(this.handleError)
+      );
+  }
+
 
   private handleError(err: HttpErrorResponse) {
     // in a real world app, we may send the server to some remote logging infrastructure

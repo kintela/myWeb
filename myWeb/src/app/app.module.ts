@@ -30,7 +30,7 @@ import { MediaComponent } from './music/media/media.component';
 import { FichaVideoComponent } from './shared/fichaVideo/fichaVideo.component';
 import { FichaCancionComponent } from './shared/ficha-cancion/ficha-cancion.component';
 import { HistoriaComponent } from './historia/historia.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PartituraComponent } from './music/canciones/partitura/partitura.component';
 import { LibrosComponent } from './music/libros/libros.component';
 import { FichaLibroComponent } from './shared/ficha-libro/ficha-libro.component';
@@ -121,7 +121,8 @@ registerLocaleData(localeEs);
     MaterialModule,
     FormsModule,
     HttpClientModule,
-    MatDialogModule    
+    MatDialogModule,
+    ReactiveFormsModule 
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'es' } // Configurar español como el locale predeterminado

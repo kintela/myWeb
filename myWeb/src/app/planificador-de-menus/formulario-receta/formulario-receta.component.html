@@ -1,21 +1,24 @@
-  <form class="flex-form">
+<form [formGroup]="recetaForm" class="flex-form">
+  <div class="scroll-container">
     <div class="flex-container row">
       <div class="flex-item">
         <mat-form-field appearance="fill">
           <mat-label>Nombre del plato</mat-label>
-          <input matInput placeholder="Introduce el nombre del plato" class="wide-input-container">
+          <input matInput formControlName="nombre" placeholder="Introduce el nombre del plato" class="wide-input-container">
         </mat-form-field>
       </div>
+
       <div class="flex-item">
         <mat-form-field appearance="fill">
           <mat-label>Categorías</mat-label>
-          <mat-select>
-            <mat-option *ngFor="let categoria of categorias" [value]="categoria">
+          <mat-select formControlName="categoriaId">
+            <mat-option *ngFor="let categoria of categorias" [value]="categoria.categoriaId">
               {{ categoria.nombre }}
             </mat-option>
           </mat-select>
         </mat-form-field>
       </div>
+
       <div class="flex-item image-upload">
         <button mat-raised-button (click)="imageInput.click()">
           Cargar Imagen
@@ -25,32 +28,40 @@
         <img *ngIf="imageSrc" [src]="imageSrc" class="image-preview"/>
       </div>
     </div>
+
+    <div class="flex-container row">
+      <mat-form-field appearance="fill" class="full-width">
+        <mat-label>Enlace al video</mat-label>
+        <input matInput formControlName="enlaceVideo" placeholder="Introduce el enlace al video">
+      </mat-form-field>
+    </div>
   
     <div class="flex-container row">
       <mat-form-field appearance="fill" class="full-width">
         <mat-label>Ingredientes</mat-label>
-        <textarea matInput placeholder="Introduce los ingredientes" rows="10"></textarea>
+        <textarea matInput formControlName="ingredientes" placeholder="Introduce los ingredientes" rows="10"></textarea>
       </mat-form-field>
     </div>
   
     <div class="flex-container row">
       <mat-form-field appearance="fill" class="full-width">
         <mat-label>Preparación</mat-label>
-        <textarea matInput placeholder="Introduce los pasos de la preparación" rows="10"></textarea>
+        <textarea matInput formControlName="preparacion" placeholder="Introduce los pasos de la preparación" rows="10"></textarea>
       </mat-form-field>
     </div>
   
     <div class="flex-container row">
       <mat-form-field appearance="fill" class="full-width">
         <mat-label>Presentación</mat-label>
-        <textarea matInput placeholder="Introduce la presentación del plato" rows="2"></textarea>
+        <textarea matInput formControlName="presentacion" placeholder="Introduce la presentación del plato" rows="2"></textarea>
       </mat-form-field>
     </div>
-  
-    <div class="flex-container actions row">
-      <button mat-raised-button color="primary" (click)="guardarReceta()">Guardar</button>
-      <button mat-raised-button (click)="cerrarDialogo()">Cerrar</button>
-    </div>
-  </form>
+  </div>
+
+  <div class="flex-container actions row">
+    <button mat-raised-button color="primary" (click)="guardarReceta()" [disabled]="recetaForm.invalid">Guardar</button>
+    <button mat-raised-button (click)="cerrarDialogo()">Cerrar</button>
+  </div>
+</form>
   
   

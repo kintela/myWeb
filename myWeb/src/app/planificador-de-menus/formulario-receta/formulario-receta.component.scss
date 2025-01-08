@@ -3,6 +3,12 @@
   flex-direction: column;
   gap: 15px; /* Espacio entre las filas */
   padding: 20px; /* Espacio entre el borde de la ventana y los elementos internos */
+  height: 100%; /* Asegura que el formulario ocupe toda la altura disponible */
+}
+
+.scroll-container {
+  overflow-y: auto; /* Habilita el desplazamiento vertical */
+  max-height: calc(100vh - 100px); /* Ajusta la altura máxima para que el formulario quepa en la pantalla */
 }
 
 .flex-container {

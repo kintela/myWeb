@@ -1,6 +1,7 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { RecetasService } from 'src/app/services/recetas.service';
 
 @Component({
@@ -10,22 +11,44 @@ import { RecetasService } from 'src/app/services/recetas.service';
 })
 export class FormularioRecetaComponent implements OnInit{  
   categorias: any[]; 
-  platos: any[];
+  //platos: any[];
   imageSrc: string;
   recetaForm: FormGroup;
+  isEditMode: boolean;
+  
 
   constructor(
     @Inject(MAT_DIALOG_DATA) public data: any,
     public dialogRef: MatDialogRef<FormularioRecetaComponent>,
     private fb: FormBuilder,
-    private recetasService: RecetasService) {}
+    private recetasService: RecetasService,
+    private snackBar: MatSnackBar) {
+      this.isEditMode = data.isEditMode;
+    }
 
   ngOnInit(): void {
+    console.log('Data', this.data);
     this.categorias = this.data.categorias;
-    this.platos = this.data.platos;
-    console.log('Categorias', this.categorias);
-    
+
     this.recetaForm = this.fb.group({
+      nombre: [this.data.receta ? this.data.receta.nombre : '', Validators.required],
+      categoriaId: [this.data.receta ? this.data.receta.categoriaId : '', Validators.required],
+      ingredientes: [this.data.receta ? this.data.receta.ingredientes?.join('\n') : '', Validators.required],
+      preparacion: [this.data.receta ? this.data.receta.preparacion?.join('\n') : '', Validators.required],
+      presentacion: [this.data.receta ? this.data.receta.presentacion?.join('\n') : ''],
+      enlaceVideo: [this.data.receta ? this.data.receta.enlaceVideo : ''],
+      imagen: [this.data.receta ? this.data.receta.imagen : ''],
+      comensales: [this.data.receta ? this.data.receta.comensales : null]
+    });
+
+    if (this.data.receta && this.data.receta.imagen) {
+      this.imageSrc = this.data.receta.imagen;
+    }
+
+    //this.platos = this.data.platos;
+    //console.log('Categorias', this.categorias);
+    
+    /*this.recetaForm = this.fb.group({
       nombre: ['', Validators.required],
       categoriaId: ['', Validators.required],
       ingredientes: [''],
@@ -34,7 +57,7 @@ export class FormularioRecetaComponent implements OnInit{
       enlaceVideo: [''],
       imagen: [''],
       comensales: [null]
-    });
+    });*/
   }
 
   onImageSelected($event:any): void {
@@ -52,10 +75,12 @@ export class FormularioRecetaComponent implements OnInit{
 
   cerrarDialogo(): void {
     this.dialogRef.close();
+
+    
   }
 
   
-  guardarReceta(){
+  guardarRecetaOLD(){
     if (this.recetaForm.valid) {
       const recetaDTO = this.recetaForm.value;
 
@@ -63,7 +88,7 @@ export class FormularioRecetaComponent implements OnInit{
        recetaDTO.ingredientes = recetaDTO.ingredientes ? String(recetaDTO.ingredientes).split('\n').filter(line => line.trim() !== '') : [];
        recetaDTO.preparacion = recetaDTO.preparacion ? String(recetaDTO.preparacion).split('\n').filter(line => line.trim() !== '') : [];
        recetaDTO.presentacion = recetaDTO.presentacion ? String(recetaDTO.presentacion).split('\n').filter(line => line.trim() !== '') : [];
-       
+
       this.recetasService.createReceta(recetaDTO).subscribe(
         response => {
           console.log('Receta guardada', response);
@@ -73,6 +98,53 @@ export class FormularioRecetaComponent implements OnInit{
           console.error('Error al guardar la receta', error);
         }
       );
+    }
+  }
+
+  guardarReceta(): void {
+    if (this.recetaForm.valid) {
+      const recetaDTO = this.recetaForm.value;
+
+      // Convertir los campos de texto en arrays de strings solo si tienen valor
+      recetaDTO.ingredientes = recetaDTO.ingredientes ? recetaDTO.ingredientes?.split('\n').filter(line => line.trim() !== '') : [];
+      recetaDTO.preparacion = recetaDTO.preparacion ? recetaDTO.preparacion?.split('\n').filter(line => line.trim() !== '') : [];
+      recetaDTO.presentacion = recetaDTO.presentacion ? recetaDTO.presentacion?.split('\n').filter(line => line.trim() !== '') : [];
+
+      if (this.isEditMode) {
+        // Lógica para actualizar la receta existente
+        this.recetasService.updateReceta(this.data.receta.recetaId, recetaDTO).subscribe(
+          response => {
+            //console.log('Receta actualizada', response);
+            this.snackBar.open('Receta actualizada con éxito', 'Cerrar', {
+              duration: 3000
+            });
+            this.dialogRef.close(response);
+          },
+          error => {
+            //console.error('Error al actualizar la receta', error);
+            this.snackBar.open('Error al actualizar la receta', 'Cerrar', {
+              duration: 3000
+            });
+          }
+        );
+      } else {
+        // Lógica para crear una nueva receta
+        this.recetasService.createReceta(recetaDTO).subscribe(
+          response => {
+            //console.log('Receta guardada', response);
+            this.snackBar.open('Receta guardada con éxito', 'Cerrar', {
+              duration: 3000
+            });
+            this.dialogRef.close(response);
+          },
+          error => {
+            //console.error('Error al guardar la receta', error);
+            this.snackBar.open('Error al guardar la receta', 'Cerrar', {
+              duration: 3000
+            });
+          }
+        );
+      }
     }
   }
 }

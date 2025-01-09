@@ -27,6 +27,11 @@
       <mat-icon>add</mat-icon>
     </button>
 
+    <button   mat-icon-button (click)="abrirDialogoEditarPlato(platoSeleccionado)" color="primary" 
+              matTooltip="Edita la receta" class="boton-con-borde" [disabled]="!platoSeleccionado">
+      <mat-icon>edit</mat-icon>
+    </button>
+
     <button mat-raised-button (click)="fileInput.click()" color="primary">
       Cargar menu
       <input type="file" (change)="cargarDataSource($event)" #fileInput hidden>

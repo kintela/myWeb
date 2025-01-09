@@ -11,7 +11,7 @@ import { MenuSemanalDTO } from '../data/DTOs/menuSemanalDTO';
 import { MenuSemanalService } from '../services/menuSemanal.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { forkJoin, map } from 'rxjs';
-import { ConfirmDialogComponent } from '../shared/confirmdialog/confirmdialog.component';
+import { ConfirmDialogComponent } from '../shared/confirmdialog/confirmDialog.component';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -350,40 +350,7 @@ export class PlanificadorMenusComponent implements OnInit{
     });
   }
 
-  eliminarPlatoOLD(evento: PlatoEliminadoEvent) {
-    console.log(evento);
-    // Accede a la propiedad específica usando el día y el tipo
-    let dia = this.dataSource.find(d => d.tipo === evento.tipo);
-    
-    // Asegúrate de que la estructura de los datos sea la esperada
-    if (dia && dia[evento.dia] && dia[evento.dia][evento.orden] === evento.plato) {
-      dia[evento.dia][evento.orden] = null;
-    }
   
-    // Si se eliminó el plato que estaba siendo usado para la receta, elimina la referencia
-    if (this.platoParaReceta === evento.plato) {
-      this.platoParaReceta = null;
-    }
-  
-    // Este paso es necesario si estás utilizando la detección de cambios predeterminada
-    // Actualiza el dataSource para asegurar que los cambios se reflejen en la vista
-    this.dataSource = [...this.dataSource];
-
-    // Actualizar el registro en la base de datos
-    const menuSemanalDTO = this.convertirDataSourceAMenuSemanalDTO(this.dataSource);
-    this.menuSemanalService.actualizarMenuSemanal(menuSemanalDTO).subscribe(
-      response => {
-        console.log('Receta eliminada del menú semanal', response);
-        this.snackBar.open('Receta eliminada del menú semanal.', 'Cerrar', {
-          duration: 3000, 
-        });
-      },
-      error => {
-        console.error('Error al eliminar la receta del menú semanal', error);
-      }
-    );
-
-  }
   
   mostrarListaCompra(item: IListaCompra) {
     console.log(item);
@@ -393,9 +360,22 @@ export class PlanificadorMenusComponent implements OnInit{
   abrirDialogoAgregarPlato(): void {
     const dialogRef = this.dialog.open(FormularioRecetaComponent, {
       width: '50%',      
-       data: { categorias: this.categorias , platos: this.recetas}
+       //data: { categorias: this.categorias , platos: this.recetas}
+       data: { categorias: this.categorias , isEditMode: false}
     });
   
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('El diálogo fue cerrado');
+      // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
+    });
+  }
+
+  abrirDialogoEditarPlato(plato: any): void {
+    const dialogRef = this.dialog.open(FormularioRecetaComponent, {
+      width: '50%',
+      data: { categorias: this.categorias, receta: plato, isEditMode: true }
+    });
+
     dialogRef.afterClosed().subscribe(result => {
       console.log('El diálogo fue cerrado');
       // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario

@@ -60,7 +60,7 @@ import { FilterYearPipe } from './pipes/filterYear.pipe';
 import { FlowisechatbotComponent } from './shared/flowisechatbot/flowisechatbot.component';
 import { FormularioCategoriaComponent } from './planificador-de-menus/formulario-categoria/formulario-categoria.component';
 import { MatDialogModule } from '@angular/material/dialog';
-import { ConfirmDialogComponent } from './shared/confirmdialog/confirmdialog.component';
+import { ConfirmDialogComponent } from './shared/confirmdialog/confirmDialog.component';
 
 
 

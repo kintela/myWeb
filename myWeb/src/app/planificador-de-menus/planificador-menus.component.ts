@@ -44,18 +44,18 @@ export class PlanificadorMenusComponent implements OnInit{
     { tipo: 'Comida', 
       lunes: { primerPlato: null, segundoPlato: null }, 
       martes: { primerPlato: null, segundoPlato: null}, 
-      miercoles: { primerPlato: null, segundoPlato: null },
+      miércoles: { primerPlato: null, segundoPlato: null },
       jueves: { primerPlato: null, segundoPlato: null},
       viernes: { primerPlato: null, segundoPlato: null},
-      sabado: { primerPlato: null, segundoPlato: null},
+      sábado: { primerPlato: null, segundoPlato: null},
       domingo: { primerPlato: null, segundoPlato: null}},
     { tipo: 'Cena', 
       lunes: { platoUnico: null}, 
       martes: { platoUnico: null}, 
-      miercoles: { platoUnico: null}, 
+      miércoles: { platoUnico: null}, 
       jueves: { platoUnico: null}, 
       viernes: { platoUnico: null}, 
-      sabado: { platoUnico: null}, 
+      sábado: { platoUnico: null}, 
       domingo: { platoUnico: null }
     },
   ];
@@ -222,18 +222,18 @@ export class PlanificadorMenusComponent implements OnInit{
       recetaPrimerPlatoMartes: this.dataSource[0].martes.primerPlato?.recetaId || null,
       recetaSegundoPlatoMartes: this.dataSource[0].martes.segundoPlato?.recetaId || null,
       recetaCenaMartes: this.dataSource[1].martes.platoUnico?.recetaId || null,
-      recetaPrimerPlatoMiercoles: this.dataSource[0].miercoles.primerPlato?.recetaId || null,
-      recetaSegundoPlatoMiercoles: this.dataSource[0].miercoles.segundoPlato?.recetaId || null,
-      recetaCenaMiercoles: this.dataSource[1].miercoles.platoUnico?.recetaId || null,
+      recetaPrimerPlatoMiercoles: this.dataSource[0].miércoles.primerPlato?.recetaId || null,
+      recetaSegundoPlatoMiercoles: this.dataSource[0].miércoles.segundoPlato?.recetaId || null,
+      recetaCenaMiercoles: this.dataSource[1].miércoles.platoUnico?.recetaId || null,
       recetaPrimerPlatoJueves: this.dataSource[0].jueves.primerPlato?.recetaId || null,
       recetaSegundoPlatoJueves: this.dataSource[0].jueves.segundoPlato?.recetaId || null,
       recetaCenaJueves: this.dataSource[1].jueves.platoUnico?.recetaId || null,
       recetaPrimerPlatoViernes: this.dataSource[0].viernes.primerPlato?.recetaId || null,
       recetaSegundoPlatoViernes: this.dataSource[0].viernes.segundoPlato?.recetaId || null,
       recetaCenaViernes: this.dataSource[1].viernes.platoUnico?.recetaId || null,
-      recetaPrimerPlatoSabado: this.dataSource[0].sabado.primerPlato?.recetaId || null,
-      recetaSegundoPlatoSabado: this.dataSource[0].sabado.segundoPlato?.recetaId || null,
-      recetaCenaSabado: this.dataSource[1].sabado.platoUnico?.recetaId || null,
+      recetaPrimerPlatoSabado: this.dataSource[0].sábado.primerPlato?.recetaId || null,
+      recetaSegundoPlatoSabado: this.dataSource[0].sábado.segundoPlato?.recetaId || null,
+      recetaCenaSabado: this.dataSource[1].sábado.platoUnico?.recetaId || null,
       recetaPrimerPlatoDomingo: this.dataSource[0].domingo.primerPlato?.recetaId || null,
       recetaSegundoPlatoDomingo: this.dataSource[0].domingo.segundoPlato?.recetaId || null,
       recetaCenaDomingo: this.dataSource[1].domingo.platoUnico?.recetaId || null,
@@ -273,21 +273,7 @@ export class PlanificadorMenusComponent implements OnInit{
         err => console.error('Error verificando la existencia del menú', err)
       );
   }
-
-  guardarDataSourceOLD() {
-    const dataStr = JSON.stringify(this.dataSource);
-    const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
   
-    const date = new Date();
-    const formattedDate = date.toISOString().split('T')[0]; // Formato: 'aaaa-mm-dd'
-
-    const exportFileDefaultName = `menuSemanal-${formattedDate}.json`;
-  
-    const linkElement = document.createElement('a');
-    linkElement.setAttribute('href', dataUri);
-    linkElement.setAttribute('download', exportFileDefaultName);
-    linkElement.click();
-  }
 
   cargarDataSource(event) {
     const file = event.target.files[0];

@@ -37,25 +37,27 @@ export class PlanificadorMenusComponent implements OnInit{
   listaCompra: IListaCompra;
   listaCompraAcumulada: IListaCompra[]=[]; 
   menuSemanal:MenuSemanalDTO;
+  menusSemanales: MenuSemanalDTO[] = [];
+  selectedMenuId: number;
 
-  displayedColumns: string[] = ['tipo','lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];  
+  displayedColumns: string[] = ['tipo','lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];  
 
   dataSource = [
     { tipo: 'Comida', 
       lunes: { primerPlato: null, segundoPlato: null }, 
       martes: { primerPlato: null, segundoPlato: null}, 
-      miércoles: { primerPlato: null, segundoPlato: null },
+      miercoles: { primerPlato: null, segundoPlato: null },
       jueves: { primerPlato: null, segundoPlato: null},
       viernes: { primerPlato: null, segundoPlato: null},
-      sábado: { primerPlato: null, segundoPlato: null},
+      sabado: { primerPlato: null, segundoPlato: null},
       domingo: { primerPlato: null, segundoPlato: null}},
     { tipo: 'Cena', 
       lunes: { platoUnico: null}, 
       martes: { platoUnico: null}, 
-      miércoles: { platoUnico: null}, 
+      miercoles: { platoUnico: null}, 
       jueves: { platoUnico: null}, 
       viernes: { platoUnico: null}, 
-      sábado: { platoUnico: null}, 
+      sabado: { platoUnico: null}, 
       domingo: { platoUnico: null }
     },
   ];
@@ -67,6 +69,13 @@ export class PlanificadorMenusComponent implements OnInit{
   ) { }
 
   ngOnInit(): void {    
+    this.menuSemanalService.getAllMenusSemanales().subscribe(
+      data => {
+        this.menusSemanales = data;
+      },
+      err => console.error(err)
+    );
+
     this.recetasService.getCategoriasRecetas().subscribe(
       data=>{
         //console.log("categorias",data);
@@ -222,18 +231,18 @@ export class PlanificadorMenusComponent implements OnInit{
       recetaPrimerPlatoMartes: this.dataSource[0].martes.primerPlato?.recetaId || null,
       recetaSegundoPlatoMartes: this.dataSource[0].martes.segundoPlato?.recetaId || null,
       recetaCenaMartes: this.dataSource[1].martes.platoUnico?.recetaId || null,
-      recetaPrimerPlatoMiercoles: this.dataSource[0].miércoles.primerPlato?.recetaId || null,
-      recetaSegundoPlatoMiercoles: this.dataSource[0].miércoles.segundoPlato?.recetaId || null,
-      recetaCenaMiercoles: this.dataSource[1].miércoles.platoUnico?.recetaId || null,
+      recetaPrimerPlatoMiercoles: this.dataSource[0].miercoles.primerPlato?.recetaId || null,
+      recetaSegundoPlatoMiercoles: this.dataSource[0].miercoles.segundoPlato?.recetaId || null,
+      recetaCenaMiercoles: this.dataSource[1].miercoles.platoUnico?.recetaId || null,
       recetaPrimerPlatoJueves: this.dataSource[0].jueves.primerPlato?.recetaId || null,
       recetaSegundoPlatoJueves: this.dataSource[0].jueves.segundoPlato?.recetaId || null,
       recetaCenaJueves: this.dataSource[1].jueves.platoUnico?.recetaId || null,
       recetaPrimerPlatoViernes: this.dataSource[0].viernes.primerPlato?.recetaId || null,
       recetaSegundoPlatoViernes: this.dataSource[0].viernes.segundoPlato?.recetaId || null,
       recetaCenaViernes: this.dataSource[1].viernes.platoUnico?.recetaId || null,
-      recetaPrimerPlatoSabado: this.dataSource[0].sábado.primerPlato?.recetaId || null,
-      recetaSegundoPlatoSabado: this.dataSource[0].sábado.segundoPlato?.recetaId || null,
-      recetaCenaSabado: this.dataSource[1].sábado.platoUnico?.recetaId || null,
+      recetaPrimerPlatoSabado: this.dataSource[0].sabado.primerPlato?.recetaId || null,
+      recetaSegundoPlatoSabado: this.dataSource[0].sabado.segundoPlato?.recetaId || null,
+      recetaCenaSabado: this.dataSource[1].sabado.platoUnico?.recetaId || null,
       recetaPrimerPlatoDomingo: this.dataSource[0].domingo.primerPlato?.recetaId || null,
       recetaSegundoPlatoDomingo: this.dataSource[0].domingo.segundoPlato?.recetaId || null,
       recetaCenaDomingo: this.dataSource[1].domingo.platoUnico?.recetaId || null,
@@ -276,7 +285,7 @@ export class PlanificadorMenusComponent implements OnInit{
   
 
   cargarDataSource(event) {
-    const file = event.target.files[0];
+    /*const file = event.target.files[0];
     if (file) {
       const reader = new FileReader();
       reader.onload = (e) => {
@@ -284,7 +293,7 @@ export class PlanificadorMenusComponent implements OnInit{
         this.dataSource = JSON.parse(text);
       };
       reader.readAsText(file);
-    }
+    }*/
   }
 
   hayDatosParaGuardar() {
@@ -393,6 +402,74 @@ export class PlanificadorMenusComponent implements OnInit{
       });
     });
     return menuSemanalDTO;
+  }
+
+  cargarMenuSemanal(menu: MenuSemanalDTO) {
+    const recetaIdMapping = [];
+    const dias = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
+
+    dias.forEach(dia => {
+      const primerPlatoId = menu[`recetaPrimerPlato${dia}`];
+      const segundoPlatoId = menu[`recetaSegundoPlato${dia}`];
+      const cenaId = menu[`recetaCena${dia}`];
+
+      if (primerPlatoId) {
+        recetaIdMapping.push({
+          dia: dia.toLowerCase(),
+          tipo: 'Comida',
+          plato: 'primerPlato',
+          recetaId: primerPlatoId,
+        });
+      }
+      if (segundoPlatoId) {
+        recetaIdMapping.push({
+          dia: dia.toLowerCase(),
+          tipo: 'Comida',
+          plato: 'segundoPlato',
+          recetaId: segundoPlatoId,
+        });
+      }
+      if (cenaId) {
+        recetaIdMapping.push({
+          dia: dia.toLowerCase(),
+          tipo: 'Cena',
+          plato: 'platoUnico',
+          recetaId: cenaId,
+        });
+      }
+    });
+
+    const observables = recetaIdMapping.map(mapping =>
+      this.recetasService.getRecetasById(mapping.recetaId).pipe(
+        map(receta => ({
+          ...mapping,
+          receta,
+        }))
+      )
+    );
+
+    forkJoin(observables).subscribe(results => {
+      results.forEach(result => {
+        const { dia, tipo, plato, receta } = result;
+        const dataSourceEntry = this.dataSource.find(entry => entry.tipo === tipo);
+
+        if (dataSourceEntry && dataSourceEntry[dia]) {
+          dataSourceEntry[dia][plato] = receta;
+        }
+      });
+
+      this.dataSource = [...this.dataSource];
+    });
+  }
+
+
+  onMenuSeleccionado(menuId: number) {
+    this.selectedMenuId = menuId;
+    const selectedMenu = this.menusSemanales.find(menu => menu.menuSemanalId === menuId);
+    if (selectedMenu) {
+      this.menuSemanal = selectedMenu;
+      this.cargarMenuSemanal(selectedMenu);
+    }
   }
   
   

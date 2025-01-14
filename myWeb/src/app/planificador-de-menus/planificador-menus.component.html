@@ -32,6 +32,15 @@
       <mat-icon>edit</mat-icon>
     </button>
 
+    <mat-form-field appearance="fill" class="selector-menus">
+      <mat-label>Menús Semanales</mat-label>
+      <mat-select [(value)]="selectedMenuId" (selectionChange)="onMenuSeleccionado($event.value)">
+        <mat-option *ngFor="let menu of menusSemanales" [value]="menu.menuSemanalId">
+          {{ menu.fechaCreacion }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
     <button mat-raised-button (click)="fileInput.click()" color="primary">
       Cargar menu
       <input type="file" (change)="cargarDataSource($event)" #fileInput hidden>

@@ -1,5 +1,5 @@
 export class MenuSemanalDTO {
-    //menuSemanalId: number;  
+    menuSemanalId?: number;  
     usuarioId: number;    
     fechaCreacion: string;
     recetaPrimerPlatoLunes:number;

@@ -79,27 +79,6 @@ export class FormularioRecetaComponent implements OnInit{
     
   }
 
-  
-  guardarRecetaOLD(){
-    if (this.recetaForm.valid) {
-      const recetaDTO = this.recetaForm.value;
-
-       // Convertir los campos de texto en arrays de strings
-       recetaDTO.ingredientes = recetaDTO.ingredientes ? String(recetaDTO.ingredientes).split('\n').filter(line => line.trim() !== '') : [];
-       recetaDTO.preparacion = recetaDTO.preparacion ? String(recetaDTO.preparacion).split('\n').filter(line => line.trim() !== '') : [];
-       recetaDTO.presentacion = recetaDTO.presentacion ? String(recetaDTO.presentacion).split('\n').filter(line => line.trim() !== '') : [];
-
-      this.recetasService.createReceta(recetaDTO).subscribe(
-        response => {
-          console.log('Receta guardada', response);
-          this.dialogRef.close(response);
-        },
-        error => {
-          console.error('Error al guardar la receta', error);
-        }
-      );
-    }
-  }
 
   guardarReceta(): void {
     if (this.recetaForm.valid) {

@@ -1,24 +1,21 @@
 <div class="form-container" style="padding: 16px;">
     <h2>Añade una categoría</h2>
-    <form (ngSubmit)="onSubmit()" #categoryForm="ngForm">
+    <form [formGroup]="categoriaForm">
       <mat-form-field appearance="fill" class="full-width">
-        <mat-label>Categorría</mat-label>
+        <mat-label>Categoría</mat-label>
         <input
           matInput
+          formControlName="nombre"
           type="text"
-          id="category"
-          name="category"
-          ngModel
-          required
-          placeholder="Enter category name"
+          placeholder="Introduce el nombre de la categoría"
         />
       </mat-form-field>
       
       <div class="form-actions" style="margin-top: 16px;">
-        <button mat-raised-button color="primary" type="submit" [disabled]="!categoryForm.form.valid">
+        <button mat-raised-button color="primary" (click)="guardarCategoria()" [disabled]="categoriaForm.invalid">
           Añadir
         </button>
-        <button mat-button type="button" (click)="onClose()">Cerrar</button>
+        <button mat-raised-button (click)="onClose()">Cerrar</button>
       </div>
     </form>
   </div>

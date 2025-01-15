@@ -105,7 +105,7 @@ export class PlanificadorMenusComponent implements OnInit{
     this.menuSemanalService.getMenuSemanalActual(1).subscribe(
       data => {
         this.menuSemanal = data;
-        console.log("Menu Semanal Actual", this.menuSemanal);
+        //console.log("Menu Semanal Actual", this.menuSemanal);
     
         const recetaIdMapping = [];
         const dias = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
@@ -173,7 +173,7 @@ export class PlanificadorMenusComponent implements OnInit{
             });
     
             // Now the dataSource is updated with the recipes
-            console.log("Updated dataSource:", this.dataSource);
+            //console.log("Updated dataSource:", this.dataSource);
           });
         } else {
           console.error('menuSemanal is empty or undefined');
@@ -248,7 +248,7 @@ export class PlanificadorMenusComponent implements OnInit{
       recetaCenaDomingo: this.dataSource[1].domingo.platoUnico?.recetaId || null,
     };
 
-    console.log('Menu semanal a enviar:', menuSemanalDTO);
+    //console.log('Menu semanal a enviar:', menuSemanalDTO);
 
     this.menuSemanalService.verificarMenuExistente(menuSemanalDTO.usuarioId, menuSemanalDTO.fechaCreacion)
       .subscribe(
@@ -258,7 +258,7 @@ export class PlanificadorMenusComponent implements OnInit{
             this.menuSemanalService.actualizarMenuSemanal(menuSemanalDTO)
               .subscribe(
                 data => {
-                  console.log('Menú semanal actualizado con éxito', data);
+                  //console.log('Menú semanal actualizado con éxito', data);
                   this.snackBar.open('El menú se ha actualizado correctamente.', 'Cerrar', {
                     duration: 3000, // Duración en milisegundos
                   });
@@ -270,7 +270,7 @@ export class PlanificadorMenusComponent implements OnInit{
             this.menuSemanalService.enviarMenuSemanal(menuSemanalDTO)
               .subscribe(
                 data => {
-                  console.log('Menú semanal enviado con éxito', data);
+                  //console.log('Menú semanal enviado con éxito', data);
                   this.snackBar.open('El menú se ha guardado correctamente.', 'Cerrar', {
                     duration: 3000, // Duración en milisegundos
                   });
@@ -332,7 +332,7 @@ export class PlanificadorMenusComponent implements OnInit{
         const menuSemanalDTO = this.convertirDataSourceAMenuSemanalDTO(this.dataSource);
         this.menuSemanalService.actualizarMenuSemanal(menuSemanalDTO).subscribe(
           response => {
-            console.log('Receta eliminada del menú semanal', response);
+            //console.log('Receta eliminada del menú semanal', response);
             this.snackBar.open('Receta eliminada del menú semanal.', 'Cerrar', {
               duration: 3000, 
             });
@@ -348,7 +348,7 @@ export class PlanificadorMenusComponent implements OnInit{
   
   
   mostrarListaCompra(item: IListaCompra) {
-    console.log(item);
+    //console.log(item);
     this.listaCompraAcumulada.push(item); 
   }
 
@@ -360,7 +360,7 @@ export class PlanificadorMenusComponent implements OnInit{
     });
   
     dialogRef.afterClosed().subscribe(result => {
-      console.log('El diálogo fue cerrado');
+      //console.log('El diálogo fue cerrado');
       // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
     });
   }
@@ -372,7 +372,7 @@ export class PlanificadorMenusComponent implements OnInit{
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('El diálogo fue cerrado');
+      //console.log('El diálogo fue cerrado');
       // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
     });
   }
@@ -384,9 +384,17 @@ export class PlanificadorMenusComponent implements OnInit{
     });
   
     dialogRef.afterClosed().subscribe(result => {
-      console.log('El diálogo fue cerrado');
-      // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
-    });
+      if (result) {
+        this.recetasService.getCategoriasRecetas().subscribe(
+          data => {
+            this.categorias = data;
+            const todasCategoria: CategoriaDTO = { categoriaId: 0, nombre: 'Todas' };
+            this.categorias.push(todasCategoria);
+            this.categoriaSeleccionada = todasCategoria;
+          },
+          err => console.error(err)
+        );
+      }    });
   }
 
   convertirDataSourceAMenuSemanalDTO(dataSource): MenuSemanalDTO {

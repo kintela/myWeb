@@ -27,7 +27,7 @@ export class FormularioRecetaComponent implements OnInit{
     }
 
   ngOnInit(): void {
-    console.log('Data', this.data);
+    //console.log('Data', this.data);
     this.categorias = this.data.categorias;
 
     this.recetaForm = this.fb.group({
@@ -45,19 +45,7 @@ export class FormularioRecetaComponent implements OnInit{
       this.imageSrc = this.data.receta.imagen;
     }
 
-    //this.platos = this.data.platos;
-    //console.log('Categorias', this.categorias);
-    
-    /*this.recetaForm = this.fb.group({
-      nombre: ['', Validators.required],
-      categoriaId: ['', Validators.required],
-      ingredientes: [''],
-      preparacion: [''],
-      presentacion: [''],
-      enlaceVideo: [''],
-      imagen: [''],
-      comensales: [null]
-    });*/
+   
   }
 
   onImageSelected($event:any): void {

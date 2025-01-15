@@ -41,10 +41,10 @@ export class FormularioCategoriaComponent implements OnInit {
           });
           this.dialogRef.close(response);
         },
-        error => {
-          //console.error('Error al guardar la receta', error);
-          this.snackBar.open('Error al guardar la categoría', 'Cerrar', {
-            duration: 3000
+        err => {
+          let errorMessage = 'Error guardando la categoría asegurate de que no exista una ya con el mismo nombre';
+          this.snackBar.open(errorMessage, 'Cerrar', {
+            duration: 3000,
           });
         }
       );

@@ -360,9 +360,15 @@ export class PlanificadorMenusComponent implements OnInit{
     });
   
     dialogRef.afterClosed().subscribe(result => {
-      //console.log('El diálogo fue cerrado');
-      // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
-    });
+      if (result) {
+        this.recetasService.getRecetas().subscribe(
+          data => {
+            this.recetas = data;
+            this.filtrarPlatos();
+          },
+          err => console.error(err)
+        );
+      }    });
   }
 
   abrirDialogoEditarPlato(plato: any): void {

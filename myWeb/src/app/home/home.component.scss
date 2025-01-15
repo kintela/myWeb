@@ -1,19 +1,21 @@
-  .row {
-    display: flex;
-    justify-content: space-around; /* Ajusta esto según prefieras */
-    margin-bottom: 20px; /* Espacio entre filas */
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila */
+  justify-content: space-around; /* Ajusta esto según prefieras */
+  margin-bottom: 20px; /* Espacio entre filas */
+}
+
+mat-card {
+  flex: 0 0 30%; /* Cada tarjeta ocupa el 30% del espacio */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+  margin-bottom: 20px; /* Espacio entre tarjetas en la misma fila */
+  /* Ajusta el tamaño de las imágenes */
+  img {
+    width: 100%; /* Hace que la imagen sea responsiva y se ajuste al contenedor */
+    height: auto;
+    cursor: pointer;
   }
-  
-  mat-card {
-    flex: 0 0 30%; /* Cada tarjeta ocupa el 30% del espacio */
-    /* Ajusta el tamaño de las imágenes */
-    img {
-      width: 100%; /* Hace que la imagen sea responsiva y se ajuste al contenedor */
-      height: auto;
-      cursor: pointer;
-    }
-  }
-  
+}
 
   
   

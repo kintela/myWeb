@@ -15436,8 +15436,122 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Chuck Berry',
         origen:'Facebook',
     }, 
+    {
+        imagen:'3841.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3842.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3843.jpg',
+        titulo:'Stevie Ray Vaughan',
+        personas:'Stevie Ray Vaughan',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3844.jpg',
+        titulo:'Pattie Smith',
+        personas:'Pattie Smith',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3845.jpg',
+        titulo:'Pattie Smith y Rod Stewart',
+        personas:'Pattie Smith, Rod Stewart',
+        origen:'Facebook',
+        year:1971
+    }, 
+    {
+        imagen:'3846.jpg',
+        titulo:'Jimy Hendrix y Mick Tylor',
+        personas:'Jimy Hendrix, Mick Tylor',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3847.jpg',
+        titulo:'Iosu Expósito',
+        personas:'Iosu Expósito',
+        origen:'Facebook',
+        grupo:'Eskorbuto',
+    }, 
+    {
+        imagen:'3848.jpg',
+        titulo:'Black Sabbath y Van Halen',
+        personas:'Ozzy Osbourne, Tony Iommi, Geezer Butler, Bill Ward, Eddie Van Halen, Alex Van Halen, Michael Anthony, David Lee Roth',
+        origen:'Facebook',
+        year:1978
+    }, 
+    {
+        imagen:'3849.jpg',
+        titulo:'Lou Reed',
+        personas:'Lou Reed',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3850.jpg',
+        titulo:'Bryan Ferry y Malcom McLaren',
+        personas:'Bryan Ferry, Malcom McLaren',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3851.jpg',
+        titulo:'Pattie Smith y Lou Reed',
+        personas:'Pattie Smith, Lou Reed',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3852.jpg',
+        titulo:'Tony Iommi y Lemmy Kilmister',
+        personas:'Tony Iommi, Lemmy Kilmister',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3853.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3854.jpg',
+        titulo:'Neil Young',
+        personas:'Neil Young',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3855.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3856.jpg',
+        titulo:'Jimmy Page',
+        personas:'Jimmy Page',
+        origen:'Facebook',
+        grupo:'Led Zeppelin',
+    }, 
+    {
+        imagen:'3857.jpg',
+        titulo:'Eddie Van Halen y Scott Ian',
+        personas:'Eddie Van Halen, Scott Ian',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3858.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+    }, 
 
-     
 
 
 ]

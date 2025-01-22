@@ -475,7 +475,7 @@ export const videos:IVideo[] = [
         enlace: 'https://www.filmin.es/pelicula/victor-manuel-el-abuelo-victor',
         texto: 'Victor Manuel. El abuelo Victor',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },
     {
         imagen: '58.jpeg',
@@ -503,7 +503,7 @@ export const videos:IVideo[] = [
         enlace: 'https://www.filmin.es/pelicula/la-estrella-azul',
         texto: 'La estrella azul',
         categoria: 'Mix',
-        plataforma: 'filmin'
+        plataforma: 'Filmin'
     },
     {
         imagen: '57.jpeg',

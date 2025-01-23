@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { RecetasService } from 'src/app/services/recetas.service';
@@ -32,20 +32,20 @@ export class FormularioRecetaComponent implements OnInit{
 
     this.recetaForm = this.fb.group({
       nombre: [this.data.receta ? this.data.receta.nombre : '', Validators.required],
-      categoriaId: [this.data.receta ? this.data.receta.categoriaId : '', Validators.required],
+      categoriaIds: [this.data.receta ? this.data.receta.categoriaIds : [], Validators.required],
       ingredientes: [this.data.receta ? this.data.receta.ingredientes?.join('\n') : '', Validators.required],
       preparacion: [this.data.receta ? this.data.receta.preparacion?.join('\n') : '', Validators.required],
       presentacion: [this.data.receta ? this.data.receta.presentacion?.join('\n') : ''],
       enlaceVideo: [this.data.receta ? this.data.receta.enlaceVideo : ''],
       imagen: [this.data.receta ? this.data.receta.imagen : ''],
-      comensales: [this.data.receta ? this.data.receta.comensales : null]
+      comensales: [this.data.receta ? this.data.receta.comensales : null],
+      //categoriaIds: new FormControl(this.data.receta ? this.data.receta.categoriaIds : [], Validators.required)
+      
     });
 
     if (this.data.receta && this.data.receta.imagen) {
       this.imageSrc = this.data.receta.imagen;
-    }
-
-   
+    }   
   }
 
   onImageSelected($event:any): void {
@@ -62,10 +62,8 @@ export class FormularioRecetaComponent implements OnInit{
   }
 
   cerrarDialogo(): void {
-    this.dialogRef.close();
-
-    
-  }
+    this.dialogRef.close();    
+  } 
 
 
   guardarReceta(): void {

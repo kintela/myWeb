@@ -26,5 +26,11 @@
     text-align: center; /* Esto centrará el contenido del contenedor */
     padding: 8px 0; /* Añade algo de espacio arriba y abajo del enlace */
   }
+
+  .ingredientes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Ajusta el espacio entre los elementos según sea necesario */
+}
   
   

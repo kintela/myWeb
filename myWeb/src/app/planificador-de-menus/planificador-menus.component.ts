@@ -284,18 +284,6 @@ export class PlanificadorMenusComponent implements OnInit{
   }
   
 
-  cargarDataSource(event) {
-    /*const file = event.target.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        const text = (e.target.result as string);
-        this.dataSource = JSON.parse(text);
-      };
-      reader.readAsText(file);
-    }*/
-  }
-
   hayDatosParaGuardar() {
     return this.dataSource.some(dia => {
       // Revisa si algún 'dia' tiene al menos un plato que no sea null
@@ -345,7 +333,6 @@ export class PlanificadorMenusComponent implements OnInit{
     });
   }
 
-  
   
   mostrarListaCompra(item: IListaCompra) {
     //console.log(item);
@@ -484,6 +471,10 @@ export class PlanificadorMenusComponent implements OnInit{
       this.menuSemanal = selectedMenu;
       this.cargarMenuSemanal(selectedMenu);
     }
+  }
+
+  cargarDataSource(event){
+
   }
   
   

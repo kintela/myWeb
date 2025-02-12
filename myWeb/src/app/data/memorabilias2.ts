@@ -15551,7 +15551,81 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'David Bowie',
         origen:'Facebook',
     }, 
-
+    {
+        imagen:'3859.jpg',
+        titulo:'System of a Down',
+        personas:'Serj Tankian, Daron Malakian, Shavo Odadjian, John Dolmayan',
+        grupo:'System of a Down',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3860.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        grupo:'Van Halen',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3861.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        grupo:'Van Halen',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3862.jpg',
+        titulo:'Paco de Lucía',
+        personas:'Paco de Lucía',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3863.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen. David Lee Roth',
+        grupo:'Van Halen',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3864.jpg',
+        titulo:'Eddie Van Halen y Alex Van Halen',
+        personas:'Eddie Van Halen, Alex Van Halen',
+        grupo:'Van Halen',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3865.jpg',
+        titulo:'Joey Ramone',
+        personas:'Joey Ramone',
+        grupo:'Ramones',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3866.jpg',
+        titulo:'John Frusciante y Flea',
+        personas:'John Frusciante, Flea',
+        grupo:'Red Hot Chili Peppers',
+        year:1991,
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3867.jpg',
+        titulo:'Red Hot Chili Peppers',
+        personas:'Anthony Kiedis, Flea, John Frusciante, Chad Smith',
+        grupo:'Red Hot Chili Peppers',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3868.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3869.jpg',
+        titulo:'John Sykes',
+        personas:'John Sykes',
+        origen:'Facebook',
+    }, 
 
 
 ]

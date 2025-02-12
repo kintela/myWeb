@@ -22,7 +22,6 @@ export class FichaPlatoComponent implements OnInit {
   @Output() platoEliminado = new EventEmitter<PlatoEliminadoEvent>();
 
   ngOnInit(): void {
-    console.log(this.plato);
   }
 
 

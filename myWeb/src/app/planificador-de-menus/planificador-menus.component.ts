@@ -78,7 +78,6 @@ export class PlanificadorMenusComponent implements OnInit{
 
     this.recetasService.getCategoriasRecetas().subscribe(
       data=>{
-        //console.log("categorias",data);
         this.categorias = data;
         const todasCategoria: CategoriaDTO = { categoriaId: 0, nombre: 'Todas' };
         this.categorias.push(todasCategoria);
@@ -92,8 +91,6 @@ export class PlanificadorMenusComponent implements OnInit{
     this.recetasService.getRecetas().subscribe(
       data=>{      
         this.recetas = data;
-        //console.log("Recetas",this.recetas);
-
         const todasReceta: RecetaDTO = { recetaId: 0, nombre: 'Todos', ingredientes: [], preparacion: [], presentacion: [], enlaceVideo: '', imagen: '' };
         this.recetas.push(todasReceta);
 
@@ -105,8 +102,6 @@ export class PlanificadorMenusComponent implements OnInit{
     this.menuSemanalService.getMenuSemanalActual(1).subscribe(
       data => {
         this.menuSemanal = data;
-        //console.log("Menu Semanal Actual", this.menuSemanal);
-    
         const recetaIdMapping = [];
         const dias = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
     
@@ -173,7 +168,6 @@ export class PlanificadorMenusComponent implements OnInit{
             });
     
             // Now the dataSource is updated with the recipes
-            //console.log("Updated dataSource:", this.dataSource);
           });
         } else {
           console.error('menuSemanal is empty or undefined');
@@ -212,7 +206,7 @@ export class PlanificadorMenusComponent implements OnInit{
     this.filtrarPlatos();
   } 
 
-  seleccionarPlato(element: any, dia: string, tipoPlato: 'primerPlato' | 'segundoPlato' | 'platoUnico') {
+  seleccionarPlato(element: any, dia: string, tipoPlato: 'primerPlato' | 'segundoPlato' | 'platoUnico') {  
     if (!element[dia]) {
       element[dia] = { primerPlato: null, segundoPlato: null, platoUnico:null};
     }
@@ -248,7 +242,6 @@ export class PlanificadorMenusComponent implements OnInit{
       recetaCenaDomingo: this.dataSource[1].domingo.platoUnico?.recetaId || null,
     };
 
-    //console.log('Menu semanal a enviar:', menuSemanalDTO);
 
     this.menuSemanalService.verificarMenuExistente(menuSemanalDTO.usuarioId, menuSemanalDTO.fechaCreacion)
       .subscribe(
@@ -258,7 +251,6 @@ export class PlanificadorMenusComponent implements OnInit{
             this.menuSemanalService.actualizarMenuSemanal(menuSemanalDTO)
               .subscribe(
                 data => {
-                  //console.log('Menú semanal actualizado con éxito', data);
                   this.snackBar.open('El menú se ha actualizado correctamente.', 'Cerrar', {
                     duration: 3000, // Duración en milisegundos
                   });
@@ -270,7 +262,6 @@ export class PlanificadorMenusComponent implements OnInit{
             this.menuSemanalService.enviarMenuSemanal(menuSemanalDTO)
               .subscribe(
                 data => {
-                  //console.log('Menú semanal enviado con éxito', data);
                   this.snackBar.open('El menú se ha guardado correctamente.', 'Cerrar', {
                     duration: 3000, // Duración en milisegundos
                   });
@@ -320,7 +311,6 @@ export class PlanificadorMenusComponent implements OnInit{
         const menuSemanalDTO = this.convertirDataSourceAMenuSemanalDTO(this.dataSource);
         this.menuSemanalService.actualizarMenuSemanal(menuSemanalDTO).subscribe(
           response => {
-            //console.log('Receta eliminada del menú semanal', response);
             this.snackBar.open('Receta eliminada del menú semanal.', 'Cerrar', {
               duration: 3000, 
             });
@@ -335,7 +325,6 @@ export class PlanificadorMenusComponent implements OnInit{
 
   
   mostrarListaCompra(item: IListaCompra) {
-    //console.log(item);
     this.listaCompraAcumulada.push(item); 
   }
 
@@ -365,7 +354,6 @@ export class PlanificadorMenusComponent implements OnInit{
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      //console.log('El diálogo fue cerrado');
       // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
     });
   }
@@ -390,7 +378,32 @@ export class PlanificadorMenusComponent implements OnInit{
       }    });
   }
 
-  convertirDataSourceAMenuSemanalDTO(dataSource): MenuSemanalDTO {
+  convertirDataSourceAMenuSemanalDTO(dataSource: any[]): MenuSemanalDTO {
+    const menuSemanalDTO = new MenuSemanalDTO();
+  
+    dataSource.forEach(dia => {
+      const tipo = dia.tipo.toLowerCase();
+      Object.keys(dia).forEach(key => {
+        if (key !== 'tipo') {
+          const receta = dia[key];
+          if (tipo === 'comida') {
+            menuSemanalDTO[`recetaPrimerPlato${this.capitalizeFirstLetter(key)}`] = receta.primerPlato ? receta.primerPlato : null;
+            menuSemanalDTO[`recetaSegundoPlato${this.capitalizeFirstLetter(key)}`] = receta.segundoPlato ? receta.segundoPlato : null;
+          } else if (tipo === 'cena') {
+            menuSemanalDTO[`recetaCena${this.capitalizeFirstLetter(key)}`] = receta.platoUnico ? receta.platoUnico : null;
+          }
+        }
+      });
+    });
+  
+    return menuSemanalDTO;
+  }
+  
+  capitalizeFirstLetter(string: string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
+  convertirDataSourceAMenuSemanalDTOOLD(dataSource): MenuSemanalDTO {
     const menuSemanalDTO = new MenuSemanalDTO();
     dataSource.forEach(dia => {
       ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'].forEach(d => {

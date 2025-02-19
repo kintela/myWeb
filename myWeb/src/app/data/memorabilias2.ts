@@ -15626,6 +15626,43 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'John Sykes',
         origen:'Facebook',
     }, 
+    {
+        imagen:'3870.jpg',
+        titulo:'Stevie Nicks',
+        personas:'Stevie Nicks',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3871.jpg',
+        titulo:'Alice Cooper',
+        personas:'Alice Cooper',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3872.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        year:1969,
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3873.jpg',
+        titulo:'George Harrison y Billy Preston',
+        personas:'George Harrison, Billy Preston',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3874.jpg',
+        titulo:'Scott Ian',
+        personas:'Scott Ian',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3875.jpg',
+        titulo:'Jimmy Page y Rory Gallagher',
+        personas:'Jimmy Page, Rory Gallagher',
+        origen:'Facebook',
+    }, 
 
 
 ]

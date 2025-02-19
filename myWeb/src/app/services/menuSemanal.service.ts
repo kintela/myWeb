@@ -30,7 +30,7 @@ export class MenuSemanalService {
       'Content-Type': 'application/json'
     });
 
-    return this.http.put<MenuSemanalDTO>(`${this.comunService.urlWebApi}/MenuSemanal/${menuSemanalDTO.usuarioId}/${menuSemanalDTO.fechaCreacion}`, menuSemanalDTO, {headers})
+    return this.http.put<MenuSemanalDTO>(`${this.comunService.urlWebApi}/MenuSemanal/${menuSemanalDTO.menuSemanalId}`, menuSemanalDTO, {headers})
     .pipe(
       catchError(this.handleError)
     );

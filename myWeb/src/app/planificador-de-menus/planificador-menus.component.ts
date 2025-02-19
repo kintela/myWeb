@@ -42,7 +42,10 @@ export class PlanificadorMenusComponent implements OnInit{
 
   displayedColumns: string[] = ['tipo','lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];  
 
-  dataSource = [
+  menuSemanalId: number;
+  usuarioId: number;
+
+  dataSource = [    
     { tipo: 'Comida', 
       lunes: { primerPlato: null, segundoPlato: null }, 
       martes: { primerPlato: null, segundoPlato: null}, 
@@ -102,6 +105,10 @@ export class PlanificadorMenusComponent implements OnInit{
     this.menuSemanalService.getMenuSemanalActual(1).subscribe(
       data => {
         this.menuSemanal = data;
+
+        this.menuSemanalId = data.menuSemanalId;
+        this.usuarioId = data.usuarioId;
+
         const recetaIdMapping = [];
         const dias = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
     
@@ -184,7 +191,6 @@ export class PlanificadorMenusComponent implements OnInit{
         }
       }
     );
-
     
   }
 
@@ -387,14 +393,17 @@ export class PlanificadorMenusComponent implements OnInit{
         if (key !== 'tipo') {
           const receta = dia[key];
           if (tipo === 'comida') {
-            menuSemanalDTO[`recetaPrimerPlato${this.capitalizeFirstLetter(key)}`] = receta.primerPlato ? receta.primerPlato : null;
-            menuSemanalDTO[`recetaSegundoPlato${this.capitalizeFirstLetter(key)}`] = receta.segundoPlato ? receta.segundoPlato : null;
+            menuSemanalDTO[`recetaPrimerPlato${this.capitalizeFirstLetter(key)}`] = receta.primerPlato ? receta.primerPlato.recetaId : null;
+            menuSemanalDTO[`recetaSegundoPlato${this.capitalizeFirstLetter(key)}`] = receta.segundoPlato ? receta.segundoPlato.recetaId : null;
           } else if (tipo === 'cena') {
             menuSemanalDTO[`recetaCena${this.capitalizeFirstLetter(key)}`] = receta.platoUnico ? receta.platoUnico : null;
           }
         }
       });
     });
+
+    menuSemanalDTO.menuSemanalId = this.menuSemanalId;
+    menuSemanalDTO.usuarioId = this.usuarioId;
   
     return menuSemanalDTO;
   }

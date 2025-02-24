@@ -27,7 +27,6 @@ export class MemorabiliaComponent implements OnInit {
   ngOnInit(): void {
     this.memorabilias = [...this.memorabilias1, ...this.memorabilias2];
 
-    // Suponiendo que 'memorabilias' es tu array de objetos memorabilia
     const memorabiliasSinPersonas = memorabilias.filter(memorabilia => !memorabilia.personas);
 
     console.log('Memorabilias sin la propiedad personas:', memorabiliasSinPersonas);

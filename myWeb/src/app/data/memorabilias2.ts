@@ -15663,6 +15663,122 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Jimmy Page, Rory Gallagher',
         origen:'Facebook',
     }, 
+    {
+        imagen:'3876.jpg',
+        titulo:'Fermín Muguruza',
+        personas:'Fermín Muguruza',
+        origen:'Facebook',
+        grupo:'Kortatu',
+    }, 
+    {
+        imagen:'3877.jpg',
+        titulo:'Evaristo Páramo',
+        personas:'Evaristo Páramo',
+        origen:'Facebook',
+        grupo:'La Polla Records',
+    }, 
+    {
+        imagen:'3878.jpg',
+        titulo:'Taylor Hawkins y Chad Smith',
+        personas:'Taylor Hawkins, Chad Smith',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3879.jpg',
+        titulo:'Elvis Presley',
+        personas:'Elvis Presley',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3880.jpg',
+        titulo:'Ronnie James Dio',
+        personas:'Ronnie James Dio',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3881.jpg',
+        titulo:'Johnny Winter y Stevie Ray Vaughan',
+        personas:'Johnny Winter, Stevie Ray Vaughan',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3882.jpg',
+        titulo:'Tony Iommy',
+        personas:'Tony Iommy',
+        origen:'Facebook',
+        grupo:'Black Sabbath',
+    }, 
+    {
+        imagen:'3883.jpg',
+        titulo:'George Harrison y Joe Cocker',
+        personas:'George Harrison, Joe Cocker',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3884.jpg',
+        titulo:'Johnny Rotten y Steve Jones',
+        personas:'Johnny Rotten, Steve Jones',
+        origen:'Facebook',
+        grupo:'Sex Pistols'
+    }, 
+    {
+        imagen:'3885.jpg',
+        titulo:'Jimi Hendrix y Al Kooper',
+        personas:'Jimi Hendrix, Al Kooper',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3886.jpg',
+        titulo:'Leonard Cohen',
+        personas:'Leonard Cohen',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3887.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3888.jpg',
+        titulo:'Sonic Youth',
+        personas:'Thurston Moore, Kim Gordon, Lee Ranaldo, Steve Shelley',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3889.jpg',
+        titulo:'Keith Moon',
+        personas:'Keith Moon',
+        origen:'Facebook',
+        grupo:'The Who',
+    }, 
+    {
+        imagen:'3890.jpg',
+        titulo:'Alice Cooper',
+        personas:'Alice Cooper',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'3891.jpg',
+        titulo:'David Lee Roth',
+        personas:'David Lee Roth',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'3892.jpg',
+        titulo:'Bjork',
+        personas:'Bjork',
+        origen:'Facebook',
+        year:1995
+    }, 
+    {
+        imagen:'3893.jpg',
+        titulo:'Tom Petty',
+        personas:'Tom Petty',
+        origen:'Facebook',
+    }, 
+    
 
 
 ]

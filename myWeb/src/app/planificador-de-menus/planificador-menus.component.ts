@@ -78,29 +78,27 @@ export class PlanificadorMenusComponent implements OnInit{
       },
       err => console.error(err)
     );
-
-    this.recetasService.getCategoriasRecetas().subscribe(
-      data=>{
-        this.categorias = data;
+   
+    forkJoin({
+      categorias: this.recetasService.getCategoriasRecetas(),
+      recetas: this.recetasService.getRecetas()
+    }).subscribe(
+      ({ categorias, recetas }) => {
+        this.categorias = categorias;
         const todasCategoria: CategoriaDTO = { categoriaId: 0, nombre: 'Todas' };
         this.categorias.push(todasCategoria);
-
         this.categoriaSeleccionada = todasCategoria;
-
-      },err=>console.error(err),
-      ()=>{}
-    );
-
-    this.recetasService.getRecetas().subscribe(
-      data=>{      
-        this.recetas = data;
+  
+        this.recetas = recetas;
         const todasReceta: RecetaDTO = { recetaId: 0, nombre: 'Todos', ingredientes: [], preparacion: [], presentacion: [], enlaceVideo: '', imagen: '' };
         this.recetas.push(todasReceta);
-
+  
+        // Llama a filtrarPlatos después de que ambas suscripciones se hayan completado
         this.filtrarPlatos();
-      },err=>console.error(err),
-      ()=>{}
+      },
+      err => console.error(err)
     );
+
 
     this.menuSemanalService.getMenuSemanalActual(1).subscribe(
       data => {

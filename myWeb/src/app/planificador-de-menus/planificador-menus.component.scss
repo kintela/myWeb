@@ -4,6 +4,12 @@
     margin-right: 20px; /* Añade espacio a la derecha del selector de categorías */
     min-width: 200px; /* Ancho mínimo para el selector de categorías */
   }
+
+  .selector-ingredientes {
+    display: inline-block; /* Hace que el selector se muestre en línea */
+    margin-right: 20px; /* Añade espacio a la derecha del selector de ingredientes */
+    min-width: 200px; /* Ancho mínimo para el selector de ingredientes */
+  }
   
   /* Estilos específicos para el selector de platos */
   .selector-platos {

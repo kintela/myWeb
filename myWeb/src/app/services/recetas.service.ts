@@ -30,6 +30,11 @@ export class RecetasService {
     return this.http.get<RecetaDTO[]>(`${this.comunService.urlWebApi}/recetas/PorCategoria/${nombreCategoria}`);
   }
 
+  getRecetasPorIngrediente(nombreIngrediente: string): Observable<RecetaDTO[]> {
+    return this.http.get<RecetaDTO[]>(`${this.comunService.urlWebApi}/recetas/PorIngrediente/${nombreIngrediente}`);
+  }
+
+
   getRecetasById(recetaId: number): Observable<RecetaDTO> {
     return this.http.get<RecetaDTO>(`${this.comunService.urlWebApi}/recetas/${recetaId}`);
   }

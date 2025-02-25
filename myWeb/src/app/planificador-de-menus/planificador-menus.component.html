@@ -11,6 +11,11 @@
     <button  mat-icon-button (click)="abrirDialogoAgregarCategoria()" color="primary" matTooltip="Agrega una categoría" class="boton-con-borde">
       <mat-icon>add</mat-icon>
     </button>
+
+    <mat-form-field appearance="fill" class="selector-ingredientes">
+      <mat-label>Ingrediente</mat-label>
+      <input matInput [(ngModel)]="ingredienteFiltro" (input)="filtrarPlatos()" placeholder="Escribe un ingrediente">
+    </mat-form-field>
   
     <mat-form-field appearance="fill" class="selector-platos">
         <mat-label>Platos</mat-label>
@@ -19,13 +24,13 @@
             {{ plato.nombre }}
           </mat-option>
         </mat-select>
-    </mat-form-field>
-
-    <mat-chip>{{this.platosFiltrados.length}} recetas</mat-chip>
+    </mat-form-field>    
 
     <button  mat-icon-button (click)="abrirDialogoAgregarPlato()" color="primary" matTooltip="Agrega un plato" class="boton-con-borde">
       <mat-icon>add</mat-icon>
     </button>
+
+    <mat-chip>{{this.platosFiltrados.length}} recetas</mat-chip>
 
     <button   mat-icon-button (click)="abrirDialogoEditarPlato(platoSeleccionado)" color="primary" 
               matTooltip="Edita la receta" class="boton-con-borde" [disabled]="!platoSeleccionado">

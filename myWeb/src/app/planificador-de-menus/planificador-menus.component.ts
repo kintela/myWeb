@@ -45,6 +45,7 @@ export class PlanificadorMenusComponent implements OnInit{
 
   menuSemanalId: number;
   usuarioId: number;
+  ingredienteFiltro: string = '';
 
   dataSource = [    
     { tipo: 'Comida', 
@@ -194,18 +195,45 @@ export class PlanificadorMenusComponent implements OnInit{
     
   }
 
-  filtrarPlatos() {
+  
+  filtrarPlatosOLD() {
     if (this.categoriaSeleccionada.nombre === 'Todas') {
       this.platosFiltrados = this.recetas;
     } else {
       this.recetasService.getRecetasPorCategoria(this.categoriaSeleccionada.nombre).subscribe(
         data=>this.platosFiltrados = data,
+        
         err=>console.error(err),
         ()=>{}
       );
     }
   }
 
+  filtrarPlatos() {
+    if (this.categoriaSeleccionada.nombre === 'Todas') {
+      this.platosFiltrados = this.recetas;
+    } else {
+      this.recetasService.getRecetasPorCategoria(this.categoriaSeleccionada.nombre).subscribe(
+        data => {
+          this.platosFiltrados = data;
+          this.aplicarFiltroIngrediente();
+        },
+        err => console.error(err),
+        () => {}
+      );
+      return;
+    }
+    this.aplicarFiltroIngrediente();
+  }
+
+  
+  aplicarFiltroIngrediente() {
+    if (this.ingredienteFiltro) {
+      this.platosFiltrados = this.platosFiltrados.filter(plato =>
+        plato.ingredientes && plato.ingredientes.some(ingrediente => ingrediente.toLowerCase().includes(this.ingredienteFiltro.toLowerCase()))
+      );
+    }
+  }
 
   onCategoriaSeleccionada(categoria: CategoriaDTO) {
     this.categoriaSeleccionada = categoria;

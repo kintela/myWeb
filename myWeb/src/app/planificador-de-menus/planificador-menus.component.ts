@@ -93,7 +93,6 @@ export class PlanificadorMenusComponent implements OnInit{
         const todasReceta: RecetaDTO = { recetaId: 0, nombre: 'Todos', ingredientes: [], preparacion: [], presentacion: [], enlaceVideo: '', imagen: '' };
         this.recetas.push(todasReceta);
   
-        // Llama a filtrarPlatos después de que ambas suscripciones se hayan completado
         this.filtrarPlatos();
       },
       err => console.error(err)
@@ -106,6 +105,8 @@ export class PlanificadorMenusComponent implements OnInit{
 
         this.menuSemanalId = data.menuSemanalId;
         this.usuarioId = data.usuarioId;
+
+        console.log('Menu semanal actual:', data);
 
         const recetaIdMapping = [];
         const dias = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
@@ -221,7 +222,8 @@ export class PlanificadorMenusComponent implements OnInit{
   
   guardarDataSource(){
     const menuSemanalDTO: MenuSemanalDTO = {
-      usuarioId: 1,
+      usuarioId: this.usuarioId,
+      menuSemanalId: this.menuSemanalId,
       fechaCreacion: new Date().toISOString().split('T')[0],  // Solo la parte de la fecha "YYYY-MM-DD"
       recetaPrimerPlatoLunes: this.dataSource[0].lunes.primerPlato?.recetaId || null,
       recetaSegundoPlatoLunes: this.dataSource[0].lunes.segundoPlato?.recetaId || null,

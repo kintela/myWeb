@@ -11,8 +11,15 @@ export class CategoriaService {
 
   constructor(private http: HttpClient, private comunService:ComunService) { }
 
+  getCategoriasRecetas(): Observable<CategoriaDTO[]> {
+    return this.http.get<CategoriaDTO[]>(`${this.comunService.urlWebApi}/categorias`)
+      .pipe(
+        catchError(this.handleError)
+      )
+  }
+
   createCategoria(categoria: CategoriaDTO): Observable<CategoriaDTO> {
-      return this.http.post<CategoriaDTO>(`${this.comunService.urlWebApi}/categoria`, categoria)
+      return this.http.post<CategoriaDTO>(`${this.comunService.urlWebApi}/categorias`, categoria)
         .pipe(
           catchError(this.handleError)
         );

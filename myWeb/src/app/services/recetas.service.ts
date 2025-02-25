@@ -12,12 +12,12 @@ export class RecetasService {
 
   constructor(private http: HttpClient, private comunService:ComunService) { }
 
-  getCategoriasRecetas(): Observable<CategoriaDTO[]> {
-    return this.http.get<CategoriaDTO[]>(`${this.comunService.urlWebApi}/recetas/categorias`)
+  /*getCategoriasRecetas(): Observable<CategoriaDTO[]> {
+    return this.http.get<CategoriaDTO[]>(`${this.comunService.urlWebApi}/categoria`)
       .pipe(
         catchError(this.handleError)
       )
-  }
+  }*/
 
   getRecetas(): Observable<RecetaDTO[]> {
     return this.http.get<RecetaDTO[]>(`${this.comunService.urlWebApi}/recetas`)

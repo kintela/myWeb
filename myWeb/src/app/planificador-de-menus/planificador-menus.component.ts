@@ -12,6 +12,7 @@ import { MenuSemanalService } from '../services/menuSemanal.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { forkJoin, map } from 'rxjs';
 import { ConfirmDialogComponent } from '../shared/confirmdialog/confirmDialog.component';
+import { CategoriaService } from '../services/categoria.service';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -68,7 +69,7 @@ export class PlanificadorMenusComponent implements OnInit{
 
 
   constructor(private dialog: MatDialog, private recetasService:RecetasService, private menuSemanalService:MenuSemanalService,
-    private snackBar: MatSnackBar, private recetaService:RecetasService
+    private snackBar: MatSnackBar, private recetaService:RecetasService, private categoriaService:CategoriaService
   ) { }
 
   ngOnInit(): void {    
@@ -80,7 +81,7 @@ export class PlanificadorMenusComponent implements OnInit{
     );
    
     forkJoin({
-      categorias: this.recetasService.getCategoriasRecetas(),
+      categorias: this.categoriaService.getCategoriasRecetas(),
       recetas: this.recetasService.getRecetas()
     }).subscribe(
       ({ categorias, recetas }) => {
@@ -372,7 +373,7 @@ export class PlanificadorMenusComponent implements OnInit{
   
     dialogRef.afterClosed().subscribe(result => {
       if (result) {
-        this.recetasService.getCategoriasRecetas().subscribe(
+        this.categoriaService.getCategoriasRecetas().subscribe(
           data => {
             this.categorias = data;
             const todasCategoria: CategoriaDTO = { categoriaId: 0, nombre: 'Todas' };

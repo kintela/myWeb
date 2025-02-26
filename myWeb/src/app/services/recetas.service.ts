@@ -1,6 +1,6 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, Observable, throwError } from 'rxjs';
+import { catchError, map, Observable, throwError } from 'rxjs';
 import { RecetaDTO } from '../data/DTOs/recetaDTO';
 import { ComunService } from './comun.service';
 import { CategoriaDTO } from '../data/DTOs/categoriaDTO';
@@ -51,6 +51,16 @@ export class RecetasService {
       .pipe(
         catchError(this.handleError)
       );
+  }
+
+  uploadImage(image: File): Observable<string> {
+    const formData: FormData = new FormData();
+    formData.append('image', image, image.name);
+  
+    return this.http.post(`${this.comunService.urlWebApi}/recetas/UploadImage`, formData, { responseType: 'text' }).pipe(
+      map((response: string) => response),
+      catchError(this.handleError)
+    );
   }
 
 

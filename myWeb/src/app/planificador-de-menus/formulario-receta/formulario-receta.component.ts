@@ -12,11 +12,12 @@ import { RecetasService } from 'src/app/services/recetas.service';
   styleUrls: ['./formulario-receta.component.scss']
 })
 export class FormularioRecetaComponent implements OnInit{  
-  //categorias: any[]; 
   categorias: CategoriaDTO[]; 
   imageSrc: string;
   recetaForm: FormGroup;
   isEditMode: boolean;
+  selectedFile: File | null = null;
+  selectedImageSrc: string | null = null;
   
 
   constructor(
@@ -55,18 +56,31 @@ export class FormularioRecetaComponent implements OnInit{
     }   
   }
 
-  onImageSelected($event:any): void {
-    /*const file = event.target.files[0];
-    if (file) {
+  onFileSelected(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    if (input.files && input.files.length > 0) {
+      this.selectedFile = input.files[0];
       const reader = new FileReader();
       reader.onload = (e: any) => {
-        this.imageSrc = e.target.result;
-        this.recetaForm.patchValue({ imagen: this.imageSrc });
+        this.selectedImageSrc = e.target.result;
       };
-      reader.readAsDataURL(file);
-    }*/
-    console.log($event);
+      reader.readAsDataURL(this.selectedFile);
+    }
   }
+
+  /*onUpload() {
+    if (this.selectedFile) {
+      this.recetasService.uploadImage(this.selectedFile).subscribe(
+        (response: string) => {
+          console.log('Image uploaded successfully:', response);
+          // Aquí puedes manejar la URL de la imagen subida
+        },
+        (error) => {
+          console.error('Error uploading image:', error);
+        }
+      );
+    }
+  }*/
 
   cerrarDialogo(): void {
     this.dialogRef.close();    

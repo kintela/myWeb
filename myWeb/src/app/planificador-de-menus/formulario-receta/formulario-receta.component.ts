@@ -2,6 +2,8 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { CategoriaDTO } from 'src/app/data/DTOs/categoriaDTO';
+import { ComunService } from 'src/app/services/comun.service';
 import { RecetasService } from 'src/app/services/recetas.service';
 
 @Component({
@@ -10,8 +12,8 @@ import { RecetasService } from 'src/app/services/recetas.service';
   styleUrls: ['./formulario-receta.component.scss']
 })
 export class FormularioRecetaComponent implements OnInit{  
-  categorias: any[]; 
-  //platos: any[];
+  //categorias: any[]; 
+  categorias: CategoriaDTO[]; 
   imageSrc: string;
   recetaForm: FormGroup;
   isEditMode: boolean;
@@ -22,13 +24,20 @@ export class FormularioRecetaComponent implements OnInit{
     public dialogRef: MatDialogRef<FormularioRecetaComponent>,
     private fb: FormBuilder,
     private recetasService: RecetasService,
+    private comunService: ComunService,
     private snackBar: MatSnackBar) {
       this.isEditMode = data.isEditMode;
     }
 
   ngOnInit(): void {
-    //console.log('Data', this.data);
-    this.categorias = this.data.categorias;
+    console.log('Data', this.data);
+
+    const allCategorias=this.comunService.getCategorias();
+
+    this.categorias = allCategorias.filter(categoria => 
+      this.data.receta.categoriaIds.includes(categoria.categoriaId)
+    );
+
 
     this.recetaForm = this.fb.group({
       nombre: [this.data.receta ? this.data.receta.nombre : '', Validators.required],
@@ -38,9 +47,7 @@ export class FormularioRecetaComponent implements OnInit{
       presentacion: [this.data.receta ? this.data.receta.presentacion?.join('\n') : ''],
       enlaceVideo: [this.data.receta ? this.data.receta.enlaceVideo : ''],
       imagen: [this.data.receta ? this.data.receta.imagen : ''],
-      comensales: [this.data.receta ? this.data.receta.comensales : null],
-      //categoriaIds: new FormControl(this.data.receta ? this.data.receta.categoriaIds : [], Validators.required)
-      
+      comensales: [this.data.receta ? this.data.receta.comensales : null],      
     });
 
     if (this.data.receta && this.data.receta.imagen) {

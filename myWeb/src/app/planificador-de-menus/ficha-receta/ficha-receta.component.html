@@ -23,9 +23,14 @@
                 </ng-template>
             </mat-card-content>
         </mat-card>
+        <button mat-icon-button (click)="editarReceta(plato)" color="primary" matTooltip="Editar receta">
+            <mat-icon>edit</mat-icon>
+        </button>
+        
         <div *ngIf="plato.enlaceVideo" class="video-container">
             <a href="{{ plato.enlaceVideo }}" target="_blank">Video</a>
         </div>
+        
     </div>
     <div class="ficha-columna">
       <mat-card>

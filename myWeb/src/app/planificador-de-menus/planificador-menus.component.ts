@@ -13,6 +13,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { forkJoin, map } from 'rxjs';
 import { ConfirmDialogComponent } from '../shared/confirmdialog/confirmDialog.component';
 import { CategoriaService } from '../services/categoria.service';
+import { ComunService } from '../services/comun.service';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -70,7 +71,7 @@ export class PlanificadorMenusComponent implements OnInit{
 
 
   constructor(private dialog: MatDialog, private recetasService:RecetasService, private menuSemanalService:MenuSemanalService,
-    private snackBar: MatSnackBar, private recetaService:RecetasService, private categoriaService:CategoriaService
+    private snackBar: MatSnackBar, private recetaService:RecetasService, private categoriaService:CategoriaService, private comunService: ComunService
   ) { }
 
   ngOnInit(): void {    
@@ -96,6 +97,8 @@ export class PlanificadorMenusComponent implements OnInit{
         this.recetas.push(todasReceta);
   
         this.filtrarPlatos();
+
+        this.comunService.setCategorias(this.categorias);
       },
       err => console.error(err)
     );
@@ -196,19 +199,7 @@ export class PlanificadorMenusComponent implements OnInit{
   }
 
   
-  filtrarPlatosOLD() {
-    if (this.categoriaSeleccionada.nombre === 'Todas') {
-      this.platosFiltrados = this.recetas;
-    } else {
-      this.recetasService.getRecetasPorCategoria(this.categoriaSeleccionada.nombre).subscribe(
-        data=>this.platosFiltrados = data,
-        
-        err=>console.error(err),
-        ()=>{}
-      );
-    }
-  }
-
+ 
   filtrarPlatos() {
     if (this.categoriaSeleccionada.nombre === 'Todas') {
       this.platosFiltrados = this.recetas;

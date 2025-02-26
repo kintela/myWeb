@@ -46,14 +46,29 @@ export class RecetasService {
       );
   }
 
-  updateReceta(recetaId: number, receta: RecetaDTO): Observable<RecetaDTO> {
-    return this.http.put<RecetaDTO>(`${this.comunService.urlWebApi}/recetas/${recetaId}`, receta)
+  updateReceta(recetaId: number, receta: RecetaDTO, imageFile?: File): Observable<RecetaDTO> {
+    const formData: FormData = new FormData();
+    //formData.append('receta', new Blob([JSON.stringify(receta)], { type: 'application/json' }));
+    formData.append('Receta', JSON.stringify(receta));
+  
+    if (imageFile) {
+      formData.append('Image', imageFile, imageFile.name);
+    }
+  
+    // Verificar el contenido de formData
+    formData.forEach((value, key) => {
+      console.log(key, value);
+    });
+  
+    return this.http.put<RecetaDTO>(`${this.comunService.urlWebApi}/recetas/${recetaId}`, formData)
       .pipe(
         catchError(this.handleError)
-      );
+    );
   }
 
-  uploadImage(image: File): Observable<string> {
+ 
+
+  /*uploadImage(image: File): Observable<string> {
     const formData: FormData = new FormData();
     formData.append('image', image, image.name);
   
@@ -61,7 +76,7 @@ export class RecetasService {
       map((response: string) => response),
       catchError(this.handleError)
     );
-  }
+  }*/
 
 
   private handleError(err: HttpErrorResponse) {

@@ -59,7 +59,25 @@ export class FormularioRecetaComponent implements OnInit{
   onFileSelected(event: Event): void {
     const input = event.target as HTMLInputElement;
     if (input.files && input.files.length > 0) {
-      this.selectedFile = input.files[0];
+      const file = input.files[0];
+  
+      // Validar el tipo de archivo
+      if (!file.type.match('image/jpeg')) {
+        this.snackBar.open('Solo se permiten archivos JPG.', 'Cerrar', {
+          duration: 3000
+        });
+        return;
+      }
+  
+      // Validar el tamaño del archivo
+      if (file.size > 200 * 1024) { // 200 KB
+        this.snackBar.open('El tamaño del archivo no debe superar los 200 KB.', 'Cerrar', {
+          duration: 3000
+        });
+        return;
+      }
+  
+      this.selectedFile = file;
       const reader = new FileReader();
       reader.onload = (e: any) => {
         this.selectedImageSrc = e.target.result;
@@ -68,20 +86,7 @@ export class FormularioRecetaComponent implements OnInit{
     }
   }
 
-  /*onUpload() {
-    if (this.selectedFile) {
-      this.recetasService.uploadImage(this.selectedFile).subscribe(
-        (response: string) => {
-          console.log('Image uploaded successfully:', response);
-          // Aquí puedes manejar la URL de la imagen subida
-        },
-        (error) => {
-          console.error('Error uploading image:', error);
-        }
-      );
-    }
-  }*/
-
+  
   cerrarDialogo(): void {
     this.dialogRef.close();    
   } 
@@ -98,7 +103,7 @@ export class FormularioRecetaComponent implements OnInit{
 
       if (this.isEditMode) {
         // Lógica para actualizar la receta existente
-        this.recetasService.updateReceta(this.data.receta.recetaId, recetaDTO).subscribe(
+        this.recetasService.updateReceta(this.data.receta.recetaId, recetaDTO, this.selectedFile).subscribe(
           response => {
             //console.log('Receta actualizada', response);
             this.snackBar.open('Receta actualizada con éxito', 'Cerrar', {

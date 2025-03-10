@@ -2521,6 +2521,16 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/df5PbR2B5Q8?si=GHdpXmkGUdTuAEG8' ],
         entrada: "entradas/104.jpg"
     },
+    {
+        id:191,
+        fecha: new Date(Date.UTC(2025,2,8)),
+        ciudad: 'Santander',
+        sala: 'Little Bobby',
+        grupo: 'Gin Lady',
+        fotos:true,
+        videos:['https://www.youtube.com/embed/OmuG1i2-VGE?si=F8zbY_-b6yDIexo3', 'https://www.youtube.com/embed/1D7xGhf2p9w?si=sryPq746RS0KgVXB' ],
+        entrada: "entradas/107.JPG"
+    },
 
 
 

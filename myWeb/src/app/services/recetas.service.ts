@@ -1,6 +1,6 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, map, Observable, throwError } from 'rxjs';
+import { catchError, map, Observable, switchMap, throwError } from 'rxjs';
 import { RecetaDTO } from '../data/DTOs/recetaDTO';
 import { ComunService } from './comun.service';
 import { CategoriaDTO } from '../data/DTOs/categoriaDTO';
@@ -47,37 +47,42 @@ export class RecetasService {
   }
 
   updateReceta(recetaId: number, receta: RecetaDTO, imageFile?: File): Observable<RecetaDTO> {
-    const formData: FormData = new FormData();
-    //formData.append('receta', new Blob([JSON.stringify(receta)], { type: 'application/json' }));
-    formData.append('Receta', JSON.stringify(receta));
-  
     if (imageFile) {
-      formData.append('Image', imageFile, imageFile.name);
+      // 1. Convertir a Base64 mediante un Observable
+      return this.convertFileToBase64(imageFile).pipe(
+        // 2. Una vez convertida, asignar a receta.imagen
+        switchMap((base64String: string) => {
+          receta.imagenFile = base64String;
+          // 3. Hacer el PUT con JSON
+          return this.http.put<RecetaDTO>(`${this.comunService.urlWebApi}/Recetas/${recetaId}`, receta);
+        }),
+        catchError(err => this.handleError(err))
+      );
+    } else {
+      // Sin imagen, hacemos PUT directo con la receta
+      return this.http.put<RecetaDTO>(`${this.comunService.urlWebApi}/Recetas/${recetaId}`, receta)
+        .pipe(
+          catchError(err => this.handleError(err))
+        );
     }
-  
-    // Verificar el contenido de formData
-    formData.forEach((value, key) => {
-      console.log(key, value);
-    });
-  
-    return this.http.put<RecetaDTO>(`${this.comunService.urlWebApi}/recetas/${recetaId}`, formData)
-      .pipe(
-        catchError(this.handleError)
-    );
   }
 
  
 
-  /*uploadImage(image: File): Observable<string> {
-    const formData: FormData = new FormData();
-    formData.append('image', image, image.name);
-  
-    return this.http.post(`${this.comunService.urlWebApi}/recetas/UploadImage`, formData, { responseType: 'text' }).pipe(
-      map((response: string) => response),
-      catchError(this.handleError)
-    );
-  }*/
-
+  private convertFileToBase64(file: File): Observable<string> {
+    return new Observable<string>((observer) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        // Devuelve la cadena base64 con el prefijo data:<mime>;base64,...
+        observer.next(reader.result as string);
+        observer.complete();
+      };
+      reader.onerror = (error) => {
+        observer.error(error);
+      };
+      reader.readAsDataURL(file);
+    });
+  }
 
   private handleError(err: HttpErrorResponse) {
     // in a real world app, we may send the server to some remote logging infrastructure

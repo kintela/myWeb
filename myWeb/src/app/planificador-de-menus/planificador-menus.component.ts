@@ -187,6 +187,7 @@ export class PlanificadorMenusComponent implements OnInit{
       },
       err =>{
         if (err === 'No se ha encontrado ningún registro.') {
+          this.usuarioId = 1;
           this.snackBar.open('No hay ningún menu cargado para esta semana.', 'Cerrar', {
             duration: 3000,
           });

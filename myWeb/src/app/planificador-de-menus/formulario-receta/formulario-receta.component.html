@@ -24,9 +24,6 @@
           Cargar Imagen
         </button>
         <input type="file" #imageInput hidden (change)="onFileSelected($event)">
-        <!--<img *ngIf="recetaForm.get('imagen').value" 
-          [src]="'https://kintela.azureedge.net/assets/assets/recetas/' + recetaForm.get('imagen').value" 
-          class="image-preview"/>-->
           <img *ngIf="selectedImageSrc; else existingImage" [src]="selectedImageSrc" class="image-preview"/>
           <ng-template #existingImage>
             <img *ngIf="recetaForm.get('imagen').value" 

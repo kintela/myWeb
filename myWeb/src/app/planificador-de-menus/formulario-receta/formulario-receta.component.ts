@@ -105,7 +105,10 @@ export class FormularioRecetaComponent implements OnInit{
         // Lógica para actualizar la receta existente
         this.recetasService.updateReceta(this.data.receta.recetaId, recetaDTO, this.selectedFile).subscribe(
           response => {
-            //console.log('Receta actualizada', response);
+            if (this.selectedFile) {
+              this.imageSrc = response.imagen;
+              this.recetaForm.get('imagen').setValue(response.imagen);
+            }
             this.snackBar.open('Receta actualizada con éxito', 'Cerrar', {
               duration: 3000
             });

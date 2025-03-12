@@ -52,6 +52,7 @@ export class RecetasService {
       return this.convertFileToBase64(imageFile).pipe(
         // 2. Una vez convertida, asignar a receta.imagen
         switchMap((base64String: string) => {
+          receta.imagen = imageFile.name;
           receta.imagenFile = base64String;
           // 3. Hacer el PUT con JSON
           return this.http.put<RecetaDTO>(`${this.comunService.urlWebApi}/Recetas/${recetaId}`, receta);

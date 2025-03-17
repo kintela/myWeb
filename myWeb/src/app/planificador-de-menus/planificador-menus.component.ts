@@ -357,9 +357,21 @@ export class PlanificadorMenusComponent implements OnInit{
 
   abrirDialogoAgregarPlato(): void {
     const dialogRef = this.dialog.open(FormularioRecetaComponent, {
-      width: '50%',      
-       //data: { categorias: this.categorias , platos: this.recetas}
-       data: { categorias: this.categorias , isEditMode: false}
+      width: '50%',             
+       data: { 
+        categorias: this.categorias , 
+        receta: {
+          recetaId: 0,
+          nombre: '',
+          categoriaIds: [],
+          ingredientes: [],
+          preparacion: [],
+          presentacion: [],
+          enlaceVideo: '',
+          imagen: '',
+          comensales: null
+        },
+        isEditMode: false}       
     });
   
     dialogRef.afterClosed().subscribe(result => {

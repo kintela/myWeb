@@ -33,11 +33,20 @@ export class FormularioRecetaComponent implements OnInit{
   ngOnInit(): void {
     console.log('Data', this.data);
 
-    const allCategorias=this.comunService.getCategorias();
+    this.categorias = this.data.categorias;
+
+    if (this.isEditMode && this.data.receta && this.data.receta.categoriaIds) {
+      this.categorias = this.categorias.filter(categoria => 
+        this.data.receta.categoriaIds.includes(categoria.categoriaId)
+      );
+    }
+  
+
+   /* const allCategorias=this.comunService.getCategorias();
 
     this.categorias = allCategorias.filter(categoria => 
       this.data.receta.categoriaIds.includes(categoria.categoriaId)
-    );
+    );*/
 
 
     this.recetaForm = this.fb.group({

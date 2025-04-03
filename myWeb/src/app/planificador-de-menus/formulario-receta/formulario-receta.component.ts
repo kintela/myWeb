@@ -2,6 +2,8 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { CategoriaDTO } from 'src/app/data/DTOs/categoriaDTO';
+import { ComunService } from 'src/app/services/comun.service';
 import { RecetasService } from 'src/app/services/recetas.service';
 
 @Component({
@@ -10,11 +12,12 @@ import { RecetasService } from 'src/app/services/recetas.service';
   styleUrls: ['./formulario-receta.component.scss']
 })
 export class FormularioRecetaComponent implements OnInit{  
-  categorias: any[]; 
-  //platos: any[];
+  categorias: CategoriaDTO[]; 
   imageSrc: string;
   recetaForm: FormGroup;
   isEditMode: boolean;
+  selectedFile: File | null = null;
+  selectedImageSrc: string | null = null;
   
 
   constructor(
@@ -22,13 +25,29 @@ export class FormularioRecetaComponent implements OnInit{
     public dialogRef: MatDialogRef<FormularioRecetaComponent>,
     private fb: FormBuilder,
     private recetasService: RecetasService,
+    private comunService: ComunService,
     private snackBar: MatSnackBar) {
       this.isEditMode = data.isEditMode;
     }
 
   ngOnInit(): void {
-    //console.log('Data', this.data);
+    console.log('Data', this.data);
+
     this.categorias = this.data.categorias;
+
+    if (this.isEditMode && this.data.receta && this.data.receta.categoriaIds) {
+      this.categorias = this.categorias.filter(categoria => 
+        this.data.receta.categoriaIds.includes(categoria.categoriaId)
+      );
+    }
+  
+
+   /* const allCategorias=this.comunService.getCategorias();
+
+    this.categorias = allCategorias.filter(categoria => 
+      this.data.receta.categoriaIds.includes(categoria.categoriaId)
+    );*/
+
 
     this.recetaForm = this.fb.group({
       nombre: [this.data.receta ? this.data.receta.nombre : '', Validators.required],
@@ -38,9 +57,7 @@ export class FormularioRecetaComponent implements OnInit{
       presentacion: [this.data.receta ? this.data.receta.presentacion?.join('\n') : ''],
       enlaceVideo: [this.data.receta ? this.data.receta.enlaceVideo : ''],
       imagen: [this.data.receta ? this.data.receta.imagen : ''],
-      comensales: [this.data.receta ? this.data.receta.comensales : null],
-      //categoriaIds: new FormControl(this.data.receta ? this.data.receta.categoriaIds : [], Validators.required)
-      
+      comensales: [this.data.receta ? this.data.receta.comensales : null],      
     });
 
     if (this.data.receta && this.data.receta.imagen) {
@@ -48,19 +65,37 @@ export class FormularioRecetaComponent implements OnInit{
     }   
   }
 
-  onImageSelected($event:any): void {
-    /*const file = event.target.files[0];
-    if (file) {
+  onFileSelected(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    if (input.files && input.files.length > 0) {
+      const file = input.files[0];
+  
+      // Validar el tipo de archivo
+      if (!file.type.match('image/jpeg')) {
+        this.snackBar.open('Solo se permiten archivos JPG.', 'Cerrar', {
+          duration: 3000
+        });
+        return;
+      }
+  
+      // Validar el tamaño del archivo
+      if (file.size > 200 * 1024) { // 200 KB
+        this.snackBar.open('El tamaño del archivo no debe superar los 200 KB.', 'Cerrar', {
+          duration: 3000
+        });
+        return;
+      }
+  
+      this.selectedFile = file;
       const reader = new FileReader();
       reader.onload = (e: any) => {
-        this.imageSrc = e.target.result;
-        this.recetaForm.patchValue({ imagen: this.imageSrc });
+        this.selectedImageSrc = e.target.result;
       };
-      reader.readAsDataURL(file);
-    }*/
-    console.log($event);
+      reader.readAsDataURL(this.selectedFile);
+    }
   }
 
+  
   cerrarDialogo(): void {
     this.dialogRef.close();    
   } 
@@ -77,9 +112,12 @@ export class FormularioRecetaComponent implements OnInit{
 
       if (this.isEditMode) {
         // Lógica para actualizar la receta existente
-        this.recetasService.updateReceta(this.data.receta.recetaId, recetaDTO).subscribe(
+        this.recetasService.updateReceta(this.data.receta.recetaId, recetaDTO, this.selectedFile).subscribe(
           response => {
-            //console.log('Receta actualizada', response);
+            if (this.selectedFile) {
+              this.imageSrc = response.imagen;
+              this.recetaForm.get('imagen').setValue(response.imagen);
+            }
             this.snackBar.open('Receta actualizada con éxito', 'Cerrar', {
               duration: 3000
             });

@@ -23,8 +23,13 @@
         <button mat-raised-button (click)="imageInput.click()">
           Cargar Imagen
         </button>
-        <input type="file" #imageInput hidden (change)="onImageSelected($event)">
-        <img *ngIf="recetaForm.get('imagen').value" [src]="'https://kintela.azureedge.net/assets/assets/recetas/' + recetaForm.get('imagen').value" class="image-preview"/>
+        <input type="file" #imageInput hidden (change)="onFileSelected($event)">
+          <img *ngIf="selectedImageSrc; else existingImage" [src]="selectedImageSrc" class="image-preview"/>
+          <ng-template #existingImage>
+            <img *ngIf="recetaForm.get('imagen').value" 
+              [src]="'https://kintela.azureedge.net/assets/assets/recetas/' + recetaForm.get('imagen').value" 
+              class="image-preview"/>
+          </ng-template>
       </div>
     </div>
 

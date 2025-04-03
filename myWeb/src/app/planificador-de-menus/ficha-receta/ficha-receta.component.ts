@@ -1,6 +1,10 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { RecetaDTO } from 'src/app/data/DTOs/recetaDTO';
 import { IListaCompra } from 'src/app/data/IListaCompra';
 import { IPlato } from 'src/app/data/IPlatos';
+import { FormularioRecetaComponent } from '../formulario-receta/formulario-receta.component';
+import { MatDialog } from '@angular/material/dialog';
+import { ComunService } from 'src/app/services/comun.service';
 
 @Component({
   selector: 'app-ficha-receta',
@@ -8,17 +12,11 @@ import { IPlato } from 'src/app/data/IPlatos';
   styleUrls: ['./ficha-receta.component.scss']
 })
 export class FichaRecetaComponent {
-  @Input() plato:IPlato;
+  @Input() plato: RecetaDTO;
   @Output() listaCompra=new EventEmitter<IListaCompra>();
-  
-  agregarAListaCompraOLD(ingrediente: string) {
-    const item:IListaCompra = {
-      ingrediente: ingrediente,
-      cantidad: 1
-    };
-    this.listaCompra.emit(item);
 
-  } 
+  constructor(private dialog: MatDialog) {}
+  
 
   agregarAListaCompra(ingrediente: string) {
     // Separar la cantidad del nombre del ingrediente usando una expresión regular
@@ -43,6 +41,19 @@ export class FichaRecetaComponent {
       };
       this.listaCompra.emit(item);
     }
+  }
+
+  editarReceta(plato: RecetaDTO): void {
+    const dialogRef = this.dialog.open(FormularioRecetaComponent, {
+      width: '50%',
+      data: { receta: plato, isEditMode: true }
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      if (result) {
+        // Aquí puedes manejar los datos del formulario una vez que el diálogo se cierra, si es necesario
+      }
+    });
   }
   
 

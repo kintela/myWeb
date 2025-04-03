@@ -5,7 +5,8 @@ export interface RecetaDTO {
     preparacion: string[];
     presentacion: string[];
     enlaceVideo: string;
-    imagen: string;
+    imagen?: string;
+    imagenFile?:string;
     comensales?: number;
   }
   

@@ -13,6 +13,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { forkJoin, map } from 'rxjs';
 import { ConfirmDialogComponent } from '../shared/confirmdialog/confirmDialog.component';
 import { CategoriaService } from '../services/categoria.service';
+import { ComunService } from '../services/comun.service';
 
 export interface PlatoEliminadoEvent {
   plato: IPlato;
@@ -70,7 +71,7 @@ export class PlanificadorMenusComponent implements OnInit{
 
 
   constructor(private dialog: MatDialog, private recetasService:RecetasService, private menuSemanalService:MenuSemanalService,
-    private snackBar: MatSnackBar, private recetaService:RecetasService, private categoriaService:CategoriaService
+    private snackBar: MatSnackBar, private recetaService:RecetasService, private categoriaService:CategoriaService, private comunService: ComunService
   ) { }
 
   ngOnInit(): void {    
@@ -96,6 +97,8 @@ export class PlanificadorMenusComponent implements OnInit{
         this.recetas.push(todasReceta);
   
         this.filtrarPlatos();
+
+        this.comunService.setCategorias(this.categorias);
       },
       err => console.error(err)
     );
@@ -184,6 +187,7 @@ export class PlanificadorMenusComponent implements OnInit{
       },
       err =>{
         if (err === 'No se ha encontrado ningún registro.') {
+          this.usuarioId = 1;
           this.snackBar.open('No hay ningún menu cargado para esta semana.', 'Cerrar', {
             duration: 3000,
           });
@@ -196,19 +200,7 @@ export class PlanificadorMenusComponent implements OnInit{
   }
 
   
-  filtrarPlatosOLD() {
-    if (this.categoriaSeleccionada.nombre === 'Todas') {
-      this.platosFiltrados = this.recetas;
-    } else {
-      this.recetasService.getRecetasPorCategoria(this.categoriaSeleccionada.nombre).subscribe(
-        data=>this.platosFiltrados = data,
-        
-        err=>console.error(err),
-        ()=>{}
-      );
-    }
-  }
-
+ 
   filtrarPlatos() {
     if (this.categoriaSeleccionada.nombre === 'Todas') {
       this.platosFiltrados = this.recetas;
@@ -365,9 +357,21 @@ export class PlanificadorMenusComponent implements OnInit{
 
   abrirDialogoAgregarPlato(): void {
     const dialogRef = this.dialog.open(FormularioRecetaComponent, {
-      width: '50%',      
-       //data: { categorias: this.categorias , platos: this.recetas}
-       data: { categorias: this.categorias , isEditMode: false}
+      width: '50%',             
+       data: { 
+        categorias: this.categorias , 
+        receta: {
+          recetaId: 0,
+          nombre: '',
+          categoriaIds: [],
+          ingredientes: [],
+          preparacion: [],
+          presentacion: [],
+          enlaceVideo: '',
+          imagen: '',
+          comensales: null
+        },
+        isEditMode: false}       
     });
   
     dialogRef.afterClosed().subscribe(result => {

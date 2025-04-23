@@ -1982,13 +1982,6 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'The Beatles',
     },  
     {
-        imagen:'1835.jpg',
-        titulo:'George Harrison y Paul McCartney',
-        personas:'George Harrison, Paul McCartney',
-        origen:'Facebook',
-        grupo:'The Beatles',
-    }, 
-    {
         imagen:'1836.jpg',
         titulo:'Keith Moon y Charlie Watts',
         personas:'Keith Moon, Charlie Watts',
@@ -16486,5 +16479,196 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Elvis Presley',
         origen:'Facebook',
     }, 
+     {
+        imagen:'4004.jpg',
+        titulo:'John Frusciante',
+        personas:'John Frusciante',
+        origen:'Facebook',
+        grupo:'Red Hot Chili Peppers',
+    }, 
+     {
+        imagen:'4005.jpg',
+        titulo:'Led Zeppelin',
+        personas:'Jimmy Page, Robert Plant, John Paul Jones',
+        origen:'Facebook',
+        grupo:'Led Zeppelin',
+        year:1975
+    }, 
+     {
+        imagen:'4006.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+    }, 
+     {
+        imagen:'4007.jpg',
+        titulo:'Iggy Pop',
+        personas:'Iggy Pop',
+        origen:'Facebook',
+    }, 
+      {
+        imagen:'4008.jpg',
+        titulo:'Iggy Pop',
+        personas:'Iggy Pop',
+        origen:'Facebook',
+    }, 
+      {
+        imagen:'4009.jpg',
+        titulo:'Iggy Pop',
+        personas:'Iggy Pop',
+        origen:'Facebook',
+    }, 
+      {
+        imagen:'4010.jpg',
+        titulo:'Joe Satriani',
+        personas:'Joe Satriani',
+        origen:'Facebook',
+        year:1983
+    }, 
+      {
+        imagen:'4011.jpg',
+        titulo:'Iggy Pop y Josh Homme',
+        personas:'Iggy Pop, Josh Homme',
+        origen:'Facebook',
+    }, 
+      {
+        imagen:'4012.jpg',
+        titulo:'Prince',
+        personas:'Prince',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'4013.jpg',
+        titulo:'Iggy Pop y Joey Ramone',
+        personas:'Iggy Pop, Joey Ramone',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'4014.jpg',
+        titulo:'Iggy Pop',
+        personas:'Iggy Pop',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'4015.jpg',
+        titulo:'Randy Rhoads',
+        personas:'Randy Rhoads',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'4016.jpg',
+        titulo:'Red Hot Chili Peppers',
+        personas:'Anthony Kiedis, Flea, John Frusciante',
+        origen:'Facebook',
+        grupo:'Red Hot Chili Peppers',
+    }, 
+    {
+        imagen:'4017.jpg',
+        titulo:'Steve Vai y Adrian Vandenberg',
+        personas:'Steve Vai, Adrian Vandenberg',
+        origen:'Facebook',
+        grupo:'Whitesnake',
+    }, 
+    {
+        imagen:'4018.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'4019.jpg',
+        titulo:'John Paul Jones',
+        personas:'John Paul Jones',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'4020.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, Alex Van Halen, David Lee Roth y Mikel Anthony',
+        origen:'Facebook',
+        grupo:'Van Halen'
+    }, 
+    {
+        imagen:'4021.jpg',
+        titulo:'Keith Moon, Rod Stewart y Tetsu Yamauchi',
+        personas:'Keith Moon, Rod Stewarty, Tetsu Yamauchi',
+        origen:'Facebook',
+        year: 1973
+    }, 
+    {
+        imagen:'4022.jpg',
+        titulo:'Pearl Jam',
+        personas:'Eddie Vedder y Jeff Ament',
+        origen:'Facebook',
+        grupo:'Pearl Jam'
+    }, 
+    {
+        imagen:'4023.jpg',
+        titulo:'John Frusciante',
+        personas:'John Frusciante',
+        origen:'Facebook',
+        grupo:'Red Hot Chili Peppers'
+    }, 
+     {
+        imagen:'4024.jpg',
+        titulo:'George Harrison y Paul McCartney',
+        personas:'George Harrison, Paul McCartney',
+        origen:'Facebook',
+        grupo:'The Beatles'
+    }, 
+    {
+        imagen:'4025.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',
+    }, 
+     {
+        imagen:'4026.jpg',
+        titulo:'Keith Moon y John Bonham',
+        personas:'Keith Moon, John Bonham',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'4027.jpg',
+        titulo:'Keith Richards',
+        personas:'Keith Richards',
+        origen:'Facebook',
+        grupo:'The Rolling Stones'
+    }, 
+    {
+        imagen:'4028.jpg',
+        titulo:'Led Zeppelin',
+        personas:'Jimmy Page, Robert Plant, John Paul Jones, John Bonham',
+        origen:'Facebook',
+        grupo:'Led Zeppelin'
+    }, 
+    {
+        imagen:'4029.jpg',
+        titulo:'Ozzy Osbourne y Zakk Wylde',
+        personas:'Ozzy Osbourne, Zakk Wylde',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'4030.jpg',
+        titulo:'Trent Reznor',
+        personas:'Trent Reznor',
+        origen:'Facebook',
+    }, 
+    {
+        imagen:'4031.jpg',
+        titulo:'Billy Gibons',
+        personas:'Billy Gibons',
+        origen:'Facebook',
+        grupo:'ZZ Top'
+    }, 
+    {
+        imagen:'4032.jpg',
+        titulo:'Aerosmith',
+        personas:'Steven Tyler, Joe Perry, Tom Hamilton, Joey Kramer, Ray Tabano',
+        origen:'Facebook',
+        grupo:'ZZ Top'
+    }, 
+    
+    
 
 ]

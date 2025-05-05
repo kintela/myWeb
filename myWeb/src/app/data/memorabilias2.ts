@@ -16668,6 +16668,68 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',
         grupo:'ZZ Top'
     }, 
+    {
+        conciertoId: 192,
+        imagen:'4033.jpg',
+        titulo:'Sobrinus',
+        origen:'propia',
+        grupo:'Sobrinus',
+    }, 
+    {
+        conciertoId: 192,
+        imagen:'4034.jpg',
+        titulo:'Sobrinus',
+        origen:'propia',
+        grupo:'Sobrinus',
+    }, 
+    {
+        conciertoId: 192,
+        imagen:'4035.jpg',
+        titulo:'Sobrinus',
+        personas:'Sonia Muga Zorrila',
+        origen:'propia',
+        grupo:'Sobrinus',
+    }, 
+    {
+        conciertoId: 192,
+        imagen:'4036.jpg',
+        titulo:'Sobrinus',
+        personas:'Sonia Muga Zorrila',
+        origen:'propia',
+        grupo:'Sobrinus',
+    }, 
+    {
+        conciertoId: 192,
+        imagen:'4037.jpg',
+        titulo:'Sobrinus',
+        personas:'Sidney Gámez, Javier Fernández y David Parrilla',
+        origen:'propia',
+        grupo:'Sobrinus',
+    }, 
+    {
+        conciertoId: 192,
+        imagen:'4038.jpg',
+        titulo:'Sobrinus',
+        personas:'Javier Fernández',
+        origen:'propia',
+        grupo:'Sobrinus',
+    }, 
+    {
+        conciertoId: 192,
+        imagen:'4039.jpg',
+        titulo:'Sobrinus',
+        personas:'Sidney Gámez',
+        origen:'propia',
+        grupo:'Sobrinus',
+    }, 
+    {
+        conciertoId: 192,
+        imagen:'4040.jpg',
+        titulo:'Sobrinus',
+        personas:'David Parrilla',
+        origen:'propia',
+        grupo:'Sobrinus',
+    }, 
     
     
 

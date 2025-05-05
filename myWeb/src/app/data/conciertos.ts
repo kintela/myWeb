@@ -2498,7 +2498,8 @@ export const conciertos:IConcierto[]=[
         sala: 'Sala Groove',
         grupo: 'Fortune Child',
         fotos:true,
-        videos:['https://www.youtube.com/embed/DiMLbiPZpr0?si=HlFMEs1FiSxRehGw','https://www.youtube.com/embed/6QzYkcBBReU?si=M8-y97daerM2ovMn' ],
+        videos:['https://www.youtube.com/embed/DiMLbiPZpr0?si=HlFMEs1FiSxRehGw',
+                'https://www.youtube.com/embed/6QzYkcBBReU?si=M8-y97daerM2ovMn'],
         entrada: "entradas/106.jpg"
     },
     {
@@ -2530,6 +2531,21 @@ export const conciertos:IConcierto[]=[
         fotos:true,
         videos:['https://www.youtube.com/embed/OmuG1i2-VGE?si=F8zbY_-b6yDIexo3', 'https://www.youtube.com/embed/1D7xGhf2p9w?si=sryPq746RS0KgVXB' ],
         entrada: "entradas/107.JPG"
+    },
+    {
+        id:192,
+        fecha: new Date(Date.UTC(2025,4,3)),
+        ciudad: 'Santander',
+        sala: 'Sala Niágara',
+        grupo: 'Sobrinus',
+        fotos:true,
+        videos:['https://www.youtube.com/embed/bJDf1AnO9SQ?si=49DdYlv0ja_o4OhW',
+                'https://www.youtube.com/embed/DrjmnGJSrgc?si=VYXQ8LQvpzK0VzAM',
+                'https://www.youtube.com/embed/zqnasAQFqSU?si=kmQThhmVXHA4HeD6',
+                'https://www.youtube.com/embed/yHecYN3rhBM?si=Twj0XUEOOo8zuojg',
+                'https://www.youtube.com/embed/d_vZOjhHS2E?si=TExSFp0FeyffZYkC',
+                'https://www.youtube.com/embed/gsF4cJzajoQ?si=RfDNE3FXclWrejgx'],
+        entrada: "entradas/108.jpg"
     },
 
 

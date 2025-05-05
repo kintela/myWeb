@@ -240,4 +240,11 @@ export const vinilos:IVinilo[]=[
         year:2021,
         caratula:"40.jpeg"
     },
+    {
+        titulo:"Renace",
+        grupo:"Sobrinus",
+        year:2025,
+        caratula:"41.jpg"
+    },
+    
 ]

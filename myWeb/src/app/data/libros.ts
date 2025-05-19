@@ -559,5 +559,16 @@ export const libros:ILibro[]=[
         enlace:'https://www.elargonauta.com/libros/nirvana-espiritu-adolescente/978-84-18246-09-8/',
         sinopsis:'La banda conocida como los reyes del "Grunge", que definió a una generación, cuya influencia llega hasta nuestros días y cuyo solista, Kurt Cobain, se convirtió en todo un icono. Tuvieron su primer gran éxito con el tema "Smells Like Teeen Spirit" que revolucionó las listas de éxitos y su música ya ha quedado inmortalizada con su admisión en el museo Rock & Roll Hall of Fame.'
     },
+    {
+        titulo: '12 notas: Quincy Jones',
+        categoria: 'Biografía',
+        autor: 'Quincy Jones',
+        ISBN:'978-84-10442-31-3',
+        depositoLegal:'B-1431-2025',     
+        caratula: '9.jpg',
+        editorial:'Roca Editorial de libros, S.L.U',
+        enlace:'https://www.elargonauta.com/libros/12-notas-sobre-la-vida-y-la-creatividad/978-84-10442-31-3/',
+        sinopsis:'12 notas es una guía de autodesarrollo que nos confirma que la creatividad es una llamada que puede y debe ser respondida sin importar la edad que tengas. A partir de su propia vida y de la de sus muchos colaboradores creativos, pasados y presentes, los lectores aprenderán lecciones, tanto filosóficas, como todo de herramientas para transformar el dolor en poder, así como recordatorios prácticos, como el valor de establecer metas y articular intenciones a traves de afirmaciones diarias. Quincy compartió su propio proceso con los lectores para que comprendan la importancia de dejar que la honestidad, el trabajo duro y las buenas relaciones, y no el ego, impulsen tu carrera.'
+    },
     
 ];

@@ -16935,12 +16935,53 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'Facebook',        
         grupo:'Judas Priest'
     }, 
-
-
-
-
-
-    
+    {
+        imagen:'4072.jpg',
+        titulo:'Billy Idol',
+        personas:'Billy Idol',
+        origen:'Facebook',        
+        year:1978
+    }, 
+    {
+        imagen:'4073.jpg',
+        titulo:'Eddie Van Halen y David Lee Roth',
+        personas:'Eddie Van Halen, David Lee Roth',
+        origen:'Facebook',        
+        grupo:'Van Halen'
+    }, 
+{
+        imagen:'4074.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',        
+        grupo:'Van Halen'
+    }, 
+{
+        imagen:'4075.jpg',
+        titulo:'Muddy Waters',
+        personas:'Muddy Waters',
+        origen:'Facebook',        
+        categoria:'blues'
+    }, 
+{
+        imagen:'4076.jpg',
+        titulo:'Carlos Santana',
+        personas:'Carlos Santana',
+        origen:'Facebook',        
+    }, 
+{
+        imagen:'4077.jpg',
+        titulo:'Amy Winehouse',
+        personas:'Amy Winehouse',
+        origen:'Facebook',        
+    }, 
+{
+        imagen:'4078.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',        
+        grupo:'Van Halen'
+    },     
 
 
 

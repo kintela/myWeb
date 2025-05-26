@@ -16730,6 +16730,221 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'propia',
         grupo:'Sobrinus',
     }, 
+    {
+        imagen:'4041.jpg',
+        titulo:'Tony Iommi y Robbie Williams',
+        personas:'Tony Iommi, Robbie Williams',
+        origen:'Facebook',        
+    }, 
+    {
+        imagen:'4042.jpg',
+        titulo:'Robert Plant',
+        personas:'Robert Plant',
+        origen:'Facebook',        
+    }, 
+    {
+        imagen:'4043.jpg',
+        titulo:'Dweezil Zappa y Eddie Van Halen',
+        personas:'Dweezil Zappa, Eddie Van Halen',
+        origen:'Facebook',        
+    }, 
+     {
+        imagen:'4044.jpg',
+        titulo:'Flea',
+        personas:'Flea',
+        origen:'Facebook',
+        grupo:'Red Hot Chili Peppers'        
+    }, 
+    {
+        imagen:'4045.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',        
+        grupo:'Van Halen'
+    }, 
+    {
+        imagen:'4046.jpg',
+        titulo:'Tom Petty & The Heartbreakers',
+        personas:'Tom Petty, Mike Campbell, Ron Blair',
+        origen:'Facebook',        
+        grupo:'Tom Petty & The Heartbreakers'
+    }, 
+    {
+        imagen:'4047.jpg',
+        titulo:'Josh Homme',
+        personas:'Josh Homme',
+        origen:'Facebook',        
+    }, 
+    {
+        imagen:'4048.jpg',
+        titulo:'Paul Stanley y Gene Simmons',
+        personas:'Paul Stanley, Gene Simmons',
+        origen:'Facebook',        
+        grupo:'Kiss'
+    }, 
+    {
+        imagen:'4049.jpg',
+        titulo:'Chuck Berry',
+        personas:'Chuck Berry',
+        origen:'Facebook',    
+        year:1970    
+    }, 
+    {
+        imagen:'4050.jpg',
+        titulo:'Jeff Beck',
+        personas:'Jeff Beck',
+        origen:'Facebook',        
+    }, 
+    {
+        imagen:'4051.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',        
+        grupo:'Van Halen'
+    }, 
+    {
+        imagen:'4052.jpg',
+        titulo:'Joe Satriani',
+        personas:'Joe Satriani',
+        origen:'Facebook',        
+    }, 
+    {
+        imagen:'4053.jpg',
+        titulo:'Eddie Van Halen y Alex Van Halen',
+        personas:'Eddie Van Halen, Alex Van Halen',
+        origen:'Facebook',        
+        grupo:'Van Halen'
+    }, 
+    {
+        imagen:'4054.jpg',
+        titulo:'Trent Reznor',
+        personas:'Trent Reznor',
+        origen:'Facebook',        
+        grupo:'Nine Inch Nails'
+    }, 
+    {
+        imagen:'4055.jpg',
+        titulo:'Hendrik Röver',
+        personas:'Hendrik Röver',
+        origen:'Facebook',        
+        grupo:'Los Deltonos'
+    }, 
+    {
+        imagen:'4056.jpg',
+        titulo:'Keith Moon y Ringo Starr',
+        personas:'Keith Moon, Ringo Starr',
+        origen:'Facebook',        
+    }, 
+        {
+        imagen:'4057.jpg',
+        titulo:'Phill Lynot y Lemmy Kilmister',
+        personas:'Phill Lynot, Lemmy Kilmister',
+        origen:'Facebook',        
+    }, 
+        {
+        imagen:'4058.jpg',
+        titulo:'Kim Gordon',
+        personas:'Kim Gordon',
+        origen:'Facebook',        
+        grupo:'Sonic Youth'
+    }, 
+        {
+        imagen:'4059.jpg',
+        titulo:'Dave Murray',
+        personas:'Dave Murray',
+        origen:'Facebook',        
+        grupo:'Iron Maiden',
+    }, 
+    {
+        imagen:'4060.jpg',
+        titulo:'Dimebag Darrell',
+        personas:'Dimebag Darrell',
+        origen:'Facebook',        
+        grupo:'Pantera'
+    }, 
+    {
+        imagen:'4061.jpg',
+        titulo:'Slash',
+        personas:'Slash',
+        origen:'Facebook',        
+    }, 
+        {
+        imagen:'4062.jpg',
+        titulo:'Jimmy Page',
+        personas:'Jimmy Page',
+        origen:'Facebook',        
+        grupo:'Led Zeppelin'
+    }, 
+        {
+        imagen:'4063.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',        
+        grupo:'Van Halen'
+    }, 
+        {
+        imagen:'4064.jpg',
+        titulo:'Danny Carey',
+        personas:'Danny Carey',
+        origen:'Facebook',        
+        grupo:'Tool'
+    }, 
+    {
+        imagen:'4065.jpg',
+        titulo:'Lemmy Kilmister y Samantha Fox',
+        personas:'Lemmy Kilmister, Samantha Fox',
+        origen:'Facebook',        
+    }, 
+    {
+        imagen:'4066.jpg',
+        titulo:'Cream',
+        personas:'Eric Clapton, Jack Bruce, Ginger Baker',
+        origen:'Facebook',        
+        grupo:'Cream'
+    }, 
+    {
+        imagen:'4067.jpg',
+        titulo:'Gustavo Cerati y Andy Summers',
+        personas:'Gustavo Cerati, Andy Summers',
+        origen:'Facebook',        
+    }, 
+    {
+        imagen:'4068.jpg',
+        titulo:'Cream',
+        personas:'Eric Clapton, Jack Bruce, Ginger Baker',
+        origen:'Facebook',        
+        grupo:'Cream'
+    }, 
+    {
+        imagen:'4069.jpg',
+        titulo:'Jeff Beck y Stevie Ray Vaughan',
+        personas:'Jeff Beck, Stevie Ray Vaughan',
+        origen:'Facebook',        
+    }, 
+{
+        imagen:'4070.jpg',
+        titulo:'Danny Carey',
+        personas:'Danny Carey',
+        origen:'Facebook',        
+        grupo:'Tool'
+    }, 
+{
+        imagen:'4071.jpg',
+        titulo:'Glenn Tipton',
+        personas:'Glenn Tipton',
+        origen:'Facebook',        
+        grupo:'Judas Priest'
+    }, 
+
+
+
+
+
+    
+
+
+
+
     
     
 

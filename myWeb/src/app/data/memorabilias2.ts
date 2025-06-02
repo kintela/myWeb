@@ -16975,12 +16975,119 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Amy Winehouse',
         origen:'Facebook',        
     }, 
-{
+    {
         imagen:'4078.jpg',
         titulo:'Eddie Van Halen',
         personas:'Eddie Van Halen',
         origen:'Facebook',        
         grupo:'Van Halen'
+    },     
+    {
+        imagen:'4079.jpg',
+        titulo:'Frank Sinatra',
+        personas:'Frank Sinatra',
+        origen:'Facebook',        
+    },     
+    {
+        imagen:'4080.jpg',
+        titulo:'Tom Morello y Chris Cornell',
+        personas:'Tom Morello, Chris Cornell',
+        origen:'Facebook',        
+        grupo:'Audioslave'
+    },     
+    {
+        imagen:'4081.jpg',
+        titulo:'Jeff Beck y Ronnie Wood',
+        personas:'Jeff Beck, Ronnie Wood',
+        origen:'Facebook',        
+    },     
+    {
+        imagen:'4082.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',        
+    },     
+    {
+        imagen:'4083.jpg',
+        titulo:'Mick Jagger y Ronnie Wood',
+        personas:'Mick Jagger, Ronnie Wood',
+        origen:'Facebook',        
+        grupo:'The Rolling Stones'
+    },     
+    {
+        imagen:'4084.jpg',
+        titulo:'Keith Richards y Ronnie Wood',
+        personas:'Keith Richards, Ronnie Wood',
+        origen:'Facebook',        
+        grupo:'The Rolling Stones'
+    },     
+    {
+        imagen:'4085.jpg',
+        titulo:'Mick Jagger y Ronnie Wood',
+        personas:'Mick Jagger, Ronnie Wood',
+        origen:'Facebook',        
+        grupo:'The Rolling Stones'
+    },     
+    {
+        imagen:'4086.jpg',
+        titulo:'Mick Jagger y Ronnie Wood',
+        personas:'Mick Jagger, Ronnie Wood',
+        origen:'Facebook',        
+        grupo:'The Rolling Stones'
+    },     
+    {
+        imagen:'4087.jpg',
+        titulo:'Mick Jagger y Ronnie Wood',
+        personas:'Mick Jagger, Ronnie Wood',
+        origen:'Facebook',        
+        grupo:'The Rolling Stones'
+    },     
+    {
+        imagen:'4088.jpg',
+        titulo:'Lemmy Kilmister',
+        personas:'Lemmy Kilmister',
+        origen:'Facebook',        
+        grupo:'Motörhead'
+    },     
+    {
+        imagen:'4089.jpg',
+        titulo:'Flea, Anthony Kiedis y Rick Rubin',
+        personas:'Flea, Anthony Kiedis, Rick Rubin',
+        origen:'Facebook',        
+    },     
+    {
+        imagen:'4090.jpg',
+        titulo:'Roger Waters y David Gilmour',
+        personas:'Roger Waters, David Gilmour',
+        origen:'Facebook',        
+        grupo:'Pink Floyd'
+    },     
+    {
+        imagen:'4091.jpg',
+        titulo:'Paul Weller',
+        personas:'Paul Weller',
+        origen:'Facebook',        
+        grupo:'The Jam',
+        year:1977
+    },     
+    {
+        imagen:'4092.jpg',
+        titulo:'Heroes del Silencio',
+        personas:'Enrique Bunbury, Joaquín Cardiel, Pedro Andreu, Juan Valdivia',
+        origen:'Facebook',        
+        grupo:'Heroes del Silencio',
+    },     
+    {
+        imagen:'4093.jpg',
+        titulo:'Ariel Rot y Leiva',
+        personas:'Ariel Rot, Leiva',
+        origen:'Facebook',        
+    },     
+    {
+        imagen:'4094.jpg',
+        titulo:'Ariel Rot y Coque Malla',
+        personas:'Ariel Rot, Coque Malla',
+        origen:'Facebook',        
     },     
 
 

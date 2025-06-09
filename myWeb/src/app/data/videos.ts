@@ -505,6 +505,13 @@ export const videos:IVideo[] = [
         categoria: 'Mix',
         plataforma: 'Filmin'
     },
+     {
+        imagen: '62.jpg',
+        enlace: 'https://www.rtve.es/play/videos/documaster/documaster-manera/16599731/',
+        texto: 'a mi manera-My Way',
+        categoria: 'Mix',
+        plataforma: 'RTVE Play'
+    },
     {
         imagen: '57.jpeg',
         enlace: 'https://www.disneyplus.com/es-es/movies/bruce-springsteen-and-the-e-street-band-diarios-de-carretera/2pygKsgu73mm',

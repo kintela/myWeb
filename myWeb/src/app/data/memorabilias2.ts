@@ -15239,7 +15239,7 @@ export const memorabilias2:IMemorabilia[] = [
     {
         imagen:'3812.jpg',
         titulo:'Evaristo Páramos',
-        personas:'Evaristo Páramos',
+        personas:'Evaristo Páramo',
         origen:'Facebook',
         grupo:'La Polla Records',
     },  
@@ -17088,12 +17088,308 @@ export const memorabilias2:IMemorabilia[] = [
         titulo:'Ariel Rot y Coque Malla',
         personas:'Ariel Rot, Coque Malla',
         origen:'Facebook',        
+    }, 
+    {
+        imagen:'4095.jpg',
+        titulo:'Evaristo Páramos',
+        personas:'Evaristo Páramo',
+        origen:'Facebook',
+        grupo:'La Polla Records',
+    },  
+    {
+        imagen:'4096.jpg',
+        titulo:'Kurt Cobain',
+        personas:'Kurt Cobain',
+        origen:'Facebook',
+        grupo:'Nirvana',
+    },  
+    {
+        imagen:'4097.jpg',
+        titulo:'Liam Gallagher y Noel Gallagher',
+        personas:'Liam Gallagher, Noel Gallagher',
+        origen:'Facebook',
+        grupo:'Oasis',
+        year:2025
+    },  
+    {
+        imagen:'4098.jpg',
+        titulo:'Liam Gallagher',
+        personas:'Liam Gallagher',
+        origen:'Facebook',
+        grupo:'Oasis',
+        year:2025
+    },  
+    {
+        imagen:'4099.jpg',
+        titulo:'Liam Gallagher',
+        personas:'Liam Gallagher',
+        origen:'Facebook',
+        grupo:'Oasis',
+        year:2025
+    },  
+        {
+        imagen:'4100.jpg',
+        titulo:'Tom Morello y Tony Iommi',
+        personas:'Tom Morello, Tony Iommi',
+        origen:'Facebook',
+        year:2025
+    },  
+    {
+        imagen:'4102.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },  
+    {
+        imagen:'4103.jpg',
+        titulo:'Ronnie Wood y Kirk Hammet',
+        personas:'Ronnie Wood, Kirk Hammet',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'4104.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'4105.jpg',
+        titulo:'David Bowie',
+        personas:'David Bowie',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'4106.jpg',
+        titulo:'Dire Straits',
+        personas:'Mark Knopfler, John Illsley, David Knopfler, Pick Withers',
+        origen:'Facebook',
+        grupo:'Dire Straits',
+    },  
+    {
+        imagen:'4107.jpg',
+        titulo:'Charlie Wattts',
+        personas:'Charlie Wattts',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },  
+    {
+        imagen:'4108.jpg',
+        titulo:'Bill Wyman',
+        personas:'Bill Wyman',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },  
+    {
+        imagen:'4109.jpg',
+        titulo:'Ronnie Wood y Mick Jagger',
+        personas:'Ronnie Wood, Mick Jagger',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },  
+    {
+        imagen:'4110.jpg',
+        titulo:'Mick Jagger',
+        personas:'Mick Jagger',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },  
+    {
+        imagen:'4111.jpg',
+        titulo:'Black Sabbath',
+        personas:'Ozzy Osbourne, Tony Iommi, Geezer Butler, Bill Ward',
+        origen:'Facebook',
+        grupo:'Black Sabbath',
+    },  
+    {
+        imagen:'4112.jpg',
+        titulo:'Randy Rhoads',
+        personas:'Randy Rhoads',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'4113.jpg',
+        titulo:'Ronnie Wood',
+        personas:'Ronnie Wood',
+        origen:'Facebook',
+        grupo:'The Rolling Stones',
+    },  
+ {
+        imagen:'4114.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },  
+ {
+        imagen:'4115.jpg',
+        titulo:'Eddie Van Halen',
+        personas:'Eddie Van Halen',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    },  
+    {
+        imagen:'4116.jpg',
+        titulo:'Paul Stanley',
+        personas:'Paul Stanley',
+        origen:'Facebook',
+        grupo:'Kiss',
+    },  
+ {
+        imagen:'4117.jpg',
+        titulo:'Sex Museum',
+        personas:'Miguel Pardo, Fernando Pardo, Marta Ruiz, Javier vacas, Roberto Lozano',
+        origen:'Facebook',
+        grupo:'Sex Museum',
+    },  
+ {
+        imagen:'4118.jpg',
+        titulo:'Jimi Hendrix',
+        personas:'Jimi Hendrix',
+        origen:'Facebook',
+    },  
+    {
+        imagen:'4119.jpg',
+        titulo:'Stevie Ray Vaughan y Mick Jagger',
+        personas:'Stevie Ray Vaughan, Mick Jagger',
+        origen:'Facebook',
+    },   
+     {
+        imagen:'4120.jpg',
+        titulo:'Eddie Van Halen y Joe Perry',
+        personas:'Eddie Van Halen, Joe Perry',
+        origen:'Facebook',
     },     
-
-
-
-
-    
-    
+ {
+        imagen:'4121.jpg',
+        titulo:'Keith Moon',
+        personas:'Keith Moon',
+        origen:'Facebook',
+        grupo:'The Who',
+    },   
+     {
+        imagen:'4122.jpg',
+        titulo:'John Frusciante',
+        personas:'John Frusciante',
+        origen:'Facebook',
+    },    
+ {
+        imagen:'4123.jpg',
+        titulo:'Iggy Pop',
+        personas:'Iggy Pop',
+        origen:'Facebook',
+    },  
+     {
+        imagen:'4124.jpg',
+        titulo:'Chrissie Hynde',
+        personas:'Chrissie Hynde',
+        origen:'Facebook',
+        grupo:'The Pretenders',
+    },  
+     {
+        imagen:'4125.jpg',
+        titulo:'Guns & Roses',
+        personas:'Slash, Duff McKagan, Izzy Stradlin',
+        origen:'Facebook',
+        grupo:'Guns & Roses',
+    },  
+    {
+        imagen:'4126.jpg',
+        titulo:'Ronnie Wood, David Bowie e Iggy Pop',
+        personas:'Ronnie Wood, David Bowie, Iggy Pop',
+        origen:'Facebook',
+        year:1980
+    },  
+     {
+        imagen:'4127.jpg',
+        titulo:'Eddie Vedder',
+        personas:'Eddie Vedder',
+        origen:'Facebook',
+        grupo:'Pearl Jam',
+    },  
+         {
+        imagen:'4128.jpg',
+        titulo:'Jaco Pastorius',
+        personas:'Jaco Pastorius',
+        origen:'Facebook',
+    },  
+         {
+        imagen:'4129.jpg',
+        titulo:'Mark Knopfler',
+        personas:'Mark Knopfler',
+        origen:'Facebook',
+    },  
+     {
+        imagen:'4130.jpg',
+        titulo:'Eurythmics',
+        personas:'Annie Lennox, Dave Stewart',
+        origen:'Facebook',
+        grupo:'Eurythmics',
+    },  
+ {
+        imagen:'4131.jpg',
+        titulo:'Ronnie Wood, David Bowie e Iggy Pop',
+        personas:'Ronnie Wood, David Bowie, Iggy Pop',
+        origen:'Facebook',
+    },  
+ {
+        imagen:'4132.jpg',
+        titulo:'Jimmy Page y Tom Jones',
+        personas:'Jimmy Page, Tom Jones',
+        origen:'Facebook',
+    },  
+ {
+        imagen:'4133.jpg',
+        titulo:'Paul McCartney',
+        personas:'Paul McCartney',
+        origen:'Facebook',
+    },  
+ {
+        imagen:'4134.jpg',
+        titulo:'Paul McCartney y Bruce Springsteen',
+        personas:'Paul McCartney, Bruce Springsteen',
+        origen:'Facebook',
+    },           
+{
+        imagen:'4135.jpg',
+        titulo:'Paul McCartney y Bruce Springsteen',
+        personas:'Paul McCartney, Bruce Springsteen',
+        origen:'Facebook',
+    },   
+    {
+        imagen:'4136.jpg',
+        titulo:'Lenny Kravitz',
+        personas:'Lenny Kravitz',
+        origen:'Facebook',
+    },           
+    {
+        imagen:'4137.jpg',
+        titulo:'Lenny Kravitz',
+        personas:'Lenny Kravitz',
+        origen:'Facebook',
+    },   
+        {
+        imagen:'4138.jpg',
+        titulo:'Slash y Ozzy Osbourne',
+        personas:'Slash, Ozzy Osbourne',
+        origen:'Facebook',
+    },
+        {
+        imagen:'4139.jpg',
+        titulo:'Pattie Smith',
+        personas:'Lenny Kravitz',
+        origen:'Facebook',
+    },  
+        {
+        imagen:'4140.jpg',
+        titulo:'Sly Stone',
+        personas:'Sly Stone',
+        origen:'Facebook',
+        grupo:'Sly and the Family Stone',
+    },           
+         
+           
+        
+        
 
 ]

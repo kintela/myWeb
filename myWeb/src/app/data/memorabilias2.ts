@@ -17380,12 +17380,20 @@ export const memorabilias2:IMemorabilia[] = [
         personas:'Lenny Kravitz',
         origen:'Facebook',
     },  
-        {
+    {
         imagen:'4140.jpg',
         titulo:'Sly Stone',
         personas:'Sly Stone',
         origen:'Facebook',
         grupo:'Sly and the Family Stone',
+    },           
+    {
+        imagen:'4141.jpg',
+        conciertoId: 193,
+        titulo:'Dead Poet Society',
+        personas:'Jack Underkofler,Jack Collins, Will Goodroad,Dylan Brenner',
+        origen:'propia',
+        grupo:'Dead Poet Society',
     },           
          
            

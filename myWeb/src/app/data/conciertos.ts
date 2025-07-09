@@ -2547,7 +2547,16 @@ export const conciertos:IConcierto[]=[
                 'https://www.youtube.com/embed/gsF4cJzajoQ?si=RfDNE3FXclWrejgx'],
         entrada: "entradas/108.jpg"
     },
-
+ {
+        id:193,
+        fecha: new Date(Date.UTC(2025,6,8)),
+        ciudad: 'Bilbao',
+        sala: 'Sala Azkena',
+        grupo: 'Dead Poet Society',
+        fotos:true,
+        videos:['https://www.youtube.com/embed/S8mubB9PYHI?si=06ZLStuPXQGUnRAC'],
+        entrada: "entradas/109.jpg"
+    },
 
 
 ];

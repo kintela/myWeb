@@ -17395,9 +17395,73 @@ export const memorabilias2:IMemorabilia[] = [
         origen:'propia',
         grupo:'Dead Poet Society',
     },           
-         
-           
-        
-        
+    {
+        imagen:'4142.jpg',
+        titulo:'Stevie Nicks',
+        personas:'Stevie Nicks',
+        origen:'Facebook',
+        grupo:'Fleetwood Mac',
+    },  
+    {
+        imagen:'4143.jpg',
+        titulo:'Frank Zappa y Ozzy Osbourne',
+        personas:'Frank Zappa, Ozzy Osbourne',
+        origen:'Facebook'
+    },             
+    {
+        imagen:'4144.jpg',
+        titulo:'Cream',
+        personas:'Eric Clapton, Jack Bruce, Ginger Baker',
+        origen:'Facebook',
+        grupo:'Cream',
+    },            
+    {
+        imagen:'4145.jpg',
+        titulo:'Ozzy Osbourne',
+        personas:'Ozzy Osbourne',
+        origen:'Facebook'
+    },         
+    {
+        imagen:'4146.jpg',
+        titulo:'Van Halen',
+        personas:'Eddie Van Halen, David Lee Roth, Michael Anthony',
+        origen:'Facebook',
+        grupo:'Van Halen',
+    }, 
+    {
+        imagen:'4147.jpg',
+        titulo:'Cream',
+        personas:'Eric Clapton, Jack Bruce, Ginger Baker',
+        origen:'Facebook',
+        grupo:'Cream',
+    }, 
+    {
+        imagen:'4148.jpg',
+        titulo:'Black Sabbath',
+        personas:'Ozzy Osbourne, Tony Iommi, Geezer Butler, Bill Ward',
+        origen:'Facebook',
+        grupo:'Black Sabbath',
+    },   
+    {
+        imagen:'4149.jpg',
+        titulo:'Bon Scott',
+        personas:'Bon Scott',
+        origen:'Facebook',
+        grupo:'AC/DC',
+    },   
+    {
+        imagen:'4150.jpg',
+        titulo:'The Clash',
+        personas:'Joe Strummer, Mick Jones, Paul Simonon, Topper Headon',
+        origen:'Facebook',
+        grupo:'The Clash',
+    },   
+    {
+        imagen:'4151.jpg',
+        titulo:'Dusty Hill',
+        personas:'Dusty Hill',
+        origen:'Facebook',
+        grupo:'ZZ Top',
+    },                    
 
 ]

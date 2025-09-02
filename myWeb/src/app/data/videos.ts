@@ -513,6 +513,20 @@ export const videos:IVideo[] = [
         plataforma: 'RTVE Play'
     },
     {
+        imagen: '63.jpg',
+        enlace: 'https://www.netflix.com/es/title/80102952',
+        texto: 'Quincy',
+        categoria: 'Mix',
+        plataforma: 'Netflix'
+    },
+        {
+        imagen: '64.jpg',
+        enlace: 'https://www.netflix.com/es/title/81462290',
+        texto: 'Elvis: El Regreso del rey',
+        categoria: 'Mix',
+        plataforma: 'Netflix'
+    },
+    {
         imagen: '57.jpeg',
         enlace: 'https://www.disneyplus.com/es-es/movies/bruce-springsteen-and-the-e-street-band-diarios-de-carretera/2pygKsgu73mm',
         texto: 'Bruce Springsteen & The E Street Band. Diarios de carretera',

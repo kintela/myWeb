@@ -17,6 +17,9 @@ export class MediaComponent implements OnInit{
   plataformas: string[] = [];
   plataformaSeleccionada: string = 'todas';
   dvds=dvds;
+  // Texto libre para filtrar (nuevo)
+  searchText: string = '';
+
 
   ngOnInit(): void {
     this.plataformas = this.getPlataformasUnicas();
@@ -36,18 +39,26 @@ export class MediaComponent implements OnInit{
   
 
   getVideosFiltrados(): IVideo[] {
-    if (this.plataformaSeleccionada === 'todas') {
-      return this.videos;
-    } else {
-      return this.videos.filter(video => video.plataforma === this.plataformaSeleccionada);
-    }
+    const term = this.searchText.trim().toLowerCase();
+    return this.videos.filter(video => {
+      // Filtro por plataforma
+      const okPlataforma = this.plataformaSeleccionada === 'todas' || video.plataforma === this.plataformaSeleccionada;
+      if (!okPlataforma) return false;
+      // Filtro por texto libre (en varios campos)
+      if (!term) return true;
+      const texto = (video.texto || '').toLowerCase();
+      const categoria = (video.categoria || '').toLowerCase();
+      const plataforma = (video.plataforma || '').toLowerCase();
+      const info = (video.info || '').toLowerCase();
+      return texto.includes(term) || categoria.includes(term) || plataforma.includes(term) || info.includes(term);
+    });
   }
 
 
   getVideoCountByCategory(category: string): number {
-    return this.videos.filter(video =>
-      video.categoria?.toLowerCase() === category.toLowerCase() &&
-      (this.plataformaSeleccionada === 'todas' || video.plataforma === this.plataformaSeleccionada)
+    // Usa la lista ya filtrada por plataforma y texto para que el recuento se actualice con ambos filtros
+    return this.getVideosFiltrados().filter(video =>
+      video.categoria?.toLowerCase() === category.toLowerCase()
     ).length;
   }
   

@@ -2557,6 +2557,17 @@ export const conciertos:IConcierto[]=[
         videos:['https://www.youtube.com/embed/S8mubB9PYHI?si=06ZLStuPXQGUnRAC'],
         entrada: "entradas/109.jpg"
     },
+    {
+        id:194,
+        fecha: new Date(Date.UTC(2025,9,17)),
+        ciudad: 'Santander',
+        sala: 'Cine Los Angeles',
+        grupo: 'Mike Farris',
+        fotos:true,
+        videos:['https://www.youtube.com/embed/4Mqnf091H_w?si=nIaOTyneXgEfbCw1'],
+        entrada: "entradas/110.PNG"
+    },
+
 
 
 ];

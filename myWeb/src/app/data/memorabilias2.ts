@@ -17675,4 +17675,24 @@ export const memorabilias2:IMemorabilia[] = [
         grupo:'Talking Heads',
         year:1977,
     },
+     {
+        conciertoId: 194,
+        imagen:'4185.jpg',
+        titulo:'Mike Farris en Santander',
+        personas:'Mike Farris, Sonia Muga Zorrilla, Kily, Ainara Zamakona, kintela',
+        origen:'propia',
+        grupo:'Mike Farris',
+        year:2025,
+    },
+       {
+        conciertoId: 194,
+        imagen:'4186.jpg',
+        titulo:'Mike Farris en Santander',
+        personas:'Mike Farris',
+        origen:'propia',
+        grupo:'Mike Farris',
+        year:2025,
+    },
+    
+
 ]

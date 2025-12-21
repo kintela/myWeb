@@ -570,5 +570,15 @@ export const libros:ILibro[]=[
         enlace:'https://www.elargonauta.com/libros/12-notas-sobre-la-vida-y-la-creatividad/978-84-10442-31-3/',
         sinopsis:'12 notas es una guía de autodesarrollo que nos confirma que la creatividad es una llamada que puede y debe ser respondida sin importar la edad que tengas. A partir de su propia vida y de la de sus muchos colaboradores creativos, pasados y presentes, los lectores aprenderán lecciones, tanto filosóficas, como todo de herramientas para transformar el dolor en poder, así como recordatorios prácticos, como el valor de establecer metas y articular intenciones a traves de afirmaciones diarias. Quincy compartió su propio proceso con los lectores para que comprendan la importancia de dejar que la honestidad, el trabajo duro y las buenas relaciones, y no el ego, impulsen tu carrera.'
     },
+    {
+        titulo: 'Algún tiempo atrás. La vida de Gustavo Cerati',
+        categoria: 'Biografía',
+        autor: 'Sergio Marchi',
+        ISBN:'978-950-07-6876-4',    
+        caratula: '10.jpg',
+        editorial:'penguinlibros.com',
+        enlace:'https://www.penguinlibros.com/es/tematicas/330387-audiolibro-algun-tiempo-atras-la-vida-de-gustavo-cerati-9789500768887',
+        sinopsis:'La biografía definitiva de Gustavo Cerati, uno de los músicos argentinos de mayor trascendencia internacional, escrita por uno de los periodistas e historiadores que mejor lo conoció, y que pone en un mismo, exhaustivo tomo, hecho de infinidad de entrevistas y un enorme archivo personal, las distintas dimensiones del hombre y el artista, su recorrido vital, su fuerza creativa y su enorme legado'
+    },
     
 ];
